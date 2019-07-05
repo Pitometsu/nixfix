@@ -1,0 +1,7 @@
+name="typpx"
+version="@version@"
+description="A library for PPX with types"
+requires="ocaml-compiler-libs, ppxx"
+archive(byte)="typpx.cmo"
+archive(native)="typpx.cmx"
+linkopts = ""

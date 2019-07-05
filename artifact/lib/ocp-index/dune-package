@@ -1,0 +1,30 @@
+(lang dune 1.10)
+(name ocp-index)
+(version 1.1.9)
+(library
+ (name ocp-index.lib)
+ (kind normal)
+ (archives (byte lib/indexLib.cma) (native lib/indexLib.cmxa))
+ (plugins (byte lib/indexLib.cma) (native lib/indexLib.cmxs))
+ (foreign_archives (native lib/indexLib.a))
+ (requires
+  compiler-libs
+  compiler-libs.common
+  ocp-indent.lexer
+  ocp-indent.utils)
+ (modes byte native)
+ (modules
+  (modules
+   ((name IndexBuild) (obj_name indexBuild) (visibility public) (impl) (intf))
+   ((name IndexMisc) (obj_name indexMisc) (visibility public) (impl) (intf))
+   ((name IndexOut) (obj_name indexOut) (visibility public) (impl) (intf))
+   ((name IndexPredefined)
+    (obj_name indexPredefined)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name IndexScope) (obj_name indexScope) (visibility public) (impl) (intf))
+   ((name IndexTypes) (obj_name indexTypes) (visibility public) (impl))
+   ((name LibIndex) (obj_name libIndex) (visibility public) (impl) (intf))
+   ((name Trie) (obj_name trie) (visibility public) (impl) (intf)))
+  (wrapped false)))

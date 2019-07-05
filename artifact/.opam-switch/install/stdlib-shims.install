@@ -1,0 +1,18 @@
+lib: [
+  "_build/install/default/lib/stdlib-shims/META"
+  "_build/install/default/lib/stdlib-shims/dune-package"
+  "_build/install/default/lib/stdlib-shims/opam"
+  "_build/install/default/lib/stdlib-shims/stdlib.cmi"
+  "_build/install/default/lib/stdlib-shims/stdlib.cmt"
+  "_build/install/default/lib/stdlib-shims/stdlib.cmx"
+  "_build/install/default/lib/stdlib-shims/stdlib.ml"
+  "_build/install/default/lib/stdlib-shims/stdlib_shims.a"
+  "_build/install/default/lib/stdlib-shims/stdlib_shims.cma"
+  "_build/install/default/lib/stdlib-shims/stdlib_shims.cmxa"
+  "_build/install/default/lib/stdlib-shims/stdlib_shims.cmxs"
+]
+doc: [
+  "_build/install/default/doc/stdlib-shims/CHANGES.md"
+  "_build/install/default/doc/stdlib-shims/LICENSE"
+  "_build/install/default/doc/stdlib-shims/README.md"
+]

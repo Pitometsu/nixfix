@@ -1,0 +1,22 @@
+added: [
+  "doc/cpuid" {"D"}
+  "doc/cpuid/CHANGES.md" {"F:S267T1560960932.03"}
+  "doc/cpuid/LICENSE.md" {"F:S742T1560960932.06"}
+  "doc/cpuid/README.md" {"F:S670T1560960932.11"}
+  "lib/cpuid" {"D"}
+  "lib/cpuid/META" {"F:S184T1560960930.33"}
+  "lib/cpuid/cpuid.a" {"F:S38698T1560960930.41"}
+  "lib/cpuid/cpuid.cma" {"F:S61817T1560960930.46"}
+  "lib/cpuid/cpuid.cmi" {"F:S2856T1560960930.55"}
+  "lib/cpuid/cpuid.cmt" {"F:S112495T1560960930.59"}
+  "lib/cpuid/cpuid.cmti" {"F:S29180T1560960930.83"}
+  "lib/cpuid/cpuid.cmx" {"F:S2505T1560960930.94"}
+  "lib/cpuid/cpuid.cmxa" {"F:S476T1560960931.09"}
+  "lib/cpuid/cpuid.cmxs" {"F:S44720T1560960931.2"}
+  "lib/cpuid/cpuid.ml" {"F:S17400T1560960931.32"}
+  "lib/cpuid/cpuid.mli" {"F:S9607T1560960931.49"}
+  "lib/cpuid/dune-package" {"F:S449T1560960931.63"}
+  "lib/cpuid/libcpuid_stubs.a" {"F:S8990T1560960931.76"}
+  "lib/cpuid/opam" {"F:S580T1560960931.85"}
+  "lib/stublibs/dllcpuid_stubs.so" {"F:S12032T1560960931.99"}
+]

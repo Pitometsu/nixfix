@@ -1,0 +1,7 @@
+version = "0.9"
+description = "compatibility library for qcheck"
+requires = "qcheck-core qcheck-core.runner qcheck-ounit"
+archive(byte) = "qcheck.cma"
+archive(native) = "qcheck.cmxa"
+plugin(byte) = "qcheck.cma"
+plugin(native) = "qcheck.cmxs"

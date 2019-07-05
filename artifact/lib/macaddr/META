@@ -1,0 +1,24 @@
+description = ""
+requires = ""
+archive(byte) = "macaddr.cma"
+archive(native) = "macaddr.cmxa"
+plugin(byte) = "macaddr.cma"
+plugin(native) = "macaddr.cmxs"
+package "sexp" (
+  directory = "sexp"
+  description = ""
+  requires = "macaddr sexplib0"
+  archive(byte) = "macaddr_sexp.cma"
+  archive(native) = "macaddr_sexp.cmxa"
+  plugin(byte) = "macaddr_sexp.cma"
+  plugin(native) = "macaddr_sexp.cmxs"
+)
+package "top" (
+  directory = "top"
+  description = ""
+  requires = "compiler-libs macaddr"
+  archive(byte) = "macaddr_top.cma"
+  archive(native) = "macaddr_top.cmxa"
+  plugin(byte) = "macaddr_top.cma"
+  plugin(native) = "macaddr_top.cmxs"
+)

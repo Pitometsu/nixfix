@@ -1,0 +1,128 @@
+"debug.ml" 1 0 4 "debug.ml" 1 0 17
+type(
+  bool ref
+)
+ident(
+  def debug_resolve "debug.ml" 2 102 102 "debug.ml" 1 0 -1
+)
+"debug.ml" 1 0 20 "debug.ml" 1 0 23
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"debug.ml" 1 0 29 "debug.ml" 1 0 35
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"debug.ml" 1 0 37 "debug.ml" 1 0 47
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"debug.ml" 1 0 48 "debug.ml" 1 0 77
+type(
+  string
+)
+"debug.ml" 1 0 36 "debug.ml" 1 0 78
+type(
+  string
+)
+"debug.ml" 1 0 29 "debug.ml" 1 0 78
+type(
+  unit
+)
+"debug.ml" 1 0 80 "debug.ml" 1 0 84
+type(
+  bool
+)
+"debug.ml" 1 0 29 "debug.ml" 1 0 84
+type(
+  bool
+)
+"debug.ml" 1 0 90 "debug.ml" 1 0 91
+type(
+  exn
+)
+"debug.ml" 1 0 95 "debug.ml" 1 0 100
+type(
+  bool
+)
+"debug.ml" 1 0 24 "debug.ml" 1 0 101
+type(
+  bool
+)
+"debug.ml" 1 0 20 "debug.ml" 1 0 101
+type(
+  bool ref
+)
+"debug.ml" 2 102 106 "debug.ml" 2 102 116
+type(
+  bool ref
+)
+ident(
+  def debug_unif "debug.ml" 2 102 197 "debug.ml" 1 0 -1
+)
+"debug.ml" 2 102 119 "debug.ml" 2 102 122
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"debug.ml" 2 102 128 "debug.ml" 2 102 134
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"debug.ml" 2 102 136 "debug.ml" 2 102 146
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"debug.ml" 2 102 147 "debug.ml" 2 102 173
+type(
+  string
+)
+"debug.ml" 2 102 135 "debug.ml" 2 102 174
+type(
+  string
+)
+"debug.ml" 2 102 128 "debug.ml" 2 102 174
+type(
+  unit
+)
+"debug.ml" 2 102 176 "debug.ml" 2 102 180
+type(
+  bool
+)
+"debug.ml" 2 102 128 "debug.ml" 2 102 180
+type(
+  bool
+)
+"debug.ml" 2 102 186 "debug.ml" 2 102 187
+type(
+  exn
+)
+"debug.ml" 2 102 191 "debug.ml" 2 102 196
+type(
+  bool
+)
+"debug.ml" 2 102 123 "debug.ml" 2 102 197
+type(
+  bool
+)
+"debug.ml" 2 102 119 "debug.ml" 2 102 197
+type(
+  bool ref
+)

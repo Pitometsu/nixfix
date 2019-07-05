@@ -1,0 +1,1294 @@
+"src/oUnitShared.ml" 50 2665 2669 "src/oUnitShared.ml" 50 2665 2679
+type(
+  shared -> scope -> int shared_noscope
+)
+ident(
+  def get_scoped "src/oUnitShared.ml" 57 2829 2829 "src/oUnitShared.ml" 1 0 -1
+)
+"src/oUnitShared.ml" 50 2665 2680 "src/oUnitShared.ml" 50 2665 2686
+type(
+  shared
+)
+ident(
+  def shared "src/oUnitShared.ml" 51 2689 2691 "src/oUnitShared.ml" 53 2735 2771
+)
+"src/oUnitShared.ml" 52 2700 2706 "src/oUnitShared.ml" 52 2700 2717
+type(
+  scope
+)
+"src/oUnitShared.ml" 52 2700 2721 "src/oUnitShared.ml" 52 2700 2727
+type(
+  shared
+)
+ident(
+  int_ref shared "src/oUnitShared.ml" 50 2665 2680 "src/oUnitShared.ml" 50 2665 2686
+)
+"src/oUnitShared.ml" 52 2700 2721 "src/oUnitShared.ml" 52 2700 2734
+type(
+  int shared_noscope
+)
+"src/oUnitShared.ml" 53 2735 2741 "src/oUnitShared.ml" 53 2735 2753
+type(
+  scope
+)
+"src/oUnitShared.ml" 53 2735 2757 "src/oUnitShared.ml" 53 2735 2763
+type(
+  shared
+)
+ident(
+  int_ref shared "src/oUnitShared.ml" 50 2665 2680 "src/oUnitShared.ml" 50 2665 2686
+)
+"src/oUnitShared.ml" 53 2735 2757 "src/oUnitShared.ml" 53 2735 2771
+type(
+  int shared_noscope
+)
+"src/oUnitShared.ml" 51 2689 2691 "src/oUnitShared.ml" 53 2735 2771
+type(
+  scope -> int shared_noscope
+)
+"src/oUnitShared.ml" 57 2829 2833 "src/oUnitShared.ml" 57 2829 2845
+type(
+  (unit -> unit shared_noscope) ref
+)
+ident(
+  def mutex_create "src/oUnitShared.ml" 85 3339 3339 "src/oUnitShared.ml" 1 0 -1
+)
+"src/oUnitShared.ml" 58 2848 2850 "src/oUnitShared.ml" 58 2848 2853
+type(
+  (unit -> unit shared_noscope) -> (unit -> unit shared_noscope) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitShared.ml" 58 2848 2859 "src/oUnitShared.ml" 58 2848 2861
+type(
+  unit
+)
+"src/oUnitShared.ml" 59 2865 2878 "src/oUnitShared.ml" 59 2865 2879
+type(
+  bool ref
+)
+ident(
+  def r "src/oUnitShared.ml" 61 2896 2905 "src/oUnitShared.ml" 83 3326 3336
+)
+"src/oUnitShared.ml" 59 2865 2882 "src/oUnitShared.ml" 59 2865 2885
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitShared.ml" 59 2865 2886 "src/oUnitShared.ml" 59 2865 2891
+type(
+  bool
+)
+"src/oUnitShared.ml" 59 2865 2882 "src/oUnitShared.ml" 59 2865 2891
+type(
+  bool ref
+)
+"src/oUnitShared.ml" 61 2896 2909 "src/oUnitShared.ml" 61 2896 2917
+type(
+  unit -> bool
+)
+ident(
+  def try_lock "src/oUnitShared.ml" 70 3066 3075 "src/oUnitShared.ml" 83 3326 3336
+)
+"src/oUnitShared.ml" 61 2896 2918 "src/oUnitShared.ml" 61 2896 2920
+type(
+  unit
+)
+"src/oUnitShared.ml" 62 2923 2937 "src/oUnitShared.ml" 62 2923 2938
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitShared.ml" 62 2923 2938 "src/oUnitShared.ml" 62 2923 2939
+type(
+  bool ref
+)
+ident(
+  int_ref r "src/oUnitShared.ml" 59 2865 2878 "src/oUnitShared.ml" 59 2865 2879
+)
+"src/oUnitShared.ml" 62 2923 2937 "src/oUnitShared.ml" 62 2923 2939
+type(
+  bool
+)
+"src/oUnitShared.ml" 62 2923 2945 "src/oUnitShared.ml" 64 2970 2984
+type(
+  bool
+)
+"src/oUnitShared.ml" 65 2996 3009 "src/oUnitShared.ml" 65 2996 3010
+type(
+  bool ref
+)
+ident(
+  int_ref r "src/oUnitShared.ml" 59 2865 2878 "src/oUnitShared.ml" 59 2865 2879
+)
+"src/oUnitShared.ml" 65 2996 3011 "src/oUnitShared.ml" 65 2996 3013
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitShared.ml" 65 2996 3014 "src/oUnitShared.ml" 65 2996 3018
+type(
+  bool
+)
+"src/oUnitShared.ml" 65 2996 3009 "src/oUnitShared.ml" 65 2996 3018
+type(
+  unit
+)
+"src/oUnitShared.ml" 66 3020 3033 "src/oUnitShared.ml" 66 3020 3037
+type(
+  bool
+)
+"src/oUnitShared.ml" 64 2970 2990 "src/oUnitShared.ml" 67 3038 3052
+type(
+  bool
+)
+"src/oUnitShared.ml" 62 2923 2934 "src/oUnitShared.ml" 67 3038 3052
+type(
+  bool
+)
+"src/oUnitShared.ml" 70 3066 3079 "src/oUnitShared.ml" 70 3066 3083
+type(
+  unit -> unit
+)
+ident(
+  def lock "src/oUnitShared.ml" 75 3171 3180 "src/oUnitShared.ml" 83 3326 3336
+)
+"src/oUnitShared.ml" 70 3066 3084 "src/oUnitShared.ml" 70 3066 3086
+type(
+  unit
+)
+"src/oUnitShared.ml" 71 3089 3103 "src/oUnitShared.ml" 71 3089 3106
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/oUnitShared.ml" 71 3089 3108 "src/oUnitShared.ml" 71 3089 3116
+type(
+  unit -> bool
+)
+ident(
+  int_ref try_lock "src/oUnitShared.ml" 61 2896 2909 "src/oUnitShared.ml" 61 2896 2917
+)
+"src/oUnitShared.ml" 71 3089 3117 "src/oUnitShared.ml" 71 3089 3119
+type(
+  unit
+)
+"src/oUnitShared.ml" 71 3089 3107 "src/oUnitShared.ml" 71 3089 3120
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitShared.ml" 71 3089 3103 "src/oUnitShared.ml" 71 3089 3120
+type(
+  bool
+)
+"src/oUnitShared.ml" 72 3126 3139 "src/oUnitShared.ml" 72 3126 3144
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/oUnitShared.ml" 72 3126 3145 "src/oUnitShared.ml" 72 3126 3157
+type(
+  exn
+)
+"src/oUnitShared.ml" 72 3126 3139 "src/oUnitShared.ml" 72 3126 3157
+type(
+  unit
+)
+"src/oUnitShared.ml" 71 3089 3100 "src/oUnitShared.ml" 72 3126 3157
+type(
+  unit
+)
+"src/oUnitShared.ml" 75 3171 3184 "src/oUnitShared.ml" 75 3171 3190
+type(
+  unit -> unit
+)
+ident(
+  def unlock "src/oUnitShared.ml" 79 3231 3240 "src/oUnitShared.ml" 83 3326 3336
+)
+"src/oUnitShared.ml" 75 3171 3191 "src/oUnitShared.ml" 75 3171 3193
+type(
+  unit
+)
+"src/oUnitShared.ml" 76 3196 3207 "src/oUnitShared.ml" 76 3196 3208
+type(
+  bool ref
+)
+ident(
+  int_ref r "src/oUnitShared.ml" 59 2865 2878 "src/oUnitShared.ml" 59 2865 2879
+)
+"src/oUnitShared.ml" 76 3196 3209 "src/oUnitShared.ml" 76 3196 3211
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitShared.ml" 76 3196 3212 "src/oUnitShared.ml" 76 3196 3217
+type(
+  bool
+)
+"src/oUnitShared.ml" 76 3196 3207 "src/oUnitShared.ml" 76 3196 3217
+type(
+  unit
+)
+"src/oUnitShared.ml" 80 3242 3260 "src/oUnitShared.ml" 80 3242 3264
+type(
+  unit -> unit
+)
+ident(
+  int_ref lock "src/oUnitShared.ml" 70 3066 3079 "src/oUnitShared.ml" 70 3066 3083
+)
+"src/oUnitShared.ml" 81 3266 3288 "src/oUnitShared.ml" 81 3266 3296
+type(
+  unit -> bool
+)
+ident(
+  int_ref try_lock "src/oUnitShared.ml" 61 2896 2909 "src/oUnitShared.ml" 61 2896 2917
+)
+"src/oUnitShared.ml" 82 3298 3318 "src/oUnitShared.ml" 82 3298 3324
+type(
+  unit -> unit
+)
+ident(
+  int_ref unlock "src/oUnitShared.ml" 75 3171 3184 "src/oUnitShared.ml" 75 3171 3190
+)
+"src/oUnitShared.ml" 79 3231 3240 "src/oUnitShared.ml" 83 3326 3336
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 75 3171 3180 "src/oUnitShared.ml" 83 3326 3336
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 70 3066 3075 "src/oUnitShared.ml" 83 3326 3336
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 61 2896 2905 "src/oUnitShared.ml" 83 3326 3336
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 59 2865 2874 "src/oUnitShared.ml" 83 3326 3336
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 58 2848 2854 "src/oUnitShared.ml" 83 3326 3337
+type(
+  unit -> unit shared_noscope
+)
+"src/oUnitShared.ml" 58 2848 2850 "src/oUnitShared.ml" 83 3326 3337
+type(
+  (unit -> unit shared_noscope) ref
+)
+"src/oUnitShared.ml" 90 3386 3392 "src/oUnitShared.ml" 90 3386 3398
+type(
+  'a -> int * 'a
+)
+ident(
+  def create "src/oUnitShared.ml" 93 3440 3442 "src/oUnitShared.ml" 115 3869 3872
+)
+"src/oUnitShared.ml" 90 3386 3399 "src/oUnitShared.ml" 90 3386 3404
+type(
+  'a
+)
+ident(
+  def scope "src/oUnitShared.ml" 91 3407 3411 "src/oUnitShared.ml" 91 3407 3438
+)
+"src/oUnitShared.ml" 91 3407 3412 "src/oUnitShared.ml" 91 3407 3417
+type(
+  <  > -> int
+)
+ident(
+  ext_ref Oo.id
+)
+"src/oUnitShared.ml" 91 3407 3418 "src/oUnitShared.ml" 91 3407 3430
+type(
+  <  >
+)
+"src/oUnitShared.ml" 91 3407 3412 "src/oUnitShared.ml" 91 3407 3430
+type(
+  int
+)
+"src/oUnitShared.ml" 91 3407 3432 "src/oUnitShared.ml" 91 3407 3437
+type(
+  'a
+)
+ident(
+  int_ref scope "src/oUnitShared.ml" 90 3386 3399 "src/oUnitShared.ml" 90 3386 3404
+)
+"src/oUnitShared.ml" 91 3407 3411 "src/oUnitShared.ml" 91 3407 3438
+type(
+  int * 'a
+)
+"src/oUnitShared.ml" 93 3440 3446 "src/oUnitShared.ml" 93 3440 3450
+type(
+  shared -> int * scope -> unit
+)
+ident(
+  def lock "src/oUnitShared.ml" 96 3511 3513 "src/oUnitShared.ml" 115 3869 3872
+)
+"src/oUnitShared.ml" 93 3440 3451 "src/oUnitShared.ml" 93 3440 3457
+type(
+  shared
+)
+ident(
+  def shared "src/oUnitShared.ml" 93 3440 3458 "src/oUnitShared.ml" 94 3472 3509
+)
+"src/oUnitShared.ml" 93 3440 3459 "src/oUnitShared.ml" 93 3440 3461
+type(
+  int
+)
+ident(
+  def id "src/oUnitShared.ml" 94 3472 3476 "src/oUnitShared.ml" 94 3472 3509
+)
+"src/oUnitShared.ml" 93 3440 3463 "src/oUnitShared.ml" 93 3440 3468
+type(
+  scope
+)
+ident(
+  def scope "src/oUnitShared.ml" 94 3472 3476 "src/oUnitShared.ml" 94 3472 3509
+)
+"src/oUnitShared.ml" 93 3440 3458 "src/oUnitShared.ml" 93 3440 3469
+type(
+  int * scope
+)
+"src/oUnitShared.ml" 94 3472 3477 "src/oUnitShared.ml" 94 3472 3487
+type(
+  shared -> scope -> int shared_noscope
+)
+ident(
+  int_ref get_scoped "src/oUnitShared.ml" 50 2665 2669 "src/oUnitShared.ml" 50 2665 2679
+)
+"src/oUnitShared.ml" 94 3472 3488 "src/oUnitShared.ml" 94 3472 3494
+type(
+  shared
+)
+ident(
+  int_ref shared "src/oUnitShared.ml" 93 3440 3451 "src/oUnitShared.ml" 93 3440 3457
+)
+"src/oUnitShared.ml" 94 3472 3495 "src/oUnitShared.ml" 94 3472 3500
+type(
+  scope
+)
+ident(
+  int_ref scope "src/oUnitShared.ml" 93 3440 3463 "src/oUnitShared.ml" 93 3440 3468
+)
+"src/oUnitShared.ml" 94 3472 3476 "src/oUnitShared.ml" 94 3472 3501
+call(
+  stack
+)
+type(
+  int shared_noscope
+)
+"src/oUnitShared.ml" 94 3472 3476 "src/oUnitShared.ml" 94 3472 3506
+type(
+  int -> unit
+)
+"src/oUnitShared.ml" 94 3472 3507 "src/oUnitShared.ml" 94 3472 3509
+type(
+  int
+)
+ident(
+  int_ref id "src/oUnitShared.ml" 93 3440 3459 "src/oUnitShared.ml" 93 3440 3461
+)
+"src/oUnitShared.ml" 94 3472 3476 "src/oUnitShared.ml" 94 3472 3509
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitShared.ml" 96 3511 3517 "src/oUnitShared.ml" 96 3511 3525
+type(
+  shared -> int * scope -> bool
+)
+ident(
+  def try_lock "src/oUnitShared.ml" 99 3590 3592 "src/oUnitShared.ml" 115 3869 3872
+)
+"src/oUnitShared.ml" 96 3511 3526 "src/oUnitShared.ml" 96 3511 3532
+type(
+  shared
+)
+ident(
+  def shared "src/oUnitShared.ml" 96 3511 3533 "src/oUnitShared.ml" 97 3547 3588
+)
+"src/oUnitShared.ml" 96 3511 3534 "src/oUnitShared.ml" 96 3511 3536
+type(
+  int
+)
+ident(
+  def id "src/oUnitShared.ml" 97 3547 3551 "src/oUnitShared.ml" 97 3547 3588
+)
+"src/oUnitShared.ml" 96 3511 3538 "src/oUnitShared.ml" 96 3511 3543
+type(
+  scope
+)
+ident(
+  def scope "src/oUnitShared.ml" 97 3547 3551 "src/oUnitShared.ml" 97 3547 3588
+)
+"src/oUnitShared.ml" 96 3511 3533 "src/oUnitShared.ml" 96 3511 3544
+type(
+  int * scope
+)
+"src/oUnitShared.ml" 97 3547 3552 "src/oUnitShared.ml" 97 3547 3562
+type(
+  shared -> scope -> int shared_noscope
+)
+ident(
+  int_ref get_scoped "src/oUnitShared.ml" 50 2665 2669 "src/oUnitShared.ml" 50 2665 2679
+)
+"src/oUnitShared.ml" 97 3547 3563 "src/oUnitShared.ml" 97 3547 3569
+type(
+  shared
+)
+ident(
+  int_ref shared "src/oUnitShared.ml" 96 3511 3526 "src/oUnitShared.ml" 96 3511 3532
+)
+"src/oUnitShared.ml" 97 3547 3570 "src/oUnitShared.ml" 97 3547 3575
+type(
+  scope
+)
+ident(
+  int_ref scope "src/oUnitShared.ml" 96 3511 3538 "src/oUnitShared.ml" 96 3511 3543
+)
+"src/oUnitShared.ml" 97 3547 3551 "src/oUnitShared.ml" 97 3547 3576
+call(
+  stack
+)
+type(
+  int shared_noscope
+)
+"src/oUnitShared.ml" 97 3547 3551 "src/oUnitShared.ml" 97 3547 3585
+type(
+  int -> bool
+)
+"src/oUnitShared.ml" 97 3547 3586 "src/oUnitShared.ml" 97 3547 3588
+type(
+  int
+)
+ident(
+  int_ref id "src/oUnitShared.ml" 96 3511 3534 "src/oUnitShared.ml" 96 3511 3536
+)
+"src/oUnitShared.ml" 97 3547 3551 "src/oUnitShared.ml" 97 3547 3588
+call(
+  tail
+)
+type(
+  bool
+)
+"src/oUnitShared.ml" 99 3590 3596 "src/oUnitShared.ml" 99 3590 3602
+type(
+  shared -> int * scope -> unit
+)
+ident(
+  def unlock "src/oUnitShared.ml" 102 3665 3667 "src/oUnitShared.ml" 115 3869 3872
+)
+"src/oUnitShared.ml" 99 3590 3603 "src/oUnitShared.ml" 99 3590 3609
+type(
+  shared
+)
+ident(
+  def shared "src/oUnitShared.ml" 99 3590 3610 "src/oUnitShared.ml" 100 3624 3663
+)
+"src/oUnitShared.ml" 99 3590 3611 "src/oUnitShared.ml" 99 3590 3613
+type(
+  int
+)
+ident(
+  def id "src/oUnitShared.ml" 100 3624 3628 "src/oUnitShared.ml" 100 3624 3663
+)
+"src/oUnitShared.ml" 99 3590 3615 "src/oUnitShared.ml" 99 3590 3620
+type(
+  scope
+)
+ident(
+  def scope "src/oUnitShared.ml" 100 3624 3628 "src/oUnitShared.ml" 100 3624 3663
+)
+"src/oUnitShared.ml" 99 3590 3610 "src/oUnitShared.ml" 99 3590 3621
+type(
+  int * scope
+)
+"src/oUnitShared.ml" 100 3624 3629 "src/oUnitShared.ml" 100 3624 3639
+type(
+  shared -> scope -> int shared_noscope
+)
+ident(
+  int_ref get_scoped "src/oUnitShared.ml" 50 2665 2669 "src/oUnitShared.ml" 50 2665 2679
+)
+"src/oUnitShared.ml" 100 3624 3640 "src/oUnitShared.ml" 100 3624 3646
+type(
+  shared
+)
+ident(
+  int_ref shared "src/oUnitShared.ml" 99 3590 3603 "src/oUnitShared.ml" 99 3590 3609
+)
+"src/oUnitShared.ml" 100 3624 3647 "src/oUnitShared.ml" 100 3624 3652
+type(
+  scope
+)
+ident(
+  int_ref scope "src/oUnitShared.ml" 99 3590 3615 "src/oUnitShared.ml" 99 3590 3620
+)
+"src/oUnitShared.ml" 100 3624 3628 "src/oUnitShared.ml" 100 3624 3653
+call(
+  stack
+)
+type(
+  int shared_noscope
+)
+"src/oUnitShared.ml" 100 3624 3628 "src/oUnitShared.ml" 100 3624 3660
+type(
+  int -> unit
+)
+"src/oUnitShared.ml" 100 3624 3661 "src/oUnitShared.ml" 100 3624 3663
+type(
+  int
+)
+ident(
+  int_ref id "src/oUnitShared.ml" 99 3590 3611 "src/oUnitShared.ml" 99 3590 3613
+)
+"src/oUnitShared.ml" 100 3624 3628 "src/oUnitShared.ml" 100 3624 3663
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitShared.ml" 102 3665 3671 "src/oUnitShared.ml" 102 3665 3680
+type(
+  shared -> int * scope -> (unit -> 'b) -> 'b
+)
+ident(
+  def with_lock "src/oUnitShared.ml" 112 3853 3866 "src/oUnitShared.ml" 115 3869 3872
+)
+"src/oUnitShared.ml" 102 3665 3681 "src/oUnitShared.ml" 102 3665 3687
+type(
+  shared
+)
+ident(
+  def shared "src/oUnitShared.ml" 102 3665 3688 "src/oUnitShared.ml" 112 3853 3866
+)
+"src/oUnitShared.ml" 102 3665 3688 "src/oUnitShared.ml" 102 3665 3693
+type(
+  int * scope
+)
+ident(
+  def mutex "src/oUnitShared.ml" 102 3665 3694 "src/oUnitShared.ml" 112 3853 3866
+)
+"src/oUnitShared.ml" 102 3665 3694 "src/oUnitShared.ml" 102 3665 3695
+type(
+  unit -> 'b
+)
+ident(
+  def f "src/oUnitShared.ml" 103 3698 3702 "src/oUnitShared.ml" 112 3853 3866
+)
+"src/oUnitShared.ml" 104 3706 3716 "src/oUnitShared.ml" 104 3706 3719
+type(
+  'b
+)
+ident(
+  def res "src/oUnitShared.ml" 108 3771 3779 "src/oUnitShared.ml" 109 3800 3811
+)
+"src/oUnitShared.ml" 105 3722 3730 "src/oUnitShared.ml" 105 3722 3734
+type(
+  shared -> int * scope -> unit
+)
+ident(
+  int_ref lock "src/oUnitShared.ml" 93 3440 3446 "src/oUnitShared.ml" 93 3440 3450
+)
+"src/oUnitShared.ml" 105 3722 3735 "src/oUnitShared.ml" 105 3722 3741
+type(
+  shared
+)
+ident(
+  int_ref shared "src/oUnitShared.ml" 102 3665 3681 "src/oUnitShared.ml" 102 3665 3687
+)
+"src/oUnitShared.ml" 105 3722 3742 "src/oUnitShared.ml" 105 3722 3747
+type(
+  int * scope
+)
+ident(
+  int_ref mutex "src/oUnitShared.ml" 102 3665 3688 "src/oUnitShared.ml" 102 3665 3693
+)
+"src/oUnitShared.ml" 105 3722 3730 "src/oUnitShared.ml" 105 3722 3747
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitShared.ml" 106 3749 3757 "src/oUnitShared.ml" 106 3749 3758
+type(
+  unit -> 'b
+)
+ident(
+  int_ref f "src/oUnitShared.ml" 102 3665 3694 "src/oUnitShared.ml" 102 3665 3695
+)
+"src/oUnitShared.ml" 106 3749 3759 "src/oUnitShared.ml" 106 3749 3761
+type(
+  unit
+)
+"src/oUnitShared.ml" 106 3749 3757 "src/oUnitShared.ml" 106 3749 3761
+call(
+  stack
+)
+type(
+  'b
+)
+"src/oUnitShared.ml" 105 3722 3730 "src/oUnitShared.ml" 106 3749 3761
+type(
+  'b
+)
+"src/oUnitShared.ml" 108 3771 3779 "src/oUnitShared.ml" 108 3771 3785
+type(
+  shared -> int * scope -> unit
+)
+ident(
+  int_ref unlock "src/oUnitShared.ml" 99 3590 3596 "src/oUnitShared.ml" 99 3590 3602
+)
+"src/oUnitShared.ml" 108 3771 3786 "src/oUnitShared.ml" 108 3771 3792
+type(
+  shared
+)
+ident(
+  int_ref shared "src/oUnitShared.ml" 102 3665 3681 "src/oUnitShared.ml" 102 3665 3687
+)
+"src/oUnitShared.ml" 108 3771 3793 "src/oUnitShared.ml" 108 3771 3798
+type(
+  int * scope
+)
+ident(
+  int_ref mutex "src/oUnitShared.ml" 102 3665 3688 "src/oUnitShared.ml" 102 3665 3693
+)
+"src/oUnitShared.ml" 108 3771 3779 "src/oUnitShared.ml" 108 3771 3798
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitShared.ml" 109 3800 3808 "src/oUnitShared.ml" 109 3800 3811
+type(
+  'b
+)
+ident(
+  int_ref res "src/oUnitShared.ml" 104 3706 3716 "src/oUnitShared.ml" 104 3706 3719
+)
+"src/oUnitShared.ml" 108 3771 3779 "src/oUnitShared.ml" 109 3800 3811
+type(
+  'b
+)
+"src/oUnitShared.ml" 104 3706 3712 "src/oUnitShared.ml" 109 3800 3811
+type(
+  'b
+)
+"src/oUnitShared.ml" 110 3812 3821 "src/oUnitShared.ml" 110 3812 3822
+type(
+  exn
+)
+ident(
+  def e "src/oUnitShared.ml" 111 3826 3832 "src/oUnitShared.ml" 112 3853 3866
+)
+"src/oUnitShared.ml" 111 3826 3832 "src/oUnitShared.ml" 111 3826 3838
+type(
+  shared -> int * scope -> unit
+)
+ident(
+  int_ref unlock "src/oUnitShared.ml" 99 3590 3596 "src/oUnitShared.ml" 99 3590 3602
+)
+"src/oUnitShared.ml" 111 3826 3839 "src/oUnitShared.ml" 111 3826 3845
+type(
+  shared
+)
+ident(
+  int_ref shared "src/oUnitShared.ml" 102 3665 3681 "src/oUnitShared.ml" 102 3665 3687
+)
+"src/oUnitShared.ml" 111 3826 3846 "src/oUnitShared.ml" 111 3826 3851
+type(
+  int * scope
+)
+ident(
+  int_ref mutex "src/oUnitShared.ml" 102 3665 3688 "src/oUnitShared.ml" 102 3665 3693
+)
+"src/oUnitShared.ml" 111 3826 3832 "src/oUnitShared.ml" 111 3826 3851
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitShared.ml" 112 3853 3859 "src/oUnitShared.ml" 112 3853 3864
+type(
+  exn -> 'b
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/oUnitShared.ml" 112 3853 3865 "src/oUnitShared.ml" 112 3853 3866
+type(
+  exn
+)
+ident(
+  int_ref e "src/oUnitShared.ml" 110 3812 3821 "src/oUnitShared.ml" 110 3812 3822
+)
+"src/oUnitShared.ml" 112 3853 3859 "src/oUnitShared.ml" 112 3853 3866
+type(
+  'b
+)
+"src/oUnitShared.ml" 111 3826 3832 "src/oUnitShared.ml" 112 3853 3866
+type(
+  'b
+)
+"src/oUnitShared.ml" 103 3698 3702 "src/oUnitShared.ml" 112 3853 3866
+type(
+  'b
+)
+"src/oUnitShared.ml" 118 3935 3939 "src/oUnitShared.ml" 118 3935 3953
+type(
+  unit -> 'a shared_noscope
+)
+ident(
+  def noscope_create "src/oUnitShared.ml" 154 4589 4589 "src/oUnitShared.ml" 1 0 -1
+)
+"src/oUnitShared.ml" 118 3935 3954 "src/oUnitShared.ml" 118 3935 3956
+type(
+  unit
+)
+"src/oUnitShared.ml" 119 3959 3965 "src/oUnitShared.ml" 119 3959 3970
+type(
+  ('a, unit shared_noscope) Hashtbl.t
+)
+ident(
+  def state "src/oUnitShared.ml" 120 3994 3996 "src/oUnitShared.ml" 151 4544 4549
+)
+"src/oUnitShared.ml" 119 3959 3973 "src/oUnitShared.ml" 119 3959 3987
+type(
+  ?random:bool -> int -> ('a, unit shared_noscope) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/oUnitShared.ml" 119 3959 3988 "src/oUnitShared.ml" 119 3959 3990
+type(
+  int
+)
+"src/oUnitShared.ml" 119 3959 3973 "src/oUnitShared.ml" 119 3959 3990
+call(
+  stack
+)
+type(
+  ('a, unit shared_noscope) Hashtbl.t
+)
+"src/oUnitShared.ml" 120 3994 4000 "src/oUnitShared.ml" 120 3994 4011
+type(
+  unit shared_noscope
+)
+ident(
+  def state_mutex "src/oUnitShared.ml" 122 4035 4037 "src/oUnitShared.ml" 151 4544 4549
+)
+"src/oUnitShared.ml" 120 3994 4014 "src/oUnitShared.ml" 120 3994 4015
+type(
+  (unit -> unit shared_noscope) ref -> unit -> unit shared_noscope
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitShared.ml" 120 3994 4015 "src/oUnitShared.ml" 120 3994 4027
+type(
+  (unit -> unit shared_noscope) ref
+)
+ident(
+  int_ref mutex_create "src/oUnitShared.ml" 57 2829 2833 "src/oUnitShared.ml" 57 2829 2845
+)
+"src/oUnitShared.ml" 120 3994 4014 "src/oUnitShared.ml" 120 3994 4027
+type(
+  unit -> unit shared_noscope
+)
+"src/oUnitShared.ml" 120 3994 4028 "src/oUnitShared.ml" 120 3994 4030
+type(
+  unit
+)
+"src/oUnitShared.ml" 120 3994 4014 "src/oUnitShared.ml" 120 3994 4030
+call(
+  stack
+)
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 122 4035 4041 "src/oUnitShared.ml" 122 4035 4050
+type(
+  'a -> unit shared_noscope
+)
+ident(
+  def get_mutex "src/oUnitShared.ml" 136 4311 4313 "src/oUnitShared.ml" 151 4544 4549
+)
+"src/oUnitShared.ml" 122 4035 4051 "src/oUnitShared.ml" 122 4035 4053
+type(
+  'a
+)
+ident(
+  def id "src/oUnitShared.ml" 123 4056 4060 "src/oUnitShared.ml" 133 4293 4304
+)
+"src/oUnitShared.ml" 123 4056 4064 "src/oUnitShared.ml" 123 4056 4069
+type(
+  unit shared_noscope
+)
+ident(
+  def mutex "src/oUnitShared.ml" 132 4264 4270 "src/oUnitShared.ml" 133 4293 4304
+)
+"src/oUnitShared.ml" 124 4072 4078 "src/oUnitShared.ml" 124 4072 4089
+type(
+  unit shared_noscope
+)
+ident(
+  int_ref state_mutex "src/oUnitShared.ml" 120 3994 4000 "src/oUnitShared.ml" 120 3994 4011
+)
+"src/oUnitShared.ml" 124 4072 4078 "src/oUnitShared.ml" 124 4072 4094
+type(
+  unit -> unit
+)
+"src/oUnitShared.ml" 124 4072 4095 "src/oUnitShared.ml" 124 4072 4097
+type(
+  unit
+)
+"src/oUnitShared.ml" 124 4072 4078 "src/oUnitShared.ml" 124 4072 4097
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitShared.ml" 126 4109 4117 "src/oUnitShared.ml" 126 4109 4129
+type(
+  ('a, unit shared_noscope) Hashtbl.t -> 'a -> unit shared_noscope
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/oUnitShared.ml" 126 4109 4130 "src/oUnitShared.ml" 126 4109 4135
+type(
+  ('a, unit shared_noscope) Hashtbl.t
+)
+ident(
+  int_ref state "src/oUnitShared.ml" 119 3959 3965 "src/oUnitShared.ml" 119 3959 3970
+)
+"src/oUnitShared.ml" 126 4109 4136 "src/oUnitShared.ml" 126 4109 4138
+type(
+  'a
+)
+ident(
+  int_ref id "src/oUnitShared.ml" 122 4035 4051 "src/oUnitShared.ml" 122 4035 4053
+)
+"src/oUnitShared.ml" 126 4109 4117 "src/oUnitShared.ml" 126 4109 4138
+call(
+  stack
+)
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 127 4139 4150 "src/oUnitShared.ml" 127 4139 4159
+type(
+  exn
+)
+"src/oUnitShared.ml" 128 4163 4175 "src/oUnitShared.ml" 128 4163 4180
+type(
+  unit shared_noscope
+)
+ident(
+  def mutex "src/oUnitShared.ml" 129 4203 4213 "src/oUnitShared.ml" 130 4241 4256
+)
+"src/oUnitShared.ml" 128 4163 4183 "src/oUnitShared.ml" 128 4163 4184
+type(
+  (unit -> unit shared_noscope) ref -> unit -> unit shared_noscope
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitShared.ml" 128 4163 4184 "src/oUnitShared.ml" 128 4163 4196
+type(
+  (unit -> unit shared_noscope) ref
+)
+ident(
+  int_ref mutex_create "src/oUnitShared.ml" 57 2829 2833 "src/oUnitShared.ml" 57 2829 2845
+)
+"src/oUnitShared.ml" 128 4163 4183 "src/oUnitShared.ml" 128 4163 4196
+type(
+  unit -> unit shared_noscope
+)
+"src/oUnitShared.ml" 128 4163 4197 "src/oUnitShared.ml" 128 4163 4199
+type(
+  unit
+)
+"src/oUnitShared.ml" 128 4163 4183 "src/oUnitShared.ml" 128 4163 4199
+call(
+  stack
+)
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 129 4203 4213 "src/oUnitShared.ml" 129 4203 4224
+type(
+  ('a, unit shared_noscope) Hashtbl.t -> 'a -> unit shared_noscope -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"src/oUnitShared.ml" 129 4203 4225 "src/oUnitShared.ml" 129 4203 4230
+type(
+  ('a, unit shared_noscope) Hashtbl.t
+)
+ident(
+  int_ref state "src/oUnitShared.ml" 119 3959 3965 "src/oUnitShared.ml" 119 3959 3970
+)
+"src/oUnitShared.ml" 129 4203 4231 "src/oUnitShared.ml" 129 4203 4233
+type(
+  'a
+)
+ident(
+  int_ref id "src/oUnitShared.ml" 122 4035 4051 "src/oUnitShared.ml" 122 4035 4053
+)
+"src/oUnitShared.ml" 129 4203 4234 "src/oUnitShared.ml" 129 4203 4239
+type(
+  unit shared_noscope
+)
+ident(
+  int_ref mutex "src/oUnitShared.ml" 128 4163 4175 "src/oUnitShared.ml" 128 4163 4180
+)
+"src/oUnitShared.ml" 129 4203 4213 "src/oUnitShared.ml" 129 4203 4239
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitShared.ml" 130 4241 4251 "src/oUnitShared.ml" 130 4241 4256
+type(
+  unit shared_noscope
+)
+ident(
+  int_ref mutex "src/oUnitShared.ml" 128 4163 4175 "src/oUnitShared.ml" 128 4163 4180
+)
+"src/oUnitShared.ml" 129 4203 4213 "src/oUnitShared.ml" 130 4241 4256
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 128 4163 4171 "src/oUnitShared.ml" 130 4241 4256
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 125 4099 4105 "src/oUnitShared.ml" 130 4241 4256
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 124 4072 4078 "src/oUnitShared.ml" 130 4241 4256
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 132 4264 4270 "src/oUnitShared.ml" 132 4264 4281
+type(
+  unit shared_noscope
+)
+ident(
+  int_ref state_mutex "src/oUnitShared.ml" 120 3994 4000 "src/oUnitShared.ml" 120 3994 4011
+)
+"src/oUnitShared.ml" 132 4264 4270 "src/oUnitShared.ml" 132 4264 4288
+type(
+  unit -> unit
+)
+"src/oUnitShared.ml" 132 4264 4289 "src/oUnitShared.ml" 132 4264 4291
+type(
+  unit
+)
+"src/oUnitShared.ml" 132 4264 4270 "src/oUnitShared.ml" 132 4264 4291
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitShared.ml" 133 4293 4299 "src/oUnitShared.ml" 133 4293 4304
+type(
+  unit shared_noscope
+)
+ident(
+  int_ref mutex "src/oUnitShared.ml" 123 4056 4064 "src/oUnitShared.ml" 123 4056 4069
+)
+"src/oUnitShared.ml" 132 4264 4270 "src/oUnitShared.ml" 133 4293 4304
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 123 4056 4060 "src/oUnitShared.ml" 133 4293 4304
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 136 4311 4317 "src/oUnitShared.ml" 136 4311 4325
+type(
+  'a -> bool
+)
+ident(
+  def try_lock "src/oUnitShared.ml" 140 4368 4370 "src/oUnitShared.ml" 151 4544 4549
+)
+"src/oUnitShared.ml" 136 4311 4326 "src/oUnitShared.ml" 136 4311 4328
+type(
+  'a
+)
+ident(
+  def id "src/oUnitShared.ml" 137 4331 4335 "src/oUnitShared.ml" 137 4331 4361
+)
+"src/oUnitShared.ml" 137 4331 4336 "src/oUnitShared.ml" 137 4331 4345
+type(
+  'a -> unit shared_noscope
+)
+ident(
+  int_ref get_mutex "src/oUnitShared.ml" 122 4035 4041 "src/oUnitShared.ml" 122 4035 4050
+)
+"src/oUnitShared.ml" 137 4331 4346 "src/oUnitShared.ml" 137 4331 4348
+type(
+  'a
+)
+ident(
+  int_ref id "src/oUnitShared.ml" 136 4311 4326 "src/oUnitShared.ml" 136 4311 4328
+)
+"src/oUnitShared.ml" 137 4331 4335 "src/oUnitShared.ml" 137 4331 4349
+call(
+  stack
+)
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 137 4331 4335 "src/oUnitShared.ml" 137 4331 4358
+type(
+  unit -> bool
+)
+"src/oUnitShared.ml" 137 4331 4359 "src/oUnitShared.ml" 137 4331 4361
+type(
+  unit
+)
+"src/oUnitShared.ml" 137 4331 4335 "src/oUnitShared.ml" 137 4331 4361
+call(
+  tail
+)
+type(
+  bool
+)
+"src/oUnitShared.ml" 140 4368 4374 "src/oUnitShared.ml" 140 4368 4378
+type(
+  'a -> unit
+)
+ident(
+  def lock "src/oUnitShared.ml" 144 4417 4419 "src/oUnitShared.ml" 151 4544 4549
+)
+"src/oUnitShared.ml" 140 4368 4379 "src/oUnitShared.ml" 140 4368 4381
+type(
+  'a
+)
+ident(
+  def id "src/oUnitShared.ml" 141 4384 4388 "src/oUnitShared.ml" 141 4384 4410
+)
+"src/oUnitShared.ml" 141 4384 4389 "src/oUnitShared.ml" 141 4384 4398
+type(
+  'a -> unit shared_noscope
+)
+ident(
+  int_ref get_mutex "src/oUnitShared.ml" 122 4035 4041 "src/oUnitShared.ml" 122 4035 4050
+)
+"src/oUnitShared.ml" 141 4384 4399 "src/oUnitShared.ml" 141 4384 4401
+type(
+  'a
+)
+ident(
+  int_ref id "src/oUnitShared.ml" 140 4368 4379 "src/oUnitShared.ml" 140 4368 4381
+)
+"src/oUnitShared.ml" 141 4384 4388 "src/oUnitShared.ml" 141 4384 4402
+call(
+  stack
+)
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 141 4384 4388 "src/oUnitShared.ml" 141 4384 4407
+type(
+  unit -> unit
+)
+"src/oUnitShared.ml" 141 4384 4408 "src/oUnitShared.ml" 141 4384 4410
+type(
+  unit
+)
+"src/oUnitShared.ml" 141 4384 4388 "src/oUnitShared.ml" 141 4384 4410
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitShared.ml" 144 4417 4423 "src/oUnitShared.ml" 144 4417 4429
+type(
+  'a -> unit
+)
+ident(
+  def unlock "src/oUnitShared.ml" 147 4469 4473 "src/oUnitShared.ml" 151 4544 4549
+)
+"src/oUnitShared.ml" 144 4417 4430 "src/oUnitShared.ml" 144 4417 4432
+type(
+  'a
+)
+ident(
+  def id "src/oUnitShared.ml" 145 4435 4439 "src/oUnitShared.ml" 145 4435 4463
+)
+"src/oUnitShared.ml" 145 4435 4440 "src/oUnitShared.ml" 145 4435 4449
+type(
+  'a -> unit shared_noscope
+)
+ident(
+  int_ref get_mutex "src/oUnitShared.ml" 122 4035 4041 "src/oUnitShared.ml" 122 4035 4050
+)
+"src/oUnitShared.ml" 145 4435 4450 "src/oUnitShared.ml" 145 4435 4452
+type(
+  'a
+)
+ident(
+  int_ref id "src/oUnitShared.ml" 144 4417 4430 "src/oUnitShared.ml" 144 4417 4432
+)
+"src/oUnitShared.ml" 145 4435 4439 "src/oUnitShared.ml" 145 4435 4453
+call(
+  stack
+)
+type(
+  unit shared_noscope
+)
+"src/oUnitShared.ml" 145 4435 4439 "src/oUnitShared.ml" 145 4435 4460
+type(
+  unit -> unit
+)
+"src/oUnitShared.ml" 145 4435 4461 "src/oUnitShared.ml" 145 4435 4463
+type(
+  unit
+)
+"src/oUnitShared.ml" 145 4435 4439 "src/oUnitShared.ml" 145 4435 4463
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitShared.ml" 148 4475 4488 "src/oUnitShared.ml" 148 4475 4492
+type(
+  'a -> unit
+)
+ident(
+  int_ref lock "src/oUnitShared.ml" 140 4368 4374 "src/oUnitShared.ml" 140 4368 4378
+)
+"src/oUnitShared.ml" 149 4494 4509 "src/oUnitShared.ml" 149 4494 4515
+type(
+  'a -> unit
+)
+ident(
+  int_ref unlock "src/oUnitShared.ml" 144 4417 4423 "src/oUnitShared.ml" 144 4417 4429
+)
+"src/oUnitShared.ml" 150 4517 4534 "src/oUnitShared.ml" 150 4517 4542
+type(
+  'a -> bool
+)
+ident(
+  int_ref try_lock "src/oUnitShared.ml" 136 4311 4317 "src/oUnitShared.ml" 136 4311 4325
+)
+"src/oUnitShared.ml" 147 4469 4473 "src/oUnitShared.ml" 151 4544 4549
+type(
+  'a shared_noscope
+)
+"src/oUnitShared.ml" 144 4417 4419 "src/oUnitShared.ml" 151 4544 4549
+type(
+  'a shared_noscope
+)
+"src/oUnitShared.ml" 140 4368 4370 "src/oUnitShared.ml" 151 4544 4549
+type(
+  'a shared_noscope
+)
+"src/oUnitShared.ml" 136 4311 4313 "src/oUnitShared.ml" 151 4544 4549
+type(
+  'a shared_noscope
+)
+"src/oUnitShared.ml" 122 4035 4037 "src/oUnitShared.ml" 151 4544 4549
+type(
+  'a shared_noscope
+)
+"src/oUnitShared.ml" 120 3994 3996 "src/oUnitShared.ml" 151 4544 4549
+type(
+  'a shared_noscope
+)
+"src/oUnitShared.ml" 119 3959 3961 "src/oUnitShared.ml" 151 4544 4549
+type(
+  'a shared_noscope
+)
+"src/oUnitShared.ml" 154 4589 4593 "src/oUnitShared.ml" 154 4589 4599
+type(
+  unit -> shared
+)
+ident(
+  def create "src/oUnitShared.ml" 159 4688 4691 "src/oUnitShared.ml" 1 0 -1
+)
+"src/oUnitShared.ml" 154 4589 4600 "src/oUnitShared.ml" 154 4589 4602
+type(
+  unit
+)
+"src/oUnitShared.ml" 155 4605 4611 "src/oUnitShared.ml" 155 4605 4617
+type(
+  int shared_noscope
+)
+ident(
+  def scoped "src/oUnitShared.ml" 156 4641 4643 "src/oUnitShared.ml" 159 4688 4691
+)
+"src/oUnitShared.ml" 155 4605 4620 "src/oUnitShared.ml" 155 4605 4634
+type(
+  unit -> int shared_noscope
+)
+ident(
+  int_ref noscope_create "src/oUnitShared.ml" 118 3935 3939 "src/oUnitShared.ml" 118 3935 3953
+)
+"src/oUnitShared.ml" 155 4605 4635 "src/oUnitShared.ml" 155 4605 4637
+type(
+  unit
+)
+"src/oUnitShared.ml" 155 4605 4620 "src/oUnitShared.ml" 155 4605 4637
+call(
+  stack
+)
+type(
+  int shared_noscope
+)
+"src/oUnitShared.ml" 157 4645 4658 "src/oUnitShared.ml" 157 4645 4664
+type(
+  int shared_noscope
+)
+ident(
+  int_ref scoped "src/oUnitShared.ml" 155 4605 4611 "src/oUnitShared.ml" 155 4605 4617
+)
+"src/oUnitShared.ml" 158 4666 4680 "src/oUnitShared.ml" 158 4666 4686
+type(
+  int shared_noscope
+)
+ident(
+  int_ref scoped "src/oUnitShared.ml" 155 4605 4611 "src/oUnitShared.ml" 155 4605 4617
+)
+"src/oUnitShared.ml" 156 4641 4643 "src/oUnitShared.ml" 159 4688 4691
+type(
+  shared
+)
+"src/oUnitShared.ml" 155 4605 4607 "src/oUnitShared.ml" 159 4688 4691
+type(
+  shared
+)

@@ -1,0 +1,21 @@
+lib: [
+  "_build/install/default/lib/ppx_sexp_message/META"
+  "_build/install/default/lib/ppx_sexp_message/dune-package"
+  "_build/install/default/lib/ppx_sexp_message/opam"
+  "_build/install/default/lib/ppx_sexp_message/ppx_sexp_message.a"
+  "_build/install/default/lib/ppx_sexp_message/ppx_sexp_message.cma"
+  "_build/install/default/lib/ppx_sexp_message/ppx_sexp_message.cmi"
+  "_build/install/default/lib/ppx_sexp_message/ppx_sexp_message.cmt"
+  "_build/install/default/lib/ppx_sexp_message/ppx_sexp_message.cmti"
+  "_build/install/default/lib/ppx_sexp_message/ppx_sexp_message.cmx"
+  "_build/install/default/lib/ppx_sexp_message/ppx_sexp_message.cmxa"
+  "_build/install/default/lib/ppx_sexp_message/ppx_sexp_message.cmxs"
+  "_build/install/default/lib/ppx_sexp_message/ppx_sexp_message.ml"
+  "_build/install/default/lib/ppx_sexp_message/ppx_sexp_message.mli"
+]
+doc: [
+  "_build/install/default/doc/ppx_sexp_message/CHANGES.md"
+  "_build/install/default/doc/ppx_sexp_message/LICENSE.txt"
+  "_build/install/default/doc/ppx_sexp_message/README.md"
+]
+libexec: "_build/install/default/lib/ppx_sexp_message/ppx.exe"

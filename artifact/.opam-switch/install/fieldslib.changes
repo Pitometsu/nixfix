@@ -1,0 +1,17 @@
+added: [
+  "doc/fieldslib" {"D"}
+  "doc/fieldslib/CHANGES.md" {"F:S1586T1560961156.93"}
+  "doc/fieldslib/LICENSE.txt" {"F:S11358T1560961156.96"}
+  "lib/fieldslib" {"D"}
+  "lib/fieldslib/META" {"F:S187T1560961156.53"}
+  "lib/fieldslib/dune-package" {"F:S455T1560961156.57"}
+  "lib/fieldslib/fieldslib.a" {"F:S3550T1560961156.6"}
+  "lib/fieldslib/fieldslib.cma" {"F:S6116T1560961156.64"}
+  "lib/fieldslib/fieldslib.cmi" {"F:S4597T1560961156.67"}
+  "lib/fieldslib/fieldslib.cmt" {"F:S11439T1560961156.7"}
+  "lib/fieldslib/fieldslib.cmx" {"F:S4553T1560961156.76"}
+  "lib/fieldslib/fieldslib.cmxa" {"F:S4556T1560961156.78"}
+  "lib/fieldslib/fieldslib.cmxs" {"F:S13704T1560961156.82"}
+  "lib/fieldslib/fieldslib.ml" {"F:S50T1560961156.86"}
+  "lib/fieldslib/opam" {"F:S1028T1560961156.9"}
+]

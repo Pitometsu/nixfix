@@ -1,0 +1,32 @@
+version = "5.0.0"
+description = "ppx to derive (de)serializers of a type"
+requires(ppx_driver) = "base ppxlib"
+archive(ppx_driver,byte) = "ppx_protocol_conv.cma"
+archive(ppx_driver,native) = "ppx_protocol_conv.cmxa"
+plugin(ppx_driver,byte) = "ppx_protocol_conv.cma"
+plugin(ppx_driver,native) = "ppx_protocol_conv.cmxs"
+# This line makes things transparent for people mixing preprocessors
+# and normal dependencies
+requires(-ppx_driver) = ""
+requires(-ppx_driver,-custom_ppx) += "ppx_deriving"
+ppxopt(-ppx_driver,-custom_ppx) = "ppx_deriving,package:ppx_protocol_conv"
+package "driver" (
+  directory = "driver"
+  version = "5.0.0"
+  description = "generic (de)serialization driver for ppx_protocol_conv"
+  requires = "ppx_protocol_conv ppx_protocol_conv.runtime"
+  archive(byte) = "ppx_protocol_driver.cma"
+  archive(native) = "ppx_protocol_driver.cmxa"
+  plugin(byte) = "ppx_protocol_driver.cma"
+  plugin(native) = "ppx_protocol_driver.cmxs"
+)
+package "runtime" (
+  directory = "runtime"
+  version = "5.0.0"
+  description = "runtime library for ppx_protocol_conv"
+  requires = "base"
+  archive(byte) = "protocol_conv.cma"
+  archive(native) = "protocol_conv.cmxa"
+  plugin(byte) = "protocol_conv.cma"
+  plugin(native) = "protocol_conv.cmxs"
+)

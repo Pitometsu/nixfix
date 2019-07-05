@@ -1,0 +1,15 @@
+(lang dune 1.10)
+(name ezjsonm)
+(version 1.1.0)
+(library
+ (name ezjsonm)
+ (kind normal)
+ (archives (byte ezjsonm.cma) (native ezjsonm.cmxa))
+ (plugins (byte ezjsonm.cma) (native ezjsonm.cmxs))
+ (foreign_archives (native ezjsonm.a))
+ (requires jsonm hex uutf sexplib)
+ (modes byte native)
+ (modules
+  (modules
+   ((name Ezjsonm) (obj_name ezjsonm) (visibility public) (impl) (intf)))
+  (wrapped false)))

@@ -1,0 +1,1896 @@
+"src/oUnitLogger.ml" 86 3634 3638 "src/oUnitLogger.ml" 86 3634 3651
+type(
+  string
+)
+ident(
+  def shard_default "src/oUnitLogger.ml" 88 3675 3675 "src/oUnitLogger.ml" 1 0 -1
+)
+"src/oUnitLogger.ml" 86 3634 3654 "src/oUnitLogger.ml" 86 3634 3671
+type(
+  int -> string
+)
+ident(
+  ext_ref OUnitUtils.shardf
+)
+"src/oUnitLogger.ml" 86 3634 3672 "src/oUnitLogger.ml" 86 3634 3673
+type(
+  int
+)
+"src/oUnitLogger.ml" 86 3634 3654 "src/oUnitLogger.ml" 86 3634 3673
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLogger.ml" 88 3675 3679 "src/oUnitLogger.ml" 88 3675 3694
+type(
+  ('a, 'b) log_event_t -> string
+)
+ident(
+  def string_of_event "src/oUnitLogger.ml" 123 4672 4672 "src/oUnitLogger.ml" 1 0 -1
+)
+"src/oUnitLogger.ml" 88 3675 3695 "src/oUnitLogger.ml" 88 3675 3697
+type(
+  ('a, 'b) log_event_t
+)
+ident(
+  def ev "src/oUnitLogger.ml" 89 3700 3702 "src/oUnitLogger.ml" 120 4656 4669
+)
+"src/oUnitLogger.ml" 89 3700 3706 "src/oUnitLogger.ml" 89 3700 3709
+type(
+  ('c, unit, string) format -> 'c
+)
+ident(
+  def spf "src/oUnitLogger.ml" 90 3738 3740 "src/oUnitLogger.ml" 120 4656 4669
+)
+"src/oUnitLogger.ml" 89 3700 3710 "src/oUnitLogger.ml" 89 3700 3713
+type(
+  ('c, unit, string) format
+)
+ident(
+  def fmt "src/oUnitLogger.ml" 89 3700 3716 "src/oUnitLogger.ml" 89 3700 3734
+)
+"src/oUnitLogger.ml" 89 3700 3716 "src/oUnitLogger.ml" 89 3700 3730
+type(
+  ('c, unit, string) format -> 'c
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitLogger.ml" 89 3700 3731 "src/oUnitLogger.ml" 89 3700 3734
+type(
+  ('c, unit, string) format
+)
+ident(
+  int_ref fmt "src/oUnitLogger.ml" 89 3700 3710 "src/oUnitLogger.ml" 89 3700 3713
+)
+"src/oUnitLogger.ml" 89 3700 3716 "src/oUnitLogger.ml" 89 3700 3734
+call(
+  tail
+)
+type(
+  'c
+)
+"src/oUnitLogger.ml" 90 3738 3744 "src/oUnitLogger.ml" 90 3738 3766
+type(
+  [< `Error | `Info | `Warning ] -> string
+)
+ident(
+  def string_of_log_severity "src/oUnitLogger.ml" 96 3875 3879 "src/oUnitLogger.ml" 120 4656 4669
+)
+"src/oUnitLogger.ml" 92 3782 3790 "src/oUnitLogger.ml" 92 3782 3796
+type(
+  [< `Error | `Info | `Warning ] as 'd
+)
+"src/oUnitLogger.ml" 92 3782 3802 "src/oUnitLogger.ml" 92 3782 3810
+type(
+  string
+)
+"src/oUnitLogger.ml" 93 3811 3819 "src/oUnitLogger.ml" 93 3811 3827
+type(
+  'd
+)
+"src/oUnitLogger.ml" 93 3811 3831 "src/oUnitLogger.ml" 93 3811 3841
+type(
+  string
+)
+"src/oUnitLogger.ml" 94 3842 3850 "src/oUnitLogger.ml" 94 3842 3855
+type(
+  'd
+)
+"src/oUnitLogger.ml" 94 3842 3862 "src/oUnitLogger.ml" 94 3842 3869
+type(
+  string
+)
+"src/oUnitLogger.ml" 91 3769 3773 "src/oUnitLogger.ml" 94 3842 3869
+type(
+  'd -> string
+)
+"src/oUnitLogger.ml" 96 3875 3885 "src/oUnitLogger.ml" 96 3875 3887
+type(
+  ('a, 'b) log_event_t
+)
+ident(
+  int_ref ev "src/oUnitLogger.ml" 88 3675 3695 "src/oUnitLogger.ml" 88 3675 3697
+)
+"src/oUnitLogger.ml" 97 3893 3913 "src/oUnitLogger.ml" 97 3893 3914
+type(
+  ('a, 'b) global_event
+)
+ident(
+  def e "src/oUnitLogger.ml" 98 3918 3928 "src/oUnitLogger.ml" 106 4225 4238
+)
+"src/oUnitLogger.ml" 97 3893 3901 "src/oUnitLogger.ml" 97 3893 3914
+type(
+  ('a, 'b) log_event_t
+)
+"src/oUnitLogger.ml" 99 3934 3952 "src/oUnitLogger.ml" 99 3934 3953
+type(
+  ('a, 'b) global_event
+)
+ident(
+  int_ref e "src/oUnitLogger.ml" 97 3893 3913 "src/oUnitLogger.ml" 97 3893 3914
+)
+"src/oUnitLogger.ml" 100 3959 3982 "src/oUnitLogger.ml" 100 3959 3983
+type(
+  string
+)
+ident(
+  def k "src/oUnitLogger.ml" 100 3959 3991 "src/oUnitLogger.ml" 100 3959 4015
+)
+"src/oUnitLogger.ml" 100 3959 3985 "src/oUnitLogger.ml" 100 3959 3986
+type(
+  string
+)
+ident(
+  def v "src/oUnitLogger.ml" 100 3959 3991 "src/oUnitLogger.ml" 100 3959 4015
+)
+"src/oUnitLogger.ml" 100 3959 3975 "src/oUnitLogger.ml" 100 3959 3987
+type(
+  ('a, 'b) global_event
+)
+"src/oUnitLogger.ml" 100 3959 3991 "src/oUnitLogger.ml" 100 3959 3994
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref spf "src/oUnitLogger.ml" 89 3700 3706 "src/oUnitLogger.ml" 89 3700 3709
+)
+"src/oUnitLogger.ml" 100 3959 3995 "src/oUnitLogger.ml" 100 3959 4011
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/oUnitLogger.ml" 100 3959 4012 "src/oUnitLogger.ml" 100 3959 4013
+type(
+  string
+)
+ident(
+  int_ref k "src/oUnitLogger.ml" 100 3959 3982 "src/oUnitLogger.ml" 100 3959 3983
+)
+"src/oUnitLogger.ml" 100 3959 4014 "src/oUnitLogger.ml" 100 3959 4015
+type(
+  string
+)
+ident(
+  int_ref v "src/oUnitLogger.ml" 100 3959 3985 "src/oUnitLogger.ml" 100 3959 3986
+)
+"src/oUnitLogger.ml" 100 3959 3991 "src/oUnitLogger.ml" 100 3959 4015
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitLogger.ml" 101 4016 4038 "src/oUnitLogger.ml" 101 4016 4041
+type(
+  log_severity
+)
+ident(
+  def lvl "src/oUnitLogger.ml" 102 4049 4067 "src/oUnitLogger.ml" 102 4049 4117
+)
+"src/oUnitLogger.ml" 101 4016 4043 "src/oUnitLogger.ml" 101 4016 4044
+type(
+  string
+)
+ident(
+  def s "src/oUnitLogger.ml" 102 4049 4067 "src/oUnitLogger.ml" 102 4049 4117
+)
+"src/oUnitLogger.ml" 101 4016 4032 "src/oUnitLogger.ml" 101 4016 4045
+type(
+  ('a, 'b) global_event
+)
+"src/oUnitLogger.ml" 102 4049 4067 "src/oUnitLogger.ml" 102 4049 4070
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref spf "src/oUnitLogger.ml" 89 3700 3706 "src/oUnitLogger.ml" 89 3700 3709
+)
+"src/oUnitLogger.ml" 102 4049 4071 "src/oUnitLogger.ml" 102 4049 4086
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/oUnitLogger.ml" 102 4049 4088 "src/oUnitLogger.ml" 102 4049 4110
+type(
+  log_severity -> string
+)
+ident(
+  int_ref string_of_log_severity "src/oUnitLogger.ml" 90 3738 3744 "src/oUnitLogger.ml" 90 3738 3766
+)
+"src/oUnitLogger.ml" 102 4049 4111 "src/oUnitLogger.ml" 102 4049 4114
+type(
+  log_severity
+)
+ident(
+  int_ref lvl "src/oUnitLogger.ml" 101 4016 4038 "src/oUnitLogger.ml" 101 4016 4041
+)
+"src/oUnitLogger.ml" 102 4049 4087 "src/oUnitLogger.ml" 102 4049 4115
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLogger.ml" 102 4049 4116 "src/oUnitLogger.ml" 102 4049 4117
+type(
+  string
+)
+ident(
+  int_ref s "src/oUnitLogger.ml" 101 4016 4043 "src/oUnitLogger.ml" 101 4016 4044
+)
+"src/oUnitLogger.ml" 102 4049 4067 "src/oUnitLogger.ml" 102 4049 4117
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitLogger.ml" 103 4118 4134 "src/oUnitLogger.ml" 103 4118 4140
+type(
+  ('a, 'b) global_event
+)
+"src/oUnitLogger.ml" 103 4118 4144 "src/oUnitLogger.ml" 103 4118 4152
+type(
+  string
+)
+"src/oUnitLogger.ml" 104 4153 4169 "src/oUnitLogger.ml" 104 4153 4173
+type(
+  ('a, 'b) global_event
+)
+"src/oUnitLogger.ml" 104 4153 4177 "src/oUnitLogger.ml" 104 4153 4183
+type(
+  string
+)
+"src/oUnitLogger.ml" 105 4184 4209 "src/oUnitLogger.ml" 105 4184 4210
+type(
+  float * ('a, 'b) result_full list * int
+)
+"src/oUnitLogger.ml" 105 4184 4200 "src/oUnitLogger.ml" 105 4184 4210
+type(
+  ('a, 'b) global_event
+)
+"src/oUnitLogger.ml" 105 4184 4214 "src/oUnitLogger.ml" 105 4184 4224
+type(
+  string
+)
+"src/oUnitLogger.ml" 98 3918 3928 "src/oUnitLogger.ml" 106 4225 4238
+type(
+  string
+)
+"src/oUnitLogger.ml" 107 4239 4258 "src/oUnitLogger.ml" 107 4239 4262
+type(
+  'a
+)
+ident(
+  def path "src/oUnitLogger.ml" 108 4271 4281 "src/oUnitLogger.ml" 120 4656 4669
+)
+"src/oUnitLogger.ml" 107 4239 4265 "src/oUnitLogger.ml" 107 4239 4266
+type(
+  'b test_event
+)
+ident(
+  def e "src/oUnitLogger.ml" 108 4271 4281 "src/oUnitLogger.ml" 120 4656 4669
+)
+"src/oUnitLogger.ml" 107 4239 4247 "src/oUnitLogger.ml" 107 4239 4267
+type(
+  ('a, 'b) log_event_t
+)
+"src/oUnitLogger.ml" 109 4287 4305 "src/oUnitLogger.ml" 109 4287 4306
+type(
+  'b test_event
+)
+ident(
+  int_ref e "src/oUnitLogger.ml" 107 4239 4265 "src/oUnitLogger.ml" 107 4239 4266
+)
+"src/oUnitLogger.ml" 110 4312 4328 "src/oUnitLogger.ml" 110 4312 4334
+type(
+  'b test_event
+)
+"src/oUnitLogger.ml" 111 4338 4356 "src/oUnitLogger.ml" 111 4338 4364
+type(
+  string
+)
+"src/oUnitLogger.ml" 112 4365 4381 "src/oUnitLogger.ml" 112 4365 4385
+type(
+  'b test_event
+)
+"src/oUnitLogger.ml" 113 4389 4407 "src/oUnitLogger.ml" 113 4389 4413
+type(
+  string
+)
+"src/oUnitLogger.ml" 114 4414 4438 "src/oUnitLogger.ml" 114 4414 4444
+type(
+  'b
+)
+ident(
+  def result "src/oUnitLogger.ml" 115 4448 4466 "src/oUnitLogger.ml" 115 4448 4479
+)
+"src/oUnitLogger.ml" 114 4414 4430 "src/oUnitLogger.ml" 114 4414 4444
+type(
+  'b test_event
+)
+"src/oUnitLogger.ml" 115 4448 4466 "src/oUnitLogger.ml" 115 4448 4479
+type(
+  string
+)
+"src/oUnitLogger.ml" 116 4480 4502 "src/oUnitLogger.ml" 116 4480 4505
+type(
+  log_severity
+)
+ident(
+  def lvl "src/oUnitLogger.ml" 117 4515 4533 "src/oUnitLogger.ml" 117 4515 4585
+)
+"src/oUnitLogger.ml" 116 4480 4507 "src/oUnitLogger.ml" 116 4480 4510
+type(
+  string
+)
+ident(
+  def str "src/oUnitLogger.ml" 117 4515 4533 "src/oUnitLogger.ml" 117 4515 4585
+)
+"src/oUnitLogger.ml" 116 4480 4496 "src/oUnitLogger.ml" 116 4480 4511
+type(
+  'b test_event
+)
+"src/oUnitLogger.ml" 117 4515 4533 "src/oUnitLogger.ml" 117 4515 4536
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref spf "src/oUnitLogger.ml" 89 3700 3706 "src/oUnitLogger.ml" 89 3700 3709
+)
+"src/oUnitLogger.ml" 117 4515 4537 "src/oUnitLogger.ml" 117 4515 4552
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/oUnitLogger.ml" 117 4515 4554 "src/oUnitLogger.ml" 117 4515 4576
+type(
+  log_severity -> string
+)
+ident(
+  int_ref string_of_log_severity "src/oUnitLogger.ml" 90 3738 3744 "src/oUnitLogger.ml" 90 3738 3766
+)
+"src/oUnitLogger.ml" 117 4515 4577 "src/oUnitLogger.ml" 117 4515 4580
+type(
+  log_severity
+)
+ident(
+  int_ref lvl "src/oUnitLogger.ml" 116 4480 4502 "src/oUnitLogger.ml" 116 4480 4505
+)
+"src/oUnitLogger.ml" 117 4515 4553 "src/oUnitLogger.ml" 117 4515 4581
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLogger.ml" 117 4515 4582 "src/oUnitLogger.ml" 117 4515 4585
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitLogger.ml" 116 4480 4507 "src/oUnitLogger.ml" 116 4480 4510
+)
+"src/oUnitLogger.ml" 117 4515 4533 "src/oUnitLogger.ml" 117 4515 4585
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitLogger.ml" 118 4586 4610 "src/oUnitLogger.ml" 118 4586 4613
+type(
+  string
+)
+ident(
+  def str "src/oUnitLogger.ml" 119 4617 4635 "src/oUnitLogger.ml" 119 4617 4655
+)
+"src/oUnitLogger.ml" 118 4586 4602 "src/oUnitLogger.ml" 118 4586 4613
+type(
+  'b test_event
+)
+"src/oUnitLogger.ml" 119 4617 4635 "src/oUnitLogger.ml" 119 4617 4638
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref spf "src/oUnitLogger.ml" 89 3700 3706 "src/oUnitLogger.ml" 89 3700 3709
+)
+"src/oUnitLogger.ml" 119 4617 4639 "src/oUnitLogger.ml" 119 4617 4651
+type(
+  (string -> string, unit, string) format
+)
+"src/oUnitLogger.ml" 119 4617 4652 "src/oUnitLogger.ml" 119 4617 4655
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitLogger.ml" 118 4586 4610 "src/oUnitLogger.ml" 118 4586 4613
+)
+"src/oUnitLogger.ml" 119 4617 4635 "src/oUnitLogger.ml" 119 4617 4655
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitLogger.ml" 108 4271 4281 "src/oUnitLogger.ml" 120 4656 4669
+type(
+  string
+)
+"src/oUnitLogger.ml" 96 3875 3879 "src/oUnitLogger.ml" 120 4656 4669
+type(
+  string
+)
+"src/oUnitLogger.ml" 90 3738 3740 "src/oUnitLogger.ml" 120 4656 4669
+type(
+  string
+)
+"src/oUnitLogger.ml" 89 3700 3702 "src/oUnitLogger.ml" 120 4656 4669
+type(
+  string
+)
+"src/oUnitLogger.ml" 123 4672 4676 "src/oUnitLogger.ml" 123 4672 4687
+type(
+  ('a, 'b) logger
+)
+ident(
+  def null_logger "src/oUnitLogger.ml" 132 4801 4801 "src/oUnitLogger.ml" 1 0 -1
+)
+"src/oUnitLogger.ml" 125 4694 4707 "src/oUnitLogger.ml" 125 4694 4720
+type(
+  string
+)
+ident(
+  int_ref shard_default "src/oUnitLogger.ml" 86 3634 3638 "src/oUnitLogger.ml" 86 3634 3651
+)
+"src/oUnitLogger.ml" 126 4722 4735 "src/oUnitLogger.ml" 126 4722 4741
+type(
+  ('a, 'b) log_event -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/oUnitLogger.ml" 127 4743 4761 "src/oUnitLogger.ml" 127 4743 4763
+type(
+  unit
+)
+"src/oUnitLogger.ml" 127 4743 4767 "src/oUnitLogger.ml" 127 4743 4771
+type(
+  position option
+)
+"src/oUnitLogger.ml" 127 4743 4756 "src/oUnitLogger.ml" 127 4743 4772
+type(
+  unit -> position option
+)
+"src/oUnitLogger.ml" 128 4774 4787 "src/oUnitLogger.ml" 128 4774 4793
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/oUnitLogger.ml" 124 4690 4692 "src/oUnitLogger.ml" 129 4795 4798
+type(
+  ('a, 'b) logger
+)
+"src/oUnitLogger.ml" 132 4801 4805 "src/oUnitLogger.ml" 132 4801 4815
+type(
+  (('a, 'b) log_event -> unit) -> (unit -> unit) -> ('a, 'b) logger
+)
+ident(
+  def fun_logger "src/oUnitLogger.ml" 140 4965 4965 "src/oUnitLogger.ml" 1 0 -1
+)
+"src/oUnitLogger.ml" 132 4801 4816 "src/oUnitLogger.ml" 132 4801 4822
+type(
+  ('a, 'b) log_event -> unit
+)
+ident(
+  def fwrite "src/oUnitLogger.ml" 132 4801 4823 "src/oUnitLogger.ml" 138 4960 4963
+)
+"src/oUnitLogger.ml" 132 4801 4823 "src/oUnitLogger.ml" 132 4801 4829
+type(
+  unit -> unit
+)
+ident(
+  def fclose "src/oUnitLogger.ml" 133 4832 4834 "src/oUnitLogger.ml" 138 4960 4963
+)
+"src/oUnitLogger.ml" 134 4836 4849 "src/oUnitLogger.ml" 134 4836 4862
+type(
+  string
+)
+ident(
+  int_ref shard_default "src/oUnitLogger.ml" 86 3634 3638 "src/oUnitLogger.ml" 86 3634 3651
+)
+"src/oUnitLogger.ml" 135 4864 4882 "src/oUnitLogger.ml" 135 4864 4888
+type(
+  ('a, 'b) log_event
+)
+ident(
+  def log_ev "src/oUnitLogger.ml" 135 4864 4892 "src/oUnitLogger.ml" 135 4864 4905
+)
+"src/oUnitLogger.ml" 135 4864 4892 "src/oUnitLogger.ml" 135 4864 4898
+type(
+  ('a, 'b) log_event -> unit
+)
+ident(
+  int_ref fwrite "src/oUnitLogger.ml" 132 4801 4816 "src/oUnitLogger.ml" 132 4801 4822
+)
+"src/oUnitLogger.ml" 135 4864 4899 "src/oUnitLogger.ml" 135 4864 4905
+type(
+  ('a, 'b) log_event
+)
+ident(
+  int_ref log_ev "src/oUnitLogger.ml" 135 4864 4882 "src/oUnitLogger.ml" 135 4864 4888
+)
+"src/oUnitLogger.ml" 135 4864 4892 "src/oUnitLogger.ml" 135 4864 4905
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLogger.ml" 135 4864 4877 "src/oUnitLogger.ml" 135 4864 4906
+type(
+  ('a, 'b) log_event -> unit
+)
+"src/oUnitLogger.ml" 136 4908 4926 "src/oUnitLogger.ml" 136 4908 4928
+type(
+  unit
+)
+"src/oUnitLogger.ml" 136 4908 4932 "src/oUnitLogger.ml" 136 4908 4936
+type(
+  position option
+)
+"src/oUnitLogger.ml" 136 4908 4921 "src/oUnitLogger.ml" 136 4908 4937
+type(
+  unit -> position option
+)
+"src/oUnitLogger.ml" 137 4939 4952 "src/oUnitLogger.ml" 137 4939 4958
+type(
+  unit -> unit
+)
+ident(
+  int_ref fclose "src/oUnitLogger.ml" 132 4801 4823 "src/oUnitLogger.ml" 132 4801 4829
+)
+"src/oUnitLogger.ml" 133 4832 4834 "src/oUnitLogger.ml" 138 4960 4963
+type(
+  ('a, 'b) logger
+)
+"src/oUnitLogger.ml" 140 4965 4969 "src/oUnitLogger.ml" 140 4965 4980
+type(
+  (('a, 'b) log_event list -> unit) -> ('a, 'b) logger
+)
+ident(
+  def post_logger "src/oUnitLogger.ml" 151 5219 5219 "src/oUnitLogger.ml" 1 0 -1
+)
+"src/oUnitLogger.ml" 140 4965 4981 "src/oUnitLogger.ml" 140 4965 4986
+type(
+  ('a, 'b) log_event list -> unit
+)
+ident(
+  def fpost "src/oUnitLogger.ml" 141 4989 4991 "src/oUnitLogger.ml" 149 5212 5217
+)
+"src/oUnitLogger.ml" 141 4989 4995 "src/oUnitLogger.ml" 141 4989 4999
+type(
+  ('a, 'b) log_event list ref
+)
+ident(
+  def data "src/oUnitLogger.ml" 142 5012 5014 "src/oUnitLogger.ml" 149 5212 5217
+)
+"src/oUnitLogger.ml" 141 4989 5002 "src/oUnitLogger.ml" 141 4989 5005
+type(
+  ('a, 'b) log_event list -> ('a, 'b) log_event list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitLogger.ml" 141 4989 5006 "src/oUnitLogger.ml" 141 4989 5008
+type(
+  ('a, 'b) log_event list
+)
+"src/oUnitLogger.ml" 141 4989 5002 "src/oUnitLogger.ml" 141 4989 5008
+type(
+  ('a, 'b) log_event list ref
+)
+"src/oUnitLogger.ml" 142 5012 5018 "src/oUnitLogger.ml" 142 5012 5024
+type(
+  ('a, 'b) log_event -> unit
+)
+ident(
+  def fwrite "src/oUnitLogger.ml" 143 5053 5055 "src/oUnitLogger.ml" 149 5212 5217
+)
+"src/oUnitLogger.ml" 142 5012 5025 "src/oUnitLogger.ml" 142 5012 5027
+type(
+  ('a, 'b) log_event
+)
+ident(
+  def ev "src/oUnitLogger.ml" 142 5012 5030 "src/oUnitLogger.ml" 142 5012 5049
+)
+"src/oUnitLogger.ml" 142 5012 5030 "src/oUnitLogger.ml" 142 5012 5034
+type(
+  ('a, 'b) log_event list ref
+)
+ident(
+  int_ref data "src/oUnitLogger.ml" 141 4989 4995 "src/oUnitLogger.ml" 141 4989 4999
+)
+"src/oUnitLogger.ml" 142 5012 5035 "src/oUnitLogger.ml" 142 5012 5037
+type(
+  ('a, 'b) log_event list ref -> ('a, 'b) log_event list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitLogger.ml" 142 5012 5038 "src/oUnitLogger.ml" 142 5012 5040
+type(
+  ('a, 'b) log_event
+)
+ident(
+  int_ref ev "src/oUnitLogger.ml" 142 5012 5025 "src/oUnitLogger.ml" 142 5012 5027
+)
+"src/oUnitLogger.ml" 142 5012 5044 "src/oUnitLogger.ml" 142 5012 5045
+type(
+  ('a, 'b) log_event list ref -> ('a, 'b) log_event list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitLogger.ml" 142 5012 5045 "src/oUnitLogger.ml" 142 5012 5049
+type(
+  ('a, 'b) log_event list ref
+)
+ident(
+  int_ref data "src/oUnitLogger.ml" 141 4989 4995 "src/oUnitLogger.ml" 141 4989 4999
+)
+"src/oUnitLogger.ml" 142 5012 5044 "src/oUnitLogger.ml" 142 5012 5049
+type(
+  ('a, 'b) log_event list
+)
+"src/oUnitLogger.ml" 142 5012 5038 "src/oUnitLogger.ml" 142 5012 5049
+type(
+  ('a, 'b) log_event list
+)
+"src/oUnitLogger.ml" 142 5012 5030 "src/oUnitLogger.ml" 142 5012 5049
+type(
+  unit
+)
+"src/oUnitLogger.ml" 143 5053 5059 "src/oUnitLogger.ml" 143 5053 5065
+type(
+  unit -> unit
+)
+ident(
+  def fclose "src/oUnitLogger.ml" 144 5097 5101 "src/oUnitLogger.ml" 149 5212 5217
+)
+"src/oUnitLogger.ml" 143 5053 5066 "src/oUnitLogger.ml" 143 5053 5068
+type(
+  unit
+)
+"src/oUnitLogger.ml" 143 5053 5071 "src/oUnitLogger.ml" 143 5053 5076
+type(
+  ('a, 'b) log_event list -> unit
+)
+ident(
+  int_ref fpost "src/oUnitLogger.ml" 140 4965 4981 "src/oUnitLogger.ml" 140 4965 4986
+)
+"src/oUnitLogger.ml" 143 5053 5078 "src/oUnitLogger.ml" 143 5053 5086
+type(
+  ('a, 'b) log_event list -> ('a, 'b) log_event list
+)
+ident(
+  ext_ref List.rev
+)
+"src/oUnitLogger.ml" 143 5053 5087 "src/oUnitLogger.ml" 143 5053 5088
+type(
+  ('a, 'b) log_event list ref -> ('a, 'b) log_event list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitLogger.ml" 143 5053 5088 "src/oUnitLogger.ml" 143 5053 5092
+type(
+  ('a, 'b) log_event list ref
+)
+ident(
+  int_ref data "src/oUnitLogger.ml" 141 4989 4995 "src/oUnitLogger.ml" 141 4989 4999
+)
+"src/oUnitLogger.ml" 143 5053 5087 "src/oUnitLogger.ml" 143 5053 5092
+type(
+  ('a, 'b) log_event list
+)
+"src/oUnitLogger.ml" 143 5053 5077 "src/oUnitLogger.ml" 143 5053 5093
+call(
+  stack
+)
+type(
+  ('a, 'b) log_event list
+)
+"src/oUnitLogger.ml" 143 5053 5071 "src/oUnitLogger.ml" 143 5053 5093
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLogger.ml" 145 5103 5118 "src/oUnitLogger.ml" 145 5103 5131
+type(
+  string
+)
+ident(
+  int_ref shard_default "src/oUnitLogger.ml" 86 3634 3638 "src/oUnitLogger.ml" 86 3634 3651
+)
+"src/oUnitLogger.ml" 146 5133 5148 "src/oUnitLogger.ml" 146 5133 5154
+type(
+  ('a, 'b) log_event -> unit
+)
+ident(
+  int_ref fwrite "src/oUnitLogger.ml" 142 5012 5018 "src/oUnitLogger.ml" 142 5012 5024
+)
+"src/oUnitLogger.ml" 147 5156 5176 "src/oUnitLogger.ml" 147 5156 5178
+type(
+  unit
+)
+"src/oUnitLogger.ml" 147 5156 5182 "src/oUnitLogger.ml" 147 5156 5186
+type(
+  position option
+)
+"src/oUnitLogger.ml" 147 5156 5171 "src/oUnitLogger.ml" 147 5156 5187
+type(
+  unit -> position option
+)
+"src/oUnitLogger.ml" 148 5189 5204 "src/oUnitLogger.ml" 148 5189 5210
+type(
+  unit -> unit
+)
+ident(
+  int_ref fclose "src/oUnitLogger.ml" 143 5053 5059 "src/oUnitLogger.ml" 143 5053 5065
+)
+"src/oUnitLogger.ml" 144 5097 5101 "src/oUnitLogger.ml" 149 5212 5217
+type(
+  ('a, 'b) logger
+)
+"src/oUnitLogger.ml" 143 5053 5055 "src/oUnitLogger.ml" 149 5212 5217
+type(
+  ('a, 'b) logger
+)
+"src/oUnitLogger.ml" 142 5012 5014 "src/oUnitLogger.ml" 149 5212 5217
+type(
+  ('a, 'b) logger
+)
+"src/oUnitLogger.ml" 141 4989 4991 "src/oUnitLogger.ml" 149 5212 5217
+type(
+  ('a, 'b) logger
+)
+"src/oUnitLogger.ml" 151 5219 5223 "src/oUnitLogger.ml" 151 5219 5232
+type(
+  string -> ('a, 'b) logger -> ('a, 'b) logger
+)
+ident(
+  def set_shard "src/oUnitLogger.ml" 154 5280 5280 "src/oUnitLogger.ml" 1 0 -1
+)
+"src/oUnitLogger.ml" 151 5219 5233 "src/oUnitLogger.ml" 151 5219 5238
+type(
+  string
+)
+ident(
+  def shard "src/oUnitLogger.ml" 151 5219 5239 "src/oUnitLogger.ml" 152 5248 5278
+)
+"src/oUnitLogger.ml" 151 5219 5239 "src/oUnitLogger.ml" 151 5219 5245
+type(
+  ('a, 'b) logger
+)
+ident(
+  def logger "src/oUnitLogger.ml" 152 5248 5250 "src/oUnitLogger.ml" 152 5248 5278
+)
+"src/oUnitLogger.ml" 152 5248 5251 "src/oUnitLogger.ml" 152 5248 5257
+type(
+  ('a, 'b) logger
+)
+ident(
+  int_ref logger "src/oUnitLogger.ml" 151 5219 5239 "src/oUnitLogger.ml" 151 5219 5245
+)
+"src/oUnitLogger.ml" 152 5248 5272 "src/oUnitLogger.ml" 152 5248 5277
+type(
+  string
+)
+ident(
+  int_ref shard "src/oUnitLogger.ml" 151 5219 5233 "src/oUnitLogger.ml" 151 5219 5238
+)
+"src/oUnitLogger.ml" 152 5248 5250 "src/oUnitLogger.ml" 152 5248 5278
+type(
+  ('a, 'b) logger
+)
+"src/oUnitLogger.ml" 154 5280 5284 "src/oUnitLogger.ml" 154 5280 5290
+type(
+  ('a, 'b) logger -> ('a, 'b) log_event_t -> unit
+)
+ident(
+  def report "src/oUnitLogger.ml" 162 5405 5405 "src/oUnitLogger.ml" 1 0 -1
+)
+"src/oUnitLogger.ml" 154 5280 5291 "src/oUnitLogger.ml" 154 5280 5297
+type(
+  ('a, 'b) logger
+)
+ident(
+  def logger "src/oUnitLogger.ml" 154 5280 5298 "src/oUnitLogger.ml" 160 5398 5403
+)
+"src/oUnitLogger.ml" 154 5280 5298 "src/oUnitLogger.ml" 154 5280 5300
+type(
+  ('a, 'b) log_event_t
+)
+ident(
+  def ev "src/oUnitLogger.ml" 155 5303 5305 "src/oUnitLogger.ml" 160 5398 5403
+)
+"src/oUnitLogger.ml" 155 5303 5305 "src/oUnitLogger.ml" 155 5303 5311
+type(
+  ('a, 'b) logger
+)
+ident(
+  int_ref logger "src/oUnitLogger.ml" 154 5280 5291 "src/oUnitLogger.ml" 154 5280 5297
+)
+"src/oUnitLogger.ml" 155 5303 5305 "src/oUnitLogger.ml" 155 5303 5318
+type(
+  ('a, 'b) log_event -> unit
+)
+"src/oUnitLogger.ml" 157 5325 5339 "src/oUnitLogger.ml" 157 5325 5345
+type(
+  ('a, 'b) logger
+)
+ident(
+  int_ref logger "src/oUnitLogger.ml" 154 5280 5291 "src/oUnitLogger.ml" 154 5280 5297
+)
+"src/oUnitLogger.ml" 157 5325 5339 "src/oUnitLogger.ml" 157 5325 5352
+type(
+  string
+)
+"src/oUnitLogger.ml" 158 5354 5372 "src/oUnitLogger.ml" 158 5354 5375
+type(
+  unit -> float
+)
+ident(
+  ext_ref OUnitUtils.now
+)
+"src/oUnitLogger.ml" 158 5354 5376 "src/oUnitLogger.ml" 158 5354 5378
+type(
+  unit
+)
+"src/oUnitLogger.ml" 158 5354 5372 "src/oUnitLogger.ml" 158 5354 5378
+call(
+  stack
+)
+type(
+  float
+)
+"src/oUnitLogger.ml" 159 5380 5394 "src/oUnitLogger.ml" 159 5380 5396
+type(
+  ('a, 'b) log_event_t
+)
+ident(
+  int_ref ev "src/oUnitLogger.ml" 154 5280 5298 "src/oUnitLogger.ml" 154 5280 5300
+)
+"src/oUnitLogger.ml" 156 5319 5323 "src/oUnitLogger.ml" 160 5398 5403
+type(
+  ('a, 'b) log_event
+)
+"src/oUnitLogger.ml" 155 5303 5305 "src/oUnitLogger.ml" 160 5398 5403
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLogger.ml" 162 5405 5409 "src/oUnitLogger.ml" 162 5405 5414
+type(
+  ('a, 'b) logger -> ('c, unit, string, unit) format4 -> 'c
+)
+ident(
+  def infof "src/oUnitLogger.ml" 167 5520 5520 "src/oUnitLogger.ml" 1 0 -1
+)
+"src/oUnitLogger.ml" 162 5405 5415 "src/oUnitLogger.ml" 162 5405 5421
+type(
+  ('a, 'b) logger
+)
+ident(
+  def logger "src/oUnitLogger.ml" 162 5405 5422 "src/oUnitLogger.ml" 165 5511 5518
+)
+"src/oUnitLogger.ml" 162 5405 5422 "src/oUnitLogger.ml" 162 5405 5425
+type(
+  ('c, unit, string, unit) format4
+)
+ident(
+  def fmt "src/oUnitLogger.ml" 163 5428 5430 "src/oUnitLogger.ml" 165 5511 5518
+)
+"src/oUnitLogger.ml" 163 5428 5430 "src/oUnitLogger.ml" 163 5428 5445
+type(
+  (string -> unit) -> ('c, unit, string, unit) format4 -> 'c
+)
+ident(
+  ext_ref Printf.ksprintf
+)
+"src/oUnitLogger.ml" 164 5446 5455 "src/oUnitLogger.ml" 164 5446 5458
+type(
+  string
+)
+ident(
+  def str "src/oUnitLogger.ml" 164 5446 5462 "src/oUnitLogger.ml" 164 5446 5509
+)
+"src/oUnitLogger.ml" 164 5446 5462 "src/oUnitLogger.ml" 164 5446 5468
+type(
+  ('a, 'b) logger -> ('a, 'b) log_event_t -> unit
+)
+ident(
+  int_ref report "src/oUnitLogger.ml" 154 5280 5284 "src/oUnitLogger.ml" 154 5280 5290
+)
+"src/oUnitLogger.ml" 164 5446 5469 "src/oUnitLogger.ml" 164 5446 5475
+type(
+  ('a, 'b) logger
+)
+ident(
+  int_ref logger "src/oUnitLogger.ml" 162 5405 5415 "src/oUnitLogger.ml" 162 5405 5421
+)
+"src/oUnitLogger.ml" 164 5446 5496 "src/oUnitLogger.ml" 164 5446 5501
+type(
+  log_severity
+)
+"src/oUnitLogger.ml" 164 5446 5503 "src/oUnitLogger.ml" 164 5446 5506
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitLogger.ml" 164 5446 5455 "src/oUnitLogger.ml" 164 5446 5458
+)
+"src/oUnitLogger.ml" 164 5446 5489 "src/oUnitLogger.ml" 164 5446 5508
+type(
+  ('a, 'b) global_event
+)
+"src/oUnitLogger.ml" 164 5446 5476 "src/oUnitLogger.ml" 164 5446 5509
+type(
+  ('a, 'b) log_event_t
+)
+"src/oUnitLogger.ml" 164 5446 5462 "src/oUnitLogger.ml" 164 5446 5509
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLogger.ml" 164 5446 5450 "src/oUnitLogger.ml" 164 5446 5510
+type(
+  string -> unit
+)
+"src/oUnitLogger.ml" 165 5511 5515 "src/oUnitLogger.ml" 165 5511 5518
+type(
+  ('c, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "src/oUnitLogger.ml" 162 5405 5422 "src/oUnitLogger.ml" 162 5405 5425
+)
+"src/oUnitLogger.ml" 163 5428 5430 "src/oUnitLogger.ml" 165 5511 5518
+call(
+  tail
+)
+type(
+  'c
+)
+"src/oUnitLogger.ml" 167 5520 5524 "src/oUnitLogger.ml" 167 5520 5532
+type(
+  ('a, 'b) logger -> ('c, unit, string, unit) format4 -> 'c
+)
+ident(
+  def warningf "src/oUnitLogger.ml" 172 5641 5641 "src/oUnitLogger.ml" 1 0 -1
+)
+"src/oUnitLogger.ml" 167 5520 5533 "src/oUnitLogger.ml" 167 5520 5539
+type(
+  ('a, 'b) logger
+)
+ident(
+  def logger "src/oUnitLogger.ml" 167 5520 5540 "src/oUnitLogger.ml" 170 5632 5639
+)
+"src/oUnitLogger.ml" 167 5520 5540 "src/oUnitLogger.ml" 167 5520 5543
+type(
+  ('c, unit, string, unit) format4
+)
+ident(
+  def fmt "src/oUnitLogger.ml" 168 5546 5548 "src/oUnitLogger.ml" 170 5632 5639
+)
+"src/oUnitLogger.ml" 168 5546 5548 "src/oUnitLogger.ml" 168 5546 5563
+type(
+  (string -> unit) -> ('c, unit, string, unit) format4 -> 'c
+)
+ident(
+  ext_ref Printf.ksprintf
+)
+"src/oUnitLogger.ml" 169 5564 5573 "src/oUnitLogger.ml" 169 5564 5576
+type(
+  string
+)
+ident(
+  def str "src/oUnitLogger.ml" 169 5564 5580 "src/oUnitLogger.ml" 169 5564 5630
+)
+"src/oUnitLogger.ml" 169 5564 5580 "src/oUnitLogger.ml" 169 5564 5586
+type(
+  ('a, 'b) logger -> ('a, 'b) log_event_t -> unit
+)
+ident(
+  int_ref report "src/oUnitLogger.ml" 154 5280 5284 "src/oUnitLogger.ml" 154 5280 5290
+)
+"src/oUnitLogger.ml" 169 5564 5587 "src/oUnitLogger.ml" 169 5564 5593
+type(
+  ('a, 'b) logger
+)
+ident(
+  int_ref logger "src/oUnitLogger.ml" 167 5520 5533 "src/oUnitLogger.ml" 167 5520 5539
+)
+"src/oUnitLogger.ml" 169 5564 5614 "src/oUnitLogger.ml" 169 5564 5622
+type(
+  log_severity
+)
+"src/oUnitLogger.ml" 169 5564 5624 "src/oUnitLogger.ml" 169 5564 5627
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitLogger.ml" 169 5564 5573 "src/oUnitLogger.ml" 169 5564 5576
+)
+"src/oUnitLogger.ml" 169 5564 5607 "src/oUnitLogger.ml" 169 5564 5629
+type(
+  ('a, 'b) global_event
+)
+"src/oUnitLogger.ml" 169 5564 5594 "src/oUnitLogger.ml" 169 5564 5630
+type(
+  ('a, 'b) log_event_t
+)
+"src/oUnitLogger.ml" 169 5564 5580 "src/oUnitLogger.ml" 169 5564 5630
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLogger.ml" 169 5564 5568 "src/oUnitLogger.ml" 169 5564 5631
+type(
+  string -> unit
+)
+"src/oUnitLogger.ml" 170 5632 5636 "src/oUnitLogger.ml" 170 5632 5639
+type(
+  ('c, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "src/oUnitLogger.ml" 167 5520 5540 "src/oUnitLogger.ml" 167 5520 5543
+)
+"src/oUnitLogger.ml" 168 5546 5548 "src/oUnitLogger.ml" 170 5632 5639
+call(
+  tail
+)
+type(
+  'c
+)
+"src/oUnitLogger.ml" 172 5641 5645 "src/oUnitLogger.ml" 172 5641 5651
+type(
+  ('a, 'b) logger -> ('c, unit, string, unit) format4 -> 'c
+)
+ident(
+  def errorf "src/oUnitLogger.ml" 177 5758 5758 "src/oUnitLogger.ml" 1 0 -1
+)
+"src/oUnitLogger.ml" 172 5641 5652 "src/oUnitLogger.ml" 172 5641 5658
+type(
+  ('a, 'b) logger
+)
+ident(
+  def logger "src/oUnitLogger.ml" 172 5641 5659 "src/oUnitLogger.ml" 175 5749 5756
+)
+"src/oUnitLogger.ml" 172 5641 5659 "src/oUnitLogger.ml" 172 5641 5662
+type(
+  ('c, unit, string, unit) format4
+)
+ident(
+  def fmt "src/oUnitLogger.ml" 173 5665 5667 "src/oUnitLogger.ml" 175 5749 5756
+)
+"src/oUnitLogger.ml" 173 5665 5667 "src/oUnitLogger.ml" 173 5665 5682
+type(
+  (string -> unit) -> ('c, unit, string, unit) format4 -> 'c
+)
+ident(
+  ext_ref Printf.ksprintf
+)
+"src/oUnitLogger.ml" 174 5683 5692 "src/oUnitLogger.ml" 174 5683 5695
+type(
+  string
+)
+ident(
+  def str "src/oUnitLogger.ml" 174 5683 5699 "src/oUnitLogger.ml" 174 5683 5747
+)
+"src/oUnitLogger.ml" 174 5683 5699 "src/oUnitLogger.ml" 174 5683 5705
+type(
+  ('a, 'b) logger -> ('a, 'b) log_event_t -> unit
+)
+ident(
+  int_ref report "src/oUnitLogger.ml" 154 5280 5284 "src/oUnitLogger.ml" 154 5280 5290
+)
+"src/oUnitLogger.ml" 174 5683 5706 "src/oUnitLogger.ml" 174 5683 5712
+type(
+  ('a, 'b) logger
+)
+ident(
+  int_ref logger "src/oUnitLogger.ml" 172 5641 5652 "src/oUnitLogger.ml" 172 5641 5658
+)
+"src/oUnitLogger.ml" 174 5683 5733 "src/oUnitLogger.ml" 174 5683 5739
+type(
+  log_severity
+)
+"src/oUnitLogger.ml" 174 5683 5741 "src/oUnitLogger.ml" 174 5683 5744
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitLogger.ml" 174 5683 5692 "src/oUnitLogger.ml" 174 5683 5695
+)
+"src/oUnitLogger.ml" 174 5683 5726 "src/oUnitLogger.ml" 174 5683 5746
+type(
+  ('a, 'b) global_event
+)
+"src/oUnitLogger.ml" 174 5683 5713 "src/oUnitLogger.ml" 174 5683 5747
+type(
+  ('a, 'b) log_event_t
+)
+"src/oUnitLogger.ml" 174 5683 5699 "src/oUnitLogger.ml" 174 5683 5747
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLogger.ml" 174 5683 5687 "src/oUnitLogger.ml" 174 5683 5748
+type(
+  string -> unit
+)
+"src/oUnitLogger.ml" 175 5749 5753 "src/oUnitLogger.ml" 175 5749 5756
+type(
+  ('c, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "src/oUnitLogger.ml" 172 5641 5659 "src/oUnitLogger.ml" 172 5641 5662
+)
+"src/oUnitLogger.ml" 173 5665 5667 "src/oUnitLogger.ml" 175 5749 5756
+call(
+  tail
+)
+type(
+  'c
+)
+"src/oUnitLogger.ml" 177 5758 5762 "src/oUnitLogger.ml" 177 5758 5770
+type(
+  ('a, 'b) logger -> position option
+)
+ident(
+  def position "src/oUnitLogger.ml" 180 5798 5798 "src/oUnitLogger.ml" 1 0 -1
+)
+"src/oUnitLogger.ml" 177 5758 5771 "src/oUnitLogger.ml" 177 5758 5777
+type(
+  ('a, 'b) logger
+)
+ident(
+  def logger "src/oUnitLogger.ml" 178 5780 5782 "src/oUnitLogger.ml" 178 5780 5796
+)
+"src/oUnitLogger.ml" 178 5780 5782 "src/oUnitLogger.ml" 178 5780 5788
+type(
+  ('a, 'b) logger
+)
+ident(
+  int_ref logger "src/oUnitLogger.ml" 177 5758 5771 "src/oUnitLogger.ml" 177 5758 5777
+)
+"src/oUnitLogger.ml" 178 5780 5782 "src/oUnitLogger.ml" 178 5780 5793
+type(
+  unit -> position option
+)
+"src/oUnitLogger.ml" 178 5780 5794 "src/oUnitLogger.ml" 178 5780 5796
+type(
+  unit
+)
+"src/oUnitLogger.ml" 178 5780 5782 "src/oUnitLogger.ml" 178 5780 5796
+call(
+  tail
+)
+type(
+  position option
+)
+"src/oUnitLogger.ml" 180 5798 5802 "src/oUnitLogger.ml" 180 5798 5807
+type(
+  ('a, 'b) logger -> unit
+)
+ident(
+  def close "src/oUnitLogger.ml" 183 5837 5837 "src/oUnitLogger.ml" 1 0 -1
+)
+"src/oUnitLogger.ml" 180 5798 5808 "src/oUnitLogger.ml" 180 5798 5814
+type(
+  ('a, 'b) logger
+)
+ident(
+  def logger "src/oUnitLogger.ml" 181 5817 5819 "src/oUnitLogger.ml" 181 5817 5835
+)
+"src/oUnitLogger.ml" 181 5817 5819 "src/oUnitLogger.ml" 181 5817 5825
+type(
+  ('a, 'b) logger
+)
+ident(
+  int_ref logger "src/oUnitLogger.ml" 180 5798 5808 "src/oUnitLogger.ml" 180 5798 5814
+)
+"src/oUnitLogger.ml" 181 5817 5819 "src/oUnitLogger.ml" 181 5817 5832
+type(
+  unit -> unit
+)
+"src/oUnitLogger.ml" 181 5817 5833 "src/oUnitLogger.ml" 181 5817 5835
+type(
+  unit
+)
+"src/oUnitLogger.ml" 181 5817 5819 "src/oUnitLogger.ml" 181 5817 5835
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLogger.ml" 183 5837 5841 "src/oUnitLogger.ml" 183 5837 5848
+type(
+  ('a, 'b) logger list -> ('a, 'b) logger
+)
+ident(
+  def combine "src/oUnitLogger.ml" 213 6504 6504 "src/oUnitLogger.ml" 1 0 -1
+)
+"src/oUnitLogger.ml" 183 5837 5849 "src/oUnitLogger.ml" 183 5837 5852
+type(
+  ('a, 'b) logger list
+)
+ident(
+  def lst "src/oUnitLogger.ml" 184 5855 5857 "src/oUnitLogger.ml" 211 6497 6502
+)
+"src/oUnitLogger.ml" 184 5855 5865 "src/oUnitLogger.ml" 184 5855 5869
+type(
+  ('c, 'd) logger list -> position option
+)
+ident(
+  def fpos "src/oUnitLogger.ml" 184 5855 5857 "src/oUnitLogger.ml" 211 6497 6502
+)
+"src/oUnitLogger.ml" 186 5885 5893 "src/oUnitLogger.ml" 186 5885 5899
+type(
+  ('c, 'd) logger
+)
+ident(
+  def logger "src/oUnitLogger.ml" 187 5909 5919 "src/oUnitLogger.ml" 193 6069 6082
+)
+"src/oUnitLogger.ml" 186 5885 5903 "src/oUnitLogger.ml" 186 5885 5905
+type(
+  ('c, 'd) logger list
+)
+ident(
+  def tl "src/oUnitLogger.ml" 187 5909 5919 "src/oUnitLogger.ml" 193 6069 6082
+)
+"src/oUnitLogger.ml" 186 5885 5893 "src/oUnitLogger.ml" 186 5885 5905
+type(
+  ('c, 'd) logger list
+)
+"src/oUnitLogger.ml" 188 5925 5943 "src/oUnitLogger.ml" 188 5925 5951
+type(
+  ('c, 'd) logger -> position option
+)
+ident(
+  int_ref position "src/oUnitLogger.ml" 177 5758 5762 "src/oUnitLogger.ml" 177 5758 5770
+)
+"src/oUnitLogger.ml" 188 5925 5952 "src/oUnitLogger.ml" 188 5925 5958
+type(
+  ('c, 'd) logger
+)
+ident(
+  int_ref logger "src/oUnitLogger.ml" 186 5885 5893 "src/oUnitLogger.ml" 186 5885 5899
+)
+"src/oUnitLogger.ml" 188 5925 5943 "src/oUnitLogger.ml" 188 5925 5958
+call(
+  stack
+)
+type(
+  position option
+)
+"src/oUnitLogger.ml" 189 5964 5985 "src/oUnitLogger.ml" 189 5964 5986
+type(
+  position
+)
+"src/oUnitLogger.ml" 189 5964 5980 "src/oUnitLogger.ml" 189 5964 5986
+type(
+  position option
+)
+"src/oUnitLogger.ml" 189 5964 5990 "src/oUnitLogger.ml" 189 5964 5993
+ident(
+  def pos "src/oUnitLogger.ml" 190 5997 6015 "src/oUnitLogger.ml" 190 5997 6018
+)
+"src/oUnitLogger.ml" 189 5964 5980 "src/oUnitLogger.ml" 189 5964 5993
+type(
+  position option
+)
+"src/oUnitLogger.ml" 190 5997 6015 "src/oUnitLogger.ml" 190 5997 6018
+type(
+  position option
+)
+ident(
+  int_ref pos "src/oUnitLogger.ml" 189 5964 5980 "src/oUnitLogger.ml" 189 5964 5993
+)
+"src/oUnitLogger.ml" 191 6019 6035 "src/oUnitLogger.ml" 191 6019 6039
+type(
+  position option
+)
+"src/oUnitLogger.ml" 192 6043 6061 "src/oUnitLogger.ml" 192 6043 6065
+type(
+  ('c, 'd) logger list -> position option
+)
+ident(
+  int_ref fpos "src/oUnitLogger.ml" 184 5855 5865 "src/oUnitLogger.ml" 184 5855 5869
+)
+"src/oUnitLogger.ml" 192 6043 6066 "src/oUnitLogger.ml" 192 6043 6068
+type(
+  ('c, 'd) logger list
+)
+ident(
+  int_ref tl "src/oUnitLogger.ml" 186 5885 5903 "src/oUnitLogger.ml" 186 5885 5905
+)
+"src/oUnitLogger.ml" 192 6043 6061 "src/oUnitLogger.ml" 192 6043 6068
+call(
+  tail
+)
+type(
+  position option
+)
+"src/oUnitLogger.ml" 187 5909 5919 "src/oUnitLogger.ml" 193 6069 6082
+type(
+  position option
+)
+"src/oUnitLogger.ml" 194 6083 6091 "src/oUnitLogger.ml" 194 6083 6093
+type(
+  ('c, 'd) logger list
+)
+"src/oUnitLogger.ml" 195 6097 6107 "src/oUnitLogger.ml" 195 6097 6111
+type(
+  position option
+)
+"src/oUnitLogger.ml" 185 5872 5876 "src/oUnitLogger.ml" 195 6097 6111
+type(
+  ('c, 'd) logger list -> position option
+)
+"src/oUnitLogger.ml" 197 6117 6123 "src/oUnitLogger.ml" 197 6117 6129
+type(
+  string
+)
+ident(
+  def lshard "src/oUnitLogger.ml" 200 6199 6203 "src/oUnitLogger.ml" 211 6497 6502
+)
+"src/oUnitLogger.ml" 198 6132 6142 "src/oUnitLogger.ml" 198 6132 6145
+type(
+  ('a, 'b) logger list
+)
+ident(
+  int_ref lst "src/oUnitLogger.ml" 183 5837 5849 "src/oUnitLogger.ml" 183 5837 5852
+)
+"src/oUnitLogger.ml" 198 6132 6151 "src/oUnitLogger.ml" 198 6132 6153
+type(
+  ('a, 'b) logger
+)
+ident(
+  def hd "src/oUnitLogger.ml" 198 6132 6162 "src/oUnitLogger.ml" 198 6132 6171
+)
+"src/oUnitLogger.ml" 198 6132 6157 "src/oUnitLogger.ml" 198 6132 6158
+type(
+  ('a, 'b) logger list
+)
+"src/oUnitLogger.ml" 198 6132 6151 "src/oUnitLogger.ml" 198 6132 6158
+type(
+  ('a, 'b) logger list
+)
+"src/oUnitLogger.ml" 198 6132 6162 "src/oUnitLogger.ml" 198 6132 6164
+type(
+  ('a, 'b) logger
+)
+ident(
+  int_ref hd "src/oUnitLogger.ml" 198 6132 6151 "src/oUnitLogger.ml" 198 6132 6153
+)
+"src/oUnitLogger.ml" 198 6132 6162 "src/oUnitLogger.ml" 198 6132 6171
+type(
+  string
+)
+"src/oUnitLogger.ml" 198 6132 6174 "src/oUnitLogger.ml" 198 6132 6176
+type(
+  ('a, 'b) logger list
+)
+"src/oUnitLogger.ml" 198 6132 6180 "src/oUnitLogger.ml" 198 6132 6193
+type(
+  string
+)
+ident(
+  int_ref shard_default "src/oUnitLogger.ml" 86 3634 3638 "src/oUnitLogger.ml" 86 3634 3651
+)
+"src/oUnitLogger.ml" 198 6132 6136 "src/oUnitLogger.ml" 198 6132 6193
+type(
+  string
+)
+"src/oUnitLogger.ml" 201 6205 6220 "src/oUnitLogger.ml" 201 6205 6226
+type(
+  string
+)
+ident(
+  int_ref lshard "src/oUnitLogger.ml" 197 6117 6123 "src/oUnitLogger.ml" 197 6117 6129
+)
+"src/oUnitLogger.ml" 203 6243 6256 "src/oUnitLogger.ml" 203 6243 6262
+type(
+  ('a, 'b) log_event
+)
+ident(
+  def log_ev "src/oUnitLogger.ml" 204 6266 6277 "src/oUnitLogger.ml" 206 6315 6356
+)
+"src/oUnitLogger.ml" 204 6266 6277 "src/oUnitLogger.ml" 204 6266 6286
+type(
+  (('a, 'b) logger -> unit) -> ('a, 'b) logger list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitLogger.ml" 205 6287 6305 "src/oUnitLogger.ml" 205 6287 6311
+type(
+  ('a, 'b) logger
+)
+ident(
+  def logger "src/oUnitLogger.ml" 206 6315 6331 "src/oUnitLogger.ml" 206 6315 6351
+)
+"src/oUnitLogger.ml" 206 6315 6331 "src/oUnitLogger.ml" 206 6315 6337
+type(
+  ('a, 'b) logger
+)
+ident(
+  int_ref logger "src/oUnitLogger.ml" 205 6287 6305 "src/oUnitLogger.ml" 205 6287 6311
+)
+"src/oUnitLogger.ml" 206 6315 6331 "src/oUnitLogger.ml" 206 6315 6344
+type(
+  ('a, 'b) log_event -> unit
+)
+"src/oUnitLogger.ml" 206 6315 6345 "src/oUnitLogger.ml" 206 6315 6351
+type(
+  ('a, 'b) log_event
+)
+ident(
+  int_ref log_ev "src/oUnitLogger.ml" 203 6243 6256 "src/oUnitLogger.ml" 203 6243 6262
+)
+"src/oUnitLogger.ml" 206 6315 6331 "src/oUnitLogger.ml" 206 6315 6351
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLogger.ml" 205 6287 6300 "src/oUnitLogger.ml" 206 6315 6352
+type(
+  ('a, 'b) logger -> unit
+)
+"src/oUnitLogger.ml" 206 6315 6353 "src/oUnitLogger.ml" 206 6315 6356
+type(
+  ('a, 'b) logger list
+)
+ident(
+  int_ref lst "src/oUnitLogger.ml" 183 5837 5849 "src/oUnitLogger.ml" 183 5837 5852
+)
+"src/oUnitLogger.ml" 204 6266 6277 "src/oUnitLogger.ml" 206 6315 6356
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLogger.ml" 203 6243 6251 "src/oUnitLogger.ml" 206 6315 6357
+type(
+  ('a, 'b) log_event -> unit
+)
+"src/oUnitLogger.ml" 207 6359 6379 "src/oUnitLogger.ml" 207 6359 6381
+type(
+  unit
+)
+"src/oUnitLogger.ml" 207 6359 6385 "src/oUnitLogger.ml" 207 6359 6389
+type(
+  ('a, 'b) logger list -> position option
+)
+ident(
+  int_ref fpos "src/oUnitLogger.ml" 184 5855 5865 "src/oUnitLogger.ml" 184 5855 5869
+)
+"src/oUnitLogger.ml" 207 6359 6390 "src/oUnitLogger.ml" 207 6359 6393
+type(
+  ('a, 'b) logger list
+)
+ident(
+  int_ref lst "src/oUnitLogger.ml" 183 5837 5849 "src/oUnitLogger.ml" 183 5837 5852
+)
+"src/oUnitLogger.ml" 207 6359 6385 "src/oUnitLogger.ml" 207 6359 6393
+call(
+  tail
+)
+type(
+  position option
+)
+"src/oUnitLogger.ml" 207 6359 6374 "src/oUnitLogger.ml" 207 6359 6394
+type(
+  unit -> position option
+)
+"src/oUnitLogger.ml" 209 6411 6424 "src/oUnitLogger.ml" 209 6411 6426
+type(
+  unit
+)
+"src/oUnitLogger.ml" 210 6430 6441 "src/oUnitLogger.ml" 210 6430 6450
+type(
+  (('a, 'b) logger -> unit) -> ('a, 'b) logger list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitLogger.ml" 210 6430 6456 "src/oUnitLogger.ml" 210 6430 6462
+type(
+  ('a, 'b) logger
+)
+ident(
+  def logger "src/oUnitLogger.ml" 210 6430 6466 "src/oUnitLogger.ml" 210 6430 6478
+)
+"src/oUnitLogger.ml" 210 6430 6466 "src/oUnitLogger.ml" 210 6430 6471
+type(
+  ('a, 'b) logger -> unit
+)
+ident(
+  int_ref close "src/oUnitLogger.ml" 180 5798 5802 "src/oUnitLogger.ml" 180 5798 5807
+)
+"src/oUnitLogger.ml" 210 6430 6472 "src/oUnitLogger.ml" 210 6430 6478
+type(
+  ('a, 'b) logger
+)
+ident(
+  int_ref logger "src/oUnitLogger.ml" 210 6430 6456 "src/oUnitLogger.ml" 210 6430 6462
+)
+"src/oUnitLogger.ml" 210 6430 6466 "src/oUnitLogger.ml" 210 6430 6478
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLogger.ml" 210 6430 6451 "src/oUnitLogger.ml" 210 6430 6479
+type(
+  ('a, 'b) logger -> unit
+)
+"src/oUnitLogger.ml" 210 6430 6481 "src/oUnitLogger.ml" 210 6430 6489
+type(
+  ('a, 'b) logger list -> ('a, 'b) logger list
+)
+ident(
+  ext_ref List.rev
+)
+"src/oUnitLogger.ml" 210 6430 6490 "src/oUnitLogger.ml" 210 6430 6493
+type(
+  ('a, 'b) logger list
+)
+ident(
+  int_ref lst "src/oUnitLogger.ml" 183 5837 5849 "src/oUnitLogger.ml" 183 5837 5852
+)
+"src/oUnitLogger.ml" 210 6430 6480 "src/oUnitLogger.ml" 210 6430 6494
+call(
+  stack
+)
+type(
+  ('a, 'b) logger list
+)
+"src/oUnitLogger.ml" 210 6430 6441 "src/oUnitLogger.ml" 210 6430 6494
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLogger.ml" 209 6411 6419 "src/oUnitLogger.ml" 210 6430 6495
+type(
+  unit -> unit
+)
+"src/oUnitLogger.ml" 200 6199 6203 "src/oUnitLogger.ml" 211 6497 6502
+type(
+  ('a, 'b) logger
+)
+"src/oUnitLogger.ml" 197 6117 6119 "src/oUnitLogger.ml" 211 6497 6502
+type(
+  ('a, 'b) logger
+)
+"src/oUnitLogger.ml" 184 5855 5857 "src/oUnitLogger.ml" 211 6497 6502
+type(
+  ('a, 'b) logger
+)
+"src/oUnitLogger.ml" 217 6572 6578 "src/oUnitLogger.ml" 217 6572 6584
+type(
+  ('a, 'b) logger -> 'a -> 'b test_event -> unit
+)
+ident(
+  def create "src/oUnitLogger.ml" 226 6756 6758 "src/oUnitLogger.ml" 235 6931 6934
+)
+"src/oUnitLogger.ml" 217 6572 6585 "src/oUnitLogger.ml" 217 6572 6591
+type(
+  ('a, 'b) logger
+)
+ident(
+  def logger "src/oUnitLogger.ml" 217 6572 6592 "src/oUnitLogger.ml" 224 6745 6754
+)
+"src/oUnitLogger.ml" 217 6572 6592 "src/oUnitLogger.ml" 217 6572 6596
+type(
+  'a
+)
+ident(
+  def path "src/oUnitLogger.ml" 218 6599 6603 "src/oUnitLogger.ml" 224 6745 6754
+)
+"src/oUnitLogger.ml" 218 6599 6607 "src/oUnitLogger.ml" 218 6599 6609
+type(
+  'b test_event
+)
+ident(
+  def ev "src/oUnitLogger.ml" 219 6613 6619 "src/oUnitLogger.ml" 224 6745 6754
+)
+"src/oUnitLogger.ml" 219 6613 6619 "src/oUnitLogger.ml" 219 6613 6625
+type(
+  ('a, 'b) logger
+)
+ident(
+  int_ref logger "src/oUnitLogger.ml" 217 6572 6585 "src/oUnitLogger.ml" 217 6572 6591
+)
+"src/oUnitLogger.ml" 219 6613 6619 "src/oUnitLogger.ml" 219 6613 6632
+type(
+  ('a, 'b) log_event -> unit
+)
+"src/oUnitLogger.ml" 221 6643 6661 "src/oUnitLogger.ml" 221 6643 6667
+type(
+  ('a, 'b) logger
+)
+ident(
+  int_ref logger "src/oUnitLogger.ml" 217 6572 6585 "src/oUnitLogger.ml" 217 6572 6591
+)
+"src/oUnitLogger.ml" 221 6643 6661 "src/oUnitLogger.ml" 221 6643 6674
+type(
+  string
+)
+"src/oUnitLogger.ml" 222 6676 6698 "src/oUnitLogger.ml" 222 6676 6701
+type(
+  unit -> float
+)
+ident(
+  ext_ref OUnitUtils.now
+)
+"src/oUnitLogger.ml" 222 6676 6702 "src/oUnitLogger.ml" 222 6676 6704
+type(
+  unit
+)
+"src/oUnitLogger.ml" 222 6676 6698 "src/oUnitLogger.ml" 222 6676 6704
+call(
+  stack
+)
+type(
+  float
+)
+"src/oUnitLogger.ml" 223 6706 6735 "src/oUnitLogger.ml" 223 6706 6739
+type(
+  'a
+)
+ident(
+  int_ref path "src/oUnitLogger.ml" 217 6572 6592 "src/oUnitLogger.ml" 217 6572 6596
+)
+"src/oUnitLogger.ml" 223 6706 6741 "src/oUnitLogger.ml" 223 6706 6743
+type(
+  'b test_event
+)
+ident(
+  int_ref ev "src/oUnitLogger.ml" 218 6599 6607 "src/oUnitLogger.ml" 218 6599 6609
+)
+"src/oUnitLogger.ml" 223 6706 6724 "src/oUnitLogger.ml" 223 6706 6744
+type(
+  ('a, 'b) log_event_t
+)
+"src/oUnitLogger.ml" 220 6633 6641 "src/oUnitLogger.ml" 224 6745 6754
+type(
+  ('a, 'b) log_event
+)
+"src/oUnitLogger.ml" 219 6613 6619 "src/oUnitLogger.ml" 224 6745 6754
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLogger.ml" 218 6599 6603 "src/oUnitLogger.ml" 224 6745 6754
+type(
+  'b test_event -> unit
+)
+"src/oUnitLogger.ml" 226 6756 6762 "src/oUnitLogger.ml" 226 6756 6772
+type(
+  ('c test_event -> 'd) -> ('e, unit, string, 'd) format4 -> 'e
+)
+ident(
+  def raw_printf "src/oUnitLogger.ml" 231 6843 6845 "src/oUnitLogger.ml" 235 6931 6934
+)
+"src/oUnitLogger.ml" 226 6756 6773 "src/oUnitLogger.ml" 226 6756 6774
+type(
+  'c test_event -> 'd
+)
+ident(
+  def t "src/oUnitLogger.ml" 226 6756 6775 "src/oUnitLogger.ml" 229 6832 6841
+)
+"src/oUnitLogger.ml" 226 6756 6775 "src/oUnitLogger.ml" 226 6756 6778
+type(
+  ('e, unit, string, 'd) format4
+)
+ident(
+  def fmt "src/oUnitLogger.ml" 227 6781 6785 "src/oUnitLogger.ml" 229 6832 6841
+)
+"src/oUnitLogger.ml" 227 6781 6785 "src/oUnitLogger.ml" 227 6781 6800
+type(
+  (string -> 'd) -> ('e, unit, string, 'd) format4 -> 'e
+)
+ident(
+  ext_ref Printf.ksprintf
+)
+"src/oUnitLogger.ml" 228 6801 6812 "src/oUnitLogger.ml" 228 6801 6813
+type(
+  string
+)
+ident(
+  def s "src/oUnitLogger.ml" 228 6801 6817 "src/oUnitLogger.ml" 228 6801 6830
+)
+"src/oUnitLogger.ml" 228 6801 6817 "src/oUnitLogger.ml" 228 6801 6818
+type(
+  'c test_event -> 'd
+)
+ident(
+  int_ref t "src/oUnitLogger.ml" 226 6756 6773 "src/oUnitLogger.ml" 226 6756 6774
+)
+"src/oUnitLogger.ml" 228 6801 6828 "src/oUnitLogger.ml" 228 6801 6829
+type(
+  string
+)
+ident(
+  int_ref s "src/oUnitLogger.ml" 228 6801 6812 "src/oUnitLogger.ml" 228 6801 6813
+)
+"src/oUnitLogger.ml" 228 6801 6819 "src/oUnitLogger.ml" 228 6801 6830
+type(
+  'c test_event
+)
+"src/oUnitLogger.ml" 228 6801 6817 "src/oUnitLogger.ml" 228 6801 6830
+call(
+  tail
+)
+type(
+  'd
+)
+"src/oUnitLogger.ml" 228 6801 6807 "src/oUnitLogger.ml" 228 6801 6831
+type(
+  string -> 'd
+)
+"src/oUnitLogger.ml" 229 6832 6838 "src/oUnitLogger.ml" 229 6832 6841
+type(
+  ('e, unit, string, 'd) format4
+)
+ident(
+  int_ref fmt "src/oUnitLogger.ml" 226 6756 6775 "src/oUnitLogger.ml" 226 6756 6778
+)
+"src/oUnitLogger.ml" 227 6781 6785 "src/oUnitLogger.ml" 229 6832 6841
+call(
+  tail
+)
+type(
+  'e
+)
+"src/oUnitLogger.ml" 231 6843 6849 "src/oUnitLogger.ml" 231 6843 6853
+type(
+  ('f test_event -> 'g) ->
+  log_severity -> ('h, unit, string, 'g) format4 -> 'h
+)
+ident(
+  def logf "src/oUnitLogger.ml" 234 6921 6930 "src/oUnitLogger.ml" 235 6931 6934
+)
+"src/oUnitLogger.ml" 231 6843 6854 "src/oUnitLogger.ml" 231 6843 6855
+type(
+  'f test_event -> 'g
+)
+ident(
+  def t "src/oUnitLogger.ml" 231 6843 6856 "src/oUnitLogger.ml" 234 6921 6930
+)
+"src/oUnitLogger.ml" 231 6843 6856 "src/oUnitLogger.ml" 231 6843 6859
+type(
+  log_severity
+)
+ident(
+  def lvl "src/oUnitLogger.ml" 231 6843 6860 "src/oUnitLogger.ml" 234 6921 6930
+)
+"src/oUnitLogger.ml" 231 6843 6860 "src/oUnitLogger.ml" 231 6843 6863
+type(
+  ('h, unit, string, 'g) format4
+)
+ident(
+  def fmt "src/oUnitLogger.ml" 232 6866 6870 "src/oUnitLogger.ml" 234 6921 6930
+)
+"src/oUnitLogger.ml" 232 6866 6870 "src/oUnitLogger.ml" 232 6866 6885
+type(
+  (string -> 'g) -> ('h, unit, string, 'g) format4 -> 'h
+)
+ident(
+  ext_ref Printf.ksprintf
+)
+"src/oUnitLogger.ml" 233 6886 6897 "src/oUnitLogger.ml" 233 6886 6898
+type(
+  string
+)
+ident(
+  def s "src/oUnitLogger.ml" 233 6886 6902 "src/oUnitLogger.ml" 233 6886 6919
+)
+"src/oUnitLogger.ml" 233 6886 6902 "src/oUnitLogger.ml" 233 6886 6903
+type(
+  'f test_event -> 'g
+)
+ident(
+  int_ref t "src/oUnitLogger.ml" 231 6843 6854 "src/oUnitLogger.ml" 231 6843 6855
+)
+"src/oUnitLogger.ml" 233 6886 6911 "src/oUnitLogger.ml" 233 6886 6914
+type(
+  log_severity
+)
+ident(
+  int_ref lvl "src/oUnitLogger.ml" 231 6843 6856 "src/oUnitLogger.ml" 231 6843 6859
+)
+"src/oUnitLogger.ml" 233 6886 6916 "src/oUnitLogger.ml" 233 6886 6917
+type(
+  string
+)
+ident(
+  int_ref s "src/oUnitLogger.ml" 233 6886 6897 "src/oUnitLogger.ml" 233 6886 6898
+)
+"src/oUnitLogger.ml" 233 6886 6904 "src/oUnitLogger.ml" 233 6886 6919
+type(
+  'f test_event
+)
+"src/oUnitLogger.ml" 233 6886 6902 "src/oUnitLogger.ml" 233 6886 6919
+call(
+  tail
+)
+type(
+  'g
+)
+"src/oUnitLogger.ml" 233 6886 6892 "src/oUnitLogger.ml" 233 6886 6920
+type(
+  string -> 'g
+)
+"src/oUnitLogger.ml" 234 6921 6927 "src/oUnitLogger.ml" 234 6921 6930
+type(
+  ('h, unit, string, 'g) format4
+)
+ident(
+  int_ref fmt "src/oUnitLogger.ml" 231 6843 6860 "src/oUnitLogger.ml" 231 6843 6863
+)
+"src/oUnitLogger.ml" 232 6866 6870 "src/oUnitLogger.ml" 234 6921 6930
+call(
+  tail
+)
+type(
+  'h
+)

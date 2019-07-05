@@ -1,0 +1,20 @@
+added: [
+  "bin/jsontrip" {"F:S1474824T1560961220.81"}
+  "doc/jsonm" {"D"}
+  "doc/jsonm/CHANGES.md" {"F:S926T1560961221.15"}
+  "doc/jsonm/LICENSE.md" {"F:S735T1560961221.18"}
+  "doc/jsonm/README.md" {"F:S1632T1560961221.21"}
+  "doc/jsonm/examples.ml" {"F:S2459T1560961221.26"}
+  "doc/jsonm/jtree.ml" {"F:S2488T1560961221.3"}
+  "lib/jsonm" {"D"}
+  "lib/jsonm/META" {"F:S214T1560961220.85"}
+  "lib/jsonm/jsonm.a" {"F:S191722T1560961220.89"}
+  "lib/jsonm/jsonm.cma" {"F:S155245T1560961220.92"}
+  "lib/jsonm/jsonm.cmi" {"F:S5046T1560961220.94"}
+  "lib/jsonm/jsonm.cmti" {"F:S57546T1560961220.96"}
+  "lib/jsonm/jsonm.cmx" {"F:S7889T1560961220.99"}
+  "lib/jsonm/jsonm.cmxa" {"F:S614T1560961221.03"}
+  "lib/jsonm/jsonm.cmxs" {"F:S187648T1560961221.07"}
+  "lib/jsonm/jsonm.mli" {"F:S20293T1560961221.1"}
+  "lib/jsonm/opam" {"F:S626T1560961220.83"}
+]

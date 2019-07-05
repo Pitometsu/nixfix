@@ -1,0 +1,20 @@
+added: [
+  "doc/qcheck-alcotest" {"D"}
+  "doc/qcheck-alcotest/CHANGELOG.md" {"F:S4520T1560961230.84"}
+  "doc/qcheck-alcotest/LICENSE" {"F:S1337T1560961230.86"}
+  "doc/qcheck-alcotest/README.adoc" {"F:S10328T1560961230.88"}
+  "lib/qcheck-alcotest" {"D"}
+  "lib/qcheck-alcotest/META" {"F:S253T1560961230.56"}
+  "lib/qcheck-alcotest/QCheck_alcotest.cmi" {"F:S1009T1560961230.58"}
+  "lib/qcheck-alcotest/QCheck_alcotest.cmt" {"F:S17034T1560961230.6"}
+  "lib/qcheck-alcotest/QCheck_alcotest.cmti" {"F:S5980T1560961230.62"}
+  "lib/qcheck-alcotest/QCheck_alcotest.cmx" {"F:S1123T1560961230.64"}
+  "lib/qcheck-alcotest/QCheck_alcotest.ml" {"F:S1012T1560961230.66"}
+  "lib/qcheck-alcotest/QCheck_alcotest.mli" {"F:S689T1560961230.68"}
+  "lib/qcheck-alcotest/dune-package" {"F:S517T1560961230.7"}
+  "lib/qcheck-alcotest/opam" {"F:S677T1560961230.73"}
+  "lib/qcheck-alcotest/qcheck_alcotest.a" {"F:S12188T1560961230.75"}
+  "lib/qcheck-alcotest/qcheck_alcotest.cma" {"F:S8660T1560961230.76"}
+  "lib/qcheck-alcotest/qcheck_alcotest.cmxa" {"F:S993T1560961230.79"}
+  "lib/qcheck-alcotest/qcheck_alcotest.cmxs" {"F:S22528T1560961230.81"}
+]

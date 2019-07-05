@@ -1,0 +1,21 @@
+(lang dune 1.10)
+(name configurator)
+(version v0.11.0)
+(library
+ (name configurator)
+ (kind normal)
+ (archives (byte configurator.cma) (native configurator.cmxa))
+ (plugins (byte configurator.cma) (native configurator.cmxs))
+ (foreign_archives (native configurator.a))
+ (requires base stdio unix)
+ (main_module_name Configurator)
+ (modes byte native)
+ (modules
+  (main_module_name Configurator)
+  (modules
+   ((name Configurator)
+    (obj_name configurator)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

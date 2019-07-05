@@ -1,0 +1,35 @@
+(lang dune 1.10)
+(name ppx_custom_printf)
+(version v0.11.0)
+(library
+ (name ppx_custom_printf)
+ (kind ppx_rewriter)
+ (archives (byte ppx_custom_printf.cma) (native ppx_custom_printf.cmxa))
+ (plugins (byte ppx_custom_printf.cma) (native ppx_custom_printf.cmxs))
+ (foreign_archives (native ppx_custom_printf.a))
+ (requires
+  compiler-libs.common
+  base
+  ppxlib
+  ppx_sexp_conv.expander
+  ppxlib.metaquot_lifters)
+ (main_module_name Ppx_custom_printf)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Ppx_custom_printf__)
+   (obj_name ppx_custom_printf__)
+   (visibility public)
+   (impl))
+  (main_module_name Ppx_custom_printf)
+  (modules
+   ((name Format_lifter)
+    (obj_name ppx_custom_printf__Format_lifter)
+    (visibility public)
+    (impl))
+   ((name Ppx_custom_printf)
+    (obj_name ppx_custom_printf)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

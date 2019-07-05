@@ -1,0 +1,71 @@
+(lang dune 1.10)
+(name ocaml-compiler-libs)
+(library
+ (name ocaml-compiler-libs.bytecomp)
+ (kind normal)
+ (archives
+  (byte bytecomp/ocaml_bytecomp.cma)
+  (native bytecomp/ocaml_bytecomp.cmxa))
+ (plugins
+  (byte bytecomp/ocaml_bytecomp.cma)
+  (native bytecomp/ocaml_bytecomp.cmxs))
+ (foreign_archives (native bytecomp/ocaml_bytecomp.a))
+ (requires compiler-libs.bytecomp)
+ (main_module_name Ocaml_bytecomp)
+ (modes byte native)
+ (modules
+  (main_module_name Ocaml_bytecomp)
+  (modules
+   ((name Ocaml_bytecomp)
+    (obj_name ocaml_bytecomp)
+    (visibility public)
+    (impl)))
+  (wrapped true)))
+(library
+ (name ocaml-compiler-libs.common)
+ (kind normal)
+ (archives (byte common/ocaml_common.cma) (native common/ocaml_common.cmxa))
+ (plugins (byte common/ocaml_common.cma) (native common/ocaml_common.cmxs))
+ (foreign_archives (native common/ocaml_common.a))
+ (requires compiler-libs.common)
+ (main_module_name Ocaml_common)
+ (modes byte native)
+ (modules
+  (main_module_name Ocaml_common)
+  (modules
+   ((name Ocaml_common) (obj_name ocaml_common) (visibility public) (impl)))
+  (wrapped true)))
+(library
+ (name ocaml-compiler-libs.shadow)
+ (kind normal)
+ (archives (byte shadow/ocaml_shadow.cma) (native shadow/ocaml_shadow.cmxa))
+ (plugins (byte shadow/ocaml_shadow.cma) (native shadow/ocaml_shadow.cmxs))
+ (foreign_archives (native shadow/ocaml_shadow.a))
+ (main_module_name Ocaml_shadow)
+ (modes byte native)
+ (modules
+  (main_module_name Ocaml_shadow)
+  (modules
+   ((name Ocaml_shadow) (obj_name ocaml_shadow) (visibility public) (impl)))
+  (wrapped true)))
+(library
+ (name ocaml-compiler-libs.toplevel)
+ (kind normal)
+ (archives
+  (byte toplevel/ocaml_toplevel.cma)
+  (native toplevel/ocaml_toplevel.cmxa))
+ (plugins
+  (byte toplevel/ocaml_toplevel.cma)
+  (native toplevel/ocaml_toplevel.cmxs))
+ (foreign_archives (native toplevel/ocaml_toplevel.a))
+ (requires compiler-libs.toplevel)
+ (main_module_name Ocaml_toplevel)
+ (modes byte native)
+ (modules
+  (main_module_name Ocaml_toplevel)
+  (modules
+   ((name Ocaml_toplevel)
+    (obj_name ocaml_toplevel)
+    (visibility public)
+    (impl)))
+  (wrapped true)))

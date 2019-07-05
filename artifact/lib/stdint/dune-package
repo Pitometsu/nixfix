@@ -1,0 +1,72 @@
+(lang dune 1.10)
+(name stdint)
+(library
+ (name stdint)
+ (kind normal)
+ (synopsis "Standard integer types for OCaml")
+ (archives (byte stdint.cma) (native stdint.cmxa))
+ (plugins (byte stdint.cma) (native stdint.cmxs))
+ (foreign_objects
+  float_conv.o
+  int128_conv.o
+  int128_stubs.o
+  int16_conv.o
+  int24_conv.o
+  int32_conv.o
+  int40_conv.o
+  int40_stubs.o
+  int48_conv.o
+  int48_stubs.o
+  int56_conv.o
+  int56_stubs.o
+  int64_conv.o
+  int8_conv.o
+  int_conv.o
+  nativeint_conv.o
+  uint128_conv.o
+  uint128_stubs.o
+  uint16_conv.o
+  uint24_conv.o
+  uint32_conv.o
+  uint32_stubs.o
+  uint40_conv.o
+  uint40_stubs.o
+  uint48_conv.o
+  uint48_stubs.o
+  uint56_conv.o
+  uint56_stubs.o
+  uint64_conv.o
+  uint64_stubs.o
+  uint8_conv.o)
+ (foreign_archives
+  (byte libstdint_stubs.a)
+  (native stdint.a libstdint_stubs.a))
+ (requires bytes)
+ (main_module_name Stdint)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Stdint__)
+   (obj_name stdint__)
+   (visibility public)
+   (impl))
+  (main_module_name Stdint)
+  (modules
+   ((name Bytes_conv)
+    (obj_name stdint__Bytes_conv)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Infix) (obj_name stdint__Infix) (visibility public) (impl) (intf))
+   ((name Int_wrapper)
+    (obj_name stdint__Int_wrapper)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Stdint) (obj_name stdint) (visibility public) (impl) (intf))
+   ((name Str_conv)
+    (obj_name stdint__Str_conv)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

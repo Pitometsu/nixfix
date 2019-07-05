@@ -1,0 +1,20 @@
+lib: [
+  "_build/install/default/lib/qcheck-ounit/META"
+  "_build/install/default/lib/qcheck-ounit/QCheck_ounit.cmi"
+  "_build/install/default/lib/qcheck-ounit/QCheck_ounit.cmt"
+  "_build/install/default/lib/qcheck-ounit/QCheck_ounit.cmti"
+  "_build/install/default/lib/qcheck-ounit/QCheck_ounit.cmx"
+  "_build/install/default/lib/qcheck-ounit/QCheck_ounit.ml"
+  "_build/install/default/lib/qcheck-ounit/QCheck_ounit.mli"
+  "_build/install/default/lib/qcheck-ounit/dune-package"
+  "_build/install/default/lib/qcheck-ounit/opam"
+  "_build/install/default/lib/qcheck-ounit/qcheck_ounit.a"
+  "_build/install/default/lib/qcheck-ounit/qcheck_ounit.cma"
+  "_build/install/default/lib/qcheck-ounit/qcheck_ounit.cmxa"
+  "_build/install/default/lib/qcheck-ounit/qcheck_ounit.cmxs"
+]
+doc: [
+  "_build/install/default/doc/qcheck-ounit/CHANGELOG.md"
+  "_build/install/default/doc/qcheck-ounit/LICENSE"
+  "_build/install/default/doc/qcheck-ounit/README.adoc"
+]

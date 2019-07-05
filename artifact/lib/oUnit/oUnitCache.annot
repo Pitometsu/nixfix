@@ -1,0 +1,564 @@
+"src/oUnitCache.ml" 37 2445 2449 "src/oUnitCache.ml" 37 2445 2463
+type(
+  ?extra_subst:(string * string) list -> OUnitConf.conf -> string option
+)
+ident(
+  def cache_filename "src/oUnitCache.ml" 44 2678 2678 "src/oUnitCache.ml" 1 0 -1
+)
+"src/oUnitCache.ml" 38 2466 2468 "src/oUnitCache.ml" 38 2466 2499
+type(
+  string ->
+  string option ->
+  string ->
+  ?extra_subst:(string * string) list -> OUnitConf.conf -> string option
+)
+ident(
+  ext_ref OUnitConf.make_string_subst_opt
+)
+"src/oUnitCache.ml" 39 2500 2504 "src/oUnitCache.ml" 39 2500 2520
+type(
+  string
+)
+"src/oUnitCache.ml" 41 2557 2568 "src/oUnitCache.ml" 41 2557 2583
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"src/oUnitCache.ml" 41 2557 2584 "src/oUnitCache.ml" 41 2557 2602
+type(
+  string
+)
+ident(
+  ext_ref OUnitUtils.buildir
+)
+"src/oUnitCache.ml" 41 2557 2603 "src/oUnitCache.ml" 41 2557 2630
+type(
+  string
+)
+"src/oUnitCache.ml" 41 2557 2567 "src/oUnitCache.ml" 41 2557 2631
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitCache.ml" 41 2557 2561 "src/oUnitCache.ml" 41 2557 2632
+type(
+  string option
+)
+"src/oUnitCache.ml" 42 2633 2637 "src/oUnitCache.ml" 42 2633 2676
+type(
+  string
+)
+"src/oUnitCache.ml" 38 2466 2468 "src/oUnitCache.ml" 42 2633 2676
+call(
+  stack
+)
+type(
+  ?extra_subst:(string * string) list -> OUnitConf.conf -> string option
+)
+"src/oUnitCache.ml" 44 2678 2682 "src/oUnitCache.ml" 44 2678 2689
+type(
+  'a OUnitTest.MapPath.t
+)
+ident(
+  def default "src/oUnitCache.ml" 46 2707 2707 "src/oUnitCache.ml" 1 0 -1
+)
+"src/oUnitCache.ml" 44 2678 2692 "src/oUnitCache.ml" 44 2678 2705
+type(
+  'a OUnitTest.MapPath.t
+)
+ident(
+  ext_ref OUnitTest.MapPath.empty
+)
+"src/oUnitCache.ml" 46 2707 2711 "src/oUnitCache.ml" 46 2707 2715
+type(
+  OUnitConf.conf -> cache
+)
+ident(
+  def load "src/oUnitCache.ml" 67 3123 3123 "src/oUnitCache.ml" 1 0 -1
+)
+"src/oUnitCache.ml" 46 2707 2716 "src/oUnitCache.ml" 46 2707 2720
+type(
+  OUnitConf.conf
+)
+ident(
+  def conf "src/oUnitCache.ml" 47 2723 2725 "src/oUnitCache.ml" 65 3106 3121
+)
+"src/oUnitCache.ml" 47 2723 2731 "src/oUnitCache.ml" 47 2723 2745
+type(
+  ?extra_subst:(string * string) list -> OUnitConf.conf -> string option
+)
+ident(
+  int_ref cache_filename "src/oUnitCache.ml" 37 2445 2449 "src/oUnitCache.ml" 37 2445 2463
+)
+"src/oUnitCache.ml" 47 2723 2746 "src/oUnitCache.ml" 47 2723 2750
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitCache.ml" 46 2707 2716 "src/oUnitCache.ml" 46 2707 2720
+)
+"src/oUnitCache.ml" 47 2723 2731 "src/oUnitCache.ml" 47 2723 2750
+call(
+  stack
+)
+type(
+  string option
+)
+"src/oUnitCache.ml" 48 2756 2767 "src/oUnitCache.ml" 48 2756 2769
+type(
+  string
+)
+ident(
+  def fn "src/oUnitCache.ml" 49 2773 2781 "src/oUnitCache.ml" 62 3079 3090
+)
+"src/oUnitCache.ml" 48 2756 2762 "src/oUnitCache.ml" 48 2756 2769
+type(
+  string option
+)
+"src/oUnitCache.ml" 51 2801 2817 "src/oUnitCache.ml" 51 2801 2820
+type(
+  in_channel
+)
+ident(
+  def chn "src/oUnitCache.ml" 52 2837 2849 "src/oUnitCache.ml" 59 3019 3038
+)
+"src/oUnitCache.ml" 51 2801 2823 "src/oUnitCache.ml" 51 2801 2830
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/oUnitCache.ml" 51 2801 2831 "src/oUnitCache.ml" 51 2801 2833
+type(
+  string
+)
+ident(
+  int_ref fn "src/oUnitCache.ml" 48 2756 2767 "src/oUnitCache.ml" 48 2756 2769
+)
+"src/oUnitCache.ml" 51 2801 2823 "src/oUnitCache.ml" 51 2801 2833
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/oUnitCache.ml" 52 2837 2853 "src/oUnitCache.ml" 52 2837 2858
+type(
+  cache
+)
+ident(
+  def cache "src/oUnitCache.ml" 58 2991 3005 "src/oUnitCache.ml" 59 3019 3038
+)
+"src/oUnitCache.ml" 54 2887 2903 "src/oUnitCache.ml" 54 2887 2923
+type(
+  in_channel -> cache
+)
+ident(
+  ext_ref Marshal.from_channel
+)
+"src/oUnitCache.ml" 54 2887 2924 "src/oUnitCache.ml" 54 2887 2927
+type(
+  in_channel
+)
+ident(
+  int_ref chn "src/oUnitCache.ml" 51 2801 2817 "src/oUnitCache.ml" 51 2801 2820
+)
+"src/oUnitCache.ml" 54 2887 2903 "src/oUnitCache.ml" 54 2887 2927
+call(
+  stack
+)
+type(
+  cache
+)
+"src/oUnitCache.ml" 55 2928 2947 "src/oUnitCache.ml" 55 2928 2948
+type(
+  exn
+)
+ident(
+  def e "src/oUnitCache.ml" 56 2952 2968 "src/oUnitCache.ml" 56 2952 2975
+)
+"src/oUnitCache.ml" 56 2952 2968 "src/oUnitCache.ml" 56 2952 2975
+type(
+  OUnitTest.result OUnitTest.MapPath.t
+)
+ident(
+  int_ref default "src/oUnitCache.ml" 44 2678 2682 "src/oUnitCache.ml" 44 2678 2689
+)
+"src/oUnitCache.ml" 53 2869 2883 "src/oUnitCache.ml" 56 2952 2975
+type(
+  cache
+)
+type(
+  cache
+)
+"src/oUnitCache.ml" 58 2991 3005 "src/oUnitCache.ml" 58 2991 3013
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"src/oUnitCache.ml" 58 2991 3014 "src/oUnitCache.ml" 58 2991 3017
+type(
+  in_channel
+)
+ident(
+  int_ref chn "src/oUnitCache.ml" 51 2801 2817 "src/oUnitCache.ml" 51 2801 2820
+)
+"src/oUnitCache.ml" 58 2991 3005 "src/oUnitCache.ml" 58 2991 3017
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitCache.ml" 59 3019 3033 "src/oUnitCache.ml" 59 3019 3038
+type(
+  cache
+)
+ident(
+  int_ref cache "src/oUnitCache.ml" 52 2837 2853 "src/oUnitCache.ml" 52 2837 2858
+)
+"src/oUnitCache.ml" 58 2991 3005 "src/oUnitCache.ml" 59 3019 3038
+type(
+  cache
+)
+"src/oUnitCache.ml" 52 2837 2849 "src/oUnitCache.ml" 59 3019 3038
+type(
+  cache
+)
+"src/oUnitCache.ml" 51 2801 2813 "src/oUnitCache.ml" 59 3019 3038
+type(
+  cache
+)
+"src/oUnitCache.ml" 60 3039 3054 "src/oUnitCache.ml" 60 3039 3055
+type(
+  exn
+)
+"src/oUnitCache.ml" 61 3059 3071 "src/oUnitCache.ml" 61 3059 3078
+type(
+  OUnitTest.result OUnitTest.MapPath.t
+)
+ident(
+  int_ref default "src/oUnitCache.ml" 44 2678 2682 "src/oUnitCache.ml" 44 2678 2689
+)
+"src/oUnitCache.ml" 49 2773 2781 "src/oUnitCache.ml" 62 3079 3090
+type(
+  cache
+)
+"src/oUnitCache.ml" 64 3092 3098 "src/oUnitCache.ml" 64 3092 3102
+type(
+  string option
+)
+"src/oUnitCache.ml" 65 3106 3114 "src/oUnitCache.ml" 65 3106 3121
+type(
+  OUnitTest.result OUnitTest.MapPath.t
+)
+ident(
+  int_ref default "src/oUnitCache.ml" 44 2678 2682 "src/oUnitCache.ml" 44 2678 2689
+)
+"src/oUnitCache.ml" 47 2723 2725 "src/oUnitCache.ml" 65 3106 3121
+type(
+  cache
+)
+"src/oUnitCache.ml" 67 3123 3127 "src/oUnitCache.ml" 67 3123 3131
+type(
+  OUnitConf.conf -> 'a -> unit
+)
+ident(
+  def dump "src/oUnitCache.ml" 82 3409 3409 "src/oUnitCache.ml" 1 0 -1
+)
+"src/oUnitCache.ml" 67 3123 3132 "src/oUnitCache.ml" 67 3123 3136
+type(
+  OUnitConf.conf
+)
+ident(
+  def conf "src/oUnitCache.ml" 67 3123 3137 "src/oUnitCache.ml" 80 3397 3407
+)
+"src/oUnitCache.ml" 67 3123 3137 "src/oUnitCache.ml" 67 3123 3142
+type(
+  'a
+)
+ident(
+  def cache "src/oUnitCache.ml" 68 3145 3147 "src/oUnitCache.ml" 80 3397 3407
+)
+"src/oUnitCache.ml" 68 3145 3153 "src/oUnitCache.ml" 68 3145 3167
+type(
+  ?extra_subst:(string * string) list -> OUnitConf.conf -> string option
+)
+ident(
+  int_ref cache_filename "src/oUnitCache.ml" 37 2445 2449 "src/oUnitCache.ml" 37 2445 2463
+)
+"src/oUnitCache.ml" 68 3145 3168 "src/oUnitCache.ml" 68 3145 3172
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitCache.ml" 67 3123 3132 "src/oUnitCache.ml" 67 3123 3136
+)
+"src/oUnitCache.ml" 68 3145 3153 "src/oUnitCache.ml" 68 3145 3172
+call(
+  stack
+)
+type(
+  string option
+)
+"src/oUnitCache.ml" 69 3178 3189 "src/oUnitCache.ml" 69 3178 3191
+type(
+  string
+)
+ident(
+  def fn "src/oUnitCache.ml" 70 3195 3203 "src/oUnitCache.ml" 77 3370 3381
+)
+"src/oUnitCache.ml" 69 3178 3184 "src/oUnitCache.ml" 69 3178 3191
+type(
+  string option
+)
+"src/oUnitCache.ml" 72 3223 3239 "src/oUnitCache.ml" 72 3223 3242
+type(
+  out_channel
+)
+ident(
+  def chn "src/oUnitCache.ml" 73 3260 3274 "src/oUnitCache.ml" 74 3307 3334
+)
+"src/oUnitCache.ml" 72 3223 3245 "src/oUnitCache.ml" 72 3223 3253
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"src/oUnitCache.ml" 72 3223 3254 "src/oUnitCache.ml" 72 3223 3256
+type(
+  string
+)
+ident(
+  int_ref fn "src/oUnitCache.ml" 69 3178 3189 "src/oUnitCache.ml" 69 3178 3191
+)
+"src/oUnitCache.ml" 72 3223 3245 "src/oUnitCache.ml" 72 3223 3256
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/oUnitCache.ml" 73 3260 3274 "src/oUnitCache.ml" 73 3260 3292
+type(
+  out_channel -> 'a -> Marshal.extern_flags list -> unit
+)
+ident(
+  ext_ref Marshal.to_channel
+)
+"src/oUnitCache.ml" 73 3260 3293 "src/oUnitCache.ml" 73 3260 3296
+type(
+  out_channel
+)
+ident(
+  int_ref chn "src/oUnitCache.ml" 72 3223 3239 "src/oUnitCache.ml" 72 3223 3242
+)
+"src/oUnitCache.ml" 73 3260 3297 "src/oUnitCache.ml" 73 3260 3302
+type(
+  'a
+)
+ident(
+  int_ref cache "src/oUnitCache.ml" 67 3123 3137 "src/oUnitCache.ml" 67 3123 3142
+)
+"src/oUnitCache.ml" 73 3260 3303 "src/oUnitCache.ml" 73 3260 3305
+type(
+  Marshal.extern_flags list
+)
+"src/oUnitCache.ml" 73 3260 3274 "src/oUnitCache.ml" 73 3260 3305
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitCache.ml" 74 3307 3321 "src/oUnitCache.ml" 74 3307 3330
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/oUnitCache.ml" 74 3307 3331 "src/oUnitCache.ml" 74 3307 3334
+type(
+  out_channel
+)
+ident(
+  int_ref chn "src/oUnitCache.ml" 72 3223 3239 "src/oUnitCache.ml" 72 3223 3242
+)
+"src/oUnitCache.ml" 74 3307 3321 "src/oUnitCache.ml" 74 3307 3334
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitCache.ml" 73 3260 3274 "src/oUnitCache.ml" 74 3307 3334
+type(
+  unit
+)
+"src/oUnitCache.ml" 72 3223 3235 "src/oUnitCache.ml" 74 3307 3334
+type(
+  unit
+)
+"src/oUnitCache.ml" 75 3335 3350 "src/oUnitCache.ml" 75 3335 3351
+type(
+  exn
+)
+"src/oUnitCache.ml" 76 3355 3367 "src/oUnitCache.ml" 76 3355 3369
+type(
+  unit
+)
+"src/oUnitCache.ml" 70 3195 3203 "src/oUnitCache.ml" 77 3370 3381
+type(
+  unit
+)
+"src/oUnitCache.ml" 79 3383 3389 "src/oUnitCache.ml" 79 3383 3393
+type(
+  string option
+)
+"src/oUnitCache.ml" 80 3397 3405 "src/oUnitCache.ml" 80 3397 3407
+type(
+  unit
+)
+"src/oUnitCache.ml" 68 3145 3147 "src/oUnitCache.ml" 80 3397 3407
+type(
+  unit
+)
+"src/oUnitCache.ml" 82 3409 3413 "src/oUnitCache.ml" 82 3409 3423
+type(
+  OUnitTest.MapPath.key -> 'a OUnitTest.MapPath.t -> 'a option
+)
+ident(
+  def get_result "src/oUnitCache.ml" 88 3508 3508 "src/oUnitCache.ml" 1 0 -1
+)
+"src/oUnitCache.ml" 82 3409 3424 "src/oUnitCache.ml" 82 3409 3428
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  def path "src/oUnitCache.ml" 82 3409 3429 "src/oUnitCache.ml" 86 3498 3506
+)
+"src/oUnitCache.ml" 82 3409 3429 "src/oUnitCache.ml" 82 3409 3434
+type(
+  'a OUnitTest.MapPath.t
+)
+ident(
+  def cache "src/oUnitCache.ml" 83 3437 3439 "src/oUnitCache.ml" 86 3498 3506
+)
+"src/oUnitCache.ml" 84 3443 3453 "src/oUnitCache.ml" 84 3443 3465
+type(
+  OUnitTest.MapPath.key -> 'a OUnitTest.MapPath.t -> 'a
+)
+ident(
+  ext_ref OUnitTest.MapPath.find
+)
+"src/oUnitCache.ml" 84 3443 3466 "src/oUnitCache.ml" 84 3443 3470
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  int_ref path "src/oUnitCache.ml" 82 3409 3424 "src/oUnitCache.ml" 82 3409 3428
+)
+"src/oUnitCache.ml" 84 3443 3471 "src/oUnitCache.ml" 84 3443 3476
+type(
+  'a OUnitTest.MapPath.t
+)
+ident(
+  int_ref cache "src/oUnitCache.ml" 82 3409 3429 "src/oUnitCache.ml" 82 3409 3434
+)
+"src/oUnitCache.ml" 84 3443 3452 "src/oUnitCache.ml" 84 3443 3477
+call(
+  stack
+)
+type(
+  'a
+)
+"src/oUnitCache.ml" 84 3443 3447 "src/oUnitCache.ml" 84 3443 3477
+type(
+  'a option
+)
+"src/oUnitCache.ml" 85 3478 3485 "src/oUnitCache.ml" 85 3478 3494
+type(
+  exn
+)
+"src/oUnitCache.ml" 86 3498 3502 "src/oUnitCache.ml" 86 3498 3506
+type(
+  'a option
+)
+"src/oUnitCache.ml" 83 3437 3439 "src/oUnitCache.ml" 86 3498 3506
+type(
+  'a option
+)
+"src/oUnitCache.ml" 88 3508 3512 "src/oUnitCache.ml" 88 3508 3522
+type(
+  OUnitTest.MapPath.key ->
+  'a -> 'a OUnitTest.MapPath.t -> 'a OUnitTest.MapPath.t
+)
+ident(
+  def add_result "src/oUnitCache.ml" 89 3543 3574 "src/oUnitCache.ml" 1 0 -1
+)
+"src/oUnitCache.ml" 88 3508 3523 "src/oUnitCache.ml" 88 3508 3527
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  def path "src/oUnitCache.ml" 88 3508 3528 "src/oUnitCache.ml" 89 3543 3574
+)
+"src/oUnitCache.ml" 88 3508 3528 "src/oUnitCache.ml" 88 3508 3534
+type(
+  'a
+)
+ident(
+  def result "src/oUnitCache.ml" 88 3508 3535 "src/oUnitCache.ml" 89 3543 3574
+)
+"src/oUnitCache.ml" 88 3508 3535 "src/oUnitCache.ml" 88 3508 3540
+type(
+  'a OUnitTest.MapPath.t
+)
+ident(
+  def cache "src/oUnitCache.ml" 89 3543 3545 "src/oUnitCache.ml" 89 3543 3574
+)
+"src/oUnitCache.ml" 89 3543 3545 "src/oUnitCache.ml" 89 3543 3556
+type(
+  OUnitTest.MapPath.key ->
+  'a -> 'a OUnitTest.MapPath.t -> 'a OUnitTest.MapPath.t
+)
+ident(
+  ext_ref OUnitTest.MapPath.add
+)
+"src/oUnitCache.ml" 89 3543 3557 "src/oUnitCache.ml" 89 3543 3561
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  int_ref path "src/oUnitCache.ml" 88 3508 3523 "src/oUnitCache.ml" 88 3508 3527
+)
+"src/oUnitCache.ml" 89 3543 3562 "src/oUnitCache.ml" 89 3543 3568
+type(
+  'a
+)
+ident(
+  int_ref result "src/oUnitCache.ml" 88 3508 3528 "src/oUnitCache.ml" 88 3508 3534
+)
+"src/oUnitCache.ml" 89 3543 3569 "src/oUnitCache.ml" 89 3543 3574
+type(
+  'a OUnitTest.MapPath.t
+)
+ident(
+  int_ref cache "src/oUnitCache.ml" 88 3508 3535 "src/oUnitCache.ml" 88 3508 3540
+)
+"src/oUnitCache.ml" 89 3543 3545 "src/oUnitCache.ml" 89 3543 3574
+call(
+  tail
+)
+type(
+  'a OUnitTest.MapPath.t
+)

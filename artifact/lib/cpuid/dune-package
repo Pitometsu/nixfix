@@ -1,0 +1,15 @@
+(lang dune 1.10)
+(name cpuid)
+(version 0.1.2)
+(library
+ (name cpuid)
+ (kind normal)
+ (synopsis "Detect CPU features")
+ (archives (byte cpuid.cma) (native cpuid.cmxa))
+ (plugins (byte cpuid.cma) (native cpuid.cmxs))
+ (foreign_objects cpuid.o)
+ (foreign_archives (byte libcpuid_stubs.a) (native cpuid.a libcpuid_stubs.a))
+ (modes byte native)
+ (modules
+  (modules ((name Cpuid) (obj_name cpuid) (visibility public) (impl) (intf)))
+  (wrapped false)))

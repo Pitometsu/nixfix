@@ -1,0 +1,21 @@
+lib: [
+  "_build/install/default/lib/cmdtui-lambda-term/META"
+  "_build/install/default/lib/cmdtui-lambda-term/cmdtui_lambda_term.a"
+  "_build/install/default/lib/cmdtui-lambda-term/cmdtui_lambda_term.cma"
+  "_build/install/default/lib/cmdtui-lambda-term/cmdtui_lambda_term.cmi"
+  "_build/install/default/lib/cmdtui-lambda-term/cmdtui_lambda_term.cmt"
+  "_build/install/default/lib/cmdtui-lambda-term/cmdtui_lambda_term.cmti"
+  "_build/install/default/lib/cmdtui-lambda-term/cmdtui_lambda_term.cmx"
+  "_build/install/default/lib/cmdtui-lambda-term/cmdtui_lambda_term.cmxa"
+  "_build/install/default/lib/cmdtui-lambda-term/cmdtui_lambda_term.cmxs"
+  "_build/install/default/lib/cmdtui-lambda-term/cmdtui_lambda_term.ml"
+  "_build/install/default/lib/cmdtui-lambda-term/cmdtui_lambda_term.mli"
+  "_build/install/default/lib/cmdtui-lambda-term/dune-package"
+  "_build/install/default/lib/cmdtui-lambda-term/opam"
+]
+doc: [
+  "_build/install/default/doc/cmdtui-lambda-term/CHANGES.md"
+  "_build/install/default/doc/cmdtui-lambda-term/LICENSE.md"
+  "_build/install/default/doc/cmdtui-lambda-term/README.md"
+  "_build/install/default/doc/cmdtui-lambda-term/example.ml"
+]

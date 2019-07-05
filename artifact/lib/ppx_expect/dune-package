@@ -1,0 +1,261 @@
+(lang dune 1.10)
+(name ppx_expect)
+(version v0.11.1)
+(library
+ (name ppx_expect)
+ (kind ppx_rewriter)
+ (archives (byte ppx_expect.cma) (native ppx_expect.cmxa))
+ (plugins (byte ppx_expect.cma) (native ppx_expect.cmxs))
+ (foreign_archives (native ppx_expect.a))
+ (requires
+  base
+  ppx_expect.common
+  ppx_expect.payload
+  ppxlib
+  ppx_inline_test
+  ppx_inline_test.libname
+  ppx_here.expander
+  ppxlib.metaquot_lifters)
+ (ppx_runtime_deps ppx_expect.collector)
+ (main_module_name Ppx_expect)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Ppx_expect)
+   (obj_name ppx_expect)
+   (visibility public)
+   (impl))
+  (main_module_name Ppx_expect)
+  (modules
+   ((name Expect_extension)
+    (obj_name ppx_expect__Expect_extension)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Lifter) (obj_name ppx_expect__Lifter) (visibility public) (impl))
+   ((name Main) (obj_name ppx_expect__Main) (visibility public) (impl) (intf)))
+  (wrapped true))
+ (inline_tests.backend
+  (runner_libraries ppx_expect.evaluator)
+  (flags :standard)
+  (extends ppx_inline_test)))
+(library
+ (name ppx_expect.common)
+ (kind normal)
+ (synopsis "Shared parts for ppx_expect")
+ (archives
+  (byte common/expect_test_common.cma)
+  (native common/expect_test_common.cmxa))
+ (plugins
+  (byte common/expect_test_common.cma)
+  (native common/expect_test_common.cmxs))
+ (foreign_archives (native common/expect_test_common.a))
+ (requires ppx_compare.runtime-lib ppx_sexp_conv.runtime-lib base)
+ (main_module_name Expect_test_common)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Expect_test_common)
+   (obj_name expect_test_common)
+   (visibility public)
+   (impl))
+  (main_module_name Expect_test_common)
+  (modules
+   ((name Expectation)
+    (obj_name expect_test_common__Expectation)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name File)
+    (obj_name expect_test_common__File)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Std) (obj_name expect_test_common__Std) (visibility public) (impl)))
+  (wrapped true)))
+(library
+ (name ppx_expect.payload)
+ (kind normal)
+ (archives
+  (byte payload/ppx_expect_payload.cma)
+  (native payload/ppx_expect_payload.cmxa))
+ (plugins
+  (byte payload/ppx_expect_payload.cma)
+  (native payload/ppx_expect_payload.cmxs))
+ (foreign_archives (native payload/ppx_expect_payload.a))
+ (requires ppx_expect.common ppxlib)
+ (main_module_name Ppx_expect_payload)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_expect_payload)
+  (modules
+   ((name Ppx_expect_payload)
+    (obj_name ppx_expect_payload)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name ppx_expect.collector)
+ (kind normal)
+ (synopsis "Runtime library for ppx_expect")
+ (archives
+  (byte collector/expect_test_collector.cma)
+  (native collector/expect_test_collector.cmxa))
+ (plugins
+  (byte collector/expect_test_collector.cma)
+  (native collector/expect_test_collector.cmxs))
+ (foreign_objects collector/expect_test_collector_stubs.o)
+ (foreign_archives
+  (byte collector/libexpect_test_collector_stubs.a)
+  (native
+   collector/expect_test_collector.a
+   collector/libexpect_test_collector_stubs.a))
+ (jsoo_runtime collector/runtime.js)
+ (requires
+  ppx_sexp_conv.runtime-lib
+  fieldslib
+  ppx_inline_test.runtime-lib
+  ppx_expect.common
+  ppx_expect.config)
+ (main_module_name Expect_test_collector)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Expect_test_collector__)
+   (obj_name expect_test_collector__)
+   (visibility public)
+   (impl))
+  (main_module_name Expect_test_collector)
+  (modules
+   ((name Check_backtraces)
+    (obj_name expect_test_collector__Check_backtraces)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Expect_test_collector)
+    (obj_name expect_test_collector)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name ppx_expect.config)
+ (kind normal)
+ (synopsis "Runtime configuration for ppx_expect")
+ (archives
+  (byte config/expect_test_config.cma)
+  (native config/expect_test_config.cmxa))
+ (plugins
+  (byte config/expect_test_config.cma)
+  (native config/expect_test_config.cmxs))
+ (foreign_archives (native config/expect_test_config.a))
+ (main_module_name Expect_test_config)
+ (modes byte native)
+ (modules
+  (main_module_name Expect_test_config)
+  (modules
+   ((name Expect_test_config)
+    (obj_name expect_test_config)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name ppx_expect.evaluator)
+ (kind normal)
+ (archives
+  (byte evaluator/ppx_expect_evaluator.cma)
+  (native evaluator/ppx_expect_evaluator.cmxa))
+ (plugins
+  (byte evaluator/ppx_expect_evaluator.cma)
+  (native evaluator/ppx_expect_evaluator.cmxs))
+ (foreign_archives (native evaluator/ppx_expect_evaluator.a))
+ (requires
+  ppx_sexp_conv.runtime-lib
+  base
+  stdio
+  ppx_expect.common
+  ppx_expect.collector
+  ppx_expect.matcher
+  ppxlib.print_diff)
+ (main_module_name Ppx_expect_evaluator)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_expect_evaluator)
+  (modules
+   ((name Ppx_expect_evaluator)
+    (obj_name ppx_expect_evaluator)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name ppx_expect.matcher)
+ (kind normal)
+ (archives
+  (byte matcher/expect_test_matcher.cma)
+  (native matcher/expect_test_matcher.cmxa))
+ (plugins
+  (byte matcher/expect_test_matcher.cma)
+  (native matcher/expect_test_matcher.cmxs))
+ (foreign_archives (native matcher/expect_test_matcher.a))
+ (requires
+  ppx_assert.runtime-lib
+  ppx_compare.runtime-lib
+  ppx_inline_test.runtime-lib
+  ppx_sexp_conv.runtime-lib
+  variantslib
+  base
+  stdio
+  re
+  re.emacs
+  re.glob
+  ppx_expect.common
+  ppx_expect.config)
+ (main_module_name Expect_test_matcher)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Expect_test_matcher)
+   (obj_name expect_test_matcher)
+   (visibility public)
+   (impl))
+  (main_module_name Expect_test_matcher)
+  (modules
+   ((name Choose_tag)
+    (obj_name expect_test_matcher__Choose_tag)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Cst)
+    (obj_name expect_test_matcher__Cst)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Fmt)
+    (obj_name expect_test_matcher__Fmt)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Import)
+    (obj_name expect_test_matcher__Import)
+    (visibility public)
+    (impl))
+   ((name Lexer)
+    (obj_name expect_test_matcher__Lexer)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Matcher)
+    (obj_name expect_test_matcher__Matcher)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Reconcile)
+    (obj_name expect_test_matcher__Reconcile)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Std) (obj_name expect_test_matcher__Std) (visibility public) (impl)))
+  (wrapped true)))

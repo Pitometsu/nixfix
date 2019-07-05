@@ -1,0 +1,65 @@
+(lang dune 1.10)
+(name ppx_sexp_conv)
+(version v0.11.1)
+(library
+ (name ppx_sexp_conv)
+ (kind ppx_deriver)
+ (archives (byte ppx_sexp_conv.cma) (native ppx_sexp_conv.cmxa))
+ (plugins (byte ppx_sexp_conv.cma) (native ppx_sexp_conv.cmxs))
+ (foreign_archives (native ppx_sexp_conv.a))
+ (requires ppxlib ppx_sexp_conv.expander)
+ (main_module_name Ppx_sexp_conv)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_sexp_conv)
+  (modules
+   ((name Ppx_sexp_conv)
+    (obj_name ppx_sexp_conv)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name ppx_sexp_conv.expander)
+ (kind normal)
+ (archives
+  (byte expander/ppx_sexp_conv_expander.cma)
+  (native expander/ppx_sexp_conv_expander.cmxa))
+ (plugins
+  (byte expander/ppx_sexp_conv_expander.cma)
+  (native expander/ppx_sexp_conv_expander.cmxs))
+ (foreign_archives (native expander/ppx_sexp_conv_expander.a))
+ (requires base ppxlib)
+ (ppx_runtime_deps ppx_sexp_conv.runtime-lib)
+ (main_module_name Ppx_sexp_conv_expander)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_sexp_conv_expander)
+  (modules
+   ((name Ppx_sexp_conv_expander)
+    (obj_name ppx_sexp_conv_expander)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name ppx_sexp_conv.runtime-lib)
+ (kind normal)
+ (archives
+  (byte runtime-lib/ppx_sexp_conv_lib.cma)
+  (native runtime-lib/ppx_sexp_conv_lib.cmxa))
+ (plugins
+  (byte runtime-lib/ppx_sexp_conv_lib.cma)
+  (native runtime-lib/ppx_sexp_conv_lib.cmxs))
+ (foreign_archives (native runtime-lib/ppx_sexp_conv_lib.a))
+ (requires sexplib0)
+ (main_module_name Ppx_sexp_conv_lib)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_sexp_conv_lib)
+  (modules
+   ((name Ppx_sexp_conv_lib)
+    (obj_name ppx_sexp_conv_lib)
+    (visibility public)
+    (impl)))
+  (wrapped true)))

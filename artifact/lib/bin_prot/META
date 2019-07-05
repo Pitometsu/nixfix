@@ -1,0 +1,40 @@
+version = "v0.11.0"
+description = ""
+requires = "base
+            base.caml
+            base.md5
+            bigarray
+            bin_prot.shape
+            ppx_sexp_conv.runtime-lib"
+archive(byte) = "bin_prot.cma"
+archive(native) = "bin_prot.cmxa"
+plugin(byte) = "bin_prot.cma"
+plugin(native) = "bin_prot.cmxs"
+linkopts(javascript) = "+bin_prot/runtime.js"
+jsoo_runtime = "runtime.js"
+package "shape" (
+  directory = "shape"
+  version = "v0.11.0"
+  description = ""
+  requires = "base.md5
+              fieldslib
+              ppx_compare.runtime-lib
+              ppx_sexp_conv.runtime-lib
+              variantslib"
+  archive(byte) = "bin_shape_lib.cma"
+  archive(native) = "bin_shape_lib.cmxa"
+  plugin(byte) = "bin_shape_lib.cma"
+  plugin(native) = "bin_shape_lib.cmxs"
+)
+package "xen" (
+  directory = "xen"
+  version = "v0.11.0"
+  description = ""
+  requires = "bigarray"
+  archive(byte) = "bin_prot_xen.cma"
+  archive(native) = "bin_prot_xen.cmxa"
+  plugin(byte) = "bin_prot_xen.cma"
+  plugin(native) = "bin_prot_xen.cmxs"
+)
+
+xen_linkopts = "-lbin_prot_xen_stubs"

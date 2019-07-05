@@ -1,0 +1,20 @@
+OCAMLPACKS[]= ocaml-compiler-libs.common ocaml-migrate-parsetree ppxx
+
+OCamlRequire(../../src/typpx.cmo)
+
+OCAMLWARNING_NON_ERROR[] += 27 32 41
+
+OCAMLINCLUDES += ../../src
+
+OCAMLDEPFLAGS=
+OCAMLPPFLAGS=  
+
+FILES[] =
+    mod
+    ../../src/typpx
+    ppx
+
+MyOCamlPPXMigrateLibrary(ppx_type_of, $(FILES))
+MyOCamlfindInstall(ppx_type_of, $(EMPTY))
+
+WithMerlin()

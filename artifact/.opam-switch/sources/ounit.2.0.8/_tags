@@ -1,0 +1,63 @@
+# OASIS_START
+# DO NOT EDIT (digest: cc011bcaa29d48629c61b20c304ab288)
+# Ignore VCS directories, you can use the same kind of rule outside
+# OASIS_START/STOP if you want to exclude directories that contains
+# useless stuff for the build process
+true: annot, bin_annot
+<**/.svn>: -traverse
+<**/.svn>: not_hygienic
+".bzr": -traverse
+".bzr": not_hygienic
+".hg": -traverse
+".hg": not_hygienic
+".git": -traverse
+".git": not_hygienic
+"_darcs": -traverse
+"_darcs": not_hygienic
+# Library oUnitAdvanced
+"src/oUnitAdvanced.cmxs": use_oUnitAdvanced
+# Library oUnit
+"src/oUnit.cmxs": use_oUnit
+# Library oUnitThreads
+"src/oUnitThreads.cmxs": use_oUnitThreads
+<src/*.ml{,i,y}>: pkg_bytes
+<src/*.ml{,i,y}>: pkg_threads
+<src/*.ml{,i,y}>: pkg_unix
+<src/*.ml{,i,y}>: use_oUnit
+<src/*.ml{,i,y}>: use_oUnitAdvanced
+# Executable testFakeHTML
+"test/testFakeHTML.byte": pkg_bytes
+"test/testFakeHTML.byte": pkg_unix
+"test/testFakeHTML.byte": use_oUnit
+"test/testFakeHTML.byte": use_oUnitAdvanced
+# Executable testFakeRunner
+"test/testFakeRunner.byte": pkg_bytes
+"test/testFakeRunner.byte": pkg_threads
+"test/testFakeRunner.byte": pkg_unix
+"test/testFakeRunner.byte": use_oUnit
+"test/testFakeRunner.byte": use_oUnitAdvanced
+"test/testFakeRunner.byte": use_oUnitThreads
+# Executable testFakeShared
+"test/testFakeShared.byte": pkg_bytes
+"test/testFakeShared.byte": pkg_threads
+"test/testFakeShared.byte": pkg_unix
+"test/testFakeShared.byte": use_oUnit
+"test/testFakeShared.byte": use_oUnitAdvanced
+"test/testFakeShared.byte": use_oUnitThreads
+<test/*.ml{,i,y}>: pkg_threads
+<test/*.ml{,i,y}>: use_oUnitThreads
+# Executable test
+"test/test.byte": pkg_bytes
+"test/test.byte": pkg_str
+"test/test.byte": pkg_unix
+"test/test.byte": use_oUnit
+"test/test.byte": use_oUnitAdvanced
+<test/*.ml{,i,y}>: pkg_bytes
+<test/*.ml{,i,y}>: pkg_str
+<test/*.ml{,i,y}>: pkg_unix
+<test/*.ml{,i,y}>: use_oUnit
+<test/*.ml{,i,y}>: use_oUnitAdvanced
+# OASIS_STOP
+"src/oUnit.odoc": oasis_document_api_ounit
+"src/oUnit.ml": oasis_document_api_ounit
+"src/api-ounit.docdir": oasis_document_api_ounit

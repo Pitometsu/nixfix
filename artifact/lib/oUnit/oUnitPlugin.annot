@@ -1,0 +1,519 @@
+"src/oUnitPlugin.ml" 46 2621 2627 "src/oUnitPlugin.ml" 46 2621 2630
+type(
+  (int * (string * Settings.t)) list ref
+)
+ident(
+  def all "src/oUnitPlugin.ml" 48 2691 2693 "src/oUnitPlugin.ml" 70 3210 3213
+)
+"src/oUnitPlugin.ml" 46 2621 2633 "src/oUnitPlugin.ml" 46 2621 2636
+type(
+  (int * (string * Settings.t)) list ->
+  (int * (string * Settings.t)) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitPlugin.ml" 46 2621 2638 "src/oUnitPlugin.ml" 46 2621 2639
+type(
+  int
+)
+"src/oUnitPlugin.ml" 46 2621 2642 "src/oUnitPlugin.ml" 46 2621 2663
+type(
+  string
+)
+ident(
+  int_ref Settings.default_name "src/oUnitPlugin.ml" 40 2525 2527 "src/oUnitPlugin.ml" 40 2525 2551
+)
+"src/oUnitPlugin.ml" 46 2621 2665 "src/oUnitPlugin.ml" 46 2621 2687
+type(
+  Settings.t
+)
+ident(
+  int_ref Settings.default_value "src/oUnitPlugin.ml" 41 2552 2554 "src/oUnitPlugin.ml" 41 2552 2574
+)
+"src/oUnitPlugin.ml" 46 2621 2641 "src/oUnitPlugin.ml" 46 2621 2688
+type(
+  string * Settings.t
+)
+"src/oUnitPlugin.ml" 46 2621 2638 "src/oUnitPlugin.ml" 46 2621 2688
+type(
+  int * (string * Settings.t)
+)
+"src/oUnitPlugin.ml" 46 2621 2637 "src/oUnitPlugin.ml" 46 2621 2689
+type(
+  (int * (string * Settings.t)) list
+)
+"src/oUnitPlugin.ml" 46 2621 2633 "src/oUnitPlugin.ml" 46 2621 2689
+type(
+  (int * (string * Settings.t)) list ref
+)
+"src/oUnitPlugin.ml" 48 2691 2697 "src/oUnitPlugin.ml" 48 2691 2705
+type(
+  string -> int -> Settings.t -> unit
+)
+ident(
+  def register "src/oUnitPlugin.ml" 51 2758 2760 "src/oUnitPlugin.ml" 70 3210 3213
+)
+"src/oUnitPlugin.ml" 48 2691 2706 "src/oUnitPlugin.ml" 48 2691 2710
+type(
+  string
+)
+ident(
+  def name "src/oUnitPlugin.ml" 48 2691 2711 "src/oUnitPlugin.ml" 49 2720 2756
+)
+"src/oUnitPlugin.ml" 48 2691 2711 "src/oUnitPlugin.ml" 48 2691 2715
+type(
+  int
+)
+ident(
+  def pref "src/oUnitPlugin.ml" 48 2691 2716 "src/oUnitPlugin.ml" 49 2720 2756
+)
+"src/oUnitPlugin.ml" 48 2691 2716 "src/oUnitPlugin.ml" 48 2691 2717
+type(
+  Settings.t
+)
+ident(
+  def f "src/oUnitPlugin.ml" 49 2720 2724 "src/oUnitPlugin.ml" 49 2720 2756
+)
+"src/oUnitPlugin.ml" 49 2720 2724 "src/oUnitPlugin.ml" 49 2720 2727
+type(
+  (int * (string * Settings.t)) list ref
+)
+ident(
+  int_ref all "src/oUnitPlugin.ml" 46 2621 2627 "src/oUnitPlugin.ml" 46 2621 2630
+)
+"src/oUnitPlugin.ml" 49 2720 2728 "src/oUnitPlugin.ml" 49 2720 2730
+type(
+  (int * (string * Settings.t)) list ref ->
+  (int * (string * Settings.t)) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitPlugin.ml" 49 2720 2732 "src/oUnitPlugin.ml" 49 2720 2736
+type(
+  int
+)
+ident(
+  int_ref pref "src/oUnitPlugin.ml" 48 2691 2711 "src/oUnitPlugin.ml" 48 2691 2715
+)
+"src/oUnitPlugin.ml" 49 2720 2739 "src/oUnitPlugin.ml" 49 2720 2743
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitPlugin.ml" 48 2691 2706 "src/oUnitPlugin.ml" 48 2691 2710
+)
+"src/oUnitPlugin.ml" 49 2720 2745 "src/oUnitPlugin.ml" 49 2720 2746
+type(
+  Settings.t
+)
+ident(
+  int_ref f "src/oUnitPlugin.ml" 48 2691 2716 "src/oUnitPlugin.ml" 48 2691 2717
+)
+"src/oUnitPlugin.ml" 49 2720 2738 "src/oUnitPlugin.ml" 49 2720 2747
+type(
+  string * Settings.t
+)
+"src/oUnitPlugin.ml" 49 2720 2731 "src/oUnitPlugin.ml" 49 2720 2748
+type(
+  int * (string * Settings.t)
+)
+"src/oUnitPlugin.ml" 49 2720 2752 "src/oUnitPlugin.ml" 49 2720 2753
+type(
+  (int * (string * Settings.t)) list ref ->
+  (int * (string * Settings.t)) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitPlugin.ml" 49 2720 2753 "src/oUnitPlugin.ml" 49 2720 2756
+type(
+  (int * (string * Settings.t)) list ref
+)
+ident(
+  int_ref all "src/oUnitPlugin.ml" 46 2621 2627 "src/oUnitPlugin.ml" 46 2621 2630
+)
+"src/oUnitPlugin.ml" 49 2720 2752 "src/oUnitPlugin.ml" 49 2720 2756
+type(
+  (int * (string * Settings.t)) list
+)
+"src/oUnitPlugin.ml" 49 2720 2731 "src/oUnitPlugin.ml" 49 2720 2756
+type(
+  (int * (string * Settings.t)) list
+)
+"src/oUnitPlugin.ml" 49 2720 2724 "src/oUnitPlugin.ml" 49 2720 2756
+type(
+  unit
+)
+"src/oUnitPlugin.ml" 51 2758 2764 "src/oUnitPlugin.ml" 51 2758 2771
+type(
+  string -> Settings.t
+)
+ident(
+  def of_name "src/oUnitPlugin.ml" 57 2915 2917 "src/oUnitPlugin.ml" 70 3210 3213
+)
+"src/oUnitPlugin.ml" 51 2758 2772 "src/oUnitPlugin.ml" 51 2758 2773
+type(
+  string
+)
+ident(
+  def s "src/oUnitPlugin.ml" 52 2776 2780 "src/oUnitPlugin.ml" 55 2845 2913
+)
+"src/oUnitPlugin.ml" 53 2784 2790 "src/oUnitPlugin.ml" 53 2784 2800
+type(
+  string -> (string * Settings.t) list -> Settings.t
+)
+ident(
+  ext_ref List.assoc
+)
+"src/oUnitPlugin.ml" 53 2784 2801 "src/oUnitPlugin.ml" 53 2784 2802
+type(
+  string
+)
+ident(
+  int_ref s "src/oUnitPlugin.ml" 51 2758 2772 "src/oUnitPlugin.ml" 51 2758 2773
+)
+"src/oUnitPlugin.ml" 53 2784 2804 "src/oUnitPlugin.ml" 53 2784 2812
+type(
+  (int * (string * Settings.t) -> string * Settings.t) ->
+  (int * (string * Settings.t)) list -> (string * Settings.t) list
+)
+ident(
+  ext_ref List.map
+)
+"src/oUnitPlugin.ml" 53 2784 2813 "src/oUnitPlugin.ml" 53 2784 2816
+type(
+  int * (string * Settings.t) -> string * Settings.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"src/oUnitPlugin.ml" 53 2784 2817 "src/oUnitPlugin.ml" 53 2784 2818
+type(
+  (int * (string * Settings.t)) list ref ->
+  (int * (string * Settings.t)) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitPlugin.ml" 53 2784 2818 "src/oUnitPlugin.ml" 53 2784 2821
+type(
+  (int * (string * Settings.t)) list ref
+)
+ident(
+  int_ref all "src/oUnitPlugin.ml" 46 2621 2627 "src/oUnitPlugin.ml" 46 2621 2630
+)
+"src/oUnitPlugin.ml" 53 2784 2817 "src/oUnitPlugin.ml" 53 2784 2821
+type(
+  (int * (string * Settings.t)) list
+)
+"src/oUnitPlugin.ml" 53 2784 2803 "src/oUnitPlugin.ml" 53 2784 2822
+call(
+  stack
+)
+type(
+  (string * Settings.t) list
+)
+"src/oUnitPlugin.ml" 53 2784 2790 "src/oUnitPlugin.ml" 53 2784 2822
+call(
+  stack
+)
+type(
+  Settings.t
+)
+"src/oUnitPlugin.ml" 54 2823 2832 "src/oUnitPlugin.ml" 54 2823 2841
+type(
+  exn
+)
+"src/oUnitPlugin.ml" 55 2845 2851 "src/oUnitPlugin.ml" 55 2845 2871
+type(
+  (string -> string -> Settings.t, unit, string, Settings.t) format4 ->
+  string -> string -> Settings.t
+)
+ident(
+  ext_ref OUnitUtils.failwithf
+)
+"src/oUnitPlugin.ml" 55 2845 2872 "src/oUnitPlugin.ml" 55 2845 2897
+type(
+  (string -> string -> Settings.t, unit, string, Settings.t) format4
+)
+"src/oUnitPlugin.ml" 55 2845 2898 "src/oUnitPlugin.ml" 55 2845 2911
+type(
+  string
+)
+ident(
+  int_ref Settings.name "src/oUnitPlugin.ml" 38 2482 2484 "src/oUnitPlugin.ml" 38 2482 2500
+)
+"src/oUnitPlugin.ml" 55 2845 2912 "src/oUnitPlugin.ml" 55 2845 2913
+type(
+  string
+)
+ident(
+  int_ref s "src/oUnitPlugin.ml" 51 2758 2772 "src/oUnitPlugin.ml" 51 2758 2773
+)
+"src/oUnitPlugin.ml" 55 2845 2851 "src/oUnitPlugin.ml" 55 2845 2913
+call(
+  tail
+)
+type(
+  Settings.t
+)
+"src/oUnitPlugin.ml" 52 2776 2780 "src/oUnitPlugin.ml" 55 2845 2913
+type(
+  Settings.t
+)
+"src/oUnitPlugin.ml" 57 2915 2921 "src/oUnitPlugin.ml" 57 2915 2927
+type(
+  (int, unit -> unit) Hashtbl.t -> string * Settings.t
+)
+ident(
+  def choice "src/oUnitPlugin.ml" 64 3064 3066 "src/oUnitPlugin.ml" 70 3210 3213
+)
+"src/oUnitPlugin.ml" 58 2930 2934 "src/oUnitPlugin.ml" 58 2930 2953
+type(
+  string ->
+  (unit -> (string * Settings.t) list) ->
+  string -> string -> (int, unit -> unit) Hashtbl.t -> string * Settings.t
+)
+ident(
+  ext_ref OUnitConf.make_enum
+)
+"src/oUnitPlugin.ml" 59 2954 2960 "src/oUnitPlugin.ml" 59 2954 2973
+type(
+  string
+)
+ident(
+  int_ref Settings.name "src/oUnitPlugin.ml" 38 2482 2484 "src/oUnitPlugin.ml" 38 2482 2500
+)
+"src/oUnitPlugin.ml" 60 2974 2985 "src/oUnitPlugin.ml" 60 2974 2987
+type(
+  unit
+)
+"src/oUnitPlugin.ml" 60 2974 2991 "src/oUnitPlugin.ml" 60 2974 2999
+type(
+  (int * (string * Settings.t) -> string * Settings.t) ->
+  (int * (string * Settings.t)) list -> (string * Settings.t) list
+)
+ident(
+  ext_ref List.map
+)
+"src/oUnitPlugin.ml" 60 2974 3000 "src/oUnitPlugin.ml" 60 2974 3003
+type(
+  int * (string * Settings.t) -> string * Settings.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"src/oUnitPlugin.ml" 60 2974 3004 "src/oUnitPlugin.ml" 60 2974 3005
+type(
+  (int * (string * Settings.t)) list ref ->
+  (int * (string * Settings.t)) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitPlugin.ml" 60 2974 3005 "src/oUnitPlugin.ml" 60 2974 3008
+type(
+  (int * (string * Settings.t)) list ref
+)
+ident(
+  int_ref all "src/oUnitPlugin.ml" 46 2621 2627 "src/oUnitPlugin.ml" 46 2621 2630
+)
+"src/oUnitPlugin.ml" 60 2974 3004 "src/oUnitPlugin.ml" 60 2974 3008
+type(
+  (int * (string * Settings.t)) list
+)
+"src/oUnitPlugin.ml" 60 2974 2991 "src/oUnitPlugin.ml" 60 2974 3008
+call(
+  tail
+)
+type(
+  (string * Settings.t) list
+)
+"src/oUnitPlugin.ml" 60 2974 2980 "src/oUnitPlugin.ml" 60 2974 3009
+type(
+  unit -> (string * Settings.t) list
+)
+"src/oUnitPlugin.ml" 61 3010 3016 "src/oUnitPlugin.ml" 61 3010 3037
+type(
+  string
+)
+ident(
+  int_ref Settings.default_name "src/oUnitPlugin.ml" 40 2525 2527 "src/oUnitPlugin.ml" 40 2525 2551
+)
+"src/oUnitPlugin.ml" 62 3038 3044 "src/oUnitPlugin.ml" 62 3038 3062
+type(
+  string
+)
+ident(
+  int_ref Settings.conf_help "src/oUnitPlugin.ml" 39 2501 2503 "src/oUnitPlugin.ml" 39 2501 2524
+)
+"src/oUnitPlugin.ml" 58 2930 2934 "src/oUnitPlugin.ml" 62 3038 3062
+call(
+  stack
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> string * Settings.t
+)
+"src/oUnitPlugin.ml" 64 3064 3070 "src/oUnitPlugin.ml" 64 3064 3076
+type(
+  (string * string) list -> (string * string) list
+)
+ident(
+  def preset "src/oUnitPlugin.ml" 68 3171 3208 "src/oUnitPlugin.ml" 70 3210 3213
+)
+"src/oUnitPlugin.ml" 64 3064 3077 "src/oUnitPlugin.ml" 64 3064 3080
+type(
+  (string * string) list
+)
+ident(
+  def lst "src/oUnitPlugin.ml" 65 3083 3087 "src/oUnitPlugin.ml" 68 3171 3208
+)
+"src/oUnitPlugin.ml" 65 3083 3091 "src/oUnitPlugin.ml" 65 3083 3092
+type(
+  int
+)
+"src/oUnitPlugin.ml" 65 3083 3095 "src/oUnitPlugin.ml" 65 3083 3102
+type(
+  string
+)
+ident(
+  def default "src/oUnitPlugin.ml" 68 3171 3177 "src/oUnitPlugin.ml" 68 3171 3208
+)
+"src/oUnitPlugin.ml" 65 3083 3104 "src/oUnitPlugin.ml" 65 3083 3105
+type(
+  Settings.t
+)
+"src/oUnitPlugin.ml" 65 3083 3094 "src/oUnitPlugin.ml" 65 3083 3106
+type(
+  string * Settings.t
+)
+"src/oUnitPlugin.ml" 65 3083 3091 "src/oUnitPlugin.ml" 65 3083 3106
+type(
+  int * (string * Settings.t)
+)
+"src/oUnitPlugin.ml" 66 3109 3115 "src/oUnitPlugin.ml" 66 3109 3129
+type(
+  (int * (string * Settings.t) ->
+   int * (string * Settings.t) -> int * (string * Settings.t)) ->
+  int * (string * Settings.t) ->
+  (int * (string * Settings.t)) list -> int * (string * Settings.t)
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/oUnitPlugin.ml" 66 3109 3130 "src/oUnitPlugin.ml" 66 3109 3133
+type(
+  int * (string * Settings.t) ->
+  int * (string * Settings.t) -> int * (string * Settings.t)
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/oUnitPlugin.ml" 66 3109 3135 "src/oUnitPlugin.ml" 66 3109 3142
+type(
+  (int * (string * Settings.t)) list -> int * (string * Settings.t)
+)
+ident(
+  ext_ref List.hd
+)
+"src/oUnitPlugin.ml" 66 3109 3143 "src/oUnitPlugin.ml" 66 3109 3144
+type(
+  (int * (string * Settings.t)) list ref ->
+  (int * (string * Settings.t)) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitPlugin.ml" 66 3109 3144 "src/oUnitPlugin.ml" 66 3109 3147
+type(
+  (int * (string * Settings.t)) list ref
+)
+ident(
+  int_ref all "src/oUnitPlugin.ml" 46 2621 2627 "src/oUnitPlugin.ml" 46 2621 2630
+)
+"src/oUnitPlugin.ml" 66 3109 3143 "src/oUnitPlugin.ml" 66 3109 3147
+type(
+  (int * (string * Settings.t)) list
+)
+"src/oUnitPlugin.ml" 66 3109 3134 "src/oUnitPlugin.ml" 66 3109 3148
+call(
+  stack
+)
+type(
+  int * (string * Settings.t)
+)
+"src/oUnitPlugin.ml" 66 3109 3150 "src/oUnitPlugin.ml" 66 3109 3157
+type(
+  (int * (string * Settings.t)) list -> (int * (string * Settings.t)) list
+)
+ident(
+  ext_ref List.tl
+)
+"src/oUnitPlugin.ml" 66 3109 3158 "src/oUnitPlugin.ml" 66 3109 3159
+type(
+  (int * (string * Settings.t)) list ref ->
+  (int * (string * Settings.t)) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitPlugin.ml" 66 3109 3159 "src/oUnitPlugin.ml" 66 3109 3162
+type(
+  (int * (string * Settings.t)) list ref
+)
+ident(
+  int_ref all "src/oUnitPlugin.ml" 46 2621 2627 "src/oUnitPlugin.ml" 46 2621 2630
+)
+"src/oUnitPlugin.ml" 66 3109 3158 "src/oUnitPlugin.ml" 66 3109 3162
+type(
+  (int * (string * Settings.t)) list
+)
+"src/oUnitPlugin.ml" 66 3109 3149 "src/oUnitPlugin.ml" 66 3109 3163
+call(
+  stack
+)
+type(
+  (int * (string * Settings.t)) list
+)
+"src/oUnitPlugin.ml" 66 3109 3115 "src/oUnitPlugin.ml" 66 3109 3163
+call(
+  stack
+)
+type(
+  int * (string * Settings.t)
+)
+"src/oUnitPlugin.ml" 68 3171 3178 "src/oUnitPlugin.ml" 68 3171 3191
+type(
+  string
+)
+ident(
+  int_ref Settings.name "src/oUnitPlugin.ml" 38 2482 2484 "src/oUnitPlugin.ml" 38 2482 2500
+)
+"src/oUnitPlugin.ml" 68 3171 3193 "src/oUnitPlugin.ml" 68 3171 3200
+type(
+  string
+)
+ident(
+  int_ref default "src/oUnitPlugin.ml" 65 3083 3095 "src/oUnitPlugin.ml" 65 3083 3102
+)
+"src/oUnitPlugin.ml" 68 3171 3177 "src/oUnitPlugin.ml" 68 3171 3201
+type(
+  string * string
+)
+"src/oUnitPlugin.ml" 68 3171 3205 "src/oUnitPlugin.ml" 68 3171 3208
+type(
+  (string * string) list
+)
+ident(
+  int_ref lst "src/oUnitPlugin.ml" 64 3064 3077 "src/oUnitPlugin.ml" 64 3064 3080
+)
+"src/oUnitPlugin.ml" 68 3171 3177 "src/oUnitPlugin.ml" 68 3171 3208
+type(
+  (string * string) list
+)
+"src/oUnitPlugin.ml" 65 3083 3087 "src/oUnitPlugin.ml" 68 3171 3208
+type(
+  (string * string) list
+)

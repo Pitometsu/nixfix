@@ -1,0 +1,17 @@
+version = "0.4"
+description = ""
+requires = ""
+archive(byte) = "eqaf.cma"
+archive(native) = "eqaf.cmxa"
+plugin(byte) = "eqaf.cma"
+plugin(native) = "eqaf.cmxs"
+package "bigstring" (
+  directory = "bigstring"
+  version = "0.4"
+  description = ""
+  requires = "bigarray"
+  archive(byte) = "eqaf_bigstring.cma"
+  archive(native) = "eqaf_bigstring.cmxa"
+  plugin(byte) = "eqaf_bigstring.cma"
+  plugin(native) = "eqaf_bigstring.cmxs"
+)

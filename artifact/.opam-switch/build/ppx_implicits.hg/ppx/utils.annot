@@ -1,0 +1,5180 @@
+"utils.ml" 15 175 181 "utils.ml" 15 175 185
+type(
+  int -> string -> string
+)
+ident(
+  def drop "utils.ml" 17 242 244 "utils.ml" 23 439 442
+)
+"utils.ml" 15 175 186 "utils.ml" 15 175 189
+type(
+  int
+)
+ident(
+  def len "utils.ml" 15 175 190 "utils.ml" 15 175 240
+)
+"utils.ml" 15 175 190 "utils.ml" 15 175 193
+type(
+  string
+)
+ident(
+  def str "utils.ml" 15 175 196 "utils.ml" 15 175 240
+)
+"utils.ml" 15 175 196 "utils.ml" 15 175 206
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref Ppxx.Utils.String.sub
+)
+"utils.ml" 15 175 207 "utils.ml" 15 175 210
+type(
+  string
+)
+ident(
+  int_ref str "utils.ml" 15 175 190 "utils.ml" 15 175 193
+)
+"utils.ml" 15 175 211 "utils.ml" 15 175 214
+type(
+  int
+)
+ident(
+  int_ref len "utils.ml" 15 175 186 "utils.ml" 15 175 189
+)
+"utils.ml" 15 175 216 "utils.ml" 15 175 229
+type(
+  string -> int
+)
+ident(
+  ext_ref Ppxx.Utils.String.length
+)
+"utils.ml" 15 175 230 "utils.ml" 15 175 233
+type(
+  string
+)
+ident(
+  int_ref str "utils.ml" 15 175 190 "utils.ml" 15 175 193
+)
+"utils.ml" 15 175 216 "utils.ml" 15 175 233
+type(
+  int
+)
+"utils.ml" 15 175 234 "utils.ml" 15 175 235
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"utils.ml" 15 175 236 "utils.ml" 15 175 239
+type(
+  int
+)
+ident(
+  int_ref len "utils.ml" 15 175 186 "utils.ml" 15 175 189
+)
+"utils.ml" 15 175 215 "utils.ml" 15 175 240
+type(
+  int
+)
+"utils.ml" 15 175 196 "utils.ml" 15 175 240
+call(
+  tail
+)
+type(
+  string
+)
+"utils.ml" 17 242 248 "utils.ml" 17 242 257
+type(
+  ?from:int -> string -> string -> string option
+)
+ident(
+  def is_prefix "utils.ml" 22 420 438 "utils.ml" 23 439 442
+)
+"utils.ml" 17 242 260 "utils.ml" 17 242 264
+type(
+  int
+)
+"utils.ml" 17 242 265 "utils.ml" 17 242 266
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "utils.ml" 17 242 265 "utils.ml" 17 242 266
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+"utils.ml" 17 242 268 "utils.ml" 17 242 271
+type(
+  string
+)
+ident(
+  def sub "utils.ml" 17 242 272 "utils.ml" 22 420 438
+)
+"utils.ml" 17 242 272 "utils.ml" 17 242 275
+type(
+  string
+)
+ident(
+  def str "utils.ml" 18 278 282 "utils.ml" 22 420 438
+)
+"utils.ml" 18 278 286 "utils.ml" 18 278 292
+type(
+  int
+)
+ident(
+  def sublen "utils.ml" 19 316 320 "utils.ml" 22 420 438
+)
+"utils.ml" 18 278 295 "utils.ml" 18 278 308
+type(
+  string -> int
+)
+ident(
+  ext_ref Ppxx.Utils.String.length
+)
+"utils.ml" 18 278 309 "utils.ml" 18 278 312
+type(
+  string
+)
+ident(
+  int_ref sub "utils.ml" 17 242 268 "utils.ml" 17 242 271
+)
+"utils.ml" 18 278 295 "utils.ml" 18 278 312
+type(
+  int
+)
+"utils.ml" 20 325 334 "utils.ml" 20 325 344
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref Ppxx.Utils.String.sub
+)
+"utils.ml" 20 325 345 "utils.ml" 20 325 348
+type(
+  string
+)
+ident(
+  int_ref str "utils.ml" 17 242 272 "utils.ml" 17 242 275
+)
+"utils.ml" 20 325 349 "utils.ml" 20 325 353
+type(
+  int
+)
+ident(
+  int_ref from "utils.ml" 17 242 260 "utils.ml" 17 242 264
+)
+"utils.ml" 20 325 354 "utils.ml" 20 325 360
+type(
+  int
+)
+ident(
+  int_ref sublen "utils.ml" 18 278 286 "utils.ml" 18 278 292
+)
+"utils.ml" 20 325 334 "utils.ml" 20 325 360
+call(
+  stack
+)
+type(
+  string
+)
+"utils.ml" 20 325 361 "utils.ml" 20 325 362
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"utils.ml" 20 325 363 "utils.ml" 20 325 366
+type(
+  string
+)
+ident(
+  int_ref sub "utils.ml" 17 242 268 "utils.ml" 17 242 271
+)
+"utils.ml" 20 325 334 "utils.ml" 20 325 366
+type(
+  bool
+)
+"utils.ml" 20 325 378 "utils.ml" 20 325 382
+type(
+  int -> string -> string
+)
+ident(
+  int_ref drop "utils.ml" 15 175 181 "utils.ml" 15 175 185
+)
+"utils.ml" 20 325 384 "utils.ml" 20 325 388
+type(
+  int
+)
+ident(
+  int_ref from "utils.ml" 17 242 260 "utils.ml" 17 242 264
+)
+"utils.ml" 20 325 389 "utils.ml" 20 325 390
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utils.ml" 20 325 391 "utils.ml" 20 325 397
+type(
+  int
+)
+ident(
+  int_ref sublen "utils.ml" 18 278 286 "utils.ml" 18 278 292
+)
+"utils.ml" 20 325 383 "utils.ml" 20 325 398
+type(
+  int
+)
+"utils.ml" 20 325 399 "utils.ml" 20 325 402
+type(
+  string
+)
+ident(
+  int_ref str "utils.ml" 17 242 272 "utils.ml" 17 242 275
+)
+"utils.ml" 20 325 377 "utils.ml" 20 325 403
+call(
+  stack
+)
+type(
+  string
+)
+"utils.ml" 20 325 372 "utils.ml" 20 325 403
+type(
+  string option
+)
+"utils.ml" 21 404 415 "utils.ml" 21 404 419
+type(
+  string option
+)
+"utils.ml" 20 325 331 "utils.ml" 21 404 419
+type(
+  string option
+)
+"utils.ml" 22 420 429 "utils.ml" 22 420 430
+type(
+  exn
+)
+"utils.ml" 22 420 434 "utils.ml" 22 420 438
+type(
+  string option
+)
+"utils.ml" 19 316 320 "utils.ml" 22 420 438
+type(
+  string option
+)
+"utils.ml" 18 278 282 "utils.ml" 22 420 438
+type(
+  string option
+)
+"utils.ml" 26 487 491 "utils.ml" 26 487 500
+type(
+  'a ->
+  Env.t ->
+  Typpx.Compilerlib.Types.module_declaration ->
+  Typpx.Compilerlib.Types.signature
+)
+ident(
+  def scrape_sg "utils.ml" 41 859 859 "utils.ml" 1 0 -1
+)
+"utils.ml" 26 487 501 "utils.ml" 26 487 506
+type(
+  'a
+)
+ident(
+  def _path "utils.ml" 26 487 507 "utils.ml" 39 844 857
+)
+"utils.ml" 26 487 507 "utils.ml" 26 487 510
+type(
+  Env.t
+)
+ident(
+  def env "utils.ml" 26 487 511 "utils.ml" 39 844 857
+)
+"utils.ml" 26 487 511 "utils.ml" 26 487 516
+type(
+  Typpx.Compilerlib.Types.module_declaration
+)
+ident(
+  def mdecl "utils.ml" 27 520 522 "utils.ml" 39 844 857
+)
+"utils.ml" 28 526 536 "utils.ml" 28 526 552
+type(
+  Env.t -> Types.module_type -> Types.module_type
+)
+ident(
+  ext_ref Env.scrape_alias
+)
+"utils.ml" 28 526 553 "utils.ml" 28 526 556
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 26 487 507 "utils.ml" 26 487 510
+)
+"utils.ml" 28 526 536 "utils.ml" 28 526 556
+type(
+  Types.module_type -> Types.module_type
+)
+"utils.ml" 28 526 557 "utils.ml" 28 526 558
+type(
+  (Types.module_type -> Types.module_type) ->
+  Types.module_type -> Types.module_type
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 28 526 559 "utils.ml" 28 526 571
+type(
+  Env.t -> Typpx.Compilerlib.Types.module_type -> Types.module_type
+)
+ident(
+  ext_ref Mtype.scrape
+)
+"utils.ml" 28 526 572 "utils.ml" 28 526 575
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 26 487 507 "utils.ml" 26 487 510
+)
+"utils.ml" 28 526 576 "utils.ml" 28 526 581
+type(
+  Typpx.Compilerlib.Types.module_declaration
+)
+ident(
+  int_ref mdecl "utils.ml" 26 487 511 "utils.ml" 26 487 516
+)
+"utils.ml" 28 526 576 "utils.ml" 28 526 589
+type(
+  Typpx.Compilerlib.Types.module_type
+)
+"utils.ml" 28 526 559 "utils.ml" 28 526 589
+call(
+  stack
+)
+type(
+  Types.module_type
+)
+"utils.ml" 28 526 536 "utils.ml" 28 526 589
+call(
+  stack
+)
+type(
+  Types.module_type
+)
+"utils.ml" 29 595 615 "utils.ml" 29 595 617
+type(
+  Typpx.Compilerlib.Types.signature
+)
+ident(
+  def sg "utils.ml" 33 663 671 "utils.ml" 33 663 673
+)
+"utils.ml" 29 595 601 "utils.ml" 29 595 617
+type(
+  Typpx.Compilerlib.Types.module_type
+)
+"utils.ml" 33 663 671 "utils.ml" 33 663 673
+type(
+  Typpx.Compilerlib.Types.signature
+)
+ident(
+  int_ref sg "utils.ml" 29 595 615 "utils.ml" 29 595 617
+)
+"utils.ml" 34 674 692 "utils.ml" 34 674 693
+type(
+  Typpx.Compilerlib.Types.module_type
+)
+type(
+  Typpx.Compilerlib.Types.module_type option
+)
+type(
+  Ident.t
+)
+"utils.ml" 34 674 680 "utils.ml" 34 674 693
+type(
+  Typpx.Compilerlib.Types.module_type
+)
+"utils.ml" 34 674 697 "utils.ml" 34 674 699
+type(
+  Typpx.Compilerlib.Types.signature
+)
+"utils.ml" 35 747 753 "utils.ml" 35 747 754
+type(
+  Typpx.Compilerlib.Types.module_type
+)
+"utils.ml" 35 747 765 "utils.ml" 35 747 770
+type(
+  bool
+)
+"utils.ml" 35 747 758 "utils.ml" 35 747 770
+type(
+  Typpx.Compilerlib.Types.signature
+)
+"utils.ml" 28 526 530 "utils.ml" 35 747 770
+type(
+  Typpx.Compilerlib.Types.signature
+)
+"utils.ml" 37 778 782 "utils.ml" 37 778 783
+type(
+  exn
+)
+ident(
+  def e "utils.ml" 38 788 794 "utils.ml" 39 844 857
+)
+"utils.ml" 38 788 794 "utils.ml" 38 788 797
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"utils.ml" 38 788 798 "utils.ml" 38 788 819
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"utils.ml" 38 788 794 "utils.ml" 38 788 819
+type(
+  string -> unit
+)
+"utils.ml" 38 788 820 "utils.ml" 38 788 821
+type(
+  (string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 38 788 822 "utils.ml" 38 788 840
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"utils.ml" 38 788 841 "utils.ml" 38 788 842
+type(
+  exn
+)
+ident(
+  int_ref e "utils.ml" 37 778 782 "utils.ml" 37 778 783
+)
+"utils.ml" 38 788 822 "utils.ml" 38 788 842
+call(
+  stack
+)
+type(
+  string
+)
+"utils.ml" 38 788 794 "utils.ml" 38 788 842
+call(
+  stack
+)
+type(
+  unit
+)
+"utils.ml" 39 844 850 "utils.ml" 39 844 855
+type(
+  exn -> Typpx.Compilerlib.Types.signature
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utils.ml" 39 844 856 "utils.ml" 39 844 857
+type(
+  exn
+)
+ident(
+  int_ref e "utils.ml" 37 778 782 "utils.ml" 37 778 783
+)
+"utils.ml" 39 844 850 "utils.ml" 39 844 857
+type(
+  Typpx.Compilerlib.Types.signature
+)
+"utils.ml" 38 788 794 "utils.ml" 39 844 857
+type(
+  Typpx.Compilerlib.Types.signature
+)
+"utils.ml" 27 520 522 "utils.ml" 39 844 857
+type(
+  Typpx.Compilerlib.Types.signature
+)
+"utils.ml" 41 859 863 "utils.ml" 41 859 878
+type(
+  Typpx.Compilerlib.Path.t ->
+  Env.t -> Typpx.Compilerlib.Types.signature_item list -> unit
+)
+ident(
+  def _test_scrape_sg "utils.ml" 59 1624 1624 "utils.ml" 1 0 -1
+)
+"utils.ml" 41 859 879 "utils.ml" 41 859 883
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def path "utils.ml" 41 859 884 "utils.ml" 56 1530 1543
+)
+"utils.ml" 41 859 884 "utils.ml" 41 859 887
+type(
+  Env.t
+)
+ident(
+  def env "utils.ml" 41 859 888 "utils.ml" 56 1530 1543
+)
+"utils.ml" 41 859 888 "utils.ml" 41 859 890
+type(
+  Typpx.Compilerlib.Types.signature_item list
+)
+ident(
+  def sg "utils.ml" 42 893 895 "utils.ml" 56 1530 1543
+)
+"utils.ml" 42 893 901 "utils.ml" 42 893 905
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "utils.ml" 41 859 879 "utils.ml" 41 859 883
+)
+"utils.ml" 43 911 936 "utils.ml" 43 911 948
+type(
+  string
+)
+"utils.ml" 43 911 922 "utils.ml" 43 911 949
+type(
+  Typpx.Compilerlib.Ident.t
+)
+"utils.ml" 43 911 915 "utils.ml" 43 911 949
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 43 911 953 "utils.ml" 43 911 955
+type(
+  unit
+)
+"utils.ml" 44 956 960 "utils.ml" 44 956 961
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 45 965 971 "utils.ml" 45 965 974
+type(
+  Longident.t
+)
+ident(
+  def lid "utils.ml" 46 1028 1030 "utils.ml" 56 1530 1543
+)
+"utils.ml" 45 965 989 "utils.ml" 45 965 1013
+type(
+  Typpx.Compilerlib.Path.t -> Longident.t
+)
+ident(
+  ext_ref Untypeast.lident_of_path
+)
+"utils.ml" 45 965 1014 "utils.ml" 45 965 1018
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "utils.ml" 41 859 879 "utils.ml" 41 859 883
+)
+"utils.ml" 45 965 989 "utils.ml" 45 965 1018
+call(
+  stack
+)
+type(
+  Longident.t
+)
+"utils.ml" 46 1028 1030 "utils.ml" 46 1028 1033
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"utils.ml" 46 1028 1034 "utils.ml" 46 1028 1050
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format
+)
+"utils.ml" 46 1028 1030 "utils.ml" 46 1028 1050
+type(
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+"utils.ml" 46 1028 1051 "utils.ml" 46 1028 1070
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format_verbose
+)
+"utils.ml" 46 1028 1071 "utils.ml" 46 1028 1075
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "utils.ml" 41 859 879 "utils.ml" 41 859 883
+)
+"utils.ml" 46 1028 1030 "utils.ml" 46 1028 1075
+call(
+  stack
+)
+type(
+  unit
+)
+"utils.ml" 47 1077 1079 "utils.ml" 47 1077 1083
+type(
+  ((Typpx.Compilerlib.Types.signature_item -> unit) ->
+   Typpx.Compilerlib.Types.signature_item list -> unit) ->
+  Typpx.Compilerlib.Types.signature_item list ->
+  (Typpx.Compilerlib.Types.signature_item -> unit) -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"utils.ml" 47 1077 1084 "utils.ml" 47 1077 1088
+type(
+  (Typpx.Compilerlib.Types.signature_item -> unit) ->
+  Typpx.Compilerlib.Types.signature_item list -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.List.iter
+)
+"utils.ml" 47 1077 1089 "utils.ml" 47 1077 1091
+type(
+  Typpx.Compilerlib.Types.signature_item list
+)
+ident(
+  int_ref sg "utils.ml" 41 859 888 "utils.ml" 41 859 890
+)
+"utils.ml" 47 1077 1079 "utils.ml" 47 1077 1091
+type(
+  (Typpx.Compilerlib.Types.signature_item -> unit) -> unit
+)
+"utils.ml" 47 1077 1092 "utils.ml" 47 1077 1093
+type(
+  ((Typpx.Compilerlib.Types.signature_item -> unit) -> unit) ->
+  (Typpx.Compilerlib.Types.signature_item -> unit) -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 48 1103 1120 "utils.ml" 48 1103 1122
+type(
+  Ident.t
+)
+ident(
+  def id "utils.ml" 49 1135 1143 "utils.ml" 51 1261 1359
+)
+"utils.ml" 48 1103 1124 "utils.ml" 48 1103 1130
+type(
+  Typpx.Compilerlib.Types.value_description
+)
+ident(
+  def _vdesc "utils.ml" 49 1135 1143 "utils.ml" 51 1261 1359
+)
+"utils.ml" 48 1103 1109 "utils.ml" 48 1103 1131
+type(
+  Typpx.Compilerlib.Types.signature_item
+)
+"utils.ml" 49 1135 1147 "utils.ml" 49 1135 1150
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def lid "utils.ml" 50 1182 1190 "utils.ml" 51 1261 1359
+)
+"utils.ml" 49 1135 1159 "utils.ml" 49 1135 1162
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "utils.ml" 45 965 971 "utils.ml" 45 965 974
+)
+"utils.ml" 49 1135 1164 "utils.ml" 49 1135 1166
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "utils.ml" 48 1103 1120 "utils.ml" 48 1103 1122
+)
+"utils.ml" 49 1135 1164 "utils.ml" 49 1135 1177
+type(
+  string
+)
+"utils.ml" 49 1135 1153 "utils.ml" 49 1135 1178
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"utils.ml" 50 1182 1194 "utils.ml" 50 1182 1198
+type(
+  Path.t option
+)
+ident(
+  def popt "utils.ml" 51 1261 1269 "utils.ml" 51 1261 1359
+)
+"utils.ml" 50 1182 1211 "utils.ml" 50 1182 1214
+type(
+  Path.t * Types.value_description -> Path.t
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"utils.ml" 50 1182 1216 "utils.ml" 50 1182 1232
+type(
+  ?loc:Location.t ->
+  Ppxx.Compilerlib.Longident.t -> Env.t -> Path.t * Types.value_description
+)
+ident(
+  ext_ref Env.lookup_value
+)
+"utils.ml" 50 1182 1233 "utils.ml" 50 1182 1236
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "utils.ml" 49 1135 1147 "utils.ml" 49 1135 1150
+)
+"utils.ml" 50 1182 1237 "utils.ml" 50 1182 1240
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 41 859 884 "utils.ml" 41 859 887
+)
+"utils.ml" 50 1182 1215 "utils.ml" 50 1182 1241
+call(
+  stack
+)
+type(
+  Path.t * Types.value_description
+)
+"utils.ml" 50 1182 1210 "utils.ml" 50 1182 1242
+type(
+  Path.t
+)
+"utils.ml" 50 1182 1205 "utils.ml" 50 1182 1242
+type(
+  Path.t option
+)
+"utils.ml" 50 1182 1248 "utils.ml" 50 1182 1249
+type(
+  exn
+)
+"utils.ml" 50 1182 1253 "utils.ml" 50 1182 1257
+type(
+  Path.t option
+)
+"utils.ml" 50 1182 1201 "utils.ml" 50 1182 1257
+type(
+  Path.t option
+)
+"utils.ml" 51 1261 1269 "utils.ml" 51 1261 1272
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+   Typpx.Compilerlib.Ident.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t option -> unit) ->
+   Typpx.Compilerlib.Path.t option -> unit, Ppxx.Utils.Format.formatter,
+   unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+  Typpx.Compilerlib.Ident.t ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t option -> unit) ->
+  Typpx.Compilerlib.Path.t option -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"utils.ml" 51 1261 1273 "utils.ml" 51 1261 1294
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+   Typpx.Compilerlib.Ident.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t option -> unit) ->
+   Typpx.Compilerlib.Path.t option -> unit, Ppxx.Utils.Format.formatter,
+   unit)
+  format
+)
+"utils.ml" 51 1261 1269 "utils.ml" 51 1261 1294
+type(
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+  Typpx.Compilerlib.Ident.t ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t option -> unit) ->
+  Typpx.Compilerlib.Path.t option -> unit
+)
+"utils.ml" 51 1261 1295 "utils.ml" 51 1261 1315
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ident.format_verbose
+)
+"utils.ml" 51 1261 1316 "utils.ml" 51 1261 1318
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "utils.ml" 48 1103 1120 "utils.ml" 48 1103 1122
+)
+"utils.ml" 51 1261 1320 "utils.ml" 51 1261 1333
+type(
+  (Ppxx__Utils.Format.t -> Typpx.Compilerlib.Path.t -> unit) ->
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t option -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.Option.format
+)
+"utils.ml" 51 1261 1334 "utils.ml" 51 1261 1353
+type(
+  Ppxx__Utils.Format.t -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format_verbose
+)
+"utils.ml" 51 1261 1319 "utils.ml" 51 1261 1354
+call(
+  stack
+)
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t option -> unit
+)
+"utils.ml" 51 1261 1355 "utils.ml" 51 1261 1359
+type(
+  Typpx.Compilerlib.Path.t option
+)
+ident(
+  int_ref popt "utils.ml" 50 1182 1194 "utils.ml" 50 1182 1198
+)
+"utils.ml" 51 1261 1269 "utils.ml" 51 1261 1359
+call(
+  tail
+)
+type(
+  unit
+)
+"utils.ml" 50 1182 1190 "utils.ml" 51 1261 1359
+type(
+  unit
+)
+"utils.ml" 49 1135 1143 "utils.ml" 51 1261 1359
+type(
+  unit
+)
+"utils.ml" 52 1360 1378 "utils.ml" 52 1360 1380
+type(
+  Ident.t
+)
+ident(
+  def id "utils.ml" 53 1398 1406 "utils.ml" 53 1398 1449
+)
+"utils.ml" 52 1360 1382 "utils.ml" 52 1360 1390
+type(
+  Typpx.Compilerlib.Types.module_declaration
+)
+ident(
+  def _moddecl "utils.ml" 53 1398 1406 "utils.ml" 53 1398 1449
+)
+"utils.ml" 52 1360 1392 "utils.ml" 52 1360 1393
+type(
+  Typpx.Compilerlib.Types.rec_status
+)
+"utils.ml" 52 1360 1366 "utils.ml" 52 1360 1394
+type(
+  Typpx.Compilerlib.Types.signature_item
+)
+"utils.ml" 53 1398 1406 "utils.ml" 53 1398 1409
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+   Typpx.Compilerlib.Ident.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+  Typpx.Compilerlib.Ident.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"utils.ml" 53 1398 1410 "utils.ml" 53 1398 1425
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+   Typpx.Compilerlib.Ident.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format
+)
+"utils.ml" 53 1398 1406 "utils.ml" 53 1398 1425
+type(
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+  Typpx.Compilerlib.Ident.t -> unit
+)
+"utils.ml" 53 1398 1426 "utils.ml" 53 1398 1446
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ident.format_verbose
+)
+"utils.ml" 53 1398 1447 "utils.ml" 53 1398 1449
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "utils.ml" 52 1360 1378 "utils.ml" 52 1360 1380
+)
+"utils.ml" 53 1398 1406 "utils.ml" 53 1398 1449
+call(
+  tail
+)
+type(
+  unit
+)
+"utils.ml" 54 1450 1466 "utils.ml" 54 1450 1468
+type(
+  Ident.t
+)
+ident(
+  def id "utils.ml" 55 1480 1488 "utils.ml" 55 1480 1529
+)
+"utils.ml" 54 1450 1470 "utils.ml" 54 1450 1471
+type(
+  Typpx.Compilerlib.Types.type_declaration
+)
+"utils.ml" 54 1450 1473 "utils.ml" 54 1450 1474
+type(
+  Typpx.Compilerlib.Types.rec_status
+)
+"utils.ml" 54 1450 1456 "utils.ml" 54 1450 1475
+type(
+  Typpx.Compilerlib.Types.signature_item
+)
+"utils.ml" 55 1480 1488 "utils.ml" 55 1480 1491
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+   Typpx.Compilerlib.Ident.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+  Typpx.Compilerlib.Ident.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"utils.ml" 55 1480 1492 "utils.ml" 55 1480 1505
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+   Typpx.Compilerlib.Ident.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format
+)
+"utils.ml" 55 1480 1488 "utils.ml" 55 1480 1505
+type(
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+  Typpx.Compilerlib.Ident.t -> unit
+)
+"utils.ml" 55 1480 1506 "utils.ml" 55 1480 1526
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ident.format_verbose
+)
+"utils.ml" 55 1480 1527 "utils.ml" 55 1480 1529
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "utils.ml" 54 1450 1466 "utils.ml" 54 1450 1468
+)
+"utils.ml" 55 1480 1488 "utils.ml" 55 1480 1529
+call(
+  tail
+)
+type(
+  unit
+)
+"utils.ml" 56 1530 1536 "utils.ml" 56 1530 1537
+type(
+  Typpx.Compilerlib.Types.signature_item
+)
+"utils.ml" 56 1530 1541 "utils.ml" 56 1530 1543
+type(
+  unit
+)
+"utils.ml" 47 1077 1094 "utils.ml" 56 1530 1543
+type(
+  Typpx.Compilerlib.Types.signature_item -> unit
+)
+"utils.ml" 47 1077 1079 "utils.ml" 56 1530 1543
+call(
+  tail
+)
+type(
+  unit
+)
+"utils.ml" 46 1028 1030 "utils.ml" 56 1530 1543
+type(
+  unit
+)
+"utils.ml" 45 965 967 "utils.ml" 56 1530 1543
+type(
+  unit
+)
+"utils.ml" 42 893 895 "utils.ml" 56 1530 1543
+type(
+  unit
+)
+"utils.ml" 59 1624 1643 "utils.ml" 59 1624 1646
+type(
+  Env.t
+)
+"utils.ml" 59 1624 1647 "utils.ml" 59 1624 1649
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 59 1624 1650 "utils.ml" 59 1624 1653
+type(
+  Types.module_type
+)
+"utils.ml" 61 1730 1736 "utils.ml" 61 1730 1739
+type(
+  Types.module_type
+)
+"utils.ml" 61 1730 1742 "utils.ml" 61 1730 1758
+type(
+  Env.t -> Types.module_type -> Types.module_type
+)
+ident(
+  ext_ref Env.scrape_alias
+)
+"utils.ml" 61 1730 1759 "utils.ml" 61 1730 1762
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 59 1624 1643 "utils.ml" 59 1624 1646
+)
+"utils.ml" 61 1730 1742 "utils.ml" 61 1730 1762
+type(
+  Types.module_type -> Types.module_type
+)
+"utils.ml" 61 1730 1763 "utils.ml" 61 1730 1764
+type(
+  (Types.module_type -> Types.module_type) ->
+  Types.module_type -> Types.module_type
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 61 1730 1765 "utils.ml" 61 1730 1777
+type(
+  Env.t -> Types.module_type -> Types.module_type
+)
+ident(
+  ext_ref Mtype.scrape
+)
+"utils.ml" 61 1730 1778 "utils.ml" 61 1730 1781
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 59 1624 1643 "utils.ml" 59 1624 1646
+)
+"utils.ml" 61 1730 1782 "utils.ml" 61 1730 1785
+type(
+  Types.module_type
+)
+ident(
+  int_ref mty "utils.ml" 59 1624 1650 "utils.ml" 59 1624 1653
+)
+"utils.ml" 61 1730 1765 "utils.ml" 61 1730 1785
+call(
+  stack
+)
+type(
+  Types.module_type
+)
+"utils.ml" 61 1730 1742 "utils.ml" 61 1730 1785
+call(
+  stack
+)
+type(
+  Types.module_type
+)
+"utils.ml" 65 1862 1868 "utils.ml" 65 1862 1873
+type(
+  string
+)
+"utils.ml" 65 1862 1876 "utils.ml" 65 1862 1883
+type(
+  string
+)
+"utils.ml" 66 1887 1893 "utils.ml" 66 1887 1895
+type(
+  Typpx.Compilerlib.Ident.t
+)
+"utils.ml" 66 1887 1898 "utils.ml" 66 1887 1910
+type(
+  string -> Typpx.Compilerlib.Ident.t
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ident.create
+)
+"utils.ml" 66 1887 1911 "utils.ml" 66 1887 1918
+type(
+  string
+)
+"utils.ml" 66 1887 1898 "utils.ml" 66 1887 1918
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Ident.t
+)
+"utils.ml" 67 1922 1928 "utils.ml" 67 1922 1931
+type(
+  Env.t
+)
+"utils.ml" 67 1922 1934 "utils.ml" 67 1922 1948
+type(
+  ?arg:bool ->
+  Typpx.Compilerlib.Ident.t -> Types.module_type -> Env.t -> Env.t
+)
+ident(
+  ext_ref Env.add_module
+)
+"utils.ml" 67 1922 1949 "utils.ml" 67 1922 1951
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "utils.ml" 66 1887 1893 "utils.ml" 66 1887 1895
+)
+"utils.ml" 67 1922 1952 "utils.ml" 67 1922 1955
+type(
+  Types.module_type
+)
+ident(
+  int_ref mty "utils.ml" 61 1730 1736 "utils.ml" 61 1730 1739
+)
+"utils.ml" 67 1922 1956 "utils.ml" 67 1922 1965
+type(
+  Env.t
+)
+ident(
+  ext_ref Env.empty
+)
+"utils.ml" 67 1922 1934 "utils.ml" 67 1922 1965
+call(
+  stack
+)
+type(
+  Env.t
+)
+"utils.ml" 70 1977 1998 "utils.ml" 70 1977 1999
+type(
+  string
+)
+ident(
+  def s "utils.ml" 71 2002 2006 "utils.ml" 75 2171 2194
+)
+"utils.ml" 71 2002 2012 "utils.ml" 71 2002 2027
+type(
+  ?loc:Location.t -> Ppxx.Compilerlib.Longident.t -> Env.t -> Path.t
+)
+ident(
+  ext_ref Env.lookup_type
+)
+"utils.ml" 71 2002 2053 "utils.ml" 71 2002 2058
+type(
+  string
+)
+ident(
+  int_ref dummy "utils.ml" 65 1862 1868 "utils.ml" 65 1862 1873
+)
+"utils.ml" 71 2002 2046 "utils.ml" 71 2002 2058
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"utils.ml" 71 2002 2060 "utils.ml" 71 2002 2061
+type(
+  string
+)
+ident(
+  int_ref s "utils.ml" 70 1977 1998 "utils.ml" 70 1977 1999
+)
+"utils.ml" 71 2002 2040 "utils.ml" 71 2002 2062
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"utils.ml" 71 2002 2065 "utils.ml" 71 2002 2068
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 67 1922 1928 "utils.ml" 67 1922 1931
+)
+"utils.ml" 71 2002 2012 "utils.ml" 71 2002 2068
+call(
+  stack
+)
+type(
+  Path.t
+)
+"utils.ml" 72 2074 2086 "utils.ml" 72 2074 2087
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 72 2074 2089 "utils.ml" 72 2074 2091
+type(
+  string
+)
+ident(
+  def s' "utils.ml" 73 2104 2111 "utils.ml" 74 2143 2170
+)
+"utils.ml" 72 2074 2093 "utils.ml" 72 2074 2094
+type(
+  int
+)
+ident(
+  def n "utils.ml" 73 2104 2111 "utils.ml" 74 2143 2170
+)
+"utils.ml" 72 2074 2080 "utils.ml" 72 2074 2095
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 72 2074 2099 "utils.ml" 72 2074 2100
+ident(
+  def p "utils.ml" 73 2104 2111 "utils.ml" 74 2143 2170
+)
+"utils.ml" 72 2074 2080 "utils.ml" 72 2074 2100
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 73 2104 2115 "utils.ml" 73 2104 2117
+type(
+  Types.type_declaration
+)
+ident(
+  def td "utils.ml" 74 2143 2150 "utils.ml" 74 2143 2170
+)
+"utils.ml" 73 2104 2120 "utils.ml" 73 2104 2133
+type(
+  Typpx.Compilerlib.Path.t -> Env.t -> Types.type_declaration
+)
+ident(
+  ext_ref Env.find_type
+)
+"utils.ml" 73 2104 2134 "utils.ml" 73 2104 2135
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref p "utils.ml" 72 2074 2080 "utils.ml" 72 2074 2100
+)
+"utils.ml" 73 2104 2136 "utils.ml" 73 2104 2139
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 67 1922 1928 "utils.ml" 67 1922 1931
+)
+"utils.ml" 73 2104 2120 "utils.ml" 73 2104 2139
+call(
+  stack
+)
+type(
+  Types.type_declaration
+)
+"utils.ml" 74 2143 2156 "utils.ml" 74 2143 2158
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref mp "utils.ml" 59 1624 1647 "utils.ml" 59 1624 1649
+)
+"utils.ml" 74 2143 2160 "utils.ml" 74 2143 2162
+type(
+  string
+)
+ident(
+  int_ref s' "utils.ml" 72 2074 2089 "utils.ml" 72 2074 2091
+)
+"utils.ml" 74 2143 2164 "utils.ml" 74 2143 2165
+type(
+  int
+)
+ident(
+  int_ref n "utils.ml" 72 2074 2093 "utils.ml" 72 2074 2094
+)
+"utils.ml" 74 2143 2150 "utils.ml" 74 2143 2166
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 74 2143 2168 "utils.ml" 74 2143 2170
+type(
+  Types.type_declaration
+)
+ident(
+  int_ref td "utils.ml" 73 2104 2115 "utils.ml" 73 2104 2117
+)
+"utils.ml" 74 2143 2150 "utils.ml" 74 2143 2170
+type(
+  Typpx.Compilerlib.Path.t * Types.type_declaration
+)
+"utils.ml" 73 2104 2111 "utils.ml" 74 2143 2170
+type(
+  Typpx.Compilerlib.Path.t * Types.type_declaration
+)
+"utils.ml" 75 2171 2177 "utils.ml" 75 2171 2178
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 75 2171 2189 "utils.ml" 75 2171 2194
+type(
+  bool
+)
+"utils.ml" 75 2171 2182 "utils.ml" 75 2171 2194
+type(
+  Typpx.Compilerlib.Path.t * Types.type_declaration
+)
+"utils.ml" 71 2002 2006 "utils.ml" 75 2171 2194
+type(
+  Typpx.Compilerlib.Path.t * Types.type_declaration
+)
+"utils.ml" 77 2208 2231 "utils.ml" 77 2208 2232
+type(
+  string
+)
+ident(
+  def s "utils.ml" 78 2235 2239 "utils.ml" 80 2363 2386
+)
+"utils.ml" 78 2235 2245 "utils.ml" 78 2235 2262
+type(
+  load:bool ->
+  ?loc:Location.t -> Ppxx.Compilerlib.Longident.t -> Env.t -> Path.t
+)
+ident(
+  ext_ref Env.lookup_module
+)
+"utils.ml" 78 2235 2269 "utils.ml" 78 2235 2274
+type(
+  bool
+)
+"utils.ml" 78 2235 2300 "utils.ml" 78 2235 2305
+type(
+  string
+)
+ident(
+  int_ref dummy "utils.ml" 65 1862 1868 "utils.ml" 65 1862 1873
+)
+"utils.ml" 78 2235 2293 "utils.ml" 78 2235 2305
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"utils.ml" 78 2235 2307 "utils.ml" 78 2235 2308
+type(
+  string
+)
+ident(
+  int_ref s "utils.ml" 77 2208 2231 "utils.ml" 77 2208 2232
+)
+"utils.ml" 78 2235 2287 "utils.ml" 78 2235 2309
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"utils.ml" 78 2235 2312 "utils.ml" 78 2235 2315
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 67 1922 1928 "utils.ml" 67 1922 1931
+)
+"utils.ml" 78 2235 2245 "utils.ml" 78 2235 2315
+call(
+  stack
+)
+type(
+  Path.t
+)
+"utils.ml" 79 2321 2333 "utils.ml" 79 2321 2334
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 79 2321 2336 "utils.ml" 79 2321 2338
+type(
+  string
+)
+ident(
+  def s' "utils.ml" 79 2321 2346 "utils.ml" 79 2321 2362
+)
+"utils.ml" 79 2321 2340 "utils.ml" 79 2321 2341
+type(
+  int
+)
+ident(
+  def n "utils.ml" 79 2321 2346 "utils.ml" 79 2321 2362
+)
+"utils.ml" 79 2321 2327 "utils.ml" 79 2321 2342
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 79 2321 2352 "utils.ml" 79 2321 2354
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref mp "utils.ml" 59 1624 1647 "utils.ml" 59 1624 1649
+)
+"utils.ml" 79 2321 2356 "utils.ml" 79 2321 2358
+type(
+  string
+)
+ident(
+  int_ref s' "utils.ml" 79 2321 2336 "utils.ml" 79 2321 2338
+)
+"utils.ml" 79 2321 2360 "utils.ml" 79 2321 2361
+type(
+  int
+)
+ident(
+  int_ref n "utils.ml" 79 2321 2340 "utils.ml" 79 2321 2341
+)
+"utils.ml" 79 2321 2346 "utils.ml" 79 2321 2362
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 80 2363 2369 "utils.ml" 80 2363 2370
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 80 2363 2381 "utils.ml" 80 2363 2386
+type(
+  bool
+)
+"utils.ml" 80 2363 2374 "utils.ml" 80 2363 2386
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 78 2235 2239 "utils.ml" 80 2363 2386
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 82 2404 2426 "utils.ml" 82 2404 2427
+type(
+  string
+)
+ident(
+  def s "utils.ml" 83 2430 2434 "utils.ml" 85 2550 2573
+)
+"utils.ml" 83 2430 2440 "utils.ml" 83 2430 2456
+type(
+  ?loc:Location.t ->
+  Ppxx.Compilerlib.Longident.t -> Env.t -> Path.t * Types.value_description
+)
+ident(
+  ext_ref Env.lookup_value
+)
+"utils.ml" 83 2430 2482 "utils.ml" 83 2430 2487
+type(
+  string
+)
+ident(
+  int_ref dummy "utils.ml" 65 1862 1868 "utils.ml" 65 1862 1873
+)
+"utils.ml" 83 2430 2475 "utils.ml" 83 2430 2487
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"utils.ml" 83 2430 2489 "utils.ml" 83 2430 2490
+type(
+  string
+)
+ident(
+  int_ref s "utils.ml" 82 2404 2426 "utils.ml" 82 2404 2427
+)
+"utils.ml" 83 2430 2469 "utils.ml" 83 2430 2491
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"utils.ml" 83 2430 2494 "utils.ml" 83 2430 2497
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 67 1922 1928 "utils.ml" 67 1922 1931
+)
+"utils.ml" 83 2430 2440 "utils.ml" 83 2430 2497
+call(
+  stack
+)
+type(
+  Path.t * Types.value_description
+)
+"utils.ml" 84 2503 2515 "utils.ml" 84 2503 2516
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 84 2503 2518 "utils.ml" 84 2503 2520
+type(
+  string
+)
+ident(
+  def s' "utils.ml" 84 2503 2533 "utils.ml" 84 2503 2549
+)
+"utils.ml" 84 2503 2522 "utils.ml" 84 2503 2523
+type(
+  int
+)
+ident(
+  def n "utils.ml" 84 2503 2533 "utils.ml" 84 2503 2549
+)
+"utils.ml" 84 2503 2509 "utils.ml" 84 2503 2524
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 84 2503 2526 "utils.ml" 84 2503 2529
+type(
+  Types.value_description
+)
+ident(
+  def _vd "utils.ml" 84 2503 2533 "utils.ml" 84 2503 2549
+)
+"utils.ml" 84 2503 2509 "utils.ml" 84 2503 2529
+type(
+  Typpx.Compilerlib.Path.t * Types.value_description
+)
+"utils.ml" 84 2503 2539 "utils.ml" 84 2503 2541
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref mp "utils.ml" 59 1624 1647 "utils.ml" 59 1624 1649
+)
+"utils.ml" 84 2503 2543 "utils.ml" 84 2503 2545
+type(
+  string
+)
+ident(
+  int_ref s' "utils.ml" 84 2503 2518 "utils.ml" 84 2503 2520
+)
+"utils.ml" 84 2503 2547 "utils.ml" 84 2503 2548
+type(
+  int
+)
+ident(
+  int_ref n "utils.ml" 84 2503 2522 "utils.ml" 84 2503 2523
+)
+"utils.ml" 84 2503 2533 "utils.ml" 84 2503 2549
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 85 2550 2556 "utils.ml" 85 2550 2557
+type(
+  Typpx.Compilerlib.Path.t * Types.value_description
+)
+"utils.ml" 85 2550 2568 "utils.ml" 85 2550 2573
+type(
+  bool
+)
+"utils.ml" 85 2550 2561 "utils.ml" 85 2550 2573
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 83 2430 2434 "utils.ml" 85 2550 2573
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 89 2596 2600 "utils.ml" 89 2596 2609
+type(
+  'a -> (unit -> 'a) -> 'a
+)
+ident(
+  def exit_then "utils.ml" 91 2641 2641 "utils.ml" 1 0 -1
+)
+"utils.ml" 89 2596 2610 "utils.ml" 89 2596 2611
+type(
+  'a
+)
+ident(
+  def d "utils.ml" 89 2596 2612 "utils.ml" 89 2596 2639
+)
+"utils.ml" 89 2596 2612 "utils.ml" 89 2596 2613
+type(
+  unit -> 'a
+)
+ident(
+  def f "utils.ml" 89 2596 2616 "utils.ml" 89 2596 2639
+)
+"utils.ml" 89 2596 2620 "utils.ml" 89 2596 2621
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "utils.ml" 89 2596 2612 "utils.ml" 89 2596 2613
+)
+"utils.ml" 89 2596 2622 "utils.ml" 89 2596 2624
+type(
+  unit
+)
+"utils.ml" 89 2596 2620 "utils.ml" 89 2596 2624
+call(
+  stack
+)
+type(
+  'a
+)
+"utils.ml" 89 2596 2630 "utils.ml" 89 2596 2634
+type(
+  exn
+)
+"utils.ml" 89 2596 2638 "utils.ml" 89 2596 2639
+type(
+  'a
+)
+ident(
+  int_ref d "utils.ml" 89 2596 2610 "utils.ml" 89 2596 2611
+)
+"utils.ml" 89 2596 2616 "utils.ml" 89 2596 2639
+type(
+  'a
+)
+"utils.ml" 94 2705 2711 "utils.ml" 94 2705 2719
+type(
+  ('a -> 'b) -> ('b, 'a) result -> 'b
+)
+ident(
+  def at_Error "utils.ml" 98 2771 2773 "utils.ml" 101 2867 2870
+)
+"utils.ml" 94 2705 2720 "utils.ml" 94 2705 2721
+type(
+  'a -> 'b
+)
+ident(
+  def f "utils.ml" 94 2705 2724 "utils.ml" 96 2749 2769
+)
+"utils.ml" 95 2733 2742 "utils.ml" 95 2733 2743
+type(
+  'b
+)
+ident(
+  def v "utils.ml" 95 2733 2747 "utils.ml" 95 2733 2748
+)
+"utils.ml" 95 2733 2739 "utils.ml" 95 2733 2743
+type(
+  ('b, 'a) result
+)
+"utils.ml" 95 2733 2747 "utils.ml" 95 2733 2748
+type(
+  'b
+)
+ident(
+  int_ref v "utils.ml" 95 2733 2742 "utils.ml" 95 2733 2743
+)
+"utils.ml" 96 2749 2761 "utils.ml" 96 2749 2762
+type(
+  'a
+)
+ident(
+  def e "utils.ml" 96 2749 2766 "utils.ml" 96 2749 2769
+)
+"utils.ml" 96 2749 2755 "utils.ml" 96 2749 2762
+type(
+  ('b, 'a) result
+)
+"utils.ml" 96 2749 2766 "utils.ml" 96 2749 2767
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "utils.ml" 94 2705 2720 "utils.ml" 94 2705 2721
+)
+"utils.ml" 96 2749 2768 "utils.ml" 96 2749 2769
+type(
+  'a
+)
+ident(
+  int_ref e "utils.ml" 96 2749 2761 "utils.ml" 96 2749 2762
+)
+"utils.ml" 96 2749 2766 "utils.ml" 96 2749 2769
+call(
+  tail
+)
+type(
+  'b
+)
+"utils.ml" 94 2705 2724 "utils.ml" 96 2749 2769
+type(
+  ('b, 'a) result -> 'b
+)
+"utils.ml" 99 2795 2803 "utils.ml" 99 2795 2808
+type(
+  ('c, 'd) result -> ('c -> ('e, 'd) result) -> ('e, 'd) result
+)
+ident(
+  def >>= "utils.ml" 99 2795 2860 "utils.ml" 100 2861 2866
+)
+"utils.ml" 99 2795 2809 "utils.ml" 99 2795 2810
+type(
+  ('c, 'd) result
+)
+ident(
+  def x "utils.ml" 99 2795 2811 "utils.ml" 99 2795 2860
+)
+"utils.ml" 99 2795 2811 "utils.ml" 99 2795 2812
+type(
+  'c -> ('e, 'd) result
+)
+ident(
+  def f "utils.ml" 99 2795 2815 "utils.ml" 99 2795 2860
+)
+"utils.ml" 99 2795 2821 "utils.ml" 99 2795 2822
+type(
+  ('c, 'd) result
+)
+ident(
+  int_ref x "utils.ml" 99 2795 2809 "utils.ml" 99 2795 2810
+)
+"utils.ml" 99 2795 2834 "utils.ml" 99 2795 2835
+type(
+  'd
+)
+ident(
+  def e "utils.ml" 99 2795 2839 "utils.ml" 99 2795 2846
+)
+"utils.ml" 99 2795 2828 "utils.ml" 99 2795 2835
+type(
+  ('c, 'd) result
+)
+"utils.ml" 99 2795 2845 "utils.ml" 99 2795 2846
+type(
+  'd
+)
+ident(
+  int_ref e "utils.ml" 99 2795 2834 "utils.ml" 99 2795 2835
+)
+"utils.ml" 99 2795 2839 "utils.ml" 99 2795 2846
+type(
+  ('e, 'd) result
+)
+"utils.ml" 99 2795 2852 "utils.ml" 99 2795 2853
+type(
+  'c
+)
+ident(
+  def v "utils.ml" 99 2795 2857 "utils.ml" 99 2795 2860
+)
+"utils.ml" 99 2795 2849 "utils.ml" 99 2795 2853
+type(
+  ('c, 'd) result
+)
+"utils.ml" 99 2795 2857 "utils.ml" 99 2795 2858
+type(
+  'c -> ('e, 'd) result
+)
+ident(
+  int_ref f "utils.ml" 99 2795 2811 "utils.ml" 99 2795 2812
+)
+"utils.ml" 99 2795 2859 "utils.ml" 99 2795 2860
+type(
+  'c
+)
+ident(
+  int_ref v "utils.ml" 99 2795 2852 "utils.ml" 99 2795 2853
+)
+"utils.ml" 99 2795 2857 "utils.ml" 99 2795 2860
+call(
+  tail
+)
+type(
+  ('e, 'd) result
+)
+"utils.ml" 99 2795 2815 "utils.ml" 99 2795 2860
+type(
+  ('e, 'd) result
+)
+"utils.ml" 103 2872 2876 "utils.ml" 103 2872 2884
+type(
+  ('a -> 'b) -> ('b, 'a) result -> 'b
+)
+ident(
+  def at_Error "utils.ml" 105 2904 2904 "utils.ml" 1 0 -1
+)
+"utils.ml" 103 2872 2887 "utils.ml" 103 2872 2902
+type(
+  ('a -> 'b) -> ('b, 'a) result -> 'b
+)
+ident(
+  int_ref Result.at_Error "utils.ml" 94 2705 2711 "utils.ml" 94 2705 2719
+)
+"utils.ml" 108 2975 2981 "utils.ml" 108 2975 2990
+type(
+  'a option -> 'a
+)
+ident(
+  def from_Some "utils.ml" 111 3048 3050 "utils.ml" 118 3202 3205
+)
+"utils.ml" 109 3002 3013 "utils.ml" 109 3002 3014
+type(
+  'a
+)
+ident(
+  def x "utils.ml" 109 3002 3018 "utils.ml" 109 3002 3019
+)
+"utils.ml" 109 3002 3008 "utils.ml" 109 3002 3014
+type(
+  'a option
+)
+"utils.ml" 109 3002 3018 "utils.ml" 109 3002 3019
+type(
+  'a
+)
+ident(
+  int_ref x "utils.ml" 109 3002 3013 "utils.ml" 109 3002 3014
+)
+"utils.ml" 110 3020 3026 "utils.ml" 110 3020 3030
+type(
+  'a option
+)
+"utils.ml" 110 3020 3034 "utils.ml" 110 3020 3039
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utils.ml" 110 3020 3040 "utils.ml" 110 3020 3047
+type(
+  exn
+)
+"utils.ml" 110 3020 3034 "utils.ml" 110 3020 3047
+type(
+  'a
+)
+"utils.ml" 108 2975 2993 "utils.ml" 110 3020 3047
+type(
+  'a option -> 'a
+)
+"utils.ml" 112 3072 3080 "utils.ml" 112 3072 3086
+type(
+  'b -> 'b option
+)
+ident(
+  def return "utils.ml" 113 3098 3102 "utils.ml" 117 3196 3201
+)
+"utils.ml" 112 3072 3087 "utils.ml" 112 3072 3088
+type(
+  'b
+)
+ident(
+  def x "utils.ml" 112 3072 3091 "utils.ml" 112 3072 3097
+)
+"utils.ml" 112 3072 3096 "utils.ml" 112 3072 3097
+type(
+  'b
+)
+ident(
+  int_ref x "utils.ml" 112 3072 3087 "utils.ml" 112 3072 3088
+)
+"utils.ml" 112 3072 3091 "utils.ml" 112 3072 3097
+type(
+  'b option
+)
+"utils.ml" 113 3098 3106 "utils.ml" 113 3098 3110
+type(
+  'c -> 'c option
+)
+ident(
+  def some "utils.ml" 114 3120 3124 "utils.ml" 117 3196 3201
+)
+"utils.ml" 113 3098 3113 "utils.ml" 113 3098 3119
+type(
+  'c -> 'c option
+)
+ident(
+  int_ref return "utils.ml" 112 3072 3080 "utils.ml" 112 3072 3086
+)
+"utils.ml" 114 3120 3128 "utils.ml" 114 3120 3133
+type(
+  'd option -> ('d -> 'e option) -> 'e option
+)
+ident(
+  def >>= "utils.ml" 116 3174 3195 "utils.ml" 117 3196 3201
+)
+"utils.ml" 114 3120 3134 "utils.ml" 114 3120 3135
+type(
+  'd option
+)
+ident(
+  def m "utils.ml" 114 3120 3136 "utils.ml" 116 3174 3195
+)
+"utils.ml" 114 3120 3136 "utils.ml" 114 3120 3137
+type(
+  'd -> 'e option
+)
+ident(
+  def f "utils.ml" 114 3120 3140 "utils.ml" 116 3174 3195
+)
+"utils.ml" 114 3120 3146 "utils.ml" 114 3120 3147
+type(
+  'd option
+)
+ident(
+  int_ref m "utils.ml" 114 3120 3134 "utils.ml" 114 3120 3135
+)
+"utils.ml" 115 3153 3161 "utils.ml" 115 3153 3165
+type(
+  'd option
+)
+"utils.ml" 115 3153 3169 "utils.ml" 115 3153 3173
+type(
+  'e option
+)
+"utils.ml" 116 3174 3187 "utils.ml" 116 3174 3188
+type(
+  'd
+)
+ident(
+  def x "utils.ml" 116 3174 3192 "utils.ml" 116 3174 3195
+)
+"utils.ml" 116 3174 3182 "utils.ml" 116 3174 3188
+type(
+  'd option
+)
+"utils.ml" 116 3174 3192 "utils.ml" 116 3174 3193
+type(
+  'd -> 'e option
+)
+ident(
+  int_ref f "utils.ml" 114 3120 3136 "utils.ml" 114 3120 3137
+)
+"utils.ml" 116 3174 3194 "utils.ml" 116 3174 3195
+type(
+  'd
+)
+ident(
+  int_ref x "utils.ml" 116 3174 3187 "utils.ml" 116 3174 3188
+)
+"utils.ml" 116 3174 3192 "utils.ml" 116 3174 3195
+call(
+  tail
+)
+type(
+  'e option
+)
+"utils.ml" 114 3120 3140 "utils.ml" 116 3174 3195
+type(
+  'e option
+)
+"utils.ml" 120 3207 3211 "utils.ml" 120 3207 3220
+type(
+  'a option -> 'a
+)
+ident(
+  def from_Some "utils.ml" 122 3243 3243 "utils.ml" 1 0 -1
+)
+"utils.ml" 120 3207 3223 "utils.ml" 120 3207 3239
+type(
+  'a option -> 'a
+)
+ident(
+  int_ref Option.from_Some "utils.ml" 108 2975 2981 "utils.ml" 108 2975 2990
+)
+"utils.ml" 126 3353 3359 "utils.ml" 126 3353 3367
+type(
+  int -> 'a list -> 'a list * 'a list
+)
+ident(
+  def split_at "utils.ml" 134 3574 3592 "utils.ml" 135 3593 3596
+)
+"utils.ml" 126 3353 3368 "utils.ml" 126 3353 3369
+type(
+  int
+)
+ident(
+  def n "utils.ml" 126 3353 3370 "utils.ml" 134 3574 3592
+)
+"utils.ml" 126 3353 3370 "utils.ml" 126 3353 3372
+type(
+  'a list
+)
+ident(
+  def xs "utils.ml" 127 3375 3379 "utils.ml" 134 3574 3592
+)
+"utils.ml" 127 3375 3387 "utils.ml" 127 3375 3396
+type(
+  int -> 'b list -> 'b list -> 'b list * 'b list
+)
+ident(
+  def split_at_ "utils.ml" 127 3375 3379 "utils.ml" 134 3574 3592
+)
+"utils.ml" 127 3375 3397 "utils.ml" 127 3375 3398
+type(
+  int
+)
+ident(
+  def n "utils.ml" 127 3375 3399 "utils.ml" 131 3481 3524
+)
+"utils.ml" 127 3375 3399 "utils.ml" 127 3375 3401
+type(
+  'b list
+)
+ident(
+  def st "utils.ml" 127 3375 3402 "utils.ml" 131 3481 3524
+)
+"utils.ml" 127 3375 3402 "utils.ml" 127 3375 3404
+type(
+  'b list
+)
+ident(
+  def xs "utils.ml" 128 3407 3413 "utils.ml" 131 3481 3524
+)
+"utils.ml" 128 3407 3416 "utils.ml" 128 3407 3417
+type(
+  int
+)
+ident(
+  int_ref n "utils.ml" 127 3375 3397 "utils.ml" 127 3375 3398
+)
+"utils.ml" 128 3407 3418 "utils.ml" 128 3407 3420
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"utils.ml" 128 3407 3421 "utils.ml" 128 3407 3422
+type(
+  int
+)
+"utils.ml" 128 3407 3416 "utils.ml" 128 3407 3422
+type(
+  bool
+)
+"utils.ml" 128 3407 3428 "utils.ml" 128 3407 3430
+type(
+  'b list
+)
+ident(
+  int_ref st "utils.ml" 127 3375 3399 "utils.ml" 127 3375 3401
+)
+"utils.ml" 128 3407 3432 "utils.ml" 128 3407 3434
+type(
+  'b list
+)
+ident(
+  int_ref xs "utils.ml" 127 3375 3402 "utils.ml" 127 3375 3404
+)
+"utils.ml" 128 3407 3428 "utils.ml" 128 3407 3434
+type(
+  'b list * 'b list
+)
+"utils.ml" 129 3435 3452 "utils.ml" 129 3435 3454
+type(
+  'b list
+)
+ident(
+  int_ref xs "utils.ml" 127 3375 3402 "utils.ml" 127 3375 3404
+)
+"utils.ml" 130 3460 3468 "utils.ml" 130 3460 3470
+type(
+  'b list
+)
+"utils.ml" 130 3460 3474 "utils.ml" 130 3460 3476
+type(
+  'b list
+)
+ident(
+  int_ref st "utils.ml" 127 3375 3399 "utils.ml" 127 3375 3401
+)
+"utils.ml" 130 3460 3478 "utils.ml" 130 3460 3480
+type(
+  'b list
+)
+"utils.ml" 130 3460 3474 "utils.ml" 130 3460 3480
+type(
+  'b list * 'b list
+)
+"utils.ml" 131 3481 3489 "utils.ml" 131 3481 3490
+type(
+  'b
+)
+ident(
+  def x "utils.ml" 131 3481 3498 "utils.ml" 131 3481 3524
+)
+"utils.ml" 131 3481 3492 "utils.ml" 131 3481 3494
+type(
+  'b list
+)
+ident(
+  def xs "utils.ml" 131 3481 3498 "utils.ml" 131 3481 3524
+)
+"utils.ml" 131 3481 3489 "utils.ml" 131 3481 3494
+type(
+  'b list
+)
+"utils.ml" 131 3481 3498 "utils.ml" 131 3481 3507
+type(
+  int -> 'b list -> 'b list -> 'b list * 'b list
+)
+ident(
+  int_ref split_at_ "utils.ml" 127 3375 3387 "utils.ml" 127 3375 3396
+)
+"utils.ml" 131 3481 3509 "utils.ml" 131 3481 3510
+type(
+  int
+)
+ident(
+  int_ref n "utils.ml" 127 3375 3397 "utils.ml" 127 3375 3398
+)
+"utils.ml" 131 3481 3510 "utils.ml" 131 3481 3511
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"utils.ml" 131 3481 3511 "utils.ml" 131 3481 3512
+type(
+  int
+)
+"utils.ml" 131 3481 3508 "utils.ml" 131 3481 3513
+type(
+  int
+)
+"utils.ml" 131 3481 3515 "utils.ml" 131 3481 3516
+type(
+  'b
+)
+ident(
+  int_ref x "utils.ml" 131 3481 3489 "utils.ml" 131 3481 3490
+)
+"utils.ml" 131 3481 3518 "utils.ml" 131 3481 3520
+type(
+  'b list
+)
+ident(
+  int_ref st "utils.ml" 127 3375 3399 "utils.ml" 127 3375 3401
+)
+"utils.ml" 131 3481 3514 "utils.ml" 131 3481 3521
+type(
+  'b list
+)
+"utils.ml" 131 3481 3522 "utils.ml" 131 3481 3524
+type(
+  'b list
+)
+ident(
+  int_ref xs "utils.ml" 131 3481 3492 "utils.ml" 131 3481 3494
+)
+"utils.ml" 131 3481 3498 "utils.ml" 131 3481 3524
+call(
+  tail
+)
+type(
+  'b list * 'b list
+)
+"utils.ml" 129 3435 3446 "utils.ml" 131 3481 3524
+type(
+  'b list * 'b list
+)
+"utils.ml" 128 3407 3413 "utils.ml" 131 3481 3524
+type(
+  'b list * 'b list
+)
+"utils.ml" 133 3532 3540 "utils.ml" 133 3532 3541
+type(
+  'a list
+)
+ident(
+  def r "utils.ml" 134 3574 3578 "utils.ml" 134 3574 3592
+)
+"utils.ml" 133 3532 3543 "utils.ml" 133 3532 3550
+type(
+  'a list
+)
+ident(
+  def dropped "utils.ml" 134 3574 3578 "utils.ml" 134 3574 3592
+)
+"utils.ml" 133 3532 3540 "utils.ml" 133 3532 3550
+type(
+  'a list * 'a list
+)
+"utils.ml" 133 3532 3553 "utils.ml" 133 3532 3562
+type(
+  int -> 'a list -> 'a list -> 'a list * 'a list
+)
+ident(
+  int_ref split_at_ "utils.ml" 127 3375 3387 "utils.ml" 127 3375 3396
+)
+"utils.ml" 133 3532 3563 "utils.ml" 133 3532 3564
+type(
+  int
+)
+ident(
+  int_ref n "utils.ml" 126 3353 3368 "utils.ml" 126 3353 3369
+)
+"utils.ml" 133 3532 3565 "utils.ml" 133 3532 3567
+type(
+  'a list
+)
+"utils.ml" 133 3532 3568 "utils.ml" 133 3532 3570
+type(
+  'a list
+)
+ident(
+  int_ref xs "utils.ml" 126 3353 3370 "utils.ml" 126 3353 3372
+)
+"utils.ml" 133 3532 3553 "utils.ml" 133 3532 3570
+call(
+  stack
+)
+type(
+  'a list * 'a list
+)
+"utils.ml" 134 3574 3578 "utils.ml" 134 3574 3581
+type(
+  'a list -> 'a list
+)
+ident(
+  ext_ref rev
+)
+"utils.ml" 134 3574 3582 "utils.ml" 134 3574 3583
+type(
+  'a list
+)
+ident(
+  int_ref r "utils.ml" 133 3532 3540 "utils.ml" 133 3532 3541
+)
+"utils.ml" 134 3574 3578 "utils.ml" 134 3574 3583
+call(
+  stack
+)
+type(
+  'a list
+)
+"utils.ml" 134 3574 3585 "utils.ml" 134 3574 3592
+type(
+  'a list
+)
+ident(
+  int_ref dropped "utils.ml" 133 3532 3543 "utils.ml" 133 3532 3550
+)
+"utils.ml" 134 3574 3578 "utils.ml" 134 3574 3592
+type(
+  'a list * 'a list
+)
+"utils.ml" 133 3532 3536 "utils.ml" 134 3574 3592
+type(
+  'a list * 'a list
+)
+"utils.ml" 127 3375 3379 "utils.ml" 134 3574 3592
+type(
+  'a list * 'a list
+)
+"utils.ml" 137 3598 3602 "utils.ml" 137 3598 3608
+type(
+  string -> string
+)
+ident(
+  def mangle "utils.ml" 152 4028 4028 "utils.ml" 1 0 -1
+)
+"utils.ml" 137 3598 3609 "utils.ml" 137 3598 3610
+type(
+  string
+)
+ident(
+  def s "utils.ml" 138 3614 3616 "utils.ml" 149 3978 3997
+)
+"utils.ml" 138 3614 3620 "utils.ml" 138 3614 3623
+type(
+  int
+)
+ident(
+  def len "utils.ml" 139 3645 3647 "utils.ml" 149 3978 3997
+)
+"utils.ml" 138 3614 3626 "utils.ml" 138 3614 3639
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"utils.ml" 138 3614 3640 "utils.ml" 138 3614 3641
+type(
+  string
+)
+ident(
+  int_ref s "utils.ml" 137 3598 3609 "utils.ml" 137 3598 3610
+)
+"utils.ml" 138 3614 3626 "utils.ml" 138 3614 3641
+type(
+  int
+)
+"utils.ml" 139 3645 3651 "utils.ml" 139 3645 3652
+type(
+  Buffer.t
+)
+ident(
+  def b "utils.ml" 140 3676 3678 "utils.ml" 149 3978 3997
+)
+"utils.ml" 139 3645 3655 "utils.ml" 139 3645 3668
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"utils.ml" 139 3645 3669 "utils.ml" 139 3645 3672
+type(
+  int
+)
+ident(
+  int_ref len "utils.ml" 138 3614 3620 "utils.ml" 138 3614 3623
+)
+"utils.ml" 139 3645 3655 "utils.ml" 139 3645 3672
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"utils.ml" 140 3676 3686 "utils.ml" 140 3676 3687
+type(
+  int
+)
+"utils.ml" 140 3676 3691 "utils.ml" 140 3676 3694
+type(
+  int
+)
+ident(
+  int_ref len "utils.ml" 138 3614 3620 "utils.ml" 138 3614 3623
+)
+"utils.ml" 140 3676 3695 "utils.ml" 140 3676 3696
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"utils.ml" 140 3676 3697 "utils.ml" 140 3676 3698
+type(
+  int
+)
+"utils.ml" 140 3676 3691 "utils.ml" 140 3676 3698
+type(
+  int
+)
+"utils.ml" 141 3702 3710 "utils.ml" 141 3702 3711
+type(
+  char
+)
+ident(
+  def c "utils.ml" 142 3739 3743 "utils.ml" 147 3904 3969
+)
+"utils.ml" 141 3702 3714 "utils.ml" 141 3702 3731
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.unsafe_get
+)
+"utils.ml" 141 3702 3732 "utils.ml" 141 3702 3733
+type(
+  string
+)
+ident(
+  int_ref s "utils.ml" 137 3598 3609 "utils.ml" 137 3598 3610
+)
+"utils.ml" 141 3702 3734 "utils.ml" 141 3702 3735
+type(
+  int
+)
+ident(
+  int_ref i "utils.ml" 140 3676 3678 "utils.ml" 148 3970 3976
+)
+"utils.ml" 141 3702 3714 "utils.ml" 141 3702 3735
+type(
+  char
+)
+"utils.ml" 142 3739 3749 "utils.ml" 142 3739 3750
+type(
+  char
+)
+ident(
+  int_ref c "utils.ml" 141 3702 3710 "utils.ml" 141 3702 3711
+)
+"utils.ml" 143 3756 3762 "utils.ml" 143 3756 3770
+type(
+  char
+)
+"utils.ml" 143 3756 3773 "utils.ml" 143 3756 3781
+type(
+  char
+)
+"utils.ml" 143 3756 3762 "utils.ml" 143 3756 3781
+type(
+  char
+)
+"utils.ml" 143 3756 3784 "utils.ml" 143 3756 3792
+type(
+  char
+)
+"utils.ml" 143 3756 3762 "utils.ml" 143 3756 3792
+type(
+  char
+)
+"utils.ml" 143 3756 3795 "utils.ml" 143 3756 3799
+type(
+  char
+)
+"utils.ml" 143 3756 3762 "utils.ml" 143 3756 3799
+type(
+  char
+)
+"utils.ml" 143 3756 3803 "utils.ml" 143 3756 3818
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"utils.ml" 143 3756 3819 "utils.ml" 143 3756 3820
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "utils.ml" 139 3645 3651 "utils.ml" 139 3645 3652
+)
+"utils.ml" 143 3756 3821 "utils.ml" 143 3756 3822
+type(
+  char
+)
+ident(
+  int_ref c "utils.ml" 141 3702 3710 "utils.ml" 141 3702 3711
+)
+"utils.ml" 143 3756 3803 "utils.ml" 143 3756 3822
+call(
+  stack
+)
+type(
+  unit
+)
+"utils.ml" 144 3823 3829 "utils.ml" 144 3823 3832
+type(
+  char
+)
+"utils.ml" 144 3823 3836 "utils.ml" 144 3823 3853
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"utils.ml" 144 3823 3854 "utils.ml" 144 3823 3855
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "utils.ml" 139 3645 3651 "utils.ml" 139 3645 3652
+)
+"utils.ml" 144 3823 3856 "utils.ml" 144 3823 3860
+type(
+  string
+)
+"utils.ml" 144 3823 3836 "utils.ml" 144 3823 3860
+call(
+  stack
+)
+type(
+  unit
+)
+"utils.ml" 145 3861 3867 "utils.ml" 145 3861 3868
+type(
+  char
+)
+"utils.ml" 146 3873 3881 "utils.ml" 146 3873 3896
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"utils.ml" 146 3873 3897 "utils.ml" 146 3873 3898
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "utils.ml" 139 3645 3651 "utils.ml" 139 3645 3652
+)
+"utils.ml" 146 3873 3899 "utils.ml" 146 3873 3902
+type(
+  char
+)
+"utils.ml" 146 3873 3881 "utils.ml" 146 3873 3902
+call(
+  stack
+)
+type(
+  unit
+)
+"utils.ml" 147 3904 3912 "utils.ml" 147 3904 3929
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"utils.ml" 147 3904 3930 "utils.ml" 147 3904 3931
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "utils.ml" 139 3645 3651 "utils.ml" 139 3645 3652
+)
+"utils.ml" 147 3904 3912 "utils.ml" 147 3904 3931
+type(
+  string -> unit
+)
+"utils.ml" 147 3904 3932 "utils.ml" 147 3904 3933
+type(
+  (string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 147 3904 3934 "utils.ml" 147 3904 3948
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"utils.ml" 147 3904 3949 "utils.ml" 147 3904 3955
+type(
+  (int -> string, unit, string) format
+)
+"utils.ml" 147 3904 3934 "utils.ml" 147 3904 3955
+type(
+  int -> string
+)
+"utils.ml" 147 3904 3956 "utils.ml" 147 3904 3957
+type(
+  (int -> string) -> int -> string
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 147 3904 3958 "utils.ml" 147 3904 3967
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"utils.ml" 147 3904 3968 "utils.ml" 147 3904 3969
+type(
+  char
+)
+ident(
+  int_ref c "utils.ml" 141 3702 3710 "utils.ml" 141 3702 3711
+)
+"utils.ml" 147 3904 3958 "utils.ml" 147 3904 3969
+type(
+  int
+)
+"utils.ml" 147 3904 3934 "utils.ml" 147 3904 3969
+call(
+  stack
+)
+type(
+  string
+)
+"utils.ml" 147 3904 3912 "utils.ml" 147 3904 3969
+call(
+  stack
+)
+type(
+  unit
+)
+"utils.ml" 146 3873 3881 "utils.ml" 147 3904 3969
+type(
+  unit
+)
+"utils.ml" 142 3739 3743 "utils.ml" 147 3904 3969
+type(
+  unit
+)
+"utils.ml" 141 3702 3706 "utils.ml" 147 3904 3969
+type(
+  unit
+)
+"utils.ml" 140 3676 3678 "utils.ml" 148 3970 3976
+type(
+  unit
+)
+"utils.ml" 149 3978 3980 "utils.ml" 149 3978 3995
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"utils.ml" 149 3978 3996 "utils.ml" 149 3978 3997
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "utils.ml" 139 3645 3651 "utils.ml" 139 3645 3652
+)
+"utils.ml" 149 3978 3980 "utils.ml" 149 3978 3997
+call(
+  tail
+)
+type(
+  string
+)
+"utils.ml" 140 3676 3678 "utils.ml" 149 3978 3997
+type(
+  string
+)
+"utils.ml" 139 3645 3647 "utils.ml" 149 3978 3997
+type(
+  string
+)
+"utils.ml" 138 3614 3616 "utils.ml" 149 3978 3997
+type(
+  string
+)
+"utils.ml" 152 4028 4032 "utils.ml" 152 4028 4040
+type(
+  string -> (string, [> `Failed_unmangle of string ]) result
+)
+ident(
+  def unmangle "utils.ml" 179 4783 4783 "utils.ml" 1 0 -1
+)
+"utils.ml" 152 4028 4041 "utils.ml" 152 4028 4042
+type(
+  string
+)
+ident(
+  def s "utils.ml" 153 4046 4048 "utils.ml" 177 4725 4781
+)
+"utils.ml" 154 4052 4060 "utils.ml" 154 4052 4063
+type(
+  int
+)
+ident(
+  def len "utils.ml" 155 4085 4089 "utils.ml" 175 4691 4717
+)
+"utils.ml" 154 4052 4066 "utils.ml" 154 4052 4079
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"utils.ml" 154 4052 4080 "utils.ml" 154 4052 4081
+type(
+  string
+)
+ident(
+  int_ref s "utils.ml" 152 4028 4041 "utils.ml" 152 4028 4042
+)
+"utils.ml" 154 4052 4066 "utils.ml" 154 4052 4081
+type(
+  int
+)
+"utils.ml" 155 4085 4093 "utils.ml" 155 4085 4094
+type(
+  Buffer.t
+)
+ident(
+  def b "utils.ml" 156 4118 4122 "utils.ml" 175 4691 4717
+)
+"utils.ml" 155 4085 4097 "utils.ml" 155 4085 4110
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"utils.ml" 155 4085 4111 "utils.ml" 155 4085 4114
+type(
+  int
+)
+ident(
+  int_ref len "utils.ml" 154 4052 4060 "utils.ml" 154 4052 4063
+)
+"utils.ml" 155 4085 4097 "utils.ml" 155 4085 4114
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"utils.ml" 156 4118 4130 "utils.ml" 156 4118 4131
+type(
+  int -> unit
+)
+ident(
+  def f "utils.ml" 156 4118 4122 "utils.ml" 175 4691 4717
+)
+"utils.ml" 156 4118 4132 "utils.ml" 156 4118 4133
+type(
+  int
+)
+ident(
+  def i "utils.ml" 157 4137 4143 "utils.ml" 172 4665 4674
+)
+"utils.ml" 157 4137 4146 "utils.ml" 157 4137 4147
+type(
+  int
+)
+ident(
+  int_ref i "utils.ml" 156 4118 4132 "utils.ml" 156 4118 4133
+)
+"utils.ml" 157 4137 4148 "utils.ml" 157 4137 4149
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"utils.ml" 157 4137 4150 "utils.ml" 157 4137 4153
+type(
+  int
+)
+ident(
+  int_ref len "utils.ml" 154 4052 4060 "utils.ml" 154 4052 4063
+)
+"utils.ml" 157 4137 4146 "utils.ml" 157 4137 4153
+type(
+  bool
+)
+"utils.ml" 157 4137 4159 "utils.ml" 157 4137 4161
+type(
+  unit
+)
+"utils.ml" 159 4179 4191 "utils.ml" 159 4179 4192
+type(
+  char
+)
+ident(
+  def c "utils.ml" 160 4220 4228 "utils.ml" 171 4639 4664
+)
+"utils.ml" 159 4179 4195 "utils.ml" 159 4179 4212
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.unsafe_get
+)
+"utils.ml" 159 4179 4213 "utils.ml" 159 4179 4214
+type(
+  string
+)
+ident(
+  int_ref s "utils.ml" 152 4028 4041 "utils.ml" 152 4028 4042
+)
+"utils.ml" 159 4179 4215 "utils.ml" 159 4179 4216
+type(
+  int
+)
+ident(
+  int_ref i "utils.ml" 156 4118 4132 "utils.ml" 156 4118 4133
+)
+"utils.ml" 159 4179 4195 "utils.ml" 159 4179 4216
+type(
+  char
+)
+"utils.ml" 160 4220 4234 "utils.ml" 160 4220 4235
+type(
+  char
+)
+ident(
+  int_ref c "utils.ml" 159 4179 4191 "utils.ml" 159 4179 4192
+)
+"utils.ml" 161 4241 4251 "utils.ml" 161 4241 4259
+type(
+  char
+)
+"utils.ml" 161 4241 4262 "utils.ml" 161 4241 4270
+type(
+  char
+)
+"utils.ml" 161 4241 4251 "utils.ml" 161 4241 4270
+type(
+  char
+)
+"utils.ml" 161 4241 4273 "utils.ml" 161 4241 4281
+type(
+  char
+)
+"utils.ml" 161 4241 4251 "utils.ml" 161 4241 4281
+type(
+  char
+)
+"utils.ml" 161 4241 4284 "utils.ml" 161 4241 4288
+type(
+  char
+)
+"utils.ml" 161 4241 4251 "utils.ml" 161 4241 4288
+type(
+  char
+)
+"utils.ml" 161 4241 4292 "utils.ml" 161 4241 4307
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"utils.ml" 161 4241 4308 "utils.ml" 161 4241 4309
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "utils.ml" 155 4085 4093 "utils.ml" 155 4085 4094
+)
+"utils.ml" 161 4241 4310 "utils.ml" 161 4241 4311
+type(
+  char
+)
+ident(
+  int_ref c "utils.ml" 159 4179 4191 "utils.ml" 159 4179 4192
+)
+"utils.ml" 161 4241 4292 "utils.ml" 161 4241 4311
+call(
+  stack
+)
+type(
+  unit
+)
+"utils.ml" 161 4241 4313 "utils.ml" 161 4241 4314
+type(
+  int -> unit
+)
+ident(
+  int_ref f "utils.ml" 156 4118 4130 "utils.ml" 156 4118 4131
+)
+"utils.ml" 161 4241 4315 "utils.ml" 161 4241 4316
+type(
+  (int -> unit) -> int -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 161 4241 4317 "utils.ml" 161 4241 4318
+type(
+  int
+)
+ident(
+  int_ref i "utils.ml" 156 4118 4132 "utils.ml" 156 4118 4133
+)
+"utils.ml" 161 4241 4318 "utils.ml" 161 4241 4319
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utils.ml" 161 4241 4319 "utils.ml" 161 4241 4320
+type(
+  int
+)
+"utils.ml" 161 4241 4317 "utils.ml" 161 4241 4320
+type(
+  int
+)
+"utils.ml" 161 4241 4313 "utils.ml" 161 4241 4320
+call(
+  tail
+)
+type(
+  unit
+)
+"utils.ml" 161 4241 4292 "utils.ml" 161 4241 4320
+type(
+  unit
+)
+"utils.ml" 162 4321 4331 "utils.ml" 162 4321 4334
+type(
+  char
+)
+"utils.ml" 163 4339 4363 "utils.ml" 163 4339 4364
+type(
+  string
+)
+ident(
+  int_ref s "utils.ml" 152 4028 4041 "utils.ml" 152 4028 4042
+)
+"utils.ml" 163 4339 4366 "utils.ml" 163 4339 4367
+type(
+  int
+)
+ident(
+  int_ref i "utils.ml" 156 4118 4132 "utils.ml" 156 4118 4133
+)
+"utils.ml" 163 4339 4367 "utils.ml" 163 4339 4368
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utils.ml" 163 4339 4368 "utils.ml" 163 4339 4369
+type(
+  int
+)
+"utils.ml" 163 4339 4366 "utils.ml" 163 4339 4369
+type(
+  int
+)
+"utils.ml" 163 4339 4363 "utils.ml" 163 4339 4370
+type(
+  char
+)
+"utils.ml" 164 4376 4390 "utils.ml" 164 4376 4393
+type(
+  char
+)
+"utils.ml" 164 4376 4397 "utils.ml" 164 4376 4412
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"utils.ml" 164 4376 4413 "utils.ml" 164 4376 4414
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "utils.ml" 155 4085 4093 "utils.ml" 155 4085 4094
+)
+"utils.ml" 164 4376 4415 "utils.ml" 164 4376 4418
+type(
+  char
+)
+"utils.ml" 164 4376 4397 "utils.ml" 164 4376 4418
+call(
+  stack
+)
+type(
+  unit
+)
+"utils.ml" 164 4376 4420 "utils.ml" 164 4376 4421
+type(
+  int -> unit
+)
+ident(
+  int_ref f "utils.ml" 156 4118 4130 "utils.ml" 156 4118 4131
+)
+"utils.ml" 164 4376 4422 "utils.ml" 164 4376 4423
+type(
+  (int -> unit) -> int -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 164 4376 4424 "utils.ml" 164 4376 4425
+type(
+  int
+)
+ident(
+  int_ref i "utils.ml" 156 4118 4132 "utils.ml" 156 4118 4133
+)
+"utils.ml" 164 4376 4425 "utils.ml" 164 4376 4426
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utils.ml" 164 4376 4426 "utils.ml" 164 4376 4427
+type(
+  int
+)
+"utils.ml" 164 4376 4424 "utils.ml" 164 4376 4427
+type(
+  int
+)
+"utils.ml" 164 4376 4420 "utils.ml" 164 4376 4427
+call(
+  tail
+)
+type(
+  unit
+)
+"utils.ml" 164 4376 4397 "utils.ml" 164 4376 4427
+type(
+  unit
+)
+"utils.ml" 165 4428 4442 "utils.ml" 165 4428 4443
+type(
+  char
+)
+"utils.ml" 166 4447 4467 "utils.ml" 166 4447 4470
+type(
+  string
+)
+ident(
+  def hex "utils.ml" 167 4497 4513 "utils.ml" 169 4599 4622
+)
+"utils.ml" 166 4447 4473 "utils.ml" 166 4447 4483
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"utils.ml" 166 4447 4484 "utils.ml" 166 4447 4485
+type(
+  string
+)
+ident(
+  int_ref s "utils.ml" 152 4028 4041 "utils.ml" 152 4028 4042
+)
+"utils.ml" 166 4447 4487 "utils.ml" 166 4447 4488
+type(
+  int
+)
+ident(
+  int_ref i "utils.ml" 156 4118 4132 "utils.ml" 156 4118 4133
+)
+"utils.ml" 166 4447 4488 "utils.ml" 166 4447 4489
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utils.ml" 166 4447 4489 "utils.ml" 166 4447 4490
+type(
+  int
+)
+"utils.ml" 166 4447 4486 "utils.ml" 166 4447 4491
+type(
+  int
+)
+"utils.ml" 166 4447 4492 "utils.ml" 166 4447 4493
+type(
+  int
+)
+"utils.ml" 166 4447 4473 "utils.ml" 166 4447 4493
+call(
+  stack
+)
+type(
+  string
+)
+"utils.ml" 167 4497 4517 "utils.ml" 167 4497 4518
+type(
+  char
+)
+ident(
+  def c "utils.ml" 168 4562 4578 "utils.ml" 169 4599 4622
+)
+"utils.ml" 167 4497 4521 "utils.ml" 167 4497 4529
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"utils.ml" 167 4497 4530 "utils.ml" 167 4497 4531
+type(
+  (int -> char) -> int -> char
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 167 4497 4532 "utils.ml" 167 4497 4545
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"utils.ml" 167 4497 4546 "utils.ml" 167 4497 4547
+type(
+  (string -> int) -> string -> int
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 167 4497 4548 "utils.ml" 167 4497 4552
+type(
+  string
+)
+"utils.ml" 167 4497 4553 "utils.ml" 167 4497 4554
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utils.ml" 167 4497 4555 "utils.ml" 167 4497 4558
+type(
+  string
+)
+ident(
+  int_ref hex "utils.ml" 166 4447 4467 "utils.ml" 166 4447 4470
+)
+"utils.ml" 167 4497 4548 "utils.ml" 167 4497 4558
+call(
+  stack
+)
+type(
+  string
+)
+"utils.ml" 167 4497 4532 "utils.ml" 167 4497 4558
+type(
+  int
+)
+"utils.ml" 167 4497 4521 "utils.ml" 167 4497 4558
+call(
+  stack
+)
+type(
+  char
+)
+"utils.ml" 168 4562 4578 "utils.ml" 168 4562 4593
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"utils.ml" 168 4562 4594 "utils.ml" 168 4562 4595
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "utils.ml" 155 4085 4093 "utils.ml" 155 4085 4094
+)
+"utils.ml" 168 4562 4596 "utils.ml" 168 4562 4597
+type(
+  char
+)
+ident(
+  int_ref c "utils.ml" 167 4497 4517 "utils.ml" 167 4497 4518
+)
+"utils.ml" 168 4562 4578 "utils.ml" 168 4562 4597
+call(
+  stack
+)
+type(
+  unit
+)
+"utils.ml" 169 4599 4615 "utils.ml" 169 4599 4616
+type(
+  int -> unit
+)
+ident(
+  int_ref f "utils.ml" 156 4118 4130 "utils.ml" 156 4118 4131
+)
+"utils.ml" 169 4599 4617 "utils.ml" 169 4599 4618
+type(
+  (int -> unit) -> int -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 169 4599 4619 "utils.ml" 169 4599 4620
+type(
+  int
+)
+ident(
+  int_ref i "utils.ml" 156 4118 4132 "utils.ml" 156 4118 4133
+)
+"utils.ml" 169 4599 4620 "utils.ml" 169 4599 4621
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"utils.ml" 169 4599 4621 "utils.ml" 169 4599 4622
+type(
+  int
+)
+"utils.ml" 169 4599 4619 "utils.ml" 169 4599 4622
+type(
+  int
+)
+"utils.ml" 169 4599 4615 "utils.ml" 169 4599 4622
+call(
+  tail
+)
+type(
+  unit
+)
+"utils.ml" 168 4562 4578 "utils.ml" 169 4599 4622
+type(
+  unit
+)
+"utils.ml" 167 4497 4513 "utils.ml" 169 4599 4622
+type(
+  unit
+)
+"utils.ml" 166 4447 4463 "utils.ml" 169 4599 4622
+type(
+  unit
+)
+"utils.ml" 163 4339 4351 "utils.ml" 170 4623 4638
+type(
+  unit
+)
+"utils.ml" 171 4639 4649 "utils.ml" 171 4639 4650
+type(
+  char
+)
+"utils.ml" 171 4639 4654 "utils.ml" 171 4639 4659
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"utils.ml" 171 4639 4660 "utils.ml" 171 4639 4664
+type(
+  exn
+)
+"utils.ml" 171 4639 4654 "utils.ml" 171 4639 4664
+type(
+  unit
+)
+"utils.ml" 160 4220 4228 "utils.ml" 171 4639 4664
+type(
+  unit
+)
+"utils.ml" 158 4162 4173 "utils.ml" 172 4665 4674
+type(
+  unit
+)
+"utils.ml" 157 4137 4143 "utils.ml" 172 4665 4674
+type(
+  unit
+)
+"utils.ml" 174 4682 4686 "utils.ml" 174 4682 4687
+type(
+  int -> unit
+)
+ident(
+  int_ref f "utils.ml" 156 4118 4130 "utils.ml" 156 4118 4131
+)
+"utils.ml" 174 4682 4688 "utils.ml" 174 4682 4689
+type(
+  int
+)
+"utils.ml" 174 4682 4686 "utils.ml" 174 4682 4689
+call(
+  stack
+)
+type(
+  unit
+)
+"utils.ml" 175 4691 4699 "utils.ml" 175 4691 4714
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"utils.ml" 175 4691 4715 "utils.ml" 175 4691 4716
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "utils.ml" 155 4085 4093 "utils.ml" 155 4085 4094
+)
+"utils.ml" 175 4691 4698 "utils.ml" 175 4691 4717
+call(
+  stack
+)
+type(
+  string
+)
+"utils.ml" 175 4691 4695 "utils.ml" 175 4691 4717
+type(
+  (string, [> `Failed_unmangle of string ] as 'a) result
+)
+"utils.ml" 174 4682 4686 "utils.ml" 175 4691 4717
+type(
+  (string, 'a) result
+)
+"utils.ml" 156 4118 4122 "utils.ml" 175 4691 4717
+type(
+  (string, 'a) result
+)
+"utils.ml" 155 4085 4089 "utils.ml" 175 4691 4717
+type(
+  (string, 'a) result
+)
+"utils.ml" 154 4052 4056 "utils.ml" 175 4691 4717
+type(
+  (string, 'a) result
+)
+"utils.ml" 177 4725 4737 "utils.ml" 177 4725 4738
+type(
+  string
+)
+ident(
+  def e "utils.ml" 177 4725 4742 "utils.ml" 177 4725 4781
+)
+"utils.ml" 177 4725 4729 "utils.ml" 177 4725 4738
+type(
+  exn
+)
+"utils.ml" 177 4725 4767 "utils.ml" 177 4725 4768
+type(
+  string
+)
+ident(
+  int_ref s "utils.ml" 152 4028 4041 "utils.ml" 152 4028 4042
+)
+"utils.ml" 177 4725 4769 "utils.ml" 177 4725 4770
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utils.ml" 177 4725 4771 "utils.ml" 177 4725 4775
+type(
+  string
+)
+"utils.ml" 177 4725 4776 "utils.ml" 177 4725 4777
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"utils.ml" 177 4725 4778 "utils.ml" 177 4725 4779
+type(
+  string
+)
+ident(
+  int_ref e "utils.ml" 177 4725 4737 "utils.ml" 177 4725 4738
+)
+"utils.ml" 177 4725 4771 "utils.ml" 177 4725 4779
+call(
+  stack
+)
+type(
+  string
+)
+"utils.ml" 177 4725 4766 "utils.ml" 177 4725 4780
+call(
+  stack
+)
+type(
+  string
+)
+"utils.ml" 177 4725 4748 "utils.ml" 177 4725 4781
+type(
+  'a
+)
+"utils.ml" 177 4725 4742 "utils.ml" 177 4725 4781
+type(
+  (string, 'a) result
+)
+"utils.ml" 153 4046 4048 "utils.ml" 177 4725 4781
+type(
+  (string, 'a) result
+)
+"utils.ml" 179 4783 4787 "utils.ml" 179 4783 4809
+type(
+  string -> (Parsetree.expression, [> `Parse of string ]) result
+)
+ident(
+  def expression_from_string "utils.ml" 184 4940 4940 "utils.ml" 1 0 -1
+)
+"utils.ml" 179 4783 4810 "utils.ml" 179 4783 4811
+type(
+  string
+)
+ident(
+  def s "utils.ml" 180 4815 4817 "utils.ml" 182 4913 4938
+)
+"utils.ml" 180 4815 4821 "utils.ml" 180 4815 4827
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "utils.ml" 181 4854 4856 "utils.ml" 182 4913 4938
+)
+"utils.ml" 180 4815 4830 "utils.ml" 180 4815 4848
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"utils.ml" 180 4815 4849 "utils.ml" 180 4815 4850
+type(
+  string
+)
+ident(
+  int_ref s "utils.ml" 179 4783 4810 "utils.ml" 179 4783 4811
+)
+"utils.ml" 180 4815 4830 "utils.ml" 180 4815 4850
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"utils.ml" 181 4854 4864 "utils.ml" 181 4854 4887
+type(
+  (Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> Parsetree.expression
+)
+ident(
+  ext_ref Parser.parse_expression
+)
+"utils.ml" 181 4854 4888 "utils.ml" 181 4854 4899
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  ext_ref Lexer.token
+)
+"utils.ml" 181 4854 4900 "utils.ml" 181 4854 4906
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "utils.ml" 180 4815 4821 "utils.ml" 180 4815 4827
+)
+"utils.ml" 181 4854 4863 "utils.ml" 181 4854 4907
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"utils.ml" 181 4854 4860 "utils.ml" 181 4854 4907
+type(
+  (Parsetree.expression, [> `Parse of string ] as 'a) result
+)
+"utils.ml" 182 4913 4917 "utils.ml" 182 4913 4918
+type(
+  exn
+)
+"utils.ml" 182 4913 4936 "utils.ml" 182 4913 4937
+type(
+  string
+)
+ident(
+  int_ref s "utils.ml" 179 4783 4810 "utils.ml" 179 4783 4811
+)
+"utils.ml" 182 4913 4928 "utils.ml" 182 4913 4938
+type(
+  'a
+)
+"utils.ml" 182 4913 4922 "utils.ml" 182 4913 4938
+type(
+  (Parsetree.expression, 'a) result
+)
+"utils.ml" 181 4854 4856 "utils.ml" 182 4913 4938
+type(
+  (Parsetree.expression, 'a) result
+)
+"utils.ml" 180 4815 4817 "utils.ml" 182 4913 4938
+type(
+  (Parsetree.expression, 'a) result
+)
+"utils.ml" 184 4940 4944 "utils.ml" 184 4940 4962
+type(
+  Migrate_parsetree__Ast_405.Parsetree.core_type -> string list
+)
+ident(
+  def tvars_of_core_type "utils.ml" 203 5403 5403 "utils.ml" 1 0 -1
+)
+"utils.ml" 184 4940 4963 "utils.ml" 184 4940 4966
+type(
+  Migrate_parsetree__Ast_405.Parsetree.core_type
+)
+ident(
+  def cty "utils.ml" 186 5033 5035 "utils.ml" 201 5394 5401
+)
+"utils.ml" 188 5082 5088 "utils.ml" 188 5082 5092
+type(
+  string list ref
+)
+ident(
+  def vars "utils.ml" 189 5105 5107 "utils.ml" 201 5394 5401
+)
+"utils.ml" 188 5082 5095 "utils.ml" 188 5082 5098
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"utils.ml" 188 5082 5099 "utils.ml" 188 5082 5101
+type(
+  string list
+)
+"utils.ml" 188 5082 5095 "utils.ml" 188 5082 5101
+type(
+  string list ref
+)
+"utils.ml" 189 5105 5111 "utils.ml" 189 5105 5117
+type(
+  Ast_405.Ast_mapper.mapper -> Ast_405.Ast_mapper.mapper
+)
+ident(
+  def extend "utils.ml" 199 5335 5337 "utils.ml" 201 5394 5401
+)
+"utils.ml" 189 5105 5118 "utils.ml" 189 5105 5123
+type(
+  Ast_405.Ast_mapper.mapper
+)
+ident(
+  def super "utils.ml" 190 5126 5130 "utils.ml" 197 5307 5329
+)
+"utils.ml" 190 5126 5134 "utils.ml" 190 5126 5137
+type(
+  Ast_405.Ast_mapper.mapper ->
+  Ast_405.Parsetree.core_type -> Ast_405.Parsetree.core_type
+)
+ident(
+  def typ "utils.ml" 197 5307 5311 "utils.ml" 197 5307 5329
+)
+"utils.ml" 190 5126 5138 "utils.ml" 190 5126 5142
+type(
+  Ast_405.Ast_mapper.mapper
+)
+ident(
+  def self "utils.ml" 190 5126 5143 "utils.ml" 195 5269 5299
+)
+"utils.ml" 190 5126 5143 "utils.ml" 190 5126 5145
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  def ty "utils.ml" 191 5148 5154 "utils.ml" 195 5269 5299
+)
+"utils.ml" 191 5148 5160 "utils.ml" 191 5148 5162
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref ty "utils.ml" 190 5126 5143 "utils.ml" 190 5126 5145
+)
+"utils.ml" 191 5148 5160 "utils.ml" 191 5148 5172
+type(
+  Ast_405.Parsetree.core_type_desc
+)
+"utils.ml" 192 5178 5195 "utils.ml" 192 5178 5196
+type(
+  string
+)
+ident(
+  def s "utils.ml" 193 5200 5210 "utils.ml" 194 5256 5268
+)
+"utils.ml" 192 5178 5186 "utils.ml" 192 5178 5196
+type(
+  Ast_405.Parsetree.core_type_desc
+)
+"utils.ml" 193 5200 5213 "utils.ml" 193 5200 5216
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"utils.ml" 193 5200 5217 "utils.ml" 193 5200 5218
+type(
+  (bool -> bool) -> bool -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 193 5200 5219 "utils.ml" 193 5200 5222
+type(
+  string -> string list -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.List.mem
+)
+"utils.ml" 193 5200 5223 "utils.ml" 193 5200 5224
+type(
+  string
+)
+ident(
+  int_ref s "utils.ml" 192 5178 5195 "utils.ml" 192 5178 5196
+)
+"utils.ml" 193 5200 5225 "utils.ml" 193 5200 5226
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utils.ml" 193 5200 5226 "utils.ml" 193 5200 5230
+type(
+  string list ref
+)
+ident(
+  int_ref vars "utils.ml" 188 5082 5088 "utils.ml" 188 5082 5092
+)
+"utils.ml" 193 5200 5225 "utils.ml" 193 5200 5230
+type(
+  string list
+)
+"utils.ml" 193 5200 5219 "utils.ml" 193 5200 5230
+call(
+  stack
+)
+type(
+  bool
+)
+"utils.ml" 193 5200 5213 "utils.ml" 193 5200 5230
+type(
+  bool
+)
+"utils.ml" 193 5200 5236 "utils.ml" 193 5200 5240
+type(
+  string list ref
+)
+ident(
+  int_ref vars "utils.ml" 188 5082 5088 "utils.ml" 188 5082 5092
+)
+"utils.ml" 193 5200 5241 "utils.ml" 193 5200 5243
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"utils.ml" 193 5200 5244 "utils.ml" 193 5200 5245
+type(
+  string
+)
+ident(
+  int_ref s "utils.ml" 192 5178 5195 "utils.ml" 192 5178 5196
+)
+"utils.ml" 193 5200 5249 "utils.ml" 193 5200 5250
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utils.ml" 193 5200 5250 "utils.ml" 193 5200 5254
+type(
+  string list ref
+)
+ident(
+  int_ref vars "utils.ml" 188 5082 5088 "utils.ml" 188 5082 5092
+)
+"utils.ml" 193 5200 5249 "utils.ml" 193 5200 5254
+type(
+  string list
+)
+"utils.ml" 193 5200 5244 "utils.ml" 193 5200 5254
+type(
+  string list
+)
+"utils.ml" 193 5200 5236 "utils.ml" 193 5200 5254
+type(
+  unit
+)
+"utils.ml" 193 5200 5210 "utils.ml" 193 5200 5254
+type(
+  unit
+)
+"utils.ml" 194 5256 5266 "utils.ml" 194 5256 5268
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref ty "utils.ml" 190 5126 5143 "utils.ml" 190 5126 5145
+)
+"utils.ml" 193 5200 5210 "utils.ml" 194 5256 5268
+type(
+  Ast_405.Parsetree.core_type
+)
+"utils.ml" 195 5269 5277 "utils.ml" 195 5269 5278
+type(
+  Ast_405.Parsetree.core_type_desc
+)
+"utils.ml" 195 5269 5282 "utils.ml" 195 5269 5287
+type(
+  Ast_405.Ast_mapper.mapper
+)
+ident(
+  int_ref super "utils.ml" 189 5105 5118 "utils.ml" 189 5105 5123
+)
+"utils.ml" 195 5269 5282 "utils.ml" 195 5269 5291
+type(
+  Ast_405.Ast_mapper.mapper ->
+  Migrate_parsetree__Ast_405.Parsetree.core_type ->
+  Migrate_parsetree__Ast_405.Parsetree.core_type
+)
+"utils.ml" 195 5269 5292 "utils.ml" 195 5269 5296
+type(
+  Ast_405.Ast_mapper.mapper
+)
+ident(
+  int_ref self "utils.ml" 190 5126 5138 "utils.ml" 190 5126 5142
+)
+"utils.ml" 195 5269 5297 "utils.ml" 195 5269 5299
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref ty "utils.ml" 190 5126 5143 "utils.ml" 190 5126 5145
+)
+"utils.ml" 195 5269 5282 "utils.ml" 195 5269 5299
+call(
+  tail
+)
+type(
+  Migrate_parsetree__Ast_405.Parsetree.core_type
+)
+"utils.ml" 191 5148 5154 "utils.ml" 195 5269 5299
+type(
+  Ast_405.Parsetree.core_type
+)
+"utils.ml" 197 5307 5313 "utils.ml" 197 5307 5318
+type(
+  Ast_405.Ast_mapper.mapper
+)
+ident(
+  int_ref super "utils.ml" 189 5105 5118 "utils.ml" 189 5105 5123
+)
+"utils.ml" 197 5307 5324 "utils.ml" 197 5307 5327
+type(
+  Ast_405.Ast_mapper.mapper ->
+  Migrate_parsetree__Ast_405.Parsetree.core_type ->
+  Migrate_parsetree__Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref typ "utils.ml" 190 5126 5134 "utils.ml" 190 5126 5137
+)
+"utils.ml" 197 5307 5311 "utils.ml" 197 5307 5329
+type(
+  Ast_405.Ast_mapper.mapper
+)
+"utils.ml" 190 5126 5130 "utils.ml" 197 5307 5329
+type(
+  Ast_405.Ast_mapper.mapper
+)
+"utils.ml" 199 5335 5341 "utils.ml" 199 5335 5342
+type(
+  Ast_405.Ast_mapper.mapper
+)
+ident(
+  def m "utils.ml" 200 5370 5372 "utils.ml" 201 5394 5401
+)
+"utils.ml" 199 5335 5345 "utils.ml" 199 5335 5351
+type(
+  Ast_405.Ast_mapper.mapper -> Ast_405.Ast_mapper.mapper
+)
+ident(
+  int_ref extend "utils.ml" 189 5105 5111 "utils.ml" 189 5105 5117
+)
+"utils.ml" 199 5335 5352 "utils.ml" 199 5335 5366
+type(
+  Ast_405.Ast_mapper.mapper
+)
+ident(
+  ext_ref Ast_405.Ast_mapper.default_mapper
+)
+"utils.ml" 199 5335 5345 "utils.ml" 199 5335 5366
+call(
+  stack
+)
+type(
+  Ast_405.Ast_mapper.mapper
+)
+"utils.ml" 200 5370 5372 "utils.ml" 200 5370 5378
+type(
+  Migrate_parsetree__Ast_405.Parsetree.core_type -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"utils.ml" 200 5370 5379 "utils.ml" 200 5370 5380
+type(
+  (Migrate_parsetree__Ast_405.Parsetree.core_type -> unit) ->
+  Migrate_parsetree__Ast_405.Parsetree.core_type -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 200 5370 5381 "utils.ml" 200 5370 5382
+type(
+  Ast_405.Ast_mapper.mapper
+)
+ident(
+  int_ref m "utils.ml" 199 5335 5341 "utils.ml" 199 5335 5342
+)
+"utils.ml" 200 5370 5381 "utils.ml" 200 5370 5386
+type(
+  Ast_405.Ast_mapper.mapper ->
+  Migrate_parsetree__Ast_405.Parsetree.core_type ->
+  Migrate_parsetree__Ast_405.Parsetree.core_type
+)
+"utils.ml" 200 5370 5387 "utils.ml" 200 5370 5388
+type(
+  Ast_405.Ast_mapper.mapper
+)
+ident(
+  int_ref m "utils.ml" 199 5335 5341 "utils.ml" 199 5335 5342
+)
+"utils.ml" 200 5370 5389 "utils.ml" 200 5370 5392
+type(
+  Migrate_parsetree__Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref cty "utils.ml" 184 4940 4963 "utils.ml" 184 4940 4966
+)
+"utils.ml" 200 5370 5381 "utils.ml" 200 5370 5392
+call(
+  stack
+)
+type(
+  Migrate_parsetree__Ast_405.Parsetree.core_type
+)
+"utils.ml" 200 5370 5372 "utils.ml" 200 5370 5392
+type(
+  unit
+)
+"utils.ml" 201 5394 5396 "utils.ml" 201 5394 5397
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"utils.ml" 201 5394 5397 "utils.ml" 201 5394 5401
+type(
+  string list ref
+)
+ident(
+  int_ref vars "utils.ml" 188 5082 5088 "utils.ml" 188 5082 5092
+)
+"utils.ml" 201 5394 5396 "utils.ml" 201 5394 5401
+type(
+  string list
+)
+"utils.ml" 200 5370 5372 "utils.ml" 201 5394 5401
+type(
+  string list
+)
+"utils.ml" 199 5335 5337 "utils.ml" 201 5394 5401
+type(
+  string list
+)
+"utils.ml" 189 5105 5107 "utils.ml" 201 5394 5401
+type(
+  string list
+)
+"utils.ml" 188 5082 5084 "utils.ml" 201 5394 5401
+type(
+  string list
+)
+"utils.ml" 203 5403 5407 "utils.ml" 203 5403 5425
+type(
+  Ast_405.Parsetree.structure_item -> Ast_405.Parsetree.signature_item
+)
+ident(
+  def sig_module_of_stri "utils.ml" 217 5832 5832 "utils.ml" 1 0 -1
+)
+"utils.ml" 203 5403 5426 "utils.ml" 203 5403 5431
+type(
+  Ast_405.Parsetree.structure_item
+)
+ident(
+  def sitem "utils.ml" 204 5434 5436 "utils.ml" 215 5812 5830
+)
+"utils.ml" 205 5458 5466 "utils.ml" 205 5458 5471
+type(
+  Ast_405.Parsetree.structure_item
+)
+ident(
+  int_ref sitem "utils.ml" 203 5403 5426 "utils.ml" 203 5403 5431
+)
+"utils.ml" 205 5458 5466 "utils.ml" 205 5458 5481
+type(
+  Ast_405.Parsetree.structure_item_desc
+)
+"utils.ml" 206 5487 5504 "utils.ml" 206 5487 5507
+type(
+  Ast_405.Parsetree.module_type_declaration
+)
+ident(
+  def mtd "utils.ml" 207 5511 5517 "utils.ml" 212 5740 5749
+)
+"utils.ml" 206 5487 5491 "utils.ml" 206 5487 5507
+type(
+  Ast_405.Parsetree.structure_item_desc
+)
+"utils.ml" 207 5511 5517 "utils.ml" 207 5511 5540
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  Ast_405.Parsetree.module_declaration -> Ast_405.Parsetree.signature_item
+)
+ident(
+  ext_ref Ppxx.Helper.Sig.module_
+)
+"utils.ml" 207 5511 5546 "utils.ml" 207 5511 5551
+type(
+  Ast_405.Parsetree.structure_item
+)
+ident(
+  int_ref sitem "utils.ml" 203 5403 5426 "utils.ml" 203 5403 5431
+)
+"utils.ml" 207 5511 5546 "utils.ml" 207 5511 5560
+type(
+  Migrate_parsetree__Ast_405.Location.t
+)
+"utils.ml" 208 5561 5588 "utils.ml" 208 5561 5591
+type(
+  Ast_405.Parsetree.module_type_declaration
+)
+ident(
+  int_ref mtd "utils.ml" 206 5487 5504 "utils.ml" 206 5487 5507
+)
+"utils.ml" 208 5561 5588 "utils.ml" 208 5561 5601
+type(
+  string Migrate_parsetree__Ast_405.Asttypes.loc
+)
+"utils.ml" 209 5602 5629 "utils.ml" 209 5602 5638
+type(
+  Ast_405.Parsetree.module_type option -> Ast_405.Parsetree.module_type
+)
+ident(
+  int_ref from_Some "utils.ml" 120 3207 3211 "utils.ml" 120 3207 3220
+)
+"utils.ml" 209 5602 5639 "utils.ml" 209 5602 5642
+type(
+  Ast_405.Parsetree.module_type_declaration
+)
+ident(
+  int_ref mtd "utils.ml" 206 5487 5504 "utils.ml" 206 5487 5507
+)
+"utils.ml" 209 5602 5639 "utils.ml" 209 5602 5652
+type(
+  Ast_405.Parsetree.module_type option
+)
+"utils.ml" 209 5602 5629 "utils.ml" 209 5602 5652
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.module_type
+)
+"utils.ml" 210 5653 5680 "utils.ml" 210 5653 5683
+type(
+  Ast_405.Parsetree.module_type_declaration
+)
+ident(
+  int_ref mtd "utils.ml" 206 5487 5504 "utils.ml" 206 5487 5507
+)
+"utils.ml" 210 5653 5680 "utils.ml" 210 5653 5699
+type(
+  Ast_405.Parsetree.attributes
+)
+"utils.ml" 211 5700 5727 "utils.ml" 211 5700 5730
+type(
+  Ast_405.Parsetree.module_type_declaration
+)
+ident(
+  int_ref mtd "utils.ml" 206 5487 5504 "utils.ml" 206 5487 5507
+)
+"utils.ml" 211 5700 5727 "utils.ml" 211 5700 5739
+type(
+  Migrate_parsetree__Ast_405.Location.t
+)
+"utils.ml" 208 5561 5569 "utils.ml" 212 5740 5749
+type(
+  Ast_405.Parsetree.module_declaration
+)
+"utils.ml" 207 5511 5517 "utils.ml" 212 5740 5749
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.signature_item
+)
+"utils.ml" 213 5750 5754 "utils.ml" 213 5750 5755
+type(
+  Ast_405.Parsetree.structure_item_desc
+)
+"utils.ml" 214 5759 5765 "utils.ml" 214 5759 5768
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"utils.ml" 214 5759 5769 "utils.ml" 214 5759 5810
+type(
+  (unit, Format.formatter, unit) format
+)
+"utils.ml" 214 5759 5765 "utils.ml" 214 5759 5810
+call(
+  stack
+)
+type(
+  unit
+)
+"utils.ml" 215 5812 5825 "utils.ml" 215 5812 5830
+type(
+  bool
+)
+"utils.ml" 215 5812 5818 "utils.ml" 215 5812 5830
+type(
+  Ast_405.Parsetree.signature_item
+)
+"utils.ml" 214 5759 5765 "utils.ml" 215 5812 5830
+type(
+  Ast_405.Parsetree.signature_item
+)
+"utils.ml" 205 5458 5460 "utils.ml" 215 5812 5830
+type(
+  Ast_405.Parsetree.signature_item
+)
+"utils.ml" 217 5832 5840 "utils.ml" 217 5832 5856
+type(
+  recursive:bool ->
+  Env.t ->
+  Typpx.Compilerlib.Path.t ->
+  Typpx.Compilerlib.Types.module_declaration -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  def values_of_module "utils.ml" 217 5832 5832 "utils.ml" 1 0 -1
+)
+"utils.ml" 217 5832 5858 "utils.ml" 217 5832 5867
+type(
+  bool
+)
+ident(
+  def recursive "utils.ml" 217 5832 5868 "utils.ml" 231 6465 6478
+)
+"utils.ml" 217 5832 5868 "utils.ml" 217 5832 5871
+type(
+  Env.t
+)
+ident(
+  def env "utils.ml" 217 5832 5872 "utils.ml" 231 6465 6478
+)
+"utils.ml" 217 5832 5872 "utils.ml" 217 5832 5876
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def path "utils.ml" 217 5832 5877 "utils.ml" 231 6465 6478
+)
+"utils.ml" 217 5832 5877 "utils.ml" 217 5832 5882
+type(
+  Typpx.Compilerlib.Types.module_declaration
+)
+ident(
+  def mdecl "utils.ml" 217 5832 5883 "utils.ml" 231 6465 6478
+)
+"utils.ml" 218 5899 5905 "utils.ml" 218 5899 5906
+type(
+  dummy_module
+)
+ident(
+  def m "utils.ml" 219 5952 5954 "utils.ml" 231 6465 6478
+)
+"utils.ml" 218 5899 5909 "utils.ml" 218 5899 5925
+type(
+  Env.t ->
+  Typpx.Compilerlib.Path.t ->
+  Typpx.Compilerlib.Types.module_type -> dummy_module
+)
+"utils.ml" 218 5899 5926 "utils.ml" 218 5899 5929
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 217 5832 5868 "utils.ml" 217 5832 5871
+)
+"utils.ml" 218 5899 5930 "utils.ml" 218 5899 5934
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "utils.ml" 217 5832 5872 "utils.ml" 217 5832 5876
+)
+"utils.ml" 218 5899 5935 "utils.ml" 218 5899 5940
+type(
+  Typpx.Compilerlib.Types.module_declaration
+)
+ident(
+  int_ref mdecl "utils.ml" 217 5832 5877 "utils.ml" 217 5832 5882
+)
+"utils.ml" 218 5899 5935 "utils.ml" 218 5899 5948
+type(
+  Typpx.Compilerlib.Types.module_type
+)
+"utils.ml" 218 5899 5909 "utils.ml" 218 5899 5948
+call(
+  stack
+)
+type(
+  dummy_module
+)
+"utils.ml" 219 5952 5958 "utils.ml" 219 5952 5960
+type(
+  Typpx.Compilerlib.Types.signature
+)
+ident(
+  def sg "utils.ml" 220 5991 5993 "utils.ml" 231 6465 6478
+)
+"utils.ml" 219 5952 5963 "utils.ml" 219 5952 5972
+type(
+  Typpx.Compilerlib.Path.t ->
+  Env.t ->
+  Typpx.Compilerlib.Types.module_declaration ->
+  Typpx.Compilerlib.Types.signature
+)
+ident(
+  int_ref scrape_sg "utils.ml" 26 487 491 "utils.ml" 26 487 500
+)
+"utils.ml" 219 5952 5973 "utils.ml" 219 5952 5977
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "utils.ml" 217 5832 5872 "utils.ml" 217 5832 5876
+)
+"utils.ml" 219 5952 5978 "utils.ml" 219 5952 5981
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 217 5832 5868 "utils.ml" 217 5832 5871
+)
+"utils.ml" 219 5952 5982 "utils.ml" 219 5952 5987
+type(
+  Typpx.Compilerlib.Types.module_declaration
+)
+ident(
+  int_ref mdecl "utils.ml" 217 5832 5877 "utils.ml" 217 5832 5882
+)
+"utils.ml" 219 5952 5963 "utils.ml" 219 5952 5987
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.signature
+)
+"utils.ml" 220 5991 5993 "utils.ml" 220 5991 5998
+type(
+  ((Typpx.Compilerlib.Types.signature_item ->
+    Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list) ->
+   Typpx.Compilerlib.Types.signature ->
+   Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list) ->
+  Typpx.Compilerlib.Types.signature ->
+  Typpx.Compilerlib.Path.t list ->
+  (Typpx.Compilerlib.Types.signature_item ->
+   Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list) ->
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.flip2
+)
+"utils.ml" 220 5991 5999 "utils.ml" 220 5991 6009
+type(
+  (Typpx.Compilerlib.Types.signature_item ->
+   Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list) ->
+  Typpx.Compilerlib.Types.signature ->
+  Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.fold_right
+)
+"utils.ml" 220 5991 6010 "utils.ml" 220 5991 6012
+type(
+  Typpx.Compilerlib.Types.signature
+)
+ident(
+  int_ref sg "utils.ml" 219 5952 5958 "utils.ml" 219 5952 5960
+)
+"utils.ml" 220 5991 6013 "utils.ml" 220 5991 6015
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"utils.ml" 220 5991 5993 "utils.ml" 220 5991 6015
+type(
+  (Typpx.Compilerlib.Types.signature_item ->
+   Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list) ->
+  Typpx.Compilerlib.Path.t list
+)
+"utils.ml" 220 5991 6016 "utils.ml" 220 5991 6017
+type(
+  ((Typpx.Compilerlib.Types.signature_item ->
+    Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list) ->
+   Typpx.Compilerlib.Path.t list) ->
+  (Typpx.Compilerlib.Types.signature_item ->
+   Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list) ->
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 220 5991 6022 "utils.ml" 220 5991 6027
+type(
+  Typpx.Compilerlib.Types.signature_item
+)
+ident(
+  def sitem "utils.ml" 220 5991 6028 "utils.ml" 231 6465 6478
+)
+"utils.ml" 220 5991 6028 "utils.ml" 220 5991 6030
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  def st "utils.ml" 220 5991 6034 "utils.ml" 231 6465 6478
+)
+"utils.ml" 220 5991 6040 "utils.ml" 220 5991 6045
+type(
+  Typpx.Compilerlib.Types.signature_item
+)
+ident(
+  int_ref sitem "utils.ml" 220 5991 6022 "utils.ml" 220 5991 6027
+)
+"utils.ml" 221 6051 6068 "utils.ml" 221 6051 6070
+type(
+  Ident.t
+)
+ident(
+  def id "utils.ml" 222 6083 6091 "utils.ml" 226 6270 6288
+)
+"utils.ml" 221 6051 6072 "utils.ml" 221 6051 6078
+type(
+  Typpx.Compilerlib.Types.value_description
+)
+ident(
+  def _vdesc "utils.ml" 222 6083 6091 "utils.ml" 226 6270 6288
+)
+"utils.ml" 221 6051 6057 "utils.ml" 221 6051 6079
+type(
+  Typpx.Compilerlib.Types.signature_item
+)
+"utils.ml" 222 6083 6095 "utils.ml" 222 6083 6099
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def path "utils.ml" 226 6270 6278 "utils.ml" 226 6270 6288
+)
+"utils.ml" 222 6083 6106 "utils.ml" 222 6083 6107
+type(
+  dummy_module
+)
+ident(
+  int_ref m "utils.ml" 218 5899 5905 "utils.ml" 218 5899 5906
+)
+"utils.ml" 222 6083 6106 "utils.ml" 222 6083 6120
+call(
+  stack
+)
+type(
+  string -> Typpx.Compilerlib.Path.t
+)
+"utils.ml" 222 6083 6121 "utils.ml" 222 6083 6122
+type(
+  (string -> Typpx.Compilerlib.Path.t) -> string -> Typpx.Compilerlib.Path.t
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 222 6083 6123 "utils.ml" 222 6083 6133
+type(
+  Typpx.Compilerlib.Ident.t -> string
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ident.name
+)
+"utils.ml" 222 6083 6134 "utils.ml" 222 6083 6136
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "utils.ml" 221 6051 6068 "utils.ml" 221 6051 6070
+)
+"utils.ml" 222 6083 6123 "utils.ml" 222 6083 6136
+call(
+  stack
+)
+type(
+  string
+)
+"utils.ml" 222 6083 6106 "utils.ml" 222 6083 6136
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 222 6083 6142 "utils.ml" 222 6083 6151
+type(
+  exn
+)
+"utils.ml" 223 6155 6165 "utils.ml" 223 6155 6168
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"utils.ml" 223 6155 6169 "utils.ml" 223 6155 6218
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"utils.ml" 223 6155 6165 "utils.ml" 223 6155 6218
+type(
+  string -> unit
+)
+"utils.ml" 223 6155 6219 "utils.ml" 223 6155 6220
+type(
+  (string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 223 6155 6221 "utils.ml" 223 6155 6231
+type(
+  Typpx.Compilerlib.Ident.t -> string
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ident.name
+)
+"utils.ml" 223 6155 6232 "utils.ml" 223 6155 6234
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "utils.ml" 221 6051 6068 "utils.ml" 221 6051 6070
+)
+"utils.ml" 223 6155 6221 "utils.ml" 223 6155 6234
+call(
+  stack
+)
+type(
+  string
+)
+"utils.ml" 223 6155 6165 "utils.ml" 223 6155 6234
+call(
+  stack
+)
+type(
+  unit
+)
+"utils.ml" 224 6236 6253 "utils.ml" 224 6236 6258
+type(
+  bool
+)
+"utils.ml" 224 6236 6246 "utils.ml" 224 6236 6258
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 223 6155 6165 "utils.ml" 224 6236 6258
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 222 6083 6102 "utils.ml" 224 6236 6258
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 226 6270 6278 "utils.ml" 226 6270 6282
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "utils.ml" 222 6083 6095 "utils.ml" 222 6083 6099
+)
+"utils.ml" 226 6270 6286 "utils.ml" 226 6270 6288
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref st "utils.ml" 220 5991 6028 "utils.ml" 220 5991 6030
+)
+"utils.ml" 226 6270 6278 "utils.ml" 226 6270 6288
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"utils.ml" 222 6083 6091 "utils.ml" 226 6270 6288
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"utils.ml" 227 6289 6307 "utils.ml" 227 6289 6309
+type(
+  Ident.t
+)
+ident(
+  def id "utils.ml" 227 6289 6328 "utils.ml" 229 6396 6453
+)
+"utils.ml" 227 6289 6311 "utils.ml" 227 6289 6318
+type(
+  Typpx.Compilerlib.Types.module_declaration
+)
+ident(
+  def moddecl "utils.ml" 227 6289 6328 "utils.ml" 229 6396 6453
+)
+"utils.ml" 227 6289 6320 "utils.ml" 227 6289 6321
+type(
+  Typpx.Compilerlib.Types.rec_status
+)
+"utils.ml" 227 6289 6295 "utils.ml" 227 6289 6322
+type(
+  Typpx.Compilerlib.Types.signature_item
+)
+"utils.ml" 227 6289 6328 "utils.ml" 227 6289 6337
+type(
+  bool
+)
+ident(
+  int_ref recursive "utils.ml" 217 5832 5858 "utils.ml" 217 5832 5867
+)
+"utils.ml" 228 6342 6354 "utils.ml" 228 6342 6358
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def path "utils.ml" 229 6396 6404 "utils.ml" 229 6396 6453
+)
+"utils.ml" 228 6342 6361 "utils.ml" 228 6342 6362
+type(
+  dummy_module
+)
+ident(
+  int_ref m "utils.ml" 218 5899 5905 "utils.ml" 218 5899 5906
+)
+"utils.ml" 228 6342 6361 "utils.ml" 228 6342 6376
+call(
+  stack
+)
+type(
+  string -> Typpx.Compilerlib.Path.t
+)
+"utils.ml" 228 6342 6377 "utils.ml" 228 6342 6378
+type(
+  (string -> Typpx.Compilerlib.Path.t) -> string -> Typpx.Compilerlib.Path.t
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 228 6342 6379 "utils.ml" 228 6342 6389
+type(
+  Typpx.Compilerlib.Ident.t -> string
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ident.name
+)
+"utils.ml" 228 6342 6390 "utils.ml" 228 6342 6392
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "utils.ml" 227 6289 6307 "utils.ml" 227 6289 6309
+)
+"utils.ml" 228 6342 6379 "utils.ml" 228 6342 6392
+call(
+  stack
+)
+type(
+  string
+)
+"utils.ml" 228 6342 6361 "utils.ml" 228 6342 6392
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Path.t
+)
+"utils.ml" 229 6396 6404 "utils.ml" 229 6396 6420
+type(
+  recursive:bool ->
+  Env.t ->
+  Typpx.Compilerlib.Path.t ->
+  Typpx.Compilerlib.Types.module_declaration -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref values_of_module "utils.ml" 217 5832 5840 "utils.ml" 217 5832 5856
+)
+"utils.ml" 229 6396 6422 "utils.ml" 229 6396 6431
+type(
+  bool
+)
+ident(
+  int_ref recursive "utils.ml" 217 5832 5858 "utils.ml" 217 5832 5867
+)
+"utils.ml" 229 6396 6432 "utils.ml" 229 6396 6435
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 217 5832 5868 "utils.ml" 217 5832 5871
+)
+"utils.ml" 229 6396 6436 "utils.ml" 229 6396 6440
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "utils.ml" 228 6342 6354 "utils.ml" 228 6342 6358
+)
+"utils.ml" 229 6396 6441 "utils.ml" 229 6396 6448
+type(
+  Typpx.Compilerlib.Types.module_declaration
+)
+ident(
+  int_ref moddecl "utils.ml" 227 6289 6311 "utils.ml" 227 6289 6318
+)
+"utils.ml" 229 6396 6404 "utils.ml" 229 6396 6448
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"utils.ml" 229 6396 6449 "utils.ml" 229 6396 6450
+type(
+  Typpx.Compilerlib.Path.t list ->
+  Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"utils.ml" 229 6396 6451 "utils.ml" 229 6396 6453
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref st "utils.ml" 220 5991 6028 "utils.ml" 220 5991 6030
+)
+"utils.ml" 229 6396 6404 "utils.ml" 229 6396 6453
+call(
+  tail
+)
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"utils.ml" 228 6342 6350 "utils.ml" 229 6396 6453
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"utils.ml" 231 6465 6471 "utils.ml" 231 6465 6472
+type(
+  Typpx.Compilerlib.Types.signature_item
+)
+"utils.ml" 231 6465 6476 "utils.ml" 231 6465 6478
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref st "utils.ml" 220 5991 6028 "utils.ml" 220 5991 6030
+)
+"utils.ml" 220 5991 6034 "utils.ml" 231 6465 6478
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"utils.ml" 220 5991 6018 "utils.ml" 231 6465 6478
+type(
+  Typpx.Compilerlib.Types.signature_item ->
+  Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list
+)
+"utils.ml" 220 5991 5993 "utils.ml" 231 6465 6478
+call(
+  tail
+)
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"utils.ml" 219 5952 5954 "utils.ml" 231 6465 6478
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"utils.ml" 218 5899 5901 "utils.ml" 231 6465 6478
+type(
+  Typpx.Compilerlib.Path.t list
+)
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"utils.ml" 233 6480 6484 "utils.ml" 233 6480 6496
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Typpx.Compilerlib.Path.t -> Types.module_declaration
+)
+ident(
+  def check_module "utils.ml" 241 6708 6708 "utils.ml" 1 0 -1
+)
+"utils.ml" 233 6480 6497 "utils.ml" 233 6480 6500
+type(
+  Env.t
+)
+ident(
+  def env "utils.ml" 233 6480 6501 "utils.ml" 239 6683 6706
+)
+"utils.ml" 233 6480 6501 "utils.ml" 233 6480 6504
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "utils.ml" 233 6480 6505 "utils.ml" 239 6683 6706
+)
+"utils.ml" 233 6480 6505 "utils.ml" 233 6480 6509
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def path "utils.ml" 234 6512 6514 "utils.ml" 239 6683 6706
+)
+"utils.ml" 235 6521 6535 "utils.ml" 235 6521 6550
+type(
+  Typpx.Compilerlib.Path.t -> Env.t -> Types.module_declaration
+)
+ident(
+  ext_ref Env.find_module
+)
+"utils.ml" 235 6521 6551 "utils.ml" 235 6521 6555
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "utils.ml" 233 6480 6505 "utils.ml" 233 6480 6509
+)
+"utils.ml" 235 6521 6556 "utils.ml" 235 6521 6559
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 233 6480 6497 "utils.ml" 233 6480 6500
+)
+"utils.ml" 235 6521 6534 "utils.ml" 235 6521 6560
+call(
+  stack
+)
+type(
+  Types.module_declaration
+)
+"utils.ml" 235 6521 6529 "utils.ml" 235 6521 6560
+type(
+  Types.module_declaration option
+)
+"utils.ml" 235 6521 6566 "utils.ml" 235 6521 6567
+type(
+  exn
+)
+"utils.ml" 235 6521 6571 "utils.ml" 235 6521 6575
+type(
+  Types.module_declaration option
+)
+"utils.ml" 235 6521 6525 "utils.ml" 235 6521 6575
+type(
+  Types.module_declaration option
+)
+"utils.ml" 237 6583 6587 "utils.ml" 237 6583 6591
+type(
+  Types.module_declaration option
+)
+"utils.ml" 238 6596 6602 "utils.ml" 238 6596 6614
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> Types.module_declaration,
+   Ppxx.Utils.Format.formatter, unit, Types.module_declaration)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> Types.module_declaration
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"utils.ml" 238 6596 6615 "utils.ml" 238 6596 6645
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> Types.module_declaration,
+   Ppxx.Utils.Format.formatter, unit, Types.module_declaration)
+  format4
+)
+"utils.ml" 238 6596 6646 "utils.ml" 238 6596 6661
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"utils.ml" 238 6596 6662 "utils.ml" 238 6596 6665
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "utils.ml" 233 6480 6501 "utils.ml" 233 6480 6504
+)
+"utils.ml" 238 6596 6666 "utils.ml" 238 6596 6677
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"utils.ml" 238 6596 6678 "utils.ml" 238 6596 6682
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "utils.ml" 233 6480 6505 "utils.ml" 233 6480 6509
+)
+"utils.ml" 238 6596 6602 "utils.ml" 238 6596 6682
+call(
+  tail
+)
+type(
+  Types.module_declaration
+)
+"utils.ml" 239 6683 6692 "utils.ml" 239 6683 6697
+type(
+  Types.module_declaration
+)
+ident(
+  def mdecl "utils.ml" 239 6683 6701 "utils.ml" 239 6683 6706
+)
+"utils.ml" 239 6683 6687 "utils.ml" 239 6683 6697
+type(
+  Types.module_declaration option
+)
+"utils.ml" 239 6683 6701 "utils.ml" 239 6683 6706
+type(
+  Types.module_declaration
+)
+ident(
+  int_ref mdecl "utils.ml" 239 6683 6692 "utils.ml" 239 6683 6697
+)
+"utils.ml" 234 6512 6514 "utils.ml" 239 6683 6706
+type(
+  Types.module_declaration
+)
+"utils.ml" 241 6708 6712 "utils.ml" 241 6708 6728
+type(
+  recursive:bool ->
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Typpx.Compilerlib.Path.t -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  def values_of_module "utils.ml" 245 6844 6844 "utils.ml" 1 0 -1
+)
+"utils.ml" 241 6708 6730 "utils.ml" 241 6708 6739
+type(
+  bool
+)
+ident(
+  def recursive "utils.ml" 241 6708 6740 "utils.ml" 243 6798 6842
+)
+"utils.ml" 241 6708 6740 "utils.ml" 241 6708 6743
+type(
+  Env.t
+)
+ident(
+  def env "utils.ml" 241 6708 6744 "utils.ml" 243 6798 6842
+)
+"utils.ml" 241 6708 6744 "utils.ml" 241 6708 6747
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "utils.ml" 241 6708 6748 "utils.ml" 243 6798 6842
+)
+"utils.ml" 241 6708 6748 "utils.ml" 241 6708 6752
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def path "utils.ml" 242 6755 6757 "utils.ml" 243 6798 6842
+)
+"utils.ml" 242 6755 6761 "utils.ml" 242 6755 6766
+type(
+  Types.module_declaration
+)
+ident(
+  def mdecl "utils.ml" 243 6798 6800 "utils.ml" 243 6798 6842
+)
+"utils.ml" 242 6755 6769 "utils.ml" 242 6755 6781
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Typpx.Compilerlib.Path.t -> Types.module_declaration
+)
+ident(
+  int_ref check_module "utils.ml" 233 6480 6484 "utils.ml" 233 6480 6496
+)
+"utils.ml" 242 6755 6782 "utils.ml" 242 6755 6785
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 241 6708 6740 "utils.ml" 241 6708 6743
+)
+"utils.ml" 242 6755 6786 "utils.ml" 242 6755 6789
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "utils.ml" 241 6708 6744 "utils.ml" 241 6708 6747
+)
+"utils.ml" 242 6755 6790 "utils.ml" 242 6755 6794
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "utils.ml" 241 6708 6748 "utils.ml" 241 6708 6752
+)
+"utils.ml" 242 6755 6769 "utils.ml" 242 6755 6794
+call(
+  stack
+)
+type(
+  Types.module_declaration
+)
+"utils.ml" 243 6798 6800 "utils.ml" 243 6798 6816
+type(
+  recursive:bool ->
+  Env.t ->
+  Typpx.Compilerlib.Path.t ->
+  Typpx.Compilerlib.Types.module_declaration -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref values_of_module "utils.ml" 217 5832 5840 "utils.ml" 217 5832 5856
+)
+"utils.ml" 243 6798 6818 "utils.ml" 243 6798 6827
+type(
+  bool
+)
+ident(
+  int_ref recursive "utils.ml" 241 6708 6730 "utils.ml" 241 6708 6739
+)
+"utils.ml" 243 6798 6828 "utils.ml" 243 6798 6831
+type(
+  Env.t
+)
+ident(
+  int_ref env "utils.ml" 241 6708 6740 "utils.ml" 241 6708 6743
+)
+"utils.ml" 243 6798 6832 "utils.ml" 243 6798 6836
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "utils.ml" 241 6708 6748 "utils.ml" 241 6708 6752
+)
+"utils.ml" 243 6798 6837 "utils.ml" 243 6798 6842
+type(
+  Typpx.Compilerlib.Types.module_declaration
+)
+ident(
+  int_ref mdecl "utils.ml" 242 6755 6761 "utils.ml" 242 6755 6766
+)
+"utils.ml" 243 6798 6800 "utils.ml" 243 6798 6842
+call(
+  tail
+)
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"utils.ml" 242 6755 6757 "utils.ml" 243 6798 6842
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"utils.ml" 245 6844 6848 "utils.ml" 245 6844 6865
+type(
+  Format.formatter -> Typedtree.expression -> unit
+)
+ident(
+  def format_expression "utils.ml" 250 6988 6988 "utils.ml" 1 0 -1
+)
+"utils.ml" 245 6844 6866 "utils.ml" 245 6844 6869
+type(
+  Format.formatter
+)
+ident(
+  def ppf "utils.ml" 245 6844 6870 "utils.ml" 248 6921 6986
+)
+"utils.ml" 245 6844 6870 "utils.ml" 245 6844 6871
+type(
+  Typedtree.expression
+)
+ident(
+  def e "utils.ml" 246 6874 6876 "utils.ml" 248 6921 6986
+)
+"utils.ml" 246 6874 6876 "utils.ml" 246 6874 6896
+type(
+  Format.formatter -> Parsetree.expression -> unit
+)
+ident(
+  ext_ref Pprintast.expression
+)
+"utils.ml" 246 6874 6897 "utils.ml" 246 6874 6900
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "utils.ml" 245 6844 6866 "utils.ml" 245 6844 6869
+)
+"utils.ml" 246 6874 6876 "utils.ml" 246 6874 6900
+type(
+  Parsetree.expression -> unit
+)
+"utils.ml" 247 6901 6903 "utils.ml" 247 6901 6904
+type(
+  (Parsetree.expression -> unit) -> Parsetree.expression -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 247 6901 6905 "utils.ml" 247 6901 6920
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  ext_ref Unembed.unembed
+)
+"utils.ml" 248 6921 6923 "utils.ml" 248 6921 6924
+type(
+  (Parsetree.expression -> Parsetree.expression) ->
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"utils.ml" 248 6921 6949 "utils.ml" 248 6921 6963
+type(
+  Untypeast.mapper
+)
+ident(
+  ext_ref Untypeast.default_mapper
+)
+"utils.ml" 248 6921 6949 "utils.ml" 248 6921 6968
+type(
+  Untypeast.mapper -> Typedtree.expression -> Parsetree.expression
+)
+"utils.ml" 248 6921 6969 "utils.ml" 248 6921 6983
+type(
+  Untypeast.mapper
+)
+ident(
+  ext_ref Untypeast.default_mapper
+)
+"utils.ml" 248 6921 6949 "utils.ml" 248 6921 6983
+type(
+  Typedtree.expression -> Parsetree.expression
+)
+"utils.ml" 248 6921 6985 "utils.ml" 248 6921 6986
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "utils.ml" 245 6844 6870 "utils.ml" 245 6844 6871
+)
+"utils.ml" 248 6921 6938 "utils.ml" 248 6921 6986
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"utils.ml" 247 6901 6905 "utils.ml" 248 6921 6986
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"utils.ml" 246 6874 6876 "utils.ml" 248 6921 6986
+call(
+  tail
+)
+type(
+  unit
+)
+"utils.ml" 250 6988 6992 "utils.ml" 250 6988 6999
+type(
+  Typedtree.expression -> Typpx.Compilerlib.Types.type_expr option
+)
+ident(
+  def is_none "utils.ml" 257 7278 7291 "utils.ml" 1 0 -1
+)
+"utils.ml" 250 6988 7000 "utils.ml" 250 6988 7001
+type(
+  Typedtree.expression
+)
+ident(
+  def e "utils.ml" 250 6988 7004 "utils.ml" 257 7278 7291
+)
+"utils.ml" 250 6988 7010 "utils.ml" 250 6988 7011
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "utils.ml" 250 6988 7000 "utils.ml" 250 6988 7001
+)
+"utils.ml" 250 6988 7010 "utils.ml" 250 6988 7030
+type(
+  Typedtree.expression_desc
+)
+"utils.ml" 251 7036 7077 "utils.ml" 251 7036 7083
+type(
+  string
+)
+"utils.ml" 251 7036 7070 "utils.ml" 251 7036 7083
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"utils.ml" 251 7036 7056 "utils.ml" 251 7036 7084
+type(
+  Ppxx.Compilerlib.Longident.t Asttypes.loc
+)
+"utils.ml" 251 7036 7086 "utils.ml" 251 7036 7087
+type(
+  Types.constructor_description
+)
+"utils.ml" 251 7036 7089 "utils.ml" 251 7036 7091
+type(
+  Typedtree.expression list
+)
+"utils.ml" 251 7036 7040 "utils.ml" 251 7036 7092
+type(
+  Typedtree.expression_desc
+)
+"utils.ml" 252 7097 7115 "utils.ml" 252 7097 7129
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr ->
+  Typpx.Compilerlib.Types.type_expr option
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.is_option_type
+)
+"utils.ml" 252 7097 7130 "utils.ml" 252 7097 7131
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "utils.ml" 250 6988 7000 "utils.ml" 250 6988 7001
+)
+"utils.ml" 252 7097 7130 "utils.ml" 252 7097 7139
+type(
+  Env.t
+)
+"utils.ml" 252 7097 7140 "utils.ml" 252 7097 7141
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "utils.ml" 250 6988 7000 "utils.ml" 250 6988 7001
+)
+"utils.ml" 252 7097 7140 "utils.ml" 252 7097 7150
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"utils.ml" 252 7097 7115 "utils.ml" 252 7097 7150
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"utils.ml" 253 7156 7164 "utils.ml" 253 7156 7168
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"utils.ml" 254 7172 7182 "utils.ml" 254 7172 7185
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"utils.ml" 254 7172 7186 "utils.ml" 254 7172 7226
+type(
+  (unit, Format.formatter, unit) format
+)
+"utils.ml" 254 7172 7182 "utils.ml" 254 7172 7226
+call(
+  stack
+)
+type(
+  unit
+)
+"utils.ml" 254 7172 7235 "utils.ml" 254 7172 7240
+type(
+  bool
+)
+"utils.ml" 254 7172 7228 "utils.ml" 254 7172 7240
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"utils.ml" 254 7172 7182 "utils.ml" 254 7172 7240
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"utils.ml" 255 7241 7254 "utils.ml" 255 7241 7256
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "utils.ml" 255 7241 7260 "utils.ml" 255 7241 7267
+)
+"utils.ml" 255 7241 7249 "utils.ml" 255 7241 7256
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"utils.ml" 255 7241 7265 "utils.ml" 255 7241 7267
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "utils.ml" 255 7241 7254 "utils.ml" 255 7241 7256
+)
+"utils.ml" 255 7241 7260 "utils.ml" 255 7241 7267
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"utils.ml" 252 7097 7103 "utils.ml" 256 7268 7277
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"utils.ml" 257 7278 7282 "utils.ml" 257 7278 7283
+type(
+  Typedtree.expression_desc
+)
+"utils.ml" 257 7278 7287 "utils.ml" 257 7278 7291
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"utils.ml" 250 6988 7004 "utils.ml" 257 7278 7291
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)

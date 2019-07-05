@@ -1,0 +1,14 @@
+version = "v0.11.0"
+description = ""
+requires(ppx_driver) = "base ppx_here.expander ppx_sexp_conv.expander ppxlib"
+archive(ppx_driver,byte) = "ppx_sexp_value.cma"
+archive(ppx_driver,native) = "ppx_sexp_value.cmxa"
+plugin(ppx_driver,byte) = "ppx_sexp_value.cma"
+plugin(ppx_driver,native) = "ppx_sexp_value.cmxs"
+# This is what dune uses to find out the runtime dependencies of
+# a preprocessor
+ppx_runtime_deps = "ppx_sexp_conv.runtime-lib"
+# This line makes things transparent for people mixing preprocessors
+# and normal dependencies
+requires(-ppx_driver) = "ppx_sexp_conv.runtime-lib"
+ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"

@@ -1,0 +1,20 @@
+lib: [
+  "_build/install/default/lib/qcheck-alcotest/META"
+  "_build/install/default/lib/qcheck-alcotest/QCheck_alcotest.cmi"
+  "_build/install/default/lib/qcheck-alcotest/QCheck_alcotest.cmt"
+  "_build/install/default/lib/qcheck-alcotest/QCheck_alcotest.cmti"
+  "_build/install/default/lib/qcheck-alcotest/QCheck_alcotest.cmx"
+  "_build/install/default/lib/qcheck-alcotest/QCheck_alcotest.ml"
+  "_build/install/default/lib/qcheck-alcotest/QCheck_alcotest.mli"
+  "_build/install/default/lib/qcheck-alcotest/dune-package"
+  "_build/install/default/lib/qcheck-alcotest/opam"
+  "_build/install/default/lib/qcheck-alcotest/qcheck_alcotest.a"
+  "_build/install/default/lib/qcheck-alcotest/qcheck_alcotest.cma"
+  "_build/install/default/lib/qcheck-alcotest/qcheck_alcotest.cmxa"
+  "_build/install/default/lib/qcheck-alcotest/qcheck_alcotest.cmxs"
+]
+doc: [
+  "_build/install/default/doc/qcheck-alcotest/CHANGELOG.md"
+  "_build/install/default/doc/qcheck-alcotest/LICENSE"
+  "_build/install/default/doc/qcheck-alcotest/README.adoc"
+]

@@ -1,0 +1,31 @@
+(lang dune 1.10)
+(name ppx_protocol_conv_jsonm)
+(library
+ (name ppx_protocol_conv_jsonm)
+ (kind normal)
+ (synopsis
+  "jsonm (de)serialization driver for ppx_protocol_conv based on ezjsonm")
+ (archives (byte protocol_conv_jsonm.cma) (native protocol_conv_jsonm.cmxa))
+ (plugins (byte protocol_conv_jsonm.cma) (native protocol_conv_jsonm.cmxs))
+ (foreign_archives (native protocol_conv_jsonm.a))
+ (requires
+  ppx_protocol_conv
+  ppx_protocol_conv.runtime
+  ppx_protocol_conv.driver
+  ezjsonm)
+ (main_module_name Protocol_conv_jsonm)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Protocol_conv_jsonm)
+   (obj_name protocol_conv_jsonm)
+   (visibility public)
+   (impl))
+  (main_module_name Protocol_conv_jsonm)
+  (modules
+   ((name Jsonm)
+    (obj_name protocol_conv_jsonm__Jsonm)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

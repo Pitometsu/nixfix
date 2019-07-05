@@ -1,0 +1,57 @@
+"pre.ml" 3 17 21 "pre.ml" 3 17 27
+type(
+  Ast_mapper.mapper -> Ast_mapper.mapper
+)
+ident(
+  def extend "pre.ml" 5 58 88 "pre.ml" 1 0 -1
+)
+"pre.ml" 3 17 28 "pre.ml" 3 17 33
+type(
+  Ast_mapper.mapper
+)
+ident(
+  def super "pre.ml" 4 36 38 "pre.ml" 5 58 88
+)
+"pre.ml" 4 36 38 "pre.ml" 4 36 57
+type(
+  Ast_mapper.mapper -> Ast_mapper.mapper
+)
+ident(
+  ext_ref Pre_imp_spec.extend
+)
+"pre.ml" 5 58 60 "pre.ml" 5 58 61
+type(
+  (Ast_mapper.mapper -> Ast_mapper.mapper) ->
+  Ast_mapper.mapper -> Ast_mapper.mapper
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre.ml" 5 58 62 "pre.ml" 5 58 82
+type(
+  Ast_mapper.mapper -> Ast_mapper.mapper
+)
+ident(
+  ext_ref Pre_typeclass.extend
+)
+"pre.ml" 5 58 83 "pre.ml" 5 58 88
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref super "pre.ml" 3 17 28 "pre.ml" 3 17 33
+)
+"pre.ml" 5 58 62 "pre.ml" 5 58 88
+call(
+  stack
+)
+type(
+  Ast_mapper.mapper
+)
+"pre.ml" 4 36 38 "pre.ml" 5 58 88
+call(
+  tail
+)
+type(
+  Ast_mapper.mapper
+)

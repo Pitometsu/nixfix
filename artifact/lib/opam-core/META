@@ -1,0 +1,7 @@
+version = "2.0.4"
+description = "OCaml Package Manager core internal stdlib"
+requires = "bigarray ocamlgraph re unix"
+archive(byte) = "opam_core.cma"
+archive(native) = "opam_core.cmxa"
+plugin(byte) = "opam_core.cma"
+plugin(native) = "opam_core.cmxs"

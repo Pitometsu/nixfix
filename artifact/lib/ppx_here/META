@@ -1,0 +1,21 @@
+version = "v0.11.0"
+description = ""
+requires(ppx_driver) = "ppx_here.expander ppxlib"
+archive(ppx_driver,byte) = "ppx_here.cma"
+archive(ppx_driver,native) = "ppx_here.cmxa"
+plugin(ppx_driver,byte) = "ppx_here.cma"
+plugin(ppx_driver,native) = "ppx_here.cmxs"
+# This line makes things transparent for people mixing preprocessors
+# and normal dependencies
+requires(-ppx_driver) = ""
+ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"
+package "expander" (
+  directory = "expander"
+  version = "v0.11.0"
+  description = "Expander for ppx_here"
+  requires = "base ppxlib"
+  archive(byte) = "ppx_here_expander.cma"
+  archive(native) = "ppx_here_expander.cmxa"
+  plugin(byte) = "ppx_here_expander.cma"
+  plugin(native) = "ppx_here_expander.cmxs"
+)

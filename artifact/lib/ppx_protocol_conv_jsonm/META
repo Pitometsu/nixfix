@@ -1,0 +1,9 @@
+description = "jsonm (de)serialization driver for ppx_protocol_conv based on ezjsonm"
+requires = "ezjsonm
+            ppx_protocol_conv
+            ppx_protocol_conv.driver
+            ppx_protocol_conv.runtime"
+archive(byte) = "protocol_conv_jsonm.cma"
+archive(native) = "protocol_conv_jsonm.cmxa"
+plugin(byte) = "protocol_conv_jsonm.cma"
+plugin(native) = "protocol_conv_jsonm.cmxs"

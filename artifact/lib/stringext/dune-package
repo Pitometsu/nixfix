@@ -1,0 +1,14 @@
+(lang dune 1.10)
+(name stringext)
+(version 1.6.0)
+(library
+ (name stringext)
+ (kind normal)
+ (archives (byte stringext.cma) (native stringext.cmxa))
+ (plugins (byte stringext.cma) (native stringext.cmxs))
+ (foreign_archives (native stringext.a))
+ (modes byte native)
+ (modules
+  (modules
+   ((name Stringext) (obj_name stringext) (visibility public) (impl) (intf)))
+  (wrapped false)))

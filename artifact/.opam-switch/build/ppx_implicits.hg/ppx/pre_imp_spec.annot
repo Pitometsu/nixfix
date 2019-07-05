@@ -1,0 +1,373 @@
+"pre_imp_spec.ml" 13 132 136 "pre_imp_spec.ml" 13 132 142
+type(
+  Ast_mapper.mapper -> Ast_mapper.mapper
+)
+ident(
+  def extend "pre_imp_spec.ml" 26 532 552 "pre_imp_spec.ml" 1 0 -1
+)
+"pre_imp_spec.ml" 13 132 143 "pre_imp_spec.ml" 13 132 148
+type(
+  Ast_mapper.mapper
+)
+ident(
+  def super "pre_imp_spec.ml" 14 151 153 "pre_imp_spec.ml" 26 532 552
+)
+"pre_imp_spec.ml" 14 151 157 "pre_imp_spec.ml" 14 151 163
+type(
+  Location.t -> Parsetree.payload -> (Spec.t -> 'a) -> 'a
+)
+ident(
+  def do_imp "pre_imp_spec.ml" 19 307 309 "pre_imp_spec.ml" 26 532 552
+)
+"pre_imp_spec.ml" 14 151 164 "pre_imp_spec.ml" 14 151 167
+type(
+  Location.t
+)
+ident(
+  def loc "pre_imp_spec.ml" 14 151 168 "pre_imp_spec.ml" 16 277 300
+)
+"pre_imp_spec.ml" 14 151 168 "pre_imp_spec.ml" 14 151 171
+type(
+  Parsetree.payload
+)
+ident(
+  def pld "pre_imp_spec.ml" 14 151 172 "pre_imp_spec.ml" 16 277 300
+)
+"pre_imp_spec.ml" 14 151 172 "pre_imp_spec.ml" 14 151 173
+type(
+  Spec.t -> 'a
+)
+ident(
+  def f "pre_imp_spec.ml" 14 151 176 "pre_imp_spec.ml" 16 277 300
+)
+"pre_imp_spec.ml" 14 151 182 "pre_imp_spec.ml" 14 151 203
+type(
+  Env.t ->
+  Parsetree.payload ->
+  (Spec.t,
+   [> `ParseExp of Parsetree.expression * string | `String of string ])
+  Utils.Result.t
+)
+ident(
+  ext_ref Specconv.from_payload
+)
+"pre_imp_spec.ml" 14 151 204 "pre_imp_spec.ml" 14 151 213
+type(
+  Env.t
+)
+ident(
+  ext_ref Env.empty
+)
+"pre_imp_spec.ml" 14 151 226 "pre_imp_spec.ml" 14 151 229
+type(
+  Parsetree.payload
+)
+ident(
+  int_ref pld "pre_imp_spec.ml" 14 151 168 "pre_imp_spec.ml" 14 151 171
+)
+"pre_imp_spec.ml" 14 151 182 "pre_imp_spec.ml" 14 151 229
+call(
+  stack
+)
+type(
+  (Spec.t,
+   [> `ParseExp of Parsetree.expression * string | `String of string ] as 'b)
+  Utils.Result.t
+)
+"pre_imp_spec.ml" 15 235 247 "pre_imp_spec.ml" 15 235 250
+type(
+  [> `ParseExp of Parsetree.expression * string | `String of string ]
+)
+ident(
+  def err "pre_imp_spec.ml" 15 235 254 "pre_imp_spec.ml" 15 235 276
+)
+"pre_imp_spec.ml" 15 235 241 "pre_imp_spec.ml" 15 235 250
+type(
+  (Spec.t,
+   [> `ParseExp of Parsetree.expression * string | `String of string ] as 'c)
+  Utils.Result.t
+)
+"pre_imp_spec.ml" 15 235 254 "pre_imp_spec.ml" 15 235 268
+type(
+  Location.t ->
+  _[< `Failed_unmangle of string
+    | `Parse of string
+    | `ParseExp of Parsetree.expression * string
+    | `String of string
+    > `ParseExp `String ] ->
+  'a
+)
+ident(
+  ext_ref Specconv.error
+)
+"pre_imp_spec.ml" 15 235 269 "pre_imp_spec.ml" 15 235 272
+type(
+  Location.t
+)
+ident(
+  int_ref loc "pre_imp_spec.ml" 14 151 164 "pre_imp_spec.ml" 14 151 167
+)
+"pre_imp_spec.ml" 15 235 273 "pre_imp_spec.ml" 15 235 276
+type(
+  _[< `Failed_unmangle of string
+    | `Parse of string
+    | `ParseExp of Parsetree.expression * string
+    | `String of string
+    > `ParseExp `String ]
+  as 'd
+)
+ident(
+  int_ref err "pre_imp_spec.ml" 15 235 247 "pre_imp_spec.ml" 15 235 250
+)
+"pre_imp_spec.ml" 15 235 254 "pre_imp_spec.ml" 15 235 276
+call(
+  tail
+)
+type(
+  'a
+)
+"pre_imp_spec.ml" 16 277 286 "pre_imp_spec.ml" 16 277 290
+type(
+  Spec.t
+)
+ident(
+  def spec "pre_imp_spec.ml" 16 277 294 "pre_imp_spec.ml" 16 277 300
+)
+"pre_imp_spec.ml" 16 277 283 "pre_imp_spec.ml" 16 277 290
+type(
+  (Spec.t, 'c) Utils.Result.t
+)
+"pre_imp_spec.ml" 16 277 294 "pre_imp_spec.ml" 16 277 295
+type(
+  Spec.t -> 'a
+)
+ident(
+  int_ref f "pre_imp_spec.ml" 14 151 172 "pre_imp_spec.ml" 14 151 173
+)
+"pre_imp_spec.ml" 16 277 296 "pre_imp_spec.ml" 16 277 300
+type(
+  Spec.t
+)
+ident(
+  int_ref spec "pre_imp_spec.ml" 16 277 286 "pre_imp_spec.ml" 16 277 290
+)
+"pre_imp_spec.ml" 16 277 294 "pre_imp_spec.ml" 16 277 300
+call(
+  tail
+)
+type(
+  'a
+)
+"pre_imp_spec.ml" 14 151 176 "pre_imp_spec.ml" 16 277 300
+type(
+  'a
+)
+"pre_imp_spec.ml" 19 307 313 "pre_imp_spec.ml" 19 307 316
+type(
+  Ast_mapper.mapper -> Parsetree.core_type -> Parsetree.core_type
+)
+ident(
+  def typ "pre_imp_spec.ml" 26 532 534 "pre_imp_spec.ml" 26 532 552
+)
+"pre_imp_spec.ml" 19 307 317 "pre_imp_spec.ml" 19 307 321
+type(
+  Ast_mapper.mapper
+)
+ident(
+  def self "pre_imp_spec.ml" 19 307 322 "pre_imp_spec.ml" 24 497 526
+)
+"pre_imp_spec.ml" 19 307 322 "pre_imp_spec.ml" 19 307 325
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "pre_imp_spec.ml" 20 328 332 "pre_imp_spec.ml" 24 497 526
+)
+"pre_imp_spec.ml" 20 328 338 "pre_imp_spec.ml" 20 328 341
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_imp_spec.ml" 19 307 322 "pre_imp_spec.ml" 19 307 325
+)
+"pre_imp_spec.ml" 20 328 338 "pre_imp_spec.ml" 20 328 351
+type(
+  Parsetree.core_type_desc
+)
+"pre_imp_spec.ml" 21 357 384 "pre_imp_spec.ml" 21 357 389
+type(
+  string
+)
+"pre_imp_spec.ml" 21 357 379 "pre_imp_spec.ml" 21 357 390
+type(
+  string Asttypes.loc
+)
+"pre_imp_spec.ml" 21 357 392 "pre_imp_spec.ml" 21 357 395
+type(
+  Parsetree.payload
+)
+ident(
+  def pld "pre_imp_spec.ml" 22 400 408 "pre_imp_spec.ml" 23 446 495
+)
+"pre_imp_spec.ml" 21 357 378 "pre_imp_spec.ml" 21 357 396
+type(
+  Parsetree.extension
+)
+"pre_imp_spec.ml" 21 357 363 "pre_imp_spec.ml" 21 357 396
+type(
+  Parsetree.core_type_desc
+)
+"pre_imp_spec.ml" 22 400 408 "pre_imp_spec.ml" 22 400 414
+type(
+  Location.t ->
+  Parsetree.payload -> (Spec.t -> Parsetree.core_type) -> Parsetree.core_type
+)
+ident(
+  int_ref do_imp "pre_imp_spec.ml" 14 151 157 "pre_imp_spec.ml" 14 151 163
+)
+"pre_imp_spec.ml" 22 400 415 "pre_imp_spec.ml" 22 400 418
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_imp_spec.ml" 19 307 322 "pre_imp_spec.ml" 19 307 325
+)
+"pre_imp_spec.ml" 22 400 415 "pre_imp_spec.ml" 22 400 427
+type(
+  Location.t
+)
+"pre_imp_spec.ml" 22 400 428 "pre_imp_spec.ml" 22 400 431
+type(
+  Parsetree.payload
+)
+ident(
+  int_ref pld "pre_imp_spec.ml" 21 357 392 "pre_imp_spec.ml" 21 357 395
+)
+"pre_imp_spec.ml" 22 400 408 "pre_imp_spec.ml" 22 400 431
+type(
+  (Spec.t -> Parsetree.core_type) -> Parsetree.core_type
+)
+"pre_imp_spec.ml" 22 400 432 "pre_imp_spec.ml" 22 400 433
+type(
+  ((Spec.t -> Parsetree.core_type) -> Parsetree.core_type) ->
+  (Spec.t -> Parsetree.core_type) -> Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_imp_spec.ml" 22 400 438 "pre_imp_spec.ml" 22 400 442
+type(
+  Spec.t
+)
+ident(
+  def spec "pre_imp_spec.ml" 23 446 456 "pre_imp_spec.ml" 23 446 495
+)
+"pre_imp_spec.ml" 23 446 456 "pre_imp_spec.ml" 23 446 477
+type(
+  Location.t -> Spec.t -> Parsetree.core_type
+)
+ident(
+  ext_ref Specconv.to_core_type
+)
+"pre_imp_spec.ml" 23 446 478 "pre_imp_spec.ml" 23 446 481
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_imp_spec.ml" 19 307 322 "pre_imp_spec.ml" 19 307 325
+)
+"pre_imp_spec.ml" 23 446 478 "pre_imp_spec.ml" 23 446 490
+type(
+  Location.t
+)
+"pre_imp_spec.ml" 23 446 491 "pre_imp_spec.ml" 23 446 495
+type(
+  Spec.t
+)
+ident(
+  int_ref spec "pre_imp_spec.ml" 22 400 438 "pre_imp_spec.ml" 22 400 442
+)
+"pre_imp_spec.ml" 23 446 456 "pre_imp_spec.ml" 23 446 495
+call(
+  tail
+)
+type(
+  Parsetree.core_type
+)
+"pre_imp_spec.ml" 22 400 434 "pre_imp_spec.ml" 23 446 495
+type(
+  Spec.t -> Parsetree.core_type
+)
+"pre_imp_spec.ml" 22 400 408 "pre_imp_spec.ml" 23 446 495
+call(
+  tail
+)
+type(
+  Parsetree.core_type
+)
+"pre_imp_spec.ml" 24 497 503 "pre_imp_spec.ml" 24 497 504
+type(
+  Parsetree.core_type_desc
+)
+"pre_imp_spec.ml" 24 497 508 "pre_imp_spec.ml" 24 497 513
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref super "pre_imp_spec.ml" 13 132 143 "pre_imp_spec.ml" 13 132 148
+)
+"pre_imp_spec.ml" 24 497 508 "pre_imp_spec.ml" 24 497 517
+type(
+  Ast_mapper.mapper -> Parsetree.core_type -> Parsetree.core_type
+)
+"pre_imp_spec.ml" 24 497 518 "pre_imp_spec.ml" 24 497 522
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref self "pre_imp_spec.ml" 19 307 317 "pre_imp_spec.ml" 19 307 321
+)
+"pre_imp_spec.ml" 24 497 523 "pre_imp_spec.ml" 24 497 526
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_imp_spec.ml" 19 307 322 "pre_imp_spec.ml" 19 307 325
+)
+"pre_imp_spec.ml" 24 497 508 "pre_imp_spec.ml" 24 497 526
+call(
+  tail
+)
+type(
+  Parsetree.core_type
+)
+"pre_imp_spec.ml" 20 328 332 "pre_imp_spec.ml" 24 497 526
+type(
+  Parsetree.core_type
+)
+"pre_imp_spec.ml" 26 532 536 "pre_imp_spec.ml" 26 532 541
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref super "pre_imp_spec.ml" 13 132 143 "pre_imp_spec.ml" 13 132 148
+)
+"pre_imp_spec.ml" 26 532 547 "pre_imp_spec.ml" 26 532 550
+type(
+  Ast_mapper.mapper -> Parsetree.core_type -> Parsetree.core_type
+)
+ident(
+  int_ref typ "pre_imp_spec.ml" 19 307 313 "pre_imp_spec.ml" 19 307 316
+)
+"pre_imp_spec.ml" 26 532 534 "pre_imp_spec.ml" 26 532 552
+type(
+  Ast_mapper.mapper
+)
+"pre_imp_spec.ml" 19 307 309 "pre_imp_spec.ml" 26 532 552
+type(
+  Ast_mapper.mapper
+)
+"pre_imp_spec.ml" 14 151 153 "pre_imp_spec.ml" 26 532 552
+type(
+  Ast_mapper.mapper
+)

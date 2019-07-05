@@ -1,0 +1,5 @@
+added: [
+  "lib/ppx_monoid" {"D"}
+  "lib/ppx_monoid/META" {"F:S44T1560960868.6"}
+  "lib/ppx_monoid/ppx_monoid.native" {"F:S8603072T1560960868.25"}
+]

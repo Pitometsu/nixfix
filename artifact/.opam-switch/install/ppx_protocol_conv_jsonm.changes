@@ -1,0 +1,35 @@
+added: [
+  "doc/ppx_protocol_conv_jsonm" {"D"}
+  "doc/ppx_protocol_conv_jsonm/LICENSE" {"F:S1520T1560961240.36"}
+  "doc/ppx_protocol_conv_jsonm/README.md" {"F:S3450T1560961240.51"}
+  "lib/ppx_protocol_conv_jsonm" {"D"}
+  "lib/ppx_protocol_conv_jsonm/META" {"F:S384T1560961238.74"}
+  "lib/ppx_protocol_conv_jsonm/dune-package" {"F:S854T1560961238.77"}
+  "lib/ppx_protocol_conv_jsonm/jsonm.ml" {"F:S1507T1560961238.82"}
+  "lib/ppx_protocol_conv_jsonm/jsonm.mli" {"F:S215T1560961238.91"}
+  "lib/ppx_protocol_conv_jsonm/opam" {"F:S837T1560961238.98"}
+  "lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.a"
+    {"F:S16824T1560961239.07"}
+  "lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.cma"
+    {"F:S27056T1560961239.1"}
+  "lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.cmi"
+    {"F:S233T1560961239.25"}
+  "lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.cmt"
+    {"F:S2233T1560961239.43"}
+  "lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.cmx"
+    {"F:S143T1560961239.52"}
+  "lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.cmxa"
+    {"F:S5194T1560961239.68"}
+  "lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.cmxs"
+    {"F:S27680T1560961239.72"}
+  "lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.ml"
+    {"F:S86T1560961239.81"}
+  "lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm__Jsonm.cmi"
+    {"F:S12837T1560961239.91"}
+  "lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm__Jsonm.cmt"
+    {"F:S49404T1560961240.05"}
+  "lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm__Jsonm.cmti"
+    {"F:S34183T1560961240.13"}
+  "lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm__Jsonm.cmx"
+    {"F:S9458T1560961240.22"}
+]

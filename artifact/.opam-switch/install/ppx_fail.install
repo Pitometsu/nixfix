@@ -1,0 +1,21 @@
+lib: [
+  "_build/install/default/lib/ppx_fail/META"
+  "_build/install/default/lib/ppx_fail/dune-package"
+  "_build/install/default/lib/ppx_fail/opam"
+  "_build/install/default/lib/ppx_fail/ppx_fail.a"
+  "_build/install/default/lib/ppx_fail/ppx_fail.cma"
+  "_build/install/default/lib/ppx_fail/ppx_fail.cmi"
+  "_build/install/default/lib/ppx_fail/ppx_fail.cmt"
+  "_build/install/default/lib/ppx_fail/ppx_fail.cmti"
+  "_build/install/default/lib/ppx_fail/ppx_fail.cmx"
+  "_build/install/default/lib/ppx_fail/ppx_fail.cmxa"
+  "_build/install/default/lib/ppx_fail/ppx_fail.cmxs"
+  "_build/install/default/lib/ppx_fail/ppx_fail.ml"
+  "_build/install/default/lib/ppx_fail/ppx_fail.mli"
+]
+doc: [
+  "_build/install/default/doc/ppx_fail/CHANGES.md"
+  "_build/install/default/doc/ppx_fail/LICENSE.txt"
+  "_build/install/default/doc/ppx_fail/README.md"
+]
+libexec: "_build/install/default/lib/ppx_fail/ppx.exe"

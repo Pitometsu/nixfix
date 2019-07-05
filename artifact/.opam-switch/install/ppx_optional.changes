@@ -1,0 +1,20 @@
+added: [
+  "doc/ppx_optional" {"D"}
+  "doc/ppx_optional/CHANGES.md" {"F:S101T1560961168.82"}
+  "doc/ppx_optional/LICENSE.txt" {"F:S11358T1560961168.84"}
+  "doc/ppx_optional/README.md" {"F:S873T1560961168.86"}
+  "lib/ppx_optional" {"D"}
+  "lib/ppx_optional/META" {"F:S206T1560961168.54"}
+  "lib/ppx_optional/dune-package" {"F:S521T1560961168.57"}
+  "lib/ppx_optional/opam" {"F:S776T1560961168.59"}
+  "lib/ppx_optional/ppx_optional.a" {"F:S30482T1560961168.61"}
+  "lib/ppx_optional/ppx_optional.cma" {"F:S29760T1560961168.63"}
+  "lib/ppx_optional/ppx_optional.cmi" {"F:S198T1560961168.65"}
+  "lib/ppx_optional/ppx_optional.cmt" {"F:S80864T1560961168.67"}
+  "lib/ppx_optional/ppx_optional.cmti" {"F:S3198T1560961168.69"}
+  "lib/ppx_optional/ppx_optional.cmx" {"F:S8495T1560961168.71"}
+  "lib/ppx_optional/ppx_optional.cmxa" {"F:S7423T1560961168.73"}
+  "lib/ppx_optional/ppx_optional.cmxs" {"F:S45184T1560961168.75"}
+  "lib/ppx_optional/ppx_optional.ml" {"F:S5493T1560961168.77"}
+  "lib/ppx_optional/ppx_optional.mli" {"F:S0T1560961168.79"}
+]

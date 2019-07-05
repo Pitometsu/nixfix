@@ -1,0 +1,34 @@
+added: [
+  "doc/conduit" {"D"}
+  "doc/conduit/CHANGES.md" {"F:S10380T1560961220.55"}
+  "doc/conduit/LICENSE.md" {"F:S769T1560961220.58"}
+  "doc/conduit/README.md" {"F:S1550T1560961220.61"}
+  "doc/conduit/odoc-pages" {"D"}
+  "doc/conduit/odoc-pages/index.mld" {"F:S1738T1560961220.63"}
+  "lib/conduit" {"D"}
+  "lib/conduit/META" {"F:S237T1560961219.68"}
+  "lib/conduit/conduit.a" {"F:S72808T1560961219.7"}
+  "lib/conduit/conduit.cma" {"F:S83353T1560961219.74"}
+  "lib/conduit/conduit.cmi" {"F:S1382T1560961219.81"}
+  "lib/conduit/conduit.cmt" {"F:S49045T1560961219.84"}
+  "lib/conduit/conduit.cmti" {"F:S11852T1560961219.89"}
+  "lib/conduit/conduit.cmx" {"F:S1999T1560961220."}
+  "lib/conduit/conduit.cmxa" {"F:S5865T1560961220.03"}
+  "lib/conduit/conduit.cmxs" {"F:S78448T1560961220.05"}
+  "lib/conduit/conduit.ml" {"F:S1436T1560961220.07"}
+  "lib/conduit/conduit.mli" {"F:S3024T1560961220.11"}
+  "lib/conduit/conduit_trie.cmi" {"F:S1284T1560961220.14"}
+  "lib/conduit/conduit_trie.cmt" {"F:S62272T1560961220.17"}
+  "lib/conduit/conduit_trie.cmti" {"F:S10376T1560961220.19"}
+  "lib/conduit/conduit_trie.cmx" {"F:S2475T1560961220.22"}
+  "lib/conduit/conduit_trie.ml" {"F:S3612T1560961220.24"}
+  "lib/conduit/conduit_trie.mli" {"F:S1594T1560961220.27"}
+  "lib/conduit/dune-package" {"F:S619T1560961220.31"}
+  "lib/conduit/opam" {"F:S1643T1560961220.34"}
+  "lib/conduit/resolver.cmi" {"F:S3935T1560961220.37"}
+  "lib/conduit/resolver.cmt" {"F:S116281T1560961220.41"}
+  "lib/conduit/resolver.cmti" {"F:S23589T1560961220.43"}
+  "lib/conduit/resolver.cmx" {"F:S3648T1560961220.47"}
+  "lib/conduit/resolver.ml" {"F:S5894T1560961220.5"}
+  "lib/conduit/resolver.mli" {"F:S3851T1560961220.52"}
+]

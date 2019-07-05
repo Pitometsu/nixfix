@@ -1,0 +1,2119 @@
+"src/oUnitBracket.ml" 37 2434 2438 "src/oUnitBracket.ml" 37 2434 2444
+type(
+  (OUnitTest.ctxt -> 'a) ->
+  ('a -> OUnitTest.ctxt -> unit) -> OUnitTest.ctxt -> 'a
+)
+ident(
+  def create "src/oUnitBracket.ml" 48 2753 2753 "src/oUnitBracket.ml" 1 0 -1
+)
+"src/oUnitBracket.ml" 37 2434 2445 "src/oUnitBracket.ml" 37 2434 2451
+type(
+  OUnitTest.ctxt -> 'a
+)
+ident(
+  def set_up "src/oUnitBracket.ml" 37 2434 2452 "src/oUnitBracket.ml" 46 2740 2751
+)
+"src/oUnitBracket.ml" 37 2434 2452 "src/oUnitBracket.ml" 37 2434 2461
+type(
+  'a -> OUnitTest.ctxt -> unit
+)
+ident(
+  def tear_down "src/oUnitBracket.ml" 37 2434 2462 "src/oUnitBracket.ml" 46 2740 2751
+)
+"src/oUnitBracket.ml" 37 2434 2462 "src/oUnitBracket.ml" 37 2434 2471
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def test_ctxt "src/oUnitBracket.ml" 38 2474 2476 "src/oUnitBracket.ml" 46 2740 2751
+)
+"src/oUnitBracket.ml" 38 2474 2480 "src/oUnitBracket.ml" 38 2474 2487
+type(
+  'a
+)
+ident(
+  def fixture "src/oUnitBracket.ml" 39 2510 2512 "src/oUnitBracket.ml" 46 2740 2751
+)
+"src/oUnitBracket.ml" 38 2474 2490 "src/oUnitBracket.ml" 38 2474 2496
+type(
+  OUnitTest.ctxt -> 'a
+)
+ident(
+  int_ref set_up "src/oUnitBracket.ml" 37 2434 2445 "src/oUnitBracket.ml" 37 2434 2451
+)
+"src/oUnitBracket.ml" 38 2474 2497 "src/oUnitBracket.ml" 38 2474 2506
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 37 2434 2462 "src/oUnitBracket.ml" 37 2434 2471
+)
+"src/oUnitBracket.ml" 38 2474 2490 "src/oUnitBracket.ml" 38 2474 2506
+call(
+  stack
+)
+type(
+  'a
+)
+"src/oUnitBracket.ml" 39 2510 2516 "src/oUnitBracket.ml" 39 2510 2525
+type(
+  OUnitTest.ctxt -> unit
+)
+ident(
+  def tear_down "src/oUnitBracket.ml" 42 2575 2579 "src/oUnitBracket.ml" 46 2740 2751
+)
+"src/oUnitBracket.ml" 39 2510 2526 "src/oUnitBracket.ml" 39 2510 2535
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def test_ctxt "src/oUnitBracket.ml" 40 2538 2542 "src/oUnitBracket.ml" 40 2538 2569
+)
+"src/oUnitBracket.ml" 40 2538 2542 "src/oUnitBracket.ml" 40 2538 2551
+type(
+  'a -> OUnitTest.ctxt -> unit
+)
+ident(
+  int_ref tear_down "src/oUnitBracket.ml" 37 2434 2452 "src/oUnitBracket.ml" 37 2434 2461
+)
+"src/oUnitBracket.ml" 40 2538 2552 "src/oUnitBracket.ml" 40 2538 2559
+type(
+  'a
+)
+ident(
+  int_ref fixture "src/oUnitBracket.ml" 38 2474 2480 "src/oUnitBracket.ml" 38 2474 2487
+)
+"src/oUnitBracket.ml" 40 2538 2560 "src/oUnitBracket.ml" 40 2538 2569
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 39 2510 2526 "src/oUnitBracket.ml" 39 2510 2535
+)
+"src/oUnitBracket.ml" 40 2538 2542 "src/oUnitBracket.ml" 40 2538 2569
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 42 2575 2579 "src/oUnitBracket.ml" 42 2575 2606
+type(
+  OUnitShared.shared -> OUnitShared.Mutex.t -> (unit -> unit) -> unit
+)
+ident(
+  ext_ref OUnitShared.Mutex.with_lock
+)
+"src/oUnitBracket.ml" 43 2607 2613 "src/oUnitBracket.ml" 43 2607 2622
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 37 2434 2462 "src/oUnitBracket.ml" 37 2434 2471
+)
+"src/oUnitBracket.ml" 43 2607 2613 "src/oUnitBracket.ml" 43 2607 2629
+type(
+  OUnitShared.shared
+)
+"src/oUnitBracket.ml" 43 2607 2630 "src/oUnitBracket.ml" 43 2607 2639
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 37 2434 2462 "src/oUnitBracket.ml" 37 2434 2471
+)
+"src/oUnitBracket.ml" 43 2607 2630 "src/oUnitBracket.ml" 43 2607 2655
+type(
+  OUnitShared.Mutex.t
+)
+"src/oUnitBracket.ml" 44 2656 2667 "src/oUnitBracket.ml" 44 2656 2669
+type(
+  unit
+)
+"src/oUnitBracket.ml" 45 2673 2682 "src/oUnitBracket.ml" 45 2673 2691
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 37 2434 2462 "src/oUnitBracket.ml" 37 2434 2471
+)
+"src/oUnitBracket.ml" 45 2673 2705 "src/oUnitBracket.ml" 45 2673 2714
+type(
+  OUnitTest.ctxt -> unit
+)
+ident(
+  int_ref tear_down "src/oUnitBracket.ml" 39 2510 2516 "src/oUnitBracket.ml" 39 2510 2525
+)
+"src/oUnitBracket.ml" 45 2673 2718 "src/oUnitBracket.ml" 45 2673 2727
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 37 2434 2462 "src/oUnitBracket.ml" 37 2434 2471
+)
+"src/oUnitBracket.ml" 45 2673 2718 "src/oUnitBracket.ml" 45 2673 2737
+type(
+  (OUnitTest.ctxt -> unit) list
+)
+"src/oUnitBracket.ml" 45 2673 2705 "src/oUnitBracket.ml" 45 2673 2737
+type(
+  (OUnitTest.ctxt -> unit) list
+)
+"src/oUnitBracket.ml" 45 2673 2682 "src/oUnitBracket.ml" 45 2673 2737
+type(
+  unit
+)
+"src/oUnitBracket.ml" 44 2656 2662 "src/oUnitBracket.ml" 45 2673 2738
+type(
+  unit -> unit
+)
+"src/oUnitBracket.ml" 42 2575 2579 "src/oUnitBracket.ml" 45 2673 2738
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 46 2740 2744 "src/oUnitBracket.ml" 46 2740 2751
+type(
+  'a
+)
+ident(
+  int_ref fixture "src/oUnitBracket.ml" 38 2474 2480 "src/oUnitBracket.ml" 38 2474 2487
+)
+"src/oUnitBracket.ml" 42 2575 2579 "src/oUnitBracket.ml" 46 2740 2751
+type(
+  'a
+)
+"src/oUnitBracket.ml" 39 2510 2512 "src/oUnitBracket.ml" 46 2740 2751
+type(
+  'a
+)
+"src/oUnitBracket.ml" 38 2474 2476 "src/oUnitBracket.ml" 46 2740 2751
+type(
+  'a
+)
+"src/oUnitBracket.ml" 48 2753 2757 "src/oUnitBracket.ml" 48 2753 2761
+type(
+  ('a OUnitLogger.test_event -> 'b) ->
+  OUnitLogger.log_severity -> ('c, unit, string, 'b) format4 -> 'c
+)
+ident(
+  def logf "src/oUnitBracket.ml" 50 2817 2817 "src/oUnitBracket.ml" 1 0 -1
+)
+"src/oUnitBracket.ml" 48 2753 2762 "src/oUnitBracket.ml" 48 2753 2768
+type(
+  'a OUnitLogger.test_event -> 'b
+)
+ident(
+  def logger "src/oUnitBracket.ml" 48 2753 2769 "src/oUnitBracket.ml" 48 2753 2815
+)
+"src/oUnitBracket.ml" 48 2753 2769 "src/oUnitBracket.ml" 48 2753 2772
+type(
+  OUnitLogger.log_severity
+)
+ident(
+  def lvl "src/oUnitBracket.ml" 48 2753 2773 "src/oUnitBracket.ml" 48 2753 2815
+)
+"src/oUnitBracket.ml" 48 2753 2773 "src/oUnitBracket.ml" 48 2753 2776
+type(
+  ('c, unit, string, 'b) format4
+)
+ident(
+  def fmt "src/oUnitBracket.ml" 48 2753 2779 "src/oUnitBracket.ml" 48 2753 2815
+)
+"src/oUnitBracket.ml" 48 2753 2779 "src/oUnitBracket.ml" 48 2753 2800
+type(
+  ('a OUnitLogger.test_event -> 'b) ->
+  OUnitLogger.log_severity -> ('c, unit, string, 'b) format4 -> 'c
+)
+ident(
+  ext_ref OUnitLogger.Test.logf
+)
+"src/oUnitBracket.ml" 48 2753 2801 "src/oUnitBracket.ml" 48 2753 2807
+type(
+  'a OUnitLogger.test_event -> 'b
+)
+ident(
+  int_ref logger "src/oUnitBracket.ml" 48 2753 2762 "src/oUnitBracket.ml" 48 2753 2768
+)
+"src/oUnitBracket.ml" 48 2753 2808 "src/oUnitBracket.ml" 48 2753 2811
+type(
+  OUnitLogger.log_severity
+)
+ident(
+  int_ref lvl "src/oUnitBracket.ml" 48 2753 2769 "src/oUnitBracket.ml" 48 2753 2772
+)
+"src/oUnitBracket.ml" 48 2753 2812 "src/oUnitBracket.ml" 48 2753 2815
+type(
+  ('c, unit, string, 'b) format4
+)
+ident(
+  int_ref fmt "src/oUnitBracket.ml" 48 2753 2773 "src/oUnitBracket.ml" 48 2753 2776
+)
+"src/oUnitBracket.ml" 48 2753 2779 "src/oUnitBracket.ml" 48 2753 2815
+call(
+  tail
+)
+type(
+  'c
+)
+"src/oUnitBracket.ml" 50 2817 2821 "src/oUnitBracket.ml" 50 2817 2836
+type(
+  ?prefix:string ->
+  ?suffix:string ->
+  ?mode:open_flag list -> OUnitTest.ctxt -> string * out_channel
+)
+ident(
+  def bracket_tmpfile "src/oUnitBracket.ml" 67 3386 3386 "src/oUnitBracket.ml" 1 0 -1
+)
+"src/oUnitBracket.ml" 50 2817 2839 "src/oUnitBracket.ml" 50 2817 2845
+type(
+  string
+)
+"src/oUnitBracket.ml" 50 2817 2846 "src/oUnitBracket.ml" 50 2817 2854
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "src/oUnitBracket.ml" 50 2817 2846 "src/oUnitBracket.ml" 50 2817 2854
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 50 2817 2858 "src/oUnitBracket.ml" 50 2817 2864
+type(
+  string
+)
+"src/oUnitBracket.ml" 50 2817 2865 "src/oUnitBracket.ml" 50 2817 2871
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "src/oUnitBracket.ml" 50 2817 2865 "src/oUnitBracket.ml" 50 2817 2871
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 50 2817 2874 "src/oUnitBracket.ml" 50 2817 2878
+type(
+  open_flag list option
+)
+ident(
+  def mode "src/oUnitBracket.ml" 50 2817 2879 "src/oUnitBracket.ml" 64 3370 3383
+)
+"src/oUnitBracket.ml" 50 2817 2879 "src/oUnitBracket.ml" 50 2817 2888
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def test_ctxt "src/oUnitBracket.ml" 51 2891 2893 "src/oUnitBracket.ml" 64 3370 3383
+)
+"src/oUnitBracket.ml" 51 2891 2893 "src/oUnitBracket.ml" 51 2891 2899
+type(
+  (OUnitTest.ctxt -> string * out_channel) ->
+  (string * out_channel -> OUnitTest.ctxt -> unit) ->
+  OUnitTest.ctxt -> string * out_channel
+)
+ident(
+  int_ref create "src/oUnitBracket.ml" 37 2434 2438 "src/oUnitBracket.ml" 37 2434 2444
+)
+"src/oUnitBracket.ml" 52 2900 2909 "src/oUnitBracket.ml" 52 2900 2918
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def test_ctxt "src/oUnitBracket.ml" 53 2922 2929 "src/oUnitBracket.ml" 56 3137 3153
+)
+"src/oUnitBracket.ml" 53 2922 2933 "src/oUnitBracket.ml" 53 2922 2939
+type(
+  string
+)
+ident(
+  def suffix "src/oUnitBracket.ml" 54 2991 2998 "src/oUnitBracket.ml" 56 3137 3153
+)
+"src/oUnitBracket.ml" 53 2922 2942 "src/oUnitBracket.ml" 53 2922 2945
+type(
+  string
+)
+"src/oUnitBracket.ml" 53 2922 2945 "src/oUnitBracket.ml" 53 2922 2946
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitBracket.ml" 53 2922 2947 "src/oUnitBracket.ml" 53 2922 2969
+type(
+  OUnitTest.ctxt -> string
+)
+ident(
+  ext_ref OUnitTest.get_shard_id
+)
+"src/oUnitBracket.ml" 53 2922 2970 "src/oUnitBracket.ml" 53 2922 2979
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 52 2900 2909 "src/oUnitBracket.ml" 52 2900 2918
+)
+"src/oUnitBracket.ml" 53 2922 2946 "src/oUnitBracket.ml" 53 2922 2980
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 53 2922 2980 "src/oUnitBracket.ml" 53 2922 2981
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitBracket.ml" 53 2922 2981 "src/oUnitBracket.ml" 53 2922 2987
+type(
+  string
+)
+ident(
+  int_ref suffix "src/oUnitBracket.ml" 50 2817 2858 "src/oUnitBracket.ml" 50 2817 2864
+)
+"src/oUnitBracket.ml" 53 2922 2946 "src/oUnitBracket.ml" 53 2922 2987
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 53 2922 2942 "src/oUnitBracket.ml" 53 2922 2987
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 54 2991 3003 "src/oUnitBracket.ml" 54 2991 3005
+type(
+  string
+)
+ident(
+  def fn "src/oUnitBracket.ml" 55 3061 3068 "src/oUnitBracket.ml" 56 3137 3153
+)
+"src/oUnitBracket.ml" 54 2991 3007 "src/oUnitBracket.ml" 54 2991 3010
+type(
+  out_channel
+)
+ident(
+  def chn "src/oUnitBracket.ml" 55 3061 3068 "src/oUnitBracket.ml" 56 3137 3153
+)
+"src/oUnitBracket.ml" 54 2991 3002 "src/oUnitBracket.ml" 54 2991 3011
+type(
+  string * out_channel
+)
+"src/oUnitBracket.ml" 54 2991 3014 "src/oUnitBracket.ml" 54 2991 3037
+type(
+  ?mode:open_flag list ->
+  ?perms:int -> ?temp_dir:string -> string -> string -> string * out_channel
+)
+ident(
+  ext_ref Filename.open_temp_file
+)
+"src/oUnitBracket.ml" 54 2991 3039 "src/oUnitBracket.ml" 54 2991 3043
+type(
+  open_flag list option
+)
+ident(
+  int_ref mode "src/oUnitBracket.ml" 50 2817 2874 "src/oUnitBracket.ml" 50 2817 2878
+)
+"src/oUnitBracket.ml" 54 2991 3044 "src/oUnitBracket.ml" 54 2991 3050
+type(
+  string
+)
+ident(
+  int_ref prefix "src/oUnitBracket.ml" 50 2817 2839 "src/oUnitBracket.ml" 50 2817 2845
+)
+"src/oUnitBracket.ml" 54 2991 3051 "src/oUnitBracket.ml" 54 2991 3057
+type(
+  string
+)
+ident(
+  int_ref suffix "src/oUnitBracket.ml" 53 2922 2933 "src/oUnitBracket.ml" 53 2922 2939
+)
+"src/oUnitBracket.ml" 54 2991 3014 "src/oUnitBracket.ml" 54 2991 3057
+call(
+  stack
+)
+type(
+  string * out_channel
+)
+"src/oUnitBracket.ml" 55 3061 3068 "src/oUnitBracket.ml" 55 3061 3072
+type(
+  OUnitTest.result OUnitLogger.Test.t ->
+  OUnitLogger.log_severity ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  int_ref logf "src/oUnitBracket.ml" 48 2753 2757 "src/oUnitBracket.ml" 48 2753 2761
+)
+"src/oUnitBracket.ml" 55 3061 3073 "src/oUnitBracket.ml" 55 3061 3082
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 52 2900 2909 "src/oUnitBracket.ml" 52 2900 2918
+)
+"src/oUnitBracket.ml" 55 3061 3073 "src/oUnitBracket.ml" 55 3061 3094
+type(
+  OUnitTest.result OUnitLogger.Test.t
+)
+"src/oUnitBracket.ml" 55 3061 3095 "src/oUnitBracket.ml" 55 3061 3100
+type(
+  OUnitLogger.log_severity
+)
+"src/oUnitBracket.ml" 55 3061 3101 "src/oUnitBracket.ml" 55 3061 3132
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitBracket.ml" 55 3061 3133 "src/oUnitBracket.ml" 55 3061 3135
+type(
+  string
+)
+ident(
+  int_ref fn "src/oUnitBracket.ml" 54 2991 3003 "src/oUnitBracket.ml" 54 2991 3005
+)
+"src/oUnitBracket.ml" 55 3061 3068 "src/oUnitBracket.ml" 55 3061 3135
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 56 3137 3145 "src/oUnitBracket.ml" 56 3137 3147
+type(
+  string
+)
+ident(
+  int_ref fn "src/oUnitBracket.ml" 54 2991 3003 "src/oUnitBracket.ml" 54 2991 3005
+)
+"src/oUnitBracket.ml" 56 3137 3149 "src/oUnitBracket.ml" 56 3137 3152
+type(
+  out_channel
+)
+ident(
+  int_ref chn "src/oUnitBracket.ml" 54 2991 3007 "src/oUnitBracket.ml" 54 2991 3010
+)
+"src/oUnitBracket.ml" 56 3137 3144 "src/oUnitBracket.ml" 56 3137 3153
+type(
+  string * out_channel
+)
+"src/oUnitBracket.ml" 55 3061 3068 "src/oUnitBracket.ml" 56 3137 3153
+type(
+  string * out_channel
+)
+"src/oUnitBracket.ml" 54 2991 2998 "src/oUnitBracket.ml" 56 3137 3153
+type(
+  string * out_channel
+)
+"src/oUnitBracket.ml" 53 2922 2929 "src/oUnitBracket.ml" 56 3137 3153
+type(
+  string * out_channel
+)
+"src/oUnitBracket.ml" 52 2900 2904 "src/oUnitBracket.ml" 56 3137 3154
+type(
+  OUnitTest.ctxt -> string * out_channel
+)
+"src/oUnitBracket.ml" 57 3155 3165 "src/oUnitBracket.ml" 57 3155 3167
+type(
+  string
+)
+ident(
+  def fn "src/oUnitBracket.ml" 57 3155 3174 "src/oUnitBracket.ml" 63 3357 3368
+)
+"src/oUnitBracket.ml" 57 3155 3169 "src/oUnitBracket.ml" 57 3155 3172
+type(
+  out_channel
+)
+ident(
+  def chn "src/oUnitBracket.ml" 57 3155 3174 "src/oUnitBracket.ml" 63 3357 3368
+)
+"src/oUnitBracket.ml" 57 3155 3164 "src/oUnitBracket.ml" 57 3155 3173
+type(
+  string * out_channel
+)
+"src/oUnitBracket.ml" 57 3155 3174 "src/oUnitBracket.ml" 57 3155 3183
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def test_ctxt "src/oUnitBracket.ml" 58 3187 3194 "src/oUnitBracket.ml" 63 3357 3368
+)
+"src/oUnitBracket.ml" 58 3187 3199 "src/oUnitBracket.ml" 58 3187 3208
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/oUnitBracket.ml" 58 3187 3209 "src/oUnitBracket.ml" 58 3187 3212
+type(
+  out_channel
+)
+ident(
+  int_ref chn "src/oUnitBracket.ml" 57 3155 3169 "src/oUnitBracket.ml" 57 3155 3172
+)
+"src/oUnitBracket.ml" 58 3187 3199 "src/oUnitBracket.ml" 58 3187 3212
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 58 3187 3218 "src/oUnitBracket.ml" 58 3187 3219
+type(
+  exn
+)
+"src/oUnitBracket.ml" 58 3187 3223 "src/oUnitBracket.ml" 58 3187 3225
+type(
+  unit
+)
+"src/oUnitBracket.ml" 58 3187 3194 "src/oUnitBracket.ml" 58 3187 3226
+type(
+  unit
+)
+"src/oUnitBracket.ml" 60 3239 3248 "src/oUnitBracket.ml" 60 3239 3258
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"src/oUnitBracket.ml" 60 3239 3259 "src/oUnitBracket.ml" 60 3239 3261
+type(
+  string
+)
+ident(
+  int_ref fn "src/oUnitBracket.ml" 57 3155 3165 "src/oUnitBracket.ml" 57 3155 3167
+)
+"src/oUnitBracket.ml" 60 3239 3248 "src/oUnitBracket.ml" 60 3239 3261
+type(
+  unit
+)
+"src/oUnitBracket.ml" 61 3263 3272 "src/oUnitBracket.ml" 61 3263 3276
+type(
+  OUnitTest.result OUnitLogger.Test.t ->
+  OUnitLogger.log_severity ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  int_ref logf "src/oUnitBracket.ml" 48 2753 2757 "src/oUnitBracket.ml" 48 2753 2761
+)
+"src/oUnitBracket.ml" 61 3263 3277 "src/oUnitBracket.ml" 61 3263 3286
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 57 3155 3174 "src/oUnitBracket.ml" 57 3155 3183
+)
+"src/oUnitBracket.ml" 61 3263 3277 "src/oUnitBracket.ml" 61 3263 3298
+type(
+  OUnitTest.result OUnitLogger.Test.t
+)
+"src/oUnitBracket.ml" 61 3263 3299 "src/oUnitBracket.ml" 61 3263 3304
+type(
+  OUnitLogger.log_severity
+)
+"src/oUnitBracket.ml" 61 3263 3305 "src/oUnitBracket.ml" 61 3263 3336
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitBracket.ml" 61 3263 3337 "src/oUnitBracket.ml" 61 3263 3339
+type(
+  string
+)
+ident(
+  int_ref fn "src/oUnitBracket.ml" 57 3155 3165 "src/oUnitBracket.ml" 57 3155 3167
+)
+"src/oUnitBracket.ml" 61 3263 3272 "src/oUnitBracket.ml" 61 3263 3339
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 60 3239 3248 "src/oUnitBracket.ml" 61 3263 3339
+type(
+  unit
+)
+"src/oUnitBracket.ml" 62 3340 3352 "src/oUnitBracket.ml" 62 3340 3353
+type(
+  exn
+)
+"src/oUnitBracket.ml" 63 3357 3366 "src/oUnitBracket.ml" 63 3357 3368
+type(
+  unit
+)
+"src/oUnitBracket.ml" 59 3228 3235 "src/oUnitBracket.ml" 63 3357 3368
+type(
+  unit
+)
+"src/oUnitBracket.ml" 58 3187 3194 "src/oUnitBracket.ml" 63 3357 3368
+type(
+  unit
+)
+"src/oUnitBracket.ml" 57 3155 3159 "src/oUnitBracket.ml" 63 3357 3369
+type(
+  string * out_channel -> OUnitTest.ctxt -> unit
+)
+"src/oUnitBracket.ml" 64 3370 3374 "src/oUnitBracket.ml" 64 3370 3383
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 50 2817 2879 "src/oUnitBracket.ml" 50 2817 2888
+)
+"src/oUnitBracket.ml" 51 2891 2893 "src/oUnitBracket.ml" 64 3370 3383
+call(
+  tail
+)
+type(
+  string * out_channel
+)
+"src/oUnitBracket.ml" 67 3386 3390 "src/oUnitBracket.ml" 67 3386 3404
+type(
+  ?prefix:string -> ?suffix:string -> OUnitTest.ctxt -> string
+)
+ident(
+  def bracket_tmpdir "src/oUnitBracket.ml" 117 5001 5001 "src/oUnitBracket.ml" 1 0 -1
+)
+"src/oUnitBracket.ml" 67 3386 3407 "src/oUnitBracket.ml" 67 3386 3413
+type(
+  string
+)
+"src/oUnitBracket.ml" 67 3386 3414 "src/oUnitBracket.ml" 67 3386 3422
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "src/oUnitBracket.ml" 67 3386 3414 "src/oUnitBracket.ml" 67 3386 3422
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 67 3386 3426 "src/oUnitBracket.ml" 67 3386 3432
+type(
+  string
+)
+"src/oUnitBracket.ml" 67 3386 3433 "src/oUnitBracket.ml" 67 3386 3439
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "src/oUnitBracket.ml" 67 3386 3433 "src/oUnitBracket.ml" 67 3386 3439
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 67 3386 3441 "src/oUnitBracket.ml" 67 3386 3450
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def test_ctxt "src/oUnitBracket.ml" 68 3453 3455 "src/oUnitBracket.ml" 115 4986 4999
+)
+"src/oUnitBracket.ml" 68 3453 3459 "src/oUnitBracket.ml" 68 3453 3470
+type(
+  int
+)
+ident(
+  def max_attempt "src/oUnitBracket.ml" 69 3479 3481 "src/oUnitBracket.ml" 115 4986 4999
+)
+"src/oUnitBracket.ml" 68 3453 3473 "src/oUnitBracket.ml" 68 3453 3475
+type(
+  int
+)
+"src/oUnitBracket.ml" 69 3479 3489 "src/oUnitBracket.ml" 69 3479 3503
+type(
+  int -> string
+)
+ident(
+  def try_hard_mkdir "src/oUnitBracket.ml" 69 3479 3481 "src/oUnitBracket.ml" 115 4986 4999
+)
+"src/oUnitBracket.ml" 69 3479 3504 "src/oUnitBracket.ml" 69 3479 3511
+type(
+  int
+)
+ident(
+  def attempt "src/oUnitBracket.ml" 70 3514 3518 "src/oUnitBracket.ml" 83 3987 3994
+)
+"src/oUnitBracket.ml" 70 3514 3521 "src/oUnitBracket.ml" 70 3514 3532
+type(
+  int
+)
+ident(
+  int_ref max_attempt "src/oUnitBracket.ml" 68 3453 3459 "src/oUnitBracket.ml" 68 3453 3470
+)
+"src/oUnitBracket.ml" 70 3514 3533 "src/oUnitBracket.ml" 70 3514 3534
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/oUnitBracket.ml" 70 3514 3535 "src/oUnitBracket.ml" 70 3514 3542
+type(
+  int
+)
+ident(
+  int_ref attempt "src/oUnitBracket.ml" 69 3479 3504 "src/oUnitBracket.ml" 69 3479 3511
+)
+"src/oUnitBracket.ml" 70 3514 3521 "src/oUnitBracket.ml" 70 3514 3542
+type(
+  bool
+)
+"src/oUnitBracket.ml" 71 3554 3560 "src/oUnitBracket.ml" 71 3554 3580
+type(
+  (int -> string, unit, string, string) format4 -> int -> string
+)
+ident(
+  ext_ref OUnitUtils.failwithf
+)
+"src/oUnitBracket.ml" 72 3581 3589 "src/oUnitBracket.ml" 72 3581 3646
+type(
+  (int -> string, unit, string, string) format4
+)
+"src/oUnitBracket.ml" 73 3647 3655 "src/oUnitBracket.ml" 73 3647 3662
+type(
+  int
+)
+ident(
+  int_ref attempt "src/oUnitBracket.ml" 69 3479 3504 "src/oUnitBracket.ml" 69 3479 3511
+)
+"src/oUnitBracket.ml" 70 3514 3548 "src/oUnitBracket.ml" 74 3663 3670
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 76 3692 3704 "src/oUnitBracket.ml" 76 3692 3710
+type(
+  string
+)
+ident(
+  def suffix "src/oUnitBracket.ml" 77 3762 3770 "src/oUnitBracket.ml" 80 3876 3889
+)
+"src/oUnitBracket.ml" 76 3692 3713 "src/oUnitBracket.ml" 76 3692 3716
+type(
+  string
+)
+"src/oUnitBracket.ml" 76 3692 3716 "src/oUnitBracket.ml" 76 3692 3717
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitBracket.ml" 76 3692 3718 "src/oUnitBracket.ml" 76 3692 3740
+type(
+  OUnitTest.ctxt -> string
+)
+ident(
+  ext_ref OUnitTest.get_shard_id
+)
+"src/oUnitBracket.ml" 76 3692 3741 "src/oUnitBracket.ml" 76 3692 3750
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 67 3386 3441 "src/oUnitBracket.ml" 67 3386 3450
+)
+"src/oUnitBracket.ml" 76 3692 3717 "src/oUnitBracket.ml" 76 3692 3751
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 76 3692 3751 "src/oUnitBracket.ml" 76 3692 3752
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitBracket.ml" 76 3692 3752 "src/oUnitBracket.ml" 76 3692 3758
+type(
+  string
+)
+ident(
+  int_ref suffix "src/oUnitBracket.ml" 67 3386 3426 "src/oUnitBracket.ml" 67 3386 3432
+)
+"src/oUnitBracket.ml" 76 3692 3717 "src/oUnitBracket.ml" 76 3692 3758
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 76 3692 3713 "src/oUnitBracket.ml" 76 3692 3758
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 77 3762 3774 "src/oUnitBracket.ml" 77 3762 3779
+type(
+  string
+)
+ident(
+  def tmpdn "src/oUnitBracket.ml" 78 3818 3826 "src/oUnitBracket.ml" 80 3876 3889
+)
+"src/oUnitBracket.ml" 77 3762 3782 "src/oUnitBracket.ml" 77 3762 3800
+type(
+  ?temp_dir:string -> string -> string -> string
+)
+ident(
+  ext_ref Filename.temp_file
+)
+"src/oUnitBracket.ml" 77 3762 3801 "src/oUnitBracket.ml" 77 3762 3807
+type(
+  string
+)
+ident(
+  int_ref prefix "src/oUnitBracket.ml" 67 3386 3407 "src/oUnitBracket.ml" 67 3386 3413
+)
+"src/oUnitBracket.ml" 77 3762 3808 "src/oUnitBracket.ml" 77 3762 3814
+type(
+  string
+)
+ident(
+  int_ref suffix "src/oUnitBracket.ml" 76 3692 3704 "src/oUnitBracket.ml" 76 3692 3710
+)
+"src/oUnitBracket.ml" 77 3762 3782 "src/oUnitBracket.ml" 77 3762 3814
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 78 3818 3826 "src/oUnitBracket.ml" 78 3818 3836
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"src/oUnitBracket.ml" 78 3818 3837 "src/oUnitBracket.ml" 78 3818 3842
+type(
+  string
+)
+ident(
+  int_ref tmpdn "src/oUnitBracket.ml" 77 3762 3774 "src/oUnitBracket.ml" 77 3762 3779
+)
+"src/oUnitBracket.ml" 78 3818 3826 "src/oUnitBracket.ml" 78 3818 3842
+type(
+  unit
+)
+"src/oUnitBracket.ml" 79 3844 3852 "src/oUnitBracket.ml" 79 3844 3862
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  ext_ref Unix.mkdir
+)
+"src/oUnitBracket.ml" 79 3844 3863 "src/oUnitBracket.ml" 79 3844 3868
+type(
+  string
+)
+ident(
+  int_ref tmpdn "src/oUnitBracket.ml" 77 3762 3774 "src/oUnitBracket.ml" 77 3762 3779
+)
+"src/oUnitBracket.ml" 79 3844 3869 "src/oUnitBracket.ml" 79 3844 3874
+type(
+  Unix.file_perm
+)
+"src/oUnitBracket.ml" 79 3844 3852 "src/oUnitBracket.ml" 79 3844 3874
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 80 3876 3884 "src/oUnitBracket.ml" 80 3876 3889
+type(
+  string
+)
+ident(
+  int_ref tmpdn "src/oUnitBracket.ml" 77 3762 3774 "src/oUnitBracket.ml" 77 3762 3779
+)
+"src/oUnitBracket.ml" 79 3844 3852 "src/oUnitBracket.ml" 80 3876 3889
+type(
+  string
+)
+"src/oUnitBracket.ml" 78 3818 3826 "src/oUnitBracket.ml" 80 3876 3889
+type(
+  string
+)
+"src/oUnitBracket.ml" 77 3762 3770 "src/oUnitBracket.ml" 80 3876 3889
+type(
+  string
+)
+"src/oUnitBracket.ml" 76 3692 3700 "src/oUnitBracket.ml" 80 3876 3889
+type(
+  string
+)
+"src/oUnitBracket.ml" 81 3890 3918 "src/oUnitBracket.ml" 81 3890 3929
+type(
+  Unix.error
+)
+"src/oUnitBracket.ml" 81 3890 3931 "src/oUnitBracket.ml" 81 3890 3938
+type(
+  string
+)
+"src/oUnitBracket.ml" 81 3890 3940 "src/oUnitBracket.ml" 81 3890 3941
+type(
+  string
+)
+"src/oUnitBracket.ml" 81 3890 3901 "src/oUnitBracket.ml" 81 3890 3942
+type(
+  exn
+)
+"src/oUnitBracket.ml" 82 3946 3954 "src/oUnitBracket.ml" 82 3946 3968
+type(
+  int -> string
+)
+ident(
+  int_ref try_hard_mkdir "src/oUnitBracket.ml" 69 3479 3489 "src/oUnitBracket.ml" 69 3479 3503
+)
+"src/oUnitBracket.ml" 82 3946 3970 "src/oUnitBracket.ml" 82 3946 3981
+type(
+  int
+)
+ident(
+  int_ref max_attempt "src/oUnitBracket.ml" 68 3453 3459 "src/oUnitBracket.ml" 68 3453 3470
+)
+"src/oUnitBracket.ml" 82 3946 3982 "src/oUnitBracket.ml" 82 3946 3983
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/oUnitBracket.ml" 82 3946 3984 "src/oUnitBracket.ml" 82 3946 3985
+type(
+  int
+)
+"src/oUnitBracket.ml" 82 3946 3969 "src/oUnitBracket.ml" 82 3946 3986
+type(
+  int
+)
+"src/oUnitBracket.ml" 82 3946 3954 "src/oUnitBracket.ml" 82 3946 3986
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 74 3663 3676 "src/oUnitBracket.ml" 83 3987 3994
+type(
+  string
+)
+"src/oUnitBracket.ml" 70 3514 3518 "src/oUnitBracket.ml" 83 3987 3994
+type(
+  string
+)
+"src/oUnitBracket.ml" 85 4000 4002 "src/oUnitBracket.ml" 85 4000 4008
+type(
+  (OUnitTest.ctxt -> string) ->
+  (string -> OUnitTest.ctxt -> unit) -> OUnitTest.ctxt -> string
+)
+ident(
+  int_ref create "src/oUnitBracket.ml" 37 2434 2438 "src/oUnitBracket.ml" 37 2434 2444
+)
+"src/oUnitBracket.ml" 86 4009 4018 "src/oUnitBracket.ml" 86 4009 4027
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def test_ctxt "src/oUnitBracket.ml" 87 4031 4038 "src/oUnitBracket.ml" 90 4162 4174
+)
+"src/oUnitBracket.ml" 87 4031 4042 "src/oUnitBracket.ml" 87 4031 4047
+type(
+  string
+)
+ident(
+  def tmpdn "src/oUnitBracket.ml" 88 4070 4077 "src/oUnitBracket.ml" 90 4162 4174
+)
+"src/oUnitBracket.ml" 87 4031 4050 "src/oUnitBracket.ml" 87 4031 4064
+type(
+  int -> string
+)
+ident(
+  int_ref try_hard_mkdir "src/oUnitBracket.ml" 69 3479 3489 "src/oUnitBracket.ml" 69 3479 3503
+)
+"src/oUnitBracket.ml" 87 4031 4065 "src/oUnitBracket.ml" 87 4031 4066
+type(
+  int
+)
+"src/oUnitBracket.ml" 87 4031 4050 "src/oUnitBracket.ml" 87 4031 4066
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 88 4070 4077 "src/oUnitBracket.ml" 88 4070 4081
+type(
+  OUnitTest.result OUnitLogger.Test.t ->
+  OUnitLogger.log_severity ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  int_ref logf "src/oUnitBracket.ml" 48 2753 2757 "src/oUnitBracket.ml" 48 2753 2761
+)
+"src/oUnitBracket.ml" 88 4070 4082 "src/oUnitBracket.ml" 88 4070 4091
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 86 4009 4018 "src/oUnitBracket.ml" 86 4009 4027
+)
+"src/oUnitBracket.ml" 88 4070 4082 "src/oUnitBracket.ml" 88 4070 4103
+type(
+  OUnitTest.result OUnitLogger.Test.t
+)
+"src/oUnitBracket.ml" 88 4070 4104 "src/oUnitBracket.ml" 88 4070 4109
+type(
+  OUnitLogger.log_severity
+)
+"src/oUnitBracket.ml" 89 4110 4119 "src/oUnitBracket.ml" 89 4110 4154
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitBracket.ml" 89 4110 4155 "src/oUnitBracket.ml" 89 4110 4160
+type(
+  string
+)
+ident(
+  int_ref tmpdn "src/oUnitBracket.ml" 87 4031 4042 "src/oUnitBracket.ml" 87 4031 4047
+)
+"src/oUnitBracket.ml" 88 4070 4077 "src/oUnitBracket.ml" 89 4110 4160
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 90 4162 4169 "src/oUnitBracket.ml" 90 4162 4174
+type(
+  string
+)
+ident(
+  int_ref tmpdn "src/oUnitBracket.ml" 87 4031 4042 "src/oUnitBracket.ml" 87 4031 4047
+)
+"src/oUnitBracket.ml" 88 4070 4077 "src/oUnitBracket.ml" 90 4162 4174
+type(
+  string
+)
+"src/oUnitBracket.ml" 87 4031 4038 "src/oUnitBracket.ml" 90 4162 4174
+type(
+  string
+)
+"src/oUnitBracket.ml" 86 4009 4013 "src/oUnitBracket.ml" 90 4162 4175
+type(
+  OUnitTest.ctxt -> string
+)
+"src/oUnitBracket.ml" 91 4176 4185 "src/oUnitBracket.ml" 91 4176 4190
+type(
+  string
+)
+ident(
+  def tmpdn "src/oUnitBracket.ml" 91 4176 4191 "src/oUnitBracket.ml" 114 4959 4984
+)
+"src/oUnitBracket.ml" 91 4176 4191 "src/oUnitBracket.ml" 91 4176 4200
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def test_ctxt "src/oUnitBracket.ml" 92 4204 4211 "src/oUnitBracket.ml" 114 4959 4984
+)
+"src/oUnitBracket.ml" 92 4204 4215 "src/oUnitBracket.ml" 92 4204 4225
+type(
+  string -> unit
+)
+ident(
+  def log_delete "src/oUnitBracket.ml" 96 4336 4343 "src/oUnitBracket.ml" 114 4959 4984
+)
+"src/oUnitBracket.ml" 92 4204 4226 "src/oUnitBracket.ml" 92 4204 4228
+type(
+  string
+)
+ident(
+  def fn "src/oUnitBracket.ml" 93 4231 4240 "src/oUnitBracket.ml" 94 4273 4325
+)
+"src/oUnitBracket.ml" 93 4231 4240 "src/oUnitBracket.ml" 93 4231 4244
+type(
+  OUnitTest.result OUnitLogger.Test.t ->
+  OUnitLogger.log_severity ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  int_ref logf "src/oUnitBracket.ml" 48 2753 2757 "src/oUnitBracket.ml" 48 2753 2761
+)
+"src/oUnitBracket.ml" 93 4231 4245 "src/oUnitBracket.ml" 93 4231 4254
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 91 4176 4191 "src/oUnitBracket.ml" 91 4176 4200
+)
+"src/oUnitBracket.ml" 93 4231 4245 "src/oUnitBracket.ml" 93 4231 4266
+type(
+  OUnitTest.result OUnitLogger.Test.t
+)
+"src/oUnitBracket.ml" 93 4231 4267 "src/oUnitBracket.ml" 93 4231 4272
+type(
+  OUnitLogger.log_severity
+)
+"src/oUnitBracket.ml" 94 4273 4284 "src/oUnitBracket.ml" 94 4273 4322
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitBracket.ml" 94 4273 4323 "src/oUnitBracket.ml" 94 4273 4325
+type(
+  string
+)
+ident(
+  int_ref fn "src/oUnitBracket.ml" 92 4204 4226 "src/oUnitBracket.ml" 92 4204 4228
+)
+"src/oUnitBracket.ml" 93 4231 4240 "src/oUnitBracket.ml" 94 4273 4325
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 96 4336 4347 "src/oUnitBracket.ml" 96 4336 4355
+type(
+  ('a -> unit) -> 'a -> unit
+)
+ident(
+  def safe_run "src/oUnitBracket.ml" 97 4386 4393 "src/oUnitBracket.ml" 114 4959 4984
+)
+"src/oUnitBracket.ml" 96 4336 4356 "src/oUnitBracket.ml" 96 4336 4357
+type(
+  'a -> unit
+)
+ident(
+  def f "src/oUnitBracket.ml" 96 4336 4358 "src/oUnitBracket.ml" 96 4336 4382
+)
+"src/oUnitBracket.ml" 96 4336 4358 "src/oUnitBracket.ml" 96 4336 4359
+type(
+  'a
+)
+ident(
+  def a "src/oUnitBracket.ml" 96 4336 4362 "src/oUnitBracket.ml" 96 4336 4382
+)
+"src/oUnitBracket.ml" 96 4336 4366 "src/oUnitBracket.ml" 96 4336 4367
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "src/oUnitBracket.ml" 96 4336 4356 "src/oUnitBracket.ml" 96 4336 4357
+)
+"src/oUnitBracket.ml" 96 4336 4368 "src/oUnitBracket.ml" 96 4336 4369
+type(
+  'a
+)
+ident(
+  int_ref a "src/oUnitBracket.ml" 96 4336 4358 "src/oUnitBracket.ml" 96 4336 4359
+)
+"src/oUnitBracket.ml" 96 4336 4366 "src/oUnitBracket.ml" 96 4336 4369
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 96 4336 4375 "src/oUnitBracket.ml" 96 4336 4376
+type(
+  exn
+)
+"src/oUnitBracket.ml" 96 4336 4380 "src/oUnitBracket.ml" 96 4336 4382
+type(
+  unit
+)
+"src/oUnitBracket.ml" 96 4336 4362 "src/oUnitBracket.ml" 96 4336 4382
+type(
+  unit
+)
+"src/oUnitBracket.ml" 97 4386 4401 "src/oUnitBracket.ml" 97 4386 4406
+type(
+  string -> unit
+)
+ident(
+  def rmdir "src/oUnitBracket.ml" 97 4386 4393 "src/oUnitBracket.ml" 114 4959 4984
+)
+"src/oUnitBracket.ml" 97 4386 4407 "src/oUnitBracket.ml" 97 4386 4409
+type(
+  string
+)
+ident(
+  def fn "src/oUnitBracket.ml" 98 4412 4421 "src/oUnitBracket.ml" 110 4844 4890
+)
+"src/oUnitBracket.ml" 98 4412 4421 "src/oUnitBracket.ml" 98 4412 4431
+type(
+  (string -> unit) -> string array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"src/oUnitBracket.ml" 99 4432 4448 "src/oUnitBracket.ml" 99 4432 4450
+type(
+  string
+)
+ident(
+  def bn "src/oUnitBracket.ml" 100 4454 4468 "src/oUnitBracket.ml" 109 4823 4842
+)
+"src/oUnitBracket.ml" 100 4454 4472 "src/oUnitBracket.ml" 100 4454 4475
+type(
+  string
+)
+ident(
+  def fn' "src/oUnitBracket.ml" 101 4503 4517 "src/oUnitBracket.ml" 109 4823 4842
+)
+"src/oUnitBracket.ml" 100 4454 4478 "src/oUnitBracket.ml" 100 4454 4493
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"src/oUnitBracket.ml" 100 4454 4494 "src/oUnitBracket.ml" 100 4454 4496
+type(
+  string
+)
+ident(
+  int_ref fn "src/oUnitBracket.ml" 97 4386 4407 "src/oUnitBracket.ml" 97 4386 4409
+)
+"src/oUnitBracket.ml" 100 4454 4497 "src/oUnitBracket.ml" 100 4454 4499
+type(
+  string
+)
+ident(
+  int_ref bn "src/oUnitBracket.ml" 99 4432 4448 "src/oUnitBracket.ml" 99 4432 4450
+)
+"src/oUnitBracket.ml" 100 4454 4478 "src/oUnitBracket.ml" 100 4454 4499
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 101 4503 4521 "src/oUnitBracket.ml" 101 4503 4527
+type(
+  bool
+)
+ident(
+  def is_dir "src/oUnitBracket.ml" 102 4574 4590 "src/oUnitBracket.ml" 109 4823 4842
+)
+"src/oUnitBracket.ml" 101 4503 4534 "src/oUnitBracket.ml" 101 4503 4550
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.is_directory
+)
+"src/oUnitBracket.ml" 101 4503 4551 "src/oUnitBracket.ml" 101 4503 4554
+type(
+  string
+)
+ident(
+  int_ref fn' "src/oUnitBracket.ml" 100 4454 4472 "src/oUnitBracket.ml" 100 4454 4475
+)
+"src/oUnitBracket.ml" 101 4503 4534 "src/oUnitBracket.ml" 101 4503 4554
+type(
+  bool
+)
+"src/oUnitBracket.ml" 101 4503 4560 "src/oUnitBracket.ml" 101 4503 4561
+type(
+  exn
+)
+"src/oUnitBracket.ml" 101 4503 4565 "src/oUnitBracket.ml" 101 4503 4570
+type(
+  bool
+)
+"src/oUnitBracket.ml" 101 4503 4530 "src/oUnitBracket.ml" 101 4503 4570
+type(
+  bool
+)
+"src/oUnitBracket.ml" 102 4574 4593 "src/oUnitBracket.ml" 102 4574 4599
+type(
+  bool
+)
+ident(
+  int_ref is_dir "src/oUnitBracket.ml" 101 4503 4521 "src/oUnitBracket.ml" 101 4503 4527
+)
+"src/oUnitBracket.ml" 103 4611 4629 "src/oUnitBracket.ml" 103 4611 4634
+type(
+  string -> unit
+)
+ident(
+  int_ref rmdir "src/oUnitBracket.ml" 97 4386 4401 "src/oUnitBracket.ml" 97 4386 4406
+)
+"src/oUnitBracket.ml" 103 4611 4635 "src/oUnitBracket.ml" 103 4611 4638
+type(
+  string
+)
+ident(
+  int_ref fn' "src/oUnitBracket.ml" 100 4454 4472 "src/oUnitBracket.ml" 100 4454 4475
+)
+"src/oUnitBracket.ml" 103 4611 4629 "src/oUnitBracket.ml" 103 4611 4638
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 104 4640 4658 "src/oUnitBracket.ml" 104 4640 4666
+type(
+  (string -> unit) -> string -> unit
+)
+ident(
+  int_ref safe_run "src/oUnitBracket.ml" 96 4336 4347 "src/oUnitBracket.ml" 96 4336 4355
+)
+"src/oUnitBracket.ml" 104 4640 4667 "src/oUnitBracket.ml" 104 4640 4677
+type(
+  string -> unit
+)
+ident(
+  ext_ref Unix.rmdir
+)
+"src/oUnitBracket.ml" 104 4640 4678 "src/oUnitBracket.ml" 104 4640 4681
+type(
+  string
+)
+ident(
+  int_ref fn' "src/oUnitBracket.ml" 100 4454 4472 "src/oUnitBracket.ml" 100 4454 4475
+)
+"src/oUnitBracket.ml" 104 4640 4658 "src/oUnitBracket.ml" 104 4640 4681
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 105 4683 4701 "src/oUnitBracket.ml" 105 4683 4711
+type(
+  string -> unit
+)
+ident(
+  int_ref log_delete "src/oUnitBracket.ml" 92 4204 4215 "src/oUnitBracket.ml" 92 4204 4225
+)
+"src/oUnitBracket.ml" 105 4683 4712 "src/oUnitBracket.ml" 105 4683 4715
+type(
+  string
+)
+ident(
+  int_ref fn' "src/oUnitBracket.ml" 100 4454 4472 "src/oUnitBracket.ml" 100 4454 4475
+)
+"src/oUnitBracket.ml" 105 4683 4701 "src/oUnitBracket.ml" 105 4683 4715
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 104 4640 4658 "src/oUnitBracket.ml" 105 4683 4715
+type(
+  unit
+)
+"src/oUnitBracket.ml" 102 4574 4605 "src/oUnitBracket.ml" 106 4716 4735
+type(
+  unit
+)
+"src/oUnitBracket.ml" 107 4747 4765 "src/oUnitBracket.ml" 107 4747 4773
+type(
+  (string -> unit) -> string -> unit
+)
+ident(
+  int_ref safe_run "src/oUnitBracket.ml" 96 4336 4347 "src/oUnitBracket.ml" 96 4336 4355
+)
+"src/oUnitBracket.ml" 107 4747 4774 "src/oUnitBracket.ml" 107 4747 4784
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"src/oUnitBracket.ml" 107 4747 4785 "src/oUnitBracket.ml" 107 4747 4788
+type(
+  string
+)
+ident(
+  int_ref fn' "src/oUnitBracket.ml" 100 4454 4472 "src/oUnitBracket.ml" 100 4454 4475
+)
+"src/oUnitBracket.ml" 107 4747 4765 "src/oUnitBracket.ml" 107 4747 4788
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 108 4790 4808 "src/oUnitBracket.ml" 108 4790 4818
+type(
+  string -> unit
+)
+ident(
+  int_ref log_delete "src/oUnitBracket.ml" 92 4204 4215 "src/oUnitBracket.ml" 92 4204 4225
+)
+"src/oUnitBracket.ml" 108 4790 4819 "src/oUnitBracket.ml" 108 4790 4822
+type(
+  string
+)
+ident(
+  int_ref fn' "src/oUnitBracket.ml" 100 4454 4472 "src/oUnitBracket.ml" 100 4454 4475
+)
+"src/oUnitBracket.ml" 108 4790 4808 "src/oUnitBracket.ml" 108 4790 4822
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 106 4716 4741 "src/oUnitBracket.ml" 109 4823 4842
+type(
+  unit
+)
+"src/oUnitBracket.ml" 102 4574 4590 "src/oUnitBracket.ml" 109 4823 4842
+type(
+  unit
+)
+"src/oUnitBracket.ml" 101 4503 4517 "src/oUnitBracket.ml" 109 4823 4842
+type(
+  unit
+)
+"src/oUnitBracket.ml" 100 4454 4468 "src/oUnitBracket.ml" 109 4823 4842
+type(
+  unit
+)
+"src/oUnitBracket.ml" 99 4432 4443 "src/oUnitBracket.ml" 109 4823 4843
+type(
+  string -> unit
+)
+"src/oUnitBracket.ml" 110 4844 4860 "src/oUnitBracket.ml" 110 4844 4871
+type(
+  string -> string array
+)
+ident(
+  ext_ref Sys.readdir
+)
+"src/oUnitBracket.ml" 110 4844 4872 "src/oUnitBracket.ml" 110 4844 4874
+type(
+  string
+)
+ident(
+  int_ref fn "src/oUnitBracket.ml" 97 4386 4407 "src/oUnitBracket.ml" 97 4386 4409
+)
+"src/oUnitBracket.ml" 110 4844 4860 "src/oUnitBracket.ml" 110 4844 4874
+type(
+  string array
+)
+"src/oUnitBracket.ml" 110 4844 4880 "src/oUnitBracket.ml" 110 4844 4881
+type(
+  exn
+)
+"src/oUnitBracket.ml" 110 4844 4885 "src/oUnitBracket.ml" 110 4844 4889
+type(
+  string array
+)
+"src/oUnitBracket.ml" 110 4844 4855 "src/oUnitBracket.ml" 110 4844 4890
+type(
+  string array
+)
+"src/oUnitBracket.ml" 98 4412 4421 "src/oUnitBracket.ml" 110 4844 4890
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 112 4901 4910 "src/oUnitBracket.ml" 112 4901 4915
+type(
+  string -> unit
+)
+ident(
+  int_ref rmdir "src/oUnitBracket.ml" 97 4386 4401 "src/oUnitBracket.ml" 97 4386 4406
+)
+"src/oUnitBracket.ml" 112 4901 4916 "src/oUnitBracket.ml" 112 4901 4921
+type(
+  string
+)
+ident(
+  int_ref tmpdn "src/oUnitBracket.ml" 91 4176 4185 "src/oUnitBracket.ml" 91 4176 4190
+)
+"src/oUnitBracket.ml" 112 4901 4910 "src/oUnitBracket.ml" 112 4901 4921
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 113 4923 4932 "src/oUnitBracket.ml" 113 4923 4940
+type(
+  (string -> unit) -> string -> unit
+)
+ident(
+  int_ref safe_run "src/oUnitBracket.ml" 96 4336 4347 "src/oUnitBracket.ml" 96 4336 4355
+)
+"src/oUnitBracket.ml" 113 4923 4941 "src/oUnitBracket.ml" 113 4923 4951
+type(
+  string -> unit
+)
+ident(
+  ext_ref Unix.rmdir
+)
+"src/oUnitBracket.ml" 113 4923 4952 "src/oUnitBracket.ml" 113 4923 4957
+type(
+  string
+)
+ident(
+  int_ref tmpdn "src/oUnitBracket.ml" 91 4176 4185 "src/oUnitBracket.ml" 91 4176 4190
+)
+"src/oUnitBracket.ml" 113 4923 4932 "src/oUnitBracket.ml" 113 4923 4957
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 114 4959 4968 "src/oUnitBracket.ml" 114 4959 4978
+type(
+  string -> unit
+)
+ident(
+  int_ref log_delete "src/oUnitBracket.ml" 92 4204 4215 "src/oUnitBracket.ml" 92 4204 4225
+)
+"src/oUnitBracket.ml" 114 4959 4979 "src/oUnitBracket.ml" 114 4959 4984
+type(
+  string
+)
+ident(
+  int_ref tmpdn "src/oUnitBracket.ml" 91 4176 4185 "src/oUnitBracket.ml" 91 4176 4190
+)
+"src/oUnitBracket.ml" 114 4959 4968 "src/oUnitBracket.ml" 114 4959 4984
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 113 4923 4932 "src/oUnitBracket.ml" 114 4959 4984
+type(
+  unit
+)
+"src/oUnitBracket.ml" 112 4901 4910 "src/oUnitBracket.ml" 114 4959 4984
+type(
+  unit
+)
+"src/oUnitBracket.ml" 97 4386 4393 "src/oUnitBracket.ml" 114 4959 4984
+type(
+  unit
+)
+"src/oUnitBracket.ml" 96 4336 4343 "src/oUnitBracket.ml" 114 4959 4984
+type(
+  unit
+)
+"src/oUnitBracket.ml" 92 4204 4211 "src/oUnitBracket.ml" 114 4959 4984
+type(
+  unit
+)
+"src/oUnitBracket.ml" 91 4176 4180 "src/oUnitBracket.ml" 114 4959 4985
+type(
+  string -> OUnitTest.ctxt -> unit
+)
+"src/oUnitBracket.ml" 115 4986 4990 "src/oUnitBracket.ml" 115 4986 4999
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 67 3386 3441 "src/oUnitBracket.ml" 67 3386 3450
+)
+"src/oUnitBracket.ml" 85 4000 4002 "src/oUnitBracket.ml" 115 4986 4999
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitBracket.ml" 69 3479 3481 "src/oUnitBracket.ml" 115 4986 4999
+type(
+  string
+)
+"src/oUnitBracket.ml" 68 3453 3455 "src/oUnitBracket.ml" 115 4986 4999
+type(
+  string
+)
+"src/oUnitBracket.ml" 117 5001 5005 "src/oUnitBracket.ml" 117 5001 5016
+type(
+  int * OUnitShared.scope
+)
+ident(
+  def chdir_mutex "src/oUnitBracket.ml" 119 5070 5070 "src/oUnitBracket.ml" 1 0 -1
+)
+"src/oUnitBracket.ml" 117 5001 5019 "src/oUnitBracket.ml" 117 5001 5043
+type(
+  OUnitShared.scope -> int * OUnitShared.scope
+)
+ident(
+  ext_ref OUnitShared.Mutex.create
+)
+"src/oUnitBracket.ml" 117 5001 5044 "src/oUnitBracket.ml" 117 5001 5068
+type(
+  OUnitShared.scope
+)
+"src/oUnitBracket.ml" 117 5001 5019 "src/oUnitBracket.ml" 117 5001 5068
+call(
+  stack
+)
+type(
+  int * OUnitShared.scope
+)
+"src/oUnitBracket.ml" 119 5070 5074 "src/oUnitBracket.ml" 119 5070 5087
+type(
+  string -> OUnitTest.ctxt -> string
+)
+ident(
+  def bracket_chdir "src/oUnitBracket.ml" 136 5597 5597 "src/oUnitBracket.ml" 1 0 -1
+)
+"src/oUnitBracket.ml" 119 5070 5088 "src/oUnitBracket.ml" 119 5070 5091
+type(
+  string
+)
+ident(
+  def dir "src/oUnitBracket.ml" 120 5094 5096 "src/oUnitBracket.ml" 134 5534 5595
+)
+"src/oUnitBracket.ml" 120 5094 5096 "src/oUnitBracket.ml" 120 5094 5102
+type(
+  (OUnitTest.ctxt -> string) ->
+  (string -> OUnitTest.ctxt -> unit) -> OUnitTest.ctxt -> string
+)
+ident(
+  int_ref create "src/oUnitBracket.ml" 37 2434 2438 "src/oUnitBracket.ml" 37 2434 2444
+)
+"src/oUnitBracket.ml" 121 5103 5112 "src/oUnitBracket.ml" 121 5103 5121
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def test_ctxt "src/oUnitBracket.ml" 122 5126 5133 "src/oUnitBracket.ml" 131 5459 5475
+)
+"src/oUnitBracket.ml" 122 5126 5137 "src/oUnitBracket.ml" 122 5126 5139
+type(
+  unit
+)
+"src/oUnitBracket.ml" 123 5142 5151 "src/oUnitBracket.ml" 123 5142 5168
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref OUnitLogger.infof
+)
+"src/oUnitBracket.ml" 123 5142 5169 "src/oUnitBracket.ml" 123 5142 5178
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 121 5103 5112 "src/oUnitBracket.ml" 121 5103 5121
+)
+"src/oUnitBracket.ml" 123 5142 5169 "src/oUnitBracket.ml" 123 5142 5185
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+"src/oUnitBracket.ml" 123 5142 5186 "src/oUnitBracket.ml" 123 5142 5210
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitBracket.ml" 123 5142 5211 "src/oUnitBracket.ml" 123 5142 5214
+type(
+  string
+)
+ident(
+  int_ref dir "src/oUnitBracket.ml" 119 5070 5088 "src/oUnitBracket.ml" 119 5070 5091
+)
+"src/oUnitBracket.ml" 123 5142 5151 "src/oUnitBracket.ml" 123 5142 5214
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 125 5229 5240 "src/oUnitBracket.ml" 125 5229 5262
+type(
+  OUnitShared.shared -> int * OUnitShared.scope -> unit
+)
+ident(
+  ext_ref OUnitShared.Mutex.lock
+)
+"src/oUnitBracket.ml" 125 5229 5263 "src/oUnitBracket.ml" 125 5229 5272
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 121 5103 5112 "src/oUnitBracket.ml" 121 5103 5121
+)
+"src/oUnitBracket.ml" 125 5229 5263 "src/oUnitBracket.ml" 125 5229 5279
+type(
+  OUnitShared.shared
+)
+"src/oUnitBracket.ml" 125 5229 5280 "src/oUnitBracket.ml" 125 5229 5291
+type(
+  int * OUnitShared.scope
+)
+ident(
+  int_ref chdir_mutex "src/oUnitBracket.ml" 117 5001 5005 "src/oUnitBracket.ml" 117 5001 5016
+)
+"src/oUnitBracket.ml" 125 5229 5240 "src/oUnitBracket.ml" 125 5229 5292
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 126 5293 5307 "src/oUnitBracket.ml" 126 5293 5331
+type(
+  exn
+)
+"src/oUnitBracket.ml" 127 5335 5346 "src/oUnitBracket.ml" 127 5335 5354
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/oUnitBracket.ml" 127 5335 5355 "src/oUnitBracket.ml" 127 5335 5385
+type(
+  string
+)
+"src/oUnitBracket.ml" 127 5335 5346 "src/oUnitBracket.ml" 127 5335 5385
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 124 5216 5225 "src/oUnitBracket.ml" 127 5335 5385
+type(
+  unit
+)
+"src/oUnitBracket.ml" 123 5142 5151 "src/oUnitBracket.ml" 127 5335 5385
+type(
+  unit
+)
+"src/oUnitBracket.ml" 129 5396 5407 "src/oUnitBracket.ml" 129 5396 5414
+type(
+  string
+)
+ident(
+  def cur_pwd "src/oUnitBracket.ml" 130 5434 5443 "src/oUnitBracket.ml" 131 5459 5475
+)
+"src/oUnitBracket.ml" 129 5396 5417 "src/oUnitBracket.ml" 129 5396 5427
+type(
+  unit -> string
+)
+ident(
+  ext_ref Sys.getcwd
+)
+"src/oUnitBracket.ml" 129 5396 5428 "src/oUnitBracket.ml" 129 5396 5430
+type(
+  unit
+)
+"src/oUnitBracket.ml" 129 5396 5417 "src/oUnitBracket.ml" 129 5396 5430
+type(
+  string
+)
+"src/oUnitBracket.ml" 130 5434 5443 "src/oUnitBracket.ml" 130 5434 5453
+type(
+  string -> unit
+)
+ident(
+  ext_ref Unix.chdir
+)
+"src/oUnitBracket.ml" 130 5434 5454 "src/oUnitBracket.ml" 130 5434 5457
+type(
+  string
+)
+ident(
+  int_ref dir "src/oUnitBracket.ml" 119 5070 5088 "src/oUnitBracket.ml" 119 5070 5091
+)
+"src/oUnitBracket.ml" 130 5434 5443 "src/oUnitBracket.ml" 130 5434 5457
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 131 5459 5468 "src/oUnitBracket.ml" 131 5459 5475
+type(
+  string
+)
+ident(
+  int_ref cur_pwd "src/oUnitBracket.ml" 129 5396 5407 "src/oUnitBracket.ml" 129 5396 5414
+)
+"src/oUnitBracket.ml" 130 5434 5443 "src/oUnitBracket.ml" 131 5459 5475
+type(
+  string
+)
+"src/oUnitBracket.ml" 129 5396 5403 "src/oUnitBracket.ml" 131 5459 5475
+type(
+  string
+)
+"src/oUnitBracket.ml" 122 5126 5133 "src/oUnitBracket.ml" 131 5459 5475
+type(
+  string
+)
+"src/oUnitBracket.ml" 121 5103 5107 "src/oUnitBracket.ml" 131 5459 5476
+type(
+  OUnitTest.ctxt -> string
+)
+"src/oUnitBracket.ml" 132 5477 5486 "src/oUnitBracket.ml" 132 5477 5493
+type(
+  string
+)
+ident(
+  def cur_pwd "src/oUnitBracket.ml" 132 5477 5494 "src/oUnitBracket.ml" 134 5534 5594
+)
+"src/oUnitBracket.ml" 132 5477 5494 "src/oUnitBracket.ml" 132 5477 5503
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def test_ctxt "src/oUnitBracket.ml" 133 5507 5514 "src/oUnitBracket.ml" 134 5534 5594
+)
+"src/oUnitBracket.ml" 133 5507 5514 "src/oUnitBracket.ml" 133 5507 5524
+type(
+  string -> unit
+)
+ident(
+  ext_ref Unix.chdir
+)
+"src/oUnitBracket.ml" 133 5507 5525 "src/oUnitBracket.ml" 133 5507 5532
+type(
+  string
+)
+ident(
+  int_ref cur_pwd "src/oUnitBracket.ml" 132 5477 5486 "src/oUnitBracket.ml" 132 5477 5493
+)
+"src/oUnitBracket.ml" 133 5507 5514 "src/oUnitBracket.ml" 133 5507 5532
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 134 5534 5541 "src/oUnitBracket.ml" 134 5534 5565
+type(
+  OUnitShared.shared -> int * OUnitShared.scope -> unit
+)
+ident(
+  ext_ref OUnitShared.Mutex.unlock
+)
+"src/oUnitBracket.ml" 134 5534 5566 "src/oUnitBracket.ml" 134 5534 5575
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 132 5477 5494 "src/oUnitBracket.ml" 132 5477 5503
+)
+"src/oUnitBracket.ml" 134 5534 5566 "src/oUnitBracket.ml" 134 5534 5582
+type(
+  OUnitShared.shared
+)
+"src/oUnitBracket.ml" 134 5534 5583 "src/oUnitBracket.ml" 134 5534 5594
+type(
+  int * OUnitShared.scope
+)
+ident(
+  int_ref chdir_mutex "src/oUnitBracket.ml" 117 5001 5005 "src/oUnitBracket.ml" 117 5001 5016
+)
+"src/oUnitBracket.ml" 134 5534 5541 "src/oUnitBracket.ml" 134 5534 5594
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitBracket.ml" 133 5507 5514 "src/oUnitBracket.ml" 134 5534 5594
+type(
+  unit
+)
+"src/oUnitBracket.ml" 132 5477 5481 "src/oUnitBracket.ml" 134 5534 5595
+type(
+  string -> OUnitTest.ctxt -> unit
+)
+"src/oUnitBracket.ml" 120 5094 5096 "src/oUnitBracket.ml" 134 5534 5595
+call(
+  tail
+)
+type(
+  OUnitTest.ctxt -> string
+)
+"src/oUnitBracket.ml" 136 5597 5601 "src/oUnitBracket.ml" 136 5597 5613
+type(
+  OUnitTest.ctxt ->
+  (OUnitTest.ctxt -> 'a) -> ('a -> OUnitTest.ctxt -> 'b) -> 'b
+)
+ident(
+  def with_bracket "src/oUnitBracket.ml" 140 5721 5746 "src/oUnitBracket.ml" 1 0 -1
+)
+"src/oUnitBracket.ml" 136 5597 5614 "src/oUnitBracket.ml" 136 5597 5623
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def test_ctxt "src/oUnitBracket.ml" 136 5597 5624 "src/oUnitBracket.ml" 140 5721 5746
+)
+"src/oUnitBracket.ml" 136 5597 5624 "src/oUnitBracket.ml" 136 5597 5631
+type(
+  OUnitTest.ctxt -> 'a
+)
+ident(
+  def bracket "src/oUnitBracket.ml" 136 5597 5632 "src/oUnitBracket.ml" 140 5721 5746
+)
+"src/oUnitBracket.ml" 136 5597 5632 "src/oUnitBracket.ml" 136 5597 5633
+type(
+  'a -> OUnitTest.ctxt -> 'b
+)
+ident(
+  def f "src/oUnitBracket.ml" 137 5636 5638 "src/oUnitBracket.ml" 140 5721 5746
+)
+"src/oUnitBracket.ml" 137 5636 5638 "src/oUnitBracket.ml" 137 5636 5650
+type(
+  OUnitTest.ctxt -> (OUnitTest.ctxt -> 'b) -> 'b
+)
+ident(
+  ext_ref OUnitTest.section_ctxt
+)
+"src/oUnitBracket.ml" 137 5636 5651 "src/oUnitBracket.ml" 137 5636 5660
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 136 5597 5614 "src/oUnitBracket.ml" 136 5597 5623
+)
+"src/oUnitBracket.ml" 138 5661 5670 "src/oUnitBracket.ml" 138 5661 5679
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def test_ctxt "src/oUnitBracket.ml" 139 5683 5690 "src/oUnitBracket.ml" 140 5721 5745
+)
+"src/oUnitBracket.ml" 139 5683 5694 "src/oUnitBracket.ml" 139 5683 5697
+type(
+  'a
+)
+ident(
+  def res "src/oUnitBracket.ml" 140 5721 5730 "src/oUnitBracket.ml" 140 5721 5745
+)
+"src/oUnitBracket.ml" 139 5683 5700 "src/oUnitBracket.ml" 139 5683 5707
+type(
+  OUnitTest.ctxt -> 'a
+)
+ident(
+  int_ref bracket "src/oUnitBracket.ml" 136 5597 5624 "src/oUnitBracket.ml" 136 5597 5631
+)
+"src/oUnitBracket.ml" 139 5683 5708 "src/oUnitBracket.ml" 139 5683 5717
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 138 5661 5670 "src/oUnitBracket.ml" 138 5661 5679
+)
+"src/oUnitBracket.ml" 139 5683 5700 "src/oUnitBracket.ml" 139 5683 5717
+call(
+  stack
+)
+type(
+  'a
+)
+"src/oUnitBracket.ml" 140 5721 5730 "src/oUnitBracket.ml" 140 5721 5731
+type(
+  'a -> OUnitTest.ctxt -> 'b
+)
+ident(
+  int_ref f "src/oUnitBracket.ml" 136 5597 5632 "src/oUnitBracket.ml" 136 5597 5633
+)
+"src/oUnitBracket.ml" 140 5721 5732 "src/oUnitBracket.ml" 140 5721 5735
+type(
+  'a
+)
+ident(
+  int_ref res "src/oUnitBracket.ml" 139 5683 5694 "src/oUnitBracket.ml" 139 5683 5697
+)
+"src/oUnitBracket.ml" 140 5721 5736 "src/oUnitBracket.ml" 140 5721 5745
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnitBracket.ml" 138 5661 5670 "src/oUnitBracket.ml" 138 5661 5679
+)
+"src/oUnitBracket.ml" 140 5721 5730 "src/oUnitBracket.ml" 140 5721 5745
+call(
+  tail
+)
+type(
+  'b
+)
+"src/oUnitBracket.ml" 139 5683 5690 "src/oUnitBracket.ml" 140 5721 5745
+type(
+  'b
+)
+"src/oUnitBracket.ml" 138 5661 5665 "src/oUnitBracket.ml" 140 5721 5746
+type(
+  OUnitTest.ctxt -> 'b
+)
+"src/oUnitBracket.ml" 137 5636 5638 "src/oUnitBracket.ml" 140 5721 5746
+call(
+  tail
+)
+type(
+  'b
+)

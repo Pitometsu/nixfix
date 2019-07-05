@@ -1,0 +1,18 @@
+added: [
+  "bin/ppx-base" {"F:S18265400T1560961195.7"}
+  "doc/ppx_base" {"D"}
+  "doc/ppx_base/LICENSE.txt" {"F:S11358T1560961196.08"}
+  "lib/ppx_base" {"D"}
+  "lib/ppx_base/META" {"F:S717T1560961195.73"}
+  "lib/ppx_base/dune-package" {"F:S541T1560961195.75"}
+  "lib/ppx_base/opam" {"F:S1018T1560961195.78"}
+  "lib/ppx_base/ppx.exe" {"F:S17933328T1560961196.05"}
+  "lib/ppx_base/ppx_base.a" {"F:S2086T1560961195.81"}
+  "lib/ppx_base/ppx_base.cma" {"F:S1556T1560961195.85"}
+  "lib/ppx_base/ppx_base.cmi" {"F:S116T1560961195.88"}
+  "lib/ppx_base/ppx_base.cmt" {"F:S1696T1560961195.91"}
+  "lib/ppx_base/ppx_base.cmx" {"F:S99T1560961195.94"}
+  "lib/ppx_base/ppx_base.cmxa" {"F:S105T1560961195.97"}
+  "lib/ppx_base/ppx_base.cmxs" {"F:S8416T1560961195.99"}
+  "lib/ppx_base/ppx_base.ml" {"F:S0T1560961196.02"}
+]

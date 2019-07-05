@@ -1,0 +1,17 @@
+(lang dune 1.10)
+(name ppx_fail)
+(version v0.11.0)
+(library
+ (name ppx_fail)
+ (kind ppx_rewriter)
+ (archives (byte ppx_fail.cma) (native ppx_fail.cmxa))
+ (plugins (byte ppx_fail.cma) (native ppx_fail.cmxs))
+ (foreign_archives (native ppx_fail.a))
+ (requires base ppxlib ppx_here.expander)
+ (main_module_name Ppx_fail)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_fail)
+  (modules
+   ((name Ppx_fail) (obj_name ppx_fail) (visibility public) (impl) (intf)))
+  (wrapped true)))

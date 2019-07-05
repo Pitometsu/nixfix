@@ -1,0 +1,22 @@
+#ifndef CORE_CONFIG_H
+#define CORE_CONFIG_H
+#undef  JSC_ARCH_BIG_ENDIAN
+#define JSC_ARCH_SIXTYFOUR
+#undef  JSC_ARCH_i386
+#define JSC_ARCH_x86_64
+#define JSC_EVENTFD
+#define JSC_FDATASYNC
+#define JSC_LINUX_EXT
+#define JSC_MKOSTEMP
+#define JSC_MSG_NOSIGNAL
+#define JSC_MUTEX_TIMED_LOCK
+#define JSC_POSIX_TIMERS
+#define JSC_RECVMMSG
+#define JSC_RLIMIT_AS
+#define JSC_RLIMIT_NICE
+#undef  JSC_SO_NOSIGPIPE
+#define JSC_THREAD_CPUTIME
+#define JSC_THREAD_ID_METHOD (1)
+#define JSC_TIMERFD
+#define JSC_WORDEXP
+#endif

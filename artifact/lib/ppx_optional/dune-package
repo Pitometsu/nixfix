@@ -1,0 +1,21 @@
+(lang dune 1.10)
+(name ppx_optional)
+(version v0.11.0)
+(library
+ (name ppx_optional)
+ (kind normal)
+ (archives (byte ppx_optional.cma) (native ppx_optional.cmxa))
+ (plugins (byte ppx_optional.cma) (native ppx_optional.cmxs))
+ (foreign_archives (native ppx_optional.a))
+ (requires base ppxlib)
+ (main_module_name Ppx_optional)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_optional)
+  (modules
+   ((name Ppx_optional)
+    (obj_name ppx_optional)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

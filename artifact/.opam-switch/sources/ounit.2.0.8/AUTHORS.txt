@@ -1,0 +1,9 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: 32bb7258886e92969facf1ca9ed449e8) *)
+
+Authors of ounit:
+
+* Maas-Maarten Zeeman
+* Sylvain Le Gall
+
+(* OASIS_STOP *)

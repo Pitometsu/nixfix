@@ -1,0 +1,44 @@
+(lang dune 1.10)
+(name ppx_bin_prot)
+(version v0.11.0)
+(library
+ (name ppx_bin_prot)
+ (kind ppx_deriver)
+ (archives (byte ppx_bin_prot.cma) (native ppx_bin_prot.cmxa))
+ (plugins (byte ppx_bin_prot.cma) (native ppx_bin_prot.cmxs))
+ (foreign_archives (native ppx_bin_prot.a))
+ (requires compiler-libs.common base ppxlib ppx_bin_prot.shape-expander)
+ (ppx_runtime_deps bin_prot)
+ (main_module_name Ppx_bin_prot)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_bin_prot)
+  (modules
+   ((name Ppx_bin_prot)
+    (obj_name ppx_bin_prot)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name ppx_bin_prot.shape-expander)
+ (kind normal)
+ (archives
+  (byte shape-expander/bin_shape_expand.cma)
+  (native shape-expander/bin_shape_expand.cmxa))
+ (plugins
+  (byte shape-expander/bin_shape_expand.cma)
+  (native shape-expander/bin_shape_expand.cmxs))
+ (foreign_archives (native shape-expander/bin_shape_expand.a))
+ (requires base ppxlib ppx_here.expander)
+ (main_module_name Bin_shape_expand)
+ (modes byte native)
+ (modules
+  (main_module_name Bin_shape_expand)
+  (modules
+   ((name Bin_shape_expand)
+    (obj_name bin_shape_expand)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

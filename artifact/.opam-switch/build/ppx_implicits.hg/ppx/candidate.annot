@@ -1,0 +1,3045 @@
+"candidate.ml" 25 365 369 "candidate.ml" 25 365 375
+type(
+  Ppxx.Utils.Format.formatter -> t -> unit
+)
+ident(
+  def format "candidate.ml" 31 528 528 "candidate.ml" 1 0 -1
+)
+"candidate.ml" 25 365 376 "candidate.ml" 25 365 379
+type(
+  Ppxx.Utils.Format.formatter
+)
+ident(
+  def ppf "candidate.ml" 25 365 380 "candidate.ml" 29 490 522
+)
+"candidate.ml" 25 365 380 "candidate.ml" 25 365 381
+type(
+  t
+)
+ident(
+  def c "candidate.ml" 26 384 386 "candidate.ml" 29 490 522
+)
+"candidate.ml" 26 384 386 "candidate.ml" 26 384 400
+type(
+  Ppxx.Utils.Format.formatter ->
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t ->
+   (Ppxx.Utils.Format.formatter -> Typedtree.expression -> unit) ->
+   Typedtree.expression ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr -> unit, Ppxx.Utils.Format.formatter,
+   unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t ->
+  (Ppxx.Utils.Format.formatter -> Typedtree.expression -> unit) ->
+  Typedtree.expression ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.Format.fprintf
+)
+"candidate.ml" 26 384 401 "candidate.ml" 26 384 404
+type(
+  Ppxx.Utils.Format.formatter
+)
+ident(
+  int_ref ppf "candidate.ml" 25 365 376 "candidate.ml" 25 365 379
+)
+"candidate.ml" 26 384 405 "candidate.ml" 26 384 431
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t ->
+   (Ppxx.Utils.Format.formatter -> Typedtree.expression -> unit) ->
+   Typedtree.expression ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr -> unit, Ppxx.Utils.Format.formatter,
+   unit)
+  format
+)
+"candidate.ml" 27 432 436 "candidate.ml" 27 432 447
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"candidate.ml" 27 432 448 "candidate.ml" 27 432 449
+type(
+  t
+)
+ident(
+  int_ref c "candidate.ml" 25 365 380 "candidate.ml" 25 365 381
+)
+"candidate.ml" 27 432 448 "candidate.ml" 27 432 454
+type(
+  Typpx.Compilerlib.Path.t
+)
+"candidate.ml" 28 455 459 "candidate.ml" 28 455 482
+type(
+  Ppxx.Utils.Format.formatter -> Typedtree.expression -> unit
+)
+ident(
+  ext_ref Utils.format_expression
+)
+"candidate.ml" 28 455 483 "candidate.ml" 28 455 484
+type(
+  t
+)
+ident(
+  int_ref c "candidate.ml" 25 365 380 "candidate.ml" 25 365 381
+)
+"candidate.ml" 28 455 483 "candidate.ml" 28 455 489
+type(
+  Typedtree.expression
+)
+"candidate.ml" 29 490 494 "candidate.ml" 29 490 514
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_scheme
+)
+"candidate.ml" 29 490 515 "candidate.ml" 29 490 516
+type(
+  t
+)
+ident(
+  int_ref c "candidate.ml" 25 365 380 "candidate.ml" 25 365 381
+)
+"candidate.ml" 29 490 515 "candidate.ml" 29 490 522
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"candidate.ml" 26 384 386 "candidate.ml" 29 490 522
+call(
+  tail
+)
+type(
+  unit
+)
+"candidate.ml" 31 528 532 "candidate.ml" 31 528 536
+type(
+  t list -> t list
+)
+ident(
+  def uniq "candidate.ml" 41 822 822 "candidate.ml" 1 0 -1
+)
+"candidate.ml" 31 528 537 "candidate.ml" 31 528 539
+type(
+  t list
+)
+ident(
+  def xs "candidate.ml" 32 542 544 "candidate.ml" 39 788 820
+)
+"candidate.ml" 32 542 548 "candidate.ml" 32 542 551
+type(
+  (Typpx.Compilerlib.Path.t, t) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  def tbl "candidate.ml" 33 576 578 "candidate.ml" 39 788 820
+)
+"candidate.ml" 32 542 554 "candidate.ml" 32 542 568
+type(
+  ?random:bool -> int -> (Typpx.Compilerlib.Path.t, t) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  ext_ref Ppxx.Utils.Hashtbl.create
+)
+"candidate.ml" 32 542 569 "candidate.ml" 32 542 572
+type(
+  int
+)
+"candidate.ml" 32 542 554 "candidate.ml" 32 542 572
+call(
+  stack
+)
+type(
+  (Typpx.Compilerlib.Path.t, t) Ppxx.Utils.Hashtbl.t
+)
+"candidate.ml" 33 576 578 "candidate.ml" 33 576 582
+type(
+  (t -> unit) -> t list -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.List.iter
+)
+"candidate.ml" 33 576 588 "candidate.ml" 33 576 589
+type(
+  t
+)
+ident(
+  def x "candidate.ml" 34 593 597 "candidate.ml" 38 739 782
+)
+"candidate.ml" 35 601 611 "candidate.ml" 35 601 613
+type(
+  t
+)
+ident(
+  def x' "candidate.ml" 36 643 649 "candidate.ml" 36 643 729
+)
+"candidate.ml" 35 601 616 "candidate.ml" 35 601 628
+type(
+  (Typpx.Compilerlib.Path.t, t) Ppxx.Utils.Hashtbl.t ->
+  Typpx.Compilerlib.Path.t -> t
+)
+ident(
+  ext_ref Ppxx.Utils.Hashtbl.find
+)
+"candidate.ml" 35 601 629 "candidate.ml" 35 601 632
+type(
+  (Typpx.Compilerlib.Path.t, t) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  int_ref tbl "candidate.ml" 32 542 548 "candidate.ml" 32 542 551
+)
+"candidate.ml" 35 601 633 "candidate.ml" 35 601 634
+type(
+  t
+)
+ident(
+  int_ref x "candidate.ml" 33 576 588 "candidate.ml" 33 576 589
+)
+"candidate.ml" 35 601 633 "candidate.ml" 35 601 639
+type(
+  Typpx.Compilerlib.Path.t
+)
+"candidate.ml" 35 601 616 "candidate.ml" 35 601 639
+call(
+  stack
+)
+type(
+  t
+)
+"candidate.ml" 36 643 649 "candidate.ml" 36 643 664
+type(
+  (Typpx.Compilerlib.Path.t, t) Ppxx.Utils.Hashtbl.t ->
+  Typpx.Compilerlib.Path.t -> t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.Hashtbl.replace
+)
+"candidate.ml" 36 643 665 "candidate.ml" 36 643 668
+type(
+  (Typpx.Compilerlib.Path.t, t) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  int_ref tbl "candidate.ml" 32 542 548 "candidate.ml" 32 542 551
+)
+"candidate.ml" 36 643 669 "candidate.ml" 36 643 670
+type(
+  t
+)
+ident(
+  int_ref x "candidate.ml" 33 576 588 "candidate.ml" 33 576 589
+)
+"candidate.ml" 36 643 669 "candidate.ml" 36 643 675
+type(
+  Typpx.Compilerlib.Path.t
+)
+"candidate.ml" 36 643 678 "candidate.ml" 36 643 679
+type(
+  t
+)
+ident(
+  int_ref x "candidate.ml" 33 576 588 "candidate.ml" 33 576 589
+)
+"candidate.ml" 36 643 698 "candidate.ml" 36 643 699
+type(
+  t
+)
+ident(
+  int_ref x "candidate.ml" 33 576 588 "candidate.ml" 33 576 589
+)
+"candidate.ml" 36 643 698 "candidate.ml" 36 643 710
+type(
+  bool
+)
+"candidate.ml" 36 643 711 "candidate.ml" 36 643 713
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"candidate.ml" 36 643 714 "candidate.ml" 36 643 716
+type(
+  t
+)
+ident(
+  int_ref x' "candidate.ml" 35 601 611 "candidate.ml" 35 601 613
+)
+"candidate.ml" 36 643 714 "candidate.ml" 36 643 727
+type(
+  bool
+)
+"candidate.ml" 36 643 698 "candidate.ml" 36 643 727
+type(
+  bool
+)
+"candidate.ml" 36 643 676 "candidate.ml" 36 643 729
+type(
+  t
+)
+"candidate.ml" 36 643 649 "candidate.ml" 36 643 729
+call(
+  stack
+)
+type(
+  unit
+)
+"candidate.ml" 35 601 607 "candidate.ml" 36 643 729
+type(
+  unit
+)
+"candidate.ml" 38 739 745 "candidate.ml" 38 739 754
+type(
+  exn
+)
+"candidate.ml" 38 739 758 "candidate.ml" 38 739 769
+type(
+  (Typpx.Compilerlib.Path.t, t) Ppxx.Utils.Hashtbl.t ->
+  Typpx.Compilerlib.Path.t -> t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.Hashtbl.add
+)
+"candidate.ml" 38 739 770 "candidate.ml" 38 739 773
+type(
+  (Typpx.Compilerlib.Path.t, t) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  int_ref tbl "candidate.ml" 32 542 548 "candidate.ml" 32 542 551
+)
+"candidate.ml" 38 739 774 "candidate.ml" 38 739 775
+type(
+  t
+)
+ident(
+  int_ref x "candidate.ml" 33 576 588 "candidate.ml" 33 576 589
+)
+"candidate.ml" 38 739 774 "candidate.ml" 38 739 780
+type(
+  Typpx.Compilerlib.Path.t
+)
+"candidate.ml" 38 739 781 "candidate.ml" 38 739 782
+type(
+  t
+)
+ident(
+  int_ref x "candidate.ml" 33 576 588 "candidate.ml" 33 576 589
+)
+"candidate.ml" 38 739 758 "candidate.ml" 38 739 782
+call(
+  tail
+)
+type(
+  unit
+)
+"candidate.ml" 34 593 597 "candidate.ml" 38 739 782
+type(
+  unit
+)
+"candidate.ml" 33 576 583 "candidate.ml" 38 739 783
+type(
+  t -> unit
+)
+"candidate.ml" 38 739 784 "candidate.ml" 38 739 786
+type(
+  t list
+)
+ident(
+  int_ref xs "candidate.ml" 31 528 537 "candidate.ml" 31 528 539
+)
+"candidate.ml" 33 576 578 "candidate.ml" 38 739 786
+call(
+  stack
+)
+type(
+  unit
+)
+"candidate.ml" 39 788 790 "candidate.ml" 39 788 805
+type(
+  (Typpx.Compilerlib.Path.t, t) Ppxx.Utils.Hashtbl.t ->
+  (Typpx.Compilerlib.Path.t * t) list
+)
+ident(
+  ext_ref Ppxx.Utils.Hashtbl.to_list
+)
+"candidate.ml" 39 788 806 "candidate.ml" 39 788 809
+type(
+  (Typpx.Compilerlib.Path.t, t) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  int_ref tbl "candidate.ml" 32 542 548 "candidate.ml" 32 542 551
+)
+"candidate.ml" 39 788 790 "candidate.ml" 39 788 809
+call(
+  stack
+)
+type(
+  (Typpx.Compilerlib.Path.t * t) list
+)
+"candidate.ml" 39 788 810 "candidate.ml" 39 788 812
+type(
+  (Typpx.Compilerlib.Path.t * t) list ->
+  ((Typpx.Compilerlib.Path.t * t) list -> t list) -> t list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"candidate.ml" 39 788 813 "candidate.ml" 39 788 816
+type(
+  (Typpx.Compilerlib.Path.t * t -> t) ->
+  (Typpx.Compilerlib.Path.t * t) list -> t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"candidate.ml" 39 788 817 "candidate.ml" 39 788 820
+type(
+  Typpx.Compilerlib.Path.t * t -> t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"candidate.ml" 39 788 813 "candidate.ml" 39 788 820
+type(
+  (Typpx.Compilerlib.Path.t * t) list -> t list
+)
+"candidate.ml" 39 788 790 "candidate.ml" 39 788 820
+call(
+  tail
+)
+type(
+  t list
+)
+"candidate.ml" 33 576 578 "candidate.ml" 39 788 820
+type(
+  t list
+)
+"candidate.ml" 32 542 544 "candidate.ml" 39 788 820
+type(
+  t list
+)
+"candidate.ml" 41 822 826 "candidate.ml" 41 822 835
+type(
+  Env.t -> Path.t list
+)
+ident(
+  def get_opens "candidate.ml" 57 1221 1221 "candidate.ml" 1 0 -1
+)
+"candidate.ml" 41 822 836 "candidate.ml" 41 822 839
+type(
+  Env.t
+)
+ident(
+  def env "candidate.ml" 42 842 844 "candidate.ml" 55 1196 1219
+)
+"candidate.ml" 42 842 852 "candidate.ml" 42 842 855
+type(
+  Env.summary -> Path.t list
+)
+ident(
+  def get "candidate.ml" 42 842 844 "candidate.ml" 55 1196 1219
+)
+"candidate.ml" 43 867 873 "candidate.ml" 43 867 886
+type(
+  Env.summary
+)
+"candidate.ml" 43 867 890 "candidate.ml" 43 867 892
+type(
+  Path.t list
+)
+"candidate.ml" 44 893 910 "candidate.ml" 44 893 911
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 52 1111 1143 "candidate.ml" 52 1111 1148
+)
+"candidate.ml" 44 893 913 "candidate.ml" 44 893 914
+type(
+  Ident.t
+)
+"candidate.ml" 44 893 916 "candidate.ml" 44 893 917
+type(
+  Types.value_description
+)
+"candidate.ml" 44 893 899 "candidate.ml" 44 893 918
+type(
+  Env.summary
+)
+"candidate.ml" 45 919 935 "candidate.ml" 45 919 936
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 52 1111 1143 "candidate.ml" 52 1111 1148
+)
+"candidate.ml" 45 919 938 "candidate.ml" 45 919 939
+type(
+  Ident.t
+)
+"candidate.ml" 45 919 941 "candidate.ml" 45 919 942
+type(
+  Types.type_declaration
+)
+"candidate.ml" 45 919 925 "candidate.ml" 45 919 943
+type(
+  Env.summary
+)
+"candidate.ml" 44 893 899 "candidate.ml" 45 919 943
+type(
+  Env.summary
+)
+"candidate.ml" 46 944 965 "candidate.ml" 46 944 966
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 52 1111 1143 "candidate.ml" 52 1111 1148
+)
+"candidate.ml" 46 944 968 "candidate.ml" 46 944 969
+type(
+  Ident.t
+)
+"candidate.ml" 46 944 971 "candidate.ml" 46 944 972
+type(
+  Types.extension_constructor
+)
+"candidate.ml" 46 944 950 "candidate.ml" 46 944 973
+type(
+  Env.summary
+)
+"candidate.ml" 44 893 899 "candidate.ml" 46 944 973
+type(
+  Env.summary
+)
+"candidate.ml" 47 974 992 "candidate.ml" 47 974 993
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 52 1111 1143 "candidate.ml" 52 1111 1148
+)
+"candidate.ml" 47 974 995 "candidate.ml" 47 974 996
+type(
+  Ident.t
+)
+"candidate.ml" 47 974 998 "candidate.ml" 47 974 999
+type(
+  Types.module_declaration
+)
+"candidate.ml" 47 974 980 "candidate.ml" 47 974 1000
+type(
+  Env.summary
+)
+"candidate.ml" 44 893 899 "candidate.ml" 47 974 1000
+type(
+  Env.summary
+)
+"candidate.ml" 48 1001 1020 "candidate.ml" 48 1001 1021
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 52 1111 1143 "candidate.ml" 52 1111 1148
+)
+"candidate.ml" 48 1001 1023 "candidate.ml" 48 1001 1024
+type(
+  Ident.t
+)
+"candidate.ml" 48 1001 1026 "candidate.ml" 48 1001 1027
+type(
+  Types.modtype_declaration
+)
+"candidate.ml" 48 1001 1007 "candidate.ml" 48 1001 1028
+type(
+  Env.summary
+)
+"candidate.ml" 44 893 899 "candidate.ml" 48 1001 1028
+type(
+  Env.summary
+)
+"candidate.ml" 49 1029 1046 "candidate.ml" 49 1029 1047
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 52 1111 1143 "candidate.ml" 52 1111 1148
+)
+"candidate.ml" 49 1029 1049 "candidate.ml" 49 1029 1050
+type(
+  Ident.t
+)
+"candidate.ml" 49 1029 1052 "candidate.ml" 49 1029 1053
+type(
+  Types.class_declaration
+)
+"candidate.ml" 49 1029 1035 "candidate.ml" 49 1029 1054
+type(
+  Env.summary
+)
+"candidate.ml" 44 893 899 "candidate.ml" 49 1029 1054
+type(
+  Env.summary
+)
+"candidate.ml" 50 1055 1073 "candidate.ml" 50 1055 1074
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 52 1111 1143 "candidate.ml" 52 1111 1148
+)
+"candidate.ml" 50 1055 1076 "candidate.ml" 50 1055 1077
+type(
+  Ident.t
+)
+"candidate.ml" 50 1055 1079 "candidate.ml" 50 1055 1080
+type(
+  Types.class_type_declaration
+)
+"candidate.ml" 50 1055 1061 "candidate.ml" 50 1055 1081
+type(
+  Env.summary
+)
+"candidate.ml" 44 893 899 "candidate.ml" 50 1055 1081
+type(
+  Env.summary
+)
+"candidate.ml" 51 1082 1105 "candidate.ml" 51 1082 1106
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 52 1111 1143 "candidate.ml" 52 1111 1148
+)
+"candidate.ml" 51 1082 1108 "candidate.ml" 51 1082 1109
+type(
+  Types.type_declaration Env.PathMap.t
+)
+"candidate.ml" 51 1082 1088 "candidate.ml" 51 1082 1110
+type(
+  Env.summary
+)
+"candidate.ml" 44 893 899 "candidate.ml" 51 1082 1110
+type(
+  Env.summary
+)
+"candidate.ml" 52 1111 1134 "candidate.ml" 52 1111 1135
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 52 1111 1143 "candidate.ml" 52 1111 1148
+)
+"candidate.ml" 52 1111 1137 "candidate.ml" 52 1111 1138
+type(
+  Ident.t
+)
+"candidate.ml" 52 1111 1117 "candidate.ml" 52 1111 1139
+type(
+  Env.summary
+)
+"candidate.ml" 44 893 899 "candidate.ml" 52 1111 1139
+type(
+  Env.summary
+)
+"candidate.ml" 52 1111 1143 "candidate.ml" 52 1111 1146
+type(
+  Env.summary -> Path.t list
+)
+ident(
+  int_ref get "candidate.ml" 42 842 852 "candidate.ml" 42 842 855
+)
+"candidate.ml" 52 1111 1147 "candidate.ml" 52 1111 1148
+type(
+  Env.summary
+)
+ident(
+  int_ref s "candidate.ml" 44 893 910 "candidate.ml" 44 893 911
+)
+"candidate.ml" 52 1111 1143 "candidate.ml" 52 1111 1148
+call(
+  tail
+)
+type(
+  Path.t list
+)
+"candidate.ml" 53 1149 1165 "candidate.ml" 53 1149 1166
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 53 1149 1177 "candidate.ml" 53 1149 1190
+)
+"candidate.ml" 53 1149 1168 "candidate.ml" 53 1149 1172
+type(
+  Path.t
+)
+ident(
+  def path "candidate.ml" 53 1149 1177 "candidate.ml" 53 1149 1190
+)
+"candidate.ml" 53 1149 1155 "candidate.ml" 53 1149 1173
+type(
+  Env.summary
+)
+"candidate.ml" 53 1149 1177 "candidate.ml" 53 1149 1181
+type(
+  Path.t
+)
+ident(
+  int_ref path "candidate.ml" 53 1149 1168 "candidate.ml" 53 1149 1172
+)
+"candidate.ml" 53 1149 1185 "candidate.ml" 53 1149 1188
+type(
+  Env.summary -> Path.t list
+)
+ident(
+  int_ref get "candidate.ml" 42 842 852 "candidate.ml" 42 842 855
+)
+"candidate.ml" 53 1149 1189 "candidate.ml" 53 1149 1190
+type(
+  Env.summary
+)
+ident(
+  int_ref s "candidate.ml" 53 1149 1165 "candidate.ml" 53 1149 1166
+)
+"candidate.ml" 53 1149 1185 "candidate.ml" 53 1149 1190
+call(
+  stack
+)
+type(
+  Path.t list
+)
+"candidate.ml" 53 1149 1177 "candidate.ml" 53 1149 1190
+type(
+  Path.t list
+)
+"candidate.ml" 42 842 858 "candidate.ml" 53 1149 1190
+type(
+  Env.summary -> Path.t list
+)
+"candidate.ml" 55 1196 1198 "candidate.ml" 55 1196 1201
+type(
+  Env.summary -> Path.t list
+)
+ident(
+  int_ref get "candidate.ml" 42 842 852 "candidate.ml" 42 842 855
+)
+"candidate.ml" 55 1196 1202 "candidate.ml" 55 1196 1203
+type(
+  (Env.summary -> Path.t list) -> Env.summary -> Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"candidate.ml" 55 1196 1204 "candidate.ml" 55 1196 1215
+type(
+  Env.t -> Env.summary
+)
+ident(
+  ext_ref Env.summary
+)
+"candidate.ml" 55 1196 1216 "candidate.ml" 55 1196 1219
+type(
+  Env.t
+)
+ident(
+  int_ref env "candidate.ml" 41 822 836 "candidate.ml" 41 822 839
+)
+"candidate.ml" 55 1196 1204 "candidate.ml" 55 1196 1219
+call(
+  stack
+)
+type(
+  Env.summary
+)
+"candidate.ml" 55 1196 1198 "candidate.ml" 55 1196 1219
+call(
+  tail
+)
+type(
+  Path.t list
+)
+"candidate.ml" 42 842 844 "candidate.ml" 55 1196 1219
+type(
+  Path.t list
+)
+"candidate.ml" 57 1221 1225 "candidate.ml" 57 1221 1238
+type(
+  Env.t -> unit
+)
+ident(
+  def _dump_summary "candidate.ml" 73 1746 1746 "candidate.ml" 1 0 -1
+)
+"candidate.ml" 57 1221 1239 "candidate.ml" 57 1221 1242
+type(
+  Env.t
+)
+ident(
+  def env "candidate.ml" 58 1245 1247 "candidate.ml" 71 1718 1742
+)
+"candidate.ml" 58 1245 1255 "candidate.ml" 58 1245 1259
+type(
+  Env.summary -> unit
+)
+ident(
+  def dump "candidate.ml" 58 1245 1247 "candidate.ml" 71 1718 1742
+)
+"candidate.ml" 59 1271 1277 "candidate.ml" 59 1271 1290
+type(
+  Env.summary
+)
+"candidate.ml" 59 1271 1294 "candidate.ml" 59 1271 1296
+type(
+  unit
+)
+"candidate.ml" 60 1297 1314 "candidate.ml" 60 1297 1315
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 66 1463 1495 "candidate.ml" 66 1463 1501
+)
+"candidate.ml" 60 1297 1317 "candidate.ml" 60 1297 1318
+type(
+  Ident.t
+)
+"candidate.ml" 60 1297 1320 "candidate.ml" 60 1297 1321
+type(
+  Types.value_description
+)
+"candidate.ml" 60 1297 1303 "candidate.ml" 60 1297 1322
+type(
+  Env.summary
+)
+"candidate.ml" 61 1323 1344 "candidate.ml" 61 1323 1345
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 66 1463 1495 "candidate.ml" 66 1463 1501
+)
+"candidate.ml" 61 1323 1347 "candidate.ml" 61 1323 1348
+type(
+  Ident.t
+)
+"candidate.ml" 61 1323 1350 "candidate.ml" 61 1323 1351
+type(
+  Types.extension_constructor
+)
+"candidate.ml" 61 1323 1329 "candidate.ml" 61 1323 1352
+type(
+  Env.summary
+)
+"candidate.ml" 60 1297 1303 "candidate.ml" 61 1323 1352
+type(
+  Env.summary
+)
+"candidate.ml" 62 1353 1372 "candidate.ml" 62 1353 1373
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 66 1463 1495 "candidate.ml" 66 1463 1501
+)
+"candidate.ml" 62 1353 1375 "candidate.ml" 62 1353 1376
+type(
+  Ident.t
+)
+"candidate.ml" 62 1353 1378 "candidate.ml" 62 1353 1379
+type(
+  Types.modtype_declaration
+)
+"candidate.ml" 62 1353 1359 "candidate.ml" 62 1353 1380
+type(
+  Env.summary
+)
+"candidate.ml" 60 1297 1303 "candidate.ml" 62 1353 1380
+type(
+  Env.summary
+)
+"candidate.ml" 63 1381 1398 "candidate.ml" 63 1381 1399
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 66 1463 1495 "candidate.ml" 66 1463 1501
+)
+"candidate.ml" 63 1381 1401 "candidate.ml" 63 1381 1402
+type(
+  Ident.t
+)
+"candidate.ml" 63 1381 1404 "candidate.ml" 63 1381 1405
+type(
+  Types.class_declaration
+)
+"candidate.ml" 63 1381 1387 "candidate.ml" 63 1381 1406
+type(
+  Env.summary
+)
+"candidate.ml" 60 1297 1303 "candidate.ml" 63 1381 1406
+type(
+  Env.summary
+)
+"candidate.ml" 64 1407 1425 "candidate.ml" 64 1407 1426
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 66 1463 1495 "candidate.ml" 66 1463 1501
+)
+"candidate.ml" 64 1407 1428 "candidate.ml" 64 1407 1429
+type(
+  Ident.t
+)
+"candidate.ml" 64 1407 1431 "candidate.ml" 64 1407 1432
+type(
+  Types.class_type_declaration
+)
+"candidate.ml" 64 1407 1413 "candidate.ml" 64 1407 1433
+type(
+  Env.summary
+)
+"candidate.ml" 60 1297 1303 "candidate.ml" 64 1407 1433
+type(
+  Env.summary
+)
+"candidate.ml" 65 1434 1457 "candidate.ml" 65 1434 1458
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 66 1463 1495 "candidate.ml" 66 1463 1501
+)
+"candidate.ml" 65 1434 1460 "candidate.ml" 65 1434 1461
+type(
+  Types.type_declaration Env.PathMap.t
+)
+"candidate.ml" 65 1434 1440 "candidate.ml" 65 1434 1462
+type(
+  Env.summary
+)
+"candidate.ml" 60 1297 1303 "candidate.ml" 65 1434 1462
+type(
+  Env.summary
+)
+"candidate.ml" 66 1463 1486 "candidate.ml" 66 1463 1487
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 66 1463 1495 "candidate.ml" 66 1463 1501
+)
+"candidate.ml" 66 1463 1489 "candidate.ml" 66 1463 1490
+type(
+  Ident.t
+)
+"candidate.ml" 66 1463 1469 "candidate.ml" 66 1463 1491
+type(
+  Env.summary
+)
+"candidate.ml" 60 1297 1303 "candidate.ml" 66 1463 1491
+type(
+  Env.summary
+)
+"candidate.ml" 66 1463 1495 "candidate.ml" 66 1463 1499
+type(
+  Env.summary -> unit
+)
+ident(
+  int_ref dump "candidate.ml" 58 1245 1255 "candidate.ml" 58 1245 1259
+)
+"candidate.ml" 66 1463 1500 "candidate.ml" 66 1463 1501
+type(
+  Env.summary
+)
+ident(
+  int_ref s "candidate.ml" 60 1297 1314 "candidate.ml" 60 1297 1315
+)
+"candidate.ml" 66 1463 1495 "candidate.ml" 66 1463 1501
+call(
+  tail
+)
+type(
+  unit
+)
+"candidate.ml" 67 1502 1518 "candidate.ml" 67 1502 1519
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 67 1502 1531 "candidate.ml" 67 1502 1570
+)
+"candidate.ml" 67 1502 1521 "candidate.ml" 67 1502 1523
+type(
+  Ident.t
+)
+ident(
+  def id "candidate.ml" 67 1502 1531 "candidate.ml" 67 1502 1570
+)
+"candidate.ml" 67 1502 1525 "candidate.ml" 67 1502 1526
+type(
+  Types.type_declaration
+)
+"candidate.ml" 67 1502 1508 "candidate.ml" 67 1502 1527
+type(
+  Env.summary
+)
+"candidate.ml" 67 1502 1531 "candidate.ml" 67 1502 1534
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+   Typpx.Compilerlib.Ident.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+  Typpx.Compilerlib.Ident.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"candidate.ml" 67 1502 1535 "candidate.ml" 67 1502 1546
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+   Typpx.Compilerlib.Ident.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format
+)
+"candidate.ml" 67 1502 1531 "candidate.ml" 67 1502 1546
+type(
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+  Typpx.Compilerlib.Ident.t -> unit
+)
+"candidate.ml" 67 1502 1547 "candidate.ml" 67 1502 1559
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ident.format
+)
+"candidate.ml" 67 1502 1560 "candidate.ml" 67 1502 1562
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "candidate.ml" 67 1502 1521 "candidate.ml" 67 1502 1523
+)
+"candidate.ml" 67 1502 1531 "candidate.ml" 67 1502 1562
+call(
+  stack
+)
+type(
+  unit
+)
+"candidate.ml" 67 1502 1564 "candidate.ml" 67 1502 1568
+type(
+  Env.summary -> unit
+)
+ident(
+  int_ref dump "candidate.ml" 58 1245 1255 "candidate.ml" 58 1245 1259
+)
+"candidate.ml" 67 1502 1569 "candidate.ml" 67 1502 1570
+type(
+  Env.summary
+)
+ident(
+  int_ref s "candidate.ml" 67 1502 1518 "candidate.ml" 67 1502 1519
+)
+"candidate.ml" 67 1502 1564 "candidate.ml" 67 1502 1570
+call(
+  tail
+)
+type(
+  unit
+)
+"candidate.ml" 67 1502 1531 "candidate.ml" 67 1502 1570
+type(
+  unit
+)
+"candidate.ml" 68 1571 1589 "candidate.ml" 68 1571 1590
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 68 1571 1602 "candidate.ml" 68 1571 1643
+)
+"candidate.ml" 68 1571 1592 "candidate.ml" 68 1571 1594
+type(
+  Ident.t
+)
+ident(
+  def id "candidate.ml" 68 1571 1602 "candidate.ml" 68 1571 1643
+)
+"candidate.ml" 68 1571 1596 "candidate.ml" 68 1571 1597
+type(
+  Types.module_declaration
+)
+"candidate.ml" 68 1571 1577 "candidate.ml" 68 1571 1598
+type(
+  Env.summary
+)
+"candidate.ml" 68 1571 1602 "candidate.ml" 68 1571 1605
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+   Typpx.Compilerlib.Ident.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+  Typpx.Compilerlib.Ident.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"candidate.ml" 68 1571 1606 "candidate.ml" 68 1571 1619
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+   Typpx.Compilerlib.Ident.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format
+)
+"candidate.ml" 68 1571 1602 "candidate.ml" 68 1571 1619
+type(
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit) ->
+  Typpx.Compilerlib.Ident.t -> unit
+)
+"candidate.ml" 68 1571 1620 "candidate.ml" 68 1571 1632
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Ident.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ident.format
+)
+"candidate.ml" 68 1571 1633 "candidate.ml" 68 1571 1635
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "candidate.ml" 68 1571 1592 "candidate.ml" 68 1571 1594
+)
+"candidate.ml" 68 1571 1602 "candidate.ml" 68 1571 1635
+call(
+  stack
+)
+type(
+  unit
+)
+"candidate.ml" 68 1571 1637 "candidate.ml" 68 1571 1641
+type(
+  Env.summary -> unit
+)
+ident(
+  int_ref dump "candidate.ml" 58 1245 1255 "candidate.ml" 58 1245 1259
+)
+"candidate.ml" 68 1571 1642 "candidate.ml" 68 1571 1643
+type(
+  Env.summary
+)
+ident(
+  int_ref s "candidate.ml" 68 1571 1589 "candidate.ml" 68 1571 1590
+)
+"candidate.ml" 68 1571 1637 "candidate.ml" 68 1571 1643
+call(
+  tail
+)
+type(
+  unit
+)
+"candidate.ml" 68 1571 1602 "candidate.ml" 68 1571 1643
+type(
+  unit
+)
+"candidate.ml" 69 1644 1660 "candidate.ml" 69 1644 1661
+type(
+  Env.summary
+)
+ident(
+  def s "candidate.ml" 69 1644 1672 "candidate.ml" 69 1644 1712
+)
+"candidate.ml" 69 1644 1663 "candidate.ml" 69 1644 1667
+type(
+  Path.t
+)
+ident(
+  def path "candidate.ml" 69 1644 1672 "candidate.ml" 69 1644 1712
+)
+"candidate.ml" 69 1644 1650 "candidate.ml" 69 1644 1668
+type(
+  Env.summary
+)
+"candidate.ml" 69 1644 1672 "candidate.ml" 69 1644 1675
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"candidate.ml" 69 1644 1676 "candidate.ml" 69 1644 1687
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format
+)
+"candidate.ml" 69 1644 1672 "candidate.ml" 69 1644 1687
+type(
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+"candidate.ml" 69 1644 1688 "candidate.ml" 69 1644 1699
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"candidate.ml" 69 1644 1700 "candidate.ml" 69 1644 1704
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "candidate.ml" 69 1644 1663 "candidate.ml" 69 1644 1667
+)
+"candidate.ml" 69 1644 1672 "candidate.ml" 69 1644 1704
+call(
+  stack
+)
+type(
+  unit
+)
+"candidate.ml" 69 1644 1706 "candidate.ml" 69 1644 1710
+type(
+  Env.summary -> unit
+)
+ident(
+  int_ref dump "candidate.ml" 58 1245 1255 "candidate.ml" 58 1245 1259
+)
+"candidate.ml" 69 1644 1711 "candidate.ml" 69 1644 1712
+type(
+  Env.summary
+)
+ident(
+  int_ref s "candidate.ml" 69 1644 1660 "candidate.ml" 69 1644 1661
+)
+"candidate.ml" 69 1644 1706 "candidate.ml" 69 1644 1712
+call(
+  tail
+)
+type(
+  unit
+)
+"candidate.ml" 69 1644 1672 "candidate.ml" 69 1644 1712
+type(
+  unit
+)
+"candidate.ml" 58 1245 1262 "candidate.ml" 69 1644 1712
+type(
+  Env.summary -> unit
+)
+"candidate.ml" 71 1718 1720 "candidate.ml" 71 1718 1724
+type(
+  Env.summary -> unit
+)
+ident(
+  int_ref dump "candidate.ml" 58 1245 1255 "candidate.ml" 58 1245 1259
+)
+"candidate.ml" 71 1718 1725 "candidate.ml" 71 1718 1726
+type(
+  (Env.summary -> unit) -> Env.summary -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"candidate.ml" 71 1718 1727 "candidate.ml" 71 1718 1738
+type(
+  Env.t -> Env.summary
+)
+ident(
+  ext_ref Env.summary
+)
+"candidate.ml" 71 1718 1739 "candidate.ml" 71 1718 1742
+type(
+  Env.t
+)
+ident(
+  int_ref env "candidate.ml" 57 1221 1239 "candidate.ml" 57 1221 1242
+)
+"candidate.ml" 71 1718 1727 "candidate.ml" 71 1718 1742
+call(
+  stack
+)
+type(
+  Env.summary
+)
+"candidate.ml" 71 1718 1720 "candidate.ml" 71 1718 1742
+call(
+  tail
+)
+type(
+  unit
+)
+"candidate.ml" 58 1245 1247 "candidate.ml" 71 1718 1742
+type(
+  unit
+)
+"candidate.ml" 73 1746 1750 "candidate.ml" 73 1746 1774
+type(
+  Env.t -> Longident.t list -> Path.t option -> Path.t list
+)
+ident(
+  def module_lids_in_open_path "candidate.ml" 98 2666 2666 "candidate.ml" 1 0 -1
+)
+"candidate.ml" 73 1746 1775 "candidate.ml" 73 1746 1778
+type(
+  Env.t
+)
+ident(
+  def env "candidate.ml" 73 1746 1779 "candidate.ml" 96 2638 2658
+)
+"candidate.ml" 73 1746 1779 "candidate.ml" 73 1746 1783
+type(
+  Longident.t list
+)
+ident(
+  def lids "candidate.ml" 73 1746 1786 "candidate.ml" 96 2638 2658
+)
+"candidate.ml" 74 1795 1799 "candidate.ml" 74 1795 1803
+type(
+  Path.t option
+)
+"candidate.ml" 79 1989 1995 "candidate.ml" 79 1989 1999
+type(
+  ((Longident.t -> Path.t option) -> Longident.t list -> Path.t list) ->
+  Longident.t list -> (Longident.t -> Path.t option) -> Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"candidate.ml" 79 1989 2000 "candidate.ml" 79 1989 2010
+type(
+  (Longident.t -> Path.t option) -> Longident.t list -> Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.filter_map
+)
+"candidate.ml" 79 1989 2011 "candidate.ml" 79 1989 2015
+type(
+  Longident.t list
+)
+ident(
+  int_ref lids "candidate.ml" 73 1746 1779 "candidate.ml" 73 1746 1783
+)
+"candidate.ml" 79 1989 2021 "candidate.ml" 79 1989 2024
+type(
+  Longident.t
+)
+ident(
+  def lid "candidate.ml" 80 2028 2036 "candidate.ml" 86 2243 2262
+)
+"candidate.ml" 81 2040 2054 "candidate.ml" 81 2040 2055
+type(
+  Path.t
+)
+ident(
+  def p "candidate.ml" 82 2104 2114 "candidate.ml" 84 2190 2211
+)
+"candidate.ml" 81 2040 2058 "candidate.ml" 81 2040 2075
+type(
+  load:bool -> ?loc:Location.t -> Longident.t -> Env.t -> Path.t
+)
+ident(
+  ext_ref Env.lookup_module
+)
+"candidate.ml" 81 2040 2082 "candidate.ml" 81 2040 2086
+type(
+  bool
+)
+"candidate.ml" 81 2040 2093 "candidate.ml" 81 2040 2096
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "candidate.ml" 79 1989 2021 "candidate.ml" 79 1989 2024
+)
+"candidate.ml" 81 2040 2097 "candidate.ml" 81 2040 2100
+type(
+  Env.t
+)
+ident(
+  int_ref env "candidate.ml" 73 1746 1775 "candidate.ml" 73 1746 1778
+)
+"candidate.ml" 81 2040 2058 "candidate.ml" 81 2040 2100
+call(
+  stack
+)
+type(
+  Path.t
+)
+"candidate.ml" 82 2104 2120 "candidate.ml" 82 2104 2121
+type(
+  Path.t
+)
+ident(
+  int_ref p "candidate.ml" 81 2040 2054 "candidate.ml" 81 2040 2055
+)
+"candidate.ml" 83 2127 2146 "candidate.ml" 83 2127 2148
+type(
+  Ident.t
+)
+ident(
+  def id "candidate.ml" 83 2127 2154 "candidate.ml" 83 2127 2189
+)
+"candidate.ml" 83 2127 2139 "candidate.ml" 83 2127 2148
+type(
+  Typpx.Compilerlib.Path.t
+)
+"candidate.ml" 83 2127 2154 "candidate.ml" 83 2127 2157
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"candidate.ml" 83 2127 2158 "candidate.ml" 83 2127 2159
+type(
+  (bool -> bool) -> bool -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"candidate.ml" 83 2127 2160 "candidate.ml" 83 2127 2176
+type(
+  Typpx.Compilerlib.Ident.t -> bool
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ident.persistent
+)
+"candidate.ml" 83 2127 2177 "candidate.ml" 83 2127 2179
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "candidate.ml" 83 2127 2146 "candidate.ml" 83 2127 2148
+)
+"candidate.ml" 83 2127 2160 "candidate.ml" 83 2127 2179
+call(
+  stack
+)
+type(
+  bool
+)
+"candidate.ml" 83 2127 2154 "candidate.ml" 83 2127 2179
+type(
+  bool
+)
+"candidate.ml" 83 2127 2188 "candidate.ml" 83 2127 2189
+type(
+  Path.t
+)
+ident(
+  int_ref p "candidate.ml" 81 2040 2054 "candidate.ml" 81 2040 2055
+)
+"candidate.ml" 83 2127 2183 "candidate.ml" 83 2127 2189
+type(
+  Path.t option
+)
+"candidate.ml" 84 2190 2202 "candidate.ml" 84 2190 2203
+type(
+  Typpx.Compilerlib.Path.t
+)
+"candidate.ml" 84 2190 2207 "candidate.ml" 84 2190 2211
+type(
+  Path.t option
+)
+"candidate.ml" 82 2104 2114 "candidate.ml" 84 2190 2211
+type(
+  Path.t option
+)
+"candidate.ml" 81 2040 2050 "candidate.ml" 84 2190 2211
+type(
+  Path.t option
+)
+"candidate.ml" 86 2243 2253 "candidate.ml" 86 2243 2254
+type(
+  exn
+)
+"candidate.ml" 86 2243 2258 "candidate.ml" 86 2243 2262
+type(
+  Path.t option
+)
+"candidate.ml" 80 2028 2036 "candidate.ml" 86 2243 2262
+type(
+  Path.t option
+)
+"candidate.ml" 79 1989 2016 "candidate.ml" 86 2243 2263
+type(
+  Longident.t -> Path.t option
+)
+"candidate.ml" 79 1989 1995 "candidate.ml" 86 2243 2263
+call(
+  tail
+)
+type(
+  Path.t list
+)
+"candidate.ml" 87 2264 2273 "candidate.ml" 87 2264 2278
+type(
+  Path.t
+)
+ident(
+  def open_ "candidate.ml" 89 2330 2336 "candidate.ml" 96 2638 2658
+)
+"candidate.ml" 87 2264 2268 "candidate.ml" 87 2264 2278
+type(
+  Path.t option
+)
+"candidate.ml" 89 2330 2340 "candidate.ml" 89 2330 2345
+type(
+  Types.module_declaration
+)
+ident(
+  def mdecl "candidate.ml" 90 2401 2407 "candidate.ml" 96 2638 2658
+)
+"candidate.ml" 89 2330 2348 "candidate.ml" 89 2330 2363
+type(
+  Path.t -> Env.t -> Types.module_declaration
+)
+ident(
+  ext_ref Env.find_module
+)
+"candidate.ml" 89 2330 2364 "candidate.ml" 89 2330 2369
+type(
+  Path.t
+)
+ident(
+  int_ref open_ "candidate.ml" 87 2264 2273 "candidate.ml" 87 2264 2278
+)
+"candidate.ml" 89 2330 2370 "candidate.ml" 89 2330 2373
+type(
+  Env.t
+)
+ident(
+  int_ref env "candidate.ml" 73 1746 1775 "candidate.ml" 73 1746 1778
+)
+"candidate.ml" 89 2330 2348 "candidate.ml" 89 2330 2373
+call(
+  stack
+)
+type(
+  Types.module_declaration
+)
+"candidate.ml" 90 2401 2411 "candidate.ml" 90 2401 2413
+type(
+  Types.signature
+)
+ident(
+  def sg "candidate.ml" 91 2451 2457 "candidate.ml" 96 2638 2658
+)
+"candidate.ml" 90 2401 2416 "candidate.ml" 90 2401 2431
+type(
+  Path.t -> Env.t -> Types.module_declaration -> Types.signature
+)
+ident(
+  ext_ref Utils.scrape_sg
+)
+"candidate.ml" 90 2401 2432 "candidate.ml" 90 2401 2437
+type(
+  Path.t
+)
+ident(
+  int_ref open_ "candidate.ml" 87 2264 2273 "candidate.ml" 87 2264 2278
+)
+"candidate.ml" 90 2401 2438 "candidate.ml" 90 2401 2441
+type(
+  Env.t
+)
+ident(
+  int_ref env "candidate.ml" 73 1746 1775 "candidate.ml" 73 1746 1778
+)
+"candidate.ml" 90 2401 2442 "candidate.ml" 90 2401 2447
+type(
+  Types.module_declaration
+)
+ident(
+  int_ref mdecl "candidate.ml" 89 2330 2340 "candidate.ml" 89 2330 2345
+)
+"candidate.ml" 90 2401 2416 "candidate.ml" 90 2401 2447
+call(
+  stack
+)
+type(
+  Types.signature
+)
+"candidate.ml" 91 2451 2461 "candidate.ml" 91 2451 2464
+type(
+  Env.t
+)
+ident(
+  def env "candidate.ml" 92 2514 2520 "candidate.ml" 96 2638 2658
+)
+"candidate.ml" 91 2451 2467 "candidate.ml" 91 2451 2485
+type(
+  ?loc:Location.t ->
+  ?toplevel:bool ->
+  Asttypes.override_flag -> Path.t -> Types.signature -> Env.t -> Env.t
+)
+ident(
+  ext_ref Env.open_signature
+)
+"candidate.ml" 91 2451 2486 "candidate.ml" 91 2451 2491
+type(
+  Asttypes.override_flag
+)
+"candidate.ml" 91 2451 2492 "candidate.ml" 91 2451 2497
+type(
+  Path.t
+)
+ident(
+  int_ref open_ "candidate.ml" 87 2264 2273 "candidate.ml" 87 2264 2278
+)
+"candidate.ml" 91 2451 2498 "candidate.ml" 91 2451 2500
+type(
+  Types.signature
+)
+ident(
+  int_ref sg "candidate.ml" 90 2401 2411 "candidate.ml" 90 2401 2413
+)
+"candidate.ml" 91 2451 2501 "candidate.ml" 91 2451 2510
+type(
+  Env.t
+)
+ident(
+  ext_ref Env.empty
+)
+"candidate.ml" 91 2451 2467 "candidate.ml" 91 2451 2510
+call(
+  stack
+)
+type(
+  Env.t
+)
+"candidate.ml" 92 2514 2520 "candidate.ml" 92 2514 2524
+type(
+  ((Longident.t -> Path.t option) -> Longident.t list -> Path.t list) ->
+  Longident.t list -> (Longident.t -> Path.t option) -> Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"candidate.ml" 92 2514 2525 "candidate.ml" 92 2514 2535
+type(
+  (Longident.t -> Path.t option) -> Longident.t list -> Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.filter_map
+)
+"candidate.ml" 92 2514 2536 "candidate.ml" 92 2514 2540
+type(
+  Longident.t list
+)
+ident(
+  int_ref lids "candidate.ml" 73 1746 1779 "candidate.ml" 73 1746 1783
+)
+"candidate.ml" 92 2514 2546 "candidate.ml" 92 2514 2549
+type(
+  Longident.t
+)
+ident(
+  def lid "candidate.ml" 93 2553 2561 "candidate.ml" 96 2638 2657
+)
+"candidate.ml" 94 2565 2581 "candidate.ml" 94 2565 2598
+type(
+  load:bool -> ?loc:Location.t -> Longident.t -> Env.t -> Path.t
+)
+ident(
+  ext_ref Env.lookup_module
+)
+"candidate.ml" 94 2565 2605 "candidate.ml" 94 2565 2609
+type(
+  bool
+)
+"candidate.ml" 94 2565 2616 "candidate.ml" 94 2565 2619
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "candidate.ml" 92 2514 2546 "candidate.ml" 92 2514 2549
+)
+"candidate.ml" 94 2565 2620 "candidate.ml" 94 2565 2623
+type(
+  Env.t
+)
+ident(
+  int_ref env "candidate.ml" 91 2451 2461 "candidate.ml" 91 2451 2464
+)
+"candidate.ml" 94 2565 2580 "candidate.ml" 94 2565 2624
+call(
+  stack
+)
+type(
+  Path.t
+)
+"candidate.ml" 94 2565 2575 "candidate.ml" 94 2565 2624
+type(
+  Path.t option
+)
+"candidate.ml" 96 2638 2648 "candidate.ml" 96 2638 2649
+type(
+  exn
+)
+"candidate.ml" 96 2638 2653 "candidate.ml" 96 2638 2657
+type(
+  Path.t option
+)
+"candidate.ml" 93 2553 2561 "candidate.ml" 96 2638 2657
+type(
+  Path.t option
+)
+"candidate.ml" 92 2514 2541 "candidate.ml" 96 2638 2658
+type(
+  Longident.t -> Path.t option
+)
+"candidate.ml" 92 2514 2520 "candidate.ml" 96 2638 2658
+call(
+  tail
+)
+type(
+  Path.t list
+)
+"candidate.ml" 91 2451 2457 "candidate.ml" 96 2638 2658
+type(
+  Path.t list
+)
+"candidate.ml" 90 2401 2407 "candidate.ml" 96 2638 2658
+type(
+  Path.t list
+)
+"candidate.ml" 89 2330 2336 "candidate.ml" 96 2638 2658
+type(
+  Path.t list
+)
+"candidate.ml" 73 1746 1786 "candidate.ml" 96 2638 2658
+type(
+  Path.t option -> Path.t list
+)
+"candidate.ml" 98 2666 2670 "candidate.ml" 98 2666 2695
+type(
+  Env.t -> Typpx.Forge.Path.t -> t
+)
+ident(
+  def default_candidate_of_path "candidate.ml" 106 2919 2919 "candidate.ml" 1 0 -1
+)
+"candidate.ml" 98 2666 2696 "candidate.ml" 98 2666 2699
+type(
+  Env.t
+)
+ident(
+  def env "candidate.ml" 98 2666 2700 "candidate.ml" 104 2876 2905
+)
+"candidate.ml" 98 2666 2700 "candidate.ml" 98 2666 2704
+type(
+  Typpx.Forge.Path.t
+)
+ident(
+  def path "candidate.ml" 99 2708 2710 "candidate.ml" 104 2876 2905
+)
+"candidate.ml" 100 2714 2722 "candidate.ml" 100 2714 2727
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def type_ "candidate.ml" 101 2768 2772 "candidate.ml" 102 2824 2868
+)
+"candidate.ml" 100 2714 2731 "candidate.ml" 100 2714 2745
+type(
+  Typpx.Forge.Path.t -> Env.t -> Typpx.Compilerlib.Types.value_description
+)
+ident(
+  ext_ref Env.find_value
+)
+"candidate.ml" 100 2714 2746 "candidate.ml" 100 2714 2750
+type(
+  Typpx.Forge.Path.t
+)
+ident(
+  int_ref path "candidate.ml" 98 2666 2700 "candidate.ml" 98 2666 2704
+)
+"candidate.ml" 100 2714 2751 "candidate.ml" 100 2714 2754
+type(
+  Env.t
+)
+ident(
+  int_ref env "candidate.ml" 98 2666 2696 "candidate.ml" 98 2666 2699
+)
+"candidate.ml" 100 2714 2730 "candidate.ml" 100 2714 2755
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.value_description
+)
+"candidate.ml" 100 2714 2730 "candidate.ml" 100 2714 2764
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"candidate.ml" 101 2768 2776 "candidate.ml" 101 2768 2780
+type(
+  Typedtree.expression
+)
+ident(
+  def expr "candidate.ml" 102 2824 2828 "candidate.ml" 102 2824 2868
+)
+"candidate.ml" 101 2768 2794 "candidate.ml" 101 2768 2802
+type(
+  Env.t -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Forge.Exp.with_env
+)
+"candidate.ml" 101 2768 2803 "candidate.ml" 101 2768 2806
+type(
+  Env.t
+)
+ident(
+  int_ref env "candidate.ml" 98 2666 2696 "candidate.ml" 98 2666 2699
+)
+"candidate.ml" 101 2768 2794 "candidate.ml" 101 2768 2806
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"candidate.ml" 101 2768 2807 "candidate.ml" 101 2768 2808
+type(
+  (Typedtree.expression -> Typedtree.expression) ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"candidate.ml" 101 2768 2809 "candidate.ml" 101 2768 2814
+type(
+  Typpx.Forge.Path.t -> Typedtree.expression
+)
+ident(
+  ext_ref Forge.Exp.ident
+)
+"candidate.ml" 101 2768 2815 "candidate.ml" 101 2768 2819
+type(
+  Typpx.Forge.Path.t
+)
+ident(
+  int_ref path "candidate.ml" 98 2666 2700 "candidate.ml" 98 2666 2704
+)
+"candidate.ml" 101 2768 2809 "candidate.ml" 101 2768 2819
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"candidate.ml" 101 2768 2794 "candidate.ml" 101 2768 2819
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"candidate.ml" 102 2824 2830 "candidate.ml" 102 2824 2834
+type(
+  Typpx.Forge.Path.t
+)
+ident(
+  int_ref path "candidate.ml" 98 2666 2700 "candidate.ml" 98 2666 2704
+)
+"candidate.ml" 102 2824 2836 "candidate.ml" 102 2824 2840
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref expr "candidate.ml" 101 2768 2776 "candidate.ml" 101 2768 2780
+)
+"candidate.ml" 102 2824 2842 "candidate.ml" 102 2824 2847
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref type_ "candidate.ml" 100 2714 2722 "candidate.ml" 100 2714 2727
+)
+"candidate.ml" 102 2824 2861 "candidate.ml" 102 2824 2866
+type(
+  bool
+)
+"candidate.ml" 102 2824 2828 "candidate.ml" 102 2824 2868
+type(
+  t
+)
+"candidate.ml" 101 2768 2772 "candidate.ml" 102 2824 2868
+type(
+  t
+)
+"candidate.ml" 100 2714 2718 "candidate.ml" 102 2824 2868
+type(
+  t
+)
+"candidate.ml" 104 2876 2880 "candidate.ml" 104 2876 2889
+type(
+  exn
+)
+"candidate.ml" 104 2876 2900 "candidate.ml" 104 2876 2905
+type(
+  bool
+)
+"candidate.ml" 104 2876 2893 "candidate.ml" 104 2876 2905
+type(
+  t
+)
+"candidate.ml" 99 2708 2710 "candidate.ml" 104 2876 2905
+type(
+  t
+)
+"candidate.ml" 106 2919 2923 "candidate.ml" 106 2919 2934
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  [< `In | `Just ] * Ppxx.Compilerlib.Longident.t * Path.t option -> t list
+)
+ident(
+  def cand_direct "candidate.ml" 122 3387 3387 "candidate.ml" 1 0 -1
+)
+"candidate.ml" 106 2919 2935 "candidate.ml" 106 2919 2938
+type(
+  Env.t
+)
+ident(
+  def env "candidate.ml" 106 2919 2939 "candidate.ml" 120 3342 3385
+)
+"candidate.ml" 106 2919 2939 "candidate.ml" 106 2919 2942
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "candidate.ml" 106 2919 2943 "candidate.ml" 120 3342 3385
+)
+"candidate.ml" 106 2919 2944 "candidate.ml" 106 2919 2947
+type(
+  [< `In | `Just ] as 'a
+)
+ident(
+  def flg "candidate.ml" 107 2960 2962 "candidate.ml" 120 3342 3385
+)
+"candidate.ml" 106 2919 2948 "candidate.ml" 106 2919 2951
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def lid "candidate.ml" 107 2960 2962 "candidate.ml" 120 3342 3385
+)
+"candidate.ml" 106 2919 2952 "candidate.ml" 106 2919 2956
+type(
+  Path.t option
+)
+ident(
+  def popt "candidate.ml" 107 2960 2962 "candidate.ml" 120 3342 3385
+)
+"candidate.ml" 106 2919 2943 "candidate.ml" 106 2919 2957
+type(
+  'a * Ppxx.Compilerlib.Longident.t * Path.t option
+)
+"candidate.ml" 107 2960 2966 "candidate.ml" 107 2960 2975
+type(
+  bool
+)
+ident(
+  def recursive "candidate.ml" 111 3037 3039 "candidate.ml" 120 3342 3385
+)
+"candidate.ml" 107 2960 2984 "candidate.ml" 107 2960 2987
+type(
+  'a
+)
+ident(
+  int_ref flg "candidate.ml" 106 2919 2944 "candidate.ml" 106 2919 2947
+)
+"candidate.ml" 108 2993 2999 "candidate.ml" 108 2993 3004
+type(
+  'a
+)
+"candidate.ml" 108 2993 3008 "candidate.ml" 108 2993 3013
+type(
+  bool
+)
+"candidate.ml" 109 3014 3020 "candidate.ml" 109 3014 3023
+type(
+  'a
+)
+"candidate.ml" 109 3014 3027 "candidate.ml" 109 3014 3031
+type(
+  bool
+)
+"candidate.ml" 107 2960 2978 "candidate.ml" 109 3014 3031
+type(
+  bool
+)
+"candidate.ml" 111 3037 3043 "candidate.ml" 111 3037 3047
+type(
+  Path.t
+)
+ident(
+  def path "candidate.ml" 119 3278 3280 "candidate.ml" 120 3342 3385
+)
+"candidate.ml" 111 3037 3056 "candidate.ml" 111 3037 3060
+type(
+  Path.t option
+)
+ident(
+  int_ref popt "candidate.ml" 106 2919 2952 "candidate.ml" 106 2919 2956
+)
+"candidate.ml" 112 3066 3077 "candidate.ml" 112 3066 3078
+type(
+  Path.t
+)
+ident(
+  def p "candidate.ml" 112 3066 3082 "candidate.ml" 112 3066 3083
+)
+"candidate.ml" 112 3066 3072 "candidate.ml" 112 3066 3078
+type(
+  Path.t option
+)
+"candidate.ml" 112 3066 3082 "candidate.ml" 112 3066 3083
+type(
+  Path.t
+)
+ident(
+  int_ref p "candidate.ml" 112 3066 3077 "candidate.ml" 112 3066 3078
+)
+"candidate.ml" 113 3084 3090 "candidate.ml" 113 3084 3094
+type(
+  Path.t option
+)
+"candidate.ml" 115 3111 3121 "candidate.ml" 115 3111 3138
+type(
+  load:bool ->
+  ?loc:Location.t -> Ppxx.Compilerlib.Longident.t -> Env.t -> Path.t
+)
+ident(
+  ext_ref Env.lookup_module
+)
+"candidate.ml" 115 3111 3145 "candidate.ml" 115 3111 3149
+type(
+  bool
+)
+"candidate.ml" 115 3111 3150 "candidate.ml" 115 3111 3153
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "candidate.ml" 106 2919 2948 "candidate.ml" 106 2919 2951
+)
+"candidate.ml" 115 3111 3154 "candidate.ml" 115 3111 3157
+type(
+  Env.t
+)
+ident(
+  int_ref env "candidate.ml" 106 2919 2935 "candidate.ml" 106 2919 2938
+)
+"candidate.ml" 115 3111 3121 "candidate.ml" 115 3111 3157
+call(
+  stack
+)
+type(
+  Path.t
+)
+"candidate.ml" 117 3171 3181 "candidate.ml" 117 3171 3190
+type(
+  exn
+)
+"candidate.ml" 117 3171 3194 "candidate.ml" 117 3171 3206
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Longident.t -> unit) ->
+   Ppxx.Compilerlib.Longident.t -> Path.t, Ppxx.Utils.Format.formatter, 
+   unit, Path.t)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Longident.t -> unit) ->
+  Ppxx.Compilerlib.Longident.t -> Path.t
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"candidate.ml" 117 3171 3207 "candidate.ml" 117 3171 3231
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Longident.t -> unit) ->
+   Ppxx.Compilerlib.Longident.t -> Path.t, Ppxx.Utils.Format.formatter, 
+   unit, Path.t)
+  format4
+)
+"candidate.ml" 117 3171 3232 "candidate.ml" 117 3171 3247
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"candidate.ml" 117 3171 3248 "candidate.ml" 117 3171 3251
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "candidate.ml" 106 2919 2939 "candidate.ml" 106 2919 2942
+)
+"candidate.ml" 117 3171 3252 "candidate.ml" 117 3171 3268
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Longident.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Longident.format
+)
+"candidate.ml" 117 3171 3269 "candidate.ml" 117 3171 3272
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "candidate.ml" 106 2919 2948 "candidate.ml" 106 2919 2951
+)
+"candidate.ml" 117 3171 3194 "candidate.ml" 117 3171 3272
+call(
+  stack
+)
+type(
+  Path.t
+)
+"candidate.ml" 114 3099 3107 "candidate.ml" 117 3171 3272
+type(
+  Path.t
+)
+"candidate.ml" 111 3037 3050 "candidate.ml" 117 3171 3272
+type(
+  Path.t
+)
+"candidate.ml" 119 3278 3284 "candidate.ml" 119 3278 3289
+type(
+  Path.t list
+)
+ident(
+  def paths "candidate.ml" 120 3342 3344 "candidate.ml" 120 3342 3385
+)
+"candidate.ml" 119 3278 3292 "candidate.ml" 119 3278 3314
+type(
+  recursive:bool -> Env.t -> Ast_405.Location.t -> Path.t -> Path.t list
+)
+ident(
+  ext_ref Utils.values_of_module
+)
+"candidate.ml" 119 3278 3316 "candidate.ml" 119 3278 3325
+type(
+  bool
+)
+ident(
+  int_ref recursive "candidate.ml" 107 2960 2966 "candidate.ml" 107 2960 2975
+)
+"candidate.ml" 119 3278 3326 "candidate.ml" 119 3278 3329
+type(
+  Env.t
+)
+ident(
+  int_ref env "candidate.ml" 106 2919 2935 "candidate.ml" 106 2919 2938
+)
+"candidate.ml" 119 3278 3330 "candidate.ml" 119 3278 3333
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "candidate.ml" 106 2919 2939 "candidate.ml" 106 2919 2942
+)
+"candidate.ml" 119 3278 3334 "candidate.ml" 119 3278 3338
+type(
+  Path.t
+)
+ident(
+  int_ref path "candidate.ml" 111 3037 3043 "candidate.ml" 111 3037 3047
+)
+"candidate.ml" 119 3278 3292 "candidate.ml" 119 3278 3338
+call(
+  stack
+)
+type(
+  Path.t list
+)
+"candidate.ml" 120 3342 3344 "candidate.ml" 120 3342 3347
+type(
+  (Typpx.Forge.Path.t -> t) -> Typpx.Forge.Path.t list -> t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"candidate.ml" 120 3342 3349 "candidate.ml" 120 3342 3374
+type(
+  Env.t -> Typpx.Forge.Path.t -> t
+)
+ident(
+  int_ref default_candidate_of_path "candidate.ml" 98 2666 2670 "candidate.ml" 98 2666 2695
+)
+"candidate.ml" 120 3342 3375 "candidate.ml" 120 3342 3378
+type(
+  Env.t
+)
+ident(
+  int_ref env "candidate.ml" 106 2919 2935 "candidate.ml" 106 2919 2938
+)
+"candidate.ml" 120 3342 3348 "candidate.ml" 120 3342 3379
+call(
+  stack
+)
+type(
+  Typpx.Forge.Path.t -> t
+)
+"candidate.ml" 120 3342 3380 "candidate.ml" 120 3342 3385
+type(
+  Typpx.Forge.Path.t list
+)
+ident(
+  int_ref paths "candidate.ml" 119 3278 3284 "candidate.ml" 119 3278 3289
+)
+"candidate.ml" 120 3342 3344 "candidate.ml" 120 3342 3385
+call(
+  tail
+)
+type(
+  t list
+)
+"candidate.ml" 119 3278 3280 "candidate.ml" 120 3342 3385
+type(
+  t list
+)
+"candidate.ml" 111 3037 3039 "candidate.ml" 120 3342 3385
+type(
+  t list
+)
+"candidate.ml" 107 2960 2962 "candidate.ml" 120 3342 3385
+type(
+  t list
+)
+"candidate.ml" 122 3387 3391 "candidate.ml" 122 3387 3402
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t -> [< `In | `Just ] * Longident.t -> t list
+)
+ident(
+  def cand_opened "candidate.ml" 145 4069 4069 "candidate.ml" 1 0 -1
+)
+"candidate.ml" 122 3387 3403 "candidate.ml" 122 3387 3406
+type(
+  Env.t
+)
+ident(
+  def env "candidate.ml" 122 3387 3407 "candidate.ml" 142 4025 4066
+)
+"candidate.ml" 122 3387 3407 "candidate.ml" 122 3387 3410
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "candidate.ml" 122 3387 3411 "candidate.ml" 142 4025 4066
+)
+"candidate.ml" 122 3387 3412 "candidate.ml" 122 3387 3415
+type(
+  [< `In | `Just ] as 'a
+)
+ident(
+  def flg "candidate.ml" 123 3423 3425 "candidate.ml" 142 4025 4066
+)
+"candidate.ml" 122 3387 3416 "candidate.ml" 122 3387 3419
+type(
+  Longident.t
+)
+ident(
+  def lid "candidate.ml" 123 3423 3425 "candidate.ml" 142 4025 4066
+)
+"candidate.ml" 122 3387 3411 "candidate.ml" 122 3387 3420
+type(
+  'a * Longident.t
+)
+"candidate.ml" 123 3423 3429 "candidate.ml" 123 3423 3434
+type(
+  Path.t list
+)
+ident(
+  def opens "candidate.ml" 124 3454 3456 "candidate.ml" 142 4025 4066
+)
+"candidate.ml" 123 3423 3437 "candidate.ml" 123 3423 3446
+type(
+  Env.t -> Path.t list
+)
+ident(
+  int_ref get_opens "candidate.ml" 41 822 826 "candidate.ml" 41 822 835
+)
+"candidate.ml" 123 3423 3447 "candidate.ml" 123 3423 3450
+type(
+  Env.t
+)
+ident(
+  int_ref env "candidate.ml" 122 3387 3403 "candidate.ml" 122 3387 3406
+)
+"candidate.ml" 123 3423 3437 "candidate.ml" 123 3423 3450
+call(
+  stack
+)
+type(
+  Path.t list
+)
+"candidate.ml" 124 3454 3459 "candidate.ml" 124 3454 3460
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"candidate.ml" 124 3454 3460 "candidate.ml" 124 3454 3479
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_resolve
+)
+"candidate.ml" 124 3454 3459 "candidate.ml" 124 3454 3479
+type(
+  bool
+)
+"candidate.ml" 125 3491 3495 "candidate.ml" 125 3491 3498
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"candidate.ml" 125 3491 3499 "candidate.ml" 125 3491 3542
+type(
+  (unit, Format.formatter, unit) format
+)
+"candidate.ml" 125 3491 3495 "candidate.ml" 125 3491 3542
+call(
+  stack
+)
+type(
+  unit
+)
+"candidate.ml" 126 3544 3548 "candidate.ml" 126 3544 3552
+type(
+  ((Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t list -> unit) ->
+  Typpx.Compilerlib.Path.t list -> (Typpx.Compilerlib.Path.t -> unit) -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"candidate.ml" 126 3544 3553 "candidate.ml" 126 3544 3557
+type(
+  (Typpx.Compilerlib.Path.t -> unit) -> Typpx.Compilerlib.Path.t list -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.List.iter
+)
+"candidate.ml" 126 3544 3558 "candidate.ml" 126 3544 3563
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref opens "candidate.ml" 123 3423 3429 "candidate.ml" 123 3423 3434
+)
+"candidate.ml" 126 3544 3548 "candidate.ml" 126 3544 3563
+type(
+  (Typpx.Compilerlib.Path.t -> unit) -> unit
+)
+"candidate.ml" 126 3544 3564 "candidate.ml" 126 3544 3565
+type(
+  ((Typpx.Compilerlib.Path.t -> unit) -> unit) ->
+  (Typpx.Compilerlib.Path.t -> unit) -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"candidate.ml" 126 3544 3566 "candidate.ml" 126 3544 3569
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"candidate.ml" 126 3544 3570 "candidate.ml" 126 3544 3578
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format
+)
+"candidate.ml" 126 3544 3566 "candidate.ml" 126 3544 3578
+type(
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+"candidate.ml" 126 3544 3579 "candidate.ml" 126 3544 3590
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"candidate.ml" 126 3544 3566 "candidate.ml" 126 3544 3590
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Path.t -> unit
+)
+"candidate.ml" 126 3544 3548 "candidate.ml" 126 3544 3590
+call(
+  stack
+)
+type(
+  unit
+)
+"candidate.ml" 124 3454 3485 "candidate.ml" 127 3591 3596
+type(
+  unit
+)
+"candidate.ml" 124 3454 3456 "candidate.ml" 127 3591 3596
+type(
+  unit
+)
+"candidate.ml" 128 3598 3604 "candidate.ml" 128 3598 3609
+type(
+  Path.t list
+)
+ident(
+  def paths "candidate.ml" 133 3720 3722 "candidate.ml" 142 4025 4066
+)
+"candidate.ml" 129 3613 3617 "candidate.ml" 129 3613 3623
+type(
+  Path.t list list -> Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.concat
+)
+"candidate.ml" 130 3625 3629 "candidate.ml" 130 3625 3630
+type(
+  (Path.t list list -> Path.t list) -> Path.t list list -> Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"candidate.ml" 130 3625 3631 "candidate.ml" 130 3625 3634
+type(
+  (Path.t option -> Path.t list) -> Path.t option list -> Path.t list list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"candidate.ml" 130 3625 3636 "candidate.ml" 130 3625 3660
+type(
+  Env.t -> Longident.t list -> Path.t option -> Path.t list
+)
+ident(
+  int_ref module_lids_in_open_path "candidate.ml" 73 1746 1750 "candidate.ml" 73 1746 1774
+)
+"candidate.ml" 130 3625 3661 "candidate.ml" 130 3625 3664
+type(
+  Env.t
+)
+ident(
+  int_ref env "candidate.ml" 122 3387 3403 "candidate.ml" 122 3387 3406
+)
+"candidate.ml" 130 3625 3666 "candidate.ml" 130 3625 3669
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "candidate.ml" 122 3387 3416 "candidate.ml" 122 3387 3419
+)
+"candidate.ml" 130 3625 3665 "candidate.ml" 130 3625 3670
+type(
+  Longident.t list
+)
+"candidate.ml" 130 3625 3635 "candidate.ml" 130 3625 3671
+call(
+  stack
+)
+type(
+  Path.t option -> Path.t list
+)
+"candidate.ml" 130 3625 3631 "candidate.ml" 130 3625 3671
+type(
+  Path.t option list -> Path.t list list
+)
+"candidate.ml" 131 3673 3677 "candidate.ml" 131 3673 3678
+type(
+  (Path.t option list -> Path.t list list) ->
+  Path.t option list -> Path.t list list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"candidate.ml" 131 3673 3679 "candidate.ml" 131 3673 3683
+type(
+  Path.t option
+)
+"candidate.ml" 131 3673 3687 "candidate.ml" 131 3673 3690
+type(
+  (Path.t -> Path.t option) -> Path.t list -> Path.t option list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"candidate.ml" 131 3673 3696 "candidate.ml" 131 3673 3697
+type(
+  Path.t
+)
+ident(
+  def x "candidate.ml" 131 3673 3701 "candidate.ml" 131 3673 3707
+)
+"candidate.ml" 131 3673 3706 "candidate.ml" 131 3673 3707
+type(
+  Path.t
+)
+ident(
+  int_ref x "candidate.ml" 131 3673 3696 "candidate.ml" 131 3673 3697
+)
+"candidate.ml" 131 3673 3701 "candidate.ml" 131 3673 3707
+type(
+  Path.t option
+)
+"candidate.ml" 131 3673 3691 "candidate.ml" 131 3673 3708
+type(
+  Path.t -> Path.t option
+)
+"candidate.ml" 131 3673 3709 "candidate.ml" 131 3673 3714
+type(
+  Path.t list
+)
+ident(
+  int_ref opens "candidate.ml" 123 3423 3429 "candidate.ml" 123 3423 3434
+)
+"candidate.ml" 131 3673 3687 "candidate.ml" 131 3673 3714
+call(
+  stack
+)
+type(
+  Path.t option list
+)
+"candidate.ml" 131 3673 3679 "candidate.ml" 131 3673 3714
+type(
+  Path.t option list
+)
+"candidate.ml" 130 3625 3631 "candidate.ml" 131 3673 3714
+call(
+  stack
+)
+type(
+  Path.t list list
+)
+"candidate.ml" 129 3613 3617 "candidate.ml" 131 3673 3714
+call(
+  stack
+)
+type(
+  Path.t list
+)
+"candidate.ml" 133 3720 3725 "candidate.ml" 133 3720 3726
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"candidate.ml" 133 3720 3726 "candidate.ml" 133 3720 3745
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_resolve
+)
+"candidate.ml" 133 3720 3725 "candidate.ml" 133 3720 3745
+type(
+  bool
+)
+"candidate.ml" 134 3757 3761 "candidate.ml" 134 3757 3764
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"candidate.ml" 134 3757 3765 "candidate.ml" 134 3757 3808
+type(
+  (unit, Format.formatter, unit) format
+)
+"candidate.ml" 134 3757 3761 "candidate.ml" 134 3757 3808
+call(
+  stack
+)
+type(
+  unit
+)
+"candidate.ml" 135 3810 3814 "candidate.ml" 135 3810 3818
+type(
+  ((Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t list -> unit) ->
+  Typpx.Compilerlib.Path.t list -> (Typpx.Compilerlib.Path.t -> unit) -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"candidate.ml" 135 3810 3819 "candidate.ml" 135 3810 3823
+type(
+  (Typpx.Compilerlib.Path.t -> unit) -> Typpx.Compilerlib.Path.t list -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.List.iter
+)
+"candidate.ml" 135 3810 3824 "candidate.ml" 135 3810 3829
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref paths "candidate.ml" 128 3598 3604 "candidate.ml" 128 3598 3609
+)
+"candidate.ml" 135 3810 3814 "candidate.ml" 135 3810 3829
+type(
+  (Typpx.Compilerlib.Path.t -> unit) -> unit
+)
+"candidate.ml" 135 3810 3830 "candidate.ml" 135 3810 3831
+type(
+  ((Typpx.Compilerlib.Path.t -> unit) -> unit) ->
+  (Typpx.Compilerlib.Path.t -> unit) -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"candidate.ml" 135 3810 3832 "candidate.ml" 135 3810 3835
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"candidate.ml" 135 3810 3836 "candidate.ml" 135 3810 3844
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format
+)
+"candidate.ml" 135 3810 3832 "candidate.ml" 135 3810 3844
+type(
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+"candidate.ml" 135 3810 3845 "candidate.ml" 135 3810 3856
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"candidate.ml" 135 3810 3832 "candidate.ml" 135 3810 3856
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Path.t -> unit
+)
+"candidate.ml" 135 3810 3814 "candidate.ml" 135 3810 3856
+call(
+  stack
+)
+type(
+  unit
+)
+"candidate.ml" 133 3720 3751 "candidate.ml" 136 3857 3862
+type(
+  unit
+)
+"candidate.ml" 133 3720 3722 "candidate.ml" 136 3857 3862
+type(
+  unit
+)
+"candidate.ml" 137 3864 3866 "candidate.ml" 137 3864 3872
+type(
+  t list list -> t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.concat
+)
+"candidate.ml" 137 3864 3873 "candidate.ml" 137 3864 3874
+type(
+  (t list list -> t list) -> t list list -> t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"candidate.ml" 137 3864 3875 "candidate.ml" 137 3864 3878
+type(
+  (Path.t -> t list) -> Path.t list -> t list list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"candidate.ml" 137 3864 3884 "candidate.ml" 137 3864 3888
+type(
+  Path.t
+)
+ident(
+  def path "candidate.ml" 138 3892 3896 "candidate.ml" 142 4025 4059
+)
+"candidate.ml" 138 3892 3900 "candidate.ml" 138 3892 3903
+type(
+  Longident.t
+)
+ident(
+  def lid "candidate.ml" 139 3939 3943 "candidate.ml" 142 4025 4059
+)
+"candidate.ml" 138 3892 3906 "candidate.ml" 138 3892 3930
+type(
+  Path.t -> Longident.t
+)
+ident(
+  ext_ref Untypeast.lident_of_path
+)
+"candidate.ml" 138 3892 3931 "candidate.ml" 138 3892 3935
+type(
+  Path.t
+)
+ident(
+  int_ref path "candidate.ml" 137 3864 3884 "candidate.ml" 137 3864 3888
+)
+"candidate.ml" 138 3892 3906 "candidate.ml" 138 3892 3935
+call(
+  stack
+)
+type(
+  Longident.t
+)
+"candidate.ml" 139 3939 3943 "candidate.ml" 139 3939 3954
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  [ `In | `Just ] * Ppxx.Compilerlib.Longident.t * Path.t option -> t list
+)
+ident(
+  int_ref cand_direct "candidate.ml" 106 2919 2923 "candidate.ml" 106 2919 2934
+)
+"candidate.ml" 139 3939 3955 "candidate.ml" 139 3939 3958
+type(
+  Env.t
+)
+ident(
+  int_ref env "candidate.ml" 122 3387 3403 "candidate.ml" 122 3387 3406
+)
+"candidate.ml" 139 3939 3959 "candidate.ml" 139 3939 3962
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "candidate.ml" 122 3387 3407 "candidate.ml" 122 3387 3410
+)
+"candidate.ml" 139 3939 3943 "candidate.ml" 139 3939 3962
+type(
+  [ `In | `Just ] * Ppxx.Compilerlib.Longident.t * Path.t option -> t list
+)
+"candidate.ml" 140 3963 3969 "candidate.ml" 140 3963 3970
+type(
+  ([ `In | `Just ] * Ppxx.Compilerlib.Longident.t * Path.t option -> t list) ->
+  [ `In | `Just ] * Ppxx.Compilerlib.Longident.t * Path.t option -> t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"candidate.ml" 140 3963 3977 "candidate.ml" 140 3963 3980
+type(
+  'a
+)
+ident(
+  int_ref flg "candidate.ml" 122 3387 3412 "candidate.ml" 122 3387 3415
+)
+"candidate.ml" 141 3986 3994 "candidate.ml" 141 3986 3999
+type(
+  'a
+)
+"candidate.ml" 141 3986 4003 "candidate.ml" 141 3986 4008
+type(
+  [ `In | `Just ]
+)
+"candidate.ml" 141 3986 4010 "candidate.ml" 141 3986 4013
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "candidate.ml" 138 3892 3900 "candidate.ml" 138 3892 3903
+)
+"candidate.ml" 141 3986 4020 "candidate.ml" 141 3986 4024
+type(
+  Path.t
+)
+ident(
+  int_ref path "candidate.ml" 137 3864 3884 "candidate.ml" 137 3864 3888
+)
+"candidate.ml" 141 3986 4015 "candidate.ml" 141 3986 4024
+type(
+  Path.t option
+)
+"candidate.ml" 141 3986 4003 "candidate.ml" 141 3986 4024
+type(
+  [ `In | `Just ] * Ppxx.Compilerlib.Longident.t * Path.t option
+)
+"candidate.ml" 142 4025 4033 "candidate.ml" 142 4025 4036
+type(
+  'a
+)
+"candidate.ml" 142 4025 4040 "candidate.ml" 142 4025 4043
+type(
+  [ `In | `Just ]
+)
+"candidate.ml" 142 4025 4045 "candidate.ml" 142 4025 4048
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "candidate.ml" 138 3892 3900 "candidate.ml" 138 3892 3903
+)
+"candidate.ml" 142 4025 4055 "candidate.ml" 142 4025 4059
+type(
+  Path.t
+)
+ident(
+  int_ref path "candidate.ml" 137 3864 3884 "candidate.ml" 137 3864 3888
+)
+"candidate.ml" 142 4025 4050 "candidate.ml" 142 4025 4059
+type(
+  Path.t option
+)
+"candidate.ml" 142 4025 4040 "candidate.ml" 142 4025 4059
+type(
+  [ `In | `Just ] * Ppxx.Compilerlib.Longident.t * Path.t option
+)
+"candidate.ml" 140 3963 3971 "candidate.ml" 142 4025 4059
+type(
+  [ `In | `Just ] * Ppxx.Compilerlib.Longident.t * Path.t option
+)
+"candidate.ml" 139 3939 3943 "candidate.ml" 142 4025 4059
+call(
+  tail
+)
+type(
+  t list
+)
+"candidate.ml" 138 3892 3896 "candidate.ml" 142 4025 4059
+type(
+  t list
+)
+"candidate.ml" 137 3864 3879 "candidate.ml" 142 4025 4060
+type(
+  Path.t -> t list
+)
+"candidate.ml" 142 4025 4061 "candidate.ml" 142 4025 4066
+type(
+  Path.t list
+)
+ident(
+  int_ref paths "candidate.ml" 128 3598 3604 "candidate.ml" 128 3598 3609
+)
+"candidate.ml" 137 3864 3875 "candidate.ml" 142 4025 4066
+call(
+  stack
+)
+type(
+  t list list
+)
+"candidate.ml" 137 3864 3866 "candidate.ml" 142 4025 4066
+call(
+  tail
+)
+type(
+  t list
+)
+"candidate.ml" 133 3720 3722 "candidate.ml" 142 4025 4066
+type(
+  t list
+)
+"candidate.ml" 128 3598 3600 "candidate.ml" 142 4025 4066
+type(
+  t list
+)
+"candidate.ml" 124 3454 3456 "candidate.ml" 142 4025 4066
+type(
+  t list
+)
+"candidate.ml" 123 3423 3425 "candidate.ml" 142 4025 4066
+type(
+  t list
+)
+"candidate.ml" 145 4069 4073 "candidate.ml" 145 4069 4082
+type(
+  Re_pcre.regexp -> (unit -> t list) -> t list
+)
+ident(
+  def cand_name "candidate.ml" 146 4091 4207 "candidate.ml" 1 0 -1
+)
+"candidate.ml" 145 4069 4083 "candidate.ml" 145 4069 4086
+type(
+  Re_pcre.regexp
+)
+ident(
+  def rex "candidate.ml" 145 4069 4087 "candidate.ml" 146 4091 4207
+)
+"candidate.ml" 145 4069 4087 "candidate.ml" 145 4069 4088
+type(
+  unit -> t list
+)
+ident(
+  def f "candidate.ml" 146 4091 4093 "candidate.ml" 146 4091 4207
+)
+"candidate.ml" 146 4091 4093 "candidate.ml" 146 4091 4094
+type(
+  unit -> t list
+)
+ident(
+  int_ref f "candidate.ml" 145 4069 4087 "candidate.ml" 145 4069 4088
+)
+"candidate.ml" 146 4091 4095 "candidate.ml" 146 4091 4097
+type(
+  unit
+)
+"candidate.ml" 146 4091 4093 "candidate.ml" 146 4091 4097
+call(
+  stack
+)
+type(
+  t list
+)
+"candidate.ml" 146 4091 4098 "candidate.ml" 146 4091 4100
+type(
+  t list -> (t list -> t list) -> t list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"candidate.ml" 146 4091 4101 "candidate.ml" 146 4091 4107
+type(
+  (t -> bool) -> t list -> t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.filter
+)
+"candidate.ml" 146 4091 4113 "candidate.ml" 146 4091 4114
+type(
+  t
+)
+ident(
+  def x "candidate.ml" 146 4091 4118 "candidate.ml" 146 4091 4206
+)
+"candidate.ml" 146 4091 4118 "candidate.ml" 146 4091 4132
+type(
+  rex:Re_pcre.regexp -> string -> bool
+)
+ident(
+  ext_ref Re_pcre.pmatch
+)
+"candidate.ml" 146 4091 4134 "candidate.ml" 146 4091 4137
+type(
+  Re_pcre.regexp
+)
+ident(
+  int_ref rex "candidate.ml" 145 4069 4083 "candidate.ml" 145 4069 4086
+)
+"candidate.ml" 146 4091 4118 "candidate.ml" 146 4091 4137
+type(
+  string -> bool
+)
+"candidate.ml" 146 4091 4138 "candidate.ml" 146 4091 4139
+type(
+  (string -> bool) -> string -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"candidate.ml" 146 4091 4140 "candidate.ml" 146 4091 4159
+type(
+  Ppxx.Compilerlib.Longident.t -> string
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Longident.to_string
+)
+"candidate.ml" 146 4091 4160 "candidate.ml" 146 4091 4161
+type(
+  (Ppxx.Compilerlib.Longident.t -> string) ->
+  Ppxx.Compilerlib.Longident.t -> string
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"candidate.ml" 146 4091 4175 "candidate.ml" 146 4091 4199
+type(
+  Typpx.Compilerlib.Path.t -> Ppxx.Compilerlib.Longident.t
+)
+ident(
+  ext_ref Untypeast.lident_of_path
+)
+"candidate.ml" 146 4091 4200 "candidate.ml" 146 4091 4201
+type(
+  t
+)
+ident(
+  int_ref x "candidate.ml" 146 4091 4113 "candidate.ml" 146 4091 4114
+)
+"candidate.ml" 146 4091 4200 "candidate.ml" 146 4091 4206
+type(
+  Typpx.Compilerlib.Path.t
+)
+"candidate.ml" 146 4091 4175 "candidate.ml" 146 4091 4206
+call(
+  stack
+)
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"candidate.ml" 146 4091 4140 "candidate.ml" 146 4091 4206
+call(
+  stack
+)
+type(
+  string
+)
+"candidate.ml" 146 4091 4118 "candidate.ml" 146 4091 4206
+call(
+  tail
+)
+type(
+  bool
+)
+"candidate.ml" 146 4091 4108 "candidate.ml" 146 4091 4207
+type(
+  t -> bool
+)
+"candidate.ml" 146 4091 4101 "candidate.ml" 146 4091 4207
+type(
+  t list -> t list
+)
+"candidate.ml" 146 4091 4093 "candidate.ml" 146 4091 4207
+call(
+  tail
+)
+type(
+  t list
+)

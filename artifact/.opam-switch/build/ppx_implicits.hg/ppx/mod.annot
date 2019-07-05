@@ -1,0 +1,8348 @@
+"mod.ml" 16 262 266 "mod.ml" 16 262 284
+type(
+  (string * Candidate.t) list ref
+)
+ident(
+  def derived_candidates "mod.ml" 19 372 372 "mod.ml" 1 0 -1
+)
+"mod.ml" 16 262 287 "mod.ml" 16 262 290
+type(
+  (string * Candidate.t) list -> (string * Candidate.t) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"mod.ml" 16 262 291 "mod.ml" 16 262 293
+type(
+  (string * Candidate.t) list
+)
+"mod.ml" 16 262 287 "mod.ml" 16 262 293
+type(
+  (string * Candidate.t) list ref
+)
+"mod.ml" 19 372 376 "mod.ml" 19 372 390
+type(
+  Env.t -> Location.t -> Spec.t -> Types.type_expr -> Candidate.t list
+)
+ident(
+  def get_candidates "mod.ml" 24 507 507 "mod.ml" 1 0 -1
+)
+"mod.ml" 19 372 391 "mod.ml" 19 372 394
+type(
+  Env.t
+)
+ident(
+  def env "mod.ml" 19 372 395 "mod.ml" 21 451 504
+)
+"mod.ml" 19 372 395 "mod.ml" 19 372 398
+type(
+  Location.t
+)
+ident(
+  def loc "mod.ml" 19 372 399 "mod.ml" 21 451 504
+)
+"mod.ml" 19 372 399 "mod.ml" 19 372 403
+type(
+  Spec.t
+)
+ident(
+  def spec "mod.ml" 19 372 404 "mod.ml" 21 451 504
+)
+"mod.ml" 19 372 404 "mod.ml" 19 372 406
+type(
+  Types.type_expr
+)
+ident(
+  def ty "mod.ml" 20 409 411 "mod.ml" 21 451 504
+)
+"mod.ml" 20 409 415 "mod.ml" 20 409 416
+type(
+  Types.type_expr -> Candidate.t list
+)
+ident(
+  def f "mod.ml" 21 451 453 "mod.ml" 21 451 504
+)
+"mod.ml" 20 409 419 "mod.ml" 20 409 434
+type(
+  Env.t -> Location.t -> Spec.t -> Types.type_expr -> Candidate.t list
+)
+ident(
+  ext_ref Spec.candidates
+)
+"mod.ml" 20 409 435 "mod.ml" 20 409 438
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 19 372 391 "mod.ml" 19 372 394
+)
+"mod.ml" 20 409 439 "mod.ml" 20 409 442
+type(
+  Location.t
+)
+ident(
+  int_ref loc "mod.ml" 19 372 395 "mod.ml" 19 372 398
+)
+"mod.ml" 20 409 443 "mod.ml" 20 409 447
+type(
+  Spec.t
+)
+ident(
+  int_ref spec "mod.ml" 19 372 399 "mod.ml" 19 372 403
+)
+"mod.ml" 20 409 419 "mod.ml" 20 409 447
+call(
+  stack
+)
+type(
+  Types.type_expr -> Candidate.t list
+)
+"mod.ml" 21 451 453 "mod.ml" 21 451 467
+type(
+  Candidate.t list -> Candidate.t list
+)
+ident(
+  ext_ref Candidate.uniq
+)
+"mod.ml" 21 451 468 "mod.ml" 21 451 469
+type(
+  (Candidate.t list -> Candidate.t list) ->
+  Candidate.t list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 21 451 470 "mod.ml" 21 451 471
+type(
+  Types.type_expr -> Candidate.t list
+)
+ident(
+  int_ref f "mod.ml" 20 409 415 "mod.ml" 20 409 416
+)
+"mod.ml" 21 451 472 "mod.ml" 21 451 474
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 19 372 404 "mod.ml" 19 372 406
+)
+"mod.ml" 21 451 470 "mod.ml" 21 451 474
+call(
+  stack
+)
+type(
+  Candidate.t list
+)
+"mod.ml" 21 451 475 "mod.ml" 21 451 476
+type(
+  Candidate.t list -> Candidate.t list -> Candidate.t list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mod.ml" 21 451 477 "mod.ml" 21 451 480
+type(
+  (string * Candidate.t -> Candidate.t) ->
+  (string * Candidate.t) list -> Candidate.t list
+)
+ident(
+  ext_ref Utils.List.map
+)
+"mod.ml" 21 451 481 "mod.ml" 21 451 484
+type(
+  string * Candidate.t -> Candidate.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"mod.ml" 21 451 485 "mod.ml" 21 451 486
+type(
+  (string * Candidate.t) list ref -> (string * Candidate.t) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mod.ml" 21 451 486 "mod.ml" 21 451 504
+type(
+  (string * Candidate.t) list ref
+)
+ident(
+  int_ref derived_candidates "mod.ml" 16 262 266 "mod.ml" 16 262 284
+)
+"mod.ml" 21 451 485 "mod.ml" 21 451 504
+type(
+  (string * Candidate.t) list
+)
+"mod.ml" 21 451 477 "mod.ml" 21 451 504
+call(
+  stack
+)
+type(
+  Candidate.t list
+)
+"mod.ml" 21 451 470 "mod.ml" 21 451 504
+call(
+  stack
+)
+type(
+  Candidate.t list
+)
+"mod.ml" 21 451 453 "mod.ml" 21 451 504
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"mod.ml" 20 409 411 "mod.ml" 21 451 504
+type(
+  Candidate.t list
+)
+"mod.ml" 26 566 572 "mod.ml" 26 566 585
+type(
+  Typpx.Compilerlib.Path.t -> bool
+)
+ident(
+  def is_imp_t_path "mod.ml" 31 747 749 "mod.ml" 41 1126 1129
+)
+"mod.ml" 27 597 631 "mod.ml" 27 597 646
+type(
+  string
+)
+"mod.ml" 27 597 619 "mod.ml" 27 597 647
+type(
+  Typpx.Compilerlib.Ident.t
+)
+"mod.ml" 27 597 613 "mod.ml" 27 597 647
+type(
+  Typpx.Compilerlib.Path.t
+)
+"mod.ml" 27 597 648 "mod.ml" 27 597 651
+type(
+  string
+)
+"mod.ml" 27 597 652 "mod.ml" 27 597 653
+type(
+  int
+)
+"mod.ml" 27 597 603 "mod.ml" 27 597 654
+type(
+  Typpx.Compilerlib.Path.t
+)
+"mod.ml" 27 597 658 "mod.ml" 27 597 662
+type(
+  bool
+)
+"mod.ml" 28 663 669 "mod.ml" 28 663 670
+type(
+  Typpx.Compilerlib.Path.t
+)
+"mod.ml" 28 663 674 "mod.ml" 28 663 679
+type(
+  bool
+)
+"mod.ml" 26 566 588 "mod.ml" 28 663 679
+type(
+  Typpx.Compilerlib.Path.t -> bool
+)
+"mod.ml" 31 747 753 "mod.ml" 31 747 758
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def embed "mod.ml" 35 885 887 "mod.ml" 41 1126 1129
+)
+"mod.ml" 31 747 759 "mod.ml" 31 747 760
+type(
+  Typedtree.expression
+)
+ident(
+  def e "mod.ml" 32 763 767 "mod.ml" 32 763 833
+)
+"mod.ml" 32 763 778 "mod.ml" 32 763 781
+type(
+  Typedtree.expression ->
+  (Asttypes.arg_label * Typedtree.expression) list -> Typedtree.expression
+)
+ident(
+  ext_ref Forge.Exp.app
+)
+"mod.ml" 32 763 783 "mod.ml" 32 763 790
+type(
+  Ast_405.Parsetree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Forge.Exp.untyped
+)
+"mod.ml" 32 763 782 "mod.ml" 32 763 819
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 32 763 821 "mod.ml" 32 763 828
+type(
+  Asttypes.arg_label
+)
+"mod.ml" 32 763 830 "mod.ml" 32 763 831
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 31 747 759 "mod.ml" 31 747 760
+)
+"mod.ml" 32 763 821 "mod.ml" 32 763 831
+type(
+  Asttypes.arg_label * Typedtree.expression
+)
+"mod.ml" 32 763 820 "mod.ml" 32 763 832
+type(
+  (Asttypes.arg_label * Typedtree.expression) list
+)
+"mod.ml" 32 763 778 "mod.ml" 32 763 832
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 35 885 891 "mod.ml" 35 885 894
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def get "mod.ml" 39 1031 1033 "mod.ml" 41 1126 1129
+)
+"mod.ml" 35 885 895 "mod.ml" 35 885 896
+type(
+  Typedtree.expression
+)
+ident(
+  def e "mod.ml" 36 899 903 "mod.ml" 36 899 967
+)
+"mod.ml" 36 899 914 "mod.ml" 36 899 917
+type(
+  Typedtree.expression ->
+  (Asttypes.arg_label * Typedtree.expression) list -> Typedtree.expression
+)
+ident(
+  ext_ref Forge.Exp.app
+)
+"mod.ml" 36 899 919 "mod.ml" 36 899 926
+type(
+  Ast_405.Parsetree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Forge.Exp.untyped
+)
+"mod.ml" 36 899 918 "mod.ml" 36 899 953
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 36 899 955 "mod.ml" 36 899 962
+type(
+  Asttypes.arg_label
+)
+"mod.ml" 36 899 964 "mod.ml" 36 899 965
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 35 885 895 "mod.ml" 35 885 896
+)
+"mod.ml" 36 899 955 "mod.ml" 36 899 965
+type(
+  Asttypes.arg_label * Typedtree.expression
+)
+"mod.ml" 36 899 954 "mod.ml" 36 899 966
+type(
+  (Asttypes.arg_label * Typedtree.expression) list
+)
+"mod.ml" 36 899 914 "mod.ml" 36 899 966
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 39 1031 1037 "mod.ml" 39 1031 1046
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def from_Some "mod.ml" 40 1051 1125 "mod.ml" 41 1126 1129
+)
+"mod.ml" 39 1031 1047 "mod.ml" 39 1031 1048
+type(
+  Typedtree.expression
+)
+ident(
+  def e "mod.ml" 40 1051 1055 "mod.ml" 40 1051 1125
+)
+"mod.ml" 40 1051 1066 "mod.ml" 40 1051 1069
+type(
+  Typedtree.expression ->
+  (Asttypes.arg_label * Typedtree.expression) list -> Typedtree.expression
+)
+ident(
+  ext_ref Forge.Exp.app
+)
+"mod.ml" 40 1051 1071 "mod.ml" 40 1051 1078
+type(
+  Ast_405.Parsetree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Forge.Exp.untyped
+)
+"mod.ml" 40 1051 1070 "mod.ml" 40 1051 1111
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 40 1051 1113 "mod.ml" 40 1051 1120
+type(
+  Asttypes.arg_label
+)
+"mod.ml" 40 1051 1122 "mod.ml" 40 1051 1123
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 39 1031 1047 "mod.ml" 39 1031 1048
+)
+"mod.ml" 40 1051 1113 "mod.ml" 40 1051 1123
+type(
+  Asttypes.arg_label * Typedtree.expression
+)
+"mod.ml" 40 1051 1112 "mod.ml" 40 1051 1124
+type(
+  (Asttypes.arg_label * Typedtree.expression) list
+)
+"mod.ml" 40 1051 1066 "mod.ml" 40 1051 1124
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 44 1183 1187 "mod.ml" 44 1183 1202
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr ->
+  (Typpx.Compilerlib.Types.type_expr * Typpx.Compilerlib.Types.type_expr)
+  option
+)
+ident(
+  def is_imp_arg_type "mod.ml" 48 1341 1341 "mod.ml" 1 0 -1
+)
+"mod.ml" 44 1183 1203 "mod.ml" 44 1183 1206
+type(
+  Env.t
+)
+ident(
+  def env "mod.ml" 44 1183 1207 "mod.ml" 46 1326 1339
+)
+"mod.ml" 44 1183 1207 "mod.ml" 44 1183 1209
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 44 1183 1212 "mod.ml" 46 1326 1339
+)
+"mod.ml" 44 1183 1218 "mod.ml" 44 1183 1234
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_desc
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.expand_repr_desc
+)
+"mod.ml" 44 1183 1235 "mod.ml" 44 1183 1238
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 44 1183 1203 "mod.ml" 44 1183 1206
+)
+"mod.ml" 44 1183 1239 "mod.ml" 44 1183 1241
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 44 1183 1207 "mod.ml" 44 1183 1209
+)
+"mod.ml" 44 1183 1218 "mod.ml" 44 1183 1241
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"mod.ml" 45 1247 1260 "mod.ml" 45 1247 1261
+type(
+  Path.t
+)
+ident(
+  def p "mod.ml" 45 1247 1283 "mod.ml" 45 1247 1325
+)
+"mod.ml" 45 1247 1264 "mod.ml" 45 1247 1266
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 45 1247 1283 "mod.ml" 45 1247 1325
+)
+"mod.ml" 45 1247 1268 "mod.ml" 45 1247 1272
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def spec "mod.ml" 45 1247 1283 "mod.ml" 45 1247 1325
+)
+"mod.ml" 45 1247 1263 "mod.ml" 45 1247 1273
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+"mod.ml" 45 1247 1275 "mod.ml" 45 1247 1276
+type(
+  Typpx.Compilerlib.Types.abbrev_memo ref
+)
+"mod.ml" 45 1247 1251 "mod.ml" 45 1247 1277
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"mod.ml" 45 1247 1283 "mod.ml" 45 1247 1304
+type(
+  Typpx.Compilerlib.Path.t -> bool
+)
+ident(
+  int_ref Runtime.is_imp_t_path "mod.ml" 26 566 572 "mod.ml" 26 566 585
+)
+"mod.ml" 45 1247 1305 "mod.ml" 45 1247 1306
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref p "mod.ml" 45 1247 1260 "mod.ml" 45 1247 1261
+)
+"mod.ml" 45 1247 1283 "mod.ml" 45 1247 1306
+call(
+  stack
+)
+type(
+  bool
+)
+"mod.ml" 45 1247 1316 "mod.ml" 45 1247 1318
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 45 1247 1264 "mod.ml" 45 1247 1266
+)
+"mod.ml" 45 1247 1320 "mod.ml" 45 1247 1324
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref spec "mod.ml" 45 1247 1268 "mod.ml" 45 1247 1272
+)
+"mod.ml" 45 1247 1315 "mod.ml" 45 1247 1325
+type(
+  Typpx.Compilerlib.Types.type_expr * Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 45 1247 1310 "mod.ml" 45 1247 1325
+type(
+  (Typpx.Compilerlib.Types.type_expr * Typpx.Compilerlib.Types.type_expr)
+  option
+)
+"mod.ml" 46 1326 1330 "mod.ml" 46 1326 1331
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"mod.ml" 46 1326 1335 "mod.ml" 46 1326 1339
+type(
+  (Typpx.Compilerlib.Types.type_expr * Typpx.Compilerlib.Types.type_expr)
+  option
+)
+"mod.ml" 44 1183 1212 "mod.ml" 46 1326 1339
+type(
+  (Typpx.Compilerlib.Types.type_expr * Typpx.Compilerlib.Types.type_expr)
+  option
+)
+"mod.ml" 48 1341 1345 "mod.ml" 48 1341 1354
+type(
+  Env.t ->
+  Location.t ->
+  Asttypes.arg_label ->
+  Typpx.Compilerlib.Types.type_expr ->
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+ident(
+  def check_arg "mod.ml" 71 2126 2126 "mod.ml" 1 0 -1
+)
+"mod.ml" 48 1341 1355 "mod.ml" 48 1341 1358
+type(
+  Env.t
+)
+ident(
+  def env "mod.ml" 48 1341 1359 "mod.ml" 69 2118 2123
+)
+"mod.ml" 48 1341 1359 "mod.ml" 48 1341 1362
+type(
+  Location.t
+)
+ident(
+  def loc "mod.ml" 48 1341 1363 "mod.ml" 69 2118 2123
+)
+"mod.ml" 48 1341 1363 "mod.ml" 48 1341 1364
+type(
+  Asttypes.arg_label
+)
+ident(
+  def l "mod.ml" 48 1341 1365 "mod.ml" 69 2118 2123
+)
+"mod.ml" 48 1341 1365 "mod.ml" 48 1341 1367
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 49 1370 1372 "mod.ml" 69 2118 2123
+)
+"mod.ml" 49 1370 1376 "mod.ml" 49 1370 1377
+type(
+  Typpx.Compilerlib.Types.type_expr ->
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+ident(
+  def f "mod.ml" 56 1620 1622 "mod.ml" 69 2118 2123
+)
+"mod.ml" 49 1370 1378 "mod.ml" 49 1370 1380
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 49 1370 1383 "mod.ml" 54 1568 1614
+)
+"mod.ml" 49 1370 1389 "mod.ml" 49 1370 1404
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr ->
+  (Typpx.Compilerlib.Types.type_expr * Typpx.Compilerlib.Types.type_expr)
+  option
+)
+ident(
+  int_ref is_imp_arg_type "mod.ml" 44 1183 1187 "mod.ml" 44 1183 1202
+)
+"mod.ml" 49 1370 1405 "mod.ml" 49 1370 1408
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 48 1341 1355 "mod.ml" 48 1341 1358
+)
+"mod.ml" 49 1370 1409 "mod.ml" 49 1370 1411
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 49 1370 1378 "mod.ml" 49 1370 1380
+)
+"mod.ml" 49 1370 1389 "mod.ml" 49 1370 1411
+call(
+  stack
+)
+type(
+  (Typpx.Compilerlib.Types.type_expr * Typpx.Compilerlib.Types.type_expr)
+  option
+)
+"mod.ml" 50 1417 1429 "mod.ml" 50 1417 1431
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 51 1442 1450 "mod.ml" 52 1501 1552
+)
+"mod.ml" 50 1417 1433 "mod.ml" 50 1417 1437
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def spec "mod.ml" 51 1442 1450 "mod.ml" 52 1501 1552
+)
+"mod.ml" 50 1417 1428 "mod.ml" 50 1417 1438
+type(
+  Typpx.Compilerlib.Types.type_expr * Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 50 1417 1423 "mod.ml" 50 1417 1438
+type(
+  (Typpx.Compilerlib.Types.type_expr * Typpx.Compilerlib.Types.type_expr)
+  option
+)
+"mod.ml" 51 1442 1454 "mod.ml" 51 1442 1458
+type(
+  Spec.t
+)
+ident(
+  def spec "mod.ml" 52 1501 1509 "mod.ml" 52 1501 1552
+)
+"mod.ml" 51 1442 1461 "mod.ml" 51 1442 1484
+type(
+  Env.t -> Location.t -> Typpx.Compilerlib.Types.type_expr -> Spec.t
+)
+ident(
+  ext_ref Specconv.from_type_expr
+)
+"mod.ml" 51 1442 1485 "mod.ml" 51 1442 1488
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 48 1341 1355 "mod.ml" 48 1341 1358
+)
+"mod.ml" 51 1442 1489 "mod.ml" 51 1442 1492
+type(
+  Location.t
+)
+ident(
+  int_ref loc "mod.ml" 48 1341 1359 "mod.ml" 48 1341 1362
+)
+"mod.ml" 51 1442 1493 "mod.ml" 51 1442 1497
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref spec "mod.ml" 50 1417 1433 "mod.ml" 50 1417 1437
+)
+"mod.ml" 51 1442 1461 "mod.ml" 51 1442 1497
+call(
+  stack
+)
+type(
+  Spec.t
+)
+"mod.ml" 52 1501 1510 "mod.ml" 52 1501 1512
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 50 1417 1429 "mod.ml" 50 1417 1431
+)
+"mod.ml" 52 1501 1519 "mod.ml" 52 1501 1523
+type(
+  Spec.t
+)
+ident(
+  int_ref spec "mod.ml" 51 1442 1454 "mod.ml" 51 1442 1458
+)
+"mod.ml" 52 1501 1514 "mod.ml" 52 1501 1523
+type(
+  Spec.t option
+)
+"mod.ml" 52 1501 1525 "mod.ml" 52 1501 1538
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref Runtime.embed "mod.ml" 31 747 753 "mod.ml" 31 747 758
+)
+"mod.ml" 52 1501 1540 "mod.ml" 52 1501 1551
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref Runtime.get "mod.ml" 35 885 891 "mod.ml" 35 885 894
+)
+"mod.ml" 52 1501 1509 "mod.ml" 52 1501 1552
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 51 1442 1450 "mod.ml" 52 1501 1552
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 53 1553 1559 "mod.ml" 53 1553 1563
+type(
+  (Typpx.Compilerlib.Types.type_expr * Typpx.Compilerlib.Types.type_expr)
+  option
+)
+"mod.ml" 54 1568 1577 "mod.ml" 54 1568 1579
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 49 1370 1378 "mod.ml" 49 1370 1380
+)
+"mod.ml" 54 1568 1581 "mod.ml" 54 1568 1585
+type(
+  Spec.t option
+)
+"mod.ml" 54 1568 1592 "mod.ml" 54 1568 1593
+type(
+  Typedtree.expression
+)
+ident(
+  def x "mod.ml" 54 1568 1597 "mod.ml" 54 1568 1598
+)
+"mod.ml" 54 1568 1597 "mod.ml" 54 1568 1598
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref x "mod.ml" 54 1568 1592 "mod.ml" 54 1568 1593
+)
+"mod.ml" 54 1568 1587 "mod.ml" 54 1568 1599
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"mod.ml" 54 1568 1606 "mod.ml" 54 1568 1607
+type(
+  Typedtree.expression
+)
+ident(
+  def x "mod.ml" 54 1568 1611 "mod.ml" 54 1568 1612
+)
+"mod.ml" 54 1568 1611 "mod.ml" 54 1568 1612
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref x "mod.ml" 54 1568 1606 "mod.ml" 54 1568 1607
+)
+"mod.ml" 54 1568 1601 "mod.ml" 54 1568 1613
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"mod.ml" 54 1568 1576 "mod.ml" 54 1568 1614
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 49 1370 1383 "mod.ml" 54 1568 1614
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 56 1620 1625 "mod.ml" 56 1620 1628
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"mod.ml" 56 1620 1629 "mod.ml" 56 1620 1630
+type(
+  (bool -> bool) -> bool -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 56 1620 1631 "mod.ml" 56 1620 1648
+type(
+  Asttypes.arg_label -> bool
+)
+ident(
+  ext_ref Btype.is_optional
+)
+"mod.ml" 56 1620 1649 "mod.ml" 56 1620 1650
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "mod.ml" 48 1341 1363 "mod.ml" 48 1341 1364
+)
+"mod.ml" 56 1620 1631 "mod.ml" 56 1620 1650
+call(
+  stack
+)
+type(
+  bool
+)
+"mod.ml" 56 1620 1625 "mod.ml" 56 1620 1650
+type(
+  bool
+)
+"mod.ml" 56 1620 1656 "mod.ml" 56 1620 1657
+type(
+  Typpx.Compilerlib.Types.type_expr ->
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+ident(
+  int_ref f "mod.ml" 49 1370 1376 "mod.ml" 49 1370 1377
+)
+"mod.ml" 56 1620 1658 "mod.ml" 56 1620 1660
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 48 1341 1365 "mod.ml" 48 1341 1367
+)
+"mod.ml" 56 1620 1656 "mod.ml" 56 1620 1660
+call(
+  tail
+)
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 58 1674 1684 "mod.ml" 58 1674 1698
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr ->
+  Typpx.Compilerlib.Types.type_expr option
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.is_option_type
+)
+"mod.ml" 58 1674 1699 "mod.ml" 58 1674 1702
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 48 1341 1355 "mod.ml" 48 1341 1358
+)
+"mod.ml" 58 1674 1703 "mod.ml" 58 1674 1705
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 48 1341 1365 "mod.ml" 48 1341 1367
+)
+"mod.ml" 58 1674 1684 "mod.ml" 58 1674 1705
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"mod.ml" 59 1711 1717 "mod.ml" 59 1711 1721
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"mod.ml" 60 1764 1773 "mod.ml" 60 1764 1775
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 48 1341 1365 "mod.ml" 48 1341 1367
+)
+"mod.ml" 60 1764 1777 "mod.ml" 60 1764 1781
+type(
+  Spec.t option
+)
+"mod.ml" 60 1764 1788 "mod.ml" 60 1764 1789
+type(
+  Typedtree.expression
+)
+ident(
+  def x "mod.ml" 60 1764 1793 "mod.ml" 60 1764 1794
+)
+"mod.ml" 60 1764 1793 "mod.ml" 60 1764 1794
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref x "mod.ml" 60 1764 1788 "mod.ml" 60 1764 1789
+)
+"mod.ml" 60 1764 1783 "mod.ml" 60 1764 1795
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"mod.ml" 60 1764 1802 "mod.ml" 60 1764 1803
+type(
+  Typedtree.expression
+)
+ident(
+  def x "mod.ml" 60 1764 1807 "mod.ml" 60 1764 1808
+)
+"mod.ml" 60 1764 1807 "mod.ml" 60 1764 1808
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref x "mod.ml" 60 1764 1802 "mod.ml" 60 1764 1803
+)
+"mod.ml" 60 1764 1797 "mod.ml" 60 1764 1809
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"mod.ml" 60 1764 1772 "mod.ml" 60 1764 1810
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 61 1811 1822 "mod.ml" 61 1811 1824
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 62 1829 1837 "mod.ml" 68 2064 2117
+)
+"mod.ml" 61 1811 1817 "mod.ml" 61 1811 1824
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"mod.ml" 62 1829 1841 "mod.ml" 62 1829 1843
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 63 1878 1886 "mod.ml" 68 2064 2117
+)
+"mod.ml" 62 1829 1845 "mod.ml" 62 1829 1853
+type(
+  Spec.t option
+)
+ident(
+  def spec_opt "mod.ml" 63 1878 1886 "mod.ml" 68 2064 2117
+)
+"mod.ml" 62 1829 1855 "mod.ml" 62 1829 1859
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def conv "mod.ml" 63 1878 1886 "mod.ml" 68 2064 2117
+)
+"mod.ml" 62 1829 1861 "mod.ml" 62 1829 1867
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def unconv "mod.ml" 63 1878 1886 "mod.ml" 68 2064 2117
+)
+"mod.ml" 62 1829 1841 "mod.ml" 62 1829 1867
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 62 1829 1870 "mod.ml" 62 1829 1871
+type(
+  Typpx.Compilerlib.Types.type_expr ->
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+ident(
+  int_ref f "mod.ml" 49 1370 1376 "mod.ml" 49 1370 1377
+)
+"mod.ml" 62 1829 1872 "mod.ml" 62 1829 1874
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 61 1811 1822 "mod.ml" 61 1811 1824
+)
+"mod.ml" 62 1829 1870 "mod.ml" 62 1829 1874
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 63 1878 1892 "mod.ml" 63 1878 1900
+type(
+  Spec.t option
+)
+ident(
+  int_ref spec_opt "mod.ml" 62 1829 1845 "mod.ml" 62 1829 1853
+)
+"mod.ml" 64 1906 1916 "mod.ml" 64 1906 1920
+type(
+  Spec.t option
+)
+"mod.ml" 64 1906 1925 "mod.ml" 64 1906 1927
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 62 1829 1841 "mod.ml" 62 1829 1843
+)
+"mod.ml" 64 1906 1929 "mod.ml" 64 1906 1933
+type(
+  Spec.t option
+)
+"mod.ml" 64 1906 1940 "mod.ml" 64 1906 1941
+type(
+  Typedtree.expression
+)
+ident(
+  def x "mod.ml" 64 1906 1945 "mod.ml" 64 1906 1946
+)
+"mod.ml" 64 1906 1945 "mod.ml" 64 1906 1946
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref x "mod.ml" 64 1906 1940 "mod.ml" 64 1906 1941
+)
+"mod.ml" 64 1906 1935 "mod.ml" 64 1906 1947
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"mod.ml" 64 1906 1954 "mod.ml" 64 1906 1955
+type(
+  Typedtree.expression
+)
+ident(
+  def x "mod.ml" 64 1906 1959 "mod.ml" 64 1906 1960
+)
+"mod.ml" 64 1906 1959 "mod.ml" 64 1906 1960
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref x "mod.ml" 64 1906 1954 "mod.ml" 64 1906 1955
+)
+"mod.ml" 64 1906 1949 "mod.ml" 64 1906 1961
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"mod.ml" 64 1906 1924 "mod.ml" 64 1906 1962
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 65 1963 1978 "mod.ml" 65 1963 1979
+type(
+  Spec.t
+)
+"mod.ml" 65 1963 1973 "mod.ml" 65 1963 1979
+type(
+  Spec.t option
+)
+"mod.ml" 66 1984 1997 "mod.ml" 66 1984 1999
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 62 1829 1841 "mod.ml" 62 1829 1843
+)
+"mod.ml" 66 1984 2001 "mod.ml" 66 1984 2009
+type(
+  Spec.t option
+)
+ident(
+  int_ref spec_opt "mod.ml" 62 1829 1845 "mod.ml" 62 1829 1853
+)
+"mod.ml" 67 2011 2029 "mod.ml" 67 2011 2030
+type(
+  Typedtree.expression
+)
+ident(
+  def e "mod.ml" 67 2011 2034 "mod.ml" 67 2011 2061
+)
+"mod.ml" 67 2011 2034 "mod.ml" 67 2011 2048
+type(
+  Env.t -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Forge.Exp.some
+)
+"mod.ml" 67 2011 2049 "mod.ml" 67 2011 2052
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 48 1341 1355 "mod.ml" 48 1341 1358
+)
+"mod.ml" 67 2011 2054 "mod.ml" 67 2011 2058
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref conv "mod.ml" 62 1829 1855 "mod.ml" 62 1829 1859
+)
+"mod.ml" 67 2011 2059 "mod.ml" 67 2011 2060
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 67 2011 2029 "mod.ml" 67 2011 2030
+)
+"mod.ml" 67 2011 2053 "mod.ml" 67 2011 2061
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 67 2011 2034 "mod.ml" 67 2011 2061
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 67 2011 2024 "mod.ml" 67 2011 2062
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"mod.ml" 68 2064 2082 "mod.ml" 68 2064 2083
+type(
+  Typedtree.expression
+)
+ident(
+  def e "mod.ml" 68 2064 2087 "mod.ml" 68 2064 2115
+)
+"mod.ml" 68 2064 2087 "mod.ml" 68 2064 2093
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref unconv "mod.ml" 62 1829 1861 "mod.ml" 62 1829 1867
+)
+"mod.ml" 68 2064 2095 "mod.ml" 68 2064 2112
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref Runtime.from_Some "mod.ml" 39 1031 1037 "mod.ml" 39 1031 1046
+)
+"mod.ml" 68 2064 2113 "mod.ml" 68 2064 2114
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 68 2064 2082 "mod.ml" 68 2064 2083
+)
+"mod.ml" 68 2064 2094 "mod.ml" 68 2064 2115
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 68 2064 2087 "mod.ml" 68 2064 2115
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 68 2064 2077 "mod.ml" 68 2064 2116
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"mod.ml" 66 1984 1996 "mod.ml" 68 2064 2117
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 63 1878 1886 "mod.ml" 68 2064 2117
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 62 1829 1837 "mod.ml" 68 2064 2117
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 57 1661 1668 "mod.ml" 69 2118 2123
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 56 1620 1622 "mod.ml" 69 2118 2123
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 49 1370 1372 "mod.ml" 69 2118 2123
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 73 2209 2219 "mod.ml" 73 2209 2226
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr ->
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+ident(
+  def extract "mod.ml" 73 2209 2211 "mod.ml" 94 2857 2862
+)
+"mod.ml" 73 2209 2227 "mod.ml" 73 2209 2230
+type(
+  Env.t
+)
+ident(
+  def env "mod.ml" 73 2209 2231 "mod.ml" 83 2534 2551
+)
+"mod.ml" 73 2209 2231 "mod.ml" 73 2209 2233
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 74 2237 2241 "mod.ml" 83 2534 2551
+)
+"mod.ml" 74 2237 2245 "mod.ml" 74 2237 2247
+type(
+  Types.type_expr
+)
+ident(
+  def ty "mod.ml" 75 2278 2282 "mod.ml" 83 2534 2551
+)
+"mod.ml" 74 2237 2250 "mod.ml" 74 2237 2267
+type(
+  Env.t -> Typpx.Compilerlib.Types.type_expr -> Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.expand_head
+)
+"mod.ml" 74 2237 2268 "mod.ml" 74 2237 2271
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 73 2209 2227 "mod.ml" 73 2209 2230
+)
+"mod.ml" 74 2237 2272 "mod.ml" 74 2237 2274
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 73 2209 2231 "mod.ml" 73 2209 2233
+)
+"mod.ml" 74 2237 2250 "mod.ml" 74 2237 2274
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"mod.ml" 75 2278 2288 "mod.ml" 75 2278 2297
+type(
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_desc
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.repr_desc
+)
+"mod.ml" 75 2278 2298 "mod.ml" 75 2278 2300
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 74 2237 2245 "mod.ml" 74 2237 2247
+)
+"mod.ml" 75 2278 2288 "mod.ml" 75 2278 2300
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"mod.ml" 76 2306 2319 "mod.ml" 76 2306 2320
+type(
+  Asttypes.arg_label
+)
+ident(
+  def l "mod.ml" 77 2338 2346 "mod.ml" 82 2522 2533
+)
+"mod.ml" 76 2306 2322 "mod.ml" 76 2306 2325
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty1 "mod.ml" 77 2338 2346 "mod.ml" 82 2522 2533
+)
+"mod.ml" 76 2306 2327 "mod.ml" 76 2306 2330
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty2 "mod.ml" 77 2338 2346 "mod.ml" 82 2522 2533
+)
+"mod.ml" 76 2306 2332 "mod.ml" 76 2306 2333
+type(
+  Typpx.Compilerlib.Types.commutable
+)
+"mod.ml" 76 2306 2312 "mod.ml" 76 2306 2334
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"mod.ml" 77 2338 2358 "mod.ml" 77 2338 2367
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Asttypes.arg_label ->
+  Typpx.Compilerlib.Types.type_expr ->
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+ident(
+  int_ref check_arg "mod.ml" 48 1341 1345 "mod.ml" 48 1341 1354
+)
+"mod.ml" 77 2338 2368 "mod.ml" 77 2338 2371
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 73 2209 2227 "mod.ml" 73 2209 2230
+)
+"mod.ml" 77 2338 2372 "mod.ml" 77 2338 2385
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.none
+)
+"mod.ml" 77 2338 2386 "mod.ml" 77 2338 2387
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "mod.ml" 76 2306 2319 "mod.ml" 76 2306 2320
+)
+"mod.ml" 77 2338 2388 "mod.ml" 77 2338 2391
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty1 "mod.ml" 76 2306 2322 "mod.ml" 76 2306 2325
+)
+"mod.ml" 77 2338 2358 "mod.ml" 77 2338 2391
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 78 2397 2408 "mod.ml" 78 2397 2409
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 78 2397 2416 "mod.ml" 78 2397 2417
+type(
+  Spec.t
+)
+"mod.ml" 78 2397 2411 "mod.ml" 78 2397 2417
+type(
+  Spec.t option
+)
+"mod.ml" 78 2397 2419 "mod.ml" 78 2397 2420
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"mod.ml" 78 2397 2422 "mod.ml" 78 2397 2423
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"mod.ml" 78 2397 2407 "mod.ml" 78 2397 2424
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 79 2428 2444 "mod.ml" 79 2428 2446
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list
+)
+ident(
+  def cs "mod.ml" 80 2472 2484 "mod.ml" 80 2472 2499
+)
+"mod.ml" 79 2428 2448 "mod.ml" 79 2428 2450
+type(
+  Types.type_expr
+)
+ident(
+  def ty "mod.ml" 80 2472 2484 "mod.ml" 80 2472 2499
+)
+"mod.ml" 79 2428 2444 "mod.ml" 79 2428 2450
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 79 2428 2453 "mod.ml" 79 2428 2460
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr ->
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+ident(
+  int_ref extract "mod.ml" 73 2209 2219 "mod.ml" 73 2209 2226
+)
+"mod.ml" 79 2428 2461 "mod.ml" 79 2428 2464
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 73 2209 2227 "mod.ml" 73 2209 2230
+)
+"mod.ml" 79 2428 2465 "mod.ml" 79 2428 2468
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty2 "mod.ml" 76 2306 2327 "mod.ml" 76 2306 2330
+)
+"mod.ml" 79 2428 2453 "mod.ml" 79 2428 2468
+call(
+  stack
+)
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 80 2472 2485 "mod.ml" 80 2472 2486
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "mod.ml" 76 2306 2319 "mod.ml" 76 2306 2320
+)
+"mod.ml" 80 2472 2487 "mod.ml" 80 2472 2490
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty1 "mod.ml" 76 2306 2322 "mod.ml" 76 2306 2325
+)
+"mod.ml" 80 2472 2484 "mod.ml" 80 2472 2491
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 80 2472 2493 "mod.ml" 80 2472 2495
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list
+)
+ident(
+  int_ref cs "mod.ml" 79 2428 2444 "mod.ml" 79 2428 2446
+)
+"mod.ml" 80 2472 2484 "mod.ml" 80 2472 2495
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list
+)
+"mod.ml" 80 2472 2497 "mod.ml" 80 2472 2499
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 79 2428 2448 "mod.ml" 79 2428 2450
+)
+"mod.ml" 80 2472 2484 "mod.ml" 80 2472 2499
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 79 2428 2440 "mod.ml" 80 2472 2499
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 81 2500 2510 "mod.ml" 81 2500 2511
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 81 2500 2515 "mod.ml" 81 2500 2517
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list
+)
+"mod.ml" 81 2500 2519 "mod.ml" 81 2500 2521
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 74 2237 2245 "mod.ml" 74 2237 2247
+)
+"mod.ml" 81 2500 2515 "mod.ml" 81 2500 2521
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 77 2338 2346 "mod.ml" 82 2522 2533
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 83 2534 2540 "mod.ml" 83 2534 2541
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"mod.ml" 83 2534 2545 "mod.ml" 83 2534 2547
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list
+)
+"mod.ml" 83 2534 2549 "mod.ml" 83 2534 2551
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 74 2237 2245 "mod.ml" 74 2237 2247
+)
+"mod.ml" 83 2534 2545 "mod.ml" 83 2534 2551
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 75 2278 2282 "mod.ml" 83 2534 2551
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 74 2237 2241 "mod.ml" 83 2534 2551
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 85 2555 2565 "mod.ml" 85 2555 2585
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+ident(
+  def extract_aggressively "mod.ml" 85 2555 2557 "mod.ml" 94 2857 2862
+)
+"mod.ml" 85 2555 2586 "mod.ml" 85 2555 2589
+type(
+  Env.t
+)
+ident(
+  def env "mod.ml" 85 2555 2590 "mod.ml" 93 2837 2856
+)
+"mod.ml" 85 2555 2590 "mod.ml" 85 2555 2592
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 86 2595 2599 "mod.ml" 93 2837 2856
+)
+"mod.ml" 86 2595 2603 "mod.ml" 86 2595 2605
+type(
+  Types.type_expr
+)
+ident(
+  def ty "mod.ml" 87 2636 2640 "mod.ml" 93 2837 2856
+)
+"mod.ml" 86 2595 2608 "mod.ml" 86 2595 2625
+type(
+  Env.t -> Typpx.Compilerlib.Types.type_expr -> Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.expand_head
+)
+"mod.ml" 86 2595 2626 "mod.ml" 86 2595 2629
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 85 2555 2586 "mod.ml" 85 2555 2589
+)
+"mod.ml" 86 2595 2630 "mod.ml" 86 2595 2632
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 85 2555 2590 "mod.ml" 85 2555 2592
+)
+"mod.ml" 86 2595 2608 "mod.ml" 86 2595 2632
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"mod.ml" 87 2636 2646 "mod.ml" 87 2636 2655
+type(
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_desc
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.repr_desc
+)
+"mod.ml" 87 2636 2656 "mod.ml" 87 2636 2658
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 86 2595 2603 "mod.ml" 86 2595 2605
+)
+"mod.ml" 87 2636 2646 "mod.ml" 87 2636 2658
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"mod.ml" 88 2664 2677 "mod.ml" 88 2664 2678
+type(
+  Asttypes.arg_label
+)
+ident(
+  def l "mod.ml" 88 2664 2698 "mod.ml" 92 2796 2836
+)
+"mod.ml" 88 2664 2680 "mod.ml" 88 2664 2683
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty1 "mod.ml" 88 2664 2698 "mod.ml" 92 2796 2836
+)
+"mod.ml" 88 2664 2685 "mod.ml" 88 2664 2688
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty2 "mod.ml" 88 2664 2698 "mod.ml" 92 2796 2836
+)
+"mod.ml" 88 2664 2690 "mod.ml" 88 2664 2691
+type(
+  Typpx.Compilerlib.Types.commutable
+)
+"mod.ml" 88 2664 2670 "mod.ml" 88 2664 2692
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"mod.ml" 88 2664 2698 "mod.ml" 88 2664 2706
+type(
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_expr list
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.gen_vars
+)
+"mod.ml" 88 2664 2707 "mod.ml" 88 2664 2710
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty1 "mod.ml" 88 2664 2680 "mod.ml" 88 2664 2683
+)
+"mod.ml" 88 2664 2698 "mod.ml" 88 2664 2710
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+"mod.ml" 88 2664 2711 "mod.ml" 88 2664 2713
+type(
+  Typpx.Compilerlib.Types.type_expr list ->
+  Typpx.Compilerlib.Types.type_expr list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"mod.ml" 88 2664 2714 "mod.ml" 88 2664 2716
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+"mod.ml" 88 2664 2698 "mod.ml" 88 2664 2716
+type(
+  bool
+)
+"mod.ml" 89 2720 2729 "mod.ml" 89 2720 2731
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list
+)
+"mod.ml" 89 2720 2733 "mod.ml" 89 2720 2735
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 86 2595 2603 "mod.ml" 86 2595 2605
+)
+"mod.ml" 89 2720 2728 "mod.ml" 89 2720 2736
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 90 2737 2748 "mod.ml" 90 2737 2751
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr ->
+   (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr) ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+ident(
+  ext_ref Utils.List.map
+)
+"mod.ml" 91 2752 2768 "mod.ml" 91 2752 2770
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list
+)
+ident(
+  def cs "mod.ml" 91 2752 2779 "mod.ml" 91 2752 2794
+)
+"mod.ml" 91 2752 2772 "mod.ml" 91 2752 2774
+type(
+  Types.type_expr
+)
+ident(
+  def ty "mod.ml" 91 2752 2779 "mod.ml" 91 2752 2794
+)
+"mod.ml" 91 2752 2767 "mod.ml" 91 2752 2775
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 91 2752 2780 "mod.ml" 91 2752 2781
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "mod.ml" 88 2664 2677 "mod.ml" 88 2664 2678
+)
+"mod.ml" 91 2752 2782 "mod.ml" 91 2752 2785
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty1 "mod.ml" 88 2664 2680 "mod.ml" 88 2664 2683
+)
+"mod.ml" 91 2752 2779 "mod.ml" 91 2752 2786
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 91 2752 2788 "mod.ml" 91 2752 2790
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list
+)
+ident(
+  int_ref cs "mod.ml" 91 2752 2768 "mod.ml" 91 2752 2770
+)
+"mod.ml" 91 2752 2779 "mod.ml" 91 2752 2790
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list
+)
+"mod.ml" 91 2752 2792 "mod.ml" 91 2752 2794
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 91 2752 2772 "mod.ml" 91 2752 2774
+)
+"mod.ml" 91 2752 2779 "mod.ml" 91 2752 2794
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 91 2752 2762 "mod.ml" 91 2752 2795
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr ->
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 92 2796 2807 "mod.ml" 92 2796 2827
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+ident(
+  int_ref extract_aggressively "mod.ml" 85 2555 2565 "mod.ml" 85 2555 2585
+)
+"mod.ml" 92 2796 2828 "mod.ml" 92 2796 2831
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 85 2555 2586 "mod.ml" 85 2555 2589
+)
+"mod.ml" 92 2796 2832 "mod.ml" 92 2796 2835
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty2 "mod.ml" 88 2664 2685 "mod.ml" 88 2664 2688
+)
+"mod.ml" 92 2796 2806 "mod.ml" 92 2796 2836
+call(
+  stack
+)
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+"mod.ml" 90 2737 2748 "mod.ml" 92 2796 2836
+call(
+  stack
+)
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+"mod.ml" 89 2720 2728 "mod.ml" 92 2796 2836
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+"mod.ml" 93 2837 2843 "mod.ml" 93 2837 2844
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"mod.ml" 93 2837 2849 "mod.ml" 93 2837 2851
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list
+)
+"mod.ml" 93 2837 2853 "mod.ml" 93 2837 2855
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 86 2595 2603 "mod.ml" 86 2595 2605
+)
+"mod.ml" 93 2837 2849 "mod.ml" 93 2837 2855
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 93 2837 2848 "mod.ml" 93 2837 2856
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+"mod.ml" 87 2636 2640 "mod.ml" 93 2837 2856
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+"mod.ml" 86 2595 2599 "mod.ml" 93 2837 2856
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+"mod.ml" 97 2919 2923 "mod.ml" 97 2919 2940
+type(
+  Spec.t ->
+  Env.t ->
+  Location.t ->
+  Candidate.t ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+  list
+)
+ident(
+  def extract_candidate "mod.ml" 126 3889 3889 "mod.ml" 1 0 -1
+)
+"mod.ml" 97 2919 2941 "mod.ml" 97 2919 2945
+type(
+  Spec.t
+)
+ident(
+  def spec "mod.ml" 97 2919 2946 "mod.ml" 111 3469 3478
+)
+"mod.ml" 97 2919 2946 "mod.ml" 97 2919 2949
+type(
+  Env.t
+)
+ident(
+  def env "mod.ml" 97 2919 2950 "mod.ml" 111 3469 3478
+)
+"mod.ml" 97 2919 2950 "mod.ml" 97 2919 2953
+type(
+  Location.t
+)
+ident(
+  def loc "mod.ml" 97 2919 2954 "mod.ml" 111 3469 3478
+)
+"mod.ml" 97 2919 2956 "mod.ml" 97 2919 2976
+type(
+  bool
+)
+ident(
+  def aggressive "mod.ml" 97 2919 2986 "mod.ml" 111 3469 3478
+)
+"mod.ml" 97 2919 2978 "mod.ml" 97 2919 2983
+type(
+  Types.type_expr
+)
+ident(
+  def type_ "mod.ml" 97 2919 2986 "mod.ml" 111 3469 3478
+)
+"mod.ml" 97 2919 2954 "mod.ml" 97 2919 2985
+type(
+  Candidate.t
+)
+"mod.ml" 98 3076 3082 "mod.ml" 98 3076 3083
+type(
+  Typpx.Compilerlib.Types.type_expr ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+ident(
+  def f "mod.ml" 102 3203 3205 "mod.ml" 111 3469 3478
+)
+"mod.ml" 99 3086 3093 "mod.ml" 99 3086 3096
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"mod.ml" 99 3086 3097 "mod.ml" 99 3086 3107
+type(
+  bool
+)
+ident(
+  int_ref aggressive "mod.ml" 97 2919 2956 "mod.ml" 97 2919 2976
+)
+"mod.ml" 99 3086 3093 "mod.ml" 99 3086 3107
+type(
+  bool
+)
+"mod.ml" 99 3086 3118 "mod.ml" 99 3086 3123
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def type_ "mod.ml" 99 3086 3127 "mod.ml" 99 3086 3154
+)
+"mod.ml" 99 3086 3128 "mod.ml" 99 3086 3143
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr ->
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+ident(
+  int_ref Klabel2.extract "mod.ml" 73 2209 2219 "mod.ml" 73 2209 2226
+)
+"mod.ml" 99 3086 3144 "mod.ml" 99 3086 3147
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 97 2919 2946 "mod.ml" 97 2919 2949
+)
+"mod.ml" 99 3086 3148 "mod.ml" 99 3086 3153
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref type_ "mod.ml" 99 3086 3118 "mod.ml" 99 3086 3123
+)
+"mod.ml" 99 3086 3128 "mod.ml" 99 3086 3153
+call(
+  stack
+)
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Types.type_expr
+)
+"mod.ml" 99 3086 3127 "mod.ml" 99 3086 3154
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+"mod.ml" 99 3086 3113 "mod.ml" 99 3086 3155
+type(
+  Typpx.Compilerlib.Types.type_expr ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+"mod.ml" 100 3156 3165 "mod.ml" 100 3156 3193
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+ident(
+  int_ref Klabel2.extract_aggressively "mod.ml" 85 2555 2565 "mod.ml" 85 2555 2585
+)
+"mod.ml" 100 3156 3194 "mod.ml" 100 3156 3197
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 97 2919 2946 "mod.ml" 97 2919 2949
+)
+"mod.ml" 100 3156 3165 "mod.ml" 100 3156 3197
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+"mod.ml" 99 3086 3090 "mod.ml" 100 3156 3197
+type(
+  Typpx.Compilerlib.Types.type_expr ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Types.type_expr)
+  list
+)
+"mod.ml" 102 3203 3205 "mod.ml" 102 3203 3209
+type(
+  (((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+    Typpx.Compilerlib.Types.type_expr ->
+    (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr) ->
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+    Typpx.Compilerlib.Types.type_expr)
+   list ->
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr)
+   list) ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Typpx.Compilerlib.Types.type_expr)
+  list ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Typpx.Compilerlib.Types.type_expr ->
+   (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr) ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+  list
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"mod.ml" 102 3203 3210 "mod.ml" 102 3203 3213
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Typpx.Compilerlib.Types.type_expr ->
+   (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr) ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Typpx.Compilerlib.Types.type_expr)
+  list ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+  list
+)
+ident(
+  ext_ref Utils.List.map
+)
+"mod.ml" 102 3203 3215 "mod.ml" 102 3203 3216
+type(
+  Typpx.Compilerlib.Types.type_expr ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Typpx.Compilerlib.Types.type_expr)
+  list
+)
+ident(
+  int_ref f "mod.ml" 98 3076 3082 "mod.ml" 98 3076 3083
+)
+"mod.ml" 102 3203 3217 "mod.ml" 102 3203 3222
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref type_ "mod.ml" 97 2919 2978 "mod.ml" 97 2919 2983
+)
+"mod.ml" 102 3203 3214 "mod.ml" 102 3203 3223
+call(
+  stack
+)
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Typpx.Compilerlib.Types.type_expr)
+  list
+)
+"mod.ml" 102 3203 3205 "mod.ml" 102 3203 3223
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Typpx.Compilerlib.Types.type_expr ->
+   (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr) ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+  list
+)
+"mod.ml" 102 3203 3224 "mod.ml" 102 3203 3225
+type(
+  (((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+    Typpx.Compilerlib.Types.type_expr ->
+    (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr) ->
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr)
+   list) ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+   Typpx.Compilerlib.Types.type_expr ->
+   (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr) ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+  list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 102 3203 3231 "mod.ml" 102 3203 3235
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list
+)
+ident(
+  def args "mod.ml" 103 3244 3248 "mod.ml" 111 3469 3478
+)
+"mod.ml" 102 3203 3237 "mod.ml" 102 3203 3239
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 103 3244 3248 "mod.ml" 111 3469 3478
+)
+"mod.ml" 102 3203 3230 "mod.ml" 102 3203 3240
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 103 3244 3249 "mod.ml" 103 3244 3253
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr ->
+    Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression)) ->
+   (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list ->
+   (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list) ->
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list ->
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr ->
+   Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression)) ->
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"mod.ml" 103 3244 3254 "mod.ml" 103 3244 3257
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr ->
+   Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression)) ->
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list ->
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+ident(
+  ext_ref Utils.List.map
+)
+"mod.ml" 103 3244 3258 "mod.ml" 103 3244 3262
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list
+)
+ident(
+  int_ref args "mod.ml" 102 3203 3231 "mod.ml" 102 3203 3235
+)
+"mod.ml" 103 3244 3269 "mod.ml" 103 3244 3270
+type(
+  Asttypes.arg_label
+)
+ident(
+  def l "mod.ml" 104 3278 3284 "mod.ml" 110 3454 3467
+)
+"mod.ml" 103 3244 3271 "mod.ml" 103 3244 3273
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 104 3278 3284 "mod.ml" 110 3454 3467
+)
+"mod.ml" 103 3244 3268 "mod.ml" 103 3244 3274
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 104 3278 3289 "mod.ml" 104 3278 3291
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 105 3342 3348 "mod.ml" 110 3454 3467
+)
+"mod.ml" 104 3278 3292 "mod.ml" 104 3278 3299
+type(
+  Spec.t option
+)
+ident(
+  def specopt "mod.ml" 105 3342 3348 "mod.ml" 110 3454 3467
+)
+"mod.ml" 104 3278 3300 "mod.ml" 104 3278 3304
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def conv "mod.ml" 105 3342 3348 "mod.ml" 110 3454 3467
+)
+"mod.ml" 104 3278 3305 "mod.ml" 104 3278 3312
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def _unconv "mod.ml" 105 3342 3348 "mod.ml" 110 3454 3467
+)
+"mod.ml" 104 3278 3288 "mod.ml" 104 3278 3313
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 104 3278 3316 "mod.ml" 104 3278 3325
+type(
+  Env.t ->
+  Location.t ->
+  Asttypes.arg_label ->
+  Typpx.Compilerlib.Types.type_expr ->
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+ident(
+  int_ref check_arg "mod.ml" 48 1341 1345 "mod.ml" 48 1341 1354
+)
+"mod.ml" 104 3278 3326 "mod.ml" 104 3278 3329
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 97 2919 2946 "mod.ml" 97 2919 2949
+)
+"mod.ml" 104 3278 3330 "mod.ml" 104 3278 3333
+type(
+  Location.t
+)
+ident(
+  int_ref loc "mod.ml" 97 2919 2950 "mod.ml" 97 2919 2953
+)
+"mod.ml" 104 3278 3334 "mod.ml" 104 3278 3335
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "mod.ml" 103 3244 3269 "mod.ml" 103 3244 3270
+)
+"mod.ml" 104 3278 3336 "mod.ml" 104 3278 3338
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 103 3244 3271 "mod.ml" 103 3244 3273
+)
+"mod.ml" 104 3278 3316 "mod.ml" 104 3278 3338
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 105 3342 3350 "mod.ml" 105 3342 3351
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "mod.ml" 103 3244 3269 "mod.ml" 103 3244 3270
+)
+"mod.ml" 106 3352 3360 "mod.ml" 106 3352 3362
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 104 3278 3289 "mod.ml" 104 3278 3291
+)
+"mod.ml" 107 3363 3378 "mod.ml" 107 3363 3385
+type(
+  Spec.t option
+)
+ident(
+  int_ref specopt "mod.ml" 104 3278 3292 "mod.ml" 104 3278 3299
+)
+"mod.ml" 108 3391 3407 "mod.ml" 108 3391 3408
+type(
+  Spec.t
+)
+ident(
+  def x "mod.ml" 108 3391 3412 "mod.ml" 108 3391 3413
+)
+"mod.ml" 108 3391 3402 "mod.ml" 108 3391 3408
+type(
+  Spec.t option
+)
+"mod.ml" 108 3391 3412 "mod.ml" 108 3391 3413
+type(
+  Spec.t
+)
+ident(
+  int_ref x "mod.ml" 108 3391 3407 "mod.ml" 108 3391 3408
+)
+"mod.ml" 109 3414 3425 "mod.ml" 109 3414 3429
+type(
+  Spec.t option
+)
+"mod.ml" 109 3414 3433 "mod.ml" 109 3414 3437
+type(
+  Spec.t
+)
+ident(
+  int_ref spec "mod.ml" 97 2919 2941 "mod.ml" 97 2919 2945
+)
+"mod.ml" 107 3363 3371 "mod.ml" 109 3414 3453
+type(
+  Spec.t
+)
+"mod.ml" 110 3454 3462 "mod.ml" 110 3454 3466
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref conv "mod.ml" 104 3278 3300 "mod.ml" 104 3278 3304
+)
+"mod.ml" 105 3342 3348 "mod.ml" 110 3454 3467
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 104 3278 3284 "mod.ml" 110 3454 3467
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 103 3244 3263 "mod.ml" 110 3454 3468
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr ->
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 103 3244 3249 "mod.ml" 110 3454 3468
+call(
+  stack
+)
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+"mod.ml" 111 3469 3475 "mod.ml" 111 3469 3477
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 102 3203 3237 "mod.ml" 102 3203 3239
+)
+"mod.ml" 103 3244 3248 "mod.ml" 111 3469 3478
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list * Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 102 3203 3226 "mod.ml" 111 3469 3478
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr) list *
+  Typpx.Compilerlib.Types.type_expr ->
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list * Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 102 3203 3205 "mod.ml" 111 3469 3478
+call(
+  tail
+)
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+  list
+)
+"mod.ml" 98 3076 3078 "mod.ml" 111 3469 3478
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+  list
+)
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+  list
+)
+"mod.ml" 131 4059 4065 "mod.ml" 131 4059 4071
+type(
+  t list -> t
+)
+ident(
+  def concat "mod.ml" 138 4230 4276 "mod.ml" 139 4277 4280
+)
+"mod.ml" 131 4059 4072 "mod.ml" 131 4059 4074
+type(
+  t list
+)
+ident(
+  def xs "mod.ml" 132 4077 4081 "mod.ml" 138 4230 4276
+)
+"mod.ml" 133 4087 4093 "mod.ml" 133 4087 4097
+type(
+  ((t ->
+    [ `Left of Typedtree.expression list
+    | `Right of Typedtree.expression list list ]) ->
+   t list ->
+   Typedtree.expression list list * Typedtree.expression list list list) ->
+  t list ->
+  (t ->
+   [ `Left of Typedtree.expression list
+   | `Right of Typedtree.expression list list ]) ->
+  Typedtree.expression list list * Typedtree.expression list list list
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"mod.ml" 133 4087 4098 "mod.ml" 133 4087 4111
+type(
+  (t ->
+   [ `Left of Typedtree.expression list
+   | `Right of Typedtree.expression list list ]) ->
+  t list ->
+  Typedtree.expression list list * Typedtree.expression list list list
+)
+ident(
+  ext_ref Utils.List.partition_map
+)
+"mod.ml" 133 4087 4112 "mod.ml" 133 4087 4114
+type(
+  t list
+)
+ident(
+  int_ref xs "mod.ml" 131 4059 4072 "mod.ml" 131 4059 4074
+)
+"mod.ml" 133 4087 4093 "mod.ml" 133 4087 4114
+type(
+  (t ->
+   [ `Left of Typedtree.expression list
+   | `Right of Typedtree.expression list list ]) ->
+  Typedtree.expression list list * Typedtree.expression list list list
+)
+"mod.ml" 133 4087 4115 "mod.ml" 133 4087 4116
+type(
+  ((t ->
+    [ `Left of Typedtree.expression list
+    | `Right of Typedtree.expression list list ]) ->
+   Typedtree.expression list list * Typedtree.expression list list list) ->
+  (t ->
+   [ `Left of Typedtree.expression list
+   | `Right of Typedtree.expression list list ]) ->
+  Typedtree.expression list list * Typedtree.expression list list list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 134 4126 4139 "mod.ml" 134 4126 4141
+type(
+  Typedtree.expression list list
+)
+ident(
+  def ys "mod.ml" 134 4126 4145 "mod.ml" 134 4126 4154
+)
+"mod.ml" 134 4126 4136 "mod.ml" 134 4126 4141
+type(
+  t
+)
+"mod.ml" 134 4126 4152 "mod.ml" 134 4126 4154
+type(
+  Typedtree.expression list list
+)
+ident(
+  int_ref ys "mod.ml" 134 4126 4139 "mod.ml" 134 4126 4141
+)
+"mod.ml" 134 4126 4145 "mod.ml" 134 4126 4154
+type(
+  [ `Left of Typedtree.expression list
+  | `Right of Typedtree.expression list list ]
+)
+"mod.ml" 135 4155 4173 "mod.ml" 135 4155 4175
+type(
+  Typedtree.expression list
+)
+ident(
+  def ys "mod.ml" 135 4155 4179 "mod.ml" 135 4155 4187
+)
+"mod.ml" 135 4155 4165 "mod.ml" 135 4155 4175
+type(
+  t
+)
+"mod.ml" 135 4155 4185 "mod.ml" 135 4155 4187
+type(
+  Typedtree.expression list
+)
+ident(
+  int_ref ys "mod.ml" 135 4155 4173 "mod.ml" 135 4155 4175
+)
+"mod.ml" 135 4155 4179 "mod.ml" 135 4155 4187
+type(
+  [ `Left of Typedtree.expression list
+  | `Right of Typedtree.expression list list ]
+)
+"mod.ml" 133 4087 4117 "mod.ml" 135 4155 4187
+type(
+  t ->
+  [ `Left of Typedtree.expression list
+  | `Right of Typedtree.expression list list ]
+)
+"mod.ml" 133 4087 4093 "mod.ml" 135 4155 4187
+call(
+  stack
+)
+type(
+  Typedtree.expression list list * Typedtree.expression list list list
+)
+"mod.ml" 137 4197 4203 "mod.ml" 137 4197 4205
+type(
+  Typedtree.expression list list
+)
+"mod.ml" 137 4197 4207 "mod.ml" 137 4197 4210
+type(
+  Typedtree.expression list list list
+)
+ident(
+  def oks "mod.ml" 137 4197 4214 "mod.ml" 137 4197 4229
+)
+"mod.ml" 137 4197 4203 "mod.ml" 137 4197 4210
+type(
+  Typedtree.expression list list * Typedtree.expression list list list
+)
+"mod.ml" 137 4197 4218 "mod.ml" 137 4197 4224
+type(
+  Typedtree.expression list list list -> Typedtree.expression list list
+)
+ident(
+  ext_ref Utils.List.concat
+)
+"mod.ml" 137 4197 4225 "mod.ml" 137 4197 4228
+type(
+  Typedtree.expression list list list
+)
+ident(
+  int_ref oks "mod.ml" 137 4197 4207 "mod.ml" 137 4197 4210
+)
+"mod.ml" 137 4197 4217 "mod.ml" 137 4197 4229
+call(
+  stack
+)
+type(
+  Typedtree.expression list list
+)
+"mod.ml" 137 4197 4214 "mod.ml" 137 4197 4229
+type(
+  t
+)
+"mod.ml" 138 4230 4236 "mod.ml" 138 4230 4244
+type(
+  Typedtree.expression list list
+)
+ident(
+  def mayloops "mod.ml" 138 4230 4251 "mod.ml" 138 4230 4276
+)
+"mod.ml" 138 4230 4246 "mod.ml" 138 4230 4247
+type(
+  Typedtree.expression list list list
+)
+"mod.ml" 138 4230 4236 "mod.ml" 138 4230 4247
+type(
+  Typedtree.expression list list * Typedtree.expression list list list
+)
+"mod.ml" 138 4230 4260 "mod.ml" 138 4230 4266
+type(
+  Typedtree.expression list list -> Typedtree.expression list
+)
+ident(
+  ext_ref Utils.List.concat
+)
+"mod.ml" 138 4230 4267 "mod.ml" 138 4230 4275
+type(
+  Typedtree.expression list list
+)
+ident(
+  int_ref mayloops "mod.ml" 138 4230 4236 "mod.ml" 138 4230 4244
+)
+"mod.ml" 138 4230 4259 "mod.ml" 138 4230 4276
+call(
+  stack
+)
+type(
+  Typedtree.expression list
+)
+"mod.ml" 138 4230 4251 "mod.ml" 138 4230 4276
+type(
+  t
+)
+"mod.ml" 132 4077 4081 "mod.ml" 138 4230 4276
+type(
+  t
+)
+"mod.ml" 145 4456 4464 "mod.ml" 145 4456 4471
+type(
+  Location.t ->
+  Env.t ->
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list ->
+  Resolve_result.t
+)
+ident(
+  def resolve "mod.ml" 145 4456 4456 "mod.ml" 1 0 -1
+)
+"mod.ml" 145 4456 4472 "mod.ml" 145 4456 4475
+type(
+  Location.t
+)
+ident(
+  def loc "mod.ml" 145 4456 4476 "mod.ml" 159 5027 5073
+)
+"mod.ml" 145 4456 4476 "mod.ml" 145 4456 4479
+type(
+  Env.t
+)
+ident(
+  def env "mod.ml" 145 4456 4480 "mod.ml" 159 5027 5073
+)
+"mod.ml" 146 4547 4551 "mod.ml" 146 4547 4553
+type(
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list
+)
+"mod.ml" 146 4547 4576 "mod.ml" 146 4547 4578
+type(
+  Typedtree.expression list
+)
+"mod.ml" 146 4547 4575 "mod.ml" 146 4547 4579
+type(
+  Typedtree.expression list list
+)
+"mod.ml" 146 4547 4557 "mod.ml" 146 4547 4579
+type(
+  Resolve_result.t
+)
+"mod.ml" 147 4629 4634 "mod.ml" 147 4629 4639
+type(
+  trace
+)
+ident(
+  def trace "mod.ml" 148 4662 4668 "mod.ml" 159 5027 5073
+)
+"mod.ml" 147 4629 4640 "mod.ml" 147 4629 4642
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 148 4662 4668 "mod.ml" 159 5027 5073
+)
+"mod.ml" 147 4629 4643 "mod.ml" 147 4629 4647
+type(
+  Spec.t
+)
+ident(
+  def spec "mod.ml" 148 4662 4668 "mod.ml" 159 5027 5073
+)
+"mod.ml" 147 4629 4633 "mod.ml" 147 4629 4648
+type(
+  trace * Typpx.Compilerlib.Types.type_expr * Spec.t
+)
+"mod.ml" 147 4629 4650 "mod.ml" 147 4629 4658
+type(
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list
+)
+ident(
+  def problems "mod.ml" 148 4662 4668 "mod.ml" 159 5027 5073
+)
+"mod.ml" 147 4629 4633 "mod.ml" 147 4629 4658
+type(
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list
+)
+"mod.ml" 148 4662 4672 "mod.ml" 148 4662 4674
+type(
+  Candidate.t list
+)
+ident(
+  def cs "mod.ml" 149 4711 4717 "mod.ml" 159 5027 5073
+)
+"mod.ml" 148 4662 4677 "mod.ml" 148 4662 4691
+type(
+  Env.t ->
+  Location.t ->
+  Spec.t -> Typpx.Compilerlib.Types.type_expr -> Candidate.t list
+)
+ident(
+  int_ref get_candidates "mod.ml" 19 372 376 "mod.ml" 19 372 390
+)
+"mod.ml" 148 4662 4692 "mod.ml" 148 4662 4695
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 145 4456 4476 "mod.ml" 145 4456 4479
+)
+"mod.ml" 148 4662 4696 "mod.ml" 148 4662 4699
+type(
+  Location.t
+)
+ident(
+  int_ref loc "mod.ml" 145 4456 4472 "mod.ml" 145 4456 4475
+)
+"mod.ml" 148 4662 4700 "mod.ml" 148 4662 4704
+type(
+  Spec.t
+)
+ident(
+  int_ref spec "mod.ml" 147 4629 4643 "mod.ml" 147 4629 4647
+)
+"mod.ml" 148 4662 4705 "mod.ml" 148 4662 4707
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 147 4629 4640 "mod.ml" 147 4629 4642
+)
+"mod.ml" 148 4662 4677 "mod.ml" 148 4662 4707
+call(
+  stack
+)
+type(
+  Candidate.t list
+)
+"mod.ml" 149 4711 4720 "mod.ml" 149 4711 4721
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mod.ml" 149 4711 4721 "mod.ml" 149 4711 4737
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_unif
+)
+"mod.ml" 149 4711 4720 "mod.ml" 149 4711 4737
+type(
+  bool
+)
+"mod.ml" 150 4749 4757 "mod.ml" 150 4749 4760
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 150 4749 4761 "mod.ml" 150 4749 4776
+type(
+  (unit, Format.formatter, unit) format
+)
+"mod.ml" 150 4749 4757 "mod.ml" 150 4749 4776
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 151 4778 4786 "mod.ml" 151 4778 4790
+type(
+  (Candidate.t -> unit) -> Candidate.t list -> unit
+)
+ident(
+  ext_ref Utils.List.iter
+)
+"mod.ml" 151 4778 4792 "mod.ml" 151 4778 4795
+type(
+  ((Format.formatter -> Candidate.t -> unit) -> Candidate.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Candidate.t -> unit) -> Candidate.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 151 4778 4796 "mod.ml" 151 4778 4804
+type(
+  ((Format.formatter -> Candidate.t -> unit) -> Candidate.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"mod.ml" 151 4778 4792 "mod.ml" 151 4778 4804
+type(
+  (Format.formatter -> Candidate.t -> unit) -> Candidate.t -> unit
+)
+"mod.ml" 151 4778 4805 "mod.ml" 151 4778 4821
+type(
+  Format.formatter -> Candidate.t -> unit
+)
+ident(
+  ext_ref Candidate.format
+)
+"mod.ml" 151 4778 4791 "mod.ml" 151 4778 4822
+call(
+  stack
+)
+type(
+  Candidate.t -> unit
+)
+"mod.ml" 151 4778 4823 "mod.ml" 151 4778 4825
+type(
+  Candidate.t list
+)
+ident(
+  int_ref cs "mod.ml" 148 4662 4672 "mod.ml" 148 4662 4674
+)
+"mod.ml" 151 4778 4786 "mod.ml" 151 4778 4825
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 149 4711 4743 "mod.ml" 152 4826 4835
+type(
+  unit
+)
+"mod.ml" 149 4711 4717 "mod.ml" 152 4826 4835
+type(
+  unit
+)
+"mod.ml" 153 4837 4847 "mod.ml" 153 4837 4849
+type(
+  (Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr))
+  list
+)
+ident(
+  def cs "mod.ml" 157 4979 4985 "mod.ml" 159 5027 5073
+)
+"mod.ml" 153 4837 4852 "mod.ml" 153 4837 4862
+type(
+  (Candidate.t ->
+   (Path.t * Typedtree.expression *
+    ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+      (Typedtree.expression -> Typedtree.expression))
+     list * Typpx.Compilerlib.Types.type_expr))
+   list) ->
+  Candidate.t list ->
+  (Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr))
+  list
+)
+ident(
+  ext_ref Utils.List.concat_map
+)
+"mod.ml" 153 4837 4868 "mod.ml" 153 4837 4869
+type(
+  Candidate.t
+)
+ident(
+  def c "mod.ml" 154 4873 4881 "mod.ml" 154 4873 4958
+)
+"mod.ml" 154 4873 4881 "mod.ml" 154 4873 4884
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr ->
+   Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr)) ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+  list ->
+  (Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr))
+  list
+)
+ident(
+  ext_ref Utils.List.map
+)
+"mod.ml" 154 4873 4890 "mod.ml" 154 4873 4891
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list * Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def x "mod.ml" 154 4873 4895 "mod.ml" 154 4873 4922
+)
+"mod.ml" 154 4873 4895 "mod.ml" 154 4873 4896
+type(
+  Candidate.t
+)
+ident(
+  int_ref c "mod.ml" 153 4837 4868 "mod.ml" 153 4837 4869
+)
+"mod.ml" 154 4873 4895 "mod.ml" 154 4873 4911
+type(
+  Path.t
+)
+"mod.ml" 154 4873 4913 "mod.ml" 154 4873 4914
+type(
+  Candidate.t
+)
+ident(
+  int_ref c "mod.ml" 153 4837 4868 "mod.ml" 153 4837 4869
+)
+"mod.ml" 154 4873 4913 "mod.ml" 154 4873 4919
+type(
+  Typedtree.expression
+)
+"mod.ml" 154 4873 4921 "mod.ml" 154 4873 4922
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list * Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref x "mod.ml" 154 4873 4890 "mod.ml" 154 4873 4891
+)
+"mod.ml" 154 4873 4895 "mod.ml" 154 4873 4922
+type(
+  Path.t * Typedtree.expression *
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+)
+"mod.ml" 154 4873 4885 "mod.ml" 154 4873 4923
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list * Typpx.Compilerlib.Types.type_expr ->
+  Path.t * Typedtree.expression *
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+)
+"mod.ml" 154 4873 4881 "mod.ml" 154 4873 4923
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+  list ->
+  (Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr))
+  list
+)
+"mod.ml" 154 4873 4924 "mod.ml" 154 4873 4925
+type(
+  (((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr)
+   list ->
+   (Path.t * Typedtree.expression *
+    ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+      (Typedtree.expression -> Typedtree.expression))
+     list * Typpx.Compilerlib.Types.type_expr))
+   list) ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+  list ->
+  (Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr))
+  list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 154 4873 4926 "mod.ml" 154 4873 4943
+type(
+  Spec.t ->
+  Env.t ->
+  Location.t ->
+  Candidate.t ->
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+  list
+)
+ident(
+  int_ref extract_candidate "mod.ml" 97 2919 2923 "mod.ml" 97 2919 2940
+)
+"mod.ml" 154 4873 4944 "mod.ml" 154 4873 4948
+type(
+  Spec.t
+)
+ident(
+  int_ref spec "mod.ml" 147 4629 4643 "mod.ml" 147 4629 4647
+)
+"mod.ml" 154 4873 4949 "mod.ml" 154 4873 4952
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 145 4456 4476 "mod.ml" 145 4456 4479
+)
+"mod.ml" 154 4873 4953 "mod.ml" 154 4873 4956
+type(
+  Location.t
+)
+ident(
+  int_ref loc "mod.ml" 145 4456 4472 "mod.ml" 145 4456 4475
+)
+"mod.ml" 154 4873 4957 "mod.ml" 154 4873 4958
+type(
+  Candidate.t
+)
+ident(
+  int_ref c "mod.ml" 153 4837 4868 "mod.ml" 153 4837 4869
+)
+"mod.ml" 154 4873 4926 "mod.ml" 154 4873 4958
+call(
+  stack
+)
+type(
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+  list
+)
+"mod.ml" 154 4873 4881 "mod.ml" 154 4873 4958
+call(
+  tail
+)
+type(
+  (Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr))
+  list
+)
+"mod.ml" 153 4837 4863 "mod.ml" 155 4959 4966
+type(
+  Candidate.t ->
+  (Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr))
+  list
+)
+"mod.ml" 155 4959 4967 "mod.ml" 155 4959 4969
+type(
+  Candidate.t list
+)
+ident(
+  int_ref cs "mod.ml" 148 4662 4672 "mod.ml" 148 4662 4674
+)
+"mod.ml" 153 4837 4852 "mod.ml" 155 4959 4969
+call(
+  stack
+)
+type(
+  (Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr))
+  list
+)
+"mod.ml" 157 4979 4985 "mod.ml" 157 4979 5006
+type(
+  Resolve_result.t list -> Resolve_result.t
+)
+ident(
+  int_ref Resolve_result.concat "mod.ml" 131 4059 4065 "mod.ml" 131 4059 4071
+)
+"mod.ml" 158 5007 5013 "mod.ml" 158 5007 5014
+type(
+  (Resolve_result.t list -> Resolve_result.t) ->
+  Resolve_result.t list -> Resolve_result.t
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 158 5007 5015 "mod.ml" 158 5007 5019
+type(
+  ((Typpx.Compilerlib.Path.t * Typedtree.expression *
+    ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+      (Typedtree.expression -> Typedtree.expression))
+     list * Typpx.Compilerlib.Types.type_expr) ->
+    Resolve_result.t) ->
+   (Typpx.Compilerlib.Path.t * Typedtree.expression *
+    ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+      (Typedtree.expression -> Typedtree.expression))
+     list * Typpx.Compilerlib.Types.type_expr))
+   list -> Resolve_result.t list) ->
+  (Typpx.Compilerlib.Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr))
+  list ->
+  (Typpx.Compilerlib.Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr) ->
+   Resolve_result.t) ->
+  Resolve_result.t list
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"mod.ml" 158 5007 5020 "mod.ml" 158 5007 5023
+type(
+  (Typpx.Compilerlib.Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr) ->
+   Resolve_result.t) ->
+  (Typpx.Compilerlib.Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr))
+  list -> Resolve_result.t list
+)
+ident(
+  ext_ref Utils.List.map
+)
+"mod.ml" 158 5007 5024 "mod.ml" 158 5007 5026
+type(
+  (Typpx.Compilerlib.Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr))
+  list
+)
+ident(
+  int_ref cs "mod.ml" 153 4837 4847 "mod.ml" 153 4837 4849
+)
+"mod.ml" 158 5007 5015 "mod.ml" 158 5007 5026
+type(
+  (Typpx.Compilerlib.Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr) ->
+   Resolve_result.t) ->
+  Resolve_result.t list
+)
+"mod.ml" 159 5027 5033 "mod.ml" 159 5027 5034
+type(
+  ((Typpx.Compilerlib.Path.t * Typedtree.expression *
+    ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+      (Typedtree.expression -> Typedtree.expression))
+     list * Typpx.Compilerlib.Types.type_expr) ->
+    Resolve_result.t) ->
+   Resolve_result.t list) ->
+  (Typpx.Compilerlib.Path.t * Typedtree.expression *
+   ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list * Typpx.Compilerlib.Types.type_expr) ->
+   Resolve_result.t) ->
+  Resolve_result.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 159 5027 5035 "mod.ml" 159 5027 5047
+type(
+  Location.t ->
+  Env.t ->
+  trace ->
+  Typpx.Compilerlib.Types.type_expr ->
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list ->
+  Typpx.Compilerlib.Path.t * Typedtree.expression *
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr) ->
+  Resolve_result.t
+)
+ident(
+  int_ref resolve_cand "mod.ml" 162 5121 5125 "mod.ml" 162 5121 5137
+)
+"mod.ml" 159 5027 5048 "mod.ml" 159 5027 5051
+type(
+  Location.t
+)
+ident(
+  int_ref loc "mod.ml" 145 4456 4472 "mod.ml" 145 4456 4475
+)
+"mod.ml" 159 5027 5052 "mod.ml" 159 5027 5055
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 145 4456 4476 "mod.ml" 145 4456 4479
+)
+"mod.ml" 159 5027 5056 "mod.ml" 159 5027 5061
+type(
+  trace
+)
+ident(
+  int_ref trace "mod.ml" 147 4629 4634 "mod.ml" 147 4629 4639
+)
+"mod.ml" 159 5027 5062 "mod.ml" 159 5027 5064
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 147 4629 4640 "mod.ml" 147 4629 4642
+)
+"mod.ml" 159 5027 5065 "mod.ml" 159 5027 5073
+type(
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list
+)
+ident(
+  int_ref problems "mod.ml" 147 4629 4650 "mod.ml" 147 4629 4658
+)
+"mod.ml" 159 5027 5035 "mod.ml" 159 5027 5073
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Path.t * Typedtree.expression *
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr) ->
+  Resolve_result.t
+)
+"mod.ml" 158 5007 5015 "mod.ml" 159 5027 5073
+call(
+  stack
+)
+type(
+  Resolve_result.t list
+)
+"mod.ml" 157 4979 4985 "mod.ml" 159 5027 5073
+call(
+  tail
+)
+type(
+  Resolve_result.t
+)
+"mod.ml" 153 4837 4843 "mod.ml" 159 5027 5073
+type(
+  Resolve_result.t
+)
+"mod.ml" 149 4711 4717 "mod.ml" 159 5027 5073
+type(
+  Resolve_result.t
+)
+"mod.ml" 148 4662 4668 "mod.ml" 159 5027 5073
+type(
+  Resolve_result.t
+)
+"mod.ml" 145 4456 4538 "mod.ml" 159 5027 5073
+type(
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list ->
+  Resolve_result.t
+)
+type(
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list ->
+  Resolve_result.t
+)
+"mod.ml" 162 5121 5125 "mod.ml" 162 5121 5137
+type(
+  Location.t ->
+  Env.t ->
+  trace ->
+  Typpx.Compilerlib.Types.type_expr ->
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list ->
+  Typpx.Compilerlib.Path.t * Typedtree.expression *
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr) ->
+  Resolve_result.t
+)
+ident(
+  def resolve_cand "mod.ml" 145 4456 4456 "mod.ml" 1 0 -1
+)
+"mod.ml" 162 5121 5138 "mod.ml" 162 5121 5141
+type(
+  Location.t
+)
+ident(
+  def loc "mod.ml" 162 5121 5142 "mod.ml" 258 8852 8893
+)
+"mod.ml" 162 5121 5142 "mod.ml" 162 5121 5145
+type(
+  Env.t
+)
+ident(
+  def env "mod.ml" 162 5121 5146 "mod.ml" 258 8852 8893
+)
+"mod.ml" 162 5121 5146 "mod.ml" 162 5121 5151
+type(
+  trace
+)
+ident(
+  def trace "mod.ml" 162 5121 5152 "mod.ml" 258 8852 8893
+)
+"mod.ml" 162 5121 5152 "mod.ml" 162 5121 5154
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 162 5121 5155 "mod.ml" 258 8852 8893
+)
+"mod.ml" 162 5121 5155 "mod.ml" 162 5121 5163
+type(
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list
+)
+ident(
+  def problems "mod.ml" 162 5121 5164 "mod.ml" 258 8852 8893
+)
+"mod.ml" 162 5121 5165 "mod.ml" 162 5121 5169
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def path "mod.ml" 164 5190 5192 "mod.ml" 258 8852 8893
+)
+"mod.ml" 162 5121 5171 "mod.ml" 162 5121 5175
+type(
+  Typedtree.expression
+)
+ident(
+  def expr "mod.ml" 164 5190 5192 "mod.ml" 258 8852 8893
+)
+"mod.ml" 162 5121 5178 "mod.ml" 162 5121 5180
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+ident(
+  def cs "mod.ml" 164 5190 5192 "mod.ml" 258 8852 8893
+)
+"mod.ml" 162 5121 5181 "mod.ml" 162 5121 5184
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def vty "mod.ml" 164 5190 5192 "mod.ml" 258 8852 8893
+)
+"mod.ml" 162 5121 5177 "mod.ml" 162 5121 5185
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list * Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 162 5121 5164 "mod.ml" 162 5121 5186
+type(
+  Typpx.Compilerlib.Path.t * Typedtree.expression *
+  ((Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list * Typpx.Compilerlib.Types.type_expr)
+)
+"mod.ml" 164 5190 5196 "mod.ml" 164 5190 5206
+type(
+  Tysize.t
+)
+ident(
+  def org_tysize "mod.ml" 166 5229 5231 "mod.ml" 258 8852 8893
+)
+"mod.ml" 164 5190 5209 "mod.ml" 164 5190 5220
+type(
+  Typpx.Compilerlib.Types.type_expr -> Tysize.t
+)
+ident(
+  ext_ref Tysize.size
+)
+"mod.ml" 164 5190 5221 "mod.ml" 164 5190 5223
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 162 5121 5152 "mod.ml" 162 5121 5154
+)
+"mod.ml" 164 5190 5209 "mod.ml" 164 5190 5223
+call(
+  stack
+)
+type(
+  Tysize.t
+)
+"mod.ml" 166 5229 5237 "mod.ml" 166 5229 5246
+type(
+  Typpx.Compilerlib.Path.t ->
+  trace -> Typpx.Compilerlib.Types.type_expr option
+)
+ident(
+  ext_ref Utils.List.assoc_opt
+)
+"mod.ml" 166 5229 5247 "mod.ml" 166 5229 5251
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "mod.ml" 162 5121 5165 "mod.ml" 162 5121 5169
+)
+"mod.ml" 166 5229 5252 "mod.ml" 166 5229 5257
+type(
+  trace
+)
+ident(
+  int_ref trace "mod.ml" 162 5121 5146 "mod.ml" 162 5121 5151
+)
+"mod.ml" 166 5229 5237 "mod.ml" 166 5229 5257
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"mod.ml" 167 5263 5272 "mod.ml" 167 5263 5275
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty' "mod.ml" 167 5263 5281 "mod.ml" 181 5888 5914
+)
+"mod.ml" 167 5263 5267 "mod.ml" 167 5263 5275
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"mod.ml" 167 5263 5281 "mod.ml" 167 5263 5284
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"mod.ml" 167 5263 5285 "mod.ml" 167 5263 5286
+type(
+  (bool -> bool) -> bool -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 167 5263 5295 "mod.ml" 167 5263 5297
+type(
+  Tysize.t -> Tysize.t -> bool
+)
+ident(
+  ext_ref Tysize.lt
+)
+"mod.ml" 167 5263 5298 "mod.ml" 167 5263 5308
+type(
+  Tysize.t
+)
+ident(
+  int_ref org_tysize "mod.ml" 164 5190 5196 "mod.ml" 164 5190 5206
+)
+"mod.ml" 167 5263 5310 "mod.ml" 167 5263 5314
+type(
+  Typpx.Compilerlib.Types.type_expr -> Tysize.t
+)
+ident(
+  ext_ref Tysize.size
+)
+"mod.ml" 167 5263 5315 "mod.ml" 167 5263 5318
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty' "mod.ml" 167 5263 5272 "mod.ml" 167 5263 5275
+)
+"mod.ml" 167 5263 5309 "mod.ml" 167 5263 5319
+call(
+  stack
+)
+type(
+  Tysize.t
+)
+"mod.ml" 167 5263 5295 "mod.ml" 167 5263 5319
+call(
+  stack
+)
+type(
+  bool
+)
+"mod.ml" 167 5263 5281 "mod.ml" 167 5263 5320
+type(
+  bool
+)
+"mod.ml" 169 5404 5413 "mod.ml" 169 5404 5414
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mod.ml" 169 5404 5414 "mod.ml" 169 5404 5430
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_unif
+)
+"mod.ml" 169 5404 5413 "mod.ml" 169 5404 5430
+type(
+  bool
+)
+"mod.ml" 170 5442 5450 "mod.ml" 170 5442 5453
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 170 5442 5454 "mod.ml" 170 5442 5496
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format
+)
+"mod.ml" 170 5442 5450 "mod.ml" 170 5442 5496
+type(
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+"mod.ml" 171 5497 5507 "mod.ml" 171 5497 5525
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_expr
+)
+"mod.ml" 171 5497 5526 "mod.ml" 171 5497 5528
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 162 5121 5152 "mod.ml" 162 5121 5154
+)
+"mod.ml" 172 5529 5539 "mod.ml" 172 5529 5550
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"mod.ml" 172 5529 5551 "mod.ml" 172 5529 5555
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "mod.ml" 162 5121 5165 "mod.ml" 162 5121 5169
+)
+"mod.ml" 170 5442 5450 "mod.ml" 172 5529 5555
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 173 5557 5565 "mod.ml" 173 5557 5568
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr ->
+   string ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr -> string -> unit,
+   Ppxx.Utils.Format.formatter, unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr ->
+  string ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr -> string -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 173 5557 5569 "mod.ml" 173 5557 5692
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr ->
+   string ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr -> string -> unit,
+   Ppxx.Utils.Format.formatter, unit)
+  format
+)
+"mod.ml" 173 5557 5565 "mod.ml" 173 5557 5692
+type(
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr ->
+  string ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr -> string -> unit
+)
+"mod.ml" 174 5694 5704 "mod.ml" 174 5694 5715
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"mod.ml" 174 5694 5716 "mod.ml" 174 5694 5720
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "mod.ml" 162 5121 5165 "mod.ml" 162 5121 5169
+)
+"mod.ml" 175 5721 5731 "mod.ml" 175 5721 5749
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_expr
+)
+"mod.ml" 175 5721 5750 "mod.ml" 175 5721 5753
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty' "mod.ml" 167 5263 5272 "mod.ml" 167 5263 5275
+)
+"mod.ml" 176 5754 5773 "mod.ml" 176 5754 5782
+type(
+  Tysize.t -> string
+)
+ident(
+  ext_ref Tysize.to_string
+)
+"mod.ml" 176 5754 5783 "mod.ml" 176 5754 5784
+type(
+  (Tysize.t -> string) -> Tysize.t -> string
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 176 5754 5785 "mod.ml" 176 5754 5789
+type(
+  Typpx.Compilerlib.Types.type_expr -> Tysize.t
+)
+ident(
+  ext_ref Tysize.size
+)
+"mod.ml" 176 5754 5790 "mod.ml" 176 5754 5793
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty' "mod.ml" 167 5263 5272 "mod.ml" 167 5263 5275
+)
+"mod.ml" 176 5754 5785 "mod.ml" 176 5754 5793
+call(
+  stack
+)
+type(
+  Tysize.t
+)
+"mod.ml" 176 5754 5773 "mod.ml" 176 5754 5793
+call(
+  stack
+)
+type(
+  string
+)
+"mod.ml" 177 5796 5806 "mod.ml" 177 5796 5824
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_expr
+)
+"mod.ml" 177 5796 5825 "mod.ml" 177 5796 5827
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 162 5121 5152 "mod.ml" 162 5121 5154
+)
+"mod.ml" 178 5828 5847 "mod.ml" 178 5828 5856
+type(
+  Tysize.t -> string
+)
+ident(
+  ext_ref Tysize.to_string
+)
+"mod.ml" 178 5828 5857 "mod.ml" 178 5828 5858
+type(
+  (Tysize.t -> string) -> Tysize.t -> string
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 178 5828 5859 "mod.ml" 178 5828 5863
+type(
+  Typpx.Compilerlib.Types.type_expr -> Tysize.t
+)
+ident(
+  ext_ref Tysize.size
+)
+"mod.ml" 178 5828 5864 "mod.ml" 178 5828 5866
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 162 5121 5152 "mod.ml" 162 5121 5154
+)
+"mod.ml" 178 5828 5859 "mod.ml" 178 5828 5866
+call(
+  stack
+)
+type(
+  Tysize.t
+)
+"mod.ml" 178 5828 5847 "mod.ml" 178 5828 5866
+call(
+  stack
+)
+type(
+  string
+)
+"mod.ml" 173 5557 5565 "mod.ml" 178 5828 5869
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 169 5404 5436 "mod.ml" 179 5870 5879
+type(
+  unit
+)
+"mod.ml" 169 5404 5410 "mod.ml" 179 5870 5879
+type(
+  unit
+)
+"mod.ml" 181 5888 5912 "mod.ml" 181 5888 5914
+type(
+  Typedtree.expression list list
+)
+"mod.ml" 181 5888 5894 "mod.ml" 181 5888 5914
+type(
+  Resolve_result.t
+)
+"mod.ml" 169 5404 5410 "mod.ml" 181 5888 5914
+type(
+  Resolve_result.t
+)
+"mod.ml" 183 5916 5920 "mod.ml" 183 5916 5921
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"mod.ml" 185 6016 6026 "mod.ml" 185 6016 6032
+type(
+  (Typpx.Compilerlib.Path.t * Typpx.Compilerlib.Types.type_expr) list
+)
+ident(
+  def trace' "mod.ml" 187 6060 6066 "mod.ml" 258 8852 8893
+)
+"mod.ml" 185 6016 6036 "mod.ml" 185 6016 6040
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "mod.ml" 162 5121 5165 "mod.ml" 162 5121 5169
+)
+"mod.ml" 185 6016 6042 "mod.ml" 185 6016 6044
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 162 5121 5152 "mod.ml" 162 5121 5154
+)
+"mod.ml" 185 6016 6035 "mod.ml" 185 6016 6045
+type(
+  Typpx.Compilerlib.Path.t * Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 185 6016 6049 "mod.ml" 185 6016 6054
+type(
+  trace
+)
+ident(
+  int_ref trace "mod.ml" 162 5121 5146 "mod.ml" 162 5121 5151
+)
+"mod.ml" 185 6016 6035 "mod.ml" 185 6016 6054
+type(
+  (Typpx.Compilerlib.Path.t * Typpx.Compilerlib.Types.type_expr) list
+)
+"mod.ml" 187 6060 6070 "mod.ml" 187 6060 6073
+type(
+  Types.type_expr
+)
+ident(
+  def ity "mod.ml" 189 6107 6113 "mod.ml" 258 8852 8893
+)
+"mod.ml" 187 6060 6076 "mod.ml" 187 6060 6090
+type(
+  ?partial:bool ->
+  Env.t -> Typpx.Compilerlib.Types.type_expr -> Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.instance
+)
+"mod.ml" 187 6060 6091 "mod.ml" 187 6060 6094
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 162 5121 5142 "mod.ml" 162 5121 5145
+)
+"mod.ml" 187 6060 6095 "mod.ml" 187 6060 6097
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 162 5121 5152 "mod.ml" 162 5121 5154
+)
+"mod.ml" 187 6060 6076 "mod.ml" 187 6060 6097
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"mod.ml" 189 6107 6117 "mod.ml" 189 6107 6121
+type(
+  Types.type_expr
+)
+ident(
+  def ivty "mod.ml" 196 6375 6381 "mod.ml" 258 8852 8893
+)
+"mod.ml" 189 6107 6123 "mod.ml" 189 6107 6125
+type(
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+ident(
+  def cs "mod.ml" 196 6375 6381 "mod.ml" 258 8852 8893
+)
+"mod.ml" 189 6107 6117 "mod.ml" 189 6107 6125
+type(
+  Types.type_expr *
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+"mod.ml" 190 6128 6142 "mod.ml" 190 6128 6161
+type(
+  Env.t -> Typpx.Compilerlib.Types.type_expr list -> Types.type_expr list
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.instance_list
+)
+"mod.ml" 190 6128 6162 "mod.ml" 190 6128 6165
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 162 5121 5142 "mod.ml" 162 5121 5145
+)
+"mod.ml" 190 6128 6167 "mod.ml" 190 6128 6170
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref vty "mod.ml" 162 5121 5181 "mod.ml" 162 5121 5184
+)
+"mod.ml" 190 6128 6172 "mod.ml" 190 6128 6175
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression) ->
+   Typpx.Compilerlib.Types.type_expr) ->
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list -> Typpx.Compilerlib.Types.type_expr list
+)
+ident(
+  ext_ref Utils.List.map
+)
+"mod.ml" 190 6128 6182 "mod.ml" 190 6128 6183
+type(
+  Asttypes.arg_label
+)
+"mod.ml" 190 6128 6184 "mod.ml" 190 6128 6186
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 190 6128 6203 "mod.ml" 190 6128 6205
+)
+"mod.ml" 190 6128 6187 "mod.ml" 190 6128 6192
+type(
+  Spec.t
+)
+ident(
+  def _spec "mod.ml" 190 6128 6203 "mod.ml" 190 6128 6205
+)
+"mod.ml" 190 6128 6193 "mod.ml" 190 6128 6198
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def _conv "mod.ml" 190 6128 6203 "mod.ml" 190 6128 6205
+)
+"mod.ml" 190 6128 6181 "mod.ml" 190 6128 6199
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 190 6128 6203 "mod.ml" 190 6128 6205
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 190 6128 6184 "mod.ml" 190 6128 6186
+)
+"mod.ml" 190 6128 6176 "mod.ml" 190 6128 6206
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression) ->
+  Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 190 6128 6207 "mod.ml" 190 6128 6209
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+ident(
+  int_ref cs "mod.ml" 162 5121 5178 "mod.ml" 162 5121 5180
+)
+"mod.ml" 190 6128 6172 "mod.ml" 190 6128 6209
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+"mod.ml" 190 6128 6166 "mod.ml" 190 6128 6210
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+"mod.ml" 190 6128 6142 "mod.ml" 190 6128 6210
+call(
+  stack
+)
+type(
+  Types.type_expr list
+)
+"mod.ml" 191 6216 6226 "mod.ml" 191 6216 6228
+type(
+  Types.type_expr list
+)
+"mod.ml" 191 6216 6239 "mod.ml" 191 6216 6244
+type(
+  bool
+)
+"mod.ml" 191 6216 6232 "mod.ml" 191 6216 6244
+type(
+  Types.type_expr *
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+"mod.ml" 192 6257 6267 "mod.ml" 192 6257 6271
+type(
+  Types.type_expr
+)
+ident(
+  def ivty "mod.ml" 193 6284 6296 "mod.ml" 193 6284 6364
+)
+"mod.ml" 192 6257 6275 "mod.ml" 192 6257 6280
+type(
+  Types.type_expr list
+)
+ident(
+  def ictys "mod.ml" 193 6284 6296 "mod.ml" 193 6284 6364
+)
+"mod.ml" 192 6257 6267 "mod.ml" 192 6257 6280
+type(
+  Types.type_expr list
+)
+"mod.ml" 193 6284 6296 "mod.ml" 193 6284 6300
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ivty "mod.ml" 192 6257 6267 "mod.ml" 192 6257 6271
+)
+"mod.ml" 193 6284 6302 "mod.ml" 193 6284 6306
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression) ->
+   Types.type_expr ->
+   Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression)) ->
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list ->
+  Types.type_expr list ->
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+ident(
+  ext_ref Utils.List.map2
+)
+"mod.ml" 193 6284 6313 "mod.ml" 193 6284 6314
+type(
+  Asttypes.arg_label
+)
+ident(
+  def l "mod.ml" 193 6284 6328 "mod.ml" 193 6284 6354
+)
+"mod.ml" 193 6284 6315 "mod.ml" 193 6284 6316
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 193 6284 6317 "mod.ml" 193 6284 6321
+type(
+  Spec.t
+)
+ident(
+  def spec "mod.ml" 193 6284 6328 "mod.ml" 193 6284 6354
+)
+"mod.ml" 193 6284 6322 "mod.ml" 193 6284 6326
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def conv "mod.ml" 193 6284 6328 "mod.ml" 193 6284 6354
+)
+"mod.ml" 193 6284 6312 "mod.ml" 193 6284 6327
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 193 6284 6328 "mod.ml" 193 6284 6332
+type(
+  Types.type_expr
+)
+ident(
+  def icty "mod.ml" 193 6284 6336 "mod.ml" 193 6284 6354
+)
+"mod.ml" 193 6284 6337 "mod.ml" 193 6284 6338
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "mod.ml" 193 6284 6313 "mod.ml" 193 6284 6314
+)
+"mod.ml" 193 6284 6339 "mod.ml" 193 6284 6343
+type(
+  Types.type_expr
+)
+ident(
+  int_ref icty "mod.ml" 193 6284 6328 "mod.ml" 193 6284 6332
+)
+"mod.ml" 193 6284 6344 "mod.ml" 193 6284 6348
+type(
+  Spec.t
+)
+ident(
+  int_ref spec "mod.ml" 193 6284 6317 "mod.ml" 193 6284 6321
+)
+"mod.ml" 193 6284 6349 "mod.ml" 193 6284 6353
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref conv "mod.ml" 193 6284 6322 "mod.ml" 193 6284 6326
+)
+"mod.ml" 193 6284 6336 "mod.ml" 193 6284 6354
+type(
+  Asttypes.arg_label * Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 193 6284 6307 "mod.ml" 193 6284 6355
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression) ->
+  Types.type_expr ->
+  Asttypes.arg_label * Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 193 6284 6356 "mod.ml" 193 6284 6358
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+ident(
+  int_ref cs "mod.ml" 162 5121 5178 "mod.ml" 162 5121 5180
+)
+"mod.ml" 193 6284 6359 "mod.ml" 193 6284 6364
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref ictys "mod.ml" 192 6257 6275 "mod.ml" 192 6257 6280
+)
+"mod.ml" 193 6284 6302 "mod.ml" 193 6284 6364
+call(
+  stack
+)
+type(
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+"mod.ml" 193 6284 6296 "mod.ml" 193 6284 6364
+type(
+  Types.type_expr *
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+"mod.ml" 190 6128 6136 "mod.ml" 193 6284 6364
+type(
+  Types.type_expr *
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+"mod.ml" 196 6375 6381 "mod.ml" 196 6375 6394
+type(
+  (unit -> Resolve_result.t) -> Resolve_result.t
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.with_snapshot
+)
+"mod.ml" 196 6375 6395 "mod.ml" 196 6375 6396
+type(
+  ((unit -> Resolve_result.t) -> Resolve_result.t) ->
+  (unit -> Resolve_result.t) -> Resolve_result.t
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 196 6375 6401 "mod.ml" 196 6375 6403
+type(
+  unit
+)
+"mod.ml" 197 6407 6418 "mod.ml" 197 6407 6419
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mod.ml" 197 6407 6419 "mod.ml" 197 6407 6435
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_unif
+)
+"mod.ml" 197 6407 6418 "mod.ml" 197 6407 6435
+type(
+  bool
+)
+"mod.ml" 198 6447 6457 "mod.ml" 198 6447 6460
+type(
+  ((Ppxx.Utils.Format.formatter -> Types.type_expr -> unit) ->
+   Types.type_expr ->
+   (Ppxx.Utils.Format.formatter -> Types.type_expr -> unit) ->
+   Types.type_expr ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Types.type_expr -> unit) ->
+  Types.type_expr ->
+  (Ppxx.Utils.Format.formatter -> Types.type_expr -> unit) ->
+  Types.type_expr ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 198 6447 6461 "mod.ml" 198 6447 6498
+type(
+  ((Ppxx.Utils.Format.formatter -> Types.type_expr -> unit) ->
+   Types.type_expr ->
+   (Ppxx.Utils.Format.formatter -> Types.type_expr -> unit) ->
+   Types.type_expr ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format
+)
+"mod.ml" 198 6447 6457 "mod.ml" 198 6447 6498
+type(
+  (Ppxx.Utils.Format.formatter -> Types.type_expr -> unit) ->
+  Types.type_expr ->
+  (Ppxx.Utils.Format.formatter -> Types.type_expr -> unit) ->
+  Types.type_expr ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+"mod.ml" 199 6499 6511 "mod.ml" 199 6499 6529
+type(
+  Ppxx.Utils.Format.formatter -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_expr
+)
+"mod.ml" 199 6499 6530 "mod.ml" 199 6499 6533
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ity "mod.ml" 187 6060 6070 "mod.ml" 187 6060 6073
+)
+"mod.ml" 200 6534 6546 "mod.ml" 200 6534 6564
+type(
+  Ppxx.Utils.Format.formatter -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_expr
+)
+"mod.ml" 200 6534 6565 "mod.ml" 200 6534 6569
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ivty "mod.ml" 189 6107 6117 "mod.ml" 189 6107 6121
+)
+"mod.ml" 201 6570 6582 "mod.ml" 201 6570 6593
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"mod.ml" 201 6570 6594 "mod.ml" 201 6570 6598
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "mod.ml" 162 5121 5165 "mod.ml" 162 5121 5169
+)
+"mod.ml" 197 6407 6441 "mod.ml" 202 6600 6611
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 197 6407 6415 "mod.ml" 202 6600 6611
+type(
+  unit
+)
+"mod.ml" 203 6613 6627 "mod.ml" 203 6613 6634
+type(
+  (unit -> unit) -> (unit, exn) result
+)
+ident(
+  ext_ref Ppxx.Utils.protect
+)
+"mod.ml" 203 6613 6635 "mod.ml" 203 6613 6636
+type(
+  ((unit -> unit) -> (unit, exn) result) ->
+  (unit -> unit) -> (unit, exn) result
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 203 6613 6641 "mod.ml" 203 6613 6643
+type(
+  unit
+)
+"mod.ml" 203 6613 6647 "mod.ml" 203 6613 6658
+type(
+  Env.t -> Types.type_expr -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.unify
+)
+"mod.ml" 203 6613 6659 "mod.ml" 203 6613 6662
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 162 5121 5142 "mod.ml" 162 5121 5145
+)
+"mod.ml" 203 6613 6663 "mod.ml" 203 6613 6666
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ity "mod.ml" 187 6060 6070 "mod.ml" 187 6060 6073
+)
+"mod.ml" 203 6613 6667 "mod.ml" 203 6613 6671
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ivty "mod.ml" 189 6107 6117 "mod.ml" 189 6107 6121
+)
+"mod.ml" 203 6613 6647 "mod.ml" 203 6613 6671
+call(
+  tail
+)
+type(
+  unit
+)
+"mod.ml" 203 6613 6637 "mod.ml" 203 6613 6671
+type(
+  unit -> unit
+)
+"mod.ml" 203 6613 6627 "mod.ml" 203 6613 6671
+call(
+  stack
+)
+type(
+  (unit, exn) result
+)
+"mod.ml" 204 6677 6706 "mod.ml" 204 6677 6712
+type(
+  (Types.type_expr * Types.type_expr) list
+)
+ident(
+  def utrace "mod.ml" 205 6717 6729 "mod.ml" 218 7234 7266
+)
+"mod.ml" 204 6677 6693 "mod.ml" 204 6677 6713
+type(
+  exn
+)
+"mod.ml" 204 6677 6687 "mod.ml" 204 6677 6713
+type(
+  (unit, exn) result
+)
+"mod.ml" 205 6717 6732 "mod.ml" 205 6717 6733
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mod.ml" 205 6717 6733 "mod.ml" 205 6717 6749
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_unif
+)
+"mod.ml" 205 6717 6732 "mod.ml" 205 6717 6749
+type(
+  bool
+)
+"mod.ml" 206 6761 6775 "mod.ml" 206 6761 6778
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 206 6761 6779 "mod.ml" 206 6761 6789
+type(
+  (unit, Format.formatter, unit) format
+)
+"mod.ml" 206 6761 6775 "mod.ml" 206 6761 6789
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 207 6791 6805 "mod.ml" 207 6791 6808
+type(
+  ((Format.formatter -> (Types.type_expr * Types.type_expr) list -> unit) ->
+   (Types.type_expr * Types.type_expr) list -> unit, Format.formatter, 
+   unit)
+  format ->
+  (Format.formatter -> (Types.type_expr * Types.type_expr) list -> unit) ->
+  (Types.type_expr * Types.type_expr) list -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 207 6791 6809 "mod.ml" 207 6791 6833
+type(
+  ((Format.formatter -> (Types.type_expr * Types.type_expr) list -> unit) ->
+   (Types.type_expr * Types.type_expr) list -> unit, Format.formatter, 
+   unit)
+  format
+)
+"mod.ml" 207 6791 6805 "mod.ml" 207 6791 6833
+type(
+  (Format.formatter -> (Types.type_expr * Types.type_expr) list -> unit) ->
+  (Types.type_expr * Types.type_expr) list -> unit
+)
+"mod.ml" 208 6834 6855 "mod.ml" 208 6834 6858
+type(
+  Format.formatter
+)
+ident(
+  def ppf "mod.ml" 208 6834 6859 "mod.ml" 211 7000 7049
+)
+"mod.ml" 208 6834 6859 "mod.ml" 208 6834 6865
+type(
+  (Types.type_expr * Types.type_expr) list
+)
+ident(
+  def utrace "mod.ml" 208 6834 6869 "mod.ml" 211 7000 7049
+)
+"mod.ml" 208 6834 6869 "mod.ml" 208 6834 6902
+type(
+  Format.formatter ->
+  Env.t ->
+  ?unif:bool ->
+  (Types.type_expr * Types.type_expr) list ->
+  (Ppxx.Utils.Format.formatter -> unit) ->
+  (Ppxx.Utils.Format.formatter -> unit) -> unit
+)
+ident(
+  ext_ref Printtyp.report_unification_error
+)
+"mod.ml" 208 6834 6903 "mod.ml" 208 6834 6906
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "mod.ml" 208 6834 6855 "mod.ml" 208 6834 6858
+)
+"mod.ml" 209 6907 6925 "mod.ml" 209 6907 6928
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 162 5121 5142 "mod.ml" 162 5121 5145
+)
+"mod.ml" 209 6907 6929 "mod.ml" 209 6907 6935
+type(
+  (Types.type_expr * Types.type_expr) list
+)
+ident(
+  int_ref utrace "mod.ml" 208 6834 6859 "mod.ml" 208 6834 6865
+)
+"mod.ml" 210 6936 6959 "mod.ml" 210 6936 6962
+type(
+  Ppxx.Utils.Format.formatter
+)
+ident(
+  def ppf "mod.ml" 210 6936 6966 "mod.ml" 210 6936 6998
+)
+"mod.ml" 210 6936 6966 "mod.ml" 210 6936 6973
+type(
+  Ppxx.Utils.Format.formatter ->
+  (unit, Ppxx.Utils.Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.Format.fprintf
+)
+"mod.ml" 210 6936 6974 "mod.ml" 210 6936 6977
+type(
+  Ppxx.Utils.Format.formatter
+)
+ident(
+  int_ref ppf "mod.ml" 210 6936 6959 "mod.ml" 210 6936 6962
+)
+"mod.ml" 210 6936 6978 "mod.ml" 210 6936 6998
+type(
+  (unit, Ppxx.Utils.Format.formatter, unit) format
+)
+"mod.ml" 210 6936 6966 "mod.ml" 210 6936 6998
+call(
+  tail
+)
+type(
+  unit
+)
+"mod.ml" 210 6936 6954 "mod.ml" 210 6936 6999
+type(
+  Ppxx.Utils.Format.formatter -> unit
+)
+"mod.ml" 211 7000 7023 "mod.ml" 211 7000 7026
+type(
+  Ppxx.Utils.Format.formatter
+)
+ident(
+  def ppf "mod.ml" 211 7000 7030 "mod.ml" 211 7000 7048
+)
+"mod.ml" 211 7000 7030 "mod.ml" 211 7000 7037
+type(
+  Ppxx.Utils.Format.formatter ->
+  (unit, Ppxx.Utils.Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.Format.fprintf
+)
+"mod.ml" 211 7000 7038 "mod.ml" 211 7000 7041
+type(
+  Ppxx.Utils.Format.formatter
+)
+ident(
+  int_ref ppf "mod.ml" 211 7000 7023 "mod.ml" 211 7000 7026
+)
+"mod.ml" 211 7000 7042 "mod.ml" 211 7000 7048
+type(
+  (unit, Ppxx.Utils.Format.formatter, unit) format
+)
+"mod.ml" 211 7000 7030 "mod.ml" 211 7000 7048
+call(
+  tail
+)
+type(
+  unit
+)
+"mod.ml" 211 7000 7018 "mod.ml" 211 7000 7049
+type(
+  Ppxx.Utils.Format.formatter -> unit
+)
+"mod.ml" 208 6834 6869 "mod.ml" 211 7000 7049
+call(
+  tail
+)
+type(
+  unit
+)
+"mod.ml" 208 6834 6850 "mod.ml" 211 7000 7050
+type(
+  Format.formatter -> (Types.type_expr * Types.type_expr) list -> unit
+)
+"mod.ml" 212 7051 7067 "mod.ml" 212 7051 7073
+type(
+  (Types.type_expr * Types.type_expr) list
+)
+ident(
+  int_ref utrace "mod.ml" 204 6677 6706 "mod.ml" 204 6677 6712
+)
+"mod.ml" 207 6791 6805 "mod.ml" 212 7051 7073
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 214 7076 7090 "mod.ml" 214 7076 7093
+type(
+  ((Format.formatter -> Types.type_expr -> unit) -> Types.type_expr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.type_expr -> unit) -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 214 7076 7094 "mod.ml" 214 7076 7116
+type(
+  ((Format.formatter -> Types.type_expr -> unit) -> Types.type_expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"mod.ml" 214 7076 7090 "mod.ml" 214 7076 7116
+type(
+  (Format.formatter -> Types.type_expr -> unit) -> Types.type_expr -> unit
+)
+"mod.ml" 214 7076 7117 "mod.ml" 214 7076 7139
+type(
+  Format.formatter -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.raw_type_expr
+)
+"mod.ml" 214 7076 7141 "mod.ml" 214 7076 7144
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ity "mod.ml" 187 6060 6070 "mod.ml" 187 6060 6073
+)
+"mod.ml" 214 7076 7090 "mod.ml" 214 7076 7144
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 215 7146 7160 "mod.ml" 215 7146 7163
+type(
+  ((Format.formatter -> Types.type_expr -> unit) -> Types.type_expr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.type_expr -> unit) -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 215 7146 7164 "mod.ml" 215 7146 7186
+type(
+  ((Format.formatter -> Types.type_expr -> unit) -> Types.type_expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"mod.ml" 215 7146 7160 "mod.ml" 215 7146 7186
+type(
+  (Format.formatter -> Types.type_expr -> unit) -> Types.type_expr -> unit
+)
+"mod.ml" 215 7146 7187 "mod.ml" 215 7146 7209
+type(
+  Format.formatter -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.raw_type_expr
+)
+"mod.ml" 215 7146 7211 "mod.ml" 215 7146 7215
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ivty "mod.ml" 189 6107 6117 "mod.ml" 189 6107 6121
+)
+"mod.ml" 215 7146 7160 "mod.ml" 215 7146 7215
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 214 7076 7090 "mod.ml" 215 7146 7215
+type(
+  unit
+)
+"mod.ml" 207 6791 6805 "mod.ml" 215 7146 7215
+type(
+  unit
+)
+"mod.ml" 205 6717 6755 "mod.ml" 217 7217 7232
+type(
+  unit
+)
+"mod.ml" 205 6717 6729 "mod.ml" 217 7217 7232
+type(
+  unit
+)
+"mod.ml" 218 7234 7264 "mod.ml" 218 7234 7266
+type(
+  Typedtree.expression list list
+)
+"mod.ml" 218 7234 7246 "mod.ml" 218 7234 7266
+type(
+  Resolve_result.t
+)
+"mod.ml" 205 6717 6729 "mod.ml" 218 7234 7266
+type(
+  Resolve_result.t
+)
+"mod.ml" 220 7305 7321 "mod.ml" 220 7305 7322
+type(
+  exn
+)
+ident(
+  def e "mod.ml" 220 7305 7326 "mod.ml" 220 7305 7333
+)
+"mod.ml" 220 7305 7315 "mod.ml" 220 7305 7322
+type(
+  (unit, exn) result
+)
+"mod.ml" 220 7305 7326 "mod.ml" 220 7305 7331
+type(
+  exn -> Resolve_result.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"mod.ml" 220 7305 7332 "mod.ml" 220 7305 7333
+type(
+  exn
+)
+ident(
+  int_ref e "mod.ml" 220 7305 7321 "mod.ml" 220 7305 7322
+)
+"mod.ml" 220 7305 7326 "mod.ml" 220 7305 7333
+type(
+  Resolve_result.t
+)
+"mod.ml" 222 7352 7365 "mod.ml" 222 7352 7366
+type(
+  unit
+)
+"mod.ml" 222 7352 7362 "mod.ml" 222 7352 7366
+type(
+  (unit, exn) result
+)
+"mod.ml" 223 7370 7385 "mod.ml" 223 7370 7386
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mod.ml" 223 7370 7386 "mod.ml" 223 7370 7402
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_unif
+)
+"mod.ml" 223 7370 7385 "mod.ml" 223 7370 7402
+type(
+  bool
+)
+"mod.ml" 224 7408 7422 "mod.ml" 224 7408 7425
+type(
+  ((Format.formatter -> Types.type_expr -> unit) -> Types.type_expr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Types.type_expr -> unit) -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 224 7408 7426 "mod.ml" 224 7408 7440
+type(
+  ((Format.formatter -> Types.type_expr -> unit) -> Types.type_expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"mod.ml" 224 7408 7422 "mod.ml" 224 7408 7440
+type(
+  (Format.formatter -> Types.type_expr -> unit) -> Types.type_expr -> unit
+)
+"mod.ml" 224 7408 7441 "mod.ml" 224 7408 7459
+type(
+  Format.formatter -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_expr
+)
+"mod.ml" 224 7408 7460 "mod.ml" 224 7408 7463
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ity "mod.ml" 187 6060 6070 "mod.ml" 187 6060 6073
+)
+"mod.ml" 224 7408 7422 "mod.ml" 224 7408 7463
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 223 7370 7382 "mod.ml" 224 7408 7463
+type(
+  unit
+)
+"mod.ml" 226 7478 7494 "mod.ml" 226 7478 7504
+type(
+  Tysize.t
+)
+ident(
+  def new_tysize "mod.ml" 228 7526 7538 "mod.ml" 258 8852 8893
+)
+"mod.ml" 226 7478 7507 "mod.ml" 226 7478 7518
+type(
+  Typpx.Compilerlib.Types.type_expr -> Tysize.t
+)
+ident(
+  ext_ref Tysize.size
+)
+"mod.ml" 226 7478 7519 "mod.ml" 226 7478 7521
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 162 5121 5152 "mod.ml" 162 5121 5154
+)
+"mod.ml" 226 7478 7507 "mod.ml" 226 7478 7521
+call(
+  stack
+)
+type(
+  Tysize.t
+)
+"mod.ml" 228 7526 7549 "mod.ml" 228 7526 7556
+type(
+  Tysize.t -> bool
+)
+ident(
+  ext_ref Tysize.has_var
+)
+"mod.ml" 228 7526 7557 "mod.ml" 228 7526 7567
+type(
+  Tysize.t
+)
+ident(
+  int_ref new_tysize "mod.ml" 226 7478 7494 "mod.ml" 226 7478 7504
+)
+"mod.ml" 228 7526 7549 "mod.ml" 228 7526 7567
+call(
+  stack
+)
+type(
+  bool
+)
+"mod.ml" 229 7568 7591 "mod.ml" 229 7568 7593
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"mod.ml" 229 7568 7594 "mod.ml" 229 7568 7601
+type(
+  Tysize.t -> bool
+)
+ident(
+  ext_ref Tysize.has_var
+)
+"mod.ml" 229 7568 7602 "mod.ml" 229 7568 7612
+type(
+  Tysize.t
+)
+ident(
+  int_ref org_tysize "mod.ml" 164 5190 5196 "mod.ml" 164 5190 5206
+)
+"mod.ml" 229 7568 7594 "mod.ml" 229 7568 7612
+call(
+  stack
+)
+type(
+  bool
+)
+"mod.ml" 230 7613 7636 "mod.ml" 230 7613 7638
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"mod.ml" 230 7613 7639 "mod.ml" 230 7613 7642
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"mod.ml" 230 7613 7643 "mod.ml" 230 7613 7644
+type(
+  (bool -> bool) -> bool -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 230 7613 7645 "mod.ml" 230 7613 7647
+type(
+  Tysize.t -> Tysize.t -> bool
+)
+ident(
+  ext_ref Tysize.lt
+)
+"mod.ml" 230 7613 7648 "mod.ml" 230 7613 7658
+type(
+  Tysize.t
+)
+ident(
+  int_ref new_tysize "mod.ml" 226 7478 7494 "mod.ml" 226 7478 7504
+)
+"mod.ml" 230 7613 7659 "mod.ml" 230 7613 7669
+type(
+  Tysize.t
+)
+ident(
+  int_ref org_tysize "mod.ml" 164 5190 5196 "mod.ml" 164 5190 5206
+)
+"mod.ml" 230 7613 7645 "mod.ml" 230 7613 7669
+call(
+  stack
+)
+type(
+  bool
+)
+"mod.ml" 230 7613 7639 "mod.ml" 230 7613 7669
+type(
+  bool
+)
+"mod.ml" 229 7568 7594 "mod.ml" 230 7613 7669
+type(
+  bool
+)
+"mod.ml" 228 7526 7549 "mod.ml" 230 7613 7669
+type(
+  bool
+)
+"mod.ml" 232 7694 7711 "mod.ml" 232 7694 7712
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mod.ml" 232 7694 7712 "mod.ml" 232 7694 7728
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_unif
+)
+"mod.ml" 232 7694 7711 "mod.ml" 232 7694 7728
+type(
+  bool
+)
+"mod.ml" 233 7740 7756 "mod.ml" 233 7740 7759
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 233 7740 7760 "mod.ml" 233 7740 7812
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"mod.ml" 233 7740 7756 "mod.ml" 233 7740 7812
+type(
+  string -> string -> unit
+)
+"mod.ml" 234 7813 7832 "mod.ml" 234 7813 7848
+type(
+  Tysize.t -> string
+)
+ident(
+  ext_ref Tysize.to_string
+)
+"mod.ml" 234 7813 7849 "mod.ml" 234 7813 7859
+type(
+  Tysize.t
+)
+ident(
+  int_ref org_tysize "mod.ml" 164 5190 5196 "mod.ml" 164 5190 5206
+)
+"mod.ml" 234 7813 7831 "mod.ml" 234 7813 7860
+call(
+  stack
+)
+type(
+  string
+)
+"mod.ml" 235 7861 7880 "mod.ml" 235 7861 7896
+type(
+  Tysize.t -> string
+)
+ident(
+  ext_ref Tysize.to_string
+)
+"mod.ml" 235 7861 7897 "mod.ml" 235 7861 7907
+type(
+  Tysize.t
+)
+ident(
+  int_ref new_tysize "mod.ml" 226 7478 7494 "mod.ml" 226 7478 7504
+)
+"mod.ml" 235 7861 7879 "mod.ml" 235 7861 7908
+call(
+  stack
+)
+type(
+  string
+)
+"mod.ml" 232 7694 7734 "mod.ml" 236 7909 7926
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 232 7694 7708 "mod.ml" 236 7909 7926
+type(
+  unit
+)
+"mod.ml" 238 7994 8032 "mod.ml" 238 7994 8036
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref expr "mod.ml" 162 5121 5171 "mod.ml" 162 5121 5175
+)
+"mod.ml" 238 7994 8031 "mod.ml" 238 7994 8037
+type(
+  Typedtree.expression list
+)
+"mod.ml" 238 7994 8008 "mod.ml" 238 7994 8037
+type(
+  Resolve_result.t
+)
+"mod.ml" 231 7671 7688 "mod.ml" 239 8038 8053
+type(
+  Resolve_result.t
+)
+"mod.ml" 242 8101 8119 "mod.ml" 242 8101 8127
+type(
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list
+)
+ident(
+  def problems "mod.ml" 244 8196 8210 "mod.ml" 258 8852 8893
+)
+"mod.ml" 242 8101 8130 "mod.ml" 242 8101 8133
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression) ->
+   trace * Typpx.Compilerlib.Types.type_expr * Spec.t) ->
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list -> (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list
+)
+ident(
+  ext_ref Utils.List.map
+)
+"mod.ml" 242 8101 8140 "mod.ml" 242 8101 8141
+type(
+  Asttypes.arg_label
+)
+"mod.ml" 242 8101 8142 "mod.ml" 242 8101 8144
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 242 8101 8160 "mod.ml" 242 8101 8176
+)
+"mod.ml" 242 8101 8145 "mod.ml" 242 8101 8149
+type(
+  Spec.t
+)
+ident(
+  def spec "mod.ml" 242 8101 8160 "mod.ml" 242 8101 8176
+)
+"mod.ml" 242 8101 8150 "mod.ml" 242 8101 8155
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def _conv "mod.ml" 242 8101 8160 "mod.ml" 242 8101 8176
+)
+"mod.ml" 242 8101 8139 "mod.ml" 242 8101 8156
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 242 8101 8161 "mod.ml" 242 8101 8167
+type(
+  trace
+)
+ident(
+  int_ref trace' "mod.ml" 185 6016 6026 "mod.ml" 185 6016 6032
+)
+"mod.ml" 242 8101 8168 "mod.ml" 242 8101 8170
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 242 8101 8142 "mod.ml" 242 8101 8144
+)
+"mod.ml" 242 8101 8171 "mod.ml" 242 8101 8175
+type(
+  Spec.t
+)
+ident(
+  int_ref spec "mod.ml" 242 8101 8145 "mod.ml" 242 8101 8149
+)
+"mod.ml" 242 8101 8160 "mod.ml" 242 8101 8176
+type(
+  trace * Typpx.Compilerlib.Types.type_expr * Spec.t
+)
+"mod.ml" 242 8101 8134 "mod.ml" 242 8101 8177
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression) ->
+  trace * Typpx.Compilerlib.Types.type_expr * Spec.t
+)
+"mod.ml" 242 8101 8178 "mod.ml" 242 8101 8180
+type(
+  (Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+ident(
+  int_ref cs "mod.ml" 189 6107 6123 "mod.ml" 189 6107 6125
+)
+"mod.ml" 242 8101 8130 "mod.ml" 242 8101 8180
+call(
+  stack
+)
+type(
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list
+)
+"mod.ml" 242 8101 8181 "mod.ml" 242 8101 8182
+type(
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list ->
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list ->
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mod.ml" 242 8101 8183 "mod.ml" 242 8101 8191
+type(
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list
+)
+ident(
+  int_ref problems "mod.ml" 162 5121 5155 "mod.ml" 162 5121 5163
+)
+"mod.ml" 242 8101 8130 "mod.ml" 242 8101 8191
+call(
+  stack
+)
+type(
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list
+)
+"mod.ml" 244 8196 8213 "mod.ml" 244 8196 8214
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mod.ml" 244 8196 8214 "mod.ml" 244 8196 8230
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_unif
+)
+"mod.ml" 244 8196 8213 "mod.ml" 244 8196 8230
+type(
+  bool
+)
+"mod.ml" 245 8236 8252 "mod.ml" 245 8236 8255
+type(
+  ((Ppxx__Utils.Format.t ->
+    (Asttypes.arg_label * Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list -> unit) ->
+   (Asttypes.arg_label * Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list -> unit, Ppxx__Utils.Format.t, unit)
+  format ->
+  (Ppxx__Utils.Format.t ->
+   (Asttypes.arg_label * Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list -> unit) ->
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 245 8236 8256 "mod.ml" 245 8236 8290
+type(
+  ((Ppxx__Utils.Format.t ->
+    (Asttypes.arg_label * Types.type_expr * Spec.t *
+     (Typedtree.expression -> Typedtree.expression))
+    list -> unit) ->
+   (Asttypes.arg_label * Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list -> unit, Ppxx__Utils.Format.t, unit)
+  format
+)
+"mod.ml" 245 8236 8252 "mod.ml" 245 8236 8290
+type(
+  (Ppxx__Utils.Format.t ->
+   (Asttypes.arg_label * Types.type_expr * Spec.t *
+    (Typedtree.expression -> Typedtree.expression))
+   list -> unit) ->
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list -> unit
+)
+"mod.ml" 246 8291 8310 "mod.ml" 246 8291 8321
+type(
+  (unit, Ppxx__Utils.Format.t, unit) format ->
+  (Ppxx__Utils.Format.t ->
+   Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression) -> unit) ->
+  Ppxx__Utils.Format.t ->
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.List.format
+)
+"mod.ml" 246 8291 8322 "mod.ml" 246 8291 8326
+type(
+  (unit, Ppxx__Utils.Format.t, unit) format
+)
+"mod.ml" 246 8291 8332 "mod.ml" 246 8291 8335
+type(
+  Ppxx__Utils.Format.t
+)
+ident(
+  def ppf "mod.ml" 246 8291 8336 "mod.ml" 249 8448 8491
+)
+"mod.ml" 246 8291 8337 "mod.ml" 246 8291 8338
+type(
+  Asttypes.arg_label
+)
+"mod.ml" 246 8291 8339 "mod.ml" 246 8291 8341
+type(
+  Types.type_expr
+)
+ident(
+  def ty "mod.ml" 247 8353 8373 "mod.ml" 249 8448 8491
+)
+"mod.ml" 246 8291 8342 "mod.ml" 246 8291 8346
+type(
+  Spec.t
+)
+ident(
+  def spec "mod.ml" 247 8353 8373 "mod.ml" 249 8448 8491
+)
+"mod.ml" 246 8291 8347 "mod.ml" 246 8291 8348
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"mod.ml" 246 8291 8336 "mod.ml" 246 8291 8349
+type(
+  Asttypes.arg_label * Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 247 8353 8373 "mod.ml" 247 8353 8387
+type(
+  Ppxx.Utils.Format.formatter ->
+  ((Ppxx.Utils.Format.formatter -> Types.type_expr -> unit) ->
+   Types.type_expr -> string -> unit, Ppxx.Utils.Format.formatter, unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Types.type_expr -> unit) ->
+  Types.type_expr -> string -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.Format.fprintf
+)
+"mod.ml" 247 8353 8388 "mod.ml" 247 8353 8391
+type(
+  Ppxx__Utils.Format.t
+)
+ident(
+  int_ref ppf "mod.ml" 246 8291 8332 "mod.ml" 246 8291 8335
+)
+"mod.ml" 247 8353 8392 "mod.ml" 247 8353 8401
+type(
+  ((Ppxx.Utils.Format.formatter -> Types.type_expr -> unit) ->
+   Types.type_expr -> string -> unit, Ppxx.Utils.Format.formatter, unit)
+  format
+)
+"mod.ml" 248 8402 8424 "mod.ml" 248 8402 8444
+type(
+  Ppxx.Utils.Format.formatter -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_scheme
+)
+"mod.ml" 248 8402 8445 "mod.ml" 248 8402 8447
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 246 8291 8339 "mod.ml" 246 8291 8341
+)
+"mod.ml" 249 8448 8471 "mod.ml" 249 8448 8485
+type(
+  Spec.t -> string
+)
+ident(
+  ext_ref Spec.to_string
+)
+"mod.ml" 249 8448 8486 "mod.ml" 249 8448 8490
+type(
+  Spec.t
+)
+ident(
+  int_ref spec "mod.ml" 246 8291 8342 "mod.ml" 246 8291 8346
+)
+"mod.ml" 249 8448 8470 "mod.ml" 249 8448 8491
+call(
+  stack
+)
+type(
+  string
+)
+"mod.ml" 247 8353 8373 "mod.ml" 249 8448 8491
+call(
+  tail
+)
+type(
+  unit
+)
+"mod.ml" 246 8291 8327 "mod.ml" 249 8448 8492
+type(
+  Ppxx__Utils.Format.t ->
+  Asttypes.arg_label * Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression) -> unit
+)
+"mod.ml" 246 8291 8309 "mod.ml" 249 8448 8493
+call(
+  stack
+)
+type(
+  Ppxx__Utils.Format.t ->
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list -> unit
+)
+"mod.ml" 249 8448 8494 "mod.ml" 249 8448 8496
+type(
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+ident(
+  int_ref cs "mod.ml" 189 6107 6123 "mod.ml" 189 6107 6125
+)
+"mod.ml" 245 8236 8252 "mod.ml" 249 8448 8496
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 244 8196 8210 "mod.ml" 249 8448 8496
+type(
+  unit
+)
+"mod.ml" 251 8513 8533 "mod.ml" 251 8513 8540
+type(
+  Location.t ->
+  Env.t ->
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list ->
+  Resolve_result.t
+)
+ident(
+  int_ref resolve "mod.ml" 145 4456 4464 "mod.ml" 145 4456 4471
+)
+"mod.ml" 251 8513 8541 "mod.ml" 251 8513 8544
+type(
+  Location.t
+)
+ident(
+  int_ref loc "mod.ml" 162 5121 5138 "mod.ml" 162 5121 5141
+)
+"mod.ml" 251 8513 8545 "mod.ml" 251 8513 8548
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 162 5121 5142 "mod.ml" 162 5121 5145
+)
+"mod.ml" 251 8513 8549 "mod.ml" 251 8513 8557
+type(
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list
+)
+ident(
+  int_ref problems "mod.ml" 242 8101 8119 "mod.ml" 242 8101 8127
+)
+"mod.ml" 251 8513 8533 "mod.ml" 251 8513 8557
+call(
+  stack
+)
+type(
+  Resolve_result.t
+)
+"mod.ml" 252 8563 8587 "mod.ml" 252 8563 8589
+type(
+  Typedtree.expression list
+)
+ident(
+  def es "mod.ml" 252 8563 8593 "mod.ml" 252 8563 8603
+)
+"mod.ml" 252 8563 8579 "mod.ml" 252 8563 8589
+type(
+  Resolve_result.t
+)
+"mod.ml" 252 8563 8601 "mod.ml" 252 8563 8603
+type(
+  Typedtree.expression list
+)
+ident(
+  int_ref es "mod.ml" 252 8563 8587 "mod.ml" 252 8563 8589
+)
+"mod.ml" 252 8563 8593 "mod.ml" 252 8563 8603
+type(
+  Resolve_result.t
+)
+"mod.ml" 253 8604 8623 "mod.ml" 253 8604 8631
+type(
+  Typedtree.expression list list
+)
+ident(
+  def res_list "mod.ml" 254 8635 8653 "mod.ml" 258 8852 8893
+)
+"mod.ml" 253 8604 8620 "mod.ml" 253 8604 8631
+type(
+  Resolve_result.t
+)
+"mod.ml" 254 8635 8657 "mod.ml" 254 8635 8662
+type(
+  Typedtree.expression list -> Typedtree.expression list
+)
+ident(
+  def build "mod.ml" 258 8852 8870 "mod.ml" 258 8852 8893
+)
+"mod.ml" 254 8635 8663 "mod.ml" 254 8635 8666
+type(
+  Typedtree.expression list
+)
+ident(
+  def res "mod.ml" 255 8669 8689 "mod.ml" 256 8733 8830
+)
+"mod.ml" 255 8669 8693 "mod.ml" 255 8669 8697
+type(
+  Typedtree.expression list
+)
+ident(
+  def args "mod.ml" 256 8733 8753 "mod.ml" 256 8733 8830
+)
+"mod.ml" 255 8669 8699 "mod.ml" 255 8669 8702
+type(
+  Typedtree.expression list
+)
+ident(
+  def res "mod.ml" 256 8733 8753 "mod.ml" 256 8733 8830
+)
+"mod.ml" 255 8669 8693 "mod.ml" 255 8669 8702
+type(
+  Typedtree.expression list * Typedtree.expression list
+)
+"mod.ml" 255 8669 8705 "mod.ml" 255 8669 8713
+type(
+  int ->
+  Typedtree.expression list ->
+  Typedtree.expression list * Typedtree.expression list
+)
+ident(
+  ext_ref Utils.List.split_at
+)
+"mod.ml" 255 8669 8715 "mod.ml" 255 8669 8721
+type(
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list -> int
+)
+ident(
+  ext_ref Utils.List.length
+)
+"mod.ml" 255 8669 8722 "mod.ml" 255 8669 8724
+type(
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+ident(
+  int_ref cs "mod.ml" 189 6107 6123 "mod.ml" 189 6107 6125
+)
+"mod.ml" 255 8669 8714 "mod.ml" 255 8669 8725
+call(
+  stack
+)
+type(
+  int
+)
+"mod.ml" 255 8669 8726 "mod.ml" 255 8669 8729
+type(
+  Typedtree.expression list
+)
+ident(
+  int_ref res "mod.ml" 254 8635 8663 "mod.ml" 254 8635 8666
+)
+"mod.ml" 255 8669 8705 "mod.ml" 255 8669 8729
+call(
+  stack
+)
+type(
+  Typedtree.expression list * Typedtree.expression list
+)
+"mod.ml" 256 8733 8764 "mod.ml" 256 8733 8767
+type(
+  Typedtree.expression ->
+  (Asttypes.arg_label * Typedtree.expression) list -> Typedtree.expression
+)
+ident(
+  ext_ref Forge.Exp.app
+)
+"mod.ml" 256 8733 8768 "mod.ml" 256 8733 8772
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref expr "mod.ml" 162 5121 5171 "mod.ml" 162 5121 5175
+)
+"mod.ml" 256 8733 8774 "mod.ml" 256 8733 8778
+type(
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression) ->
+   Typedtree.expression -> Asttypes.arg_label * Typedtree.expression) ->
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list ->
+  Typedtree.expression list ->
+  (Asttypes.arg_label * Typedtree.expression) list
+)
+ident(
+  ext_ref Utils.List.map2
+)
+"mod.ml" 256 8733 8785 "mod.ml" 256 8733 8786
+type(
+  Asttypes.arg_label
+)
+ident(
+  def l "mod.ml" 256 8733 8797 "mod.ml" 256 8733 8812
+)
+"mod.ml" 256 8733 8787 "mod.ml" 256 8733 8788
+type(
+  Types.type_expr
+)
+"mod.ml" 256 8733 8789 "mod.ml" 256 8733 8790
+type(
+  Spec.t
+)
+"mod.ml" 256 8733 8791 "mod.ml" 256 8733 8795
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def conv "mod.ml" 256 8733 8797 "mod.ml" 256 8733 8812
+)
+"mod.ml" 256 8733 8784 "mod.ml" 256 8733 8796
+type(
+  Asttypes.arg_label * Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 256 8733 8797 "mod.ml" 256 8733 8798
+type(
+  Typedtree.expression
+)
+ident(
+  def a "mod.ml" 256 8733 8802 "mod.ml" 256 8733 8812
+)
+"mod.ml" 256 8733 8803 "mod.ml" 256 8733 8804
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "mod.ml" 256 8733 8785 "mod.ml" 256 8733 8786
+)
+"mod.ml" 256 8733 8805 "mod.ml" 256 8733 8809
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref conv "mod.ml" 256 8733 8791 "mod.ml" 256 8733 8795
+)
+"mod.ml" 256 8733 8810 "mod.ml" 256 8733 8811
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref a "mod.ml" 256 8733 8797 "mod.ml" 256 8733 8798
+)
+"mod.ml" 256 8733 8805 "mod.ml" 256 8733 8811
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 256 8733 8802 "mod.ml" 256 8733 8812
+type(
+  Asttypes.arg_label * Typedtree.expression
+)
+"mod.ml" 256 8733 8779 "mod.ml" 256 8733 8813
+type(
+  Asttypes.arg_label * Types.type_expr * Spec.t *
+  (Typedtree.expression -> Typedtree.expression) ->
+  Typedtree.expression -> Asttypes.arg_label * Typedtree.expression
+)
+"mod.ml" 256 8733 8814 "mod.ml" 256 8733 8816
+type(
+  (Asttypes.arg_label * Types.type_expr * Spec.t *
+   (Typedtree.expression -> Typedtree.expression))
+  list
+)
+ident(
+  int_ref cs "mod.ml" 189 6107 6123 "mod.ml" 189 6107 6125
+)
+"mod.ml" 256 8733 8817 "mod.ml" 256 8733 8821
+type(
+  Typedtree.expression list
+)
+ident(
+  int_ref args "mod.ml" 255 8669 8693 "mod.ml" 255 8669 8697
+)
+"mod.ml" 256 8733 8773 "mod.ml" 256 8733 8822
+call(
+  stack
+)
+type(
+  (Asttypes.arg_label * Typedtree.expression) list
+)
+"mod.ml" 256 8733 8764 "mod.ml" 256 8733 8822
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 256 8733 8827 "mod.ml" 256 8733 8830
+type(
+  Typedtree.expression list
+)
+ident(
+  int_ref res "mod.ml" 255 8669 8699 "mod.ml" 255 8669 8702
+)
+"mod.ml" 256 8733 8753 "mod.ml" 256 8733 8830
+type(
+  Typedtree.expression list
+)
+"mod.ml" 255 8669 8689 "mod.ml" 256 8733 8830
+type(
+  Typedtree.expression list
+)
+"mod.ml" 258 8852 8874 "mod.ml" 258 8852 8877
+type(
+  (Typedtree.expression list -> Typedtree.expression list) ->
+  Typedtree.expression list list -> Typedtree.expression list list
+)
+ident(
+  ext_ref Utils.List.map
+)
+"mod.ml" 258 8852 8878 "mod.ml" 258 8852 8883
+type(
+  Typedtree.expression list -> Typedtree.expression list
+)
+ident(
+  int_ref build "mod.ml" 254 8635 8657 "mod.ml" 254 8635 8662
+)
+"mod.ml" 258 8852 8884 "mod.ml" 258 8852 8892
+type(
+  Typedtree.expression list list
+)
+ident(
+  int_ref res_list "mod.ml" 253 8604 8623 "mod.ml" 253 8604 8631
+)
+"mod.ml" 258 8852 8873 "mod.ml" 258 8852 8893
+call(
+  stack
+)
+type(
+  Typedtree.expression list list
+)
+"mod.ml" 258 8852 8870 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 254 8635 8653 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 251 8513 8527 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 244 8196 8210 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 242 8101 8115 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 228 7526 7538 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 226 7478 7490 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 223 7370 7382 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 203 6613 6621 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 197 6407 6415 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 196 6375 6397 "mod.ml" 258 8852 8893
+type(
+  unit -> Resolve_result.t
+)
+"mod.ml" 196 6375 6381 "mod.ml" 258 8852 8893
+call(
+  tail
+)
+type(
+  Resolve_result.t
+)
+"mod.ml" 189 6107 6113 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 187 6060 6066 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 185 6016 6022 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 166 5229 5231 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 164 5190 5192 "mod.ml" 258 8852 8893
+type(
+  Resolve_result.t
+)
+"mod.ml" 260 8895 8899 "mod.ml" 260 8895 8906
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Spec.t -> Typpx.Compilerlib.Types.type_expr -> Typedtree.expression
+)
+ident(
+  def resolve "mod.ml" 292 10303 10303 "mod.ml" 1 0 -1
+)
+"mod.ml" 260 8895 8907 "mod.ml" 260 8895 8910
+type(
+  Env.t
+)
+ident(
+  def env "mod.ml" 260 8895 8911 "mod.ml" 289 10176 10201
+)
+"mod.ml" 260 8895 8911 "mod.ml" 260 8895 8914
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "mod.ml" 260 8895 8915 "mod.ml" 289 10176 10201
+)
+"mod.ml" 260 8895 8915 "mod.ml" 260 8895 8919
+type(
+  Spec.t
+)
+ident(
+  def spec "mod.ml" 260 8895 8920 "mod.ml" 289 10176 10201
+)
+"mod.ml" 260 8895 8920 "mod.ml" 260 8895 8922
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 260 8895 8925 "mod.ml" 289 10176 10201
+)
+"mod.ml" 260 8895 8925 "mod.ml" 260 8895 8938
+type(
+  (unit -> Typedtree.expression) -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.with_snapshot
+)
+"mod.ml" 260 8895 8939 "mod.ml" 260 8895 8940
+type(
+  ((unit -> Typedtree.expression) -> Typedtree.expression) ->
+  (unit -> Typedtree.expression) -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 260 8895 8945 "mod.ml" 260 8895 8947
+type(
+  unit
+)
+"mod.ml" 262 8952 8957 "mod.ml" 262 8952 8958
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mod.ml" 262 8952 8958 "mod.ml" 262 8952 8977
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_resolve
+)
+"mod.ml" 262 8952 8957 "mod.ml" 262 8952 8977
+type(
+  bool
+)
+"mod.ml" 262 8952 8983 "mod.ml" 262 8952 8986
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> unit, Ppxx.Utils.Format.formatter, 
+   unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 262 8952 8987 "mod.ml" 262 8952 9004
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> unit, Ppxx.Utils.Format.formatter, 
+   unit)
+  format
+)
+"mod.ml" 262 8952 8983 "mod.ml" 262 8952 9004
+type(
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> unit
+)
+"mod.ml" 262 8952 9005 "mod.ml" 262 8952 9020
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"mod.ml" 262 8952 9021 "mod.ml" 262 8952 9024
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "mod.ml" 260 8895 8911 "mod.ml" 260 8895 8914
+)
+"mod.ml" 262 8952 8983 "mod.ml" 262 8952 9024
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 262 8952 8954 "mod.ml" 262 8952 9024
+type(
+  unit
+)
+"mod.ml" 264 9027 9029 "mod.ml" 264 9027 9043
+type(
+  Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.close_gen_vars
+)
+"mod.ml" 264 9027 9044 "mod.ml" 264 9027 9046
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 260 8895 8920 "mod.ml" 260 8895 8922
+)
+"mod.ml" 264 9027 9029 "mod.ml" 264 9027 9046
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 266 9049 9054 "mod.ml" 266 9049 9055
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mod.ml" 266 9049 9055 "mod.ml" 266 9049 9074
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_resolve
+)
+"mod.ml" 266 9049 9054 "mod.ml" 266 9049 9074
+type(
+  bool
+)
+"mod.ml" 266 9049 9080 "mod.ml" 266 9049 9083
+type(
+  ((Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 266 9049 9084 "mod.ml" 266 9049 9105
+type(
+  ((Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr -> unit, Format.formatter, unit)
+  format
+)
+"mod.ml" 266 9049 9080 "mod.ml" 266 9049 9105
+type(
+  (Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr -> unit
+)
+"mod.ml" 266 9049 9106 "mod.ml" 266 9049 9126
+type(
+  Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_scheme
+)
+"mod.ml" 266 9049 9127 "mod.ml" 266 9049 9129
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 260 8895 8920 "mod.ml" 260 8895 8922
+)
+"mod.ml" 266 9049 9080 "mod.ml" 266 9049 9129
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 266 9049 9051 "mod.ml" 266 9049 9129
+type(
+  unit
+)
+"mod.ml" 269 9184 9192 "mod.ml" 269 9184 9199
+type(
+  Ppxx.Compilerlib.Location.t ->
+  Env.t ->
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list ->
+  Resolve_result.t
+)
+ident(
+  int_ref resolve "mod.ml" 145 4456 4464 "mod.ml" 145 4456 4471
+)
+"mod.ml" 269 9184 9200 "mod.ml" 269 9184 9203
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "mod.ml" 260 8895 8911 "mod.ml" 260 8895 8914
+)
+"mod.ml" 269 9184 9204 "mod.ml" 269 9184 9207
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 260 8895 8907 "mod.ml" 260 8895 8910
+)
+"mod.ml" 269 9184 9210 "mod.ml" 269 9184 9212
+type(
+  trace
+)
+"mod.ml" 269 9184 9213 "mod.ml" 269 9184 9215
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 260 8895 8920 "mod.ml" 260 8895 8922
+)
+"mod.ml" 269 9184 9216 "mod.ml" 269 9184 9220
+type(
+  Spec.t
+)
+ident(
+  int_ref spec "mod.ml" 260 8895 8915 "mod.ml" 260 8895 8919
+)
+"mod.ml" 269 9184 9209 "mod.ml" 269 9184 9221
+type(
+  trace * Typpx.Compilerlib.Types.type_expr * Spec.t
+)
+"mod.ml" 269 9184 9208 "mod.ml" 269 9184 9222
+type(
+  (trace * Typpx.Compilerlib.Types.type_expr * Spec.t) list
+)
+"mod.ml" 269 9184 9192 "mod.ml" 269 9184 9222
+call(
+  stack
+)
+type(
+  Resolve_result.t
+)
+"mod.ml" 270 9228 9240 "mod.ml" 270 9228 9242
+type(
+  Typedtree.expression list
+)
+ident(
+  def es "mod.ml" 271 9247 9253 "mod.ml" 275 9582 9636
+)
+"mod.ml" 270 9228 9232 "mod.ml" 270 9228 9242
+type(
+  Resolve_result.t
+)
+"mod.ml" 271 9247 9253 "mod.ml" 271 9247 9265
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr ->
+   (Ppxx.Utils.Format.formatter -> Typedtree.expression list -> unit) ->
+   Typedtree.expression list -> Typedtree.expression,
+   Ppxx.Utils.Format.formatter, unit, Typedtree.expression)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr ->
+  (Ppxx.Utils.Format.formatter -> Typedtree.expression list -> unit) ->
+  Typedtree.expression list -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"mod.ml" 271 9247 9266 "mod.ml" 271 9247 9438
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr ->
+   (Ppxx.Utils.Format.formatter -> Typedtree.expression list -> unit) ->
+   Typedtree.expression list -> Typedtree.expression,
+   Ppxx.Utils.Format.formatter, unit, Typedtree.expression)
+  format4
+)
+"mod.ml" 272 9439 9447 "mod.ml" 272 9439 9462
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"mod.ml" 272 9439 9463 "mod.ml" 272 9439 9466
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "mod.ml" 260 8895 8911 "mod.ml" 260 8895 8914
+)
+"mod.ml" 273 9467 9475 "mod.ml" 273 9467 9493
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_expr
+)
+"mod.ml" 273 9467 9494 "mod.ml" 273 9467 9496
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 260 8895 8920 "mod.ml" 260 8895 8922
+)
+"mod.ml" 275 9582 9591 "mod.ml" 275 9582 9602
+type(
+  (unit, Ppxx__Utils.Format.t, unit) format ->
+  (Ppxx__Utils.Format.t -> Typedtree.expression -> unit) ->
+  Ppxx.Utils.Format.formatter -> Typedtree.expression list -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.List.format
+)
+"mod.ml" 275 9582 9603 "mod.ml" 275 9582 9608
+type(
+  (unit, Ppxx__Utils.Format.t, unit) format
+)
+"mod.ml" 275 9582 9609 "mod.ml" 275 9582 9632
+type(
+  Ppxx__Utils.Format.t -> Typedtree.expression -> unit
+)
+ident(
+  ext_ref Utils.format_expression
+)
+"mod.ml" 275 9582 9590 "mod.ml" 275 9582 9633
+call(
+  stack
+)
+type(
+  Ppxx.Utils.Format.formatter -> Typedtree.expression list -> unit
+)
+"mod.ml" 275 9582 9634 "mod.ml" 275 9582 9636
+type(
+  Typedtree.expression list
+)
+ident(
+  int_ref es "mod.ml" 270 9228 9240 "mod.ml" 270 9228 9242
+)
+"mod.ml" 271 9247 9253 "mod.ml" 275 9582 9636
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 276 9637 9644 "mod.ml" 276 9637 9646
+type(
+  Typedtree.expression list list
+)
+"mod.ml" 276 9637 9641 "mod.ml" 276 9637 9646
+type(
+  Resolve_result.t
+)
+"mod.ml" 277 9650 9656 "mod.ml" 277 9650 9668
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr -> Typedtree.expression,
+   Ppxx.Utils.Format.formatter, unit, Typedtree.expression)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"mod.ml" 277 9650 9669 "mod.ml" 277 9650 9705
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr -> Typedtree.expression,
+   Ppxx.Utils.Format.formatter, unit, Typedtree.expression)
+  format4
+)
+"mod.ml" 278 9706 9714 "mod.ml" 278 9706 9729
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"mod.ml" 278 9706 9730 "mod.ml" 278 9706 9733
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "mod.ml" 260 8895 8911 "mod.ml" 260 8895 8914
+)
+"mod.ml" 279 9734 9742 "mod.ml" 279 9734 9760
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_expr
+)
+"mod.ml" 279 9734 9761 "mod.ml" 279 9734 9763
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 260 8895 8920 "mod.ml" 260 8895 8922
+)
+"mod.ml" 277 9650 9656 "mod.ml" 279 9734 9763
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 280 9764 9772 "mod.ml" 280 9764 9773
+type(
+  Typedtree.expression list
+)
+"mod.ml" 280 9764 9775 "mod.ml" 280 9764 9776
+type(
+  Typedtree.expression list
+)
+"mod.ml" 280 9764 9778 "mod.ml" 280 9764 9779
+type(
+  Typedtree.expression list list
+)
+"mod.ml" 280 9764 9775 "mod.ml" 280 9764 9779
+type(
+  Typedtree.expression list list
+)
+"mod.ml" 280 9764 9772 "mod.ml" 280 9764 9779
+type(
+  Typedtree.expression list list
+)
+"mod.ml" 280 9764 9783 "mod.ml" 280 9764 9785
+ident(
+  def es "mod.ml" 281 9790 9796 "mod.ml" 285 10045 10098
+)
+"mod.ml" 280 9764 9771 "mod.ml" 280 9764 9786
+type(
+  Typedtree.expression list list
+)
+"mod.ml" 280 9764 9768 "mod.ml" 280 9764 9786
+type(
+  Resolve_result.t
+)
+"mod.ml" 281 9790 9800 "mod.ml" 281 9790 9802
+type(
+  Typedtree.expression list
+)
+ident(
+  def es "mod.ml" 282 9867 9873 "mod.ml" 285 10045 10098
+)
+"mod.ml" 281 9790 9805 "mod.ml" 281 9790 9808
+type(
+  (Typedtree.expression list -> Typedtree.expression) ->
+  Typedtree.expression list list -> Typedtree.expression list
+)
+ident(
+  ext_ref Utils.List.map
+)
+"mod.ml" 281 9790 9820 "mod.ml" 281 9790 9821
+type(
+  Typedtree.expression
+)
+ident(
+  def e "mod.ml" 281 9790 9826 "mod.ml" 281 9790 9827
+)
+"mod.ml" 281 9790 9819 "mod.ml" 281 9790 9822
+type(
+  Typedtree.expression list
+)
+"mod.ml" 281 9790 9826 "mod.ml" 281 9790 9827
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 281 9790 9820 "mod.ml" 281 9790 9821
+)
+"mod.ml" 281 9790 9830 "mod.ml" 281 9790 9831
+type(
+  Typedtree.expression list
+)
+"mod.ml" 281 9790 9842 "mod.ml" 281 9790 9847
+type(
+  bool
+)
+"mod.ml" 281 9790 9835 "mod.ml" 281 9790 9847
+type(
+  Typedtree.expression
+)
+"mod.ml" 281 9790 9809 "mod.ml" 281 9790 9860
+type(
+  Typedtree.expression list -> Typedtree.expression
+)
+"mod.ml" 281 9790 9861 "mod.ml" 281 9790 9863
+type(
+  Typedtree.expression list list
+)
+ident(
+  int_ref es "mod.ml" 280 9764 9771 "mod.ml" 280 9764 9786
+)
+"mod.ml" 281 9790 9805 "mod.ml" 281 9790 9863
+call(
+  stack
+)
+type(
+  Typedtree.expression list
+)
+"mod.ml" 282 9867 9873 "mod.ml" 282 9867 9885
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr ->
+   (Ppxx.Utils.Format.formatter -> Typedtree.expression list -> unit) ->
+   Typedtree.expression list -> Typedtree.expression,
+   Ppxx.Utils.Format.formatter, unit, Typedtree.expression)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr ->
+  (Ppxx.Utils.Format.formatter -> Typedtree.expression list -> unit) ->
+  Typedtree.expression list -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"mod.ml" 282 9867 9886 "mod.ml" 282 9867 9986
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr ->
+   (Ppxx.Utils.Format.formatter -> Typedtree.expression list -> unit) ->
+   Typedtree.expression list -> Typedtree.expression,
+   Ppxx.Utils.Format.formatter, unit, Typedtree.expression)
+  format4
+)
+"mod.ml" 283 9987 9995 "mod.ml" 283 9987 10010
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"mod.ml" 283 9987 10011 "mod.ml" 283 9987 10014
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "mod.ml" 260 8895 8911 "mod.ml" 260 8895 8914
+)
+"mod.ml" 284 10015 10023 "mod.ml" 284 10015 10041
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_expr
+)
+"mod.ml" 284 10015 10042 "mod.ml" 284 10015 10044
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 260 8895 8920 "mod.ml" 260 8895 8922
+)
+"mod.ml" 285 10045 10054 "mod.ml" 285 10045 10065
+type(
+  (unit, Ppxx__Utils.Format.t, unit) format ->
+  (Ppxx__Utils.Format.t -> Typedtree.expression -> unit) ->
+  Ppxx.Utils.Format.formatter -> Typedtree.expression list -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.List.format
+)
+"mod.ml" 285 10045 10066 "mod.ml" 285 10045 10070
+type(
+  (unit, Ppxx__Utils.Format.t, unit) format
+)
+"mod.ml" 285 10045 10071 "mod.ml" 285 10045 10094
+type(
+  Ppxx__Utils.Format.t -> Typedtree.expression -> unit
+)
+ident(
+  ext_ref Utils.format_expression
+)
+"mod.ml" 285 10045 10053 "mod.ml" 285 10045 10095
+call(
+  stack
+)
+type(
+  Ppxx.Utils.Format.formatter -> Typedtree.expression list -> unit
+)
+"mod.ml" 285 10045 10096 "mod.ml" 285 10045 10098
+type(
+  Typedtree.expression list
+)
+ident(
+  int_ref es "mod.ml" 281 9790 9800 "mod.ml" 281 9790 9802
+)
+"mod.ml" 282 9867 9873 "mod.ml" 285 10045 10098
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 281 9790 9796 "mod.ml" 285 10045 10098
+type(
+  Typedtree.expression
+)
+"mod.ml" 286 10099 10107 "mod.ml" 286 10099 10109
+type(
+  Typedtree.expression list
+)
+ident(
+  def es "mod.ml" 287 10114 10120 "mod.ml" 289 10176 10201
+)
+"mod.ml" 286 10099 10106 "mod.ml" 286 10099 10110
+type(
+  Typedtree.expression list list
+)
+"mod.ml" 286 10099 10103 "mod.ml" 286 10099 10110
+type(
+  Resolve_result.t
+)
+"mod.ml" 287 10114 10126 "mod.ml" 287 10114 10128
+type(
+  Typedtree.expression list
+)
+ident(
+  int_ref es "mod.ml" 286 10099 10107 "mod.ml" 286 10099 10109
+)
+"mod.ml" 288 10134 10143 "mod.ml" 288 10134 10144
+type(
+  Typedtree.expression
+)
+ident(
+  def e "mod.ml" 288 10134 10149 "mod.ml" 288 10134 10175
+)
+"mod.ml" 288 10134 10142 "mod.ml" 288 10134 10145
+type(
+  Typedtree.expression list
+)
+"mod.ml" 288 10134 10149 "mod.ml" 288 10134 10173
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Unshadow.Replace.replace
+)
+"mod.ml" 288 10134 10174 "mod.ml" 288 10134 10175
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 288 10134 10143 "mod.ml" 288 10134 10144
+)
+"mod.ml" 288 10134 10149 "mod.ml" 288 10134 10175
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 289 10176 10184 "mod.ml" 289 10176 10185
+type(
+  Typedtree.expression list
+)
+"mod.ml" 289 10176 10196 "mod.ml" 289 10176 10201
+type(
+  bool
+)
+"mod.ml" 289 10176 10189 "mod.ml" 289 10176 10201
+type(
+  Typedtree.expression
+)
+"mod.ml" 287 10114 10120 "mod.ml" 289 10176 10201
+type(
+  Typedtree.expression
+)
+"mod.ml" 269 9184 9186 "mod.ml" 289 10176 10201
+type(
+  Typedtree.expression
+)
+"mod.ml" 266 9049 9051 "mod.ml" 289 10176 10201
+type(
+  Typedtree.expression
+)
+"mod.ml" 264 9027 9029 "mod.ml" 289 10176 10201
+type(
+  Typedtree.expression
+)
+"mod.ml" 262 8952 8954 "mod.ml" 289 10176 10201
+type(
+  Typedtree.expression
+)
+"mod.ml" 260 8895 8941 "mod.ml" 289 10176 10201
+type(
+  unit -> Typedtree.expression
+)
+"mod.ml" 260 8895 8925 "mod.ml" 289 10176 10201
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 292 10303 10307 "mod.ml" 292 10303 10330
+type(
+  Ppxx.Compilerlib.Location.t ->
+  Env.t ->
+  Asttypes.arg_label * Typedtree.expression option ->
+  Asttypes.arg_label * Typedtree.expression option
+)
+ident(
+  def resolve_omitted_imp_arg "mod.ml" 305 10767 10767 "mod.ml" 1 0 -1
+)
+"mod.ml" 292 10303 10331 "mod.ml" 292 10303 10334
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "mod.ml" 292 10303 10335 "mod.ml" 303 10755 10765
+)
+"mod.ml" 292 10303 10335 "mod.ml" 292 10303 10338
+type(
+  Env.t
+)
+ident(
+  def env "mod.ml" 292 10303 10339 "mod.ml" 303 10755 10765
+)
+"mod.ml" 292 10303 10339 "mod.ml" 292 10303 10340
+type(
+  Asttypes.arg_label * Typedtree.expression option
+)
+ident(
+  def a "mod.ml" 292 10303 10343 "mod.ml" 303 10755 10765
+)
+"mod.ml" 292 10303 10349 "mod.ml" 292 10303 10350
+type(
+  Asttypes.arg_label * Typedtree.expression option
+)
+ident(
+  int_ref a "mod.ml" 292 10303 10339 "mod.ml" 292 10303 10340
+)
+"mod.ml" 294 10398 10413 "mod.ml" 294 10398 10414
+type(
+  string
+)
+"mod.ml" 294 10398 10404 "mod.ml" 294 10398 10414
+type(
+  Asttypes.arg_label
+)
+"mod.ml" 294 10398 10418 "mod.ml" 294 10398 10419
+ident(
+  def l "mod.ml" 295 10433 10439 "mod.ml" 302 10745 10754
+)
+"mod.ml" 294 10398 10403 "mod.ml" 294 10398 10420
+type(
+  Asttypes.arg_label
+)
+"mod.ml" 294 10398 10427 "mod.ml" 294 10398 10428
+type(
+  Typedtree.expression
+)
+ident(
+  def e "mod.ml" 295 10433 10439 "mod.ml" 302 10745 10754
+)
+"mod.ml" 294 10398 10422 "mod.ml" 294 10398 10428
+type(
+  Typedtree.expression option
+)
+"mod.ml" 294 10398 10402 "mod.ml" 294 10398 10429
+type(
+  Asttypes.arg_label * Typedtree.expression option
+)
+"mod.ml" 295 10433 10451 "mod.ml" 295 10433 10464
+type(
+  Typedtree.expression -> Types.type_expr option
+)
+ident(
+  ext_ref Utils.is_none
+)
+"mod.ml" 295 10433 10465 "mod.ml" 295 10433 10466
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 294 10398 10427 "mod.ml" 294 10398 10428
+)
+"mod.ml" 295 10433 10451 "mod.ml" 295 10433 10466
+call(
+  stack
+)
+type(
+  Types.type_expr option
+)
+"mod.ml" 296 10472 10480 "mod.ml" 296 10472 10484
+type(
+  Types.type_expr option
+)
+"mod.ml" 296 10472 10488 "mod.ml" 296 10472 10489
+type(
+  Asttypes.arg_label * Typedtree.expression option
+)
+ident(
+  int_ref a "mod.ml" 292 10303 10339 "mod.ml" 292 10303 10340
+)
+"mod.ml" 297 10515 10528 "mod.ml" 297 10515 10529
+type(
+  Types.type_expr
+)
+"mod.ml" 297 10515 10523 "mod.ml" 297 10515 10529
+type(
+  Types.type_expr option
+)
+"mod.ml" 298 10547 10562 "mod.ml" 298 10547 10564
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "mod.ml" 299 10626 10636 "mod.ml" 301 10677 10744
+)
+"mod.ml" 298 10547 10566 "mod.ml" 298 10547 10573
+type(
+  Spec.t option
+)
+ident(
+  def specopt "mod.ml" 299 10626 10636 "mod.ml" 301 10677 10744
+)
+"mod.ml" 298 10547 10575 "mod.ml" 298 10547 10579
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def conv "mod.ml" 299 10626 10636 "mod.ml" 301 10677 10744
+)
+"mod.ml" 298 10547 10581 "mod.ml" 298 10547 10588
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def _unconv "mod.ml" 299 10626 10636 "mod.ml" 301 10677 10744
+)
+"mod.ml" 298 10547 10561 "mod.ml" 298 10547 10589
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 298 10547 10592 "mod.ml" 298 10547 10601
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Asttypes.arg_label ->
+  Typpx.Compilerlib.Types.type_expr ->
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+ident(
+  int_ref check_arg "mod.ml" 48 1341 1345 "mod.ml" 48 1341 1354
+)
+"mod.ml" 298 10547 10602 "mod.ml" 298 10547 10605
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 292 10303 10335 "mod.ml" 292 10303 10338
+)
+"mod.ml" 298 10547 10606 "mod.ml" 298 10547 10609
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "mod.ml" 292 10303 10331 "mod.ml" 292 10303 10334
+)
+"mod.ml" 298 10547 10610 "mod.ml" 298 10547 10611
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "mod.ml" 294 10398 10403 "mod.ml" 294 10398 10420
+)
+"mod.ml" 298 10547 10612 "mod.ml" 298 10547 10613
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 294 10398 10427 "mod.ml" 294 10398 10428
+)
+"mod.ml" 298 10547 10612 "mod.ml" 298 10547 10622
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 298 10547 10592 "mod.ml" 298 10547 10622
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 299 10626 10642 "mod.ml" 299 10626 10649
+type(
+  Spec.t option
+)
+ident(
+  int_ref specopt "mod.ml" 298 10547 10566 "mod.ml" 298 10547 10573
+)
+"mod.ml" 300 10655 10667 "mod.ml" 300 10655 10671
+type(
+  Spec.t option
+)
+"mod.ml" 300 10655 10675 "mod.ml" 300 10655 10676
+type(
+  Asttypes.arg_label * Typedtree.expression option
+)
+ident(
+  int_ref a "mod.ml" 292 10303 10339 "mod.ml" 292 10303 10340
+)
+"mod.ml" 301 10677 10694 "mod.ml" 301 10677 10698
+type(
+  Spec.t
+)
+ident(
+  def spec "mod.ml" 301 10677 10702 "mod.ml" 301 10677 10744
+)
+"mod.ml" 301 10677 10689 "mod.ml" 301 10677 10698
+type(
+  Spec.t option
+)
+"mod.ml" 301 10677 10703 "mod.ml" 301 10677 10704
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "mod.ml" 294 10398 10403 "mod.ml" 294 10398 10420
+)
+"mod.ml" 301 10677 10712 "mod.ml" 301 10677 10716
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref conv "mod.ml" 298 10547 10575 "mod.ml" 298 10547 10579
+)
+"mod.ml" 301 10677 10718 "mod.ml" 301 10677 10725
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Spec.t -> Typpx.Compilerlib.Types.type_expr -> Typedtree.expression
+)
+ident(
+  int_ref resolve "mod.ml" 260 8895 8899 "mod.ml" 260 8895 8906
+)
+"mod.ml" 301 10677 10726 "mod.ml" 301 10677 10729
+type(
+  Env.t
+)
+ident(
+  int_ref env "mod.ml" 292 10303 10335 "mod.ml" 292 10303 10338
+)
+"mod.ml" 301 10677 10730 "mod.ml" 301 10677 10733
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "mod.ml" 292 10303 10331 "mod.ml" 292 10303 10334
+)
+"mod.ml" 301 10677 10734 "mod.ml" 301 10677 10738
+type(
+  Spec.t
+)
+ident(
+  int_ref spec "mod.ml" 301 10677 10694 "mod.ml" 301 10677 10698
+)
+"mod.ml" 301 10677 10739 "mod.ml" 301 10677 10741
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "mod.ml" 298 10547 10562 "mod.ml" 298 10547 10564
+)
+"mod.ml" 301 10677 10717 "mod.ml" 301 10677 10742
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 301 10677 10711 "mod.ml" 301 10677 10743
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 301 10677 10706 "mod.ml" 301 10677 10743
+type(
+  Typedtree.expression option
+)
+"mod.ml" 301 10677 10702 "mod.ml" 301 10677 10744
+type(
+  Asttypes.arg_label * Typedtree.expression option
+)
+"mod.ml" 299 10626 10636 "mod.ml" 301 10677 10744
+type(
+  Asttypes.arg_label * Typedtree.expression option
+)
+"mod.ml" 298 10547 10557 "mod.ml" 301 10677 10744
+type(
+  Asttypes.arg_label * Typedtree.expression option
+)
+"mod.ml" 295 10433 10439 "mod.ml" 302 10745 10754
+type(
+  Asttypes.arg_label * Typedtree.expression option
+)
+"mod.ml" 303 10755 10759 "mod.ml" 303 10755 10760
+type(
+  Asttypes.arg_label * Typedtree.expression option
+)
+"mod.ml" 303 10755 10764 "mod.ml" 303 10755 10765
+type(
+  Asttypes.arg_label * Typedtree.expression option
+)
+ident(
+  int_ref a "mod.ml" 292 10303 10339 "mod.ml" 292 10303 10340
+)
+"mod.ml" 292 10303 10343 "mod.ml" 303 10755 10765
+type(
+  Asttypes.arg_label * Typedtree.expression option
+)
+"mod.ml" 312 11039 11045 "mod.ml" 312 11039 11063
+type(
+  unit -> string
+)
+ident(
+  def create_function_id "mod.ml" 316 11145 11147 "mod.ml" 365 13316 13319
+)
+"mod.ml" 313 11067 11075 "mod.ml" 313 11067 11076
+type(
+  int ref
+)
+ident(
+  def x "mod.ml" 314 11088 11092 "mod.ml" 314 11088 11143
+)
+"mod.ml" 313 11067 11079 "mod.ml" 313 11067 11082
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"mod.ml" 313 11067 11083 "mod.ml" 313 11067 11084
+type(
+  int
+)
+"mod.ml" 313 11067 11079 "mod.ml" 313 11067 11084
+type(
+  int ref
+)
+"mod.ml" 314 11088 11096 "mod.ml" 314 11088 11098
+type(
+  unit
+)
+"mod.ml" 314 11088 11102 "mod.ml" 314 11088 11106
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"mod.ml" 314 11088 11107 "mod.ml" 314 11088 11108
+type(
+  int ref
+)
+ident(
+  int_ref x "mod.ml" 313 11067 11075 "mod.ml" 313 11067 11076
+)
+"mod.ml" 314 11088 11102 "mod.ml" 314 11088 11108
+type(
+  unit
+)
+"mod.ml" 314 11088 11110 "mod.ml" 314 11088 11124
+type(
+  string
+)
+"mod.ml" 314 11088 11125 "mod.ml" 314 11088 11126
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mod.ml" 314 11088 11127 "mod.ml" 314 11088 11140
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"mod.ml" 314 11088 11141 "mod.ml" 314 11088 11142
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mod.ml" 314 11088 11142 "mod.ml" 314 11088 11143
+type(
+  int ref
+)
+ident(
+  int_ref x "mod.ml" 313 11067 11075 "mod.ml" 313 11067 11076
+)
+"mod.ml" 314 11088 11141 "mod.ml" 314 11088 11143
+type(
+  int
+)
+"mod.ml" 314 11088 11127 "mod.ml" 314 11088 11143
+call(
+  stack
+)
+type(
+  string
+)
+"mod.ml" 314 11088 11110 "mod.ml" 314 11088 11143
+call(
+  tail
+)
+type(
+  string
+)
+"mod.ml" 314 11088 11102 "mod.ml" 314 11088 11143
+type(
+  string
+)
+"mod.ml" 314 11088 11092 "mod.ml" 314 11088 11143
+type(
+  unit -> string
+)
+"mod.ml" 313 11067 11071 "mod.ml" 314 11088 11143
+type(
+  unit -> string
+)
+"mod.ml" 316 11145 11151 "mod.ml" 316 11145 11165
+type(
+  Ppxx.Utils.String.t -> bool
+)
+ident(
+  def is_function_id "mod.ml" 318 11201 11203 "mod.ml" 365 13316 13319
+)
+"mod.ml" 316 11145 11168 "mod.ml" 316 11145 11184
+type(
+  Ppxx.Utils.String.t -> Ppxx.Utils.String.t -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.String.is_prefix
+)
+"mod.ml" 316 11145 11185 "mod.ml" 316 11145 11199
+type(
+  Ppxx.Utils.String.t
+)
+"mod.ml" 316 11145 11168 "mod.ml" 316 11145 11199
+call(
+  stack
+)
+type(
+  Ppxx.Utils.String.t -> bool
+)
+"mod.ml" 318 11201 11207 "mod.ml" 318 11201 11223
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def enter_expression "mod.ml" 352 12828 12830 "mod.ml" 365 13316 13319
+)
+"mod.ml" 318 11201 11224 "mod.ml" 318 11201 11225
+type(
+  Typedtree.expression
+)
+ident(
+  def e "mod.ml" 318 11201 11228 "mod.ml" 350 12814 12826
+)
+"mod.ml" 318 11201 11234 "mod.ml" 318 11201 11235
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 318 11201 11224 "mod.ml" 318 11201 11225
+)
+"mod.ml" 318 11201 11234 "mod.ml" 318 11201 11244
+type(
+  Typedtree.expression_desc
+)
+"mod.ml" 319 11250 11268 "mod.ml" 319 11250 11269
+type(
+  Typedtree.expression
+)
+ident(
+  def f "mod.ml" 321 11324 11332 "mod.ml" 322 11341 11433
+)
+"mod.ml" 319 11250 11271 "mod.ml" 319 11250 11275
+type(
+  (Asttypes.arg_label * Typedtree.expression option) list
+)
+ident(
+  def args "mod.ml" 321 11324 11332 "mod.ml" 322 11341 11433
+)
+"mod.ml" 319 11250 11256 "mod.ml" 319 11250 11276
+type(
+  Typedtree.expression_desc
+)
+"mod.ml" 321 11324 11334 "mod.ml" 321 11324 11335
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 318 11201 11224 "mod.ml" 318 11201 11225
+)
+"mod.ml" 322 11341 11373 "mod.ml" 322 11341 11374
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref f "mod.ml" 319 11250 11268 "mod.ml" 319 11250 11269
+)
+"mod.ml" 322 11341 11376 "mod.ml" 322 11341 11379
+type(
+  (Asttypes.arg_label * Typedtree.expression option ->
+   Asttypes.arg_label * Typedtree.expression option) ->
+  (Asttypes.arg_label * Typedtree.expression option) list ->
+  (Asttypes.arg_label * Typedtree.expression option) list
+)
+ident(
+  ext_ref Utils.List.map
+)
+"mod.ml" 322 11341 11381 "mod.ml" 322 11341 11404
+type(
+  Ppxx.Compilerlib.Location.t ->
+  Env.t ->
+  Asttypes.arg_label * Typedtree.expression option ->
+  Asttypes.arg_label * Typedtree.expression option
+)
+ident(
+  int_ref resolve_omitted_imp_arg "mod.ml" 292 10303 10307 "mod.ml" 292 10303 10330
+)
+"mod.ml" 322 11341 11405 "mod.ml" 322 11341 11406
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref f "mod.ml" 319 11250 11268 "mod.ml" 319 11250 11269
+)
+"mod.ml" 322 11341 11405 "mod.ml" 322 11341 11414
+type(
+  Ppxx.Compilerlib.Location.t
+)
+"mod.ml" 322 11341 11415 "mod.ml" 322 11341 11416
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 318 11201 11224 "mod.ml" 318 11201 11225
+)
+"mod.ml" 322 11341 11415 "mod.ml" 322 11341 11424
+type(
+  Env.t
+)
+"mod.ml" 322 11341 11380 "mod.ml" 322 11341 11425
+call(
+  stack
+)
+type(
+  Asttypes.arg_label * Typedtree.expression option ->
+  Asttypes.arg_label * Typedtree.expression option
+)
+"mod.ml" 322 11341 11426 "mod.ml" 322 11341 11430
+type(
+  (Asttypes.arg_label * Typedtree.expression option) list
+)
+ident(
+  int_ref args "mod.ml" 319 11250 11271 "mod.ml" 319 11250 11275
+)
+"mod.ml" 322 11341 11376 "mod.ml" 322 11341 11430
+call(
+  stack
+)
+type(
+  (Asttypes.arg_label * Typedtree.expression option) list
+)
+"mod.ml" 322 11341 11361 "mod.ml" 322 11341 11431
+type(
+  Typedtree.expression_desc
+)
+"mod.ml" 321 11324 11332 "mod.ml" 322 11341 11433
+type(
+  Typedtree.expression
+)
+"mod.ml" 324 11435 11467 "mod.ml" 324 11435 11468
+type(
+  Asttypes.arg_label
+)
+ident(
+  def l "mod.ml" 324 11435 11512 "mod.ml" 328 11678 11687
+)
+"mod.ml" 324 11435 11476 "mod.ml" 324 11435 11477
+type(
+  Ident.t
+)
+"mod.ml" 324 11435 11486 "mod.ml" 324 11435 11487
+type(
+  Typedtree.case
+)
+"mod.ml" 324 11435 11489 "mod.ml" 324 11435 11490
+type(
+  Typedtree.case
+)
+"mod.ml" 324 11435 11492 "mod.ml" 324 11435 11493
+type(
+  Typedtree.case list
+)
+"mod.ml" 324 11435 11489 "mod.ml" 324 11435 11493
+type(
+  Typedtree.case list
+)
+"mod.ml" 324 11435 11486 "mod.ml" 324 11435 11493
+type(
+  Typedtree.case list
+)
+"mod.ml" 324 11435 11504 "mod.ml" 324 11435 11505
+type(
+  Typedtree.partial
+)
+"mod.ml" 324 11435 11455 "mod.ml" 324 11435 11506
+type(
+  Typedtree.expression_desc.Texp_function
+)
+"mod.ml" 324 11435 11441 "mod.ml" 324 11435 11506
+type(
+  Typedtree.expression_desc
+)
+"mod.ml" 324 11435 11512 "mod.ml" 324 11435 11513
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "mod.ml" 324 11435 11467 "mod.ml" 324 11435 11468
+)
+"mod.ml" 324 11435 11514 "mod.ml" 324 11435 11516
+type(
+  Asttypes.arg_label -> Asttypes.arg_label -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"mod.ml" 324 11435 11517 "mod.ml" 324 11435 11524
+type(
+  Asttypes.arg_label
+)
+"mod.ml" 324 11435 11512 "mod.ml" 324 11435 11524
+type(
+  bool
+)
+"mod.ml" 326 11575 11583 "mod.ml" 326 11575 11588
+type(
+  ((Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> unit, Ppxx.Utils.Format.t, unit, unit)
+  format4 ->
+  (Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.warnf
+)
+"mod.ml" 326 11575 11589 "mod.ml" 326 11575 11640
+type(
+  ((Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> unit, Ppxx.Utils.Format.t, unit, unit)
+  format4
+)
+"mod.ml" 327 11641 11651 "mod.ml" 327 11641 11666
+type(
+  Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"mod.ml" 327 11641 11667 "mod.ml" 327 11641 11668
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 318 11201 11224 "mod.ml" 318 11201 11225
+)
+"mod.ml" 327 11641 11667 "mod.ml" 327 11641 11676
+type(
+  Ppxx.Compilerlib.Location.t
+)
+"mod.ml" 326 11575 11583 "mod.ml" 327 11641 11676
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 328 11678 11686 "mod.ml" 328 11678 11687
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 318 11201 11224 "mod.ml" 318 11201 11225
+)
+"mod.ml" 326 11575 11583 "mod.ml" 328 11678 11687
+type(
+  Typedtree.expression
+)
+"mod.ml" 330 11689 11721 "mod.ml" 330 11689 11722
+type(
+  Asttypes.arg_label
+)
+ident(
+  def l "mod.ml" 331 11759 11767 "mod.ml" 349 12802 12813
+)
+"mod.ml" 330 11689 11724 "mod.ml" 330 11689 11729
+type(
+  Ident.t
+)
+ident(
+  def param "mod.ml" 331 11759 11767 "mod.ml" 349 12802 12813
+)
+"mod.ml" 330 11689 11739 "mod.ml" 330 11689 11743
+type(
+  Typedtree.case
+)
+ident(
+  def case "mod.ml" 331 11759 11767 "mod.ml" 349 12802 12813
+)
+"mod.ml" 330 11689 11738 "mod.ml" 330 11689 11744
+type(
+  Typedtree.case list
+)
+"mod.ml" 330 11689 11746 "mod.ml" 330 11689 11753
+type(
+  Typedtree.partial
+)
+ident(
+  def partial "mod.ml" 331 11759 11767 "mod.ml" 349 12802 12813
+)
+"mod.ml" 330 11689 11709 "mod.ml" 330 11689 11755
+type(
+  Typedtree.expression_desc.Texp_function
+)
+"mod.ml" 330 11689 11695 "mod.ml" 330 11689 11755
+type(
+  Typedtree.expression_desc
+)
+"mod.ml" 331 11759 11771 "mod.ml" 331 11759 11772
+type(
+  Typedtree.pattern
+)
+ident(
+  def p "mod.ml" 332 11789 11797 "mod.ml" 349 12802 12813
+)
+"mod.ml" 331 11759 11775 "mod.ml" 331 11759 11779
+type(
+  Typedtree.case
+)
+ident(
+  int_ref case "mod.ml" 330 11689 11739 "mod.ml" 330 11689 11743
+)
+"mod.ml" 331 11759 11775 "mod.ml" 331 11759 11785
+type(
+  Typedtree.pattern
+)
+"mod.ml" 332 11789 11809 "mod.ml" 332 11789 11818
+type(
+  Env.t ->
+  Location.t ->
+  Asttypes.arg_label ->
+  Typpx.Compilerlib.Types.type_expr ->
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+ident(
+  int_ref check_arg "mod.ml" 48 1341 1345 "mod.ml" 48 1341 1354
+)
+"mod.ml" 332 11789 11819 "mod.ml" 332 11789 11820
+type(
+  Typedtree.pattern
+)
+ident(
+  int_ref p "mod.ml" 331 11759 11771 "mod.ml" 331 11759 11772
+)
+"mod.ml" 332 11789 11819 "mod.ml" 332 11789 11828
+type(
+  Env.t
+)
+"mod.ml" 332 11789 11829 "mod.ml" 332 11789 11830
+type(
+  Typedtree.pattern
+)
+ident(
+  int_ref p "mod.ml" 331 11759 11771 "mod.ml" 331 11759 11772
+)
+"mod.ml" 332 11789 11829 "mod.ml" 332 11789 11838
+type(
+  Location.t
+)
+"mod.ml" 332 11789 11839 "mod.ml" 332 11789 11840
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "mod.ml" 330 11689 11721 "mod.ml" 330 11689 11722
+)
+"mod.ml" 332 11789 11841 "mod.ml" 332 11789 11842
+type(
+  Typedtree.pattern
+)
+ident(
+  int_ref p "mod.ml" 331 11759 11771 "mod.ml" 331 11759 11772
+)
+"mod.ml" 332 11789 11841 "mod.ml" 332 11789 11851
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 332 11789 11809 "mod.ml" 332 11789 11851
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 333 11857 11868 "mod.ml" 333 11857 11869
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"mod.ml" 333 11857 11871 "mod.ml" 333 11857 11875
+type(
+  Spec.t option
+)
+"mod.ml" 333 11857 11877 "mod.ml" 333 11857 11878
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"mod.ml" 333 11857 11880 "mod.ml" 333 11857 11881
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"mod.ml" 333 11857 11867 "mod.ml" 333 11857 11882
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 333 11857 11886 "mod.ml" 333 11857 11887
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 318 11201 11224 "mod.ml" 318 11201 11225
+)
+"mod.ml" 334 11888 11899 "mod.ml" 334 11888 11904
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def type_ "mod.ml" 335 11972 11984 "mod.ml" 348 12688 12801
+)
+"mod.ml" 334 11888 11911 "mod.ml" 334 11888 11916
+type(
+  Spec.t
+)
+ident(
+  def _spec "mod.ml" 335 11972 11984 "mod.ml" 348 12688 12801
+)
+"mod.ml" 334 11888 11906 "mod.ml" 334 11888 11916
+type(
+  Spec.t option
+)
+"mod.ml" 334 11888 11918 "mod.ml" 334 11888 11923
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def _conv "mod.ml" 335 11972 11984 "mod.ml" 348 12688 12801
+)
+"mod.ml" 334 11888 11925 "mod.ml" 334 11888 11931
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def unconv "mod.ml" 335 11972 11984 "mod.ml" 348 12688 12801
+)
+"mod.ml" 334 11888 11898 "mod.ml" 334 11888 11932
+type(
+  Typpx.Compilerlib.Types.type_expr * Spec.t option *
+  (Typedtree.expression -> Typedtree.expression) *
+  (Typedtree.expression -> Typedtree.expression)
+)
+"mod.ml" 335 11972 11988 "mod.ml" 335 11972 11991
+type(
+  string
+)
+ident(
+  def fid "mod.ml" 336 12019 12031 "mod.ml" 348 12688 12801
+)
+"mod.ml" 335 11972 11994 "mod.ml" 335 11972 12012
+type(
+  unit -> string
+)
+ident(
+  int_ref create_function_id "mod.ml" 312 11039 11045 "mod.ml" 312 11039 11063
+)
+"mod.ml" 335 11972 12013 "mod.ml" 335 11972 12015
+type(
+  unit
+)
+"mod.ml" 335 11972 11994 "mod.ml" 335 11972 12015
+call(
+  stack
+)
+type(
+  string
+)
+"mod.ml" 336 12019 12035 "mod.ml" 336 12019 12037
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  def id "mod.ml" 337 12060 12072 "mod.ml" 348 12688 12801
+)
+"mod.ml" 336 12019 12040 "mod.ml" 336 12019 12052
+type(
+  string -> Typpx.Compilerlib.Ident.t
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ident.create
+)
+"mod.ml" 336 12019 12053 "mod.ml" 336 12019 12056
+type(
+  string
+)
+ident(
+  int_ref fid "mod.ml" 335 11972 11988 "mod.ml" 335 11972 11991
+)
+"mod.ml" 336 12019 12040 "mod.ml" 336 12019 12056
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Ident.t
+)
+"mod.ml" 337 12060 12076 "mod.ml" 337 12060 12080
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def path "mod.ml" 338 12101 12113 "mod.ml" 348 12688 12801
+)
+"mod.ml" 337 12060 12095 "mod.ml" 337 12060 12097
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "mod.ml" 336 12019 12035 "mod.ml" 336 12019 12037
+)
+"mod.ml" 337 12060 12083 "mod.ml" 337 12060 12097
+type(
+  Typpx.Compilerlib.Path.t
+)
+"mod.ml" 338 12101 12117 "mod.ml" 338 12101 12121
+type(
+  Typedtree.expression
+)
+ident(
+  def expr "mod.ml" 340 12178 12190 "mod.ml" 348 12688 12801
+)
+"mod.ml" 338 12101 12124 "mod.ml" 338 12101 12130
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref unconv "mod.ml" 334 11888 11925 "mod.ml" 334 11888 11931
+)
+"mod.ml" 338 12101 12149 "mod.ml" 338 12101 12154
+type(
+  Typpx.Forge.Path.t -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.ident
+)
+"mod.ml" 338 12101 12155 "mod.ml" 338 12101 12159
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "mod.ml" 337 12060 12076 "mod.ml" 337 12060 12080
+)
+"mod.ml" 338 12101 12149 "mod.ml" 338 12101 12159
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 338 12101 12124 "mod.ml" 338 12101 12161
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 340 12178 12190 "mod.ml" 340 12178 12208
+type(
+  (string * Candidate.t) list ref
+)
+ident(
+  int_ref derived_candidates "mod.ml" 16 262 266 "mod.ml" 16 262 284
+)
+"mod.ml" 340 12178 12209 "mod.ml" 340 12178 12211
+type(
+  (string * Candidate.t) list ref -> (string * Candidate.t) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mod.ml" 340 12178 12213 "mod.ml" 340 12178 12216
+type(
+  string
+)
+ident(
+  int_ref fid "mod.ml" 335 11972 11988 "mod.ml" 335 11972 11991
+)
+"mod.ml" 340 12178 12220 "mod.ml" 340 12178 12234
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "mod.ml" 337 12060 12076 "mod.ml" 337 12060 12080
+)
+"mod.ml" 341 12279 12321 "mod.ml" 341 12279 12325
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref expr "mod.ml" 338 12101 12117 "mod.ml" 338 12101 12121
+)
+"mod.ml" 342 12327 12369 "mod.ml" 342 12327 12374
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref type_ "mod.ml" 334 11888 11899 "mod.ml" 334 11888 11904
+)
+"mod.ml" 343 12376 12431 "mod.ml" 343 12376 12436
+type(
+  bool
+)
+"mod.ml" 340 12178 12218 "mod.ml" 343 12376 12438
+type(
+  Candidate.t
+)
+"mod.ml" 340 12178 12212 "mod.ml" 343 12376 12440
+type(
+  string * Candidate.t
+)
+"mod.ml" 344 12442 12479 "mod.ml" 344 12442 12480
+type(
+  (string * Candidate.t) list ref -> (string * Candidate.t) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mod.ml" 344 12442 12480 "mod.ml" 344 12442 12498
+type(
+  (string * Candidate.t) list ref
+)
+ident(
+  int_ref derived_candidates "mod.ml" 16 262 266 "mod.ml" 16 262 284
+)
+"mod.ml" 344 12442 12479 "mod.ml" 344 12442 12498
+type(
+  (string * Candidate.t) list
+)
+"mod.ml" 340 12178 12212 "mod.ml" 344 12442 12498
+type(
+  (string * Candidate.t) list
+)
+"mod.ml" 340 12178 12190 "mod.ml" 344 12442 12498
+type(
+  unit
+)
+"mod.ml" 345 12500 12516 "mod.ml" 345 12500 12520
+type(
+  Typedtree.case
+)
+ident(
+  def case "mod.ml" 348 12688 12700 "mod.ml" 348 12688 12801
+)
+"mod.ml" 345 12500 12525 "mod.ml" 345 12500 12529
+type(
+  Typedtree.case
+)
+ident(
+  int_ref case "mod.ml" 330 11689 11739 "mod.ml" 330 11689 11743
+)
+"mod.ml" 346 12535 12564 "mod.ml" 346 12535 12572
+type(
+  Ast_405.Location.t -> (unit -> Typedtree.pattern) -> Typedtree.pattern
+)
+ident(
+  ext_ref Forge.with_loc
+)
+"mod.ml" 346 12535 12573 "mod.ml" 346 12535 12574
+type(
+  Typedtree.pattern
+)
+ident(
+  int_ref p "mod.ml" 331 11759 11771 "mod.ml" 331 11759 11772
+)
+"mod.ml" 346 12535 12573 "mod.ml" 346 12535 12582
+type(
+  Ast_405.Location.t
+)
+"mod.ml" 346 12535 12564 "mod.ml" 346 12535 12582
+type(
+  (unit -> Typedtree.pattern) -> Typedtree.pattern
+)
+"mod.ml" 346 12535 12583 "mod.ml" 346 12535 12584
+type(
+  ((unit -> Typedtree.pattern) -> Typedtree.pattern) ->
+  (unit -> Typedtree.pattern) -> Typedtree.pattern
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 346 12535 12589 "mod.ml" 346 12535 12591
+type(
+  unit
+)
+"mod.ml" 346 12535 12595 "mod.ml" 346 12535 12603
+type(
+  Typedtree.pattern_desc -> Typedtree.pattern
+)
+ident(
+  ext_ref Forge.Pat.desc
+)
+"mod.ml" 346 12535 12617 "mod.ml" 346 12535 12618
+type(
+  Typedtree.pattern
+)
+ident(
+  int_ref p "mod.ml" 331 11759 11771 "mod.ml" 331 11759 11772
+)
+"mod.ml" 346 12535 12620 "mod.ml" 346 12535 12622
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "mod.ml" 336 12019 12035 "mod.ml" 336 12019 12037
+)
+"mod.ml" 346 12535 12629 "mod.ml" 346 12535 12632
+type(
+  string
+)
+ident(
+  int_ref fid "mod.ml" 335 11972 11988 "mod.ml" 335 11972 11991
+)
+"mod.ml" 346 12535 12639 "mod.ml" 346 12535 12656
+type(
+  Ast_405.Location.t -> Ast_405.Location.t
+)
+ident(
+  ext_ref Ppxx.Helper.ghost
+)
+"mod.ml" 346 12535 12657 "mod.ml" 346 12535 12658
+type(
+  Typedtree.pattern
+)
+ident(
+  int_ref p "mod.ml" 331 11759 11771 "mod.ml" 331 11759 11772
+)
+"mod.ml" 346 12535 12657 "mod.ml" 346 12535 12666
+type(
+  Ast_405.Location.t
+)
+"mod.ml" 346 12535 12639 "mod.ml" 346 12535 12666
+call(
+  stack
+)
+type(
+  Ast_405.Location.t
+)
+"mod.ml" 346 12535 12624 "mod.ml" 346 12535 12667
+type(
+  string Asttypes.loc
+)
+"mod.ml" 346 12535 12604 "mod.ml" 346 12535 12669
+type(
+  Typedtree.pattern_desc
+)
+"mod.ml" 346 12535 12595 "mod.ml" 346 12535 12669
+call(
+  tail
+)
+type(
+  Typedtree.pattern
+)
+"mod.ml" 346 12535 12585 "mod.ml" 346 12535 12669
+type(
+  unit -> Typedtree.pattern
+)
+"mod.ml" 346 12535 12564 "mod.ml" 346 12535 12669
+call(
+  stack
+)
+type(
+  Typedtree.pattern
+)
+"mod.ml" 345 12500 12523 "mod.ml" 346 12535 12671
+type(
+  Typedtree.case
+)
+"mod.ml" 348 12688 12700 "mod.ml" 348 12688 12714
+type(
+  string -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Forge.Exp.mark
+)
+"mod.ml" 348 12688 12715 "mod.ml" 348 12688 12718
+type(
+  string
+)
+ident(
+  int_ref fid "mod.ml" 335 11972 11988 "mod.ml" 335 11972 11991
+)
+"mod.ml" 348 12688 12721 "mod.ml" 348 12688 12722
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 318 11201 11224 "mod.ml" 318 11201 11225
+)
+"mod.ml" 348 12688 12765 "mod.ml" 348 12688 12766
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "mod.ml" 330 11689 11721 "mod.ml" 330 11689 11722
+)
+"mod.ml" 348 12688 12768 "mod.ml" 348 12688 12773
+type(
+  Ident.t
+)
+ident(
+  int_ref param "mod.ml" 330 11689 11724 "mod.ml" 330 11689 11729
+)
+"mod.ml" 348 12688 12783 "mod.ml" 348 12688 12787
+type(
+  Typedtree.case
+)
+ident(
+  int_ref case "mod.ml" 345 12500 12516 "mod.ml" 345 12500 12520
+)
+"mod.ml" 348 12688 12782 "mod.ml" 348 12688 12788
+type(
+  Typedtree.case list
+)
+"mod.ml" 348 12688 12790 "mod.ml" 348 12688 12797
+type(
+  Typedtree.partial
+)
+ident(
+  int_ref partial "mod.ml" 330 11689 11746 "mod.ml" 330 11689 11753
+)
+"mod.ml" 348 12688 12753 "mod.ml" 348 12688 12799
+type(
+  Typedtree.expression_desc.Texp_function
+)
+"mod.ml" 348 12688 12739 "mod.ml" 348 12688 12799
+type(
+  Typedtree.expression_desc
+)
+"mod.ml" 348 12688 12719 "mod.ml" 348 12688 12801
+type(
+  Typedtree.expression
+)
+"mod.ml" 348 12688 12700 "mod.ml" 348 12688 12801
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"mod.ml" 345 12500 12512 "mod.ml" 348 12688 12801
+type(
+  Typedtree.expression
+)
+"mod.ml" 340 12178 12190 "mod.ml" 348 12688 12801
+type(
+  Typedtree.expression
+)
+"mod.ml" 338 12101 12113 "mod.ml" 348 12688 12801
+type(
+  Typedtree.expression
+)
+"mod.ml" 337 12060 12072 "mod.ml" 348 12688 12801
+type(
+  Typedtree.expression
+)
+"mod.ml" 336 12019 12031 "mod.ml" 348 12688 12801
+type(
+  Typedtree.expression
+)
+"mod.ml" 335 11972 11984 "mod.ml" 348 12688 12801
+type(
+  Typedtree.expression
+)
+"mod.ml" 332 11789 11797 "mod.ml" 349 12802 12813
+type(
+  Typedtree.expression
+)
+"mod.ml" 331 11759 11767 "mod.ml" 349 12802 12813
+type(
+  Typedtree.expression
+)
+"mod.ml" 350 12814 12820 "mod.ml" 350 12814 12821
+type(
+  Typedtree.expression_desc
+)
+"mod.ml" 350 12814 12825 "mod.ml" 350 12814 12826
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 318 11201 11224 "mod.ml" 318 11201 11225
+)
+"mod.ml" 318 11201 11228 "mod.ml" 350 12814 12826
+type(
+  Typedtree.expression
+)
+"mod.ml" 352 12828 12834 "mod.ml" 352 12828 12850
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def leave_expression "mod.ml" 364 13280 13303 "mod.ml" 365 13316 13319
+)
+"mod.ml" 352 12828 12851 "mod.ml" 352 12828 12852
+type(
+  Typedtree.expression
+)
+ident(
+  def e "mod.ml" 354 12905 12909 "mod.ml" 364 13280 13303
+)
+"mod.ml" 354 12905 12915 "mod.ml" 354 12905 12940
+type(
+  Typedtree.expression ->
+  (Ppxx.Utils.String.t -> bool) -> string list * Typedtree.expression
+)
+ident(
+  ext_ref Forge.Exp.partition_marks
+)
+"mod.ml" 354 12905 12941 "mod.ml" 354 12905 12942
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 352 12828 12851 "mod.ml" 352 12828 12852
+)
+"mod.ml" 354 12905 12915 "mod.ml" 354 12905 12942
+type(
+  (Ppxx.Utils.String.t -> bool) -> string list * Typedtree.expression
+)
+"mod.ml" 354 12905 12943 "mod.ml" 354 12905 12944
+type(
+  ((Ppxx.Utils.String.t -> bool) -> string list * Typedtree.expression) ->
+  (Ppxx.Utils.String.t -> bool) -> string list * Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"mod.ml" 354 12905 12949 "mod.ml" 354 12905 12952
+type(
+  Ppxx.Utils.String.t
+)
+ident(
+  def txt "mod.ml" 354 12905 12956 "mod.ml" 354 12905 12974
+)
+"mod.ml" 354 12905 12956 "mod.ml" 354 12905 12970
+type(
+  Ppxx.Utils.String.t -> bool
+)
+ident(
+  int_ref is_function_id "mod.ml" 316 11145 11151 "mod.ml" 316 11145 11165
+)
+"mod.ml" 354 12905 12971 "mod.ml" 354 12905 12974
+type(
+  Ppxx.Utils.String.t
+)
+ident(
+  int_ref txt "mod.ml" 354 12905 12949 "mod.ml" 354 12905 12952
+)
+"mod.ml" 354 12905 12956 "mod.ml" 354 12905 12974
+call(
+  tail
+)
+type(
+  bool
+)
+"mod.ml" 354 12905 12945 "mod.ml" 354 12905 12974
+type(
+  Ppxx.Utils.String.t -> bool
+)
+"mod.ml" 354 12905 12915 "mod.ml" 354 12905 12974
+call(
+  stack
+)
+type(
+  string list * Typedtree.expression
+)
+"mod.ml" 355 12980 12986 "mod.ml" 355 12980 12988
+type(
+  string list
+)
+"mod.ml" 355 12980 12990 "mod.ml" 355 12980 12991
+type(
+  Typedtree.expression
+)
+ident(
+  def e "mod.ml" 355 12980 12995 "mod.ml" 355 12980 12996
+)
+"mod.ml" 355 12980 12986 "mod.ml" 355 12980 12991
+type(
+  string list * Typedtree.expression
+)
+"mod.ml" 355 12980 12995 "mod.ml" 355 12980 12996
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 355 12980 12990 "mod.ml" 355 12980 12991
+)
+"mod.ml" 356 12997 13004 "mod.ml" 356 12997 13007
+type(
+  string
+)
+ident(
+  def txt "mod.ml" 362 13183 13191 "mod.ml" 363 13270 13279
+)
+"mod.ml" 356 12997 13003 "mod.ml" 356 12997 13008
+type(
+  string list
+)
+"mod.ml" 356 12997 13010 "mod.ml" 356 12997 13011
+type(
+  Typedtree.expression
+)
+ident(
+  def e "mod.ml" 362 13183 13191 "mod.ml" 363 13270 13279
+)
+"mod.ml" 356 12997 13003 "mod.ml" 356 12997 13011
+type(
+  string list * Typedtree.expression
+)
+"mod.ml" 362 13183 13191 "mod.ml" 362 13183 13209
+type(
+  (string * Candidate.t) list ref
+)
+ident(
+  int_ref derived_candidates "mod.ml" 16 262 266 "mod.ml" 16 262 284
+)
+"mod.ml" 362 13183 13210 "mod.ml" 362 13183 13212
+type(
+  (string * Candidate.t) list ref -> (string * Candidate.t) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mod.ml" 362 13183 13213 "mod.ml" 362 13183 13219
+type(
+  (string * Candidate.t -> bool) ->
+  (string * Candidate.t) list -> (string * Candidate.t) list
+)
+ident(
+  ext_ref Utils.List.filter
+)
+"mod.ml" 362 13183 13226 "mod.ml" 362 13183 13229
+type(
+  string
+)
+ident(
+  def fid "mod.ml" 362 13183 13237 "mod.ml" 362 13183 13247
+)
+"mod.ml" 362 13183 13231 "mod.ml" 362 13183 13232
+type(
+  Candidate.t
+)
+"mod.ml" 362 13183 13225 "mod.ml" 362 13183 13233
+type(
+  string * Candidate.t
+)
+"mod.ml" 362 13183 13237 "mod.ml" 362 13183 13240
+type(
+  string
+)
+ident(
+  int_ref fid "mod.ml" 362 13183 13226 "mod.ml" 362 13183 13229
+)
+"mod.ml" 362 13183 13241 "mod.ml" 362 13183 13243
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"mod.ml" 362 13183 13244 "mod.ml" 362 13183 13247
+type(
+  string
+)
+ident(
+  int_ref txt "mod.ml" 356 12997 13004 "mod.ml" 356 12997 13007
+)
+"mod.ml" 362 13183 13237 "mod.ml" 362 13183 13247
+type(
+  bool
+)
+"mod.ml" 362 13183 13220 "mod.ml" 362 13183 13248
+type(
+  string * Candidate.t -> bool
+)
+"mod.ml" 362 13183 13249 "mod.ml" 362 13183 13250
+type(
+  (string * Candidate.t) list ref -> (string * Candidate.t) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mod.ml" 362 13183 13250 "mod.ml" 362 13183 13268
+type(
+  (string * Candidate.t) list ref
+)
+ident(
+  int_ref derived_candidates "mod.ml" 16 262 266 "mod.ml" 16 262 284
+)
+"mod.ml" 362 13183 13249 "mod.ml" 362 13183 13268
+type(
+  (string * Candidate.t) list
+)
+"mod.ml" 362 13183 13213 "mod.ml" 362 13183 13268
+call(
+  stack
+)
+type(
+  (string * Candidate.t) list
+)
+"mod.ml" 362 13183 13191 "mod.ml" 362 13183 13268
+type(
+  unit
+)
+"mod.ml" 363 13270 13278 "mod.ml" 363 13270 13279
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "mod.ml" 356 12997 13010 "mod.ml" 356 12997 13011
+)
+"mod.ml" 362 13183 13191 "mod.ml" 363 13270 13279
+type(
+  Typedtree.expression
+)
+"mod.ml" 364 13280 13286 "mod.ml" 364 13280 13287
+type(
+  string list * Typedtree.expression
+)
+"mod.ml" 364 13280 13298 "mod.ml" 364 13280 13303
+type(
+  bool
+)
+"mod.ml" 364 13280 13291 "mod.ml" 364 13280 13303
+type(
+  Typedtree.expression
+)
+"mod.ml" 354 12905 12909 "mod.ml" 364 13280 13303
+type(
+  Typedtree.expression
+)
+"mod.ml" 368 13341 13351 "mod.ml" 368 13341 13379
+call(
+  stack
+)
+"mod.ml" 370 13381 13387 "mod.ml" 370 13381 13400
+type(
+  Typedtree.structure -> Typedtree.structure
+)
+ident(
+  def map_structure "mod.ml" 376 13655 13684 "mod.ml" 377 13685 13688
+)
+"mod.ml" 370 13381 13401 "mod.ml" 370 13381 13404
+type(
+  Typedtree.structure
+)
+ident(
+  def str "mod.ml" 373 13543 13547 "mod.ml" 376 13655 13684
+)
+"mod.ml" 373 13543 13547 "mod.ml" 373 13543 13561
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Unshadow.reset
+)
+"mod.ml" 373 13543 13562 "mod.ml" 373 13543 13564
+type(
+  unit
+)
+"mod.ml" 373 13543 13547 "mod.ml" 373 13543 13564
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 374 13566 13574 "mod.ml" 374 13566 13577
+type(
+  Typedtree.structure
+)
+ident(
+  def str "mod.ml" 375 13601 13605 "mod.ml" 376 13655 13684
+)
+"mod.ml" 374 13566 13580 "mod.ml" 374 13566 13593
+type(
+  Typedtree.structure -> Typedtree.structure
+)
+ident(
+  ext_ref map_structure
+)
+"mod.ml" 374 13566 13594 "mod.ml" 374 13566 13597
+type(
+  Typedtree.structure
+)
+ident(
+  int_ref str "mod.ml" 370 13381 13401 "mod.ml" 370 13381 13404
+)
+"mod.ml" 374 13566 13580 "mod.ml" 374 13566 13597
+call(
+  stack
+)
+type(
+  Typedtree.structure
+)
+"mod.ml" 375 13601 13608 "mod.ml" 375 13601 13609
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mod.ml" 375 13601 13609 "mod.ml" 375 13601 13628
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_resolve
+)
+"mod.ml" 375 13601 13608 "mod.ml" 375 13601 13628
+type(
+  bool
+)
+"mod.ml" 375 13601 13634 "mod.ml" 375 13601 13637
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"mod.ml" 375 13601 13638 "mod.ml" 375 13601 13653
+type(
+  (unit, Format.formatter, unit) format
+)
+"mod.ml" 375 13601 13634 "mod.ml" 375 13601 13653
+call(
+  stack
+)
+type(
+  unit
+)
+"mod.ml" 375 13601 13605 "mod.ml" 375 13601 13653
+type(
+  unit
+)
+"mod.ml" 376 13655 13659 "mod.ml" 376 13655 13680
+type(
+  Typedtree.structure -> Typedtree.structure
+)
+ident(
+  ext_ref Unshadow.Alias.insert
+)
+"mod.ml" 376 13655 13681 "mod.ml" 376 13655 13684
+type(
+  Typedtree.structure
+)
+ident(
+  int_ref str "mod.ml" 374 13566 13574 "mod.ml" 374 13566 13577
+)
+"mod.ml" 376 13655 13659 "mod.ml" 376 13655 13684
+call(
+  tail
+)
+type(
+  Typedtree.structure
+)
+"mod.ml" 375 13601 13605 "mod.ml" 376 13655 13684
+type(
+  Typedtree.structure
+)
+"mod.ml" 374 13566 13570 "mod.ml" 376 13655 13684
+type(
+  Typedtree.structure
+)
+"mod.ml" 373 13543 13547 "mod.ml" 376 13655 13684
+type(
+  Typedtree.structure
+)

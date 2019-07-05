@@ -1,0 +1,22 @@
+(lang dune 1.10)
+(name zed)
+(version 1.6)
+(library
+ (name zed)
+ (kind normal)
+ (archives (byte zed.cma) (native zed.cmxa))
+ (plugins (byte zed.cma) (native zed.cmxs))
+ (foreign_archives (native zed.a))
+ (requires bytes react camomile)
+ (modes byte native)
+ (modules
+  (modules
+   ((name Zed_cursor) (obj_name zed_cursor) (visibility public) (impl) (intf))
+   ((name Zed_edit) (obj_name zed_edit) (visibility public) (impl) (intf))
+   ((name Zed_input) (obj_name zed_input) (visibility public) (impl) (intf))
+   ((name Zed_lines) (obj_name zed_lines) (visibility public) (impl) (intf))
+   ((name Zed_macro) (obj_name zed_macro) (visibility public) (impl) (intf))
+   ((name Zed_re) (obj_name zed_re) (visibility public) (impl) (intf))
+   ((name Zed_rope) (obj_name zed_rope) (visibility public) (impl) (intf))
+   ((name Zed_utf8) (obj_name zed_utf8) (visibility public) (impl) (intf)))
+  (wrapped false)))

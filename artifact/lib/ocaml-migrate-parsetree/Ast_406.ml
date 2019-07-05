@@ -1,0 +1,1 @@
+[@@@deprecated "Access modules via the Migrate_parsetree toplevel module. Use Migrate_parsetree.Ast_406 instead."] include Migrate_parsetree__Ast_406

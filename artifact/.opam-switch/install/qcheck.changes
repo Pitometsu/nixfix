@@ -1,0 +1,18 @@
+added: [
+  "doc/qcheck" {"D"}
+  "doc/qcheck/CHANGELOG.md" {"F:S4520T1560961042.65"}
+  "doc/qcheck/LICENSE" {"F:S1337T1560961042.72"}
+  "doc/qcheck/README.adoc" {"F:S10328T1560961042.77"}
+  "lib/qcheck" {"D"}
+  "lib/qcheck/META" {"F:S242T1560961042.01"}
+  "lib/qcheck/QCheck_runner.cmi" {"F:S3739T1560961042.05"}
+  "lib/qcheck/QCheck_runner.cmt" {"F:S11836T1560961042.1"}
+  "lib/qcheck/QCheck_runner.cmx" {"F:S4581T1560961042.12"}
+  "lib/qcheck/QCheck_runner.ml" {"F:S49T1560961042.19"}
+  "lib/qcheck/dune-package" {"F:S467T1560961042.23"}
+  "lib/qcheck/opam" {"F:S731T1560961042.28"}
+  "lib/qcheck/qcheck.a" {"F:S4086T1560961042.36"}
+  "lib/qcheck/qcheck.cma" {"F:S5887T1560961042.46"}
+  "lib/qcheck/qcheck.cmxa" {"F:S1206T1560961042.52"}
+  "lib/qcheck/qcheck.cmxs" {"F:S10664T1560961042.57"}
+]

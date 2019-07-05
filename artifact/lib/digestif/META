@@ -1,0 +1,37 @@
+version = "0.7.2"
+description = ""
+requires = "eqaf"
+archive(byte) = ""
+archive(native) = ""
+plugin(byte) = ""
+plugin(native) = ""
+package "c" (
+  directory = "c"
+  version = "0.7.2"
+  description = ""
+  requires = "bigarray digestif digestif.rakia eqaf"
+  archive(byte) = "digestif_c.cma"
+  archive(native) = "digestif_c.cmxa"
+  plugin(byte) = "digestif_c.cma"
+  plugin(native) = "digestif_c.cmxs"
+)
+package "ocaml" (
+  directory = "ocaml"
+  version = "0.7.2"
+  description = ""
+  requires = "bigarray digestif eqaf"
+  archive(byte) = "digestif_ocaml.cma"
+  archive(native) = "digestif_ocaml.cmxa"
+  plugin(byte) = "digestif_ocaml.cma"
+  plugin(native) = "digestif_ocaml.cmxs"
+)
+package "rakia" (
+  directory = "rakia"
+  version = "0.7.2"
+  description = ""
+  requires = ""
+  archive(byte) = "rakia.cma"
+  archive(native) = "rakia.cmxa"
+  plugin(byte) = "rakia.cma"
+  plugin(native) = "rakia.cmxs"
+)

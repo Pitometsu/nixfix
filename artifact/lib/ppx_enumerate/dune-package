@@ -1,0 +1,21 @@
+(lang dune 1.10)
+(name ppx_enumerate)
+(version v0.11.0)
+(library
+ (name ppx_enumerate)
+ (kind ppx_deriver)
+ (archives (byte ppx_enumerate.cma) (native ppx_enumerate.cmxa))
+ (plugins (byte ppx_enumerate.cma) (native ppx_enumerate.cmxs))
+ (foreign_archives (native ppx_enumerate.a))
+ (requires base ppxlib)
+ (main_module_name Ppx_enumerate)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_enumerate)
+  (modules
+   ((name Ppx_enumerate)
+    (obj_name ppx_enumerate)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

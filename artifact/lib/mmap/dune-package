@@ -1,0 +1,16 @@
+(lang dune 1.10)
+(name mmap)
+(version 1.1.0)
+(library
+ (name mmap)
+ (kind normal)
+ (archives (byte mmap.cma) (native mmap.cmxa))
+ (plugins (byte mmap.cma) (native mmap.cmxs))
+ (foreign_archives (native mmap.a))
+ (requires unix bigarray)
+ (main_module_name Mmap)
+ (modes byte native)
+ (modules
+  (main_module_name Mmap)
+  (modules ((name Mmap) (obj_name mmap) (visibility public) (impl) (intf)))
+  (wrapped true)))

@@ -1,0 +1,6769 @@
+"src/oUnitRunner.ml" 37 2458 2462 "src/oUnitRunner.ml" 37 2458 2474
+type(
+  OUnitConf.conf ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  OUnitShared.shared ->
+  OUnitTest.path ->
+  (OUnitTest.ctxt -> 'a) ->
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+ident(
+  def run_one_test "src/oUnitRunner.ml" 66 3499 3499 "src/oUnitRunner.ml" 1 0 -1
+)
+"src/oUnitRunner.ml" 37 2458 2475 "src/oUnitRunner.ml" 37 2458 2479
+type(
+  OUnitConf.conf
+)
+ident(
+  def conf "src/oUnitRunner.ml" 37 2458 2480 "src/oUnitRunner.ml" 64 3462 3497
+)
+"src/oUnitRunner.ml" 37 2458 2480 "src/oUnitRunner.ml" 37 2458 2486
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  def logger "src/oUnitRunner.ml" 37 2458 2487 "src/oUnitRunner.ml" 64 3462 3497
+)
+"src/oUnitRunner.ml" 37 2458 2487 "src/oUnitRunner.ml" 37 2458 2493
+type(
+  OUnitShared.shared
+)
+ident(
+  def shared "src/oUnitRunner.ml" 37 2458 2494 "src/oUnitRunner.ml" 64 3462 3497
+)
+"src/oUnitRunner.ml" 37 2458 2494 "src/oUnitRunner.ml" 37 2458 2503
+type(
+  OUnitTest.path
+)
+ident(
+  def test_path "src/oUnitRunner.ml" 37 2458 2504 "src/oUnitRunner.ml" 64 3462 3497
+)
+"src/oUnitRunner.ml" 37 2458 2504 "src/oUnitRunner.ml" 37 2458 2512
+type(
+  OUnitTest.ctxt -> 'a
+)
+ident(
+  def test_fun "src/oUnitRunner.ml" 38 2515 2517 "src/oUnitRunner.ml" 64 3462 3497
+)
+"src/oUnitRunner.ml" 38 2515 2521 "src/oUnitRunner.ml" 38 2515 2523
+type(
+  unit
+)
+"src/oUnitRunner.ml" 38 2515 2526 "src/oUnitRunner.ml" 38 2515 2544
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.log_event_t -> unit
+)
+ident(
+  ext_ref OUnitLogger.report
+)
+"src/oUnitRunner.ml" 38 2515 2545 "src/oUnitRunner.ml" 38 2515 2551
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 37 2458 2480 "src/oUnitRunner.ml" 37 2458 2486
+)
+"src/oUnitRunner.ml" 38 2515 2564 "src/oUnitRunner.ml" 38 2515 2573
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 37 2458 2494 "src/oUnitRunner.ml" 37 2458 2503
+)
+"src/oUnitRunner.ml" 38 2515 2575 "src/oUnitRunner.ml" 38 2515 2581
+type(
+  OUnitTest.result OUnitLogger.test_event
+)
+"src/oUnitRunner.ml" 38 2515 2552 "src/oUnitRunner.ml" 38 2515 2583
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.log_event_t
+)
+"src/oUnitRunner.ml" 38 2515 2526 "src/oUnitRunner.ml" 38 2515 2583
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 39 2587 2593 "src/oUnitRunner.ml" 39 2587 2602
+type(
+  OUnitTest.result_full list ref
+)
+ident(
+  def non_fatal "src/oUnitRunner.ml" 40 2615 2617 "src/oUnitRunner.ml" 64 3462 3497
+)
+"src/oUnitRunner.ml" 39 2587 2605 "src/oUnitRunner.ml" 39 2587 2608
+type(
+  OUnitTest.result_full list -> OUnitTest.result_full list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitRunner.ml" 39 2587 2609 "src/oUnitRunner.ml" 39 2587 2611
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 39 2587 2605 "src/oUnitRunner.ml" 39 2587 2611
+type(
+  OUnitTest.result_full list ref
+)
+"src/oUnitRunner.ml" 40 2615 2621 "src/oUnitRunner.ml" 40 2615 2637
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+ident(
+  def main_result_full "src/oUnitRunner.ml" 54 3063 3065 "src/oUnitRunner.ml" 64 3462 3497
+)
+"src/oUnitRunner.ml" 41 2640 2644 "src/oUnitRunner.ml" 41 2640 2653
+type(
+  OUnitConf.conf ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  OUnitShared.shared ->
+  OUnitTest.result_full list ref ->
+  OUnitTest.path ->
+  (OUnitTest.ctxt ->
+   OUnitTest.path * OUnitTest.result * OUnitLogger.position option) ->
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+ident(
+  ext_ref OUnitTest.with_ctxt
+)
+"src/oUnitRunner.ml" 41 2640 2654 "src/oUnitRunner.ml" 41 2640 2658
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunner.ml" 37 2458 2475 "src/oUnitRunner.ml" 37 2458 2479
+)
+"src/oUnitRunner.ml" 41 2640 2659 "src/oUnitRunner.ml" 41 2640 2665
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 37 2458 2480 "src/oUnitRunner.ml" 37 2458 2486
+)
+"src/oUnitRunner.ml" 41 2640 2666 "src/oUnitRunner.ml" 41 2640 2672
+type(
+  OUnitShared.shared
+)
+ident(
+  int_ref shared "src/oUnitRunner.ml" 37 2458 2487 "src/oUnitRunner.ml" 37 2458 2493
+)
+"src/oUnitRunner.ml" 41 2640 2673 "src/oUnitRunner.ml" 41 2640 2682
+type(
+  OUnitTest.result_full list ref
+)
+ident(
+  int_ref non_fatal "src/oUnitRunner.ml" 39 2587 2593 "src/oUnitRunner.ml" 39 2587 2602
+)
+"src/oUnitRunner.ml" 41 2640 2683 "src/oUnitRunner.ml" 41 2640 2692
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 37 2458 2494 "src/oUnitRunner.ml" 37 2458 2503
+)
+"src/oUnitRunner.ml" 42 2693 2704 "src/oUnitRunner.ml" 42 2693 2708
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def ctxt "src/oUnitRunner.ml" 43 2712 2721 "src/oUnitRunner.ml" 52 3010 3056
+)
+"src/oUnitRunner.ml" 43 2712 2725 "src/oUnitRunner.ml" 43 2712 2734
+type(
+  OUnitCheckEnv.t
+)
+ident(
+  def check_env "src/oUnitRunner.ml" 44 2764 2773 "src/oUnitRunner.ml" 52 3010 3056
+)
+"src/oUnitRunner.ml" 43 2712 2737 "src/oUnitRunner.ml" 43 2712 2757
+type(
+  unit -> OUnitCheckEnv.t
+)
+ident(
+  ext_ref OUnitCheckEnv.create
+)
+"src/oUnitRunner.ml" 43 2712 2758 "src/oUnitRunner.ml" 43 2712 2760
+type(
+  unit
+)
+"src/oUnitRunner.ml" 43 2712 2737 "src/oUnitRunner.ml" 43 2712 2760
+call(
+  stack
+)
+type(
+  OUnitCheckEnv.t
+)
+"src/oUnitRunner.ml" 44 2764 2777 "src/oUnitRunner.ml" 44 2764 2788
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+ident(
+  def result_full "src/oUnitRunner.ml" 52 3010 3021 "src/oUnitRunner.ml" 52 3010 3056
+)
+"src/oUnitRunner.ml" 46 2806 2819 "src/oUnitRunner.ml" 46 2806 2827
+type(
+  OUnitTest.ctxt -> 'a
+)
+ident(
+  int_ref test_fun "src/oUnitRunner.ml" 37 2458 2504 "src/oUnitRunner.ml" 37 2458 2512
+)
+"src/oUnitRunner.ml" 46 2806 2828 "src/oUnitRunner.ml" 46 2806 2832
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnitRunner.ml" 42 2693 2704 "src/oUnitRunner.ml" 42 2693 2708
+)
+"src/oUnitRunner.ml" 46 2806 2819 "src/oUnitRunner.ml" 46 2806 2832
+call(
+  stack
+)
+type(
+  'a
+)
+"src/oUnitRunner.ml" 47 2834 2847 "src/oUnitRunner.ml" 47 2834 2866
+type(
+  OUnitTest.ctxt -> OUnitCheckEnv.t -> unit
+)
+ident(
+  ext_ref OUnitCheckEnv.check
+)
+"src/oUnitRunner.ml" 47 2834 2867 "src/oUnitRunner.ml" 47 2834 2871
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnitRunner.ml" 42 2693 2704 "src/oUnitRunner.ml" 42 2693 2708
+)
+"src/oUnitRunner.ml" 47 2834 2872 "src/oUnitRunner.ml" 47 2834 2881
+type(
+  OUnitCheckEnv.t
+)
+ident(
+  int_ref check_env "src/oUnitRunner.ml" 43 2712 2725 "src/oUnitRunner.ml" 43 2712 2734
+)
+"src/oUnitRunner.ml" 47 2834 2847 "src/oUnitRunner.ml" 47 2834 2881
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 48 2883 2896 "src/oUnitRunner.ml" 48 2883 2905
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 37 2458 2494 "src/oUnitRunner.ml" 37 2458 2503
+)
+"src/oUnitRunner.ml" 48 2883 2907 "src/oUnitRunner.ml" 48 2883 2915
+type(
+  OUnitTest.result
+)
+"src/oUnitRunner.ml" 48 2883 2917 "src/oUnitRunner.ml" 48 2883 2921
+type(
+  OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 48 2883 2896 "src/oUnitRunner.ml" 48 2883 2921
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 47 2834 2847 "src/oUnitRunner.ml" 48 2883 2921
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 46 2806 2819 "src/oUnitRunner.ml" 48 2883 2921
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 49 2922 2938 "src/oUnitRunner.ml" 49 2922 2939
+type(
+  exn
+)
+ident(
+  def e "src/oUnitRunner.ml" 50 2943 2956 "src/oUnitRunner.ml" 50 2943 2997
+)
+"src/oUnitRunner.ml" 50 2943 2956 "src/oUnitRunner.ml" 50 2943 2990
+type(
+  OUnitTest.ctxt ->
+  exn -> OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+ident(
+  ext_ref OUnitTest.result_full_of_exception
+)
+"src/oUnitRunner.ml" 50 2943 2991 "src/oUnitRunner.ml" 50 2943 2995
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnitRunner.ml" 42 2693 2704 "src/oUnitRunner.ml" 42 2693 2708
+)
+"src/oUnitRunner.ml" 50 2943 2996 "src/oUnitRunner.ml" 50 2943 2997
+type(
+  exn
+)
+ident(
+  int_ref e "src/oUnitRunner.ml" 49 2922 2938 "src/oUnitRunner.ml" 49 2922 2939
+)
+"src/oUnitRunner.ml" 50 2943 2956 "src/oUnitRunner.ml" 50 2943 2997
+call(
+  stack
+)
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 45 2791 2802 "src/oUnitRunner.ml" 50 2943 2997
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 52 3010 3021 "src/oUnitRunner.ml" 52 3010 3039
+type(
+  OUnitTest.ctxt ->
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option ->
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+ident(
+  ext_ref OUnitTest.report_result_full
+)
+"src/oUnitRunner.ml" 52 3010 3040 "src/oUnitRunner.ml" 52 3010 3044
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnitRunner.ml" 42 2693 2704 "src/oUnitRunner.ml" 42 2693 2708
+)
+"src/oUnitRunner.ml" 52 3010 3045 "src/oUnitRunner.ml" 52 3010 3056
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+ident(
+  int_ref result_full "src/oUnitRunner.ml" 44 2764 2777 "src/oUnitRunner.ml" 44 2764 2788
+)
+"src/oUnitRunner.ml" 52 3010 3021 "src/oUnitRunner.ml" 52 3010 3056
+call(
+  tail
+)
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 44 2764 2773 "src/oUnitRunner.ml" 52 3010 3056
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 43 2712 2721 "src/oUnitRunner.ml" 52 3010 3056
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 42 2693 2699 "src/oUnitRunner.ml" 52 3010 3057
+type(
+  OUnitTest.ctxt ->
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 41 2640 2644 "src/oUnitRunner.ml" 52 3010 3057
+call(
+  stack
+)
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 54 3063 3069 "src/oUnitRunner.ml" 54 3063 3080
+type(
+  OUnitTest.result_full
+)
+ident(
+  def result_full "src/oUnitRunner.ml" 63 3401 3405 "src/oUnitRunner.ml" 64 3462 3497
+)
+"src/oUnitRunner.ml" 54 3063 3082 "src/oUnitRunner.ml" 54 3063 3100
+type(
+  OUnitTest.result_full list
+)
+ident(
+  def other_result_fulls "src/oUnitRunner.ml" 63 3401 3405 "src/oUnitRunner.ml" 64 3462 3497
+)
+"src/oUnitRunner.ml" 54 3063 3069 "src/oUnitRunner.ml" 54 3063 3100
+type(
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 55 3103 3113 "src/oUnitRunner.ml" 55 3103 3129
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+ident(
+  int_ref main_result_full "src/oUnitRunner.ml" 40 2615 2621 "src/oUnitRunner.ml" 40 2615 2637
+)
+"src/oUnitRunner.ml" 55 3103 3131 "src/oUnitRunner.ml" 55 3103 3139
+type(
+  OUnitTest.result_full list -> OUnitTest.result_full list
+)
+ident(
+  ext_ref List.rev
+)
+"src/oUnitRunner.ml" 55 3103 3140 "src/oUnitRunner.ml" 55 3103 3141
+type(
+  OUnitTest.result_full list ref -> OUnitTest.result_full list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitRunner.ml" 55 3103 3141 "src/oUnitRunner.ml" 55 3103 3150
+type(
+  OUnitTest.result_full list ref
+)
+ident(
+  int_ref non_fatal "src/oUnitRunner.ml" 39 2587 2593 "src/oUnitRunner.ml" 39 2587 2602
+)
+"src/oUnitRunner.ml" 55 3103 3140 "src/oUnitRunner.ml" 55 3103 3150
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 55 3103 3131 "src/oUnitRunner.ml" 55 3103 3150
+call(
+  stack
+)
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 55 3103 3113 "src/oUnitRunner.ml" 55 3103 3150
+type(
+  (OUnitTest.path * OUnitTest.result * OUnitLogger.position option) *
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 56 3156 3165 "src/oUnitRunner.ml" 56 3156 3166
+type(
+  OUnitTest.path
+)
+"src/oUnitRunner.ml" 56 3156 3168 "src/oUnitRunner.ml" 56 3156 3176
+type(
+  OUnitTest.result
+)
+"src/oUnitRunner.ml" 56 3156 3178 "src/oUnitRunner.ml" 56 3156 3179
+type(
+  OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 56 3156 3164 "src/oUnitRunner.ml" 56 3156 3180
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 56 3156 3182 "src/oUnitRunner.ml" 56 3156 3184
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 56 3156 3164 "src/oUnitRunner.ml" 56 3156 3184
+type(
+  (OUnitTest.path * OUnitTest.result * OUnitLogger.position option) *
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 57 3188 3198 "src/oUnitRunner.ml" 57 3188 3214
+type(
+  OUnitTest.result_full
+)
+ident(
+  int_ref main_result_full "src/oUnitRunner.ml" 40 2615 2621 "src/oUnitRunner.ml" 40 2615 2637
+)
+"src/oUnitRunner.ml" 57 3188 3216 "src/oUnitRunner.ml" 57 3188 3218
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 57 3188 3198 "src/oUnitRunner.ml" 57 3188 3218
+type(
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 58 3219 3228 "src/oUnitRunner.ml" 58 3219 3229
+type(
+  OUnitTest.path
+)
+"src/oUnitRunner.ml" 58 3219 3231 "src/oUnitRunner.ml" 58 3219 3239
+type(
+  OUnitTest.result
+)
+"src/oUnitRunner.ml" 58 3219 3241 "src/oUnitRunner.ml" 58 3219 3242
+type(
+  OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 58 3219 3227 "src/oUnitRunner.ml" 58 3219 3243
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 58 3219 3245 "src/oUnitRunner.ml" 58 3219 3247
+type(
+  OUnitTest.result_full
+)
+ident(
+  def hd "src/oUnitRunner.ml" 59 3257 3267 "src/oUnitRunner.ml" 59 3257 3309
+)
+"src/oUnitRunner.ml" 58 3219 3251 "src/oUnitRunner.ml" 58 3219 3253
+type(
+  OUnitTest.result_full list
+)
+ident(
+  def tl "src/oUnitRunner.ml" 59 3257 3267 "src/oUnitRunner.ml" 59 3257 3309
+)
+"src/oUnitRunner.ml" 58 3219 3245 "src/oUnitRunner.ml" 58 3219 3253
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 58 3219 3227 "src/oUnitRunner.ml" 58 3219 3253
+type(
+  (OUnitTest.path * OUnitTest.result * OUnitLogger.position option) *
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 59 3257 3267 "src/oUnitRunner.ml" 59 3257 3303
+type(
+  OUnitTest.result_full ->
+  OUnitTest.result_full list ->
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+ident(
+  ext_ref OUnitResultSummary.worst_result_full
+)
+"src/oUnitRunner.ml" 59 3257 3304 "src/oUnitRunner.ml" 59 3257 3306
+type(
+  OUnitTest.result_full
+)
+ident(
+  int_ref hd "src/oUnitRunner.ml" 58 3219 3245 "src/oUnitRunner.ml" 58 3219 3247
+)
+"src/oUnitRunner.ml" 59 3257 3307 "src/oUnitRunner.ml" 59 3257 3309
+type(
+  OUnitTest.result_full list
+)
+ident(
+  int_ref tl "src/oUnitRunner.ml" 58 3219 3251 "src/oUnitRunner.ml" 58 3219 3253
+)
+"src/oUnitRunner.ml" 59 3257 3267 "src/oUnitRunner.ml" 59 3257 3309
+call(
+  stack
+)
+type(
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 60 3310 3318 "src/oUnitRunner.ml" 60 3310 3319
+type(
+  OUnitTest.path * OUnitTest.result * OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 60 3310 3321 "src/oUnitRunner.ml" 60 3310 3324
+type(
+  OUnitTest.result_full list
+)
+ident(
+  def lst "src/oUnitRunner.ml" 61 3328 3338 "src/oUnitRunner.ml" 61 3328 3395
+)
+"src/oUnitRunner.ml" 60 3310 3318 "src/oUnitRunner.ml" 60 3310 3324
+type(
+  (OUnitTest.path * OUnitTest.result * OUnitLogger.position option) *
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 61 3328 3338 "src/oUnitRunner.ml" 61 3328 3374
+type(
+  OUnitTest.result_full ->
+  OUnitTest.result_full list ->
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+ident(
+  ext_ref OUnitResultSummary.worst_result_full
+)
+"src/oUnitRunner.ml" 61 3328 3375 "src/oUnitRunner.ml" 61 3328 3391
+type(
+  OUnitTest.result_full
+)
+ident(
+  int_ref main_result_full "src/oUnitRunner.ml" 40 2615 2621 "src/oUnitRunner.ml" 40 2615 2637
+)
+"src/oUnitRunner.ml" 61 3328 3392 "src/oUnitRunner.ml" 61 3328 3395
+type(
+  OUnitTest.result_full list
+)
+ident(
+  int_ref lst "src/oUnitRunner.ml" 60 3310 3321 "src/oUnitRunner.ml" 60 3310 3324
+)
+"src/oUnitRunner.ml" 61 3328 3338 "src/oUnitRunner.ml" 61 3328 3395
+call(
+  stack
+)
+type(
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 55 3103 3107 "src/oUnitRunner.ml" 61 3328 3395
+type(
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 63 3401 3405 "src/oUnitRunner.ml" 63 3401 3423
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.log_event_t -> unit
+)
+ident(
+  ext_ref OUnitLogger.report
+)
+"src/oUnitRunner.ml" 63 3401 3424 "src/oUnitRunner.ml" 63 3401 3430
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 37 2458 2480 "src/oUnitRunner.ml" 37 2458 2486
+)
+"src/oUnitRunner.ml" 63 3401 3443 "src/oUnitRunner.ml" 63 3401 3452
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 37 2458 2494 "src/oUnitRunner.ml" 37 2458 2503
+)
+"src/oUnitRunner.ml" 63 3401 3454 "src/oUnitRunner.ml" 63 3401 3458
+type(
+  OUnitTest.result OUnitLogger.test_event
+)
+"src/oUnitRunner.ml" 63 3401 3431 "src/oUnitRunner.ml" 63 3401 3460
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.log_event_t
+)
+"src/oUnitRunner.ml" 63 3401 3405 "src/oUnitRunner.ml" 63 3401 3460
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 64 3462 3466 "src/oUnitRunner.ml" 64 3462 3477
+type(
+  OUnitTest.result_full
+)
+ident(
+  int_ref result_full "src/oUnitRunner.ml" 54 3063 3069 "src/oUnitRunner.ml" 54 3063 3080
+)
+"src/oUnitRunner.ml" 64 3462 3479 "src/oUnitRunner.ml" 64 3462 3497
+type(
+  OUnitTest.result_full list
+)
+ident(
+  int_ref other_result_fulls "src/oUnitRunner.ml" 54 3063 3082 "src/oUnitRunner.ml" 54 3063 3100
+)
+"src/oUnitRunner.ml" 64 3462 3466 "src/oUnitRunner.ml" 64 3462 3497
+type(
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 63 3401 3405 "src/oUnitRunner.ml" 64 3462 3497
+type(
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 54 3063 3065 "src/oUnitRunner.ml" 64 3462 3497
+type(
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 40 2615 2617 "src/oUnitRunner.ml" 64 3462 3497
+type(
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 39 2587 2589 "src/oUnitRunner.ml" 64 3462 3497
+type(
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 38 2515 2517 "src/oUnitRunner.ml" 64 3462 3497
+type(
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 78 3806 3810 "src/oUnitRunner.ml" 78 3806 3827
+type(
+  OUnitConf.conf ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  OUnitChooser.chooser ->
+  (OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun) list ->
+  OUnitTest.result_full list
+)
+ident(
+  def sequential_runner "src/oUnitRunner.ml" 98 4515 4515 "src/oUnitRunner.ml" 1 0 -1
+)
+"src/oUnitRunner.ml" 78 3806 3828 "src/oUnitRunner.ml" 78 3806 3832
+type(
+  OUnitConf.conf
+)
+ident(
+  def conf "src/oUnitRunner.ml" 78 3806 3833 "src/oUnitRunner.ml" 95 4477 4489
+)
+"src/oUnitRunner.ml" 78 3806 3833 "src/oUnitRunner.ml" 78 3806 3839
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  def logger "src/oUnitRunner.ml" 78 3806 3840 "src/oUnitRunner.ml" 95 4477 4489
+)
+"src/oUnitRunner.ml" 78 3806 3840 "src/oUnitRunner.ml" 78 3806 3847
+type(
+  OUnitChooser.chooser
+)
+ident(
+  def chooser "src/oUnitRunner.ml" 78 3806 3848 "src/oUnitRunner.ml" 95 4477 4489
+)
+"src/oUnitRunner.ml" 78 3806 3848 "src/oUnitRunner.ml" 78 3806 3858
+type(
+  (OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun) list
+)
+ident(
+  def test_cases "src/oUnitRunner.ml" 79 3861 3863 "src/oUnitRunner.ml" 95 4477 4489
+)
+"src/oUnitRunner.ml" 79 3861 3867 "src/oUnitRunner.ml" 79 3861 3873
+type(
+  OUnitShared.shared
+)
+ident(
+  def shared "src/oUnitRunner.ml" 80 3901 3903 "src/oUnitRunner.ml" 95 4477 4489
+)
+"src/oUnitRunner.ml" 79 3861 3876 "src/oUnitRunner.ml" 79 3861 3894
+type(
+  unit -> OUnitShared.shared
+)
+ident(
+  ext_ref OUnitShared.create
+)
+"src/oUnitRunner.ml" 79 3861 3895 "src/oUnitRunner.ml" 79 3861 3897
+type(
+  unit
+)
+"src/oUnitRunner.ml" 79 3861 3876 "src/oUnitRunner.ml" 79 3861 3897
+call(
+  stack
+)
+type(
+  OUnitShared.shared
+)
+"src/oUnitRunner.ml" 80 3901 3911 "src/oUnitRunner.ml" 80 3901 3915
+type(
+  'a OUnitState.t -> OUnitTest.result_full list
+)
+ident(
+  def iter "src/oUnitRunner.ml" 80 3901 3903 "src/oUnitRunner.ml" 95 4477 4489
+)
+"src/oUnitRunner.ml" 80 3901 3916 "src/oUnitRunner.ml" 80 3901 3921
+type(
+  'a OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 81 3924 3928 "src/oUnitRunner.ml" 90 4357 4379
+)
+"src/oUnitRunner.ml" 81 3924 3934 "src/oUnitRunner.ml" 81 3924 3959
+type(
+  OUnitConf.conf ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  'a OUnitState.t -> 'a OUnitState.next_test_case_t * 'a OUnitState.t
+)
+ident(
+  ext_ref OUnitState.next_test_case
+)
+"src/oUnitRunner.ml" 81 3924 3960 "src/oUnitRunner.ml" 81 3924 3964
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunner.ml" 78 3806 3828 "src/oUnitRunner.ml" 78 3806 3832
+)
+"src/oUnitRunner.ml" 81 3924 3965 "src/oUnitRunner.ml" 81 3924 3971
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 78 3806 3833 "src/oUnitRunner.ml" 78 3806 3839
+)
+"src/oUnitRunner.ml" 81 3924 3972 "src/oUnitRunner.ml" 81 3924 3977
+type(
+  'a OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 80 3901 3916 "src/oUnitRunner.ml" 80 3901 3921
+)
+"src/oUnitRunner.ml" 81 3924 3934 "src/oUnitRunner.ml" 81 3924 3977
+call(
+  stack
+)
+type(
+  'a OUnitState.next_test_case_t * 'a OUnitState.t
+)
+"src/oUnitRunner.ml" 82 3983 3991 "src/oUnitRunner.ml" 82 3983 4010
+type(
+  'a OUnitState.next_test_case_t
+)
+"src/oUnitRunner.ml" 82 3983 4012 "src/oUnitRunner.ml" 82 3983 4017
+type(
+  'a OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 83 4021 4031 "src/oUnitRunner.ml" 83 4021 4059
+)
+"src/oUnitRunner.ml" 82 3983 3991 "src/oUnitRunner.ml" 82 3983 4017
+type(
+  'a OUnitState.next_test_case_t * 'a OUnitState.t
+)
+"src/oUnitRunner.ml" 83 4021 4031 "src/oUnitRunner.ml" 83 4021 4053
+type(
+  'a OUnitState.t -> OUnitTest.result_full list
+)
+ident(
+  ext_ref OUnitState.get_results
+)
+"src/oUnitRunner.ml" 83 4021 4054 "src/oUnitRunner.ml" 83 4021 4059
+type(
+  'a OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 82 3983 4012 "src/oUnitRunner.ml" 82 3983 4017
+)
+"src/oUnitRunner.ml" 83 4021 4031 "src/oUnitRunner.ml" 83 4021 4059
+call(
+  tail
+)
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 84 4060 4095 "src/oUnitRunner.ml" 84 4060 4104
+type(
+  OUnitTest.path
+)
+ident(
+  def test_path "src/oUnitRunner.ml" 85 4134 4144 "src/oUnitRunner.ml" 88 4260 4288
+)
+"src/oUnitRunner.ml" 84 4060 4106 "src/oUnitRunner.ml" 84 4060 4114
+type(
+  OUnitTest.test_fun
+)
+ident(
+  def test_fun "src/oUnitRunner.ml" 85 4134 4144 "src/oUnitRunner.ml" 88 4260 4288
+)
+"src/oUnitRunner.ml" 84 4060 4116 "src/oUnitRunner.ml" 84 4060 4122
+type(
+  'a
+)
+ident(
+  def worker "src/oUnitRunner.ml" 85 4134 4144 "src/oUnitRunner.ml" 88 4260 4288
+)
+"src/oUnitRunner.ml" 84 4060 4068 "src/oUnitRunner.ml" 84 4060 4123
+type(
+  'a OUnitState.next_test_case_t
+)
+"src/oUnitRunner.ml" 84 4060 4125 "src/oUnitRunner.ml" 84 4060 4130
+type(
+  'a OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 85 4134 4144 "src/oUnitRunner.ml" 88 4260 4288
+)
+"src/oUnitRunner.ml" 84 4060 4068 "src/oUnitRunner.ml" 84 4060 4130
+type(
+  'a OUnitState.next_test_case_t * 'a OUnitState.t
+)
+"src/oUnitRunner.ml" 85 4134 4144 "src/oUnitRunner.ml" 85 4134 4148
+type(
+  'a OUnitState.t -> OUnitTest.result_full list
+)
+ident(
+  int_ref iter "src/oUnitRunner.ml" 80 3901 3911 "src/oUnitRunner.ml" 80 3901 3915
+)
+"src/oUnitRunner.ml" 86 4149 4162 "src/oUnitRunner.ml" 86 4149 4186
+type(
+  OUnitConf.conf ->
+  OUnitTest.result_full * OUnitTest.result_list ->
+  'a -> 'a OUnitState.t -> 'a OUnitState.t
+)
+ident(
+  ext_ref OUnitState.test_finished
+)
+"src/oUnitRunner.ml" 86 4149 4187 "src/oUnitRunner.ml" 86 4149 4191
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunner.ml" 78 3806 3828 "src/oUnitRunner.ml" 78 3806 3832
+)
+"src/oUnitRunner.ml" 87 4192 4208 "src/oUnitRunner.ml" 87 4192 4220
+type(
+  OUnitConf.conf ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  OUnitShared.shared ->
+  OUnitTest.path ->
+  OUnitTest.test_fun -> OUnitTest.result_full * OUnitTest.result_list
+)
+ident(
+  int_ref run_one_test "src/oUnitRunner.ml" 37 2458 2462 "src/oUnitRunner.ml" 37 2458 2474
+)
+"src/oUnitRunner.ml" 87 4192 4221 "src/oUnitRunner.ml" 87 4192 4225
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunner.ml" 78 3806 3828 "src/oUnitRunner.ml" 78 3806 3832
+)
+"src/oUnitRunner.ml" 87 4192 4226 "src/oUnitRunner.ml" 87 4192 4232
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 78 3806 3833 "src/oUnitRunner.ml" 78 3806 3839
+)
+"src/oUnitRunner.ml" 87 4192 4233 "src/oUnitRunner.ml" 87 4192 4239
+type(
+  OUnitShared.shared
+)
+ident(
+  int_ref shared "src/oUnitRunner.ml" 79 3861 3867 "src/oUnitRunner.ml" 79 3861 3873
+)
+"src/oUnitRunner.ml" 87 4192 4240 "src/oUnitRunner.ml" 87 4192 4249
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 84 4060 4095 "src/oUnitRunner.ml" 84 4060 4104
+)
+"src/oUnitRunner.ml" 87 4192 4250 "src/oUnitRunner.ml" 87 4192 4258
+type(
+  OUnitTest.test_fun
+)
+ident(
+  int_ref test_fun "src/oUnitRunner.ml" 84 4060 4106 "src/oUnitRunner.ml" 84 4060 4114
+)
+"src/oUnitRunner.ml" 87 4192 4207 "src/oUnitRunner.ml" 87 4192 4259
+call(
+  stack
+)
+type(
+  OUnitTest.result_full * OUnitTest.result_list
+)
+"src/oUnitRunner.ml" 88 4260 4275 "src/oUnitRunner.ml" 88 4260 4281
+type(
+  'a
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 84 4060 4116 "src/oUnitRunner.ml" 84 4060 4122
+)
+"src/oUnitRunner.ml" 88 4260 4282 "src/oUnitRunner.ml" 88 4260 4287
+type(
+  'a OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 84 4060 4125 "src/oUnitRunner.ml" 84 4060 4130
+)
+"src/oUnitRunner.ml" 86 4149 4161 "src/oUnitRunner.ml" 88 4260 4288
+call(
+  stack
+)
+type(
+  'a OUnitState.t
+)
+"src/oUnitRunner.ml" 85 4134 4144 "src/oUnitRunner.ml" 88 4260 4288
+call(
+  tail
+)
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 89 4289 4298 "src/oUnitRunner.ml" 89 4289 4318
+type(
+  'a OUnitState.next_test_case_t
+)
+"src/oUnitRunner.ml" 89 4289 4321 "src/oUnitRunner.ml" 89 4289 4349
+type(
+  'a OUnitState.next_test_case_t
+)
+"src/oUnitRunner.ml" 89 4289 4297 "src/oUnitRunner.ml" 89 4289 4350
+type(
+  'a OUnitState.next_test_case_t
+)
+"src/oUnitRunner.ml" 89 4289 4352 "src/oUnitRunner.ml" 89 4289 4353
+type(
+  'a OUnitState.t
+)
+"src/oUnitRunner.ml" 89 4289 4297 "src/oUnitRunner.ml" 89 4289 4353
+type(
+  'a OUnitState.next_test_case_t * 'a OUnitState.t
+)
+"src/oUnitRunner.ml" 90 4357 4374 "src/oUnitRunner.ml" 90 4357 4379
+type(
+  bool
+)
+"src/oUnitRunner.ml" 90 4357 4367 "src/oUnitRunner.ml" 90 4357 4379
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 81 3924 3928 "src/oUnitRunner.ml" 90 4357 4379
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 92 4385 4391 "src/oUnitRunner.ml" 92 4385 4396
+type(
+  unit OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 95 4477 4479 "src/oUnitRunner.ml" 95 4477 4489
+)
+"src/oUnitRunner.ml" 93 4399 4403 "src/oUnitRunner.ml" 93 4399 4424
+type(
+  unit -> unit OUnitState.t -> unit OUnitState.t
+)
+ident(
+  ext_ref OUnitState.add_worker
+)
+"src/oUnitRunner.ml" 93 4399 4425 "src/oUnitRunner.ml" 93 4399 4427
+type(
+  unit
+)
+"src/oUnitRunner.ml" 93 4399 4429 "src/oUnitRunner.ml" 93 4399 4446
+type(
+  OUnitConf.conf ->
+  OUnitChooser.chooser ->
+  (OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun) list ->
+  unit OUnitState.t
+)
+ident(
+  ext_ref OUnitState.create
+)
+"src/oUnitRunner.ml" 93 4399 4447 "src/oUnitRunner.ml" 93 4399 4451
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunner.ml" 78 3806 3828 "src/oUnitRunner.ml" 78 3806 3832
+)
+"src/oUnitRunner.ml" 93 4399 4452 "src/oUnitRunner.ml" 93 4399 4459
+type(
+  OUnitChooser.chooser
+)
+ident(
+  int_ref chooser "src/oUnitRunner.ml" 78 3806 3840 "src/oUnitRunner.ml" 78 3806 3847
+)
+"src/oUnitRunner.ml" 93 4399 4460 "src/oUnitRunner.ml" 93 4399 4470
+type(
+  (OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun) list
+)
+ident(
+  int_ref test_cases "src/oUnitRunner.ml" 78 3806 3848 "src/oUnitRunner.ml" 78 3806 3858
+)
+"src/oUnitRunner.ml" 93 4399 4428 "src/oUnitRunner.ml" 93 4399 4471
+call(
+  stack
+)
+type(
+  unit OUnitState.t
+)
+"src/oUnitRunner.ml" 93 4399 4403 "src/oUnitRunner.ml" 93 4399 4471
+call(
+  stack
+)
+type(
+  unit OUnitState.t
+)
+"src/oUnitRunner.ml" 95 4477 4479 "src/oUnitRunner.ml" 95 4477 4483
+type(
+  unit OUnitState.t -> OUnitTest.result_full list
+)
+ident(
+  int_ref iter "src/oUnitRunner.ml" 80 3901 3911 "src/oUnitRunner.ml" 80 3901 3915
+)
+"src/oUnitRunner.ml" 95 4477 4484 "src/oUnitRunner.ml" 95 4477 4489
+type(
+  unit OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 92 4385 4391 "src/oUnitRunner.ml" 92 4385 4396
+)
+"src/oUnitRunner.ml" 95 4477 4479 "src/oUnitRunner.ml" 95 4477 4489
+call(
+  tail
+)
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 92 4385 4387 "src/oUnitRunner.ml" 95 4477 4489
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 80 3901 3903 "src/oUnitRunner.ml" 95 4477 4489
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 79 3861 3863 "src/oUnitRunner.ml" 95 4477 4489
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 102 4585 4596 "src/oUnitRunner.ml" 102 4585 4600
+type(
+  string
+)
+ident(
+  def name "src/oUnitRunner.ml" 103 4612 4619 "src/oUnitRunner.ml" 107 4764 4772
+)
+"src/oUnitRunner.ml" 102 4585 4603 "src/oUnitRunner.ml" 102 4585 4611
+type(
+  string
+)
+"src/oUnitRunner.ml" 103 4612 4623 "src/oUnitRunner.ml" 103 4612 4632
+type(
+  string
+)
+ident(
+  def conf_help "src/oUnitRunner.ml" 105 4680 4687 "src/oUnitRunner.ml" 107 4764 4772
+)
+"src/oUnitRunner.ml" 104 4635 4644 "src/oUnitRunner.ml" 104 4635 4679
+type(
+  string
+)
+"src/oUnitRunner.ml" 105 4680 4691 "src/oUnitRunner.ml" 105 4680 4703
+type(
+  string
+)
+ident(
+  def default_name "src/oUnitRunner.ml" 106 4719 4726 "src/oUnitRunner.ml" 107 4764 4772
+)
+"src/oUnitRunner.ml" 105 4680 4706 "src/oUnitRunner.ml" 105 4680 4718
+type(
+  string
+)
+"src/oUnitRunner.ml" 106 4719 4730 "src/oUnitRunner.ml" 106 4719 4743
+type(
+  OUnitConf.conf ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  OUnitChooser.chooser ->
+  (OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun) list ->
+  OUnitTest.result_full list
+)
+ident(
+  def default_value "src/oUnitRunner.ml" 106 4719 4763 "src/oUnitRunner.ml" 107 4764 4772
+)
+"src/oUnitRunner.ml" 106 4719 4746 "src/oUnitRunner.ml" 106 4719 4763
+type(
+  OUnitConf.conf ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  OUnitChooser.chooser ->
+  (OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun) list ->
+  OUnitTest.result_full list
+)
+ident(
+  int_ref sequential_runner "src/oUnitRunner.ml" 78 3806 3810 "src/oUnitRunner.ml" 78 3806 3827
+)
+"src/oUnitRunner.ml" 99 4531 4533 "src/oUnitRunner.ml" 107 4764 4773
+call(
+  stack
+)
+"src/oUnitRunner.ml" 111 4791 4795 "src/oUnitRunner.ml" 111 4791 4801
+type(
+  (int, unit -> unit) Hashtbl.t -> int
+)
+ident(
+  def shards "src/oUnitRunner.ml" 137 5459 5459 "src/oUnitRunner.ml" 1 0 -1
+)
+"src/oUnitRunner.ml" 112 4804 4810 "src/oUnitRunner.ml" 112 4804 4816
+type(
+  int ref
+)
+ident(
+  def shards "src/oUnitRunner.ml" 113 4828 4830 "src/oUnitRunner.ml" 134 5360 5423
+)
+"src/oUnitRunner.ml" 112 4804 4819 "src/oUnitRunner.ml" 112 4804 4822
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitRunner.ml" 112 4804 4823 "src/oUnitRunner.ml" 112 4804 4824
+type(
+  int
+)
+"src/oUnitRunner.ml" 112 4804 4819 "src/oUnitRunner.ml" 112 4804 4824
+type(
+  int ref
+)
+"src/oUnitRunner.ml" 113 4828 4833 "src/oUnitRunner.ml" 113 4828 4844
+type(
+  string
+)
+ident(
+  ext_ref Sys.os_type
+)
+"src/oUnitRunner.ml" 113 4828 4845 "src/oUnitRunner.ml" 113 4828 4846
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/oUnitRunner.ml" 113 4828 4847 "src/oUnitRunner.ml" 113 4828 4853
+type(
+  string
+)
+"src/oUnitRunner.ml" 113 4828 4833 "src/oUnitRunner.ml" 113 4828 4853
+type(
+  bool
+)
+"src/oUnitRunner.ml" 114 4865 4872 "src/oUnitRunner.ml" 114 4865 4887
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"src/oUnitRunner.ml" 114 4865 4888 "src/oUnitRunner.ml" 114 4865 4903
+type(
+  string
+)
+"src/oUnitRunner.ml" 114 4865 4872 "src/oUnitRunner.ml" 114 4865 4903
+type(
+  bool
+)
+"src/oUnitRunner.ml" 115 4915 4925 "src/oUnitRunner.ml" 115 4915 4931
+type(
+  in_channel
+)
+ident(
+  def chn_in "src/oUnitRunner.ml" 116 4961 4967 "src/oUnitRunner.ml" 128 5275 5298
+)
+"src/oUnitRunner.ml" 115 4915 4934 "src/oUnitRunner.ml" 115 4915 4941
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/oUnitRunner.ml" 115 4915 4942 "src/oUnitRunner.ml" 115 4915 4957
+type(
+  string
+)
+"src/oUnitRunner.ml" 115 4915 4934 "src/oUnitRunner.ml" 115 4915 4957
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/oUnitRunner.ml" 116 4961 4971 "src/oUnitRunner.ml" 116 4961 4973
+type(
+  unit
+)
+"src/oUnitRunner.ml" 118 4988 5004 "src/oUnitRunner.ml" 118 4988 5008
+type(
+  bool
+)
+"src/oUnitRunner.ml" 120 5028 5046 "src/oUnitRunner.ml" 120 5028 5050
+type(
+  string
+)
+ident(
+  def line "src/oUnitRunner.ml" 121 5074 5088 "src/oUnitRunner.ml" 121 5074 5151
+)
+"src/oUnitRunner.ml" 120 5028 5053 "src/oUnitRunner.ml" 120 5028 5063
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"src/oUnitRunner.ml" 120 5028 5064 "src/oUnitRunner.ml" 120 5028 5070
+type(
+  in_channel
+)
+ident(
+  int_ref chn_in "src/oUnitRunner.ml" 115 4915 4925 "src/oUnitRunner.ml" 115 4915 4931
+)
+"src/oUnitRunner.ml" 120 5028 5053 "src/oUnitRunner.ml" 120 5028 5070
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunner.ml" 121 5074 5088 "src/oUnitRunner.ml" 121 5074 5100
+type(
+  string -> (int -> unit, '_a, (int -> unit) -> unit, unit) Scanf.scanner
+)
+ident(
+  ext_ref Scanf.sscanf
+)
+"src/oUnitRunner.ml" 121 5074 5101 "src/oUnitRunner.ml" 121 5074 5105
+type(
+  string
+)
+ident(
+  int_ref line "src/oUnitRunner.ml" 120 5028 5046 "src/oUnitRunner.ml" 120 5028 5050
+)
+"src/oUnitRunner.ml" 121 5074 5106 "src/oUnitRunner.ml" 121 5074 5122
+type(
+  (int -> unit, Scanf.Scanning.in_channel, '_a, (int -> unit) -> unit,
+   (int -> unit) -> unit, unit)
+  format6
+)
+"src/oUnitRunner.ml" 121 5074 5128 "src/oUnitRunner.ml" 121 5074 5129
+type(
+  int
+)
+ident(
+  def i "src/oUnitRunner.ml" 121 5074 5133 "src/oUnitRunner.ml" 121 5074 5150
+)
+"src/oUnitRunner.ml" 121 5074 5133 "src/oUnitRunner.ml" 121 5074 5139
+type(
+  int ref
+)
+ident(
+  int_ref shards "src/oUnitRunner.ml" 112 4804 4810 "src/oUnitRunner.ml" 112 4804 4816
+)
+"src/oUnitRunner.ml" 121 5074 5140 "src/oUnitRunner.ml" 121 5074 5142
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitRunner.ml" 121 5074 5143 "src/oUnitRunner.ml" 121 5074 5146
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/oUnitRunner.ml" 121 5074 5147 "src/oUnitRunner.ml" 121 5074 5148
+type(
+  int
+)
+ident(
+  int_ref i "src/oUnitRunner.ml" 121 5074 5128 "src/oUnitRunner.ml" 121 5074 5129
+)
+"src/oUnitRunner.ml" 121 5074 5149 "src/oUnitRunner.ml" 121 5074 5150
+type(
+  int
+)
+"src/oUnitRunner.ml" 121 5074 5143 "src/oUnitRunner.ml" 121 5074 5150
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitRunner.ml" 121 5074 5133 "src/oUnitRunner.ml" 121 5074 5150
+type(
+  unit
+)
+"src/oUnitRunner.ml" 121 5074 5123 "src/oUnitRunner.ml" 121 5074 5151
+type(
+  int -> unit
+)
+"src/oUnitRunner.ml" 121 5074 5088 "src/oUnitRunner.ml" 121 5074 5151
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 120 5028 5042 "src/oUnitRunner.ml" 121 5074 5151
+type(
+  unit
+)
+"src/oUnitRunner.ml" 122 5152 5188 "src/oUnitRunner.ml" 122 5152 5189
+type(
+  string
+)
+"src/oUnitRunner.ml" 122 5152 5169 "src/oUnitRunner.ml" 122 5152 5189
+type(
+  exn
+)
+"src/oUnitRunner.ml" 123 5193 5207 "src/oUnitRunner.ml" 123 5193 5209
+type(
+  unit
+)
+"src/oUnitRunner.ml" 119 5012 5024 "src/oUnitRunner.ml" 123 5193 5209
+type(
+  unit
+)
+"src/oUnitRunner.ml" 118 4988 4998 "src/oUnitRunner.ml" 124 5210 5224
+type(
+  unit
+)
+"src/oUnitRunner.ml" 125 5225 5238 "src/oUnitRunner.ml" 125 5225 5249
+type(
+  exn
+)
+"src/oUnitRunner.ml" 126 5253 5263 "src/oUnitRunner.ml" 126 5253 5265
+type(
+  unit
+)
+"src/oUnitRunner.ml" 117 4976 4984 "src/oUnitRunner.ml" 126 5253 5265
+type(
+  unit
+)
+"src/oUnitRunner.ml" 128 5275 5283 "src/oUnitRunner.ml" 128 5275 5291
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"src/oUnitRunner.ml" 128 5275 5292 "src/oUnitRunner.ml" 128 5275 5298
+type(
+  in_channel
+)
+ident(
+  int_ref chn_in "src/oUnitRunner.ml" 115 4915 4925 "src/oUnitRunner.ml" 115 4915 4931
+)
+"src/oUnitRunner.ml" 128 5275 5283 "src/oUnitRunner.ml" 128 5275 5298
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 116 4961 4967 "src/oUnitRunner.ml" 128 5275 5298
+type(
+  unit
+)
+"src/oUnitRunner.ml" 114 4865 4909 "src/oUnitRunner.ml" 129 5299 5306
+type(
+  unit
+)
+"src/oUnitRunner.ml" 113 4828 4859 "src/oUnitRunner.ml" 130 5307 5312
+type(
+  unit
+)
+"src/oUnitRunner.ml" 113 4828 4830 "src/oUnitRunner.ml" 130 5307 5312
+type(
+  unit
+)
+"src/oUnitRunner.ml" 131 5314 5316 "src/oUnitRunner.ml" 131 5314 5334
+type(
+  string -> int -> string -> (int, unit -> unit) Hashtbl.t -> int
+)
+ident(
+  ext_ref OUnitConf.make_int
+)
+"src/oUnitRunner.ml" 132 5335 5339 "src/oUnitRunner.ml" 132 5335 5347
+type(
+  string
+)
+"src/oUnitRunner.ml" 133 5348 5352 "src/oUnitRunner.ml" 133 5348 5353
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitRunner.ml" 133 5348 5353 "src/oUnitRunner.ml" 133 5348 5359
+type(
+  int ref
+)
+ident(
+  int_ref shards "src/oUnitRunner.ml" 112 4804 4810 "src/oUnitRunner.ml" 112 4804 4816
+)
+"src/oUnitRunner.ml" 133 5348 5352 "src/oUnitRunner.ml" 133 5348 5359
+type(
+  int
+)
+"src/oUnitRunner.ml" 134 5360 5364 "src/oUnitRunner.ml" 134 5360 5423
+type(
+  string
+)
+"src/oUnitRunner.ml" 131 5314 5316 "src/oUnitRunner.ml" 134 5360 5423
+call(
+  stack
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> int
+)
+"src/oUnitRunner.ml" 113 4828 4830 "src/oUnitRunner.ml" 134 5360 5423
+type(
+  (int, unit -> unit) Hashtbl.t -> int
+)
+"src/oUnitRunner.ml" 112 4804 4806 "src/oUnitRunner.ml" 134 5360 5423
+type(
+  (int, unit -> unit) Hashtbl.t -> int
+)
+"src/oUnitRunner.ml" 146 5591 5597 "src/oUnitRunner.ml" 146 5591 5624
+type(
+  message_to_worker -> string
+)
+ident(
+  def string_of_message_to_worker "src/oUnitRunner.ml" 152 5730 5732 "src/oUnitRunner.ml" 524 17066 17069
+)
+"src/oUnitRunner.ml" 148 5640 5648 "src/oUnitRunner.ml" 148 5640 5652
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 148 5640 5656 "src/oUnitRunner.ml" 148 5640 5662
+type(
+  string
+)
+"src/oUnitRunner.ml" 149 5663 5679 "src/oUnitRunner.ml" 149 5663 5680
+type(
+  bool
+)
+"src/oUnitRunner.ml" 149 5663 5671 "src/oUnitRunner.ml" 149 5663 5680
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 149 5663 5684 "src/oUnitRunner.ml" 149 5663 5695
+type(
+  string
+)
+"src/oUnitRunner.ml" 150 5696 5712 "src/oUnitRunner.ml" 150 5696 5713
+type(
+  OUnitTest.path
+)
+"src/oUnitRunner.ml" 150 5696 5704 "src/oUnitRunner.ml" 150 5696 5713
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 150 5696 5717 "src/oUnitRunner.ml" 150 5696 5728
+type(
+  string
+)
+"src/oUnitRunner.ml" 147 5627 5631 "src/oUnitRunner.ml" 150 5696 5728
+type(
+  message_to_worker -> string
+)
+"src/oUnitRunner.ml" 159 5913 5919 "src/oUnitRunner.ml" 159 5913 5948
+type(
+  message_from_worker -> string
+)
+ident(
+  def string_of_message_from_worker "src/oUnitRunner.ml" 167 6112 6114 "src/oUnitRunner.ml" 524 17066 17069
+)
+"src/oUnitRunner.ml" 161 5964 5972 "src/oUnitRunner.ml" 161 5964 5979
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 161 5964 5983 "src/oUnitRunner.ml" 161 5964 5992
+type(
+  string
+)
+"src/oUnitRunner.ml" 162 5993 6005 "src/oUnitRunner.ml" 162 5993 6006
+type(
+  OUnitTest.log_event_t
+)
+"src/oUnitRunner.ml" 162 5993 6001 "src/oUnitRunner.ml" 162 5993 6006
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 162 5993 6010 "src/oUnitRunner.ml" 162 5993 6017
+type(
+  string
+)
+"src/oUnitRunner.ml" 163 6018 6031 "src/oUnitRunner.ml" 163 6018 6032
+type(
+  int
+)
+"src/oUnitRunner.ml" 163 6018 6026 "src/oUnitRunner.ml" 163 6018 6032
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 163 6018 6036 "src/oUnitRunner.ml" 163 6018 6044
+type(
+  string
+)
+"src/oUnitRunner.ml" 164 6045 6060 "src/oUnitRunner.ml" 164 6045 6061
+type(
+  int
+)
+"src/oUnitRunner.ml" 164 6045 6053 "src/oUnitRunner.ml" 164 6045 6061
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 164 6045 6065 "src/oUnitRunner.ml" 164 6045 6075
+type(
+  string
+)
+"src/oUnitRunner.ml" 165 6076 6093 "src/oUnitRunner.ml" 165 6076 6094
+type(
+  OUnitTest.result_full * OUnitTest.result_list
+)
+"src/oUnitRunner.ml" 165 6076 6084 "src/oUnitRunner.ml" 165 6076 6094
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 165 6076 6098 "src/oUnitRunner.ml" 165 6076 6110
+type(
+  string
+)
+"src/oUnitRunner.ml" 160 5951 5955 "src/oUnitRunner.ml" 165 6076 6110
+type(
+  message_from_worker -> string
+)
+"src/oUnitRunner.ml" 171 6181 6198 "src/oUnitRunner.ml" 171 6181 6205
+type(
+  'a list -> 'a list -> int
+)
+ident(
+  def compare "src/oUnitRunner.ml" 171 6181 6190 "src/oUnitRunner.ml" 182 6557 6567
+)
+"src/oUnitRunner.ml" 171 6181 6206 "src/oUnitRunner.ml" 171 6181 6210
+type(
+  'a list
+)
+ident(
+  def lst1 "src/oUnitRunner.ml" 171 6181 6211 "src/oUnitRunner.ml" 181 6530 6556
+)
+"src/oUnitRunner.ml" 171 6181 6211 "src/oUnitRunner.ml" 171 6181 6215
+type(
+  'a list
+)
+ident(
+  def lst2 "src/oUnitRunner.ml" 172 6218 6229 "src/oUnitRunner.ml" 181 6530 6556
+)
+"src/oUnitRunner.ml" 172 6218 6235 "src/oUnitRunner.ml" 172 6218 6239
+type(
+  'a list
+)
+ident(
+  int_ref lst1 "src/oUnitRunner.ml" 171 6181 6206 "src/oUnitRunner.ml" 171 6181 6210
+)
+"src/oUnitRunner.ml" 172 6218 6241 "src/oUnitRunner.ml" 172 6218 6245
+type(
+  'a list
+)
+ident(
+  int_ref lst2 "src/oUnitRunner.ml" 171 6181 6211 "src/oUnitRunner.ml" 171 6181 6215
+)
+"src/oUnitRunner.ml" 172 6218 6235 "src/oUnitRunner.ml" 172 6218 6245
+type(
+  'a list * 'a list
+)
+"src/oUnitRunner.ml" 173 6251 6266 "src/oUnitRunner.ml" 173 6251 6269
+type(
+  'a
+)
+ident(
+  def hd1 "src/oUnitRunner.ml" 174 6292 6309 "src/oUnitRunner.ml" 178 6446 6466
+)
+"src/oUnitRunner.ml" 173 6251 6273 "src/oUnitRunner.ml" 173 6251 6276
+type(
+  'a list
+)
+ident(
+  def tl1 "src/oUnitRunner.ml" 174 6292 6309 "src/oUnitRunner.ml" 178 6446 6466
+)
+"src/oUnitRunner.ml" 173 6251 6266 "src/oUnitRunner.ml" 173 6251 6276
+type(
+  'a list
+)
+"src/oUnitRunner.ml" 173 6251 6278 "src/oUnitRunner.ml" 173 6251 6281
+type(
+  'a
+)
+ident(
+  def hd2 "src/oUnitRunner.ml" 174 6292 6309 "src/oUnitRunner.ml" 178 6446 6466
+)
+"src/oUnitRunner.ml" 173 6251 6285 "src/oUnitRunner.ml" 173 6251 6288
+type(
+  'a list
+)
+ident(
+  def tl2 "src/oUnitRunner.ml" 174 6292 6309 "src/oUnitRunner.ml" 178 6446 6466
+)
+"src/oUnitRunner.ml" 173 6251 6278 "src/oUnitRunner.ml" 173 6251 6288
+type(
+  'a list
+)
+"src/oUnitRunner.ml" 173 6251 6266 "src/oUnitRunner.ml" 173 6251 6288
+type(
+  'a list * 'a list
+)
+"src/oUnitRunner.ml" 175 6315 6340 "src/oUnitRunner.ml" 175 6315 6358
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/oUnitRunner.ml" 175 6315 6359 "src/oUnitRunner.ml" 175 6315 6362
+type(
+  'a
+)
+ident(
+  int_ref hd1 "src/oUnitRunner.ml" 173 6251 6266 "src/oUnitRunner.ml" 173 6251 6269
+)
+"src/oUnitRunner.ml" 175 6315 6363 "src/oUnitRunner.ml" 175 6315 6366
+type(
+  'a
+)
+ident(
+  int_ref hd2 "src/oUnitRunner.ml" 173 6251 6278 "src/oUnitRunner.ml" 173 6251 6281
+)
+"src/oUnitRunner.ml" 175 6315 6340 "src/oUnitRunner.ml" 175 6315 6366
+type(
+  int
+)
+"src/oUnitRunner.ml" 176 6372 6395 "src/oUnitRunner.ml" 176 6372 6396
+type(
+  int
+)
+"src/oUnitRunner.ml" 176 6372 6400 "src/oUnitRunner.ml" 176 6372 6407
+type(
+  'a list -> 'a list -> int
+)
+ident(
+  int_ref compare "src/oUnitRunner.ml" 171 6181 6198 "src/oUnitRunner.ml" 171 6181 6205
+)
+"src/oUnitRunner.ml" 176 6372 6408 "src/oUnitRunner.ml" 176 6372 6411
+type(
+  'a list
+)
+ident(
+  int_ref tl1 "src/oUnitRunner.ml" 173 6251 6273 "src/oUnitRunner.ml" 173 6251 6276
+)
+"src/oUnitRunner.ml" 176 6372 6412 "src/oUnitRunner.ml" 176 6372 6415
+type(
+  'a list
+)
+ident(
+  int_ref tl2 "src/oUnitRunner.ml" 173 6251 6285 "src/oUnitRunner.ml" 173 6251 6288
+)
+"src/oUnitRunner.ml" 176 6372 6400 "src/oUnitRunner.ml" 176 6372 6415
+call(
+  tail
+)
+type(
+  int
+)
+"src/oUnitRunner.ml" 177 6416 6439 "src/oUnitRunner.ml" 177 6416 6440
+type(
+  int
+)
+ident(
+  def n "src/oUnitRunner.ml" 177 6416 6444 "src/oUnitRunner.ml" 177 6416 6445
+)
+"src/oUnitRunner.ml" 177 6416 6444 "src/oUnitRunner.ml" 177 6416 6445
+type(
+  int
+)
+ident(
+  int_ref n "src/oUnitRunner.ml" 177 6416 6439 "src/oUnitRunner.ml" 177 6416 6440
+)
+"src/oUnitRunner.ml" 174 6292 6309 "src/oUnitRunner.ml" 178 6446 6466
+type(
+  int
+)
+"src/oUnitRunner.ml" 179 6467 6482 "src/oUnitRunner.ml" 179 6467 6484
+type(
+  'a list
+)
+"src/oUnitRunner.ml" 179 6467 6486 "src/oUnitRunner.ml" 179 6467 6487
+type(
+  'a
+)
+"src/oUnitRunner.ml" 179 6467 6491 "src/oUnitRunner.ml" 179 6467 6492
+type(
+  'a list
+)
+"src/oUnitRunner.ml" 179 6467 6486 "src/oUnitRunner.ml" 179 6467 6492
+type(
+  'a list
+)
+"src/oUnitRunner.ml" 179 6467 6482 "src/oUnitRunner.ml" 179 6467 6492
+type(
+  'a list * 'a list
+)
+"src/oUnitRunner.ml" 179 6467 6496 "src/oUnitRunner.ml" 179 6467 6498
+type(
+  int
+)
+"src/oUnitRunner.ml" 180 6499 6514 "src/oUnitRunner.ml" 180 6499 6515
+type(
+  'a
+)
+"src/oUnitRunner.ml" 180 6499 6519 "src/oUnitRunner.ml" 180 6499 6520
+type(
+  'a list
+)
+"src/oUnitRunner.ml" 180 6499 6514 "src/oUnitRunner.ml" 180 6499 6520
+type(
+  'a list
+)
+"src/oUnitRunner.ml" 180 6499 6522 "src/oUnitRunner.ml" 180 6499 6524
+type(
+  'a list
+)
+"src/oUnitRunner.ml" 180 6499 6514 "src/oUnitRunner.ml" 180 6499 6524
+type(
+  'a list * 'a list
+)
+"src/oUnitRunner.ml" 180 6499 6528 "src/oUnitRunner.ml" 180 6499 6529
+type(
+  int
+)
+"src/oUnitRunner.ml" 181 6530 6545 "src/oUnitRunner.ml" 181 6530 6547
+type(
+  'a list
+)
+"src/oUnitRunner.ml" 181 6530 6549 "src/oUnitRunner.ml" 181 6530 6551
+type(
+  'a list
+)
+"src/oUnitRunner.ml" 181 6530 6545 "src/oUnitRunner.ml" 181 6530 6551
+type(
+  'a list * 'a list
+)
+"src/oUnitRunner.ml" 181 6530 6555 "src/oUnitRunner.ml" 181 6530 6556
+type(
+  int
+)
+"src/oUnitRunner.ml" 172 6218 6229 "src/oUnitRunner.ml" 181 6530 6556
+type(
+  int
+)
+"src/oUnitRunner.ml" 168 6131 6135 "src/oUnitRunner.ml" 182 6557 6568
+call(
+  stack
+)
+"src/oUnitRunner.ml" 192 6750 6756 "src/oUnitRunner.ml" 192 6750 6768
+type(
+  string ->
+  ('b -> string) -> ('c -> string) -> ('c, 'b) channel -> ('c, 'b) channel
+)
+ident(
+  def wrap_channel "src/oUnitRunner.ml" 230 7861 7863 "src/oUnitRunner.ml" 524 17066 17069
+)
+"src/oUnitRunner.ml" 193 6769 6777 "src/oUnitRunner.ml" 193 6769 6785
+type(
+  string
+)
+ident(
+  def shard_id "src/oUnitRunner.ml" 194 6786 6794 "src/oUnitRunner.ml" 226 7789 7798
+)
+"src/oUnitRunner.ml" 194 6786 6794 "src/oUnitRunner.ml" 194 6786 6816
+type(
+  'b -> string
+)
+ident(
+  def string_of_read_message "src/oUnitRunner.ml" 195 6817 6825 "src/oUnitRunner.ml" 226 7789 7798
+)
+"src/oUnitRunner.ml" 195 6817 6825 "src/oUnitRunner.ml" 195 6817 6850
+type(
+  'c -> string
+)
+ident(
+  def string_of_written_message "src/oUnitRunner.ml" 196 6851 6859 "src/oUnitRunner.ml" 226 7789 7798
+)
+"src/oUnitRunner.ml" 196 6851 6859 "src/oUnitRunner.ml" 196 6851 6866
+type(
+  ('c, 'b) channel
+)
+ident(
+  def channel "src/oUnitRunner.ml" 198 6922 6926 "src/oUnitRunner.ml" 226 7789 7798
+)
+"src/oUnitRunner.ml" 198 6922 6930 "src/oUnitRunner.ml" 198 6922 6949
+type(
+  bool
+)
+ident(
+  def debug_communication "src/oUnitRunner.ml" 199 6961 6967 "src/oUnitRunner.ml" 226 7789 7798
+)
+"src/oUnitRunner.ml" 198 6922 6952 "src/oUnitRunner.ml" 198 6922 6957
+type(
+  bool
+)
+"src/oUnitRunner.ml" 199 6961 6970 "src/oUnitRunner.ml" 199 6961 6989
+type(
+  bool
+)
+ident(
+  int_ref debug_communication "src/oUnitRunner.ml" 198 6922 6930 "src/oUnitRunner.ml" 198 6922 6949
+)
+"src/oUnitRunner.ml" 200 7001 7013 "src/oUnitRunner.ml" 200 7001 7019
+type(
+  ('d, unit, string, unit) format4 -> 'd
+)
+ident(
+  def debugf "src/oUnitRunner.ml" 207 7200 7208 "src/oUnitRunner.ml" 223 7742 7751
+)
+"src/oUnitRunner.ml" 200 7001 7020 "src/oUnitRunner.ml" 200 7001 7023
+type(
+  ('d, unit, string, unit) format4
+)
+ident(
+  def fmt "src/oUnitRunner.ml" 201 7026 7036 "src/oUnitRunner.ml" 205 7173 7188
+)
+"src/oUnitRunner.ml" 201 7026 7036 "src/oUnitRunner.ml" 201 7026 7051
+type(
+  (string -> unit) -> ('d, unit, string, unit) format4 -> 'd
+)
+ident(
+  ext_ref Printf.ksprintf
+)
+"src/oUnitRunner.ml" 202 7052 7069 "src/oUnitRunner.ml" 202 7052 7070
+type(
+  string
+)
+ident(
+  def s "src/oUnitRunner.ml" 203 7074 7089 "src/oUnitRunner.ml" 204 7117 7171
+)
+"src/oUnitRunner.ml" 203 7074 7092 "src/oUnitRunner.ml" 203 7074 7111
+type(
+  bool
+)
+ident(
+  int_ref debug_communication "src/oUnitRunner.ml" 198 6922 6930 "src/oUnitRunner.ml" 198 6922 6949
+)
+"src/oUnitRunner.ml" 204 7117 7134 "src/oUnitRunner.ml" 204 7117 7147
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"src/oUnitRunner.ml" 204 7117 7149 "src/oUnitRunner.ml" 204 7117 7153
+type(
+  string
+)
+"src/oUnitRunner.ml" 204 7117 7153 "src/oUnitRunner.ml" 204 7117 7154
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitRunner.ml" 204 7117 7154 "src/oUnitRunner.ml" 204 7117 7162
+type(
+  string
+)
+ident(
+  int_ref shard_id "src/oUnitRunner.ml" 193 6769 6777 "src/oUnitRunner.ml" 193 6769 6785
+)
+"src/oUnitRunner.ml" 204 7117 7162 "src/oUnitRunner.ml" 204 7117 7163
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitRunner.ml" 204 7117 7163 "src/oUnitRunner.ml" 204 7117 7168
+type(
+  string
+)
+"src/oUnitRunner.ml" 204 7117 7168 "src/oUnitRunner.ml" 204 7117 7169
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitRunner.ml" 204 7117 7169 "src/oUnitRunner.ml" 204 7117 7170
+type(
+  string
+)
+ident(
+  int_ref s "src/oUnitRunner.ml" 202 7052 7069 "src/oUnitRunner.ml" 202 7052 7070
+)
+"src/oUnitRunner.ml" 204 7117 7163 "src/oUnitRunner.ml" 204 7117 7170
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunner.ml" 204 7117 7154 "src/oUnitRunner.ml" 204 7117 7170
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunner.ml" 204 7117 7148 "src/oUnitRunner.ml" 204 7117 7171
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunner.ml" 204 7117 7134 "src/oUnitRunner.ml" 204 7117 7171
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 203 7074 7089 "src/oUnitRunner.ml" 204 7117 7171
+type(
+  unit
+)
+"src/oUnitRunner.ml" 202 7052 7064 "src/oUnitRunner.ml" 204 7117 7172
+type(
+  string -> unit
+)
+"src/oUnitRunner.ml" 205 7173 7185 "src/oUnitRunner.ml" 205 7173 7188
+type(
+  ('d, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "src/oUnitRunner.ml" 200 7001 7020 "src/oUnitRunner.ml" 200 7001 7023
+)
+"src/oUnitRunner.ml" 201 7026 7036 "src/oUnitRunner.ml" 205 7173 7188
+call(
+  tail
+)
+type(
+  'd
+)
+"src/oUnitRunner.ml" 207 7200 7212 "src/oUnitRunner.ml" 207 7200 7221
+type(
+  'c -> unit
+)
+ident(
+  def send_data "src/oUnitRunner.ml" 213 7396 7404 "src/oUnitRunner.ml" 223 7742 7751
+)
+"src/oUnitRunner.ml" 207 7200 7222 "src/oUnitRunner.ml" 207 7200 7225
+type(
+  'c
+)
+ident(
+  def msg "src/oUnitRunner.ml" 208 7228 7238 "src/oUnitRunner.ml" 210 7332 7383
+)
+"src/oUnitRunner.ml" 208 7228 7238 "src/oUnitRunner.ml" 208 7228 7244
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  int_ref debugf "src/oUnitRunner.ml" 200 7001 7013 "src/oUnitRunner.ml" 200 7001 7019
+)
+"src/oUnitRunner.ml" 208 7228 7245 "src/oUnitRunner.ml" 208 7228 7265
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 208 7228 7267 "src/oUnitRunner.ml" 208 7228 7292
+type(
+  'c -> string
+)
+ident(
+  int_ref string_of_written_message "src/oUnitRunner.ml" 195 6817 6825 "src/oUnitRunner.ml" 195 6817 6850
+)
+"src/oUnitRunner.ml" 208 7228 7293 "src/oUnitRunner.ml" 208 7228 7296
+type(
+  'c
+)
+ident(
+  int_ref msg "src/oUnitRunner.ml" 207 7200 7222 "src/oUnitRunner.ml" 207 7200 7225
+)
+"src/oUnitRunner.ml" 208 7228 7266 "src/oUnitRunner.ml" 208 7228 7297
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunner.ml" 208 7228 7238 "src/oUnitRunner.ml" 208 7228 7297
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 209 7299 7309 "src/oUnitRunner.ml" 209 7299 7316
+type(
+  ('c, 'b) channel
+)
+ident(
+  int_ref channel "src/oUnitRunner.ml" 196 6851 6859 "src/oUnitRunner.ml" 196 6851 6866
+)
+"src/oUnitRunner.ml" 209 7299 7309 "src/oUnitRunner.ml" 209 7299 7326
+type(
+  'c -> unit
+)
+"src/oUnitRunner.ml" 209 7299 7327 "src/oUnitRunner.ml" 209 7299 7330
+type(
+  'c
+)
+ident(
+  int_ref msg "src/oUnitRunner.ml" 207 7200 7222 "src/oUnitRunner.ml" 207 7200 7225
+)
+"src/oUnitRunner.ml" 209 7299 7309 "src/oUnitRunner.ml" 209 7299 7330
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 210 7332 7342 "src/oUnitRunner.ml" 210 7332 7348
+type(
+  (unit, unit, string, unit) format4 -> unit
+)
+ident(
+  int_ref debugf "src/oUnitRunner.ml" 200 7001 7013 "src/oUnitRunner.ml" 200 7001 7019
+)
+"src/oUnitRunner.ml" 210 7332 7349 "src/oUnitRunner.ml" 210 7332 7383
+type(
+  (unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 210 7332 7342 "src/oUnitRunner.ml" 210 7332 7383
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 209 7299 7309 "src/oUnitRunner.ml" 210 7332 7383
+type(
+  unit
+)
+"src/oUnitRunner.ml" 208 7228 7238 "src/oUnitRunner.ml" 210 7332 7383
+type(
+  unit
+)
+"src/oUnitRunner.ml" 213 7396 7408 "src/oUnitRunner.ml" 213 7396 7420
+type(
+  unit -> 'b
+)
+ident(
+  def receive_data "src/oUnitRunner.ml" 219 7627 7635 "src/oUnitRunner.ml" 223 7742 7751
+)
+"src/oUnitRunner.ml" 213 7396 7421 "src/oUnitRunner.ml" 213 7396 7423
+type(
+  unit
+)
+"src/oUnitRunner.ml" 214 7426 7440 "src/oUnitRunner.ml" 214 7426 7442
+type(
+  unit
+)
+"src/oUnitRunner.ml" 214 7426 7445 "src/oUnitRunner.ml" 214 7426 7451
+type(
+  (unit, unit, string, unit) format4 -> unit
+)
+ident(
+  int_ref debugf "src/oUnitRunner.ml" 200 7001 7013 "src/oUnitRunner.ml" 200 7001 7019
+)
+"src/oUnitRunner.ml" 214 7426 7452 "src/oUnitRunner.ml" 214 7426 7478
+type(
+  (unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 214 7426 7445 "src/oUnitRunner.ml" 214 7426 7478
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 215 7482 7496 "src/oUnitRunner.ml" 215 7482 7499
+type(
+  'b
+)
+ident(
+  def msg "src/oUnitRunner.ml" 216 7529 7541 "src/oUnitRunner.ml" 217 7600 7615
+)
+"src/oUnitRunner.ml" 215 7482 7502 "src/oUnitRunner.ml" 215 7482 7509
+type(
+  ('c, 'b) channel
+)
+ident(
+  int_ref channel "src/oUnitRunner.ml" 196 6851 6859 "src/oUnitRunner.ml" 196 6851 6866
+)
+"src/oUnitRunner.ml" 215 7482 7502 "src/oUnitRunner.ml" 215 7482 7522
+type(
+  unit -> 'b
+)
+"src/oUnitRunner.ml" 215 7482 7523 "src/oUnitRunner.ml" 215 7482 7525
+type(
+  unit
+)
+"src/oUnitRunner.ml" 215 7482 7502 "src/oUnitRunner.ml" 215 7482 7525
+call(
+  stack
+)
+type(
+  'b
+)
+"src/oUnitRunner.ml" 216 7529 7541 "src/oUnitRunner.ml" 216 7529 7547
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  int_ref debugf "src/oUnitRunner.ml" 200 7001 7013 "src/oUnitRunner.ml" 200 7001 7019
+)
+"src/oUnitRunner.ml" 216 7529 7548 "src/oUnitRunner.ml" 216 7529 7569
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 216 7529 7571 "src/oUnitRunner.ml" 216 7529 7593
+type(
+  'b -> string
+)
+ident(
+  int_ref string_of_read_message "src/oUnitRunner.ml" 194 6786 6794 "src/oUnitRunner.ml" 194 6786 6816
+)
+"src/oUnitRunner.ml" 216 7529 7594 "src/oUnitRunner.ml" 216 7529 7597
+type(
+  'b
+)
+ident(
+  int_ref msg "src/oUnitRunner.ml" 215 7482 7496 "src/oUnitRunner.ml" 215 7482 7499
+)
+"src/oUnitRunner.ml" 216 7529 7570 "src/oUnitRunner.ml" 216 7529 7598
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunner.ml" 216 7529 7541 "src/oUnitRunner.ml" 216 7529 7598
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 217 7600 7612 "src/oUnitRunner.ml" 217 7600 7615
+type(
+  'b
+)
+ident(
+  int_ref msg "src/oUnitRunner.ml" 215 7482 7496 "src/oUnitRunner.ml" 215 7482 7499
+)
+"src/oUnitRunner.ml" 216 7529 7541 "src/oUnitRunner.ml" 217 7600 7615
+type(
+  'b
+)
+"src/oUnitRunner.ml" 215 7482 7492 "src/oUnitRunner.ml" 217 7600 7615
+type(
+  'b
+)
+"src/oUnitRunner.ml" 214 7426 7436 "src/oUnitRunner.ml" 217 7600 7615
+type(
+  'b
+)
+"src/oUnitRunner.ml" 220 7637 7659 "src/oUnitRunner.ml" 220 7637 7668
+type(
+  'c -> unit
+)
+ident(
+  int_ref send_data "src/oUnitRunner.ml" 207 7200 7212 "src/oUnitRunner.ml" 207 7200 7221
+)
+"src/oUnitRunner.ml" 221 7670 7695 "src/oUnitRunner.ml" 221 7670 7707
+type(
+  unit -> 'b
+)
+ident(
+  int_ref receive_data "src/oUnitRunner.ml" 213 7396 7408 "src/oUnitRunner.ml" 213 7396 7420
+)
+"src/oUnitRunner.ml" 222 7709 7727 "src/oUnitRunner.ml" 222 7709 7734
+type(
+  ('c, 'b) channel
+)
+ident(
+  int_ref channel "src/oUnitRunner.ml" 196 6851 6859 "src/oUnitRunner.ml" 196 6851 6866
+)
+"src/oUnitRunner.ml" 222 7709 7727 "src/oUnitRunner.ml" 222 7709 7740
+type(
+  unit -> unit
+)
+"src/oUnitRunner.ml" 219 7627 7635 "src/oUnitRunner.ml" 223 7742 7751
+type(
+  ('c, 'b) channel
+)
+"src/oUnitRunner.ml" 213 7396 7404 "src/oUnitRunner.ml" 223 7742 7751
+type(
+  ('c, 'b) channel
+)
+"src/oUnitRunner.ml" 207 7200 7208 "src/oUnitRunner.ml" 223 7742 7751
+type(
+  ('c, 'b) channel
+)
+"src/oUnitRunner.ml" 199 6961 6995 "src/oUnitRunner.ml" 224 7752 7761
+type(
+  ('c, 'b) channel
+)
+"src/oUnitRunner.ml" 224 7752 7767 "src/oUnitRunner.ml" 226 7789 7798
+type(
+  ('c, 'b) channel
+)
+ident(
+  int_ref channel "src/oUnitRunner.ml" 196 6851 6859 "src/oUnitRunner.ml" 196 6851 6866
+)
+"src/oUnitRunner.ml" 199 6961 6967 "src/oUnitRunner.ml" 226 7789 7798
+type(
+  ('c, 'b) channel
+)
+"src/oUnitRunner.ml" 198 6922 6926 "src/oUnitRunner.ml" 226 7789 7798
+type(
+  ('c, 'b) channel
+)
+"src/oUnitRunner.ml" 230 7861 7867 "src/oUnitRunner.ml" 230 7861 7883
+type(
+  OUnitConf.conf ->
+  (unit -> 'e) ->
+  (message_from_worker, message_to_worker) channel ->
+  string ->
+  (OUnitTest.path * 'f * (OUnitTest.ctxt -> 'g)) MapPath.t -> bool -> unit
+)
+ident(
+  def main_worker_loop "src/oUnitRunner.ml" 301 9598 9600 "src/oUnitRunner.ml" 524 17066 17069
+)
+"src/oUnitRunner.ml" 231 7884 7892 "src/oUnitRunner.ml" 231 7884 7896
+type(
+  OUnitConf.conf
+)
+ident(
+  def conf "src/oUnitRunner.ml" 231 7884 7897 "src/oUnitRunner.ml" 299 9583 9596
+)
+"src/oUnitRunner.ml" 231 7884 7897 "src/oUnitRunner.ml" 231 7884 7902
+type(
+  unit -> 'e
+)
+ident(
+  def yield "src/oUnitRunner.ml" 231 7884 7903 "src/oUnitRunner.ml" 299 9583 9596
+)
+"src/oUnitRunner.ml" 231 7884 7903 "src/oUnitRunner.ml" 231 7884 7910
+type(
+  (message_from_worker, message_to_worker) channel
+)
+ident(
+  def channel "src/oUnitRunner.ml" 231 7884 7911 "src/oUnitRunner.ml" 299 9583 9596
+)
+"src/oUnitRunner.ml" 231 7884 7911 "src/oUnitRunner.ml" 231 7884 7919
+type(
+  string
+)
+ident(
+  def shard_id "src/oUnitRunner.ml" 231 7884 7920 "src/oUnitRunner.ml" 299 9583 9596
+)
+"src/oUnitRunner.ml" 231 7884 7920 "src/oUnitRunner.ml" 231 7884 7934
+type(
+  (OUnitTest.path * 'f * (OUnitTest.ctxt -> 'g)) MapPath.t
+)
+ident(
+  def map_test_cases "src/oUnitRunner.ml" 231 7884 7935 "src/oUnitRunner.ml" 299 9583 9596
+)
+"src/oUnitRunner.ml" 231 7884 7935 "src/oUnitRunner.ml" 231 7884 7950
+type(
+  bool
+)
+ident(
+  def worker_log_file "src/oUnitRunner.ml" 232 7953 7957 "src/oUnitRunner.ml" 299 9583 9596
+)
+"src/oUnitRunner.ml" 232 7953 7961 "src/oUnitRunner.ml" 232 7953 7967
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  def logger "src/oUnitRunner.ml" 248 8392 8396 "src/oUnitRunner.ml" 299 9583 9596
+)
+"src/oUnitRunner.ml" 233 7970 7980 "src/oUnitRunner.ml" 233 7970 7993
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  def master_logger "src/oUnitRunner.ml" 239 8157 8163 "src/oUnitRunner.ml" 245 8327 8383
+)
+"src/oUnitRunner.ml" 234 7996 8004 "src/oUnitRunner.ml" 234 7996 8013
+type(
+  string ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  ext_ref OUnitLogger.set_shard
+)
+"src/oUnitRunner.ml" 234 7996 8014 "src/oUnitRunner.ml" 234 7996 8022
+type(
+  string
+)
+ident(
+  int_ref shard_id "src/oUnitRunner.ml" 231 7884 7911 "src/oUnitRunner.ml" 231 7884 7919
+)
+"src/oUnitRunner.ml" 235 8023 8034 "src/oUnitRunner.ml" 235 8023 8056
+type(
+  ((OUnitTest.path, OUnitTest.result) OUnitLogger.log_event -> unit) ->
+  (unit -> unit) -> (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  ext_ref OUnitLogger.fun_logger
+)
+"src/oUnitRunner.ml" 236 8057 8084 "src/oUnitRunner.ml" 236 8057 8090
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.log_event_t
+)
+ident(
+  def log_ev "src/oUnitRunner.ml" 236 8057 8095 "src/oUnitRunner.ml" 236 8057 8125
+)
+"src/oUnitRunner.ml" 236 8057 8075 "src/oUnitRunner.ml" 236 8057 8091
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.log_event
+)
+"src/oUnitRunner.ml" 236 8057 8095 "src/oUnitRunner.ml" 236 8057 8102
+type(
+  (message_from_worker, message_to_worker) channel
+)
+ident(
+  int_ref channel "src/oUnitRunner.ml" 231 7884 7903 "src/oUnitRunner.ml" 231 7884 7910
+)
+"src/oUnitRunner.ml" 236 8057 8095 "src/oUnitRunner.ml" 236 8057 8112
+type(
+  message_from_worker -> unit
+)
+"src/oUnitRunner.ml" 236 8057 8118 "src/oUnitRunner.ml" 236 8057 8124
+type(
+  OUnitTest.log_event_t
+)
+ident(
+  int_ref log_ev "src/oUnitRunner.ml" 236 8057 8084 "src/oUnitRunner.ml" 236 8057 8090
+)
+"src/oUnitRunner.ml" 236 8057 8113 "src/oUnitRunner.ml" 236 8057 8125
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 236 8057 8095 "src/oUnitRunner.ml" 236 8057 8125
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 236 8057 8070 "src/oUnitRunner.ml" 236 8057 8126
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.log_event -> unit
+)
+"src/oUnitRunner.ml" 237 8127 8140 "src/oUnitRunner.ml" 237 8127 8146
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/oUnitRunner.ml" 235 8023 8033 "src/oUnitRunner.ml" 237 8127 8147
+call(
+  stack
+)
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+"src/oUnitRunner.ml" 234 7996 8004 "src/oUnitRunner.ml" 237 8127 8147
+call(
+  stack
+)
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+"src/oUnitRunner.ml" 239 8157 8167 "src/oUnitRunner.ml" 239 8157 8178
+type(
+  (OUnitTest.node list, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  def base_logger "src/oUnitRunner.ml" 245 8327 8335 "src/oUnitRunner.ml" 245 8327 8383
+)
+"src/oUnitRunner.ml" 240 8181 8192 "src/oUnitRunner.ml" 240 8181 8207
+type(
+  bool
+)
+ident(
+  int_ref worker_log_file "src/oUnitRunner.ml" 231 7884 7935 "src/oUnitRunner.ml" 231 7884 7950
+)
+"src/oUnitRunner.ml" 241 8213 8223 "src/oUnitRunner.ml" 241 8213 8256
+type(
+  OUnitConf.conf ->
+  string -> (OUnitTest.node list, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  ext_ref OUnitLoggerStd.create_file_logger
+)
+"src/oUnitRunner.ml" 241 8213 8257 "src/oUnitRunner.ml" 241 8213 8261
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunner.ml" 231 7884 7892 "src/oUnitRunner.ml" 231 7884 7896
+)
+"src/oUnitRunner.ml" 241 8213 8262 "src/oUnitRunner.ml" 241 8213 8270
+type(
+  string
+)
+ident(
+  int_ref shard_id "src/oUnitRunner.ml" 231 7884 7911 "src/oUnitRunner.ml" 231 7884 7919
+)
+"src/oUnitRunner.ml" 241 8213 8223 "src/oUnitRunner.ml" 241 8213 8270
+call(
+  stack
+)
+type(
+  (OUnitTest.node list, OUnitTest.result) OUnitLogger.logger
+)
+"src/oUnitRunner.ml" 243 8284 8294 "src/oUnitRunner.ml" 243 8284 8317
+type(
+  (OUnitTest.node list, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  ext_ref OUnitLogger.null_logger
+)
+"src/oUnitRunner.ml" 240 8181 8189 "src/oUnitRunner.ml" 243 8284 8317
+type(
+  (OUnitTest.node list, OUnitTest.result) OUnitLogger.logger
+)
+"src/oUnitRunner.ml" 245 8327 8335 "src/oUnitRunner.ml" 245 8327 8354
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger list ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  ext_ref OUnitLogger.combine
+)
+"src/oUnitRunner.ml" 245 8327 8356 "src/oUnitRunner.ml" 245 8327 8367
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref base_logger "src/oUnitRunner.ml" 239 8157 8167 "src/oUnitRunner.ml" 239 8157 8178
+)
+"src/oUnitRunner.ml" 245 8327 8369 "src/oUnitRunner.ml" 245 8327 8382
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref master_logger "src/oUnitRunner.ml" 233 7970 7980 "src/oUnitRunner.ml" 233 7970 7993
+)
+"src/oUnitRunner.ml" 245 8327 8355 "src/oUnitRunner.ml" 245 8327 8383
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger list
+)
+"src/oUnitRunner.ml" 245 8327 8335 "src/oUnitRunner.ml" 245 8327 8383
+call(
+  stack
+)
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+"src/oUnitRunner.ml" 239 8157 8163 "src/oUnitRunner.ml" 245 8327 8383
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+"src/oUnitRunner.ml" 233 7970 7976 "src/oUnitRunner.ml" 245 8327 8383
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+"src/oUnitRunner.ml" 248 8392 8400 "src/oUnitRunner.ml" 248 8392 8406
+type(
+  OUnitShared.shared
+)
+ident(
+  def shared "src/oUnitRunner.ml" 283 9131 9135 "src/oUnitRunner.ml" 299 9583 9596
+)
+"src/oUnitRunner.ml" 249 8409 8419 "src/oUnitRunner.ml" 249 8409 8427
+type(
+  int -> bool
+)
+ident(
+  def try_lock "src/oUnitRunner.ml" 257 8621 8627 "src/oUnitRunner.ml" 280 9113 9122
+)
+"src/oUnitRunner.ml" 249 8409 8428 "src/oUnitRunner.ml" 249 8409 8430
+type(
+  int
+)
+ident(
+  def id "src/oUnitRunner.ml" 250 8433 8441 "src/oUnitRunner.ml" 255 8585 8611
+)
+"src/oUnitRunner.ml" 250 8433 8441 "src/oUnitRunner.ml" 250 8433 8448
+type(
+  (message_from_worker, message_to_worker) channel
+)
+ident(
+  int_ref channel "src/oUnitRunner.ml" 231 7884 7903 "src/oUnitRunner.ml" 231 7884 7910
+)
+"src/oUnitRunner.ml" 250 8433 8441 "src/oUnitRunner.ml" 250 8433 8458
+type(
+  message_from_worker -> unit
+)
+"src/oUnitRunner.ml" 250 8433 8465 "src/oUnitRunner.ml" 250 8433 8467
+type(
+  int
+)
+ident(
+  int_ref id "src/oUnitRunner.ml" 249 8409 8428 "src/oUnitRunner.ml" 249 8409 8430
+)
+"src/oUnitRunner.ml" 250 8433 8459 "src/oUnitRunner.ml" 250 8433 8468
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 250 8433 8441 "src/oUnitRunner.ml" 250 8433 8468
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 251 8470 8484 "src/oUnitRunner.ml" 251 8470 8491
+type(
+  (message_from_worker, message_to_worker) channel
+)
+ident(
+  int_ref channel "src/oUnitRunner.ml" 231 7884 7903 "src/oUnitRunner.ml" 231 7884 7910
+)
+"src/oUnitRunner.ml" 251 8470 8484 "src/oUnitRunner.ml" 251 8470 8504
+type(
+  unit -> message_to_worker
+)
+"src/oUnitRunner.ml" 251 8470 8505 "src/oUnitRunner.ml" 251 8470 8507
+type(
+  unit
+)
+"src/oUnitRunner.ml" 251 8470 8484 "src/oUnitRunner.ml" 251 8470 8507
+call(
+  stack
+)
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 252 8513 8533 "src/oUnitRunner.ml" 252 8513 8534
+type(
+  bool
+)
+ident(
+  def b "src/oUnitRunner.ml" 253 8538 8551 "src/oUnitRunner.ml" 253 8538 8552
+)
+"src/oUnitRunner.ml" 252 8513 8525 "src/oUnitRunner.ml" 252 8513 8534
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 253 8538 8551 "src/oUnitRunner.ml" 253 8538 8552
+type(
+  bool
+)
+ident(
+  int_ref b "src/oUnitRunner.ml" 252 8513 8533 "src/oUnitRunner.ml" 252 8513 8534
+)
+"src/oUnitRunner.ml" 254 8553 8565 "src/oUnitRunner.ml" 254 8553 8569
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 254 8553 8580 "src/oUnitRunner.ml" 254 8553 8581
+type(
+  OUnitTest.path
+)
+"src/oUnitRunner.ml" 254 8553 8572 "src/oUnitRunner.ml" 254 8553 8581
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 254 8553 8565 "src/oUnitRunner.ml" 254 8553 8581
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 255 8585 8606 "src/oUnitRunner.ml" 255 8585 8611
+type(
+  bool
+)
+"src/oUnitRunner.ml" 255 8585 8599 "src/oUnitRunner.ml" 255 8585 8611
+type(
+  bool
+)
+"src/oUnitRunner.ml" 251 8470 8478 "src/oUnitRunner.ml" 255 8585 8611
+type(
+  bool
+)
+"src/oUnitRunner.ml" 250 8433 8441 "src/oUnitRunner.ml" 255 8585 8611
+type(
+  bool
+)
+"src/oUnitRunner.ml" 257 8621 8635 "src/oUnitRunner.ml" 257 8621 8639
+type(
+  int -> unit
+)
+ident(
+  def lock "src/oUnitRunner.ml" 257 8621 8627 "src/oUnitRunner.ml" 280 9113 9122
+)
+"src/oUnitRunner.ml" 257 8621 8640 "src/oUnitRunner.ml" 257 8621 8642
+type(
+  int
+)
+ident(
+  def id "src/oUnitRunner.ml" 258 8645 8653 "src/oUnitRunner.ml" 263 8759 8770
+)
+"src/oUnitRunner.ml" 258 8645 8656 "src/oUnitRunner.ml" 258 8645 8659
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/oUnitRunner.ml" 258 8645 8661 "src/oUnitRunner.ml" 258 8645 8669
+type(
+  int -> bool
+)
+ident(
+  int_ref try_lock "src/oUnitRunner.ml" 249 8409 8419 "src/oUnitRunner.ml" 249 8409 8427
+)
+"src/oUnitRunner.ml" 258 8645 8670 "src/oUnitRunner.ml" 258 8645 8672
+type(
+  int
+)
+ident(
+  int_ref id "src/oUnitRunner.ml" 257 8621 8640 "src/oUnitRunner.ml" 257 8621 8642
+)
+"src/oUnitRunner.ml" 258 8645 8660 "src/oUnitRunner.ml" 258 8645 8673
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitRunner.ml" 258 8645 8656 "src/oUnitRunner.ml" 258 8645 8673
+type(
+  bool
+)
+"src/oUnitRunner.ml" 259 8685 8695 "src/oUnitRunner.ml" 259 8685 8700
+type(
+  unit -> 'e
+)
+ident(
+  int_ref yield "src/oUnitRunner.ml" 231 7884 7897 "src/oUnitRunner.ml" 231 7884 7902
+)
+"src/oUnitRunner.ml" 259 8685 8701 "src/oUnitRunner.ml" 259 8685 8703
+type(
+  unit
+)
+"src/oUnitRunner.ml" 259 8685 8695 "src/oUnitRunner.ml" 259 8685 8703
+call(
+  stack
+)
+type(
+  'e
+)
+"src/oUnitRunner.ml" 260 8705 8715 "src/oUnitRunner.ml" 260 8705 8719
+type(
+  int -> unit
+)
+ident(
+  int_ref lock "src/oUnitRunner.ml" 257 8621 8635 "src/oUnitRunner.ml" 257 8621 8639
+)
+"src/oUnitRunner.ml" 260 8705 8720 "src/oUnitRunner.ml" 260 8705 8722
+type(
+  int
+)
+ident(
+  int_ref id "src/oUnitRunner.ml" 257 8621 8640 "src/oUnitRunner.ml" 257 8621 8642
+)
+"src/oUnitRunner.ml" 260 8705 8715 "src/oUnitRunner.ml" 260 8705 8722
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 258 8645 8679 "src/oUnitRunner.ml" 261 8723 8734
+type(
+  unit
+)
+"src/oUnitRunner.ml" 261 8723 8740 "src/oUnitRunner.ml" 263 8759 8770
+type(
+  unit
+)
+"src/oUnitRunner.ml" 258 8645 8653 "src/oUnitRunner.ml" 263 8759 8770
+type(
+  unit
+)
+"src/oUnitRunner.ml" 265 8780 8790 "src/oUnitRunner.ml" 265 8780 8796
+type(
+  int -> unit
+)
+ident(
+  def unlock "src/oUnitRunner.ml" 268 8850 8856 "src/oUnitRunner.ml" 280 9113 9122
+)
+"src/oUnitRunner.ml" 265 8780 8797 "src/oUnitRunner.ml" 265 8780 8799
+type(
+  int
+)
+ident(
+  def id "src/oUnitRunner.ml" 266 8802 8810 "src/oUnitRunner.ml" 266 8802 8840
+)
+"src/oUnitRunner.ml" 266 8802 8810 "src/oUnitRunner.ml" 266 8802 8817
+type(
+  (message_from_worker, message_to_worker) channel
+)
+ident(
+  int_ref channel "src/oUnitRunner.ml" 231 7884 7903 "src/oUnitRunner.ml" 231 7884 7910
+)
+"src/oUnitRunner.ml" 266 8802 8810 "src/oUnitRunner.ml" 266 8802 8827
+type(
+  message_from_worker -> unit
+)
+"src/oUnitRunner.ml" 266 8802 8836 "src/oUnitRunner.ml" 266 8802 8838
+type(
+  int
+)
+ident(
+  int_ref id "src/oUnitRunner.ml" 265 8780 8797 "src/oUnitRunner.ml" 265 8780 8799
+)
+"src/oUnitRunner.ml" 266 8802 8828 "src/oUnitRunner.ml" 266 8802 8839
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 266 8802 8810 "src/oUnitRunner.ml" 266 8802 8840
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 268 8850 8860 "src/oUnitRunner.ml" 268 8850 8866
+type(
+  int OUnitShared.shared_noscope
+)
+ident(
+  def global "src/oUnitRunner.ml" 276 9002 9010 "src/oUnitRunner.ml" 280 9113 9122
+)
+"src/oUnitRunner.ml" 271 8902 8919 "src/oUnitRunner.ml" 271 8902 8923
+type(
+  int -> unit
+)
+ident(
+  int_ref lock "src/oUnitRunner.ml" 257 8621 8635 "src/oUnitRunner.ml" 257 8621 8639
+)
+"src/oUnitRunner.ml" 272 8925 8946 "src/oUnitRunner.ml" 272 8925 8954
+type(
+  int -> bool
+)
+ident(
+  int_ref try_lock "src/oUnitRunner.ml" 249 8409 8419 "src/oUnitRunner.ml" 249 8409 8427
+)
+"src/oUnitRunner.ml" 273 8956 8975 "src/oUnitRunner.ml" 273 8956 8981
+type(
+  int -> unit
+)
+ident(
+  int_ref unlock "src/oUnitRunner.ml" 265 8780 8790 "src/oUnitRunner.ml" 265 8780 8796
+)
+"src/oUnitRunner.ml" 269 8869 8877 "src/oUnitRunner.ml" 274 8983 8992
+type(
+  int OUnitShared.shared_noscope
+)
+"src/oUnitRunner.ml" 278 9035 9054 "src/oUnitRunner.ml" 278 9035 9060
+type(
+  int OUnitShared.shared_noscope
+)
+ident(
+  int_ref global "src/oUnitRunner.ml" 268 8850 8860 "src/oUnitRunner.ml" 268 8850 8866
+)
+"src/oUnitRunner.ml" 279 9062 9082 "src/oUnitRunner.ml" 279 9062 9108
+type(
+  unit -> int OUnitShared.shared_noscope
+)
+ident(
+  ext_ref OUnitShared.noscope_create
+)
+"src/oUnitRunner.ml" 279 9062 9109 "src/oUnitRunner.ml" 279 9062 9111
+type(
+  unit
+)
+"src/oUnitRunner.ml" 279 9062 9082 "src/oUnitRunner.ml" 279 9062 9111
+call(
+  stack
+)
+type(
+  int OUnitShared.shared_noscope
+)
+"src/oUnitRunner.ml" 276 9002 9010 "src/oUnitRunner.ml" 280 9113 9122
+type(
+  OUnitShared.shared
+)
+"src/oUnitRunner.ml" 268 8850 8856 "src/oUnitRunner.ml" 280 9113 9122
+type(
+  OUnitShared.shared
+)
+"src/oUnitRunner.ml" 265 8780 8786 "src/oUnitRunner.ml" 280 9113 9122
+type(
+  OUnitShared.shared
+)
+"src/oUnitRunner.ml" 257 8621 8627 "src/oUnitRunner.ml" 280 9113 9122
+type(
+  OUnitShared.shared
+)
+"src/oUnitRunner.ml" 249 8409 8415 "src/oUnitRunner.ml" 280 9113 9122
+type(
+  OUnitShared.shared
+)
+"src/oUnitRunner.ml" 283 9131 9143 "src/oUnitRunner.ml" 283 9131 9147
+type(
+  unit -> unit
+)
+ident(
+  def loop "src/oUnitRunner.ml" 283 9131 9135 "src/oUnitRunner.ml" 299 9583 9596
+)
+"src/oUnitRunner.ml" 283 9131 9148 "src/oUnitRunner.ml" 283 9131 9150
+type(
+  unit
+)
+"src/oUnitRunner.ml" 284 9153 9165 "src/oUnitRunner.ml" 284 9153 9172
+type(
+  (message_from_worker, message_to_worker) channel
+)
+ident(
+  int_ref channel "src/oUnitRunner.ml" 231 7884 7903 "src/oUnitRunner.ml" 231 7884 7910
+)
+"src/oUnitRunner.ml" 284 9153 9165 "src/oUnitRunner.ml" 284 9153 9185
+type(
+  unit -> message_to_worker
+)
+"src/oUnitRunner.ml" 284 9153 9186 "src/oUnitRunner.ml" 284 9153 9188
+type(
+  unit
+)
+"src/oUnitRunner.ml" 284 9153 9165 "src/oUnitRunner.ml" 284 9153 9188
+call(
+  stack
+)
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 285 9194 9204 "src/oUnitRunner.ml" 285 9194 9208
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 286 9212 9224 "src/oUnitRunner.ml" 286 9212 9231
+type(
+  (message_from_worker, message_to_worker) channel
+)
+ident(
+  int_ref channel "src/oUnitRunner.ml" 231 7884 7903 "src/oUnitRunner.ml" 231 7884 7910
+)
+"src/oUnitRunner.ml" 286 9212 9224 "src/oUnitRunner.ml" 286 9212 9241
+type(
+  message_from_worker -> unit
+)
+"src/oUnitRunner.ml" 286 9212 9242 "src/oUnitRunner.ml" 286 9212 9249
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 286 9212 9224 "src/oUnitRunner.ml" 286 9212 9249
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 288 9251 9269 "src/oUnitRunner.ml" 288 9251 9278
+type(
+  OUnitTest.path
+)
+ident(
+  def test_path "src/oUnitRunner.ml" 289 9282 9294 "src/oUnitRunner.ml" 294 9512 9531
+)
+"src/oUnitRunner.ml" 288 9251 9261 "src/oUnitRunner.ml" 288 9251 9278
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 289 9282 9298 "src/oUnitRunner.ml" 289 9282 9307
+type(
+  OUnitTest.path
+)
+ident(
+  def test_path "src/oUnitRunner.ml" 292 9390 9402 "src/oUnitRunner.ml" 294 9512 9531
+)
+"src/oUnitRunner.ml" 289 9282 9309 "src/oUnitRunner.ml" 289 9282 9310
+type(
+  'f
+)
+"src/oUnitRunner.ml" 289 9282 9312 "src/oUnitRunner.ml" 289 9282 9320
+type(
+  OUnitTest.ctxt -> 'g
+)
+ident(
+  def test_fun "src/oUnitRunner.ml" 292 9390 9402 "src/oUnitRunner.ml" 294 9512 9531
+)
+"src/oUnitRunner.ml" 289 9282 9298 "src/oUnitRunner.ml" 289 9282 9320
+type(
+  OUnitTest.path * 'f * (OUnitTest.ctxt -> 'g)
+)
+"src/oUnitRunner.ml" 290 9323 9337 "src/oUnitRunner.ml" 290 9323 9349
+type(
+  MapPath.key ->
+  (OUnitTest.path * 'f * (OUnitTest.ctxt -> 'g)) MapPath.t ->
+  OUnitTest.path * 'f * (OUnitTest.ctxt -> 'g)
+)
+ident(
+  ext_ref MapPath.find
+)
+"src/oUnitRunner.ml" 290 9323 9350 "src/oUnitRunner.ml" 290 9323 9359
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 288 9251 9269 "src/oUnitRunner.ml" 288 9251 9278
+)
+"src/oUnitRunner.ml" 290 9323 9360 "src/oUnitRunner.ml" 290 9323 9374
+type(
+  (OUnitTest.path * 'f * (OUnitTest.ctxt -> 'g)) MapPath.t
+)
+ident(
+  int_ref map_test_cases "src/oUnitRunner.ml" 231 7884 7920 "src/oUnitRunner.ml" 231 7884 7934
+)
+"src/oUnitRunner.ml" 290 9323 9337 "src/oUnitRunner.ml" 290 9323 9374
+call(
+  stack
+)
+type(
+  OUnitTest.path * 'f * (OUnitTest.ctxt -> 'g)
+)
+"src/oUnitRunner.ml" 292 9390 9406 "src/oUnitRunner.ml" 292 9390 9409
+type(
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+ident(
+  def res "src/oUnitRunner.ml" 293 9466 9478 "src/oUnitRunner.ml" 294 9512 9531
+)
+"src/oUnitRunner.ml" 292 9390 9412 "src/oUnitRunner.ml" 292 9390 9424
+type(
+  OUnitConf.conf ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  OUnitShared.shared ->
+  OUnitTest.path ->
+  (OUnitTest.ctxt -> 'g) ->
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+ident(
+  int_ref run_one_test "src/oUnitRunner.ml" 37 2458 2462 "src/oUnitRunner.ml" 37 2458 2474
+)
+"src/oUnitRunner.ml" 292 9390 9425 "src/oUnitRunner.ml" 292 9390 9429
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunner.ml" 231 7884 7892 "src/oUnitRunner.ml" 231 7884 7896
+)
+"src/oUnitRunner.ml" 292 9390 9430 "src/oUnitRunner.ml" 292 9390 9436
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 232 7953 7961 "src/oUnitRunner.ml" 232 7953 7967
+)
+"src/oUnitRunner.ml" 292 9390 9437 "src/oUnitRunner.ml" 292 9390 9443
+type(
+  OUnitShared.shared
+)
+ident(
+  int_ref shared "src/oUnitRunner.ml" 248 8392 8400 "src/oUnitRunner.ml" 248 8392 8406
+)
+"src/oUnitRunner.ml" 292 9390 9444 "src/oUnitRunner.ml" 292 9390 9453
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 289 9282 9298 "src/oUnitRunner.ml" 289 9282 9307
+)
+"src/oUnitRunner.ml" 292 9390 9454 "src/oUnitRunner.ml" 292 9390 9462
+type(
+  OUnitTest.ctxt -> 'g
+)
+ident(
+  int_ref test_fun "src/oUnitRunner.ml" 289 9282 9312 "src/oUnitRunner.ml" 289 9282 9320
+)
+"src/oUnitRunner.ml" 292 9390 9412 "src/oUnitRunner.ml" 292 9390 9462
+call(
+  stack
+)
+type(
+  OUnitTest.result_full * OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 293 9466 9478 "src/oUnitRunner.ml" 293 9466 9485
+type(
+  (message_from_worker, message_to_worker) channel
+)
+ident(
+  int_ref channel "src/oUnitRunner.ml" 231 7884 7903 "src/oUnitRunner.ml" 231 7884 7910
+)
+"src/oUnitRunner.ml" 293 9466 9478 "src/oUnitRunner.ml" 293 9466 9495
+type(
+  message_from_worker -> unit
+)
+"src/oUnitRunner.ml" 293 9466 9506 "src/oUnitRunner.ml" 293 9466 9509
+type(
+  OUnitTest.result_full * OUnitTest.result_list
+)
+ident(
+  int_ref res "src/oUnitRunner.ml" 292 9390 9406 "src/oUnitRunner.ml" 292 9390 9409
+)
+"src/oUnitRunner.ml" 293 9466 9496 "src/oUnitRunner.ml" 293 9466 9510
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 293 9466 9478 "src/oUnitRunner.ml" 293 9466 9510
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 294 9512 9524 "src/oUnitRunner.ml" 294 9512 9528
+type(
+  unit -> unit
+)
+ident(
+  int_ref loop "src/oUnitRunner.ml" 283 9131 9143 "src/oUnitRunner.ml" 283 9131 9147
+)
+"src/oUnitRunner.ml" 294 9512 9529 "src/oUnitRunner.ml" 294 9512 9531
+type(
+  unit
+)
+"src/oUnitRunner.ml" 294 9512 9524 "src/oUnitRunner.ml" 294 9512 9531
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 293 9466 9478 "src/oUnitRunner.ml" 294 9512 9531
+type(
+  unit
+)
+"src/oUnitRunner.ml" 292 9390 9402 "src/oUnitRunner.ml" 294 9512 9531
+type(
+  unit
+)
+"src/oUnitRunner.ml" 289 9282 9294 "src/oUnitRunner.ml" 294 9512 9531
+type(
+  unit
+)
+"src/oUnitRunner.ml" 296 9533 9551 "src/oUnitRunner.ml" 296 9533 9552
+type(
+  bool
+)
+"src/oUnitRunner.ml" 296 9533 9543 "src/oUnitRunner.ml" 296 9533 9552
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 297 9556 9568 "src/oUnitRunner.ml" 297 9556 9572
+type(
+  unit -> unit
+)
+ident(
+  int_ref loop "src/oUnitRunner.ml" 283 9131 9143 "src/oUnitRunner.ml" 283 9131 9147
+)
+"src/oUnitRunner.ml" 297 9556 9573 "src/oUnitRunner.ml" 297 9556 9575
+type(
+  unit
+)
+"src/oUnitRunner.ml" 297 9556 9568 "src/oUnitRunner.ml" 297 9556 9575
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 284 9153 9159 "src/oUnitRunner.ml" 297 9556 9575
+type(
+  unit
+)
+"src/oUnitRunner.ml" 299 9583 9589 "src/oUnitRunner.ml" 299 9583 9593
+type(
+  unit -> unit
+)
+ident(
+  int_ref loop "src/oUnitRunner.ml" 283 9131 9143 "src/oUnitRunner.ml" 283 9131 9147
+)
+"src/oUnitRunner.ml" 299 9583 9594 "src/oUnitRunner.ml" 299 9583 9596
+type(
+  unit
+)
+"src/oUnitRunner.ml" 299 9583 9589 "src/oUnitRunner.ml" 299 9583 9596
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 283 9131 9135 "src/oUnitRunner.ml" 299 9583 9596
+type(
+  unit
+)
+"src/oUnitRunner.ml" 248 8392 8396 "src/oUnitRunner.ml" 299 9583 9596
+type(
+  unit
+)
+"src/oUnitRunner.ml" 232 7953 7957 "src/oUnitRunner.ml" 299 9583 9596
+type(
+  unit
+)
+"src/oUnitRunner.ml" 311 9852 9858 "src/oUnitRunner.ml" 311 9852 9864
+type(
+  (OUnitConf.conf ->
+   (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t ->
+   string -> string -> bool -> 'h worker) ->
+  ('h worker list -> float -> 'h worker list) ->
+  OUnitConf.conf ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  OUnitChooser.chooser ->
+  (OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun) list ->
+  OUnitTest.result_full list
+)
+ident(
+  def runner "src/oUnitRunner.ml" 522 17048 17064 "src/oUnitRunner.ml" 524 17066 17069
+)
+"src/oUnitRunner.ml" 312 9865 9873 "src/oUnitRunner.ml" 312 9865 9886
+type(
+  OUnitConf.conf ->
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t ->
+  string -> string -> bool -> 'h worker
+)
+ident(
+  def create_worker "src/oUnitRunner.ml" 312 9865 9887 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 312 9865 9887 "src/oUnitRunner.ml" 312 9865 9902
+type(
+  'h worker list -> float -> 'h worker list
+)
+ident(
+  def workers_waiting "src/oUnitRunner.ml" 313 9903 9911 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 313 9903 9911 "src/oUnitRunner.ml" 313 9903 9915
+type(
+  OUnitConf.conf
+)
+ident(
+  def conf "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  def logger "src/oUnitRunner.ml" 313 9903 9923 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 313 9903 9923 "src/oUnitRunner.ml" 313 9903 9930
+type(
+  OUnitChooser.chooser
+)
+ident(
+  def chooser "src/oUnitRunner.ml" 313 9903 9931 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 313 9903 9931 "src/oUnitRunner.ml" 313 9903 9941
+type(
+  (OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun) list
+)
+ident(
+  def test_cases "src/oUnitRunner.ml" 314 9944 9948 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 314 9944 9952 "src/oUnitRunner.ml" 314 9944 9966
+type(
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t
+)
+ident(
+  def map_test_cases "src/oUnitRunner.ml" 322 10138 10142 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 315 9969 9975 "src/oUnitRunner.ml" 315 9969 9989
+type(
+  ((MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t ->
+   OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun ->
+   (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t) ->
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t ->
+  (OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun) list ->
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/oUnitRunner.ml" 316 9990 10003 "src/oUnitRunner.ml" 316 9990 10005
+type(
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t
+)
+ident(
+  def mp "src/oUnitRunner.ml" 316 9990 10006 "src/oUnitRunner.ml" 317 10042 10087
+)
+"src/oUnitRunner.ml" 316 9990 10008 "src/oUnitRunner.ml" 316 9990 10017
+type(
+  MapPath.key
+)
+ident(
+  def test_path "src/oUnitRunner.ml" 317 10042 10053 "src/oUnitRunner.ml" 317 10042 10087
+)
+"src/oUnitRunner.ml" 316 9990 10019 "src/oUnitRunner.ml" 316 9990 10020
+type(
+  OUnitTest.test_length
+)
+"src/oUnitRunner.ml" 316 9990 10022 "src/oUnitRunner.ml" 316 9990 10023
+type(
+  OUnitTest.test_fun
+)
+"src/oUnitRunner.ml" 316 9990 10007 "src/oUnitRunner.ml" 316 9990 10024
+type(
+  OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun
+)
+"src/oUnitRunner.ml" 316 9990 10028 "src/oUnitRunner.ml" 316 9990 10037
+ident(
+  def test_case "src/oUnitRunner.ml" 317 10042 10053 "src/oUnitRunner.ml" 317 10042 10087
+)
+"src/oUnitRunner.ml" 316 9990 10006 "src/oUnitRunner.ml" 316 9990 10038
+type(
+  OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun
+)
+"src/oUnitRunner.ml" 317 10042 10053 "src/oUnitRunner.ml" 317 10042 10064
+type(
+  MapPath.key ->
+  MapPath.key * OUnitTest.test_length * OUnitTest.test_fun ->
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t ->
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t
+)
+ident(
+  ext_ref MapPath.add
+)
+"src/oUnitRunner.ml" 317 10042 10065 "src/oUnitRunner.ml" 317 10042 10074
+type(
+  MapPath.key
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 316 9990 10008 "src/oUnitRunner.ml" 316 9990 10017
+)
+"src/oUnitRunner.ml" 317 10042 10075 "src/oUnitRunner.ml" 317 10042 10084
+type(
+  MapPath.key * OUnitTest.test_length * OUnitTest.test_fun
+)
+ident(
+  int_ref test_case "src/oUnitRunner.ml" 316 9990 10006 "src/oUnitRunner.ml" 316 9990 10038
+)
+"src/oUnitRunner.ml" 317 10042 10085 "src/oUnitRunner.ml" 317 10042 10087
+type(
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t
+)
+ident(
+  int_ref mp "src/oUnitRunner.ml" 316 9990 10003 "src/oUnitRunner.ml" 316 9990 10005
+)
+"src/oUnitRunner.ml" 317 10042 10053 "src/oUnitRunner.ml" 317 10042 10087
+call(
+  tail
+)
+type(
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t
+)
+"src/oUnitRunner.ml" 316 9990 9998 "src/oUnitRunner.ml" 317 10042 10088
+type(
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t ->
+  OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun ->
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t
+)
+"src/oUnitRunner.ml" 318 10089 10097 "src/oUnitRunner.ml" 318 10089 10110
+type(
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t
+)
+ident(
+  ext_ref MapPath.empty
+)
+"src/oUnitRunner.ml" 319 10111 10119 "src/oUnitRunner.ml" 319 10111 10129
+type(
+  (OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun) list
+)
+ident(
+  int_ref test_cases "src/oUnitRunner.ml" 313 9903 9931 "src/oUnitRunner.ml" 313 9903 9941
+)
+"src/oUnitRunner.ml" 315 9969 9975 "src/oUnitRunner.ml" 319 10111 10129
+call(
+  stack
+)
+type(
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t
+)
+"src/oUnitRunner.ml" 322 10138 10146 "src/oUnitRunner.ml" 322 10138 10151
+type(
+  'i OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 324 10200 10204 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 322 10138 10154 "src/oUnitRunner.ml" 322 10138 10171
+type(
+  OUnitConf.conf ->
+  OUnitChooser.chooser ->
+  (OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun) list ->
+  'i OUnitState.t
+)
+ident(
+  ext_ref OUnitState.create
+)
+"src/oUnitRunner.ml" 322 10138 10172 "src/oUnitRunner.ml" 322 10138 10176
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunner.ml" 313 9903 9911 "src/oUnitRunner.ml" 313 9903 9915
+)
+"src/oUnitRunner.ml" 322 10138 10177 "src/oUnitRunner.ml" 322 10138 10184
+type(
+  OUnitChooser.chooser
+)
+ident(
+  int_ref chooser "src/oUnitRunner.ml" 313 9903 9923 "src/oUnitRunner.ml" 313 9903 9930
+)
+"src/oUnitRunner.ml" 322 10138 10185 "src/oUnitRunner.ml" 322 10138 10195
+type(
+  (OUnitTest.path * OUnitTest.test_length * OUnitTest.test_fun) list
+)
+ident(
+  int_ref test_cases "src/oUnitRunner.ml" 313 9903 9931 "src/oUnitRunner.ml" 313 9903 9941
+)
+"src/oUnitRunner.ml" 322 10138 10154 "src/oUnitRunner.ml" 322 10138 10195
+call(
+  stack
+)
+type(
+  'i OUnitState.t
+)
+"src/oUnitRunner.ml" 324 10200 10208 "src/oUnitRunner.ml" 324 10200 10214
+type(
+  int
+)
+ident(
+  def shards "src/oUnitRunner.ml" 326 10241 10245 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 324 10200 10217 "src/oUnitRunner.ml" 324 10200 10220
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/oUnitRunner.ml" 324 10200 10222 "src/oUnitRunner.ml" 324 10200 10228
+type(
+  OUnitConf.conf -> int
+)
+ident(
+  int_ref shards "src/oUnitRunner.ml" 111 4791 4795 "src/oUnitRunner.ml" 111 4791 4801
+)
+"src/oUnitRunner.ml" 324 10200 10229 "src/oUnitRunner.ml" 324 10200 10233
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunner.ml" 313 9903 9911 "src/oUnitRunner.ml" 313 9903 9915
+)
+"src/oUnitRunner.ml" 324 10200 10221 "src/oUnitRunner.ml" 324 10200 10234
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitRunner.ml" 324 10200 10235 "src/oUnitRunner.ml" 324 10200 10236
+type(
+  int
+)
+"src/oUnitRunner.ml" 324 10200 10217 "src/oUnitRunner.ml" 324 10200 10236
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitRunner.ml" 326 10241 10249 "src/oUnitRunner.ml" 326 10241 10258
+type(
+  string
+)
+ident(
+  def master_id "src/oUnitRunner.ml" 328 10291 10295 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 326 10241 10261 "src/oUnitRunner.ml" 326 10241 10267
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 326 10241 10261 "src/oUnitRunner.ml" 326 10241 10286
+type(
+  string
+)
+"src/oUnitRunner.ml" 328 10291 10299 "src/oUnitRunner.ml" 328 10291 10309
+type(
+  int ref
+)
+ident(
+  def worker_idx "src/oUnitRunner.ml" 330 10322 10326 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 328 10291 10312 "src/oUnitRunner.ml" 328 10291 10315
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitRunner.ml" 328 10291 10316 "src/oUnitRunner.ml" 328 10291 10317
+type(
+  int
+)
+"src/oUnitRunner.ml" 328 10291 10312 "src/oUnitRunner.ml" 328 10291 10317
+type(
+  int ref
+)
+"src/oUnitRunner.ml" 330 10322 10330 "src/oUnitRunner.ml" 330 10322 10345
+type(
+  unit -> (string * int) list
+)
+ident(
+  def test_per_worker "src/oUnitRunner.ml" 333 10411 10415 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 330 10322 10347 "src/oUnitRunner.ml" 330 10322 10368
+type(
+  string -> unit
+)
+ident(
+  def incr_tests_per_worker "src/oUnitRunner.ml" 333 10411 10415 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 330 10322 10330 "src/oUnitRunner.ml" 330 10322 10368
+type(
+  (unit -> (string * int) list) * (string -> unit)
+)
+"src/oUnitRunner.ml" 331 10371 10377 "src/oUnitRunner.ml" 331 10371 10400
+type(
+  unit -> (unit -> (string * int) list) * (string -> unit)
+)
+ident(
+  ext_ref OUnitUtils.make_counter
+)
+"src/oUnitRunner.ml" 331 10371 10401 "src/oUnitRunner.ml" 331 10371 10403
+type(
+  unit
+)
+"src/oUnitRunner.ml" 331 10371 10377 "src/oUnitRunner.ml" 331 10371 10403
+call(
+  stack
+)
+type(
+  (unit -> (string * int) list) * (string -> unit)
+)
+"src/oUnitRunner.ml" 333 10411 10419 "src/oUnitRunner.ml" 333 10411 10442
+type(
+  unit -> (string * int) list
+)
+ident(
+  def health_check_per_worker "src/oUnitRunner.ml" 337 10516 10520 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 333 10411 10444 "src/oUnitRunner.ml" 333 10411 10472
+type(
+  string -> unit
+)
+ident(
+  def incr_health_check_per_worker "src/oUnitRunner.ml" 337 10516 10520 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 333 10411 10419 "src/oUnitRunner.ml" 333 10411 10472
+type(
+  (unit -> (string * int) list) * (string -> unit)
+)
+"src/oUnitRunner.ml" 334 10475 10481 "src/oUnitRunner.ml" 334 10475 10504
+type(
+  unit -> (unit -> (string * int) list) * (string -> unit)
+)
+ident(
+  ext_ref OUnitUtils.make_counter
+)
+"src/oUnitRunner.ml" 334 10475 10505 "src/oUnitRunner.ml" 334 10475 10507
+type(
+  unit
+)
+"src/oUnitRunner.ml" 334 10475 10481 "src/oUnitRunner.ml" 334 10475 10507
+call(
+  stack
+)
+type(
+  (unit -> (string * int) list) * (string -> unit)
+)
+"src/oUnitRunner.ml" 337 10516 10524 "src/oUnitRunner.ml" 337 10516 10526
+type(
+  unit
+)
+"src/oUnitRunner.ml" 337 10516 10529 "src/oUnitRunner.ml" 337 10516 10534
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (int -> unit, unit, string, unit) format4 -> int -> unit
+)
+ident(
+  ext_ref OUnitLogger.infof
+)
+"src/oUnitRunner.ml" 337 10516 10535 "src/oUnitRunner.ml" 337 10516 10541
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 337 10516 10542 "src/oUnitRunner.ml" 337 10516 10569
+type(
+  (int -> unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 337 10516 10570 "src/oUnitRunner.ml" 337 10516 10576
+type(
+  int
+)
+ident(
+  int_ref shards "src/oUnitRunner.ml" 324 10200 10208 "src/oUnitRunner.ml" 324 10200 10214
+)
+"src/oUnitRunner.ml" 337 10516 10529 "src/oUnitRunner.ml" 337 10516 10577
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 339 10582 10590 "src/oUnitRunner.ml" 339 10582 10605
+type(
+  bool
+)
+ident(
+  def worker_log_file "src/oUnitRunner.ml" 350 10871 10875 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 340 10608 10617 "src/oUnitRunner.ml" 340 10608 10620
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/oUnitRunner.ml" 340 10608 10622 "src/oUnitRunner.ml" 340 10608 10667
+type(
+  OUnitConf.conf -> bool
+)
+ident(
+  ext_ref OUnitLoggerStd.is_output_file_shard_dependent
+)
+"src/oUnitRunner.ml" 340 10608 10668 "src/oUnitRunner.ml" 340 10608 10672
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunner.ml" 313 9903 9911 "src/oUnitRunner.ml" 313 9903 9915
+)
+"src/oUnitRunner.ml" 340 10608 10621 "src/oUnitRunner.ml" 340 10608 10673
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitRunner.ml" 340 10608 10617 "src/oUnitRunner.ml" 340 10608 10673
+type(
+  bool
+)
+"src/oUnitRunner.ml" 341 10685 10693 "src/oUnitRunner.ml" 341 10685 10701
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (unit, unit, string, unit) format4 -> unit
+)
+ident(
+  ext_ref OUnitLogger.warningf
+)
+"src/oUnitRunner.ml" 341 10685 10702 "src/oUnitRunner.ml" 341 10685 10708
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 342 10709 10719 "src/oUnitRunner.ml" 343 10764 10803
+type(
+  (unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 341 10685 10693 "src/oUnitRunner.ml" 343 10764 10803
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 344 10805 10813 "src/oUnitRunner.ml" 344 10805 10818
+type(
+  bool
+)
+"src/oUnitRunner.ml" 340 10608 10679 "src/oUnitRunner.ml" 345 10819 10828
+type(
+  bool
+)
+"src/oUnitRunner.ml" 345 10819 10834 "src/oUnitRunner.ml" 347 10853 10862
+type(
+  bool
+)
+"src/oUnitRunner.ml" 340 10608 10614 "src/oUnitRunner.ml" 347 10853 10862
+type(
+  bool
+)
+"src/oUnitRunner.ml" 350 10871 10879 "src/oUnitRunner.ml" 350 10871 10892
+type(
+  int OUnitShared.shared_noscope
+)
+ident(
+  def master_shared "src/oUnitRunner.ml" 353 10978 10982 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 350 10871 10895 "src/oUnitRunner.ml" 350 10871 10921
+type(
+  unit -> int OUnitShared.shared_noscope
+)
+ident(
+  ext_ref OUnitShared.noscope_create
+)
+"src/oUnitRunner.ml" 350 10871 10922 "src/oUnitRunner.ml" 350 10871 10924
+type(
+  unit
+)
+"src/oUnitRunner.ml" 350 10871 10895 "src/oUnitRunner.ml" 350 10871 10924
+call(
+  stack
+)
+type(
+  int OUnitShared.shared_noscope
+)
+"src/oUnitRunner.ml" 353 10978 10986 "src/oUnitRunner.ml" 353 10978 11001
+type(
+  'j worker ->
+  message_from_worker -> 'j worker OUnitState.t -> 'j worker OUnitState.t
+)
+ident(
+  def process_message "src/oUnitRunner.ml" 383 11891 11895 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 353 10978 11002 "src/oUnitRunner.ml" 353 10978 11008
+type(
+  'j worker
+)
+ident(
+  def worker "src/oUnitRunner.ml" 353 10978 11009 "src/oUnitRunner.ml" 379 11765 11832
+)
+"src/oUnitRunner.ml" 353 10978 11009 "src/oUnitRunner.ml" 353 10978 11012
+type(
+  message_from_worker
+)
+ident(
+  def msg "src/oUnitRunner.ml" 353 10978 11013 "src/oUnitRunner.ml" 379 11765 11832
+)
+"src/oUnitRunner.ml" 353 10978 11013 "src/oUnitRunner.ml" 353 10978 11018
+type(
+  'j worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 354 11021 11028 "src/oUnitRunner.ml" 379 11765 11832
+)
+"src/oUnitRunner.ml" 354 11021 11034 "src/oUnitRunner.ml" 354 11021 11037
+type(
+  message_from_worker
+)
+ident(
+  int_ref msg "src/oUnitRunner.ml" 353 10978 11009 "src/oUnitRunner.ml" 353 10978 11012
+)
+"src/oUnitRunner.ml" 355 11043 11054 "src/oUnitRunner.ml" 355 11043 11061
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 356 11065 11082 "src/oUnitRunner.ml" 356 11065 11089
+type(
+  string option
+)
+ident(
+  def msg_opt "src/oUnitRunner.ml" 360 11214 11227 "src/oUnitRunner.ml" 363 11324 11368
+)
+"src/oUnitRunner.ml" 357 11092 11107 "src/oUnitRunner.ml" 357 11092 11112
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref OUnitLogger.infof
+)
+"src/oUnitRunner.ml" 357 11092 11113 "src/oUnitRunner.ml" 357 11092 11119
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 357 11092 11120 "src/oUnitRunner.ml" 357 11092 11142
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 357 11092 11143 "src/oUnitRunner.ml" 357 11092 11149
+type(
+  'j worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 353 10978 11002 "src/oUnitRunner.ml" 353 10978 11008
+)
+"src/oUnitRunner.ml" 357 11092 11143 "src/oUnitRunner.ml" 357 11092 11158
+type(
+  string
+)
+"src/oUnitRunner.ml" 357 11092 11107 "src/oUnitRunner.ml" 357 11092 11158
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 358 11160 11175 "src/oUnitRunner.ml" 358 11160 11181
+type(
+  'j worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 353 10978 11002 "src/oUnitRunner.ml" 353 10978 11008
+)
+"src/oUnitRunner.ml" 358 11160 11175 "src/oUnitRunner.ml" 358 11160 11194
+type(
+  unit -> string option
+)
+"src/oUnitRunner.ml" 358 11160 11195 "src/oUnitRunner.ml" 358 11160 11197
+type(
+  unit
+)
+"src/oUnitRunner.ml" 358 11160 11175 "src/oUnitRunner.ml" 358 11160 11197
+call(
+  stack
+)
+type(
+  string option
+)
+"src/oUnitRunner.ml" 357 11092 11107 "src/oUnitRunner.ml" 358 11160 11197
+type(
+  string option
+)
+"src/oUnitRunner.ml" 360 11214 11227 "src/oUnitRunner.ml" 360 11214 11241
+type(
+  (string -> unit) -> string option -> unit
+)
+ident(
+  ext_ref OUnitUtils.opt
+)
+"src/oUnitRunner.ml" 361 11242 11258 "src/oUnitRunner.ml" 361 11242 11264
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref OUnitLogger.errorf
+)
+"src/oUnitRunner.ml" 361 11242 11265 "src/oUnitRunner.ml" 361 11242 11271
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 361 11242 11272 "src/oUnitRunner.ml" 361 11242 11298
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 361 11242 11257 "src/oUnitRunner.ml" 361 11242 11299
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"src/oUnitRunner.ml" 362 11300 11315 "src/oUnitRunner.ml" 362 11300 11322
+type(
+  string option
+)
+ident(
+  int_ref msg_opt "src/oUnitRunner.ml" 356 11065 11082 "src/oUnitRunner.ml" 356 11065 11089
+)
+"src/oUnitRunner.ml" 360 11214 11227 "src/oUnitRunner.ml" 362 11300 11322
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 363 11324 11337 "src/oUnitRunner.ml" 363 11324 11355
+type(
+  'j worker -> 'j worker OUnitState.t -> 'j worker OUnitState.t
+)
+ident(
+  ext_ref OUnitState.remove_idle_worker
+)
+"src/oUnitRunner.ml" 363 11324 11356 "src/oUnitRunner.ml" 363 11324 11362
+type(
+  'j worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 353 10978 11002 "src/oUnitRunner.ml" 353 10978 11008
+)
+"src/oUnitRunner.ml" 363 11324 11363 "src/oUnitRunner.ml" 363 11324 11368
+type(
+  'j worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 353 10978 11013 "src/oUnitRunner.ml" 353 10978 11018
+)
+"src/oUnitRunner.ml" 363 11324 11337 "src/oUnitRunner.ml" 363 11324 11368
+call(
+  tail
+)
+type(
+  'j worker OUnitState.t
+)
+"src/oUnitRunner.ml" 360 11214 11227 "src/oUnitRunner.ml" 363 11324 11368
+type(
+  'j worker OUnitState.t
+)
+"src/oUnitRunner.ml" 356 11065 11078 "src/oUnitRunner.ml" 363 11324 11368
+type(
+  'j worker OUnitState.t
+)
+"src/oUnitRunner.ml" 365 11370 11385 "src/oUnitRunner.ml" 365 11370 11391
+type(
+  OUnitTest.log_event_t
+)
+ident(
+  def log_ev "src/oUnitRunner.ml" 366 11395 11408 "src/oUnitRunner.ml" 367 11470 11488
+)
+"src/oUnitRunner.ml" 365 11370 11381 "src/oUnitRunner.ml" 365 11370 11391
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 366 11395 11408 "src/oUnitRunner.ml" 366 11395 11426
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  OUnitTest.log_event_t -> unit
+)
+ident(
+  ext_ref OUnitLogger.report
+)
+"src/oUnitRunner.ml" 366 11395 11428 "src/oUnitRunner.ml" 366 11395 11437
+type(
+  string ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  ext_ref OUnitLogger.set_shard
+)
+"src/oUnitRunner.ml" 366 11395 11438 "src/oUnitRunner.ml" 366 11395 11444
+type(
+  'j worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 353 10978 11002 "src/oUnitRunner.ml" 353 10978 11008
+)
+"src/oUnitRunner.ml" 366 11395 11438 "src/oUnitRunner.ml" 366 11395 11453
+type(
+  string
+)
+"src/oUnitRunner.ml" 366 11395 11454 "src/oUnitRunner.ml" 366 11395 11460
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 366 11395 11427 "src/oUnitRunner.ml" 366 11395 11461
+call(
+  stack
+)
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+"src/oUnitRunner.ml" 366 11395 11462 "src/oUnitRunner.ml" 366 11395 11468
+type(
+  OUnitTest.log_event_t
+)
+ident(
+  int_ref log_ev "src/oUnitRunner.ml" 365 11370 11385 "src/oUnitRunner.ml" 365 11370 11391
+)
+"src/oUnitRunner.ml" 366 11395 11408 "src/oUnitRunner.ml" 366 11395 11468
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 367 11470 11483 "src/oUnitRunner.ml" 367 11470 11488
+type(
+  'j worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 353 10978 11013 "src/oUnitRunner.ml" 353 10978 11018
+)
+"src/oUnitRunner.ml" 366 11395 11408 "src/oUnitRunner.ml" 367 11470 11488
+type(
+  'j worker OUnitState.t
+)
+"src/oUnitRunner.ml" 369 11490 11506 "src/oUnitRunner.ml" 369 11490 11508
+type(
+  int
+)
+ident(
+  def id "src/oUnitRunner.ml" 370 11512 11525 "src/oUnitRunner.ml" 372 11616 11634
+)
+"src/oUnitRunner.ml" 369 11490 11501 "src/oUnitRunner.ml" 369 11490 11508
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 370 11512 11525 "src/oUnitRunner.ml" 370 11512 11531
+type(
+  'j worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 353 10978 11002 "src/oUnitRunner.ml" 353 10978 11008
+)
+"src/oUnitRunner.ml" 370 11512 11525 "src/oUnitRunner.ml" 370 11512 11539
+type(
+  (message_to_worker, message_from_worker) channel
+)
+"src/oUnitRunner.ml" 370 11512 11525 "src/oUnitRunner.ml" 370 11512 11549
+type(
+  message_to_worker -> unit
+)
+"src/oUnitRunner.ml" 371 11550 11575 "src/oUnitRunner.ml" 371 11550 11588
+type(
+  int OUnitShared.shared_noscope
+)
+ident(
+  int_ref master_shared "src/oUnitRunner.ml" 350 10871 10879 "src/oUnitRunner.ml" 350 10871 10892
+)
+"src/oUnitRunner.ml" 371 11550 11575 "src/oUnitRunner.ml" 371 11550 11609
+type(
+  int -> bool
+)
+"src/oUnitRunner.ml" 371 11550 11610 "src/oUnitRunner.ml" 371 11550 11612
+type(
+  int
+)
+ident(
+  int_ref id "src/oUnitRunner.ml" 369 11490 11506 "src/oUnitRunner.ml" 369 11490 11508
+)
+"src/oUnitRunner.ml" 371 11550 11574 "src/oUnitRunner.ml" 371 11550 11613
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitRunner.ml" 371 11550 11565 "src/oUnitRunner.ml" 371 11550 11614
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 370 11512 11525 "src/oUnitRunner.ml" 371 11550 11614
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 372 11616 11629 "src/oUnitRunner.ml" 372 11616 11634
+type(
+  'j worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 353 10978 11013 "src/oUnitRunner.ml" 353 10978 11018
+)
+"src/oUnitRunner.ml" 370 11512 11525 "src/oUnitRunner.ml" 372 11616 11634
+type(
+  'j worker OUnitState.t
+)
+"src/oUnitRunner.ml" 374 11636 11654 "src/oUnitRunner.ml" 374 11636 11656
+type(
+  int
+)
+ident(
+  def id "src/oUnitRunner.ml" 375 11660 11673 "src/oUnitRunner.ml" 376 11710 11728
+)
+"src/oUnitRunner.ml" 374 11636 11647 "src/oUnitRunner.ml" 374 11636 11656
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 375 11660 11673 "src/oUnitRunner.ml" 375 11660 11686
+type(
+  int OUnitShared.shared_noscope
+)
+ident(
+  int_ref master_shared "src/oUnitRunner.ml" 350 10871 10879 "src/oUnitRunner.ml" 350 10871 10892
+)
+"src/oUnitRunner.ml" 375 11660 11673 "src/oUnitRunner.ml" 375 11660 11705
+type(
+  int -> unit
+)
+"src/oUnitRunner.ml" 375 11660 11706 "src/oUnitRunner.ml" 375 11660 11708
+type(
+  int
+)
+ident(
+  int_ref id "src/oUnitRunner.ml" 374 11636 11654 "src/oUnitRunner.ml" 374 11636 11656
+)
+"src/oUnitRunner.ml" 375 11660 11673 "src/oUnitRunner.ml" 375 11660 11708
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 376 11710 11723 "src/oUnitRunner.ml" 376 11710 11728
+type(
+  'j worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 353 10978 11013 "src/oUnitRunner.ml" 353 10978 11018
+)
+"src/oUnitRunner.ml" 375 11660 11673 "src/oUnitRunner.ml" 376 11710 11728
+type(
+  'j worker OUnitState.t
+)
+"src/oUnitRunner.ml" 378 11730 11750 "src/oUnitRunner.ml" 378 11730 11761
+type(
+  OUnitTest.result_full * OUnitTest.result_list
+)
+ident(
+  def test_result "src/oUnitRunner.ml" 379 11765 11778 "src/oUnitRunner.ml" 379 11765 11832
+)
+"src/oUnitRunner.ml" 378 11730 11741 "src/oUnitRunner.ml" 378 11730 11761
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 379 11765 11778 "src/oUnitRunner.ml" 379 11765 11802
+type(
+  OUnitConf.conf ->
+  OUnitTest.result_full * OUnitTest.result_list ->
+  'j worker -> 'j worker OUnitState.t -> 'j worker OUnitState.t
+)
+ident(
+  ext_ref OUnitState.test_finished
+)
+"src/oUnitRunner.ml" 379 11765 11803 "src/oUnitRunner.ml" 379 11765 11807
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunner.ml" 313 9903 9911 "src/oUnitRunner.ml" 313 9903 9915
+)
+"src/oUnitRunner.ml" 379 11765 11808 "src/oUnitRunner.ml" 379 11765 11819
+type(
+  OUnitTest.result_full * OUnitTest.result_list
+)
+ident(
+  int_ref test_result "src/oUnitRunner.ml" 378 11730 11750 "src/oUnitRunner.ml" 378 11730 11761
+)
+"src/oUnitRunner.ml" 379 11765 11820 "src/oUnitRunner.ml" 379 11765 11826
+type(
+  'j worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 353 10978 11002 "src/oUnitRunner.ml" 353 10978 11008
+)
+"src/oUnitRunner.ml" 379 11765 11827 "src/oUnitRunner.ml" 379 11765 11832
+type(
+  'j worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 353 10978 11013 "src/oUnitRunner.ml" 353 10978 11018
+)
+"src/oUnitRunner.ml" 379 11765 11778 "src/oUnitRunner.ml" 379 11765 11832
+call(
+  tail
+)
+type(
+  'j worker OUnitState.t
+)
+"src/oUnitRunner.ml" 354 11021 11028 "src/oUnitRunner.ml" 379 11765 11832
+type(
+  'j worker OUnitState.t
+)
+"src/oUnitRunner.ml" 383 11891 11899 "src/oUnitRunner.ml" 383 11891 11918
+type(
+  OUnitTest.path ->
+  'k -> OUnitTest.result -> 'k OUnitState.t -> 'k OUnitState.t
+)
+ident(
+  def declare_dead_worker "src/oUnitRunner.ml" 395 12317 12321 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 383 11891 11919 "src/oUnitRunner.ml" 383 11891 11928
+type(
+  OUnitTest.path
+)
+ident(
+  def test_path "src/oUnitRunner.ml" 383 11891 11929 "src/oUnitRunner.ml" 391 12235 12262
+)
+"src/oUnitRunner.ml" 383 11891 11929 "src/oUnitRunner.ml" 383 11891 11935
+type(
+  'k
+)
+ident(
+  def worker "src/oUnitRunner.ml" 383 11891 11936 "src/oUnitRunner.ml" 391 12235 12262
+)
+"src/oUnitRunner.ml" 383 11891 11936 "src/oUnitRunner.ml" 383 11891 11942
+type(
+  OUnitTest.result
+)
+ident(
+  def result "src/oUnitRunner.ml" 383 11891 11943 "src/oUnitRunner.ml" 391 12235 12262
+)
+"src/oUnitRunner.ml" 383 11891 11943 "src/oUnitRunner.ml" 383 11891 11948
+type(
+  'k OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 384 11951 11958 "src/oUnitRunner.ml" 391 12235 12262
+)
+"src/oUnitRunner.ml" 384 11951 11962 "src/oUnitRunner.ml" 384 11951 11969
+type(
+  OUnitLogger.position option
+)
+ident(
+  def log_pos "src/oUnitRunner.ml" 385 11991 12000 "src/oUnitRunner.ml" 391 12235 12262
+)
+"src/oUnitRunner.ml" 384 11951 11972 "src/oUnitRunner.ml" 384 11951 11980
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  OUnitLogger.position option
+)
+ident(
+  ext_ref OUnitLogger.position
+)
+"src/oUnitRunner.ml" 384 11951 11981 "src/oUnitRunner.ml" 384 11951 11987
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 384 11951 11972 "src/oUnitRunner.ml" 384 11951 11987
+call(
+  stack
+)
+type(
+  OUnitLogger.position option
+)
+"src/oUnitRunner.ml" 385 11991 12000 "src/oUnitRunner.ml" 385 11991 12006
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.log_event_t -> unit
+)
+ident(
+  ext_ref OUnitLogger.report
+)
+"src/oUnitRunner.ml" 385 11991 12007 "src/oUnitRunner.ml" 385 11991 12013
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 385 11991 12026 "src/oUnitRunner.ml" 385 11991 12035
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 383 11891 11919 "src/oUnitRunner.ml" 383 11891 11928
+)
+"src/oUnitRunner.ml" 385 11991 12045 "src/oUnitRunner.ml" 385 11991 12051
+type(
+  OUnitTest.result
+)
+ident(
+  int_ref result "src/oUnitRunner.ml" 383 11891 11936 "src/oUnitRunner.ml" 383 11891 11942
+)
+"src/oUnitRunner.ml" 385 11991 12037 "src/oUnitRunner.ml" 385 11991 12051
+type(
+  OUnitTest.result OUnitLogger.test_event
+)
+"src/oUnitRunner.ml" 385 11991 12014 "src/oUnitRunner.ml" 385 11991 12053
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.log_event_t
+)
+"src/oUnitRunner.ml" 385 11991 12000 "src/oUnitRunner.ml" 385 11991 12053
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 386 12055 12064 "src/oUnitRunner.ml" 386 12055 12070
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.log_event_t -> unit
+)
+ident(
+  ext_ref OUnitLogger.report
+)
+"src/oUnitRunner.ml" 386 12055 12071 "src/oUnitRunner.ml" 386 12055 12077
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 386 12055 12090 "src/oUnitRunner.ml" 386 12055 12099
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 383 11891 11919 "src/oUnitRunner.ml" 383 11891 11928
+)
+"src/oUnitRunner.ml" 386 12055 12101 "src/oUnitRunner.ml" 386 12055 12105
+type(
+  OUnitTest.result OUnitLogger.test_event
+)
+"src/oUnitRunner.ml" 386 12055 12078 "src/oUnitRunner.ml" 386 12055 12107
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.log_event_t
+)
+"src/oUnitRunner.ml" 386 12055 12064 "src/oUnitRunner.ml" 386 12055 12107
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 387 12109 12118 "src/oUnitRunner.ml" 387 12109 12136
+type(
+  'k -> 'k OUnitState.t -> 'k OUnitState.t
+)
+ident(
+  ext_ref OUnitState.remove_idle_worker
+)
+"src/oUnitRunner.ml" 388 12137 12148 "src/oUnitRunner.ml" 388 12137 12154
+type(
+  'k
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 383 11891 11929 "src/oUnitRunner.ml" 383 11891 11935
+)
+"src/oUnitRunner.ml" 389 12155 12167 "src/oUnitRunner.ml" 389 12155 12180
+type(
+  OUnitConf.conf ->
+  OUnitTest.result_full * OUnitTest.result_list ->
+  'k -> 'k OUnitState.t -> 'k OUnitState.t
+)
+ident(
+  ext_ref OUnitState.test_finished
+)
+"src/oUnitRunner.ml" 389 12155 12181 "src/oUnitRunner.ml" 389 12155 12185
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunner.ml" 313 9903 9911 "src/oUnitRunner.ml" 313 9903 9915
+)
+"src/oUnitRunner.ml" 390 12186 12202 "src/oUnitRunner.ml" 390 12186 12211
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 383 11891 11919 "src/oUnitRunner.ml" 383 11891 11928
+)
+"src/oUnitRunner.ml" 390 12186 12213 "src/oUnitRunner.ml" 390 12186 12219
+type(
+  OUnitTest.result
+)
+ident(
+  int_ref result "src/oUnitRunner.ml" 383 11891 11936 "src/oUnitRunner.ml" 383 11891 11942
+)
+"src/oUnitRunner.ml" 390 12186 12221 "src/oUnitRunner.ml" 390 12186 12228
+type(
+  OUnitLogger.position option
+)
+ident(
+  int_ref log_pos "src/oUnitRunner.ml" 384 11951 11962 "src/oUnitRunner.ml" 384 11951 11969
+)
+"src/oUnitRunner.ml" 390 12186 12201 "src/oUnitRunner.ml" 390 12186 12229
+type(
+  OUnitTest.result_full
+)
+"src/oUnitRunner.ml" 390 12186 12231 "src/oUnitRunner.ml" 390 12186 12233
+type(
+  OUnitTest.result_list
+)
+"src/oUnitRunner.ml" 390 12186 12200 "src/oUnitRunner.ml" 390 12186 12234
+type(
+  OUnitTest.result_full * OUnitTest.result_list
+)
+"src/oUnitRunner.ml" 391 12235 12249 "src/oUnitRunner.ml" 391 12235 12255
+type(
+  'k
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 383 11891 11929 "src/oUnitRunner.ml" 383 11891 11935
+)
+"src/oUnitRunner.ml" 391 12235 12256 "src/oUnitRunner.ml" 391 12235 12261
+type(
+  'k OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 383 11891 11943 "src/oUnitRunner.ml" 383 11891 11948
+)
+"src/oUnitRunner.ml" 389 12155 12166 "src/oUnitRunner.ml" 391 12235 12262
+call(
+  stack
+)
+type(
+  'k OUnitState.t
+)
+"src/oUnitRunner.ml" 387 12109 12118 "src/oUnitRunner.ml" 391 12235 12262
+call(
+  tail
+)
+type(
+  'k OUnitState.t
+)
+"src/oUnitRunner.ml" 386 12055 12064 "src/oUnitRunner.ml" 391 12235 12262
+type(
+  'k OUnitState.t
+)
+"src/oUnitRunner.ml" 385 11991 12000 "src/oUnitRunner.ml" 391 12235 12262
+type(
+  'k OUnitState.t
+)
+"src/oUnitRunner.ml" 384 11951 11958 "src/oUnitRunner.ml" 391 12235 12262
+type(
+  'k OUnitState.t
+)
+"src/oUnitRunner.ml" 395 12317 12325 "src/oUnitRunner.ml" 395 12317 12337
+type(
+  'l worker OUnitState.t -> 'l worker OUnitState.t
+)
+ident(
+  def kill_timeout "src/oUnitRunner.ml" 409 12841 12845 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 395 12317 12338 "src/oUnitRunner.ml" 395 12317 12343
+type(
+  'l worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 396 12346 12352 "src/oUnitRunner.ml" 405 12734 12770
+)
+"src/oUnitRunner.ml" 396 12346 12352 "src/oUnitRunner.ml" 396 12346 12366
+type(
+  ('l worker OUnitState.t ->
+   OUnitTest.path * OUnitTest.test_length * 'l worker ->
+   'l worker OUnitState.t) ->
+  'l worker OUnitState.t ->
+  (OUnitTest.path * OUnitTest.test_length * 'l worker) list ->
+  'l worker OUnitState.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/oUnitRunner.ml" 397 12367 12380 "src/oUnitRunner.ml" 397 12367 12385
+type(
+  'l worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 397 12367 12386 "src/oUnitRunner.ml" 403 12640 12718
+)
+"src/oUnitRunner.ml" 397 12367 12387 "src/oUnitRunner.ml" 397 12367 12396
+type(
+  OUnitTest.path
+)
+ident(
+  def test_path "src/oUnitRunner.ml" 398 12422 12433 "src/oUnitRunner.ml" 403 12640 12718
+)
+"src/oUnitRunner.ml" 397 12367 12398 "src/oUnitRunner.ml" 397 12367 12409
+type(
+  OUnitTest.test_length
+)
+ident(
+  def test_length "src/oUnitRunner.ml" 398 12422 12433 "src/oUnitRunner.ml" 403 12640 12718
+)
+"src/oUnitRunner.ml" 397 12367 12411 "src/oUnitRunner.ml" 397 12367 12417
+type(
+  'l worker
+)
+ident(
+  def worker "src/oUnitRunner.ml" 398 12422 12433 "src/oUnitRunner.ml" 403 12640 12718
+)
+"src/oUnitRunner.ml" 397 12367 12386 "src/oUnitRunner.ml" 397 12367 12418
+type(
+  OUnitTest.path * OUnitTest.test_length * 'l worker
+)
+"src/oUnitRunner.ml" 398 12422 12437 "src/oUnitRunner.ml" 398 12422 12441
+type(
+  string option
+)
+ident(
+  def _msg "src/oUnitRunner.ml" 403 12640 12653 "src/oUnitRunner.ml" 403 12640 12718
+)
+"src/oUnitRunner.ml" 399 12460 12473 "src/oUnitRunner.ml" 399 12460 12479
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref OUnitLogger.errorf
+)
+"src/oUnitRunner.ml" 399 12460 12480 "src/oUnitRunner.ml" 399 12460 12486
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 399 12460 12487 "src/oUnitRunner.ml" 399 12460 12530
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 400 12531 12546 "src/oUnitRunner.ml" 400 12531 12552
+type(
+  'l worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 397 12367 12411 "src/oUnitRunner.ml" 397 12367 12417
+)
+"src/oUnitRunner.ml" 400 12531 12546 "src/oUnitRunner.ml" 400 12531 12561
+type(
+  string
+)
+"src/oUnitRunner.ml" 400 12531 12563 "src/oUnitRunner.ml" 400 12531 12577
+type(
+  OUnitTest.path -> string
+)
+ident(
+  ext_ref OUnitTest.string_of_path
+)
+"src/oUnitRunner.ml" 400 12531 12578 "src/oUnitRunner.ml" 400 12531 12587
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 397 12367 12387 "src/oUnitRunner.ml" 397 12367 12396
+)
+"src/oUnitRunner.ml" 400 12531 12562 "src/oUnitRunner.ml" 400 12531 12588
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunner.ml" 399 12460 12473 "src/oUnitRunner.ml" 400 12531 12588
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 401 12590 12603 "src/oUnitRunner.ml" 401 12590 12609
+type(
+  'l worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 397 12367 12411 "src/oUnitRunner.ml" 397 12367 12417
+)
+"src/oUnitRunner.ml" 401 12590 12603 "src/oUnitRunner.ml" 401 12590 12622
+type(
+  unit -> string option
+)
+"src/oUnitRunner.ml" 401 12590 12623 "src/oUnitRunner.ml" 401 12590 12625
+type(
+  unit
+)
+"src/oUnitRunner.ml" 401 12590 12603 "src/oUnitRunner.ml" 401 12590 12625
+call(
+  stack
+)
+type(
+  string option
+)
+"src/oUnitRunner.ml" 399 12460 12473 "src/oUnitRunner.ml" 401 12590 12625
+type(
+  string option
+)
+type(
+  string option
+)
+"src/oUnitRunner.ml" 403 12640 12653 "src/oUnitRunner.ml" 403 12640 12672
+type(
+  OUnitTest.path ->
+  'l worker ->
+  OUnitTest.result -> 'l worker OUnitState.t -> 'l worker OUnitState.t
+)
+ident(
+  int_ref declare_dead_worker "src/oUnitRunner.ml" 383 11891 11899 "src/oUnitRunner.ml" 383 11891 11918
+)
+"src/oUnitRunner.ml" 403 12640 12673 "src/oUnitRunner.ml" 403 12640 12682
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 397 12367 12387 "src/oUnitRunner.ml" 397 12367 12396
+)
+"src/oUnitRunner.ml" 403 12640 12683 "src/oUnitRunner.ml" 403 12640 12689
+type(
+  'l worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 397 12367 12411 "src/oUnitRunner.ml" 397 12367 12417
+)
+"src/oUnitRunner.ml" 403 12640 12700 "src/oUnitRunner.ml" 403 12640 12711
+type(
+  OUnitTest.test_length
+)
+ident(
+  int_ref test_length "src/oUnitRunner.ml" 397 12367 12398 "src/oUnitRunner.ml" 397 12367 12409
+)
+"src/oUnitRunner.ml" 403 12640 12690 "src/oUnitRunner.ml" 403 12640 12712
+type(
+  OUnitTest.result
+)
+"src/oUnitRunner.ml" 403 12640 12713 "src/oUnitRunner.ml" 403 12640 12718
+type(
+  'l worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 397 12367 12380 "src/oUnitRunner.ml" 397 12367 12385
+)
+"src/oUnitRunner.ml" 403 12640 12653 "src/oUnitRunner.ml" 403 12640 12718
+call(
+  tail
+)
+type(
+  'l worker OUnitState.t
+)
+"src/oUnitRunner.ml" 398 12422 12433 "src/oUnitRunner.ml" 403 12640 12718
+type(
+  'l worker OUnitState.t
+)
+"src/oUnitRunner.ml" 397 12367 12375 "src/oUnitRunner.ml" 403 12640 12719
+type(
+  'l worker OUnitState.t ->
+  OUnitTest.path * OUnitTest.test_length * 'l worker ->
+  'l worker OUnitState.t
+)
+"src/oUnitRunner.ml" 404 12720 12728 "src/oUnitRunner.ml" 404 12720 12733
+type(
+  'l worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 395 12317 12338 "src/oUnitRunner.ml" 395 12317 12343
+)
+"src/oUnitRunner.ml" 405 12734 12743 "src/oUnitRunner.ml" 405 12734 12763
+type(
+  'l worker OUnitState.t ->
+  (OUnitTest.path * OUnitTest.test_length * 'l worker) list
+)
+ident(
+  ext_ref OUnitState.get_worker_timed_out
+)
+"src/oUnitRunner.ml" 405 12734 12764 "src/oUnitRunner.ml" 405 12734 12769
+type(
+  'l worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 395 12317 12338 "src/oUnitRunner.ml" 395 12317 12343
+)
+"src/oUnitRunner.ml" 405 12734 12742 "src/oUnitRunner.ml" 405 12734 12770
+call(
+  stack
+)
+type(
+  (OUnitTest.path * OUnitTest.test_length * 'l worker) list
+)
+"src/oUnitRunner.ml" 396 12346 12352 "src/oUnitRunner.ml" 405 12734 12770
+call(
+  tail
+)
+type(
+  'l worker OUnitState.t
+)
+"src/oUnitRunner.ml" 409 12841 12849 "src/oUnitRunner.ml" 409 12841 12861
+type(
+  'm worker OUnitState.t -> 'm worker OUnitState.t
+)
+ident(
+  def check_health "src/oUnitRunner.ml" 436 13831 13835 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 409 12841 12862 "src/oUnitRunner.ml" 409 12841 12867
+type(
+  'm worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 410 12870 12876 "src/oUnitRunner.ml" 432 13752 13796
+)
+"src/oUnitRunner.ml" 410 12870 12876 "src/oUnitRunner.ml" 410 12870 12890
+type(
+  ('m worker OUnitState.t ->
+   OUnitTest.path * 'm worker -> 'm worker OUnitState.t) ->
+  'm worker OUnitState.t ->
+  (OUnitTest.path * 'm worker) list -> 'm worker OUnitState.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/oUnitRunner.ml" 411 12891 12904 "src/oUnitRunner.ml" 411 12891 12909
+type(
+  'm worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 411 12891 12910 "src/oUnitRunner.ml" 430 13722 13736
+)
+"src/oUnitRunner.ml" 411 12891 12911 "src/oUnitRunner.ml" 411 12891 12920
+type(
+  OUnitTest.path
+)
+ident(
+  def test_path "src/oUnitRunner.ml" 412 12933 12944 "src/oUnitRunner.ml" 430 13722 13736
+)
+"src/oUnitRunner.ml" 411 12891 12922 "src/oUnitRunner.ml" 411 12891 12928
+type(
+  'm worker
+)
+ident(
+  def worker "src/oUnitRunner.ml" 412 12933 12944 "src/oUnitRunner.ml" 430 13722 13736
+)
+"src/oUnitRunner.ml" 411 12891 12910 "src/oUnitRunner.ml" 411 12891 12929
+type(
+  OUnitTest.path * 'm worker
+)
+"src/oUnitRunner.ml" 412 12933 12944 "src/oUnitRunner.ml" 412 12933 12972
+type(
+  string -> unit
+)
+ident(
+  int_ref incr_health_check_per_worker "src/oUnitRunner.ml" 333 10411 10444 "src/oUnitRunner.ml" 333 10411 10472
+)
+"src/oUnitRunner.ml" 412 12933 12973 "src/oUnitRunner.ml" 412 12933 12979
+type(
+  'm worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 411 12891 12922 "src/oUnitRunner.ml" 411 12891 12928
+)
+"src/oUnitRunner.ml" 412 12933 12973 "src/oUnitRunner.ml" 412 12933 12988
+type(
+  string
+)
+"src/oUnitRunner.ml" 412 12933 12944 "src/oUnitRunner.ml" 412 12933 12988
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 413 12990 13004 "src/oUnitRunner.ml" 413 12990 13010
+type(
+  'm worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 411 12891 12922 "src/oUnitRunner.ml" 411 12891 12928
+)
+"src/oUnitRunner.ml" 413 12990 13004 "src/oUnitRunner.ml" 413 12990 13021
+type(
+  unit -> bool
+)
+"src/oUnitRunner.ml" 413 12990 13022 "src/oUnitRunner.ml" 413 12990 13024
+type(
+  unit
+)
+"src/oUnitRunner.ml" 413 12990 13004 "src/oUnitRunner.ml" 413 12990 13024
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitRunner.ml" 414 13036 13049 "src/oUnitRunner.ml" 414 13036 13069
+type(
+  OUnitTest.path -> 'm worker OUnitState.t -> 'm worker OUnitState.t
+)
+ident(
+  ext_ref OUnitState.update_test_activity
+)
+"src/oUnitRunner.ml" 414 13036 13070 "src/oUnitRunner.ml" 414 13036 13079
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 411 12891 12911 "src/oUnitRunner.ml" 411 12891 12920
+)
+"src/oUnitRunner.ml" 414 13036 13080 "src/oUnitRunner.ml" 414 13036 13085
+type(
+  'm worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 411 12891 12904 "src/oUnitRunner.ml" 411 12891 12909
+)
+"src/oUnitRunner.ml" 413 12990 13030 "src/oUnitRunner.ml" 415 13086 13100
+call(
+  tail
+)
+type(
+  'm worker OUnitState.t
+)
+"src/oUnitRunner.ml" 417 13158 13175 "src/oUnitRunner.ml" 417 13158 13185
+type(
+  string
+)
+ident(
+  def result_msg "src/oUnitRunner.ml" 427 13602 13617 "src/oUnitRunner.ml" 429 13699 13721
+)
+"src/oUnitRunner.ml" 418 13188 13203 "src/oUnitRunner.ml" 418 13188 13209
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref OUnitLogger.errorf
+)
+"src/oUnitRunner.ml" 418 13188 13210 "src/oUnitRunner.ml" 418 13188 13216
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 419 13217 13234 "src/oUnitRunner.ml" 419 13217 13286
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 420 13287 13304 "src/oUnitRunner.ml" 420 13287 13310
+type(
+  'm worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 411 12891 12922 "src/oUnitRunner.ml" 411 12891 12928
+)
+"src/oUnitRunner.ml" 420 13287 13304 "src/oUnitRunner.ml" 420 13287 13319
+type(
+  string
+)
+"src/oUnitRunner.ml" 420 13287 13321 "src/oUnitRunner.ml" 420 13287 13335
+type(
+  OUnitTest.path -> string
+)
+ident(
+  ext_ref OUnitTest.string_of_path
+)
+"src/oUnitRunner.ml" 420 13287 13336 "src/oUnitRunner.ml" 420 13287 13345
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 411 12891 12911 "src/oUnitRunner.ml" 411 12891 12920
+)
+"src/oUnitRunner.ml" 420 13287 13320 "src/oUnitRunner.ml" 420 13287 13346
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunner.ml" 418 13188 13203 "src/oUnitRunner.ml" 420 13287 13346
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 421 13348 13369 "src/oUnitRunner.ml" 421 13348 13375
+type(
+  'm worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 411 12891 12922 "src/oUnitRunner.ml" 411 12891 12928
+)
+"src/oUnitRunner.ml" 421 13348 13369 "src/oUnitRunner.ml" 421 13348 13388
+type(
+  unit -> string option
+)
+"src/oUnitRunner.ml" 421 13348 13389 "src/oUnitRunner.ml" 421 13348 13391
+type(
+  unit
+)
+"src/oUnitRunner.ml" 421 13348 13369 "src/oUnitRunner.ml" 421 13348 13391
+call(
+  stack
+)
+type(
+  string option
+)
+"src/oUnitRunner.ml" 422 13397 13421 "src/oUnitRunner.ml" 422 13397 13424
+type(
+  string
+)
+ident(
+  def msg "src/oUnitRunner.ml" 423 13428 13449 "src/oUnitRunner.ml" 423 13428 13494
+)
+"src/oUnitRunner.ml" 422 13397 13416 "src/oUnitRunner.ml" 422 13397 13424
+type(
+  string option
+)
+"src/oUnitRunner.ml" 423 13428 13449 "src/oUnitRunner.ml" 423 13428 13463
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitRunner.ml" 423 13428 13464 "src/oUnitRunner.ml" 423 13428 13490
+type(
+  (string -> string, unit, string) format
+)
+"src/oUnitRunner.ml" 423 13428 13491 "src/oUnitRunner.ml" 423 13428 13494
+type(
+  string
+)
+ident(
+  int_ref msg "src/oUnitRunner.ml" 422 13397 13421 "src/oUnitRunner.ml" 422 13397 13424
+)
+"src/oUnitRunner.ml" 423 13428 13449 "src/oUnitRunner.ml" 423 13428 13494
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunner.ml" 424 13495 13514 "src/oUnitRunner.ml" 424 13495 13518
+type(
+  string option
+)
+"src/oUnitRunner.ml" 425 13522 13543 "src/oUnitRunner.ml" 425 13522 13585
+type(
+  string
+)
+"src/oUnitRunner.ml" 421 13348 13363 "src/oUnitRunner.ml" 425 13522 13585
+type(
+  string
+)
+"src/oUnitRunner.ml" 418 13188 13203 "src/oUnitRunner.ml" 425 13522 13585
+type(
+  string
+)
+"src/oUnitRunner.ml" 427 13602 13617 "src/oUnitRunner.ml" 427 13602 13636
+type(
+  OUnitTest.path ->
+  'm worker ->
+  OUnitTest.result -> 'm worker OUnitState.t -> 'm worker OUnitState.t
+)
+ident(
+  int_ref declare_dead_worker "src/oUnitRunner.ml" 383 11891 11899 "src/oUnitRunner.ml" 383 11891 11918
+)
+"src/oUnitRunner.ml" 427 13602 13637 "src/oUnitRunner.ml" 427 13602 13646
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 411 12891 12911 "src/oUnitRunner.ml" 411 12891 12920
+)
+"src/oUnitRunner.ml" 427 13602 13647 "src/oUnitRunner.ml" 427 13602 13653
+type(
+  'm worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 411 12891 12922 "src/oUnitRunner.ml" 411 12891 12928
+)
+"src/oUnitRunner.ml" 428 13654 13680 "src/oUnitRunner.ml" 428 13654 13690
+type(
+  string
+)
+ident(
+  int_ref result_msg "src/oUnitRunner.ml" 417 13158 13175 "src/oUnitRunner.ml" 417 13158 13185
+)
+"src/oUnitRunner.ml" 428 13654 13692 "src/oUnitRunner.ml" 428 13654 13696
+type(
+  OUnitTest.backtrace
+)
+"src/oUnitRunner.ml" 428 13654 13671 "src/oUnitRunner.ml" 428 13654 13698
+type(
+  OUnitTest.result
+)
+"src/oUnitRunner.ml" 429 13699 13716 "src/oUnitRunner.ml" 429 13699 13721
+type(
+  'm worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 411 12891 12904 "src/oUnitRunner.ml" 411 12891 12909
+)
+"src/oUnitRunner.ml" 427 13602 13617 "src/oUnitRunner.ml" 429 13699 13721
+call(
+  tail
+)
+type(
+  'm worker OUnitState.t
+)
+"src/oUnitRunner.ml" 415 13086 13106 "src/oUnitRunner.ml" 430 13722 13736
+type(
+  'm worker OUnitState.t
+)
+"src/oUnitRunner.ml" 413 12990 13001 "src/oUnitRunner.ml" 430 13722 13736
+type(
+  'm worker OUnitState.t
+)
+"src/oUnitRunner.ml" 412 12933 12944 "src/oUnitRunner.ml" 430 13722 13736
+type(
+  'm worker OUnitState.t
+)
+"src/oUnitRunner.ml" 411 12891 12899 "src/oUnitRunner.ml" 430 13722 13737
+type(
+  'm worker OUnitState.t ->
+  OUnitTest.path * 'm worker -> 'm worker OUnitState.t
+)
+"src/oUnitRunner.ml" 431 13738 13746 "src/oUnitRunner.ml" 431 13738 13751
+type(
+  'm worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 409 12841 12862 "src/oUnitRunner.ml" 409 12841 12867
+)
+"src/oUnitRunner.ml" 432 13752 13761 "src/oUnitRunner.ml" 432 13752 13789
+type(
+  'm worker OUnitState.t -> (OUnitTest.path * 'm worker) list
+)
+ident(
+  ext_ref OUnitState.get_worker_need_health_check
+)
+"src/oUnitRunner.ml" 432 13752 13790 "src/oUnitRunner.ml" 432 13752 13795
+type(
+  'm worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 409 12841 12862 "src/oUnitRunner.ml" 409 12841 12867
+)
+"src/oUnitRunner.ml" 432 13752 13760 "src/oUnitRunner.ml" 432 13752 13796
+call(
+  stack
+)
+type(
+  (OUnitTest.path * 'm worker) list
+)
+"src/oUnitRunner.ml" 410 12870 12876 "src/oUnitRunner.ml" 432 13752 13796
+call(
+  tail
+)
+type(
+  'm worker OUnitState.t
+)
+"src/oUnitRunner.ml" 436 13831 13843 "src/oUnitRunner.ml" 436 13831 13857
+type(
+  'h worker OUnitState.t -> 'h worker OUnitState.t
+)
+ident(
+  def wait_test_done "src/oUnitRunner.ml" 436 13831 13835 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 436 13831 13858 "src/oUnitRunner.ml" 436 13831 13863
+type(
+  'h worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 437 13866 13872 "src/oUnitRunner.ml" 454 14484 14493
+)
+"src/oUnitRunner.ml" 437 13866 13876 "src/oUnitRunner.ml" 437 13866 13881
+type(
+  'h worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 438 13923 13929 "src/oUnitRunner.ml" 454 14484 14493
+)
+"src/oUnitRunner.ml" 437 13866 13885 "src/oUnitRunner.ml" 437 13866 13897
+type(
+  'h worker OUnitState.t -> 'h worker OUnitState.t
+)
+ident(
+  int_ref check_health "src/oUnitRunner.ml" 409 12841 12849 "src/oUnitRunner.ml" 409 12841 12861
+)
+"src/oUnitRunner.ml" 437 13866 13899 "src/oUnitRunner.ml" 437 13866 13911
+type(
+  'h worker OUnitState.t -> 'h worker OUnitState.t
+)
+ident(
+  int_ref kill_timeout "src/oUnitRunner.ml" 395 12317 12325 "src/oUnitRunner.ml" 395 12317 12337
+)
+"src/oUnitRunner.ml" 437 13866 13912 "src/oUnitRunner.ml" 437 13866 13917
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 436 13831 13858 "src/oUnitRunner.ml" 436 13831 13863
+)
+"src/oUnitRunner.ml" 437 13866 13898 "src/oUnitRunner.ml" 437 13866 13918
+call(
+  stack
+)
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 437 13866 13884 "src/oUnitRunner.ml" 437 13866 13919
+call(
+  stack
+)
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 438 13923 13932 "src/oUnitRunner.ml" 438 13923 13943
+type(
+  'h worker OUnitState.t -> 'h worker list
+)
+ident(
+  ext_ref OUnitState.get_workers
+)
+"src/oUnitRunner.ml" 438 13923 13944 "src/oUnitRunner.ml" 438 13923 13949
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 437 13866 13876 "src/oUnitRunner.ml" 437 13866 13881
+)
+"src/oUnitRunner.ml" 438 13923 13932 "src/oUnitRunner.ml" 438 13923 13949
+call(
+  stack
+)
+type(
+  'h worker list
+)
+"src/oUnitRunner.ml" 438 13923 13950 "src/oUnitRunner.ml" 438 13923 13952
+type(
+  'h worker list -> 'h worker list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/oUnitRunner.ml" 438 13923 13953 "src/oUnitRunner.ml" 438 13923 13955
+type(
+  'h worker list
+)
+"src/oUnitRunner.ml" 438 13923 13932 "src/oUnitRunner.ml" 438 13923 13955
+type(
+  bool
+)
+"src/oUnitRunner.ml" 439 13967 13979 "src/oUnitRunner.ml" 439 13967 13998
+type(
+  'h worker list
+)
+ident(
+  def workers_waiting_lst "src/oUnitRunner.ml" 446 14262 14272 "src/oUnitRunner.ml" 450 14416 14447
+)
+"src/oUnitRunner.ml" 440 14001 14011 "src/oUnitRunner.ml" 440 14001 14016
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (int -> string -> unit, unit, string, unit) format4 ->
+  int -> string -> unit
+)
+ident(
+  ext_ref OUnitLogger.infof
+)
+"src/oUnitRunner.ml" 440 14001 14017 "src/oUnitRunner.ml" 440 14001 14023
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 440 14001 14024 "src/oUnitRunner.ml" 440 14001 14047
+type(
+  (int -> string -> unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 441 14048 14061 "src/oUnitRunner.ml" 441 14048 14080
+type(
+  'h worker OUnitState.t -> int
+)
+ident(
+  ext_ref OUnitState.count_tests_running
+)
+"src/oUnitRunner.ml" 441 14048 14081 "src/oUnitRunner.ml" 441 14048 14086
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 437 13866 13876 "src/oUnitRunner.ml" 437 13866 13881
+)
+"src/oUnitRunner.ml" 441 14048 14060 "src/oUnitRunner.ml" 441 14048 14087
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitRunner.ml" 442 14088 14101 "src/oUnitRunner.ml" 442 14088 14114
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/oUnitRunner.ml" 442 14088 14115 "src/oUnitRunner.ml" 442 14088 14119
+type(
+  string
+)
+"src/oUnitRunner.ml" 443 14120 14136 "src/oUnitRunner.ml" 443 14120 14144
+type(
+  (OUnitTest.path -> string) -> OUnitTest.path list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/oUnitRunner.ml" 443 14120 14145 "src/oUnitRunner.ml" 443 14120 14159
+type(
+  OUnitTest.path -> string
+)
+ident(
+  ext_ref OUnitTest.string_of_path
+)
+"src/oUnitRunner.ml" 443 14120 14161 "src/oUnitRunner.ml" 443 14120 14178
+type(
+  'h worker OUnitState.t -> OUnitTest.path list
+)
+ident(
+  ext_ref OUnitState.get_tests_running
+)
+"src/oUnitRunner.ml" 443 14120 14179 "src/oUnitRunner.ml" 443 14120 14184
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 437 13866 13876 "src/oUnitRunner.ml" 437 13866 13881
+)
+"src/oUnitRunner.ml" 443 14120 14160 "src/oUnitRunner.ml" 443 14120 14185
+call(
+  stack
+)
+type(
+  OUnitTest.path list
+)
+"src/oUnitRunner.ml" 443 14120 14135 "src/oUnitRunner.ml" 443 14120 14186
+call(
+  stack
+)
+type(
+  string list
+)
+"src/oUnitRunner.ml" 442 14088 14100 "src/oUnitRunner.ml" 443 14120 14187
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunner.ml" 440 14001 14011 "src/oUnitRunner.ml" 443 14120 14187
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 444 14189 14199 "src/oUnitRunner.ml" 444 14189 14214
+type(
+  'h worker list -> float -> 'h worker list
+)
+ident(
+  int_ref workers_waiting "src/oUnitRunner.ml" 312 9865 9887 "src/oUnitRunner.ml" 312 9865 9902
+)
+"src/oUnitRunner.ml" 444 14189 14216 "src/oUnitRunner.ml" 444 14189 14227
+type(
+  'h worker OUnitState.t -> 'h worker list
+)
+ident(
+  ext_ref OUnitState.get_workers
+)
+"src/oUnitRunner.ml" 444 14189 14228 "src/oUnitRunner.ml" 444 14189 14233
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 437 13866 13876 "src/oUnitRunner.ml" 437 13866 13881
+)
+"src/oUnitRunner.ml" 444 14189 14215 "src/oUnitRunner.ml" 444 14189 14234
+call(
+  stack
+)
+type(
+  'h worker list
+)
+"src/oUnitRunner.ml" 444 14189 14236 "src/oUnitRunner.ml" 444 14189 14243
+type(
+  'h worker OUnitState.t -> float
+)
+ident(
+  ext_ref OUnitState.timeout
+)
+"src/oUnitRunner.ml" 444 14189 14244 "src/oUnitRunner.ml" 444 14189 14249
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 437 13866 13876 "src/oUnitRunner.ml" 437 13866 13881
+)
+"src/oUnitRunner.ml" 444 14189 14235 "src/oUnitRunner.ml" 444 14189 14250
+call(
+  stack
+)
+type(
+  float
+)
+"src/oUnitRunner.ml" 444 14189 14199 "src/oUnitRunner.ml" 444 14189 14250
+call(
+  stack
+)
+type(
+  'h worker list
+)
+"src/oUnitRunner.ml" 440 14001 14011 "src/oUnitRunner.ml" 444 14189 14250
+type(
+  'h worker list
+)
+"src/oUnitRunner.ml" 446 14262 14272 "src/oUnitRunner.ml" 446 14262 14286
+type(
+  ('h worker OUnitState.t -> 'h worker -> 'h worker OUnitState.t) ->
+  'h worker OUnitState.t -> 'h worker list -> 'h worker OUnitState.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/oUnitRunner.ml" 447 14287 14304 "src/oUnitRunner.ml" 447 14287 14309
+type(
+  'h worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 447 14287 14310 "src/oUnitRunner.ml" 448 14320 14396
+)
+"src/oUnitRunner.ml" 447 14287 14310 "src/oUnitRunner.ml" 447 14287 14316
+type(
+  'h worker
+)
+ident(
+  def worker "src/oUnitRunner.ml" 448 14320 14335 "src/oUnitRunner.ml" 448 14320 14396
+)
+"src/oUnitRunner.ml" 448 14320 14335 "src/oUnitRunner.ml" 448 14320 14350
+type(
+  'h worker ->
+  message_from_worker -> 'h worker OUnitState.t -> 'h worker OUnitState.t
+)
+ident(
+  int_ref process_message "src/oUnitRunner.ml" 353 10978 10986 "src/oUnitRunner.ml" 353 10978 11001
+)
+"src/oUnitRunner.ml" 448 14320 14351 "src/oUnitRunner.ml" 448 14320 14357
+type(
+  'h worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 447 14287 14310 "src/oUnitRunner.ml" 447 14287 14316
+)
+"src/oUnitRunner.ml" 448 14320 14359 "src/oUnitRunner.ml" 448 14320 14365
+type(
+  'h worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 447 14287 14310 "src/oUnitRunner.ml" 447 14287 14316
+)
+"src/oUnitRunner.ml" 448 14320 14359 "src/oUnitRunner.ml" 448 14320 14373
+type(
+  (message_to_worker, message_from_worker) channel
+)
+"src/oUnitRunner.ml" 448 14320 14359 "src/oUnitRunner.ml" 448 14320 14386
+type(
+  unit -> message_from_worker
+)
+"src/oUnitRunner.ml" 448 14320 14387 "src/oUnitRunner.ml" 448 14320 14389
+type(
+  unit
+)
+"src/oUnitRunner.ml" 448 14320 14358 "src/oUnitRunner.ml" 448 14320 14390
+call(
+  stack
+)
+type(
+  message_from_worker
+)
+"src/oUnitRunner.ml" 448 14320 14391 "src/oUnitRunner.ml" 448 14320 14396
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 447 14287 14304 "src/oUnitRunner.ml" 447 14287 14309
+)
+"src/oUnitRunner.ml" 448 14320 14335 "src/oUnitRunner.ml" 448 14320 14396
+call(
+  tail
+)
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 447 14287 14299 "src/oUnitRunner.ml" 448 14320 14397
+type(
+  'h worker OUnitState.t -> 'h worker -> 'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 449 14398 14410 "src/oUnitRunner.ml" 449 14398 14415
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 437 13866 13876 "src/oUnitRunner.ml" 437 13866 13881
+)
+"src/oUnitRunner.ml" 450 14416 14428 "src/oUnitRunner.ml" 450 14416 14447
+type(
+  'h worker list
+)
+ident(
+  int_ref workers_waiting_lst "src/oUnitRunner.ml" 439 13967 13979 "src/oUnitRunner.ml" 439 13967 13998
+)
+"src/oUnitRunner.ml" 446 14262 14272 "src/oUnitRunner.ml" 450 14416 14447
+call(
+  tail
+)
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 438 13923 13961 "src/oUnitRunner.ml" 452 14449 14458
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 452 14449 14464 "src/oUnitRunner.ml" 454 14484 14493
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 437 13866 13876 "src/oUnitRunner.ml" 437 13866 13881
+)
+"src/oUnitRunner.ml" 438 13923 13929 "src/oUnitRunner.ml" 454 14484 14493
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 437 13866 13872 "src/oUnitRunner.ml" 454 14484 14493
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 458 14543 14555 "src/oUnitRunner.ml" 458 14543 14567
+type(
+  'h worker OUnitState.t -> 'h worker OUnitState.t
+)
+ident(
+  def wait_stopped "src/oUnitRunner.ml" 458 14543 14547 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 458 14543 14568 "src/oUnitRunner.ml" 458 14543 14573
+type(
+  'h worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 459 14576 14582 "src/oUnitRunner.ml" 462 14649 14692
+)
+"src/oUnitRunner.ml" 459 14576 14585 "src/oUnitRunner.ml" 459 14576 14607
+type(
+  'h worker OUnitState.t -> 'h worker list
+)
+ident(
+  ext_ref OUnitState.get_workers
+)
+"src/oUnitRunner.ml" 459 14576 14608 "src/oUnitRunner.ml" 459 14576 14613
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 458 14543 14568 "src/oUnitRunner.ml" 458 14543 14573
+)
+"src/oUnitRunner.ml" 459 14576 14585 "src/oUnitRunner.ml" 459 14576 14613
+call(
+  stack
+)
+type(
+  'h worker list
+)
+"src/oUnitRunner.ml" 459 14576 14614 "src/oUnitRunner.ml" 459 14576 14615
+type(
+  'h worker list -> 'h worker list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/oUnitRunner.ml" 459 14576 14616 "src/oUnitRunner.ml" 459 14576 14618
+type(
+  'h worker list
+)
+"src/oUnitRunner.ml" 459 14576 14585 "src/oUnitRunner.ml" 459 14576 14618
+type(
+  bool
+)
+"src/oUnitRunner.ml" 460 14624 14632 "src/oUnitRunner.ml" 460 14624 14637
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 458 14543 14568 "src/oUnitRunner.ml" 458 14543 14573
+)
+"src/oUnitRunner.ml" 462 14649 14657 "src/oUnitRunner.ml" 462 14649 14669
+type(
+  'h worker OUnitState.t -> 'h worker OUnitState.t
+)
+ident(
+  int_ref wait_stopped "src/oUnitRunner.ml" 458 14543 14555 "src/oUnitRunner.ml" 458 14543 14567
+)
+"src/oUnitRunner.ml" 462 14649 14671 "src/oUnitRunner.ml" 462 14649 14685
+type(
+  'h worker OUnitState.t -> 'h worker OUnitState.t
+)
+ident(
+  int_ref wait_test_done "src/oUnitRunner.ml" 436 13831 13843 "src/oUnitRunner.ml" 436 13831 13857
+)
+"src/oUnitRunner.ml" 462 14649 14686 "src/oUnitRunner.ml" 462 14649 14691
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 458 14543 14568 "src/oUnitRunner.ml" 458 14543 14573
+)
+"src/oUnitRunner.ml" 462 14649 14670 "src/oUnitRunner.ml" 462 14649 14692
+call(
+  stack
+)
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 462 14649 14657 "src/oUnitRunner.ml" 462 14649 14692
+call(
+  tail
+)
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 459 14576 14582 "src/oUnitRunner.ml" 462 14649 14692
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 465 14701 14713 "src/oUnitRunner.ml" 465 14701 14717
+type(
+  'h worker OUnitState.t -> OUnitTest.result_full list
+)
+ident(
+  def iter "src/oUnitRunner.ml" 465 14701 14705 "src/oUnitRunner.ml" 522 17048 17064
+)
+"src/oUnitRunner.ml" 465 14701 14718 "src/oUnitRunner.ml" 465 14701 14723
+type(
+  'h worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 466 14726 14732 "src/oUnitRunner.ml" 520 17025 17040
+)
+"src/oUnitRunner.ml" 466 14726 14738 "src/oUnitRunner.ml" 466 14726 14763
+type(
+  OUnitConf.conf ->
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  'h worker OUnitState.t ->
+  'h worker OUnitState.next_test_case_t * 'h worker OUnitState.t
+)
+ident(
+  ext_ref OUnitState.next_test_case
+)
+"src/oUnitRunner.ml" 466 14726 14764 "src/oUnitRunner.ml" 466 14726 14768
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunner.ml" 313 9903 9911 "src/oUnitRunner.ml" 313 9903 9915
+)
+"src/oUnitRunner.ml" 466 14726 14769 "src/oUnitRunner.ml" 466 14726 14775
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 466 14726 14776 "src/oUnitRunner.ml" 466 14726 14781
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 465 14701 14718 "src/oUnitRunner.ml" 465 14701 14723
+)
+"src/oUnitRunner.ml" 466 14726 14738 "src/oUnitRunner.ml" 466 14726 14781
+call(
+  stack
+)
+type(
+  'h worker OUnitState.next_test_case_t * 'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 467 14787 14797 "src/oUnitRunner.ml" 467 14787 14814
+type(
+  'h worker OUnitState.next_test_case_t
+)
+"src/oUnitRunner.ml" 467 14787 14816 "src/oUnitRunner.ml" 467 14787 14821
+type(
+  'h worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 468 14825 14837 "src/oUnitRunner.ml" 482 15470 15485
+)
+"src/oUnitRunner.ml" 467 14787 14797 "src/oUnitRunner.ml" 467 14787 14821
+type(
+  'h worker OUnitState.next_test_case_t * 'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 468 14825 14840 "src/oUnitRunner.ml" 468 14825 14863
+type(
+  'h worker OUnitState.t -> int
+)
+ident(
+  ext_ref OUnitState.count_worker
+)
+"src/oUnitRunner.ml" 468 14825 14864 "src/oUnitRunner.ml" 468 14825 14869
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 467 14787 14816 "src/oUnitRunner.ml" 467 14787 14821
+)
+"src/oUnitRunner.ml" 468 14825 14840 "src/oUnitRunner.ml" 468 14825 14869
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitRunner.ml" 468 14825 14870 "src/oUnitRunner.ml" 468 14825 14871
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/oUnitRunner.ml" 468 14825 14872 "src/oUnitRunner.ml" 468 14825 14878
+type(
+  int
+)
+ident(
+  int_ref shards "src/oUnitRunner.ml" 324 10200 10208 "src/oUnitRunner.ml" 324 10200 10214
+)
+"src/oUnitRunner.ml" 468 14825 14840 "src/oUnitRunner.ml" 468 14825 14878
+type(
+  bool
+)
+"src/oUnitRunner.ml" 470 14926 14944 "src/oUnitRunner.ml" 470 14926 14952
+type(
+  string
+)
+ident(
+  def shard_id "src/oUnitRunner.ml" 471 14988 15002 "src/oUnitRunner.ml" 479 15374 15400
+)
+"src/oUnitRunner.ml" 470 14926 14955 "src/oUnitRunner.ml" 470 14926 14972
+type(
+  int -> string
+)
+ident(
+  ext_ref OUnitUtils.shardf
+)
+"src/oUnitRunner.ml" 470 14926 14973 "src/oUnitRunner.ml" 470 14926 14974
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitRunner.ml" 470 14926 14974 "src/oUnitRunner.ml" 470 14926 14984
+type(
+  int ref
+)
+ident(
+  int_ref worker_idx "src/oUnitRunner.ml" 328 10291 10299 "src/oUnitRunner.ml" 328 10291 10309
+)
+"src/oUnitRunner.ml" 470 14926 14973 "src/oUnitRunner.ml" 470 14926 14984
+type(
+  int
+)
+"src/oUnitRunner.ml" 470 14926 14955 "src/oUnitRunner.ml" 470 14926 14984
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunner.ml" 471 14988 15006 "src/oUnitRunner.ml" 471 14988 15008
+type(
+  unit
+)
+"src/oUnitRunner.ml" 471 14988 15011 "src/oUnitRunner.ml" 471 14988 15016
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref OUnitLogger.infof
+)
+"src/oUnitRunner.ml" 471 14988 15017 "src/oUnitRunner.ml" 471 14988 15023
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 471 14988 15024 "src/oUnitRunner.ml" 471 14988 15052
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 471 14988 15053 "src/oUnitRunner.ml" 471 14988 15061
+type(
+  string
+)
+ident(
+  int_ref shard_id "src/oUnitRunner.ml" 470 14926 14944 "src/oUnitRunner.ml" 470 14926 14952
+)
+"src/oUnitRunner.ml" 471 14988 15011 "src/oUnitRunner.ml" 471 14988 15061
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 472 15065 15083 "src/oUnitRunner.ml" 472 15065 15089
+type(
+  'h worker
+)
+ident(
+  def worker "src/oUnitRunner.ml" 476 15212 15226 "src/oUnitRunner.ml" 479 15374 15400
+)
+"src/oUnitRunner.ml" 473 15092 15108 "src/oUnitRunner.ml" 473 15092 15121
+type(
+  OUnitConf.conf ->
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t ->
+  string -> string -> bool -> 'h worker
+)
+ident(
+  int_ref create_worker "src/oUnitRunner.ml" 312 9865 9873 "src/oUnitRunner.ml" 312 9865 9886
+)
+"src/oUnitRunner.ml" 474 15122 15140 "src/oUnitRunner.ml" 474 15122 15144
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunner.ml" 313 9903 9911 "src/oUnitRunner.ml" 313 9903 9915
+)
+"src/oUnitRunner.ml" 474 15122 15145 "src/oUnitRunner.ml" 474 15122 15159
+type(
+  (MapPath.key * OUnitTest.test_length * OUnitTest.test_fun) MapPath.t
+)
+ident(
+  int_ref map_test_cases "src/oUnitRunner.ml" 314 9944 9952 "src/oUnitRunner.ml" 314 9944 9966
+)
+"src/oUnitRunner.ml" 474 15122 15160 "src/oUnitRunner.ml" 474 15122 15168
+type(
+  string
+)
+ident(
+  int_ref shard_id "src/oUnitRunner.ml" 470 14926 14944 "src/oUnitRunner.ml" 470 14926 14952
+)
+"src/oUnitRunner.ml" 474 15122 15169 "src/oUnitRunner.ml" 474 15122 15178
+type(
+  string
+)
+ident(
+  int_ref master_id "src/oUnitRunner.ml" 326 10241 10249 "src/oUnitRunner.ml" 326 10241 10258
+)
+"src/oUnitRunner.ml" 474 15122 15179 "src/oUnitRunner.ml" 474 15122 15194
+type(
+  bool
+)
+ident(
+  int_ref worker_log_file "src/oUnitRunner.ml" 339 10582 10590 "src/oUnitRunner.ml" 339 10582 10605
+)
+"src/oUnitRunner.ml" 473 15092 15108 "src/oUnitRunner.ml" 474 15122 15194
+call(
+  stack
+)
+type(
+  'h worker
+)
+"src/oUnitRunner.ml" 476 15212 15230 "src/oUnitRunner.ml" 476 15212 15232
+type(
+  unit
+)
+"src/oUnitRunner.ml" 476 15212 15235 "src/oUnitRunner.ml" 476 15212 15240
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref OUnitLogger.infof
+)
+"src/oUnitRunner.ml" 476 15212 15241 "src/oUnitRunner.ml" 476 15212 15247
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 476 15212 15248 "src/oUnitRunner.ml" 476 15212 15268
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 476 15212 15269 "src/oUnitRunner.ml" 476 15212 15275
+type(
+  'h worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 472 15065 15083 "src/oUnitRunner.ml" 472 15065 15089
+)
+"src/oUnitRunner.ml" 476 15212 15269 "src/oUnitRunner.ml" 476 15212 15284
+type(
+  string
+)
+"src/oUnitRunner.ml" 476 15212 15235 "src/oUnitRunner.ml" 476 15212 15284
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 477 15288 15306 "src/oUnitRunner.ml" 477 15288 15311
+type(
+  'h worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 478 15341 15357 "src/oUnitRunner.ml" 479 15374 15400
+)
+"src/oUnitRunner.ml" 477 15288 15314 "src/oUnitRunner.ml" 477 15288 15324
+type(
+  'h worker -> 'h worker OUnitState.t -> 'h worker OUnitState.t
+)
+ident(
+  ext_ref OUnitState.add_worker
+)
+"src/oUnitRunner.ml" 477 15288 15325 "src/oUnitRunner.ml" 477 15288 15331
+type(
+  'h worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 472 15065 15083 "src/oUnitRunner.ml" 472 15065 15089
+)
+"src/oUnitRunner.ml" 477 15288 15332 "src/oUnitRunner.ml" 477 15288 15337
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 467 14787 14816 "src/oUnitRunner.ml" 467 14787 14821
+)
+"src/oUnitRunner.ml" 477 15288 15314 "src/oUnitRunner.ml" 477 15288 15337
+call(
+  stack
+)
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 478 15341 15357 "src/oUnitRunner.ml" 478 15341 15361
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/oUnitRunner.ml" 478 15341 15362 "src/oUnitRunner.ml" 478 15341 15372
+type(
+  int ref
+)
+ident(
+  int_ref worker_idx "src/oUnitRunner.ml" 328 10291 10299 "src/oUnitRunner.ml" 328 10291 10309
+)
+"src/oUnitRunner.ml" 478 15341 15357 "src/oUnitRunner.ml" 478 15341 15372
+type(
+  unit
+)
+"src/oUnitRunner.ml" 479 15374 15390 "src/oUnitRunner.ml" 479 15374 15394
+type(
+  'h worker OUnitState.t -> OUnitTest.result_full list
+)
+ident(
+  int_ref iter "src/oUnitRunner.ml" 465 14701 14713 "src/oUnitRunner.ml" 465 14701 14717
+)
+"src/oUnitRunner.ml" 479 15374 15395 "src/oUnitRunner.ml" 479 15374 15400
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 477 15288 15306 "src/oUnitRunner.ml" 477 15288 15311
+)
+"src/oUnitRunner.ml" 479 15374 15390 "src/oUnitRunner.ml" 479 15374 15400
+call(
+  tail
+)
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 478 15341 15357 "src/oUnitRunner.ml" 479 15374 15400
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 477 15288 15302 "src/oUnitRunner.ml" 479 15374 15400
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 476 15212 15226 "src/oUnitRunner.ml" 479 15374 15400
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 472 15065 15079 "src/oUnitRunner.ml" 479 15374 15400
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 471 14988 15002 "src/oUnitRunner.ml" 479 15374 15400
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 468 14825 14884 "src/oUnitRunner.ml" 480 15401 15416
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 481 15428 15442 "src/oUnitRunner.ml" 481 15428 15446
+type(
+  'h worker OUnitState.t -> OUnitTest.result_full list
+)
+ident(
+  int_ref iter "src/oUnitRunner.ml" 465 14701 14713 "src/oUnitRunner.ml" 465 14701 14717
+)
+"src/oUnitRunner.ml" 481 15428 15448 "src/oUnitRunner.ml" 481 15428 15462
+type(
+  'h worker OUnitState.t -> 'h worker OUnitState.t
+)
+ident(
+  int_ref wait_test_done "src/oUnitRunner.ml" 436 13831 13843 "src/oUnitRunner.ml" 436 13831 13857
+)
+"src/oUnitRunner.ml" 481 15428 15463 "src/oUnitRunner.ml" 481 15428 15468
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 467 14787 14816 "src/oUnitRunner.ml" 467 14787 14821
+)
+"src/oUnitRunner.ml" 481 15428 15447 "src/oUnitRunner.ml" 481 15428 15469
+call(
+  stack
+)
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 480 15401 15422 "src/oUnitRunner.ml" 482 15470 15485
+call(
+  tail
+)
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 468 14825 14837 "src/oUnitRunner.ml" 482 15470 15485
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 484 15487 15497 "src/oUnitRunner.ml" 484 15487 15506
+type(
+  'h worker OUnitState.next_test_case_t
+)
+"src/oUnitRunner.ml" 484 15487 15508 "src/oUnitRunner.ml" 484 15487 15513
+type(
+  'h worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 485 15517 15529 "src/oUnitRunner.ml" 485 15517 15556
+)
+"src/oUnitRunner.ml" 484 15487 15497 "src/oUnitRunner.ml" 484 15487 15513
+type(
+  'h worker OUnitState.next_test_case_t * 'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 485 15517 15529 "src/oUnitRunner.ml" 485 15517 15533
+type(
+  'h worker OUnitState.t -> OUnitTest.result_full list
+)
+ident(
+  int_ref iter "src/oUnitRunner.ml" 465 14701 14713 "src/oUnitRunner.ml" 465 14701 14717
+)
+"src/oUnitRunner.ml" 485 15517 15535 "src/oUnitRunner.ml" 485 15517 15549
+type(
+  'h worker OUnitState.t -> 'h worker OUnitState.t
+)
+ident(
+  int_ref wait_test_done "src/oUnitRunner.ml" 436 13831 13843 "src/oUnitRunner.ml" 436 13831 13857
+)
+"src/oUnitRunner.ml" 485 15517 15550 "src/oUnitRunner.ml" 485 15517 15555
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 484 15487 15508 "src/oUnitRunner.ml" 484 15487 15513
+)
+"src/oUnitRunner.ml" 485 15517 15534 "src/oUnitRunner.ml" 485 15517 15556
+call(
+  stack
+)
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 485 15517 15529 "src/oUnitRunner.ml" 485 15517 15556
+call(
+  tail
+)
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 487 15558 15584 "src/oUnitRunner.ml" 487 15558 15593
+type(
+  OUnitTest.path
+)
+ident(
+  def test_path "src/oUnitRunner.ml" 488 15616 15628 "src/oUnitRunner.ml" 490 15725 15747
+)
+"src/oUnitRunner.ml" 487 15558 15595 "src/oUnitRunner.ml" 487 15558 15596
+type(
+  OUnitTest.test_fun
+)
+"src/oUnitRunner.ml" 487 15558 15598 "src/oUnitRunner.ml" 487 15558 15604
+type(
+  'h worker
+)
+ident(
+  def worker "src/oUnitRunner.ml" 488 15616 15628 "src/oUnitRunner.ml" 490 15725 15747
+)
+"src/oUnitRunner.ml" 487 15558 15568 "src/oUnitRunner.ml" 487 15558 15605
+type(
+  'h worker OUnitState.next_test_case_t
+)
+"src/oUnitRunner.ml" 487 15558 15607 "src/oUnitRunner.ml" 487 15558 15612
+type(
+  'h worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 488 15616 15628 "src/oUnitRunner.ml" 490 15725 15747
+)
+"src/oUnitRunner.ml" 487 15558 15568 "src/oUnitRunner.ml" 487 15558 15612
+type(
+  'h worker OUnitState.next_test_case_t * 'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 488 15616 15628 "src/oUnitRunner.ml" 488 15616 15649
+type(
+  string -> unit
+)
+ident(
+  int_ref incr_tests_per_worker "src/oUnitRunner.ml" 330 10322 10347 "src/oUnitRunner.ml" 330 10322 10368
+)
+"src/oUnitRunner.ml" 488 15616 15650 "src/oUnitRunner.ml" 488 15616 15656
+type(
+  'h worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 487 15558 15598 "src/oUnitRunner.ml" 487 15558 15604
+)
+"src/oUnitRunner.ml" 488 15616 15650 "src/oUnitRunner.ml" 488 15616 15665
+type(
+  string
+)
+"src/oUnitRunner.ml" 488 15616 15628 "src/oUnitRunner.ml" 488 15616 15665
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 489 15667 15679 "src/oUnitRunner.ml" 489 15667 15685
+type(
+  'h worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 487 15558 15598 "src/oUnitRunner.ml" 487 15558 15604
+)
+"src/oUnitRunner.ml" 489 15667 15679 "src/oUnitRunner.ml" 489 15667 15693
+type(
+  (message_to_worker, message_from_worker) channel
+)
+"src/oUnitRunner.ml" 489 15667 15679 "src/oUnitRunner.ml" 489 15667 15703
+type(
+  message_to_worker -> unit
+)
+"src/oUnitRunner.ml" 489 15667 15713 "src/oUnitRunner.ml" 489 15667 15722
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref test_path "src/oUnitRunner.ml" 487 15558 15584 "src/oUnitRunner.ml" 487 15558 15593
+)
+"src/oUnitRunner.ml" 489 15667 15704 "src/oUnitRunner.ml" 489 15667 15723
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 489 15667 15679 "src/oUnitRunner.ml" 489 15667 15723
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 490 15725 15737 "src/oUnitRunner.ml" 490 15725 15741
+type(
+  'h worker OUnitState.t -> OUnitTest.result_full list
+)
+ident(
+  int_ref iter "src/oUnitRunner.ml" 465 14701 14713 "src/oUnitRunner.ml" 465 14701 14717
+)
+"src/oUnitRunner.ml" 490 15725 15742 "src/oUnitRunner.ml" 490 15725 15747
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 487 15558 15607 "src/oUnitRunner.ml" 487 15558 15612
+)
+"src/oUnitRunner.ml" 490 15725 15737 "src/oUnitRunner.ml" 490 15725 15747
+call(
+  tail
+)
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 489 15667 15679 "src/oUnitRunner.ml" 490 15725 15747
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 488 15616 15628 "src/oUnitRunner.ml" 490 15725 15747
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 492 15749 15759 "src/oUnitRunner.ml" 492 15749 15767
+type(
+  'h worker OUnitState.next_test_case_t
+)
+"src/oUnitRunner.ml" 492 15749 15769 "src/oUnitRunner.ml" 492 15749 15774
+type(
+  'h worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 493 15778 15790 "src/oUnitRunner.ml" 520 17025 17040
+)
+"src/oUnitRunner.ml" 492 15749 15759 "src/oUnitRunner.ml" 492 15749 15774
+type(
+  'h worker OUnitState.next_test_case_t * 'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 493 15778 15794 "src/oUnitRunner.ml" 493 15778 15813
+type(
+  int
+)
+ident(
+  def count_tests_running "src/oUnitRunner.ml" 494 15856 15868 "src/oUnitRunner.ml" 520 17025 17040
+)
+"src/oUnitRunner.ml" 493 15778 15816 "src/oUnitRunner.ml" 493 15778 15846
+type(
+  'h worker OUnitState.t -> int
+)
+ident(
+  ext_ref OUnitState.count_tests_running
+)
+"src/oUnitRunner.ml" 493 15778 15847 "src/oUnitRunner.ml" 493 15778 15852
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 492 15749 15769 "src/oUnitRunner.ml" 492 15749 15774
+)
+"src/oUnitRunner.ml" 493 15778 15816 "src/oUnitRunner.ml" 493 15778 15852
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitRunner.ml" 494 15856 15871 "src/oUnitRunner.ml" 494 15856 15890
+type(
+  int
+)
+ident(
+  int_ref count_tests_running "src/oUnitRunner.ml" 493 15778 15794 "src/oUnitRunner.ml" 493 15778 15813
+)
+"src/oUnitRunner.ml" 494 15856 15891 "src/oUnitRunner.ml" 494 15856 15892
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/oUnitRunner.ml" 494 15856 15893 "src/oUnitRunner.ml" 494 15856 15894
+type(
+  int
+)
+"src/oUnitRunner.ml" 494 15856 15871 "src/oUnitRunner.ml" 494 15856 15894
+type(
+  bool
+)
+"src/oUnitRunner.ml" 495 15906 15924 "src/oUnitRunner.ml" 495 15906 15929
+type(
+  'h worker OUnitState.t
+)
+ident(
+  def state "src/oUnitRunner.ml" 501 16128 16146 "src/oUnitRunner.ml" 513 16700 16746
+)
+"src/oUnitRunner.ml" 496 15932 15948 "src/oUnitRunner.ml" 496 15932 15957
+type(
+  ('h worker -> unit) -> 'h worker list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitRunner.ml" 497 15958 15981 "src/oUnitRunner.ml" 497 15958 15987
+type(
+  'h worker
+)
+ident(
+  def worker "src/oUnitRunner.ml" 497 15958 15991 "src/oUnitRunner.ml" 497 15958 16020
+)
+"src/oUnitRunner.ml" 497 15958 15991 "src/oUnitRunner.ml" 497 15958 15997
+type(
+  'h worker
+)
+ident(
+  int_ref worker "src/oUnitRunner.ml" 497 15958 15981 "src/oUnitRunner.ml" 497 15958 15987
+)
+"src/oUnitRunner.ml" 497 15958 15991 "src/oUnitRunner.ml" 497 15958 16005
+type(
+  (message_to_worker, message_from_worker) channel
+)
+"src/oUnitRunner.ml" 497 15958 15991 "src/oUnitRunner.ml" 497 15958 16015
+type(
+  message_to_worker -> unit
+)
+"src/oUnitRunner.ml" 497 15958 16016 "src/oUnitRunner.ml" 497 15958 16020
+type(
+  message_to_worker
+)
+"src/oUnitRunner.ml" 497 15958 15991 "src/oUnitRunner.ml" 497 15958 16020
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 497 15958 15976 "src/oUnitRunner.ml" 497 15958 16021
+type(
+  'h worker -> unit
+)
+"src/oUnitRunner.ml" 498 16022 16041 "src/oUnitRunner.ml" 498 16022 16063
+type(
+  'h worker OUnitState.t -> 'h worker list
+)
+ident(
+  ext_ref OUnitState.get_workers
+)
+"src/oUnitRunner.ml" 498 16022 16064 "src/oUnitRunner.ml" 498 16022 16069
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 492 15749 15769 "src/oUnitRunner.ml" 492 15749 15774
+)
+"src/oUnitRunner.ml" 498 16022 16040 "src/oUnitRunner.ml" 498 16022 16070
+call(
+  stack
+)
+type(
+  'h worker list
+)
+"src/oUnitRunner.ml" 496 15932 15948 "src/oUnitRunner.ml" 498 16022 16070
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 499 16072 16090 "src/oUnitRunner.ml" 499 16072 16102
+type(
+  'h worker OUnitState.t -> 'h worker OUnitState.t
+)
+ident(
+  int_ref wait_stopped "src/oUnitRunner.ml" 458 14543 14555 "src/oUnitRunner.ml" 458 14543 14567
+)
+"src/oUnitRunner.ml" 499 16072 16103 "src/oUnitRunner.ml" 499 16072 16108
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 492 15749 15769 "src/oUnitRunner.ml" 492 15749 15774
+)
+"src/oUnitRunner.ml" 499 16072 16090 "src/oUnitRunner.ml" 499 16072 16108
+call(
+  stack
+)
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 496 15932 15948 "src/oUnitRunner.ml" 499 16072 16108
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 501 16128 16146 "src/oUnitRunner.ml" 501 16128 16151
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (int -> unit, unit, string, unit) format4 -> int -> unit
+)
+ident(
+  ext_ref OUnitLogger.infof
+)
+"src/oUnitRunner.ml" 501 16128 16152 "src/oUnitRunner.ml" 501 16128 16158
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 501 16128 16159 "src/oUnitRunner.ml" 501 16128 16198
+type(
+  (int -> unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 502 16199 16220 "src/oUnitRunner.ml" 502 16199 16221
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitRunner.ml" 502 16199 16221 "src/oUnitRunner.ml" 502 16199 16231
+type(
+  int ref
+)
+ident(
+  int_ref worker_idx "src/oUnitRunner.ml" 328 10291 10299 "src/oUnitRunner.ml" 328 10291 10309
+)
+"src/oUnitRunner.ml" 502 16199 16220 "src/oUnitRunner.ml" 502 16199 16231
+type(
+  int
+)
+"src/oUnitRunner.ml" 502 16199 16232 "src/oUnitRunner.ml" 502 16199 16233
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/oUnitRunner.ml" 502 16199 16234 "src/oUnitRunner.ml" 502 16199 16235
+type(
+  int
+)
+"src/oUnitRunner.ml" 502 16199 16219 "src/oUnitRunner.ml" 502 16199 16236
+type(
+  int
+)
+"src/oUnitRunner.ml" 501 16128 16146 "src/oUnitRunner.ml" 502 16199 16236
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 503 16238 16256 "src/oUnitRunner.ml" 503 16238 16265
+type(
+  (string * int -> unit) -> (string * int) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitRunner.ml" 504 16266 16292 "src/oUnitRunner.ml" 504 16266 16300
+type(
+  string
+)
+ident(
+  def shard_id "src/oUnitRunner.ml" 505 16312 16335 "src/oUnitRunner.ml" 506 16378 16417
+)
+"src/oUnitRunner.ml" 504 16266 16302 "src/oUnitRunner.ml" 504 16266 16307
+type(
+  int
+)
+ident(
+  def count "src/oUnitRunner.ml" 505 16312 16335 "src/oUnitRunner.ml" 506 16378 16417
+)
+"src/oUnitRunner.ml" 504 16266 16291 "src/oUnitRunner.ml" 504 16266 16308
+type(
+  string * int
+)
+"src/oUnitRunner.ml" 505 16312 16335 "src/oUnitRunner.ml" 505 16312 16340
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (int -> string -> unit, unit, string, unit) format4 ->
+  int -> string -> unit
+)
+ident(
+  ext_ref OUnitLogger.infof
+)
+"src/oUnitRunner.ml" 505 16312 16341 "src/oUnitRunner.ml" 505 16312 16347
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 505 16312 16348 "src/oUnitRunner.ml" 505 16312 16377
+type(
+  (int -> string -> unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 506 16378 16403 "src/oUnitRunner.ml" 506 16378 16408
+type(
+  int
+)
+ident(
+  int_ref count "src/oUnitRunner.ml" 504 16266 16302 "src/oUnitRunner.ml" 504 16266 16307
+)
+"src/oUnitRunner.ml" 506 16378 16409 "src/oUnitRunner.ml" 506 16378 16417
+type(
+  string
+)
+ident(
+  int_ref shard_id "src/oUnitRunner.ml" 504 16266 16292 "src/oUnitRunner.ml" 504 16266 16300
+)
+"src/oUnitRunner.ml" 505 16312 16335 "src/oUnitRunner.ml" 506 16378 16417
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 504 16266 16286 "src/oUnitRunner.ml" 506 16378 16418
+type(
+  string * int -> unit
+)
+"src/oUnitRunner.ml" 507 16419 16440 "src/oUnitRunner.ml" 507 16419 16455
+type(
+  unit -> (string * int) list
+)
+ident(
+  int_ref test_per_worker "src/oUnitRunner.ml" 330 10322 10330 "src/oUnitRunner.ml" 330 10322 10345
+)
+"src/oUnitRunner.ml" 507 16419 16456 "src/oUnitRunner.ml" 507 16419 16458
+type(
+  unit
+)
+"src/oUnitRunner.ml" 507 16419 16439 "src/oUnitRunner.ml" 507 16419 16459
+call(
+  stack
+)
+type(
+  (string * int) list
+)
+"src/oUnitRunner.ml" 503 16238 16256 "src/oUnitRunner.ml" 507 16419 16459
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 508 16461 16479 "src/oUnitRunner.ml" 508 16461 16488
+type(
+  (string * int -> unit) -> (string * int) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitRunner.ml" 509 16489 16515 "src/oUnitRunner.ml" 509 16489 16523
+type(
+  string
+)
+ident(
+  def shard_id "src/oUnitRunner.ml" 510 16535 16558 "src/oUnitRunner.ml" 511 16609 16648
+)
+"src/oUnitRunner.ml" 509 16489 16525 "src/oUnitRunner.ml" 509 16489 16530
+type(
+  int
+)
+ident(
+  def count "src/oUnitRunner.ml" 510 16535 16558 "src/oUnitRunner.ml" 511 16609 16648
+)
+"src/oUnitRunner.ml" 509 16489 16514 "src/oUnitRunner.ml" 509 16489 16531
+type(
+  string * int
+)
+"src/oUnitRunner.ml" 510 16535 16558 "src/oUnitRunner.ml" 510 16535 16563
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (string -> int -> unit, unit, string, unit) format4 ->
+  string -> int -> unit
+)
+ident(
+  ext_ref OUnitLogger.infof
+)
+"src/oUnitRunner.ml" 510 16535 16564 "src/oUnitRunner.ml" 510 16535 16570
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 510 16535 16571 "src/oUnitRunner.ml" 510 16535 16608
+type(
+  (string -> int -> unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 511 16609 16634 "src/oUnitRunner.ml" 511 16609 16642
+type(
+  string
+)
+ident(
+  int_ref shard_id "src/oUnitRunner.ml" 509 16489 16515 "src/oUnitRunner.ml" 509 16489 16523
+)
+"src/oUnitRunner.ml" 511 16609 16643 "src/oUnitRunner.ml" 511 16609 16648
+type(
+  int
+)
+ident(
+  int_ref count "src/oUnitRunner.ml" 509 16489 16525 "src/oUnitRunner.ml" 509 16489 16530
+)
+"src/oUnitRunner.ml" 510 16535 16558 "src/oUnitRunner.ml" 511 16609 16648
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 509 16489 16509 "src/oUnitRunner.ml" 511 16609 16649
+type(
+  string * int -> unit
+)
+"src/oUnitRunner.ml" 512 16650 16671 "src/oUnitRunner.ml" 512 16650 16694
+type(
+  unit -> (string * int) list
+)
+ident(
+  int_ref health_check_per_worker "src/oUnitRunner.ml" 333 10411 10419 "src/oUnitRunner.ml" 333 10411 10442
+)
+"src/oUnitRunner.ml" 512 16650 16695 "src/oUnitRunner.ml" 512 16650 16697
+type(
+  unit
+)
+"src/oUnitRunner.ml" 512 16650 16670 "src/oUnitRunner.ml" 512 16650 16698
+call(
+  stack
+)
+type(
+  (string * int) list
+)
+"src/oUnitRunner.ml" 508 16461 16479 "src/oUnitRunner.ml" 512 16650 16698
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 513 16700 16718 "src/oUnitRunner.ml" 513 16700 16740
+type(
+  'h worker OUnitState.t -> OUnitTest.result_full list
+)
+ident(
+  ext_ref OUnitState.get_results
+)
+"src/oUnitRunner.ml" 513 16700 16741 "src/oUnitRunner.ml" 513 16700 16746
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 495 15906 15924 "src/oUnitRunner.ml" 495 15906 15929
+)
+"src/oUnitRunner.ml" 513 16700 16718 "src/oUnitRunner.ml" 513 16700 16746
+call(
+  tail
+)
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 508 16461 16479 "src/oUnitRunner.ml" 513 16700 16746
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 503 16238 16256 "src/oUnitRunner.ml" 513 16700 16746
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 501 16128 16146 "src/oUnitRunner.ml" 513 16700 16746
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 494 15856 15900 "src/oUnitRunner.ml" 514 16747 16762
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 515 16774 16788 "src/oUnitRunner.ml" 515 16774 16793
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger ->
+  (int -> string -> unit, unit, string, unit) format4 ->
+  int -> string -> unit
+)
+ident(
+  ext_ref OUnitLogger.infof
+)
+"src/oUnitRunner.ml" 515 16774 16794 "src/oUnitRunner.ml" 515 16774 16800
+type(
+  (OUnitTest.path, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  int_ref logger "src/oUnitRunner.ml" 313 9903 9916 "src/oUnitRunner.ml" 313 9903 9922
+)
+"src/oUnitRunner.ml" 515 16774 16801 "src/oUnitRunner.ml" 515 16774 16831
+type(
+  (int -> string -> unit, unit, string, unit) format4
+)
+"src/oUnitRunner.ml" 515 16774 16832 "src/oUnitRunner.ml" 515 16774 16851
+type(
+  int
+)
+ident(
+  int_ref count_tests_running "src/oUnitRunner.ml" 493 15778 15794 "src/oUnitRunner.ml" 493 15778 15813
+)
+"src/oUnitRunner.ml" 516 16852 16869 "src/oUnitRunner.ml" 516 16852 16882
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/oUnitRunner.ml" 516 16852 16883 "src/oUnitRunner.ml" 516 16852 16887
+type(
+  string
+)
+"src/oUnitRunner.ml" 517 16888 16908 "src/oUnitRunner.ml" 517 16888 16916
+type(
+  (OUnitTest.path -> string) -> OUnitTest.path list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/oUnitRunner.ml" 517 16888 16917 "src/oUnitRunner.ml" 517 16888 16931
+type(
+  OUnitTest.path -> string
+)
+ident(
+  ext_ref OUnitTest.string_of_path
+)
+"src/oUnitRunner.ml" 518 16932 16955 "src/oUnitRunner.ml" 518 16932 16972
+type(
+  'h worker OUnitState.t -> OUnitTest.path list
+)
+ident(
+  ext_ref OUnitState.get_tests_running
+)
+"src/oUnitRunner.ml" 518 16932 16973 "src/oUnitRunner.ml" 518 16932 16978
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 492 15749 15769 "src/oUnitRunner.ml" 492 15749 15774
+)
+"src/oUnitRunner.ml" 518 16932 16954 "src/oUnitRunner.ml" 518 16932 16979
+call(
+  stack
+)
+type(
+  OUnitTest.path list
+)
+"src/oUnitRunner.ml" 517 16888 16907 "src/oUnitRunner.ml" 518 16932 16980
+call(
+  stack
+)
+type(
+  string list
+)
+"src/oUnitRunner.ml" 516 16852 16868 "src/oUnitRunner.ml" 518 16932 16981
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunner.ml" 515 16774 16788 "src/oUnitRunner.ml" 518 16932 16981
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunner.ml" 519 16983 16997 "src/oUnitRunner.ml" 519 16983 17001
+type(
+  'h worker OUnitState.t -> OUnitTest.result_full list
+)
+ident(
+  int_ref iter "src/oUnitRunner.ml" 465 14701 14713 "src/oUnitRunner.ml" 465 14701 14717
+)
+"src/oUnitRunner.ml" 519 16983 17003 "src/oUnitRunner.ml" 519 16983 17017
+type(
+  'h worker OUnitState.t -> 'h worker OUnitState.t
+)
+ident(
+  int_ref wait_test_done "src/oUnitRunner.ml" 436 13831 13843 "src/oUnitRunner.ml" 436 13831 13857
+)
+"src/oUnitRunner.ml" 519 16983 17018 "src/oUnitRunner.ml" 519 16983 17023
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 492 15749 15769 "src/oUnitRunner.ml" 492 15749 15774
+)
+"src/oUnitRunner.ml" 519 16983 17002 "src/oUnitRunner.ml" 519 16983 17024
+call(
+  stack
+)
+type(
+  'h worker OUnitState.t
+)
+"src/oUnitRunner.ml" 519 16983 16997 "src/oUnitRunner.ml" 519 16983 17024
+call(
+  tail
+)
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 514 16747 16768 "src/oUnitRunner.ml" 520 17025 17040
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 494 15856 15868 "src/oUnitRunner.ml" 520 17025 17040
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 493 15778 15790 "src/oUnitRunner.ml" 520 17025 17040
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 466 14726 14732 "src/oUnitRunner.ml" 520 17025 17040
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 522 17048 17054 "src/oUnitRunner.ml" 522 17048 17058
+type(
+  'h worker OUnitState.t -> OUnitTest.result_full list
+)
+ident(
+  int_ref iter "src/oUnitRunner.ml" 465 14701 14713 "src/oUnitRunner.ml" 465 14701 14717
+)
+"src/oUnitRunner.ml" 522 17048 17059 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  'h worker OUnitState.t
+)
+ident(
+  int_ref state "src/oUnitRunner.ml" 322 10138 10146 "src/oUnitRunner.ml" 322 10138 10151
+)
+"src/oUnitRunner.ml" 522 17048 17054 "src/oUnitRunner.ml" 522 17048 17064
+call(
+  tail
+)
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 465 14701 14705 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 458 14543 14547 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 436 13831 13835 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 409 12841 12845 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 395 12317 12321 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 383 11891 11895 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 353 10978 10982 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 350 10871 10875 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 339 10582 10586 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 337 10516 10520 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 333 10411 10415 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 330 10322 10326 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 328 10291 10295 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 326 10241 10245 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 324 10200 10204 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 322 10138 10142 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)
+"src/oUnitRunner.ml" 314 9944 9948 "src/oUnitRunner.ml" 522 17048 17064
+type(
+  OUnitTest.result_full list
+)

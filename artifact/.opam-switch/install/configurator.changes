@@ -1,0 +1,19 @@
+added: [
+  "doc/configurator" {"D"}
+  "doc/configurator/LICENSE.txt" {"F:S11358T1560961134.45"}
+  "doc/configurator/README.org" {"F:S769T1560961134.47"}
+  "lib/configurator" {"D"}
+  "lib/configurator/META" {"F:S210T1560961134.16"}
+  "lib/configurator/configurator.a" {"F:S113188T1560961134.18"}
+  "lib/configurator/configurator.cma" {"F:S80190T1560961134.21"}
+  "lib/configurator/configurator.cmi" {"F:S7645T1560961134.23"}
+  "lib/configurator/configurator.cmt" {"F:S224575T1560961134.26"}
+  "lib/configurator/configurator.cmti" {"F:S28346T1560961134.28"}
+  "lib/configurator/configurator.cmx" {"F:S8877T1560961134.3"}
+  "lib/configurator/configurator.cmxa" {"F:S5544T1560961134.32"}
+  "lib/configurator/configurator.cmxs" {"F:S124576T1560961134.34"}
+  "lib/configurator/configurator.ml" {"F:S14306T1560961134.36"}
+  "lib/configurator/configurator.mli" {"F:S2650T1560961134.38"}
+  "lib/configurator/dune-package" {"F:S525T1560961134.41"}
+  "lib/configurator/opam" {"F:S939T1560961134.43"}
+]

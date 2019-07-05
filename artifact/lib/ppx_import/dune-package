@@ -1,0 +1,29 @@
+(lang dune 1.10)
+(name ppx_import)
+(version 1.6.2)
+(library
+ (name ppx_import)
+ (kind ppx_rewriter)
+ (archives (byte ppx_import.cma) (native ppx_import.cmxa))
+ (plugins (byte ppx_import.cma) (native ppx_import.cmxs))
+ (foreign_archives (native ppx_import.a))
+ (requires
+  ppx_tools_versioned
+  ppx_tools_versioned.metaquot_406
+  ocaml-migrate-parsetree)
+ (main_module_name Ppx_import)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Ppx_import__)
+   (obj_name ppx_import__)
+   (visibility public)
+   (impl))
+  (main_module_name Ppx_import)
+  (modules
+   ((name Ppx_import) (obj_name ppx_import) (visibility public) (impl))
+   ((name Ppx_types_migrate)
+    (obj_name ppx_import__Ppx_types_migrate)
+    (visibility public)
+    (impl)))
+  (wrapped true)))

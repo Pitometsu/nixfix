@@ -1,0 +1,17 @@
+added: [
+  "doc/variantslib" {"D"}
+  "doc/variantslib/CHANGES.md" {"F:S63T1560961234.91"}
+  "doc/variantslib/LICENSE.txt" {"F:S11358T1560961234.95"}
+  "lib/variantslib" {"D"}
+  "lib/variantslib/META" {"F:S195T1560961234.57"}
+  "lib/variantslib/dune-package" {"F:S480T1560961234.6"}
+  "lib/variantslib/opam" {"F:S856T1560961234.62"}
+  "lib/variantslib/variantslib.a" {"F:S3590T1560961234.66"}
+  "lib/variantslib/variantslib.cma" {"F:S6133T1560961234.69"}
+  "lib/variantslib/variantslib.cmi" {"F:S4608T1560961234.71"}
+  "lib/variantslib/variantslib.cmt" {"F:S11475T1560961234.74"}
+  "lib/variantslib/variantslib.cmx" {"F:S4558T1560961234.77"}
+  "lib/variantslib/variantslib.cmxa" {"F:S4561T1560961234.8"}
+  "lib/variantslib/variantslib.cmxs" {"F:S13728T1560961234.85"}
+  "lib/variantslib/variantslib.ml" {"F:S52T1560961234.87"}
+]

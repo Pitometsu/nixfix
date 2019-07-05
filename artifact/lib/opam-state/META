@@ -1,0 +1,7 @@
+version = "2.0.4"
+description = "OCaml Package Manager instance management library"
+requires = "opam-repository"
+archive(byte) = "opam_state.cma"
+archive(native) = "opam_state.cmxa"
+plugin(byte) = "opam_state.cma"
+plugin(native) = "opam_state.cmxs"

@@ -1,0 +1,35 @@
+added: [
+  "doc/lens" {"D"}
+  "doc/lens/CHANGES.md" {"F:S314T1560961110.38"}
+  "doc/lens/README.md" {"F:S4152T1560961110.46"}
+  "lib/lens" {"D"}
+  "lib/lens/META" {"F:S948T1560961109.02"}
+  "lib/lens/dune-package" {"F:S1194T1560961109.05"}
+  "lib/lens/lens.a" {"F:S37158T1560961109.1"}
+  "lib/lens/lens.cma" {"F:S27289T1560961109.16"}
+  "lib/lens/lens.cmi" {"F:S4421T1560961109.19"}
+  "lib/lens/lens.cmt" {"F:S56253T1560961109.21"}
+  "lib/lens/lens.cmti" {"F:S33883T1560961109.24"}
+  "lib/lens/lens.cmx" {"F:S3784T1560961109.28"}
+  "lib/lens/lens.cmxa" {"F:S360T1560961109.32"}
+  "lib/lens/lens.cmxs" {"F:S45416T1560961109.38"}
+  "lib/lens/lens.ml" {"F:S4052T1560961109.44"}
+  "lib/lens/lens.mli" {"F:S5426T1560961109.52"}
+  "lib/lens/opam" {"F:S685T1560961109.58"}
+  "lib/lens/ppx_deriving" {"D"}
+  "lib/lens/ppx_deriving/lens_ppx_deriving.a" {"F:S34870T1560961109.69"}
+  "lib/lens/ppx_deriving/lens_ppx_deriving.cma" {"F:S23586T1560961109.73"}
+  "lib/lens/ppx_deriving/lens_ppx_deriving.cmi" {"F:S263T1560961109.8"}
+  "lib/lens/ppx_deriving/lens_ppx_deriving.cmt" {"F:S2248T1560961109.86"}
+  "lib/lens/ppx_deriving/lens_ppx_deriving.cmx" {"F:S152T1560961109.89"}
+  "lib/lens/ppx_deriving/lens_ppx_deriving.cmxa" {"F:S1026T1560961109.91"}
+  "lib/lens/ppx_deriving/lens_ppx_deriving.cmxs" {"F:S39760T1560961109.95"}
+  "lib/lens/ppx_deriving/lens_ppx_deriving.ml" {"F:S118T1560961110.04"}
+  "lib/lens/ppx_deriving/lens_ppx_deriving__Ppx_deriving_lens.cmi"
+    {"F:S3270T1560961110.1"}
+  "lib/lens/ppx_deriving/lens_ppx_deriving__Ppx_deriving_lens.cmt"
+    {"F:S68125T1560961110.15"}
+  "lib/lens/ppx_deriving/lens_ppx_deriving__Ppx_deriving_lens.cmx"
+    {"F:S1937T1560961110.22"}
+  "lib/lens/ppx_deriving/ppx_deriving_lens.ml" {"F:S4670T1560961110.3"}
+]

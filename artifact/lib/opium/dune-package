@@ -1,0 +1,33 @@
+(lang dune 1.10)
+(name opium)
+(version 0.17.1)
+(library
+ (name opium)
+ (kind normal)
+ (archives (byte opium.cma) (native opium.cmxa))
+ (plugins (byte opium.cma) (native opium.cmxs))
+ (foreign_archives (native opium.a))
+ (requires
+  fieldslib
+  ppx_sexp_conv.runtime-lib
+  opium_kernel
+  cmdliner
+  cohttp-lwt-unix
+  magic-mime
+  logs
+  stringext)
+ (main_module_name Opium)
+ (modes byte native)
+ (modules
+  (alias_module (name Opium__) (obj_name opium__) (visibility public) (impl))
+  (main_module_name Opium)
+  (modules
+   ((name App) (obj_name opium__App) (visibility public) (impl) (intf))
+   ((name Debug) (obj_name opium__Debug) (visibility public) (impl) (intf))
+   ((name Opium) (obj_name opium) (visibility public) (impl))
+   ((name Static_serve)
+    (obj_name opium__Static_serve)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

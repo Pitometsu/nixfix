@@ -1,0 +1,89 @@
+package "alias" (
+  directory = "alias"
+  version = "dev"
+  description = ""
+  requires = ""
+  archive(byte) = "odoc__alias.cma"
+  archive(native) = "odoc__alias.cmxa"
+  plugin(byte) = "odoc__alias.cma"
+  plugin(native) = "odoc__alias.cmxs"
+)
+package "compat" (
+  directory = "compat"
+  version = "dev"
+  description = ""
+  requires = "compiler-libs.common"
+  archive(byte) = "odoc__compat.cma"
+  archive(native) = "odoc__compat.cmxa"
+  plugin(byte) = "odoc__compat.cma"
+  plugin(native) = "odoc__compat.cmxs"
+)
+package "html" (
+  directory = "html"
+  version = "dev"
+  description = ""
+  requires = "odoc.alias odoc.model tyxml"
+  archive(byte) = "odoc__html.cma"
+  archive(native) = "odoc__html.cmxa"
+  plugin(byte) = "odoc__html.cma"
+  plugin(native) = "odoc__html.cmxs"
+)
+package "loader" (
+  directory = "loader"
+  version = "dev"
+  description = ""
+  requires = "compiler-libs.common odoc.alias odoc.model odoc.parser"
+  archive(byte) = "odoc__loader.cma"
+  archive(native) = "odoc__loader.cmxa"
+  plugin(byte) = "odoc__loader.cma"
+  plugin(native) = "odoc__loader.cmxs"
+)
+package "model" (
+  directory = "model"
+  version = "dev"
+  description = ""
+  requires = "compiler-libs.common result"
+  archive(byte) = "odoc__model.cma"
+  archive(native) = "odoc__model.cmxa"
+  plugin(byte) = "odoc__model.cma"
+  plugin(native) = "odoc__model.cmxs"
+)
+package "odoc" (
+  directory = "odoc"
+  version = "dev"
+  description = ""
+  requires = "compiler-libs.common
+              fpath
+              odoc.alias
+              odoc.compat
+              odoc.html
+              odoc.loader
+              odoc.model
+              odoc.xref
+              tyxml
+              unix"
+  archive(byte) = "odoc__odoc.cma"
+  archive(native) = "odoc__odoc.cmxa"
+  plugin(byte) = "odoc__odoc.cma"
+  plugin(native) = "odoc__odoc.cmxs"
+)
+package "parser" (
+  directory = "parser"
+  version = "dev"
+  description = ""
+  requires = "astring odoc.alias odoc.compat odoc.model"
+  archive(byte) = "odoc__parser.cma"
+  archive(native) = "odoc__parser.cmxa"
+  plugin(byte) = "odoc__parser.cma"
+  plugin(native) = "odoc__parser.cmxs"
+)
+package "xref" (
+  directory = "xref"
+  version = "dev"
+  description = ""
+  requires = "compiler-libs.common odoc.alias odoc.model"
+  archive(byte) = "odoc__xref.cma"
+  archive(native) = "odoc__xref.cmxa"
+  plugin(byte) = "odoc__xref.cma"
+  plugin(native) = "odoc__xref.cmxs"
+)

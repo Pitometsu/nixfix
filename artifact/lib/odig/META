@@ -1,0 +1,7 @@
+description = "Lookup documentation of installed OCaml packages"
+version = "0.0.4"
+requires = "b0.std b0.b00 b0.care"
+archive(byte) = "odig.cma"
+archive(native) = "odig.cmxa"
+plugin(byte) = "odig.cma"
+plugin(native) = "odig.cmxs"

@@ -1,0 +1,5464 @@
+"cderiving.ml" 17 154 158 "cderiving.ml" 17 154 166
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def obj_repr "cderiving.ml" 28 562 562 "cderiving.ml" 1 0 -1
+)
+"cderiving.ml" 17 154 167 "cderiving.ml" 17 154 170
+type(
+  Env.t
+)
+ident(
+  def env "cderiving.ml" 17 154 171 "cderiving.ml" 25 431 498
+)
+"cderiving.ml" 17 154 171 "cderiving.ml" 17 154 174
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "cderiving.ml" 17 154 175 "cderiving.ml" 25 431 498
+)
+"cderiving.ml" 17 154 175 "cderiving.ml" 17 154 176
+type(
+  Typedtree.expression
+)
+ident(
+  def e "cderiving.ml" 18 179 181 "cderiving.ml" 25 431 498
+)
+"cderiving.ml" 18 179 185 "cderiving.ml" 18 179 198
+type(
+  Path.t
+)
+ident(
+  def obj_repr_path "cderiving.ml" 25 431 433 "cderiving.ml" 25 431 498
+)
+"cderiving.ml" 18 179 200 "cderiving.ml" 18 179 201
+type(
+  Types.value_description
+)
+"cderiving.ml" 18 179 185 "cderiving.ml" 18 179 201
+type(
+  Path.t * Types.value_description
+)
+"cderiving.ml" 20 241 247 "cderiving.ml" 20 241 263
+type(
+  ?loc:Location.t ->
+  Ppxx.Compilerlib.Longident.t -> Env.t -> Path.t * Types.value_description
+)
+ident(
+  ext_ref Env.lookup_value
+)
+"cderiving.ml" 20 241 289 "cderiving.ml" 20 241 294
+type(
+  string
+)
+"cderiving.ml" 20 241 282 "cderiving.ml" 20 241 294
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"cderiving.ml" 20 241 296 "cderiving.ml" 20 241 302
+type(
+  string
+)
+"cderiving.ml" 20 241 276 "cderiving.ml" 20 241 303
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"cderiving.ml" 20 241 306 "cderiving.ml" 20 241 309
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 17 154 167 "cderiving.ml" 17 154 170
+)
+"cderiving.ml" 20 241 247 "cderiving.ml" 20 241 309
+call(
+  stack
+)
+type(
+  Path.t * Types.value_description
+)
+"cderiving.ml" 22 319 325 "cderiving.ml" 22 319 334
+type(
+  exn
+)
+"cderiving.ml" 23 339 347 "cderiving.ml" 23 339 359
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Path.t * Types.value_description,
+   Ppxx.Utils.Format.formatter, unit, Path.t * Types.value_description)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> Path.t * Types.value_description
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"cderiving.ml" 23 339 360 "cderiving.ml" 23 339 405
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Path.t * Types.value_description,
+   Ppxx.Utils.Format.formatter, unit, Path.t * Types.value_description)
+  format4
+)
+"cderiving.ml" 23 339 406 "cderiving.ml" 23 339 421
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"cderiving.ml" 23 339 422 "cderiving.ml" 23 339 425
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 17 154 171 "cderiving.ml" 17 154 174
+)
+"cderiving.ml" 23 339 347 "cderiving.ml" 23 339 425
+call(
+  stack
+)
+type(
+  Path.t * Types.value_description
+)
+"cderiving.ml" 19 233 237 "cderiving.ml" 23 339 425
+type(
+  Path.t * Types.value_description
+)
+"cderiving.ml" 25 431 444 "cderiving.ml" 25 431 447
+type(
+  Typedtree.expression ->
+  (Asttypes.arg_label * Typedtree.expression) list -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.app
+)
+"cderiving.ml" 25 431 449 "cderiving.ml" 25 431 457
+type(
+  Env.t -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.with_env
+)
+"cderiving.ml" 25 431 458 "cderiving.ml" 25 431 461
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 17 154 167 "cderiving.ml" 17 154 170
+)
+"cderiving.ml" 25 431 449 "cderiving.ml" 25 431 461
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"cderiving.ml" 25 431 462 "cderiving.ml" 25 431 463
+type(
+  (Typedtree.expression -> Typedtree.expression) ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 25 431 464 "cderiving.ml" 25 431 469
+type(
+  Typpx.Forge.Path.t -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.ident
+)
+"cderiving.ml" 25 431 470 "cderiving.ml" 25 431 483
+type(
+  Typpx.Forge.Path.t
+)
+ident(
+  int_ref obj_repr_path "cderiving.ml" 18 179 185 "cderiving.ml" 18 179 198
+)
+"cderiving.ml" 25 431 464 "cderiving.ml" 25 431 483
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 25 431 448 "cderiving.ml" 25 431 484
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 25 431 486 "cderiving.ml" 25 431 493
+type(
+  Asttypes.arg_label
+)
+"cderiving.ml" 25 431 495 "cderiving.ml" 25 431 496
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "cderiving.ml" 17 154 175 "cderiving.ml" 17 154 176
+)
+"cderiving.ml" 25 431 486 "cderiving.ml" 25 431 496
+type(
+  Asttypes.arg_label * Typedtree.expression
+)
+"cderiving.ml" 25 431 485 "cderiving.ml" 25 431 497
+type(
+  (Asttypes.arg_label * Typedtree.expression) list
+)
+"cderiving.ml" 25 431 444 "cderiving.ml" 25 431 497
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 18 179 181 "cderiving.ml" 25 431 498
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 28 562 566 "cderiving.ml" 28 562 584
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Types.type_expr ->
+  Ppxx.Compilerlib.Longident.t ->
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def test_cand_deriving "cderiving.ml" 68 2124 2124 "cderiving.ml" 1 0 -1
+)
+"cderiving.ml" 28 562 585 "cderiving.ml" 28 562 588
+type(
+  Env.t
+)
+ident(
+  def env "cderiving.ml" 28 562 589 "cderiving.ml" 66 2089 2110
+)
+"cderiving.ml" 28 562 589 "cderiving.ml" 28 562 592
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "cderiving.ml" 28 562 593 "cderiving.ml" 66 2089 2110
+)
+"cderiving.ml" 28 562 593 "cderiving.ml" 28 562 595
+type(
+  Types.type_expr
+)
+ident(
+  def ty "cderiving.ml" 28 562 596 "cderiving.ml" 66 2089 2110
+)
+"cderiving.ml" 28 562 596 "cderiving.ml" 28 562 599
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def lid "cderiving.ml" 29 602 604 "cderiving.ml" 66 2089 2110
+)
+"cderiving.ml" 29 602 608 "cderiving.ml" 29 602 612
+type(
+  Path.t
+)
+ident(
+  def path "cderiving.ml" 35 856 858 "cderiving.ml" 66 2089 2110
+)
+"cderiving.ml" 29 602 614 "cderiving.ml" 29 602 616
+type(
+  Types.value_description
+)
+ident(
+  def vd "cderiving.ml" 35 856 858 "cderiving.ml" 66 2089 2110
+)
+"cderiving.ml" 29 602 608 "cderiving.ml" 29 602 616
+type(
+  Path.t * Types.value_description
+)
+"cderiving.ml" 31 703 711 "cderiving.ml" 31 703 727
+type(
+  ?loc:Location.t ->
+  Ppxx.Compilerlib.Longident.t -> Env.t -> Path.t * Types.value_description
+)
+ident(
+  ext_ref Env.lookup_value
+)
+"cderiving.ml" 31 703 728 "cderiving.ml" 31 703 731
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "cderiving.ml" 28 562 596 "cderiving.ml" 28 562 599
+)
+"cderiving.ml" 31 703 732 "cderiving.ml" 31 703 735
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 28 562 585 "cderiving.ml" 28 562 588
+)
+"cderiving.ml" 31 703 711 "cderiving.ml" 31 703 735
+call(
+  stack
+)
+type(
+  Path.t * Types.value_description
+)
+"cderiving.ml" 31 703 741 "cderiving.ml" 31 703 750
+type(
+  exn
+)
+"cderiving.ml" 32 755 761 "cderiving.ml" 32 755 766
+type(
+  ((Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Longident.t -> unit) ->
+   Ppxx.Compilerlib.Longident.t -> unit, Ppxx.Utils.Format.t, unit, unit)
+  format4 ->
+  (Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  (Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Longident.t -> unit) ->
+  Ppxx.Compilerlib.Longident.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.warnf
+)
+"cderiving.ml" 32 755 767 "cderiving.ml" 32 755 791
+type(
+  ((Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Longident.t -> unit) ->
+   Ppxx.Compilerlib.Longident.t -> unit, Ppxx.Utils.Format.t, unit, unit)
+  format4
+)
+"cderiving.ml" 32 755 792 "cderiving.ml" 32 755 807
+type(
+  Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"cderiving.ml" 32 755 808 "cderiving.ml" 32 755 811
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 28 562 589 "cderiving.ml" 28 562 592
+)
+"cderiving.ml" 32 755 812 "cderiving.ml" 32 755 828
+type(
+  Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Longident.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Longident.format
+)
+"cderiving.ml" 32 755 829 "cderiving.ml" 32 755 832
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "cderiving.ml" 28 562 596 "cderiving.ml" 28 562 599
+)
+"cderiving.ml" 32 755 761 "cderiving.ml" 32 755 832
+call(
+  stack
+)
+type(
+  unit
+)
+"cderiving.ml" 33 834 840 "cderiving.ml" 33 834 845
+type(
+  exn -> Path.t * Types.value_description
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"cderiving.ml" 33 834 846 "cderiving.ml" 33 834 850
+type(
+  exn
+)
+"cderiving.ml" 33 834 840 "cderiving.ml" 33 834 850
+type(
+  Path.t * Types.value_description
+)
+"cderiving.ml" 32 755 761 "cderiving.ml" 33 834 850
+type(
+  Path.t * Types.value_description
+)
+"cderiving.ml" 31 703 707 "cderiving.ml" 33 834 850
+type(
+  Path.t * Types.value_description
+)
+"cderiving.ml" 35 856 862 "cderiving.ml" 35 856 865
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def vty "cderiving.ml" 36 883 885 "cderiving.ml" 66 2089 2110
+)
+"cderiving.ml" 35 856 868 "cderiving.ml" 35 856 870
+type(
+  Typpx.Compilerlib.Types.value_description
+)
+ident(
+  int_ref vd "cderiving.ml" 29 602 614 "cderiving.ml" 29 602 616
+)
+"cderiving.ml" 35 856 868 "cderiving.ml" 35 856 879
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 36 883 889 "cderiving.ml" 36 883 895
+type(
+  Asttypes.arg_label
+)
+ident(
+  def dlabel "cderiving.ml" 47 1329 1331 "cderiving.ml" 66 2089 2110
+)
+"cderiving.ml" 36 883 897 "cderiving.ml" 36 883 901
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def _dty "cderiving.ml" 47 1329 1331 "cderiving.ml" 66 2089 2110
+)
+"cderiving.ml" 36 883 903 "cderiving.ml" 36 883 907
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def vty' "cderiving.ml" 47 1329 1331 "cderiving.ml" 66 2089 2110
+)
+"cderiving.ml" 36 883 889 "cderiving.ml" 36 883 907
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 38 962 972 "cderiving.ml" 38 962 988
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_desc
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.expand_repr_desc
+)
+"cderiving.ml" 38 962 989 "cderiving.ml" 38 962 992
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 28 562 585 "cderiving.ml" 28 562 588
+)
+"cderiving.ml" 38 962 993 "cderiving.ml" 38 962 996
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref vty "cderiving.ml" 35 856 862 "cderiving.ml" 35 856 865
+)
+"cderiving.ml" 38 962 972 "cderiving.ml" 38 962 996
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 39 1002 1016 "cderiving.ml" 39 1002 1017
+type(
+  Asttypes.arg_label
+)
+ident(
+  def l "cderiving.ml" 39 1002 1038 "cderiving.ml" 39 1002 1087
+)
+"cderiving.ml" 39 1002 1019 "cderiving.ml" 39 1002 1022
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def dty "cderiving.ml" 39 1002 1038 "cderiving.ml" 39 1002 1087
+)
+"cderiving.ml" 39 1002 1024 "cderiving.ml" 39 1002 1028
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def vty' "cderiving.ml" 39 1002 1038 "cderiving.ml" 39 1002 1087
+)
+"cderiving.ml" 39 1002 1030 "cderiving.ml" 39 1002 1031
+type(
+  Typpx.Compilerlib.Types.commutable
+)
+"cderiving.ml" 39 1002 1008 "cderiving.ml" 39 1002 1032
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 39 1002 1038 "cderiving.ml" 39 1002 1054
+type(
+  Asttypes.arg_label -> [ `Normal | `Optional ] option
+)
+ident(
+  ext_ref Klabel.is_klabel
+)
+"cderiving.ml" 39 1002 1055 "cderiving.ml" 39 1002 1056
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "cderiving.ml" 39 1002 1016 "cderiving.ml" 39 1002 1017
+)
+"cderiving.ml" 39 1002 1038 "cderiving.ml" 39 1002 1056
+call(
+  stack
+)
+type(
+  [ `Normal | `Optional ] option
+)
+"cderiving.ml" 39 1002 1057 "cderiving.ml" 39 1002 1058
+type(
+  [ `Normal | `Optional ] option -> [ `Normal | `Optional ] option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"cderiving.ml" 39 1002 1064 "cderiving.ml" 39 1002 1071
+type(
+  [ `Normal | `Optional ]
+)
+"cderiving.ml" 39 1002 1059 "cderiving.ml" 39 1002 1071
+type(
+  [ `Normal | `Optional ] option
+)
+"cderiving.ml" 39 1002 1038 "cderiving.ml" 39 1002 1071
+type(
+  bool
+)
+"cderiving.ml" 39 1002 1075 "cderiving.ml" 39 1002 1076
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref l "cderiving.ml" 39 1002 1016 "cderiving.ml" 39 1002 1017
+)
+"cderiving.ml" 39 1002 1078 "cderiving.ml" 39 1002 1081
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref dty "cderiving.ml" 39 1002 1019 "cderiving.ml" 39 1002 1022
+)
+"cderiving.ml" 39 1002 1083 "cderiving.ml" 39 1002 1087
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref vty' "cderiving.ml" 39 1002 1024 "cderiving.ml" 39 1002 1028
+)
+"cderiving.ml" 39 1002 1075 "cderiving.ml" 39 1002 1087
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 40 1088 1094 "cderiving.ml" 40 1088 1095
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 41 1100 1108 "cderiving.ml" 41 1100 1120
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr ->
+   Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr *
+   Typpx.Compilerlib.Types.type_expr, Ppxx.Utils.Format.formatter, unit,
+   Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr *
+   Typpx.Compilerlib.Types.type_expr)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr ->
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"cderiving.ml" 41 1100 1121 "cderiving.ml" 41 1100 1224
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr ->
+   Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr *
+   Typpx.Compilerlib.Types.type_expr, Ppxx.Utils.Format.formatter, unit,
+   Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr *
+   Typpx.Compilerlib.Types.type_expr)
+  format4
+)
+"cderiving.ml" 42 1225 1235 "cderiving.ml" 42 1225 1250
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"cderiving.ml" 42 1225 1251 "cderiving.ml" 42 1225 1254
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 28 562 589 "cderiving.ml" 28 562 592
+)
+"cderiving.ml" 43 1255 1265 "cderiving.ml" 43 1255 1276
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"cderiving.ml" 43 1255 1277 "cderiving.ml" 43 1255 1281
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "cderiving.ml" 29 602 608 "cderiving.ml" 29 602 612
+)
+"cderiving.ml" 44 1282 1292 "cderiving.ml" 44 1282 1312
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_scheme
+)
+"cderiving.ml" 44 1282 1313 "cderiving.ml" 44 1282 1316
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref vty "cderiving.ml" 35 856 862 "cderiving.ml" 35 856 865
+)
+"cderiving.ml" 41 1100 1108 "cderiving.ml" 44 1282 1316
+call(
+  stack
+)
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 38 962 966 "cderiving.ml" 44 1282 1316
+type(
+  Asttypes.arg_label * Typpx.Compilerlib.Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 47 1329 1335 "cderiving.ml" 47 1329 1336
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def v "cderiving.ml" 59 1807 1809 "cderiving.ml" 66 2089 2110
+)
+"cderiving.ml" 50 1472 1482 "cderiving.ml" 50 1472 1490
+type(
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_expr list
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.gen_vars
+)
+"cderiving.ml" 50 1472 1491 "cderiving.ml" 50 1472 1495
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref vty' "cderiving.ml" 36 883 903 "cderiving.ml" 36 883 907
+)
+"cderiving.ml" 50 1472 1482 "cderiving.ml" 50 1472 1495
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+"cderiving.ml" 50 1472 1497 "cderiving.ml" 50 1472 1517
+type(
+  ?env:Env.t -> Typpx.Compilerlib.Types.type_expr -> Types.type_expr list
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.free_variables
+)
+"cderiving.ml" 50 1472 1518 "cderiving.ml" 50 1472 1522
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref vty' "cderiving.ml" 36 883 903 "cderiving.ml" 36 883 907
+)
+"cderiving.ml" 50 1472 1497 "cderiving.ml" 50 1472 1522
+call(
+  stack
+)
+type(
+  Types.type_expr list
+)
+"cderiving.ml" 50 1472 1482 "cderiving.ml" 50 1472 1522
+type(
+  Typpx.Compilerlib.Types.type_expr list * Types.type_expr list
+)
+"cderiving.ml" 51 1528 1535 "cderiving.ml" 51 1528 1536
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def v "cderiving.ml" 51 1528 1549 "cderiving.ml" 51 1528 1561
+)
+"cderiving.ml" 51 1528 1534 "cderiving.ml" 51 1528 1537
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+"cderiving.ml" 51 1528 1540 "cderiving.ml" 51 1528 1542
+type(
+  Types.type_expr
+)
+ident(
+  def v' "cderiving.ml" 51 1528 1549 "cderiving.ml" 51 1528 1561
+)
+"cderiving.ml" 51 1528 1539 "cderiving.ml" 51 1528 1543
+type(
+  Types.type_expr list
+)
+"cderiving.ml" 51 1528 1534 "cderiving.ml" 51 1528 1543
+type(
+  Typpx.Compilerlib.Types.type_expr list * Types.type_expr list
+)
+"cderiving.ml" 51 1528 1549 "cderiving.ml" 51 1528 1550
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref v "cderiving.ml" 51 1528 1535 "cderiving.ml" 51 1528 1536
+)
+"cderiving.ml" 51 1528 1551 "cderiving.ml" 51 1528 1553
+type(
+  Typpx.Compilerlib.Types.type_expr ->
+  Typpx.Compilerlib.Types.type_expr -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"cderiving.ml" 51 1528 1554 "cderiving.ml" 51 1528 1556
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref v' "cderiving.ml" 51 1528 1540 "cderiving.ml" 51 1528 1542
+)
+"cderiving.ml" 51 1528 1549 "cderiving.ml" 51 1528 1556
+type(
+  bool
+)
+"cderiving.ml" 51 1528 1560 "cderiving.ml" 51 1528 1561
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref v "cderiving.ml" 51 1528 1535 "cderiving.ml" 51 1528 1536
+)
+"cderiving.ml" 52 1563 1569 "cderiving.ml" 52 1563 1570
+type(
+  Typpx.Compilerlib.Types.type_expr list * Types.type_expr list
+)
+"cderiving.ml" 53 1574 1582 "cderiving.ml" 53 1574 1594
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_expr,
+   Ppxx.Utils.Format.formatter, unit, Typpx.Compilerlib.Types.type_expr)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"cderiving.ml" 53 1574 1595 "cderiving.ml" 53 1574 1707
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t ->
+   (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_expr,
+   Ppxx.Utils.Format.formatter, unit, Typpx.Compilerlib.Types.type_expr)
+  format4
+)
+"cderiving.ml" 54 1708 1718 "cderiving.ml" 54 1708 1733
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"cderiving.ml" 54 1708 1734 "cderiving.ml" 54 1708 1737
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 28 562 589 "cderiving.ml" 28 562 592
+)
+"cderiving.ml" 55 1738 1748 "cderiving.ml" 55 1738 1759
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"cderiving.ml" 55 1738 1760 "cderiving.ml" 55 1738 1764
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "cderiving.ml" 29 602 608 "cderiving.ml" 29 602 612
+)
+"cderiving.ml" 56 1765 1775 "cderiving.ml" 56 1765 1795
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_scheme
+)
+"cderiving.ml" 56 1765 1796 "cderiving.ml" 56 1765 1800
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref vty' "cderiving.ml" 36 883 903 "cderiving.ml" 36 883 907
+)
+"cderiving.ml" 53 1574 1582 "cderiving.ml" 56 1765 1800
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 50 1472 1476 "cderiving.ml" 56 1765 1800
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 59 1807 1815 "cderiving.ml" 59 1807 1834
+type(
+  Env.t -> Typpx.Compilerlib.Types.type_expr list -> Types.type_expr list
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.instance_list
+)
+"cderiving.ml" 59 1807 1835 "cderiving.ml" 59 1807 1838
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 28 562 585 "cderiving.ml" 28 562 588
+)
+"cderiving.ml" 59 1807 1840 "cderiving.ml" 59 1807 1841
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref v "cderiving.ml" 47 1329 1335 "cderiving.ml" 47 1329 1336
+)
+"cderiving.ml" 59 1807 1843 "cderiving.ml" 59 1807 1847
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref vty' "cderiving.ml" 36 883 903 "cderiving.ml" 36 883 907
+)
+"cderiving.ml" 59 1807 1839 "cderiving.ml" 59 1807 1848
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+"cderiving.ml" 59 1807 1815 "cderiving.ml" 59 1807 1848
+call(
+  stack
+)
+type(
+  Types.type_expr list
+)
+"cderiving.ml" 60 1854 1859 "cderiving.ml" 60 1854 1860
+type(
+  Types.type_expr
+)
+ident(
+  def v "cderiving.ml" 61 1872 1878 "cderiving.ml" 65 2046 2088
+)
+"cderiving.ml" 60 1854 1862 "cderiving.ml" 60 1854 1867
+type(
+  Types.type_expr
+)
+ident(
+  def vty'' "cderiving.ml" 61 1872 1878 "cderiving.ml" 65 2046 2088
+)
+"cderiving.ml" 60 1854 1858 "cderiving.ml" 60 1854 1868
+type(
+  Types.type_expr list
+)
+"cderiving.ml" 61 1872 1878 "cderiving.ml" 61 1872 1891
+type(
+  (unit ->
+   Path.t * Asttypes.arg_label * Types.type_expr *
+   Typpx.Compilerlib.Types.type_expr) ->
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.with_snapshot
+)
+"cderiving.ml" 61 1872 1892 "cderiving.ml" 61 1872 1893
+type(
+  ((unit ->
+    Path.t * Asttypes.arg_label * Types.type_expr *
+    Typpx.Compilerlib.Types.type_expr) ->
+   Path.t * Asttypes.arg_label * Types.type_expr *
+   Typpx.Compilerlib.Types.type_expr) ->
+  (unit ->
+   Path.t * Asttypes.arg_label * Types.type_expr *
+   Typpx.Compilerlib.Types.type_expr) ->
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 61 1872 1898 "cderiving.ml" 61 1872 1900
+type(
+  unit
+)
+"cderiving.ml" 64 2012 2020 "cderiving.ml" 64 2012 2031
+type(
+  Env.t -> Types.type_expr -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.unify
+)
+"cderiving.ml" 64 2012 2032 "cderiving.ml" 64 2012 2035
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 28 562 585 "cderiving.ml" 28 562 588
+)
+"cderiving.ml" 64 2012 2036 "cderiving.ml" 64 2012 2038
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 28 562 593 "cderiving.ml" 28 562 595
+)
+"cderiving.ml" 64 2012 2039 "cderiving.ml" 64 2012 2044
+type(
+  Types.type_expr
+)
+ident(
+  int_ref vty'' "cderiving.ml" 60 1854 1862 "cderiving.ml" 60 1854 1867
+)
+"cderiving.ml" 64 2012 2020 "cderiving.ml" 64 2012 2044
+call(
+  stack
+)
+type(
+  unit
+)
+"cderiving.ml" 65 2046 2055 "cderiving.ml" 65 2046 2059
+type(
+  Path.t
+)
+ident(
+  int_ref path "cderiving.ml" 29 602 608 "cderiving.ml" 29 602 612
+)
+"cderiving.ml" 65 2046 2061 "cderiving.ml" 65 2046 2067
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref dlabel "cderiving.ml" 36 883 889 "cderiving.ml" 36 883 895
+)
+"cderiving.ml" 65 2046 2069 "cderiving.ml" 65 2046 2079
+type(
+  Types.type_expr -> Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.repr
+)
+"cderiving.ml" 65 2046 2080 "cderiving.ml" 65 2046 2081
+type(
+  Types.type_expr
+)
+ident(
+  int_ref v "cderiving.ml" 60 1854 1859 "cderiving.ml" 60 1854 1860
+)
+"cderiving.ml" 65 2046 2069 "cderiving.ml" 65 2046 2081
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"cderiving.ml" 65 2046 2083 "cderiving.ml" 65 2046 2087
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref vty' "cderiving.ml" 36 883 903 "cderiving.ml" 36 883 907
+)
+"cderiving.ml" 65 2046 2054 "cderiving.ml" 65 2046 2088
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 64 2012 2020 "cderiving.ml" 65 2046 2088
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 61 1872 1894 "cderiving.ml" 65 2046 2088
+type(
+  unit ->
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 61 1872 1878 "cderiving.ml" 65 2046 2088
+call(
+  tail
+)
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 66 2089 2093 "cderiving.ml" 66 2089 2094
+type(
+  Types.type_expr list
+)
+"cderiving.ml" 66 2089 2105 "cderiving.ml" 66 2089 2110
+type(
+  bool
+)
+"cderiving.ml" 66 2089 2098 "cderiving.ml" 66 2089 2110
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 59 1807 1809 "cderiving.ml" 66 2089 2110
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 47 1329 1331 "cderiving.ml" 66 2089 2110
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 36 883 885 "cderiving.ml" 66 2089 2110
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 35 856 858 "cderiving.ml" 66 2089 2110
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 29 602 604 "cderiving.ml" 66 2089 2110
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 74 2200 2204 "cderiving.ml" 74 2200 2215
+type(
+  'a list -> 'a field list
+)
+ident(
+  def make_fields "cderiving.ml" 81 2411 2411 "cderiving.ml" 1 0 -1
+)
+"cderiving.ml" 74 2200 2216 "cderiving.ml" 74 2200 2218
+type(
+  'a list
+)
+ident(
+  def vs "cderiving.ml" 75 2221 2223 "cderiving.ml" 78 2320 2375
+)
+"cderiving.ml" 75 2221 2223 "cderiving.ml" 75 2221 2227
+type(
+  (int -> 'a -> 'a field) -> 'a list -> 'a field list
+)
+ident(
+  ext_ref Ppxx.Utils.List.mapi
+)
+"cderiving.ml" 75 2221 2233 "cderiving.ml" 75 2221 2234
+type(
+  int
+)
+ident(
+  def i "cderiving.ml" 75 2221 2235 "cderiving.ml" 78 2320 2371
+)
+"cderiving.ml" 75 2221 2235 "cderiving.ml" 75 2221 2236
+type(
+  'a
+)
+ident(
+  def v "cderiving.ml" 76 2240 2244 "cderiving.ml" 78 2320 2371
+)
+"cderiving.ml" 76 2240 2253 "cderiving.ml" 76 2240 2254
+type(
+  'a
+)
+ident(
+  int_ref v "cderiving.ml" 75 2221 2235 "cderiving.ml" 75 2221 2236
+)
+"cderiving.ml" 77 2256 2270 "cderiving.ml" 77 2256 2282
+type(
+  string -> Typpx.Compilerlib.Ident.t
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ident.create
+)
+"cderiving.ml" 77 2256 2284 "cderiving.ml" 77 2256 2298
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"cderiving.ml" 77 2256 2299 "cderiving.ml" 77 2256 2315
+type(
+  (int -> string, unit, string) format
+)
+"cderiving.ml" 77 2256 2316 "cderiving.ml" 77 2256 2317
+type(
+  int
+)
+ident(
+  int_ref i "cderiving.ml" 75 2221 2233 "cderiving.ml" 75 2221 2234
+)
+"cderiving.ml" 77 2256 2283 "cderiving.ml" 77 2256 2318
+call(
+  stack
+)
+type(
+  string
+)
+"cderiving.ml" 77 2256 2270 "cderiving.ml" 77 2256 2318
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Ident.t
+)
+"cderiving.ml" 78 2320 2345 "cderiving.ml" 78 2320 2359
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"cderiving.ml" 78 2320 2360 "cderiving.ml" 78 2320 2366
+type(
+  (int -> string, unit, string) format
+)
+"cderiving.ml" 78 2320 2367 "cderiving.ml" 78 2320 2368
+type(
+  int
+)
+ident(
+  int_ref i "cderiving.ml" 75 2221 2233 "cderiving.ml" 75 2221 2234
+)
+"cderiving.ml" 78 2320 2344 "cderiving.ml" 78 2320 2369
+call(
+  stack
+)
+type(
+  string
+)
+"cderiving.ml" 78 2320 2335 "cderiving.ml" 78 2320 2369
+type(
+  Asttypes.arg_label
+)
+"cderiving.ml" 76 2240 2244 "cderiving.ml" 78 2320 2371
+type(
+  'a field
+)
+"cderiving.ml" 75 2221 2228 "cderiving.ml" 78 2320 2372
+type(
+  int -> 'a -> 'a field
+)
+"cderiving.ml" 78 2320 2373 "cderiving.ml" 78 2320 2375
+type(
+  'a list
+)
+ident(
+  int_ref vs "cderiving.ml" 74 2200 2216 "cderiving.ml" 74 2200 2218
+)
+"cderiving.ml" 75 2221 2223 "cderiving.ml" 78 2320 2375
+call(
+  tail
+)
+type(
+  'a field list
+)
+"cderiving.ml" 81 2411 2415 "cderiving.ml" 81 2411 2419
+type(
+  'a field list -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def kabs "cderiving.ml" 86 2546 2546 "cderiving.ml" 1 0 -1
+)
+"cderiving.ml" 81 2411 2420 "cderiving.ml" 81 2411 2426
+type(
+  'a field list
+)
+ident(
+  def fields "cderiving.ml" 81 2411 2427 "cderiving.ml" 84 2493 2544
+)
+"cderiving.ml" 81 2411 2427 "cderiving.ml" 81 2411 2428
+type(
+  Typedtree.expression
+)
+ident(
+  def e "cderiving.ml" 82 2431 2433 "cderiving.ml" 84 2493 2544
+)
+"cderiving.ml" 83 2451 2453 "cderiving.ml" 83 2451 2463
+type(
+  ('a field -> Typedtree.expression -> Typedtree.expression) ->
+  'a field list -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.List.fold_right
+)
+"cderiving.ml" 83 2451 2476 "cderiving.ml" 83 2451 2478
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  def id "cderiving.ml" 83 2451 2488 "cderiving.ml" 84 2493 2534
+)
+"cderiving.ml" 83 2451 2480 "cderiving.ml" 83 2451 2486
+type(
+  Asttypes.arg_label
+)
+ident(
+  def dlabel "cderiving.ml" 83 2451 2488 "cderiving.ml" 84 2493 2534
+)
+"cderiving.ml" 83 2451 2469 "cderiving.ml" 83 2451 2487
+type(
+  'a field
+)
+"cderiving.ml" 83 2451 2488 "cderiving.ml" 83 2451 2489
+type(
+  Typedtree.expression
+)
+ident(
+  def e "cderiving.ml" 84 2493 2497 "cderiving.ml" 84 2493 2534
+)
+"cderiving.ml" 84 2493 2497 "cderiving.ml" 84 2493 2505
+type(
+  ?label:Asttypes.arg_label ->
+  Typedtree.pattern -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.fun_
+)
+"cderiving.ml" 84 2493 2513 "cderiving.ml" 84 2493 2519
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref dlabel "cderiving.ml" 83 2451 2480 "cderiving.ml" 83 2451 2486
+)
+"cderiving.ml" 84 2493 2521 "cderiving.ml" 84 2493 2528
+type(
+  Typpx.Compilerlib.Ident.t -> Typedtree.pattern
+)
+ident(
+  ext_ref Typpx.Forge.Pat.var
+)
+"cderiving.ml" 84 2493 2529 "cderiving.ml" 84 2493 2531
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "cderiving.ml" 83 2451 2476 "cderiving.ml" 83 2451 2478
+)
+"cderiving.ml" 84 2493 2520 "cderiving.ml" 84 2493 2532
+call(
+  stack
+)
+type(
+  Typedtree.pattern
+)
+"cderiving.ml" 84 2493 2533 "cderiving.ml" 84 2493 2534
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "cderiving.ml" 83 2451 2488 "cderiving.ml" 83 2451 2489
+)
+"cderiving.ml" 84 2493 2497 "cderiving.ml" 84 2493 2534
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 83 2451 2464 "cderiving.ml" 84 2493 2535
+type(
+  'a field -> Typedtree.expression -> Typedtree.expression
+)
+"cderiving.ml" 84 2493 2536 "cderiving.ml" 84 2493 2542
+type(
+  'a field list
+)
+ident(
+  int_ref fields "cderiving.ml" 81 2411 2420 "cderiving.ml" 81 2411 2426
+)
+"cderiving.ml" 84 2493 2543 "cderiving.ml" 84 2493 2544
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "cderiving.ml" 81 2411 2427 "cderiving.ml" 81 2411 2428
+)
+"cderiving.ml" 83 2451 2453 "cderiving.ml" 84 2493 2544
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 86 2546 2550 "cderiving.ml" 86 2546 2560
+type(
+  ('a -> Types.type_expr) ->
+  Env.t ->
+  Types.type_expr -> 'a field list -> Types.type_expr -> Types.type_expr
+)
+ident(
+  def build_type "cderiving.ml" 99 3125 3125 "cderiving.ml" 1 0 -1
+)
+"cderiving.ml" 86 2546 2561 "cderiving.ml" 86 2546 2566
+type(
+  'a -> Types.type_expr
+)
+ident(
+  def getty "cderiving.ml" 86 2546 2567 "cderiving.ml" 97 3056 3123
+)
+"cderiving.ml" 86 2546 2567 "cderiving.ml" 86 2546 2570
+type(
+  Env.t
+)
+ident(
+  def env "cderiving.ml" 86 2546 2571 "cderiving.ml" 97 3056 3123
+)
+"cderiving.ml" 86 2546 2571 "cderiving.ml" 86 2546 2582
+type(
+  Types.type_expr
+)
+ident(
+  def template_ty "cderiving.ml" 86 2546 2583 "cderiving.ml" 97 3056 3123
+)
+"cderiving.ml" 86 2546 2583 "cderiving.ml" 86 2546 2589
+type(
+  'a field list
+)
+ident(
+  def fields "cderiving.ml" 86 2546 2590 "cderiving.ml" 97 3056 3123
+)
+"cderiving.ml" 86 2546 2590 "cderiving.ml" 86 2546 2599
+type(
+  Types.type_expr
+)
+ident(
+  def ty_return "cderiving.ml" 87 2602 2604 "cderiving.ml" 97 3056 3123
+)
+"cderiving.ml" 89 2690 2692 "cderiving.ml" 89 2690 2702
+type(
+  ('a field -> Types.type_expr -> Types.type_expr) ->
+  'a field list -> Types.type_expr -> Types.type_expr
+)
+ident(
+  ext_ref Ppxx.Utils.List.fold_right
+)
+"cderiving.ml" 89 2690 2710 "cderiving.ml" 89 2690 2715
+type(
+  'a
+)
+ident(
+  def value "cderiving.ml" 89 2690 2726 "cderiving.ml" 97 3056 3105
+)
+"cderiving.ml" 89 2690 2717 "cderiving.ml" 89 2690 2723
+type(
+  Asttypes.arg_label
+)
+ident(
+  def dlabel "cderiving.ml" 89 2690 2726 "cderiving.ml" 97 3056 3105
+)
+"cderiving.ml" 89 2690 2708 "cderiving.ml" 89 2690 2725
+type(
+  'a field
+)
+"cderiving.ml" 89 2690 2726 "cderiving.ml" 89 2690 2728
+type(
+  Types.type_expr
+)
+ident(
+  def st "cderiving.ml" 90 2732 2736 "cderiving.ml" 97 3056 3105
+)
+"cderiving.ml" 90 2732 2740 "cderiving.ml" 90 2732 2742
+type(
+  Types.type_expr
+)
+ident(
+  def ty "cderiving.ml" 92 2863 2867 "cderiving.ml" 97 3056 3105
+)
+"cderiving.ml" 90 2732 2745 "cderiving.ml" 90 2732 2750
+type(
+  'a -> Types.type_expr
+)
+ident(
+  int_ref getty "cderiving.ml" 86 2546 2561 "cderiving.ml" 86 2546 2566
+)
+"cderiving.ml" 90 2732 2751 "cderiving.ml" 90 2732 2756
+type(
+  'a
+)
+ident(
+  int_ref value "cderiving.ml" 89 2690 2710 "cderiving.ml" 89 2690 2715
+)
+"cderiving.ml" 90 2732 2745 "cderiving.ml" 90 2732 2756
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"cderiving.ml" 92 2863 2871 "cderiving.ml" 92 2863 2883
+type(
+  Types.type_expr
+)
+ident(
+  def template_ty' "cderiving.ml" 93 2914 2918 "cderiving.ml" 97 3056 3105
+)
+"cderiving.ml" 92 2863 2886 "cderiving.ml" 92 2863 2894
+type(
+  ?partial:bool -> Env.t -> Types.type_expr -> Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.instance
+)
+"cderiving.ml" 92 2863 2895 "cderiving.ml" 92 2863 2898
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 86 2546 2567 "cderiving.ml" 86 2546 2570
+)
+"cderiving.ml" 92 2863 2899 "cderiving.ml" 92 2863 2910
+type(
+  Types.type_expr
+)
+ident(
+  int_ref template_ty "cderiving.ml" 86 2546 2571 "cderiving.ml" 86 2546 2582
+)
+"cderiving.ml" 92 2863 2886 "cderiving.ml" 92 2863 2910
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"cderiving.ml" 93 2914 2930 "cderiving.ml" 93 2914 2944
+type(
+  ?env:Env.t -> Types.type_expr -> Types.type_expr list
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.free_variables
+)
+"cderiving.ml" 93 2914 2945 "cderiving.ml" 93 2914 2957
+type(
+  Types.type_expr
+)
+ident(
+  int_ref template_ty' "cderiving.ml" 92 2863 2871 "cderiving.ml" 92 2863 2883
+)
+"cderiving.ml" 93 2914 2930 "cderiving.ml" 93 2914 2957
+call(
+  stack
+)
+type(
+  Types.type_expr list
+)
+"cderiving.ml" 94 2963 2970 "cderiving.ml" 94 2963 2971
+type(
+  Types.type_expr
+)
+ident(
+  def v "cderiving.ml" 94 2963 2976 "cderiving.ml" 94 2963 2990
+)
+"cderiving.ml" 94 2963 2969 "cderiving.ml" 94 2963 2972
+type(
+  Types.type_expr list
+)
+"cderiving.ml" 94 2963 2976 "cderiving.ml" 94 2963 2981
+type(
+  Env.t -> Types.type_expr -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.unify
+)
+"cderiving.ml" 94 2963 2982 "cderiving.ml" 94 2963 2985
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 86 2546 2567 "cderiving.ml" 86 2546 2570
+)
+"cderiving.ml" 94 2963 2986 "cderiving.ml" 94 2963 2988
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 90 2732 2740 "cderiving.ml" 90 2732 2742
+)
+"cderiving.ml" 94 2963 2989 "cderiving.ml" 94 2963 2990
+type(
+  Types.type_expr
+)
+ident(
+  int_ref v "cderiving.ml" 94 2963 2970 "cderiving.ml" 94 2963 2971
+)
+"cderiving.ml" 94 2963 2976 "cderiving.ml" 94 2963 2990
+call(
+  stack
+)
+type(
+  unit
+)
+"cderiving.ml" 95 2991 2997 "cderiving.ml" 95 2991 2998
+type(
+  Types.type_expr list
+)
+"cderiving.ml" 95 2991 3009 "cderiving.ml" 95 2991 3014
+type(
+  bool
+)
+"cderiving.ml" 95 2991 3002 "cderiving.ml" 95 2991 3014
+type(
+  unit
+)
+"cderiving.ml" 93 2914 2918 "cderiving.ml" 96 3047 3054
+type(
+  unit
+)
+"cderiving.ml" 97 3056 3060 "cderiving.ml" 97 3056 3075
+type(
+  ?label:Asttypes.arg_label ->
+  Types.type_expr -> Types.type_expr -> Types.type_expr
+)
+ident(
+  ext_ref Typpx.Forge.Typ.arrow
+)
+"cderiving.ml" 97 3056 3083 "cderiving.ml" 97 3056 3089
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref dlabel "cderiving.ml" 89 2690 2717 "cderiving.ml" 89 2690 2723
+)
+"cderiving.ml" 97 3056 3090 "cderiving.ml" 97 3056 3102
+type(
+  Types.type_expr
+)
+ident(
+  int_ref template_ty' "cderiving.ml" 92 2863 2871 "cderiving.ml" 92 2863 2883
+)
+"cderiving.ml" 97 3056 3103 "cderiving.ml" 97 3056 3105
+type(
+  Types.type_expr
+)
+ident(
+  int_ref st "cderiving.ml" 89 2690 2726 "cderiving.ml" 89 2690 2728
+)
+"cderiving.ml" 97 3056 3060 "cderiving.ml" 97 3056 3105
+call(
+  tail
+)
+type(
+  Types.type_expr
+)
+"cderiving.ml" 93 2914 2918 "cderiving.ml" 97 3056 3105
+type(
+  Types.type_expr
+)
+"cderiving.ml" 92 2863 2867 "cderiving.ml" 97 3056 3105
+type(
+  Types.type_expr
+)
+"cderiving.ml" 90 2732 2736 "cderiving.ml" 97 3056 3105
+type(
+  Types.type_expr
+)
+"cderiving.ml" 89 2690 2703 "cderiving.ml" 97 3056 3106
+type(
+  'a field -> Types.type_expr -> Types.type_expr
+)
+"cderiving.ml" 97 3056 3107 "cderiving.ml" 97 3056 3113
+type(
+  'a field list
+)
+ident(
+  int_ref fields "cderiving.ml" 86 2546 2583 "cderiving.ml" 86 2546 2589
+)
+"cderiving.ml" 97 3056 3114 "cderiving.ml" 97 3056 3123
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty_return "cderiving.ml" 86 2546 2590 "cderiving.ml" 86 2546 2599
+)
+"cderiving.ml" 89 2690 2692 "cderiving.ml" 97 3056 3123
+call(
+  tail
+)
+type(
+  Types.type_expr
+)
+"cderiving.ml" 99 3125 3129 "cderiving.ml" 99 3125 3148
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Types.type_expr -> Ppxx.Compilerlib.Longident.t -> Candidate.t option
+)
+ident(
+  def cand_deriving_tuple "cderiving.ml" 118 3922 3922 "cderiving.ml" 1 0 -1
+)
+"cderiving.ml" 99 3125 3149 "cderiving.ml" 99 3125 3152
+type(
+  Env.t
+)
+ident(
+  def env "cderiving.ml" 99 3125 3153 "cderiving.ml" 115 3900 3915
+)
+"cderiving.ml" 99 3125 3153 "cderiving.ml" 99 3125 3156
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "cderiving.ml" 99 3125 3157 "cderiving.ml" 115 3900 3915
+)
+"cderiving.ml" 99 3125 3157 "cderiving.ml" 99 3125 3159
+type(
+  Types.type_expr
+)
+ident(
+  def ty "cderiving.ml" 99 3125 3160 "cderiving.ml" 115 3900 3915
+)
+"cderiving.ml" 99 3125 3160 "cderiving.ml" 99 3125 3164
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def mlid "cderiving.ml" 100 3167 3169 "cderiving.ml" 115 3900 3915
+)
+"cderiving.ml" 100 3167 3169 "cderiving.ml" 100 3167 3178
+type(
+  Candidate.t option -> (unit -> Candidate.t option) -> Candidate.t option
+)
+ident(
+  ext_ref Utils.exit_then
+)
+"cderiving.ml" 100 3167 3179 "cderiving.ml" 100 3167 3183
+type(
+  Candidate.t option
+)
+"cderiving.ml" 100 3167 3169 "cderiving.ml" 100 3167 3183
+type(
+  (unit -> Candidate.t option) -> Candidate.t option
+)
+"cderiving.ml" 100 3167 3184 "cderiving.ml" 100 3167 3185
+type(
+  ((unit -> Candidate.t option) -> Candidate.t option) ->
+  (unit -> Candidate.t option) -> Candidate.t option
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 100 3167 3190 "cderiving.ml" 100 3167 3192
+type(
+  unit
+)
+"cderiving.ml" 101 3196 3204 "cderiving.ml" 101 3196 3207
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def lid "cderiving.ml" 102 3234 3238 "cderiving.ml" 115 3900 3915
+)
+"cderiving.ml" 101 3196 3216 "cderiving.ml" 101 3196 3220
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref mlid "cderiving.ml" 99 3125 3160 "cderiving.ml" 99 3125 3164
+)
+"cderiving.ml" 101 3196 3222 "cderiving.ml" 101 3196 3229
+type(
+  string
+)
+"cderiving.ml" 101 3196 3210 "cderiving.ml" 101 3196 3230
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"cderiving.ml" 102 3234 3242 "cderiving.ml" 102 3234 3246
+type(
+  Path.t
+)
+ident(
+  def path "cderiving.ml" 103 3310 3314 "cderiving.ml" 115 3900 3915
+)
+"cderiving.ml" 102 3234 3248 "cderiving.ml" 102 3234 3254
+type(
+  Asttypes.arg_label
+)
+ident(
+  def dlabel "cderiving.ml" 103 3310 3314 "cderiving.ml" 115 3900 3915
+)
+"cderiving.ml" 102 3234 3256 "cderiving.ml" 102 3234 3257
+type(
+  Types.type_expr
+)
+ident(
+  def v "cderiving.ml" 103 3310 3314 "cderiving.ml" 115 3900 3915
+)
+"cderiving.ml" 102 3234 3259 "cderiving.ml" 102 3234 3270
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def template_ty "cderiving.ml" 103 3310 3314 "cderiving.ml" 115 3900 3915
+)
+"cderiving.ml" 102 3234 3242 "cderiving.ml" 102 3234 3270
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 102 3234 3273 "cderiving.ml" 102 3234 3291
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Types.type_expr ->
+  Ppxx.Compilerlib.Longident.t ->
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref test_cand_deriving "cderiving.ml" 28 562 566 "cderiving.ml" 28 562 584
+)
+"cderiving.ml" 102 3234 3292 "cderiving.ml" 102 3234 3295
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 99 3125 3149 "cderiving.ml" 99 3125 3152
+)
+"cderiving.ml" 102 3234 3296 "cderiving.ml" 102 3234 3299
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 99 3125 3153 "cderiving.ml" 99 3125 3156
+)
+"cderiving.ml" 102 3234 3300 "cderiving.ml" 102 3234 3302
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 99 3125 3157 "cderiving.ml" 99 3125 3159
+)
+"cderiving.ml" 102 3234 3303 "cderiving.ml" 102 3234 3306
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "cderiving.ml" 101 3196 3204 "cderiving.ml" 101 3196 3207
+)
+"cderiving.ml" 102 3234 3273 "cderiving.ml" 102 3234 3306
+call(
+  stack
+)
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 103 3310 3320 "cderiving.ml" 103 3310 3336
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_desc
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.expand_repr_desc
+)
+"cderiving.ml" 103 3310 3337 "cderiving.ml" 103 3310 3340
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 99 3125 3149 "cderiving.ml" 99 3125 3152
+)
+"cderiving.ml" 103 3310 3341 "cderiving.ml" 103 3310 3342
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref v "cderiving.ml" 102 3234 3256 "cderiving.ml" 102 3234 3257
+)
+"cderiving.ml" 103 3310 3320 "cderiving.ml" 103 3310 3342
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 104 3348 3361 "cderiving.ml" 104 3348 3364
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+ident(
+  def tys "cderiving.ml" 106 3450 3458 "cderiving.ml" 114 3846 3899
+)
+"cderiving.ml" 104 3348 3354 "cderiving.ml" 104 3348 3364
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 106 3450 3462 "cderiving.ml" 106 3450 3468
+type(
+  Typpx.Compilerlib.Types.type_expr field list
+)
+ident(
+  def fields "cderiving.ml" 107 3490 3498 "cderiving.ml" 114 3846 3899
+)
+"cderiving.ml" 106 3450 3471 "cderiving.ml" 106 3450 3482
+type(
+  Typpx.Compilerlib.Types.type_expr list ->
+  Typpx.Compilerlib.Types.type_expr field list
+)
+ident(
+  int_ref make_fields "cderiving.ml" 74 2200 2204 "cderiving.ml" 74 2200 2215
+)
+"cderiving.ml" 106 3450 3483 "cderiving.ml" 106 3450 3486
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+ident(
+  int_ref tys "cderiving.ml" 104 3348 3361 "cderiving.ml" 104 3348 3364
+)
+"cderiving.ml" 106 3450 3471 "cderiving.ml" 106 3450 3486
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr field list
+)
+"cderiving.ml" 107 3490 3502 "cderiving.ml" 107 3490 3504
+type(
+  Typedtree.expression
+)
+ident(
+  def ds "cderiving.ml" 111 3659 3667 "cderiving.ml" 114 3846 3899
+)
+"cderiving.ml" 109 3539 3549 "cderiving.ml" 109 3539 3553
+type(
+  Env.t -> Typedtree.expression list -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.list
+)
+"cderiving.ml" 109 3539 3554 "cderiving.ml" 109 3539 3557
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 99 3125 3149 "cderiving.ml" 99 3125 3152
+)
+"cderiving.ml" 109 3539 3549 "cderiving.ml" 109 3539 3557
+type(
+  Typedtree.expression list -> Typedtree.expression
+)
+"cderiving.ml" 109 3539 3558 "cderiving.ml" 109 3539 3559
+type(
+  (Typedtree.expression list -> Typedtree.expression) ->
+  Typedtree.expression list -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 109 3539 3560 "cderiving.ml" 109 3539 3563
+type(
+  (Typpx.Compilerlib.Types.type_expr field -> Typedtree.expression) ->
+  Typpx.Compilerlib.Types.type_expr field list -> Typedtree.expression list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"cderiving.ml" 109 3539 3576 "cderiving.ml" 109 3539 3578
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  def id "cderiving.ml" 109 3539 3583 "cderiving.ml" 109 3539 3639
+)
+"cderiving.ml" 109 3539 3569 "cderiving.ml" 109 3539 3579
+type(
+  Typpx.Compilerlib.Types.type_expr field
+)
+"cderiving.ml" 109 3539 3583 "cderiving.ml" 109 3539 3591
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref obj_repr "cderiving.ml" 17 154 158 "cderiving.ml" 17 154 166
+)
+"cderiving.ml" 109 3539 3592 "cderiving.ml" 109 3539 3595
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 99 3125 3149 "cderiving.ml" 99 3125 3152
+)
+"cderiving.ml" 109 3539 3596 "cderiving.ml" 109 3539 3599
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 99 3125 3153 "cderiving.ml" 99 3125 3156
+)
+"cderiving.ml" 109 3539 3583 "cderiving.ml" 109 3539 3599
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"cderiving.ml" 109 3539 3600 "cderiving.ml" 109 3539 3601
+type(
+  (Typedtree.expression -> Typedtree.expression) ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 109 3539 3602 "cderiving.ml" 109 3539 3610
+type(
+  Env.t -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.with_env
+)
+"cderiving.ml" 109 3539 3611 "cderiving.ml" 109 3539 3614
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 99 3125 3149 "cderiving.ml" 99 3125 3152
+)
+"cderiving.ml" 109 3539 3602 "cderiving.ml" 109 3539 3614
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"cderiving.ml" 109 3539 3615 "cderiving.ml" 109 3539 3616
+type(
+  (Typedtree.expression -> Typedtree.expression) ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 109 3539 3617 "cderiving.ml" 109 3539 3622
+type(
+  Typpx.Forge.Path.t -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.ident
+)
+"cderiving.ml" 109 3539 3636 "cderiving.ml" 109 3539 3638
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "cderiving.ml" 109 3539 3576 "cderiving.ml" 109 3539 3578
+)
+"cderiving.ml" 109 3539 3623 "cderiving.ml" 109 3539 3639
+type(
+  Typpx.Compilerlib.Path.t
+)
+"cderiving.ml" 109 3539 3617 "cderiving.ml" 109 3539 3639
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 109 3539 3602 "cderiving.ml" 109 3539 3639
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 109 3539 3583 "cderiving.ml" 109 3539 3639
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 109 3539 3564 "cderiving.ml" 109 3539 3640
+type(
+  Typpx.Compilerlib.Types.type_expr field -> Typedtree.expression
+)
+"cderiving.ml" 109 3539 3641 "cderiving.ml" 109 3539 3647
+type(
+  Typpx.Compilerlib.Types.type_expr field list
+)
+ident(
+  int_ref fields "cderiving.ml" 106 3450 3462 "cderiving.ml" 106 3450 3468
+)
+"cderiving.ml" 109 3539 3560 "cderiving.ml" 109 3539 3647
+call(
+  stack
+)
+type(
+  Typedtree.expression list
+)
+"cderiving.ml" 109 3539 3549 "cderiving.ml" 109 3539 3647
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 111 3659 3671 "cderiving.ml" 111 3659 3672
+type(
+  Typedtree.expression
+)
+ident(
+  def e "cderiving.ml" 112 3735 3743 "cderiving.ml" 114 3846 3899
+)
+"cderiving.ml" 111 3659 3686 "cderiving.ml" 111 3659 3689
+type(
+  Typedtree.expression ->
+  (Asttypes.arg_label * Typedtree.expression) list -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.app
+)
+"cderiving.ml" 111 3659 3691 "cderiving.ml" 111 3659 3699
+type(
+  Env.t -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.with_env
+)
+"cderiving.ml" 111 3659 3700 "cderiving.ml" 111 3659 3703
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 99 3125 3149 "cderiving.ml" 99 3125 3152
+)
+"cderiving.ml" 111 3659 3691 "cderiving.ml" 111 3659 3703
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"cderiving.ml" 111 3659 3704 "cderiving.ml" 111 3659 3705
+type(
+  (Typedtree.expression -> Typedtree.expression) ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 111 3659 3706 "cderiving.ml" 111 3659 3711
+type(
+  Typpx.Forge.Path.t -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.ident
+)
+"cderiving.ml" 111 3659 3712 "cderiving.ml" 111 3659 3716
+type(
+  Typpx.Forge.Path.t
+)
+ident(
+  int_ref path "cderiving.ml" 102 3234 3242 "cderiving.ml" 102 3234 3246
+)
+"cderiving.ml" 111 3659 3706 "cderiving.ml" 111 3659 3716
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 111 3659 3690 "cderiving.ml" 111 3659 3717
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 111 3659 3719 "cderiving.ml" 111 3659 3725
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref dlabel "cderiving.ml" 102 3234 3248 "cderiving.ml" 102 3234 3254
+)
+"cderiving.ml" 111 3659 3727 "cderiving.ml" 111 3659 3729
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref ds "cderiving.ml" 107 3490 3502 "cderiving.ml" 107 3490 3504
+)
+"cderiving.ml" 111 3659 3719 "cderiving.ml" 111 3659 3729
+type(
+  Asttypes.arg_label * Typedtree.expression
+)
+"cderiving.ml" 111 3659 3718 "cderiving.ml" 111 3659 3730
+type(
+  (Asttypes.arg_label * Typedtree.expression) list
+)
+"cderiving.ml" 111 3659 3686 "cderiving.ml" 111 3659 3730
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 112 3735 3747 "cderiving.ml" 112 3735 3751
+type(
+  Typedtree.expression
+)
+ident(
+  def expr "cderiving.ml" 113 3771 3779 "cderiving.ml" 114 3846 3899
+)
+"cderiving.ml" 112 3735 3754 "cderiving.ml" 112 3735 3758
+type(
+  Typpx.Compilerlib.Types.type_expr field list ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref kabs "cderiving.ml" 81 2411 2415 "cderiving.ml" 81 2411 2419
+)
+"cderiving.ml" 112 3735 3759 "cderiving.ml" 112 3735 3765
+type(
+  Typpx.Compilerlib.Types.type_expr field list
+)
+ident(
+  int_ref fields "cderiving.ml" 106 3450 3462 "cderiving.ml" 106 3450 3468
+)
+"cderiving.ml" 112 3735 3766 "cderiving.ml" 112 3735 3767
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "cderiving.ml" 111 3659 3671 "cderiving.ml" 111 3659 3672
+)
+"cderiving.ml" 112 3735 3754 "cderiving.ml" 112 3735 3767
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 113 3771 3783 "cderiving.ml" 113 3771 3788
+type(
+  Types.type_expr
+)
+ident(
+  def type_ "cderiving.ml" 114 3846 3854 "cderiving.ml" 114 3846 3899
+)
+"cderiving.ml" 113 3771 3791 "cderiving.ml" 113 3771 3801
+type(
+  (Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_expr) ->
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr ->
+  Typpx.Compilerlib.Types.type_expr field list ->
+  Types.type_expr -> Types.type_expr
+)
+ident(
+  int_ref build_type "cderiving.ml" 86 2546 2550 "cderiving.ml" 86 2546 2560
+)
+"cderiving.ml" 113 3771 3807 "cderiving.ml" 113 3771 3809
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "cderiving.ml" 113 3771 3813 "cderiving.ml" 113 3771 3815
+)
+"cderiving.ml" 113 3771 3813 "cderiving.ml" 113 3771 3815
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 113 3771 3807 "cderiving.ml" 113 3771 3809
+)
+"cderiving.ml" 113 3771 3802 "cderiving.ml" 113 3771 3816
+type(
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 113 3771 3817 "cderiving.ml" 113 3771 3820
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 99 3125 3149 "cderiving.ml" 99 3125 3152
+)
+"cderiving.ml" 113 3771 3821 "cderiving.ml" 113 3771 3832
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref template_ty "cderiving.ml" 102 3234 3259 "cderiving.ml" 102 3234 3270
+)
+"cderiving.ml" 113 3771 3833 "cderiving.ml" 113 3771 3839
+type(
+  Typpx.Compilerlib.Types.type_expr field list
+)
+ident(
+  int_ref fields "cderiving.ml" 106 3450 3462 "cderiving.ml" 106 3450 3468
+)
+"cderiving.ml" 113 3771 3840 "cderiving.ml" 113 3771 3842
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 99 3125 3157 "cderiving.ml" 99 3125 3159
+)
+"cderiving.ml" 113 3771 3791 "cderiving.ml" 113 3771 3842
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"cderiving.ml" 114 3846 3861 "cderiving.ml" 114 3846 3865
+type(
+  Path.t
+)
+ident(
+  int_ref path "cderiving.ml" 102 3234 3242 "cderiving.ml" 102 3234 3246
+)
+"cderiving.ml" 114 3846 3867 "cderiving.ml" 114 3846 3871
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref expr "cderiving.ml" 112 3735 3747 "cderiving.ml" 112 3735 3751
+)
+"cderiving.ml" 114 3846 3873 "cderiving.ml" 114 3846 3878
+type(
+  Types.type_expr
+)
+ident(
+  int_ref type_ "cderiving.ml" 113 3771 3783 "cderiving.ml" 113 3771 3788
+)
+"cderiving.ml" 114 3846 3893 "cderiving.ml" 114 3846 3898
+type(
+  bool
+)
+"cderiving.ml" 114 3846 3859 "cderiving.ml" 114 3846 3899
+type(
+  Candidate.t
+)
+"cderiving.ml" 114 3846 3854 "cderiving.ml" 114 3846 3899
+type(
+  Candidate.t option
+)
+"cderiving.ml" 113 3771 3779 "cderiving.ml" 114 3846 3899
+type(
+  Candidate.t option
+)
+"cderiving.ml" 112 3735 3743 "cderiving.ml" 114 3846 3899
+type(
+  Candidate.t option
+)
+"cderiving.ml" 111 3659 3667 "cderiving.ml" 114 3846 3899
+type(
+  Candidate.t option
+)
+"cderiving.ml" 107 3490 3498 "cderiving.ml" 114 3846 3899
+type(
+  Candidate.t option
+)
+"cderiving.ml" 106 3450 3458 "cderiving.ml" 114 3846 3899
+type(
+  Candidate.t option
+)
+"cderiving.ml" 115 3900 3906 "cderiving.ml" 115 3900 3907
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 115 3900 3911 "cderiving.ml" 115 3900 3915
+type(
+  Candidate.t option
+)
+"cderiving.ml" 103 3310 3314 "cderiving.ml" 115 3900 3915
+type(
+  Candidate.t option
+)
+"cderiving.ml" 102 3234 3238 "cderiving.ml" 115 3900 3915
+type(
+  Candidate.t option
+)
+"cderiving.ml" 101 3196 3200 "cderiving.ml" 115 3900 3915
+type(
+  Candidate.t option
+)
+"cderiving.ml" 100 3167 3186 "cderiving.ml" 115 3900 3915
+type(
+  unit -> Candidate.t option
+)
+"cderiving.ml" 100 3167 3169 "cderiving.ml" 115 3900 3915
+call(
+  tail
+)
+type(
+  Candidate.t option
+)
+"cderiving.ml" 118 3922 3926 "cderiving.ml" 118 3922 3959
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Types.type_expr -> Ppxx.Compilerlib.Longident.t -> Candidate.t option
+)
+ident(
+  def cand_deriving_polymorphic_variant "cderiving.ml" 179 6319 6319 "cderiving.ml" 1 0 -1
+)
+"cderiving.ml" 118 3922 3960 "cderiving.ml" 118 3922 3963
+type(
+  Env.t
+)
+ident(
+  def env "cderiving.ml" 118 3922 3964 "cderiving.ml" 170 6162 6175
+)
+"cderiving.ml" 118 3922 3964 "cderiving.ml" 118 3922 3967
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "cderiving.ml" 118 3922 3968 "cderiving.ml" 170 6162 6175
+)
+"cderiving.ml" 118 3922 3968 "cderiving.ml" 118 3922 3970
+type(
+  Types.type_expr
+)
+ident(
+  def ty "cderiving.ml" 118 3922 3971 "cderiving.ml" 170 6162 6175
+)
+"cderiving.ml" 118 3922 3971 "cderiving.ml" 118 3922 3975
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def mlid "cderiving.ml" 119 3978 3980 "cderiving.ml" 170 6162 6175
+)
+"cderiving.ml" 119 3978 3980 "cderiving.ml" 119 3978 3989
+type(
+  Candidate.t option -> (unit -> Candidate.t option) -> Candidate.t option
+)
+ident(
+  ext_ref Utils.exit_then
+)
+"cderiving.ml" 119 3978 3990 "cderiving.ml" 119 3978 3994
+type(
+  Candidate.t option
+)
+"cderiving.ml" 119 3978 3980 "cderiving.ml" 119 3978 3994
+type(
+  (unit -> Candidate.t option) -> Candidate.t option
+)
+"cderiving.ml" 119 3978 3995 "cderiving.ml" 119 3978 3996
+type(
+  ((unit -> Candidate.t option) -> Candidate.t option) ->
+  (unit -> Candidate.t option) -> Candidate.t option
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 119 3978 4001 "cderiving.ml" 119 3978 4003
+type(
+  unit
+)
+"cderiving.ml" 120 4007 4015 "cderiving.ml" 120 4007 4018
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def lid "cderiving.ml" 121 4059 4063 "cderiving.ml" 170 6162 6175
+)
+"cderiving.ml" 120 4007 4027 "cderiving.ml" 120 4007 4031
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref mlid "cderiving.ml" 118 3922 3971 "cderiving.ml" 118 3922 3975
+)
+"cderiving.ml" 120 4007 4033 "cderiving.ml" 120 4007 4054
+type(
+  string
+)
+"cderiving.ml" 120 4007 4021 "cderiving.ml" 120 4007 4055
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"cderiving.ml" 121 4059 4067 "cderiving.ml" 121 4059 4071
+type(
+  Path.t
+)
+ident(
+  def path "cderiving.ml" 122 4135 4139 "cderiving.ml" 170 6162 6175
+)
+"cderiving.ml" 121 4059 4073 "cderiving.ml" 121 4059 4079
+type(
+  Asttypes.arg_label
+)
+ident(
+  def dlabel "cderiving.ml" 122 4135 4139 "cderiving.ml" 170 6162 6175
+)
+"cderiving.ml" 121 4059 4081 "cderiving.ml" 121 4059 4082
+type(
+  Types.type_expr
+)
+ident(
+  def v "cderiving.ml" 122 4135 4139 "cderiving.ml" 170 6162 6175
+)
+"cderiving.ml" 121 4059 4084 "cderiving.ml" 121 4059 4095
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def template_ty "cderiving.ml" 122 4135 4139 "cderiving.ml" 170 6162 6175
+)
+"cderiving.ml" 121 4059 4067 "cderiving.ml" 121 4059 4095
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 121 4059 4098 "cderiving.ml" 121 4059 4116
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Types.type_expr ->
+  Ppxx.Compilerlib.Longident.t ->
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref test_cand_deriving "cderiving.ml" 28 562 566 "cderiving.ml" 28 562 584
+)
+"cderiving.ml" 121 4059 4117 "cderiving.ml" 121 4059 4120
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 118 3922 3960 "cderiving.ml" 118 3922 3963
+)
+"cderiving.ml" 121 4059 4121 "cderiving.ml" 121 4059 4124
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 118 3922 3964 "cderiving.ml" 118 3922 3967
+)
+"cderiving.ml" 121 4059 4125 "cderiving.ml" 121 4059 4127
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 118 3922 3968 "cderiving.ml" 118 3922 3970
+)
+"cderiving.ml" 121 4059 4128 "cderiving.ml" 121 4059 4131
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "cderiving.ml" 120 4007 4015 "cderiving.ml" 120 4007 4018
+)
+"cderiving.ml" 121 4059 4098 "cderiving.ml" 121 4059 4131
+call(
+  stack
+)
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 122 4135 4145 "cderiving.ml" 122 4135 4161
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_desc
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.expand_repr_desc
+)
+"cderiving.ml" 122 4135 4162 "cderiving.ml" 122 4135 4165
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 118 3922 3960 "cderiving.ml" 118 3922 3963
+)
+"cderiving.ml" 122 4135 4166 "cderiving.ml" 122 4135 4167
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref v "cderiving.ml" 121 4059 4081 "cderiving.ml" 121 4059 4082
+)
+"cderiving.ml" 122 4135 4145 "cderiving.ml" 122 4135 4167
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 123 4173 4188 "cderiving.ml" 123 4173 4193
+type(
+  Typpx.Compilerlib.Types.row_desc
+)
+ident(
+  def rdesc "cderiving.ml" 124 4197 4205 "cderiving.ml" 169 6108 6161
+)
+"cderiving.ml" 123 4173 4179 "cderiving.ml" 123 4173 4193
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 124 4197 4209 "cderiving.ml" 124 4197 4214
+type(
+  Types.row_desc
+)
+ident(
+  def rdesc "cderiving.ml" 135 4586 4594 "cderiving.ml" 169 6108 6161
+)
+"cderiving.ml" 124 4197 4217 "cderiving.ml" 124 4197 4231
+type(
+  Typpx.Compilerlib.Types.row_desc -> Types.row_desc
+)
+ident(
+  ext_ref Btype.row_repr
+)
+"cderiving.ml" 124 4197 4232 "cderiving.ml" 124 4197 4237
+type(
+  Typpx.Compilerlib.Types.row_desc
+)
+ident(
+  int_ref rdesc "cderiving.ml" 123 4173 4188 "cderiving.ml" 123 4173 4193
+)
+"cderiving.ml" 124 4197 4217 "cderiving.ml" 124 4197 4237
+call(
+  stack
+)
+type(
+  Types.row_desc
+)
+"cderiving.ml" 135 4586 4598 "cderiving.ml" 135 4586 4604
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field list
+)
+ident(
+  def fields "cderiving.ml" 145 5014 5022 "cderiving.ml" 169 6108 6161
+)
+"cderiving.ml" 135 4586 4607 "cderiving.ml" 135 4586 4618
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) list ->
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field list
+)
+ident(
+  int_ref make_fields "cderiving.ml" 74 2200 2204 "cderiving.ml" 74 2200 2215
+)
+"cderiving.ml" 135 4586 4619 "cderiving.ml" 135 4586 4620
+type(
+  ((Asttypes.label * Typpx.Compilerlib.Types.type_expr option) list ->
+   (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field list) ->
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) list ->
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 135 4586 4621 "cderiving.ml" 135 4586 4624
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.row_field ->
+   Asttypes.label * Typpx.Compilerlib.Types.type_expr option) ->
+  (Asttypes.label * Typpx.Compilerlib.Types.row_field) list ->
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"cderiving.ml" 136 4635 4650 "cderiving.ml" 136 4635 4651
+type(
+  Asttypes.label
+)
+ident(
+  def l "cderiving.ml" 136 4635 4670 "cderiving.ml" 136 4635 4676
+)
+"cderiving.ml" 136 4635 4662 "cderiving.ml" 136 4635 4665
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+ident(
+  def tyo "cderiving.ml" 136 4635 4670 "cderiving.ml" 136 4635 4676
+)
+"cderiving.ml" 136 4635 4653 "cderiving.ml" 136 4635 4665
+type(
+  Typpx.Compilerlib.Types.row_field
+)
+"cderiving.ml" 136 4635 4649 "cderiving.ml" 136 4635 4666
+type(
+  Asttypes.label * Typpx.Compilerlib.Types.row_field
+)
+"cderiving.ml" 136 4635 4670 "cderiving.ml" 136 4635 4671
+type(
+  Asttypes.label
+)
+ident(
+  int_ref l "cderiving.ml" 136 4635 4650 "cderiving.ml" 136 4635 4651
+)
+"cderiving.ml" 136 4635 4673 "cderiving.ml" 136 4635 4676
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+ident(
+  int_ref tyo "cderiving.ml" 136 4635 4662 "cderiving.ml" 136 4635 4665
+)
+"cderiving.ml" 136 4635 4670 "cderiving.ml" 136 4635 4676
+type(
+  Asttypes.label * Typpx.Compilerlib.Types.type_expr option
+)
+"cderiving.ml" 137 4677 4692 "cderiving.ml" 137 4677 4693
+type(
+  Asttypes.label
+)
+ident(
+  def l "cderiving.ml" 138 4701 4717 "cderiving.ml" 143 4958 4984
+)
+"cderiving.ml" 137 4677 4695 "cderiving.ml" 137 4677 4696
+type(
+  Typpx.Compilerlib.Types.row_field
+)
+"cderiving.ml" 137 4677 4691 "cderiving.ml" 137 4677 4697
+type(
+  Asttypes.label * Typpx.Compilerlib.Types.row_field
+)
+"cderiving.ml" 138 4701 4717 "cderiving.ml" 138 4701 4722
+type(
+  ((Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.t -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t ->
+   (Ppxx.Utils.Format.t -> Types.type_expr -> unit) ->
+   Types.type_expr -> Asttypes.label -> unit, Ppxx.Utils.Format.t, unit,
+   unit)
+  format4 ->
+  (Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  (Ppxx.Utils.Format.t -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t ->
+  (Ppxx.Utils.Format.t -> Types.type_expr -> unit) ->
+  Types.type_expr -> Asttypes.label -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.warnf
+)
+"cderiving.ml" 138 4701 4723 "cderiving.ml" 138 4701 4822
+type(
+  ((Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.t -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t ->
+   (Ppxx.Utils.Format.t -> Types.type_expr -> unit) ->
+   Types.type_expr -> Asttypes.label -> unit, Ppxx.Utils.Format.t, unit,
+   unit)
+  format4
+)
+"cderiving.ml" 139 4823 4841 "cderiving.ml" 139 4823 4856
+type(
+  Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"cderiving.ml" 139 4823 4857 "cderiving.ml" 139 4823 4860
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 118 3922 3964 "cderiving.ml" 118 3922 3967
+)
+"cderiving.ml" 140 4861 4879 "cderiving.ml" 140 4861 4890
+type(
+  Ppxx.Utils.Format.t -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"cderiving.ml" 140 4861 4891 "cderiving.ml" 140 4861 4895
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "cderiving.ml" 121 4059 4067 "cderiving.ml" 121 4059 4071
+)
+"cderiving.ml" 141 4896 4914 "cderiving.ml" 141 4896 4934
+type(
+  Ppxx.Utils.Format.t -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_scheme
+)
+"cderiving.ml" 141 4896 4935 "cderiving.ml" 141 4896 4936
+type(
+  Types.type_expr
+)
+ident(
+  int_ref v "cderiving.ml" 121 4059 4081 "cderiving.ml" 121 4059 4082
+)
+"cderiving.ml" 142 4937 4955 "cderiving.ml" 142 4937 4956
+type(
+  Asttypes.label
+)
+ident(
+  int_ref l "cderiving.ml" 137 4677 4692 "cderiving.ml" 137 4677 4693
+)
+"cderiving.ml" 138 4701 4717 "cderiving.ml" 142 4937 4956
+call(
+  stack
+)
+type(
+  unit
+)
+"cderiving.ml" 143 4958 4974 "cderiving.ml" 143 4958 4979
+type(
+  exn -> Asttypes.label * Typpx.Compilerlib.Types.type_expr option
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"cderiving.ml" 143 4958 4980 "cderiving.ml" 143 4958 4984
+type(
+  exn
+)
+"cderiving.ml" 143 4958 4974 "cderiving.ml" 143 4958 4984
+type(
+  Asttypes.label * Typpx.Compilerlib.Types.type_expr option
+)
+"cderiving.ml" 138 4701 4717 "cderiving.ml" 143 4958 4984
+type(
+  Asttypes.label * Typpx.Compilerlib.Types.type_expr option
+)
+"cderiving.ml" 135 4586 4625 "cderiving.ml" 143 4958 4985
+type(
+  Asttypes.label * Typpx.Compilerlib.Types.row_field ->
+  Asttypes.label * Typpx.Compilerlib.Types.type_expr option
+)
+"cderiving.ml" 143 4958 4986 "cderiving.ml" 143 4958 4991
+type(
+  Typpx.Compilerlib.Types.row_desc
+)
+ident(
+  int_ref rdesc "cderiving.ml" 124 4197 4209 "cderiving.ml" 124 4197 4214
+)
+"cderiving.ml" 143 4958 4986 "cderiving.ml" 143 4958 5002
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.row_field) list
+)
+"cderiving.ml" 135 4586 4621 "cderiving.ml" 143 4958 5002
+call(
+  stack
+)
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) list
+)
+"cderiving.ml" 135 4586 4607 "cderiving.ml" 143 4958 5002
+call(
+  stack
+)
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field list
+)
+"cderiving.ml" 145 5014 5026 "cderiving.ml" 145 5014 5028
+type(
+  Typedtree.expression
+)
+ident(
+  def ds "cderiving.ml" 158 5597 5605 "cderiving.ml" 169 6108 6161
+)
+"cderiving.ml" 147 5063 5073 "cderiving.ml" 147 5063 5077
+type(
+  Env.t -> Typedtree.expression list -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.list
+)
+"cderiving.ml" 147 5063 5078 "cderiving.ml" 147 5063 5081
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 118 3922 3960 "cderiving.ml" 118 3922 3963
+)
+"cderiving.ml" 147 5063 5073 "cderiving.ml" 147 5063 5081
+type(
+  Typedtree.expression list -> Typedtree.expression
+)
+"cderiving.ml" 147 5063 5082 "cderiving.ml" 147 5063 5083
+type(
+  (Typedtree.expression list -> Typedtree.expression) ->
+  Typedtree.expression list -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 147 5063 5084 "cderiving.ml" 147 5063 5087
+type(
+  ((Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field ->
+   Typedtree.expression) ->
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field list ->
+  Typedtree.expression list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"cderiving.ml" 147 5063 5101 "cderiving.ml" 147 5063 5102
+type(
+  Asttypes.label
+)
+ident(
+  def l "cderiving.ml" 148 5122 5134 "cderiving.ml" 155 5465 5558
+)
+"cderiving.ml" 147 5063 5103 "cderiving.ml" 147 5063 5106
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+ident(
+  def tyo "cderiving.ml" 148 5122 5134 "cderiving.ml" 155 5465 5558
+)
+"cderiving.ml" 147 5063 5100 "cderiving.ml" 147 5063 5107
+type(
+  Asttypes.label * Typpx.Compilerlib.Types.type_expr option
+)
+"cderiving.ml" 147 5063 5115 "cderiving.ml" 147 5063 5117
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  def id "cderiving.ml" 148 5122 5134 "cderiving.ml" 155 5465 5558
+)
+"cderiving.ml" 147 5063 5093 "cderiving.ml" 147 5063 5118
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field
+)
+"cderiving.ml" 148 5122 5138 "cderiving.ml" 148 5122 5142
+type(
+  int
+)
+ident(
+  def hash "cderiving.ml" 150 5247 5259 "cderiving.ml" 155 5465 5558
+)
+"cderiving.ml" 148 5122 5145 "cderiving.ml" 148 5122 5163
+type(
+  Asttypes.label -> int
+)
+ident(
+  ext_ref Btype.hash_variant
+)
+"cderiving.ml" 148 5122 5164 "cderiving.ml" 148 5122 5165
+type(
+  Asttypes.label
+)
+ident(
+  int_ref l "cderiving.ml" 147 5063 5101 "cderiving.ml" 147 5063 5102
+)
+"cderiving.ml" 148 5122 5145 "cderiving.ml" 148 5122 5165
+call(
+  stack
+)
+type(
+  int
+)
+"cderiving.ml" 150 5247 5259 "cderiving.ml" 150 5247 5264
+type(
+  Typedtree.expression list -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.tuple
+)
+"cderiving.ml" 150 5247 5267 "cderiving.ml" 150 5247 5274
+type(
+  Ast_405.Parsetree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.untyped
+)
+"cderiving.ml" 150 5247 5276 "cderiving.ml" 150 5247 5298
+type(
+  ?loc:Ast_405.Location.t ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Asttypes.label -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Helper.Exp.string
+)
+"cderiving.ml" 150 5247 5299 "cderiving.ml" 150 5247 5300
+type(
+  Asttypes.label
+)
+ident(
+  int_ref l "cderiving.ml" 147 5063 5101 "cderiving.ml" 147 5063 5102
+)
+"cderiving.ml" 150 5247 5275 "cderiving.ml" 150 5247 5301
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"cderiving.ml" 150 5247 5267 "cderiving.ml" 150 5247 5301
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 151 5303 5323 "cderiving.ml" 151 5303 5330
+type(
+  Ast_405.Parsetree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.untyped
+)
+"cderiving.ml" 151 5303 5332 "cderiving.ml" 151 5303 5351
+type(
+  ?loc:Ast_405.Location.t ->
+  ?attrs:Ast_405.Ast_helper.attrs -> int -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Helper.Exp.int
+)
+"cderiving.ml" 151 5303 5352 "cderiving.ml" 151 5303 5356
+type(
+  int
+)
+ident(
+  int_ref hash "cderiving.ml" 148 5122 5138 "cderiving.ml" 148 5122 5142
+)
+"cderiving.ml" 151 5303 5331 "cderiving.ml" 151 5303 5357
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"cderiving.ml" 151 5303 5323 "cderiving.ml" 151 5303 5357
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 152 5359 5385 "cderiving.ml" 152 5359 5388
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+ident(
+  int_ref tyo "cderiving.ml" 147 5063 5103 "cderiving.ml" 147 5063 5106
+)
+"cderiving.ml" 153 5394 5416 "cderiving.ml" 153 5394 5420
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"cderiving.ml" 153 5394 5424 "cderiving.ml" 153 5394 5428
+type(
+  ?ty:Types.type_expr -> Env.t -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.none
+)
+"cderiving.ml" 153 5394 5429 "cderiving.ml" 153 5394 5432
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 118 3922 3960 "cderiving.ml" 118 3922 3963
+)
+"cderiving.ml" 153 5394 5424 "cderiving.ml" 153 5394 5432
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 154 5433 5460 "cderiving.ml" 154 5433 5461
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 154 5433 5455 "cderiving.ml" 154 5433 5461
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"cderiving.ml" 155 5465 5489 "cderiving.ml" 155 5465 5493
+type(
+  Env.t -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.some
+)
+"cderiving.ml" 155 5465 5494 "cderiving.ml" 155 5465 5497
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 118 3922 3960 "cderiving.ml" 118 3922 3963
+)
+"cderiving.ml" 155 5465 5489 "cderiving.ml" 155 5465 5497
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"cderiving.ml" 155 5465 5498 "cderiving.ml" 155 5465 5499
+type(
+  (Typedtree.expression -> Typedtree.expression) ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 155 5465 5500 "cderiving.ml" 155 5465 5508
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref obj_repr "cderiving.ml" 17 154 158 "cderiving.ml" 17 154 166
+)
+"cderiving.ml" 155 5465 5509 "cderiving.ml" 155 5465 5512
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 118 3922 3960 "cderiving.ml" 118 3922 3963
+)
+"cderiving.ml" 155 5465 5513 "cderiving.ml" 155 5465 5516
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 118 3922 3964 "cderiving.ml" 118 3922 3967
+)
+"cderiving.ml" 155 5465 5500 "cderiving.ml" 155 5465 5516
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"cderiving.ml" 155 5465 5517 "cderiving.ml" 155 5465 5518
+type(
+  (Typedtree.expression -> Typedtree.expression) ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 155 5465 5519 "cderiving.ml" 155 5465 5527
+type(
+  Env.t -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.with_env
+)
+"cderiving.ml" 155 5465 5528 "cderiving.ml" 155 5465 5531
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 118 3922 3960 "cderiving.ml" 118 3922 3963
+)
+"cderiving.ml" 155 5465 5519 "cderiving.ml" 155 5465 5531
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"cderiving.ml" 155 5465 5532 "cderiving.ml" 155 5465 5533
+type(
+  (Typedtree.expression -> Typedtree.expression) ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 155 5465 5534 "cderiving.ml" 155 5465 5539
+type(
+  Typpx.Forge.Path.t -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.ident
+)
+"cderiving.ml" 155 5465 5540 "cderiving.ml" 155 5465 5541
+type(
+  (Typpx.Forge.Path.t -> Typedtree.expression) ->
+  Typpx.Forge.Path.t -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 155 5465 5554 "cderiving.ml" 155 5465 5556
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "cderiving.ml" 147 5063 5115 "cderiving.ml" 147 5063 5117
+)
+"cderiving.ml" 155 5465 5542 "cderiving.ml" 155 5465 5556
+type(
+  Typpx.Compilerlib.Path.t
+)
+"cderiving.ml" 155 5465 5534 "cderiving.ml" 155 5465 5556
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 155 5465 5519 "cderiving.ml" 155 5465 5556
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 155 5465 5500 "cderiving.ml" 155 5465 5556
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 155 5465 5489 "cderiving.ml" 155 5465 5556
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 152 5359 5379 "cderiving.ml" 155 5465 5556
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 150 5247 5265 "cderiving.ml" 155 5465 5558
+type(
+  Typedtree.expression list
+)
+"cderiving.ml" 150 5247 5259 "cderiving.ml" 155 5465 5558
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 148 5122 5134 "cderiving.ml" 155 5465 5558
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 147 5063 5088 "cderiving.ml" 155 5465 5559
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field ->
+  Typedtree.expression
+)
+"cderiving.ml" 156 5560 5579 "cderiving.ml" 156 5560 5585
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field list
+)
+ident(
+  int_ref fields "cderiving.ml" 135 4586 4598 "cderiving.ml" 135 4586 4604
+)
+"cderiving.ml" 147 5063 5084 "cderiving.ml" 156 5560 5585
+call(
+  stack
+)
+type(
+  Typedtree.expression list
+)
+"cderiving.ml" 147 5063 5073 "cderiving.ml" 156 5560 5585
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 158 5597 5609 "cderiving.ml" 158 5597 5610
+type(
+  Typedtree.expression
+)
+ident(
+  def e "cderiving.ml" 160 5728 5736 "cderiving.ml" 169 6108 6161
+)
+"cderiving.ml" 158 5597 5624 "cderiving.ml" 158 5597 5627
+type(
+  Typedtree.expression ->
+  (Asttypes.arg_label * Typedtree.expression) list -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.app
+)
+"cderiving.ml" 158 5597 5629 "cderiving.ml" 158 5597 5637
+type(
+  Env.t -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.with_env
+)
+"cderiving.ml" 158 5597 5638 "cderiving.ml" 158 5597 5641
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 118 3922 3960 "cderiving.ml" 118 3922 3963
+)
+"cderiving.ml" 158 5597 5629 "cderiving.ml" 158 5597 5641
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"cderiving.ml" 158 5597 5642 "cderiving.ml" 158 5597 5643
+type(
+  (Typedtree.expression -> Typedtree.expression) ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 158 5597 5644 "cderiving.ml" 158 5597 5649
+type(
+  Typpx.Forge.Path.t -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.ident
+)
+"cderiving.ml" 158 5597 5650 "cderiving.ml" 158 5597 5654
+type(
+  Typpx.Forge.Path.t
+)
+ident(
+  int_ref path "cderiving.ml" 121 4059 4067 "cderiving.ml" 121 4059 4071
+)
+"cderiving.ml" 158 5597 5644 "cderiving.ml" 158 5597 5654
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 158 5597 5628 "cderiving.ml" 158 5597 5655
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 158 5597 5657 "cderiving.ml" 158 5597 5663
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref dlabel "cderiving.ml" 121 4059 4073 "cderiving.ml" 121 4059 4079
+)
+"cderiving.ml" 158 5597 5665 "cderiving.ml" 158 5597 5667
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref ds "cderiving.ml" 145 5014 5026 "cderiving.ml" 145 5014 5028
+)
+"cderiving.ml" 158 5597 5657 "cderiving.ml" 158 5597 5667
+type(
+  Asttypes.arg_label * Typedtree.expression
+)
+"cderiving.ml" 158 5597 5656 "cderiving.ml" 158 5597 5668
+type(
+  (Asttypes.arg_label * Typedtree.expression) list
+)
+"cderiving.ml" 158 5597 5624 "cderiving.ml" 158 5597 5668
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 160 5728 5740 "cderiving.ml" 160 5728 5746
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr) field list
+)
+ident(
+  def fields "cderiving.ml" 164 5913 5921 "cderiving.ml" 169 6108 6161
+)
+"cderiving.ml" 160 5728 5749 "cderiving.ml" 160 5728 5759
+type(
+  ((Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field ->
+   (Asttypes.label * Typpx.Compilerlib.Types.type_expr) field option) ->
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field list ->
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr) field list
+)
+ident(
+  ext_ref Ppxx.Utils.List.filter_map
+)
+"cderiving.ml" 161 5770 5790 "cderiving.ml" 161 5770 5791
+type(
+  Asttypes.label
+)
+"cderiving.ml" 161 5770 5793 "cderiving.ml" 161 5770 5797
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"cderiving.ml" 161 5770 5789 "cderiving.ml" 161 5770 5798
+type(
+  Asttypes.label * Typpx.Compilerlib.Types.type_expr option
+)
+"cderiving.ml" 161 5770 5782 "cderiving.ml" 161 5770 5799
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field
+)
+"cderiving.ml" 161 5770 5803 "cderiving.ml" 161 5770 5807
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr) field option
+)
+"cderiving.ml" 162 5808 5828 "cderiving.ml" 162 5808 5829
+type(
+  Asttypes.label
+)
+ident(
+  def l "cderiving.ml" 162 5808 5859 "cderiving.ml" 162 5808 5893
+)
+"cderiving.ml" 162 5808 5836 "cderiving.ml" 162 5808 5838
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "cderiving.ml" 162 5808 5859 "cderiving.ml" 162 5808 5893
+)
+"cderiving.ml" 162 5808 5831 "cderiving.ml" 162 5808 5838
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"cderiving.ml" 162 5808 5827 "cderiving.ml" 162 5808 5839
+type(
+  Asttypes.label * Typpx.Compilerlib.Types.type_expr option
+)
+"cderiving.ml" 162 5808 5841 "cderiving.ml" 162 5808 5846
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  def ident "cderiving.ml" 162 5808 5859 "cderiving.ml" 162 5808 5893
+)
+"cderiving.ml" 162 5808 5848 "cderiving.ml" 162 5808 5854
+type(
+  Asttypes.arg_label
+)
+ident(
+  def dlabel "cderiving.ml" 162 5808 5859 "cderiving.ml" 162 5808 5893
+)
+"cderiving.ml" 162 5808 5820 "cderiving.ml" 162 5808 5855
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field
+)
+"cderiving.ml" 162 5808 5872 "cderiving.ml" 162 5808 5873
+type(
+  Asttypes.label
+)
+ident(
+  int_ref l "cderiving.ml" 162 5808 5828 "cderiving.ml" 162 5808 5829
+)
+"cderiving.ml" 162 5808 5874 "cderiving.ml" 162 5808 5876
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 162 5808 5836 "cderiving.ml" 162 5808 5838
+)
+"cderiving.ml" 162 5808 5871 "cderiving.ml" 162 5808 5877
+type(
+  Asttypes.label * Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 162 5808 5879 "cderiving.ml" 162 5808 5884
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref ident "cderiving.ml" 162 5808 5841 "cderiving.ml" 162 5808 5846
+)
+"cderiving.ml" 162 5808 5886 "cderiving.ml" 162 5808 5892
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref dlabel "cderiving.ml" 162 5808 5848 "cderiving.ml" 162 5808 5854
+)
+"cderiving.ml" 162 5808 5864 "cderiving.ml" 162 5808 5893
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr) field
+)
+"cderiving.ml" 162 5808 5859 "cderiving.ml" 162 5808 5893
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr) field option
+)
+"cderiving.ml" 160 5728 5760 "cderiving.ml" 162 5808 5894
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field ->
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr) field option
+)
+"cderiving.ml" 162 5808 5895 "cderiving.ml" 162 5808 5901
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr option) field list
+)
+ident(
+  int_ref fields "cderiving.ml" 135 4586 4598 "cderiving.ml" 135 4586 4604
+)
+"cderiving.ml" 160 5728 5749 "cderiving.ml" 162 5808 5901
+call(
+  stack
+)
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr) field list
+)
+"cderiving.ml" 164 5913 5925 "cderiving.ml" 164 5913 5929
+type(
+  Typedtree.expression
+)
+ident(
+  def expr "cderiving.ml" 165 5949 5957 "cderiving.ml" 169 6108 6161
+)
+"cderiving.ml" 164 5913 5932 "cderiving.ml" 164 5913 5936
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr) field list ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref kabs "cderiving.ml" 81 2411 2415 "cderiving.ml" 81 2411 2419
+)
+"cderiving.ml" 164 5913 5937 "cderiving.ml" 164 5913 5943
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr) field list
+)
+ident(
+  int_ref fields "cderiving.ml" 160 5728 5740 "cderiving.ml" 160 5728 5746
+)
+"cderiving.ml" 164 5913 5944 "cderiving.ml" 164 5913 5945
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "cderiving.ml" 158 5597 5609 "cderiving.ml" 158 5597 5610
+)
+"cderiving.ml" 164 5913 5932 "cderiving.ml" 164 5913 5945
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 165 5949 5961 "cderiving.ml" 165 5949 5966
+type(
+  Types.type_expr
+)
+ident(
+  def type_ "cderiving.ml" 169 6108 6116 "cderiving.ml" 169 6108 6161
+)
+"cderiving.ml" 165 5949 5969 "cderiving.ml" 165 5949 5979
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr ->
+   Typpx.Compilerlib.Types.type_expr) ->
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr ->
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr) field list ->
+  Types.type_expr -> Types.type_expr
+)
+ident(
+  int_ref build_type "cderiving.ml" 86 2546 2550 "cderiving.ml" 86 2546 2560
+)
+"cderiving.ml" 165 5949 5980 "cderiving.ml" 165 5949 5983
+type(
+  Asttypes.label * Typpx.Compilerlib.Types.type_expr ->
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"cderiving.ml" 165 5949 5984 "cderiving.ml" 165 5949 5987
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 118 3922 3960 "cderiving.ml" 118 3922 3963
+)
+"cderiving.ml" 165 5949 5988 "cderiving.ml" 165 5949 5999
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref template_ty "cderiving.ml" 121 4059 4084 "cderiving.ml" 121 4059 4095
+)
+"cderiving.ml" 165 5949 6000 "cderiving.ml" 165 5949 6006
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.type_expr) field list
+)
+ident(
+  int_ref fields "cderiving.ml" 160 5728 5740 "cderiving.ml" 160 5728 5746
+)
+"cderiving.ml" 165 5949 6007 "cderiving.ml" 165 5949 6009
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 118 3922 3968 "cderiving.ml" 118 3922 3970
+)
+"cderiving.ml" 165 5949 5969 "cderiving.ml" 165 5949 6009
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"cderiving.ml" 169 6108 6123 "cderiving.ml" 169 6108 6127
+type(
+  Path.t
+)
+ident(
+  int_ref path "cderiving.ml" 121 4059 4067 "cderiving.ml" 121 4059 4071
+)
+"cderiving.ml" 169 6108 6129 "cderiving.ml" 169 6108 6133
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref expr "cderiving.ml" 164 5913 5925 "cderiving.ml" 164 5913 5929
+)
+"cderiving.ml" 169 6108 6135 "cderiving.ml" 169 6108 6140
+type(
+  Types.type_expr
+)
+ident(
+  int_ref type_ "cderiving.ml" 165 5949 5961 "cderiving.ml" 165 5949 5966
+)
+"cderiving.ml" 169 6108 6155 "cderiving.ml" 169 6108 6160
+type(
+  bool
+)
+"cderiving.ml" 169 6108 6121 "cderiving.ml" 169 6108 6161
+type(
+  Candidate.t
+)
+"cderiving.ml" 169 6108 6116 "cderiving.ml" 169 6108 6161
+type(
+  Candidate.t option
+)
+"cderiving.ml" 165 5949 5957 "cderiving.ml" 169 6108 6161
+type(
+  Candidate.t option
+)
+"cderiving.ml" 164 5913 5921 "cderiving.ml" 169 6108 6161
+type(
+  Candidate.t option
+)
+"cderiving.ml" 160 5728 5736 "cderiving.ml" 169 6108 6161
+type(
+  Candidate.t option
+)
+"cderiving.ml" 158 5597 5605 "cderiving.ml" 169 6108 6161
+type(
+  Candidate.t option
+)
+"cderiving.ml" 145 5014 5022 "cderiving.ml" 169 6108 6161
+type(
+  Candidate.t option
+)
+"cderiving.ml" 135 4586 4594 "cderiving.ml" 169 6108 6161
+type(
+  Candidate.t option
+)
+"cderiving.ml" 124 4197 4205 "cderiving.ml" 169 6108 6161
+type(
+  Candidate.t option
+)
+"cderiving.ml" 170 6162 6166 "cderiving.ml" 170 6162 6167
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 170 6162 6171 "cderiving.ml" 170 6162 6175
+type(
+  Candidate.t option
+)
+"cderiving.ml" 122 4135 4139 "cderiving.ml" 170 6162 6175
+type(
+  Candidate.t option
+)
+"cderiving.ml" 121 4059 4063 "cderiving.ml" 170 6162 6175
+type(
+  Candidate.t option
+)
+"cderiving.ml" 120 4007 4011 "cderiving.ml" 170 6162 6175
+type(
+  Candidate.t option
+)
+"cderiving.ml" 119 3978 3997 "cderiving.ml" 170 6162 6175
+type(
+  unit -> Candidate.t option
+)
+"cderiving.ml" 119 3978 3980 "cderiving.ml" 170 6162 6175
+call(
+  tail
+)
+type(
+  Candidate.t option
+)
+"cderiving.ml" 179 6319 6323 "cderiving.ml" 179 6319 6343
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Types.type_expr -> Ppxx.Compilerlib.Longident.t -> Candidate.t option
+)
+ident(
+  def cand_deriving_object "cderiving.ml" 233 8730 8730 "cderiving.ml" 1 0 -1
+)
+"cderiving.ml" 179 6319 6344 "cderiving.ml" 179 6319 6347
+type(
+  Env.t
+)
+ident(
+  def env "cderiving.ml" 179 6319 6348 "cderiving.ml" 230 8710 8723
+)
+"cderiving.ml" 179 6319 6348 "cderiving.ml" 179 6319 6351
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "cderiving.ml" 179 6319 6352 "cderiving.ml" 230 8710 8723
+)
+"cderiving.ml" 179 6319 6352 "cderiving.ml" 179 6319 6354
+type(
+  Types.type_expr
+)
+ident(
+  def ty "cderiving.ml" 179 6319 6355 "cderiving.ml" 230 8710 8723
+)
+"cderiving.ml" 179 6319 6355 "cderiving.ml" 179 6319 6359
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def mlid "cderiving.ml" 180 6362 6364 "cderiving.ml" 230 8710 8723
+)
+"cderiving.ml" 182 6402 6404 "cderiving.ml" 182 6402 6413
+type(
+  Candidate.t option -> (unit -> Candidate.t option) -> Candidate.t option
+)
+ident(
+  ext_ref Utils.exit_then
+)
+"cderiving.ml" 182 6402 6414 "cderiving.ml" 182 6402 6418
+type(
+  Candidate.t option
+)
+"cderiving.ml" 182 6402 6404 "cderiving.ml" 182 6402 6418
+type(
+  (unit -> Candidate.t option) -> Candidate.t option
+)
+"cderiving.ml" 182 6402 6419 "cderiving.ml" 182 6402 6420
+type(
+  ((unit -> Candidate.t option) -> Candidate.t option) ->
+  (unit -> Candidate.t option) -> Candidate.t option
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 182 6402 6425 "cderiving.ml" 182 6402 6427
+type(
+  unit
+)
+"cderiving.ml" 183 6431 6439 "cderiving.ml" 183 6431 6442
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def lid "cderiving.ml" 184 6471 6475 "cderiving.ml" 230 8710 8723
+)
+"cderiving.ml" 183 6431 6451 "cderiving.ml" 183 6431 6455
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref mlid "cderiving.ml" 179 6319 6355 "cderiving.ml" 179 6319 6359
+)
+"cderiving.ml" 183 6431 6457 "cderiving.ml" 183 6431 6466
+type(
+  string
+)
+"cderiving.ml" 183 6431 6445 "cderiving.ml" 183 6431 6467
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"cderiving.ml" 184 6471 6479 "cderiving.ml" 184 6471 6483
+type(
+  Path.t
+)
+ident(
+  def path "cderiving.ml" 185 6547 6551 "cderiving.ml" 230 8710 8723
+)
+"cderiving.ml" 184 6471 6485 "cderiving.ml" 184 6471 6491
+type(
+  Asttypes.arg_label
+)
+ident(
+  def dlabel "cderiving.ml" 185 6547 6551 "cderiving.ml" 230 8710 8723
+)
+"cderiving.ml" 184 6471 6493 "cderiving.ml" 184 6471 6494
+type(
+  Types.type_expr
+)
+ident(
+  def v "cderiving.ml" 185 6547 6551 "cderiving.ml" 230 8710 8723
+)
+"cderiving.ml" 184 6471 6496 "cderiving.ml" 184 6471 6507
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def template_ty "cderiving.ml" 185 6547 6551 "cderiving.ml" 230 8710 8723
+)
+"cderiving.ml" 184 6471 6479 "cderiving.ml" 184 6471 6507
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 184 6471 6510 "cderiving.ml" 184 6471 6528
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Types.type_expr ->
+  Ppxx.Compilerlib.Longident.t ->
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref test_cand_deriving "cderiving.ml" 28 562 566 "cderiving.ml" 28 562 584
+)
+"cderiving.ml" 184 6471 6529 "cderiving.ml" 184 6471 6532
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 179 6319 6344 "cderiving.ml" 179 6319 6347
+)
+"cderiving.ml" 184 6471 6533 "cderiving.ml" 184 6471 6536
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 179 6319 6348 "cderiving.ml" 179 6319 6351
+)
+"cderiving.ml" 184 6471 6537 "cderiving.ml" 184 6471 6539
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 179 6319 6352 "cderiving.ml" 179 6319 6354
+)
+"cderiving.ml" 184 6471 6540 "cderiving.ml" 184 6471 6543
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "cderiving.ml" 183 6431 6439 "cderiving.ml" 183 6431 6442
+)
+"cderiving.ml" 184 6471 6510 "cderiving.ml" 184 6471 6543
+call(
+  stack
+)
+type(
+  Path.t * Asttypes.arg_label * Types.type_expr *
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 185 6547 6557 "cderiving.ml" 185 6547 6573
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_desc
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.expand_repr_desc
+)
+"cderiving.ml" 185 6547 6574 "cderiving.ml" 185 6547 6577
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 179 6319 6344 "cderiving.ml" 179 6319 6347
+)
+"cderiving.ml" 185 6547 6578 "cderiving.ml" 185 6547 6579
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref v "cderiving.ml" 184 6471 6493 "cderiving.ml" 184 6471 6494
+)
+"cderiving.ml" 185 6547 6557 "cderiving.ml" 185 6547 6579
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 186 6585 6600 "cderiving.ml" 186 6585 6606
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def fields "cderiving.ml" 187 6614 6622 "cderiving.ml" 229 8656 8709
+)
+"cderiving.ml" 186 6585 6608 "cderiving.ml" 186 6585 6609
+type(
+  (Path.t * Typpx.Compilerlib.Types.type_expr list) option ref
+)
+"cderiving.ml" 186 6585 6591 "cderiving.ml" 186 6585 6610
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 187 6614 6626 "cderiving.ml" 187 6614 6632
+type(
+  (string * Types.field_kind * Types.type_expr) list
+)
+ident(
+  def fields "cderiving.ml" 189 6778 6786 "cderiving.ml" 229 8656 8709
+)
+"cderiving.ml" 187 6614 6634 "cderiving.ml" 187 6614 6639
+type(
+  Types.type_expr
+)
+ident(
+  def _tvar "cderiving.ml" 189 6778 6786 "cderiving.ml" 229 8656 8709
+)
+"cderiving.ml" 187 6614 6626 "cderiving.ml" 187 6614 6639
+type(
+  (string * Types.field_kind * Types.type_expr) list * Types.type_expr
+)
+"cderiving.ml" 187 6614 6656 "cderiving.ml" 187 6614 6670
+type(
+  Typpx.Compilerlib.Types.type_expr ->
+  (string * Types.field_kind * Types.type_expr) list * Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.flatten_fields
+)
+"cderiving.ml" 187 6614 6671 "cderiving.ml" 187 6614 6677
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref fields "cderiving.ml" 186 6585 6600 "cderiving.ml" 186 6585 6606
+)
+"cderiving.ml" 187 6614 6656 "cderiving.ml" 187 6614 6677
+call(
+  stack
+)
+type(
+  (string * Types.field_kind * Types.type_expr) list * Types.type_expr
+)
+"cderiving.ml" 189 6778 6790 "cderiving.ml" 189 6778 6796
+type(
+  string -> Typpx.Compilerlib.Types.type_expr -> Types.type_expr
+)
+ident(
+  def fix_ty "cderiving.ml" 205 7423 7431 "cderiving.ml" 229 8656 8709
+)
+"cderiving.ml" 189 6778 6797 "cderiving.ml" 189 6778 6798
+type(
+  string
+)
+ident(
+  def f "cderiving.ml" 189 6778 6799 "cderiving.ml" 203 7370 7399
+)
+"cderiving.ml" 189 6778 6799 "cderiving.ml" 189 6778 6801
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "cderiving.ml" 189 6778 6804 "cderiving.ml" 203 7370 7399
+)
+"cderiving.ml" 189 6778 6810 "cderiving.ml" 189 6778 6819
+type(
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_desc
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.repr_desc
+)
+"cderiving.ml" 189 6778 6820 "cderiving.ml" 189 6778 6822
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 189 6778 6799 "cderiving.ml" 189 6778 6801
+)
+"cderiving.ml" 189 6778 6810 "cderiving.ml" 189 6778 6822
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 190 6828 6846 "cderiving.ml" 190 6828 6848
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "cderiving.ml" 190 6828 6857 "cderiving.ml" 190 6828 6872
+)
+"cderiving.ml" 190 6828 6850 "cderiving.ml" 190 6828 6852
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+"cderiving.ml" 190 6828 6840 "cderiving.ml" 190 6828 6853
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 190 6828 6857 "cderiving.ml" 190 6828 6865
+type(
+  ?partial:bool ->
+  Env.t -> Typpx.Compilerlib.Types.type_expr -> Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.instance
+)
+"cderiving.ml" 190 6828 6866 "cderiving.ml" 190 6828 6869
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 179 6319 6344 "cderiving.ml" 179 6319 6347
+)
+"cderiving.ml" 190 6828 6870 "cderiving.ml" 190 6828 6872
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 190 6828 6846 "cderiving.ml" 190 6828 6848
+)
+"cderiving.ml" 190 6828 6857 "cderiving.ml" 190 6828 6872
+call(
+  tail
+)
+type(
+  Types.type_expr
+)
+"cderiving.ml" 191 6873 6891 "cderiving.ml" 191 6873 6892
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 191 6873 6894 "cderiving.ml" 191 6873 6895
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+"cderiving.ml" 191 6873 6885 "cderiving.ml" 191 6873 6896
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 193 6974 6988 "cderiving.ml" 193 6974 6993
+type(
+  ((Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.t -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t ->
+   string ->
+   (Ppxx.Utils.Format.t -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr -> unit, Ppxx.Utils.Format.t, unit,
+   unit)
+  format4 ->
+  (Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  (Ppxx.Utils.Format.t -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t ->
+  string ->
+  (Ppxx.Utils.Format.t -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+  Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.warnf
+)
+"cderiving.ml" 193 6974 6994 "cderiving.ml" 193 6974 7073
+type(
+  ((Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.t -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t ->
+   string ->
+   (Ppxx.Utils.Format.t -> Typpx.Compilerlib.Types.type_expr -> unit) ->
+   Typpx.Compilerlib.Types.type_expr -> unit, Ppxx.Utils.Format.t, unit,
+   unit)
+  format4
+)
+"cderiving.ml" 194 7074 7090 "cderiving.ml" 194 7074 7105
+type(
+  Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"cderiving.ml" 194 7074 7106 "cderiving.ml" 194 7074 7109
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 179 6319 6348 "cderiving.ml" 179 6319 6351
+)
+"cderiving.ml" 195 7110 7126 "cderiving.ml" 195 7110 7137
+type(
+  Ppxx.Utils.Format.t -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"cderiving.ml" 195 7110 7138 "cderiving.ml" 195 7110 7142
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "cderiving.ml" 184 6471 6479 "cderiving.ml" 184 6471 6483
+)
+"cderiving.ml" 196 7143 7159 "cderiving.ml" 196 7143 7160
+type(
+  string
+)
+ident(
+  int_ref f "cderiving.ml" 189 6778 6797 "cderiving.ml" 189 6778 6798
+)
+"cderiving.ml" 197 7161 7177 "cderiving.ml" 197 7161 7197
+type(
+  Ppxx.Utils.Format.t -> Typpx.Compilerlib.Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_scheme
+)
+"cderiving.ml" 197 7161 7198 "cderiving.ml" 197 7161 7200
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 189 6778 6799 "cderiving.ml" 189 6778 6801
+)
+"cderiving.ml" 193 6974 6988 "cderiving.ml" 197 7161 7200
+call(
+  stack
+)
+type(
+  unit
+)
+"cderiving.ml" 198 7202 7216 "cderiving.ml" 198 7202 7221
+type(
+  exn -> Types.type_expr
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"cderiving.ml" 198 7202 7222 "cderiving.ml" 198 7202 7226
+type(
+  exn
+)
+"cderiving.ml" 198 7202 7216 "cderiving.ml" 198 7202 7226
+type(
+  Types.type_expr
+)
+"cderiving.ml" 193 6974 6988 "cderiving.ml" 198 7202 7226
+type(
+  Types.type_expr
+)
+"cderiving.ml" 199 7227 7244 "cderiving.ml" 199 7227 7245
+type(
+  string option
+)
+"cderiving.ml" 199 7227 7239 "cderiving.ml" 199 7227 7245
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 200 7249 7267 "cderiving.ml" 200 7249 7270
+type(
+  Types.type_expr
+)
+ident(
+  def ty' "cderiving.ml" 201 7286 7300 "cderiving.ml" 202 7352 7369
+)
+"cderiving.ml" 200 7249 7273 "cderiving.ml" 200 7249 7279
+type(
+  ?name:string -> unit -> Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.newvar
+)
+"cderiving.ml" 200 7249 7280 "cderiving.ml" 200 7249 7282
+type(
+  unit
+)
+"cderiving.ml" 200 7249 7273 "cderiving.ml" 200 7249 7282
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"cderiving.ml" 201 7286 7300 "cderiving.ml" 201 7286 7305
+type(
+  Env.t -> Types.type_expr -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.unify
+)
+"cderiving.ml" 201 7286 7306 "cderiving.ml" 201 7286 7309
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 179 6319 6344 "cderiving.ml" 179 6319 6347
+)
+"cderiving.ml" 201 7286 7311 "cderiving.ml" 201 7286 7323
+type(
+  Typpx.Compilerlib.Types.type_expr -> Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.instance_def
+)
+"cderiving.ml" 201 7286 7324 "cderiving.ml" 201 7286 7326
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 189 6778 6799 "cderiving.ml" 189 6778 6801
+)
+"cderiving.ml" 201 7286 7310 "cderiving.ml" 201 7286 7327
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"cderiving.ml" 201 7286 7329 "cderiving.ml" 201 7286 7334
+type(
+  Typpx.Compilerlib.Types.type_desc -> Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.newty
+)
+"cderiving.ml" 201 7286 7341 "cderiving.ml" 201 7286 7344
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty' "cderiving.ml" 200 7249 7267 "cderiving.ml" 200 7249 7270
+)
+"cderiving.ml" 201 7286 7345 "cderiving.ml" 201 7286 7347
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+"cderiving.ml" 201 7286 7334 "cderiving.ml" 201 7286 7349
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 201 7286 7328 "cderiving.ml" 201 7286 7350
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"cderiving.ml" 201 7286 7300 "cderiving.ml" 201 7286 7350
+call(
+  stack
+)
+type(
+  unit
+)
+"cderiving.ml" 202 7352 7366 "cderiving.ml" 202 7352 7369
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty' "cderiving.ml" 200 7249 7267 "cderiving.ml" 200 7249 7270
+)
+"cderiving.ml" 201 7286 7300 "cderiving.ml" 202 7352 7369
+type(
+  Types.type_expr
+)
+"cderiving.ml" 200 7249 7263 "cderiving.ml" 202 7352 7369
+type(
+  Types.type_expr
+)
+"cderiving.ml" 203 7370 7382 "cderiving.ml" 203 7370 7383
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 203 7370 7394 "cderiving.ml" 203 7370 7399
+type(
+  bool
+)
+"cderiving.ml" 203 7370 7387 "cderiving.ml" 203 7370 7399
+type(
+  Types.type_expr
+)
+"cderiving.ml" 189 6778 6804 "cderiving.ml" 203 7370 7399
+type(
+  Types.type_expr
+)
+"cderiving.ml" 205 7423 7435 "cderiving.ml" 205 7423 7441
+type(
+  (string * Types.field_kind * Types.type_expr) list
+)
+ident(
+  def fields "cderiving.ml" 206 7514 7522 "cderiving.ml" 229 8656 8709
+)
+"cderiving.ml" 205 7423 7444 "cderiving.ml" 205 7423 7447
+type(
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr ->
+   string * Types.field_kind * Types.type_expr) ->
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr) list ->
+  (string * Types.field_kind * Types.type_expr) list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"cderiving.ml" 205 7423 7454 "cderiving.ml" 205 7423 7455
+type(
+  string
+)
+ident(
+  def l "cderiving.ml" 205 7423 7466 "cderiving.ml" 205 7423 7502
+)
+"cderiving.ml" 205 7423 7456 "cderiving.ml" 205 7423 7458
+type(
+  Types.field_kind
+)
+ident(
+  def fk "cderiving.ml" 205 7423 7466 "cderiving.ml" 205 7423 7502
+)
+"cderiving.ml" 205 7423 7459 "cderiving.ml" 205 7423 7461
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "cderiving.ml" 205 7423 7466 "cderiving.ml" 205 7423 7502
+)
+"cderiving.ml" 205 7423 7453 "cderiving.ml" 205 7423 7462
+type(
+  string * Types.field_kind * Typpx.Compilerlib.Types.type_expr
+)
+"cderiving.ml" 205 7423 7467 "cderiving.ml" 205 7423 7468
+type(
+  string
+)
+ident(
+  int_ref l "cderiving.ml" 205 7423 7454 "cderiving.ml" 205 7423 7455
+)
+"cderiving.ml" 205 7423 7470 "cderiving.ml" 205 7423 7485
+type(
+  Types.field_kind -> Types.field_kind
+)
+ident(
+  ext_ref Btype.field_kind_repr
+)
+"cderiving.ml" 205 7423 7486 "cderiving.ml" 205 7423 7488
+type(
+  Types.field_kind
+)
+ident(
+  int_ref fk "cderiving.ml" 205 7423 7456 "cderiving.ml" 205 7423 7458
+)
+"cderiving.ml" 205 7423 7470 "cderiving.ml" 205 7423 7488
+call(
+  stack
+)
+type(
+  Types.field_kind
+)
+"cderiving.ml" 205 7423 7490 "cderiving.ml" 205 7423 7496
+type(
+  string -> Typpx.Compilerlib.Types.type_expr -> Types.type_expr
+)
+ident(
+  int_ref fix_ty "cderiving.ml" 189 6778 6790 "cderiving.ml" 189 6778 6796
+)
+"cderiving.ml" 205 7423 7497 "cderiving.ml" 205 7423 7498
+type(
+  string
+)
+ident(
+  int_ref l "cderiving.ml" 205 7423 7454 "cderiving.ml" 205 7423 7455
+)
+"cderiving.ml" 205 7423 7499 "cderiving.ml" 205 7423 7501
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 205 7423 7459 "cderiving.ml" 205 7423 7461
+)
+"cderiving.ml" 205 7423 7490 "cderiving.ml" 205 7423 7501
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"cderiving.ml" 205 7423 7466 "cderiving.ml" 205 7423 7502
+type(
+  string * Types.field_kind * Types.type_expr
+)
+"cderiving.ml" 205 7423 7448 "cderiving.ml" 205 7423 7503
+type(
+  string * Types.field_kind * Typpx.Compilerlib.Types.type_expr ->
+  string * Types.field_kind * Types.type_expr
+)
+"cderiving.ml" 205 7423 7504 "cderiving.ml" 205 7423 7510
+type(
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr) list
+)
+ident(
+  int_ref fields "cderiving.ml" 187 6614 6626 "cderiving.ml" 187 6614 6632
+)
+"cderiving.ml" 205 7423 7444 "cderiving.ml" 205 7423 7510
+call(
+  stack
+)
+type(
+  (string * Types.field_kind * Types.type_expr) list
+)
+"cderiving.ml" 206 7514 7525 "cderiving.ml" 206 7514 7531
+type(
+  (string * Typpx.Compilerlib.Types.field_kind * Types.type_expr -> bool) ->
+  (string * Typpx.Compilerlib.Types.field_kind * Types.type_expr) list ->
+  bool
+)
+ident(
+  ext_ref Ppxx.Utils.List.exists
+)
+"cderiving.ml" 206 7514 7538 "cderiving.ml" 206 7514 7539
+type(
+  string
+)
+"cderiving.ml" 206 7514 7540 "cderiving.ml" 206 7514 7542
+type(
+  Typpx.Compilerlib.Types.field_kind
+)
+ident(
+  def fk "cderiving.ml" 206 7514 7549 "cderiving.ml" 206 7514 7563
+)
+"cderiving.ml" 206 7514 7543 "cderiving.ml" 206 7514 7544
+type(
+  Types.type_expr
+)
+"cderiving.ml" 206 7514 7537 "cderiving.ml" 206 7514 7545
+type(
+  string * Typpx.Compilerlib.Types.field_kind * Types.type_expr
+)
+"cderiving.ml" 206 7514 7549 "cderiving.ml" 206 7514 7551
+type(
+  Typpx.Compilerlib.Types.field_kind
+)
+ident(
+  int_ref fk "cderiving.ml" 206 7514 7540 "cderiving.ml" 206 7514 7542
+)
+"cderiving.ml" 206 7514 7552 "cderiving.ml" 206 7514 7554
+type(
+  Typpx.Compilerlib.Types.field_kind ->
+  Typpx.Compilerlib.Types.field_kind -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"cderiving.ml" 206 7514 7555 "cderiving.ml" 206 7514 7563
+type(
+  Typpx.Compilerlib.Types.field_kind
+)
+"cderiving.ml" 206 7514 7549 "cderiving.ml" 206 7514 7563
+type(
+  bool
+)
+"cderiving.ml" 206 7514 7532 "cderiving.ml" 206 7514 7564
+type(
+  string * Typpx.Compilerlib.Types.field_kind * Types.type_expr -> bool
+)
+"cderiving.ml" 206 7514 7565 "cderiving.ml" 206 7514 7571
+type(
+  (string * Typpx.Compilerlib.Types.field_kind * Types.type_expr) list
+)
+ident(
+  int_ref fields "cderiving.ml" 205 7423 7435 "cderiving.ml" 205 7423 7441
+)
+"cderiving.ml" 206 7514 7525 "cderiving.ml" 206 7514 7571
+call(
+  stack
+)
+type(
+  bool
+)
+"cderiving.ml" 207 7583 7593 "cderiving.ml" 207 7583 7598
+type(
+  ((Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.t -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t ->
+   (Ppxx.Utils.Format.t -> Types.type_expr -> unit) ->
+   Types.type_expr -> unit, Ppxx.Utils.Format.t, unit, unit)
+  format4 ->
+  (Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  (Ppxx.Utils.Format.t -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t ->
+  (Ppxx.Utils.Format.t -> Types.type_expr -> unit) -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.warnf
+)
+"cderiving.ml" 207 7583 7599 "cderiving.ml" 207 7583 7695
+type(
+  ((Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.t -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t ->
+   (Ppxx.Utils.Format.t -> Types.type_expr -> unit) ->
+   Types.type_expr -> unit, Ppxx.Utils.Format.t, unit, unit)
+  format4
+)
+"cderiving.ml" 208 7696 7708 "cderiving.ml" 208 7696 7723
+type(
+  Ppxx.Utils.Format.t -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"cderiving.ml" 208 7696 7724 "cderiving.ml" 208 7696 7727
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 179 6319 6348 "cderiving.ml" 179 6319 6351
+)
+"cderiving.ml" 209 7728 7740 "cderiving.ml" 209 7728 7751
+type(
+  Ppxx.Utils.Format.t -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"cderiving.ml" 209 7728 7752 "cderiving.ml" 209 7728 7756
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "cderiving.ml" 184 6471 6479 "cderiving.ml" 184 6471 6483
+)
+"cderiving.ml" 210 7757 7769 "cderiving.ml" 210 7757 7789
+type(
+  Ppxx.Utils.Format.t -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Printtyp.type_scheme
+)
+"cderiving.ml" 210 7757 7790 "cderiving.ml" 210 7757 7791
+type(
+  Types.type_expr
+)
+ident(
+  int_ref v "cderiving.ml" 184 6471 6493 "cderiving.ml" 184 6471 6494
+)
+"cderiving.ml" 207 7583 7593 "cderiving.ml" 210 7757 7791
+call(
+  stack
+)
+type(
+  unit
+)
+"cderiving.ml" 211 7793 7803 "cderiving.ml" 211 7793 7808
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"cderiving.ml" 211 7793 7809 "cderiving.ml" 211 7793 7813
+type(
+  exn
+)
+"cderiving.ml" 211 7793 7803 "cderiving.ml" 211 7793 7813
+type(
+  unit
+)
+"cderiving.ml" 206 7514 7577 "cderiving.ml" 212 7814 7825
+type(
+  unit
+)
+"cderiving.ml" 206 7514 7522 "cderiving.ml" 212 7814 7825
+type(
+  unit
+)
+"cderiving.ml" 213 7827 7839 "cderiving.ml" 213 7827 7845
+type(
+  (string * Types.type_expr) field list
+)
+ident(
+  def fields "cderiving.ml" 214 7903 7911 "cderiving.ml" 229 8656 8709
+)
+"cderiving.ml" 213 7827 7848 "cderiving.ml" 213 7827 7859
+type(
+  (string * Types.type_expr) list -> (string * Types.type_expr) field list
+)
+ident(
+  int_ref make_fields "cderiving.ml" 74 2200 2204 "cderiving.ml" 74 2200 2215
+)
+"cderiving.ml" 213 7827 7860 "cderiving.ml" 213 7827 7861
+type(
+  ((string * Types.type_expr) list -> (string * Types.type_expr) field list) ->
+  (string * Types.type_expr) list -> (string * Types.type_expr) field list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 213 7827 7862 "cderiving.ml" 213 7827 7865
+type(
+  (string * Types.field_kind * Types.type_expr -> string * Types.type_expr) ->
+  (string * Types.field_kind * Types.type_expr) list ->
+  (string * Types.type_expr) list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"cderiving.ml" 213 7827 7872 "cderiving.ml" 213 7827 7873
+type(
+  string
+)
+ident(
+  def l "cderiving.ml" 213 7827 7885 "cderiving.ml" 213 7827 7891
+)
+"cderiving.ml" 213 7827 7875 "cderiving.ml" 213 7827 7876
+type(
+  Types.field_kind
+)
+"cderiving.ml" 213 7827 7878 "cderiving.ml" 213 7827 7880
+type(
+  Types.type_expr
+)
+ident(
+  def ty "cderiving.ml" 213 7827 7885 "cderiving.ml" 213 7827 7891
+)
+"cderiving.ml" 213 7827 7871 "cderiving.ml" 213 7827 7881
+type(
+  string * Types.field_kind * Types.type_expr
+)
+"cderiving.ml" 213 7827 7886 "cderiving.ml" 213 7827 7887
+type(
+  string
+)
+ident(
+  int_ref l "cderiving.ml" 213 7827 7872 "cderiving.ml" 213 7827 7873
+)
+"cderiving.ml" 213 7827 7888 "cderiving.ml" 213 7827 7890
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 213 7827 7878 "cderiving.ml" 213 7827 7880
+)
+"cderiving.ml" 213 7827 7885 "cderiving.ml" 213 7827 7891
+type(
+  string * Types.type_expr
+)
+"cderiving.ml" 213 7827 7866 "cderiving.ml" 213 7827 7892
+type(
+  string * Types.field_kind * Types.type_expr -> string * Types.type_expr
+)
+"cderiving.ml" 213 7827 7893 "cderiving.ml" 213 7827 7899
+type(
+  (string * Types.field_kind * Types.type_expr) list
+)
+ident(
+  int_ref fields "cderiving.ml" 205 7423 7435 "cderiving.ml" 205 7423 7441
+)
+"cderiving.ml" 213 7827 7862 "cderiving.ml" 213 7827 7899
+call(
+  stack
+)
+type(
+  (string * Types.type_expr) list
+)
+"cderiving.ml" 213 7827 7848 "cderiving.ml" 213 7827 7899
+call(
+  stack
+)
+type(
+  (string * Types.type_expr) field list
+)
+"cderiving.ml" 214 7903 7915 "cderiving.ml" 214 7903 7917
+type(
+  Typedtree.expression
+)
+ident(
+  def ds "cderiving.ml" 224 8393 8401 "cderiving.ml" 229 8656 8709
+)
+"cderiving.ml" 216 7952 7962 "cderiving.ml" 216 7952 7966
+type(
+  Env.t -> Typedtree.expression list -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.list
+)
+"cderiving.ml" 216 7952 7967 "cderiving.ml" 216 7952 7970
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 179 6319 6344 "cderiving.ml" 179 6319 6347
+)
+"cderiving.ml" 216 7952 7962 "cderiving.ml" 216 7952 7970
+type(
+  Typedtree.expression list -> Typedtree.expression
+)
+"cderiving.ml" 216 7952 7971 "cderiving.ml" 216 7952 7972
+type(
+  (Typedtree.expression list -> Typedtree.expression) ->
+  Typedtree.expression list -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 216 7952 7973 "cderiving.ml" 216 7952 7976
+type(
+  ((string * Types.type_expr) field -> Typedtree.expression) ->
+  (string * Types.type_expr) field list -> Typedtree.expression list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"cderiving.ml" 216 7952 7990 "cderiving.ml" 216 7952 7991
+type(
+  string
+)
+ident(
+  def l "cderiving.ml" 217 8011 8023 "cderiving.ml" 221 8276 8354
+)
+"cderiving.ml" 216 7952 7992 "cderiving.ml" 216 7952 7995
+type(
+  Types.type_expr
+)
+ident(
+  def _ty "cderiving.ml" 217 8011 8023 "cderiving.ml" 221 8276 8354
+)
+"cderiving.ml" 216 7952 7989 "cderiving.ml" 216 7952 7996
+type(
+  string * Types.type_expr
+)
+"cderiving.ml" 216 7952 8004 "cderiving.ml" 216 7952 8006
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  def id "cderiving.ml" 217 8011 8023 "cderiving.ml" 221 8276 8354
+)
+"cderiving.ml" 216 7952 7982 "cderiving.ml" 216 7952 8007
+type(
+  (string * Types.type_expr) field
+)
+"cderiving.ml" 217 8011 8027 "cderiving.ml" 217 8011 8031
+type(
+  'a
+)
+ident(
+  def hash "cderiving.ml" 219 8164 8176 "cderiving.ml" 221 8276 8354
+)
+"cderiving.ml" 217 8011 8034 "cderiving.ml" 217 8011 8043
+type(
+  CamlinternalOO.tag -> 'a
+)
+ident(
+  ext_ref Obj.magic
+)
+"cderiving.ml" 217 8011 8044 "cderiving.ml" 217 8011 8045
+type(
+  (CamlinternalOO.tag -> 'a) -> CamlinternalOO.tag -> 'a
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 217 8011 8046 "cderiving.ml" 217 8011 8080
+type(
+  string -> CamlinternalOO.tag
+)
+ident(
+  ext_ref CamlinternalOO.public_method_label
+)
+"cderiving.ml" 217 8011 8081 "cderiving.ml" 217 8011 8082
+type(
+  string
+)
+ident(
+  int_ref l "cderiving.ml" 216 7952 7990 "cderiving.ml" 216 7952 7991
+)
+"cderiving.ml" 217 8011 8046 "cderiving.ml" 217 8011 8082
+call(
+  stack
+)
+type(
+  CamlinternalOO.tag
+)
+"cderiving.ml" 217 8011 8034 "cderiving.ml" 217 8011 8082
+type(
+  'a
+)
+"cderiving.ml" 219 8164 8176 "cderiving.ml" 219 8164 8181
+type(
+  Typedtree.expression list -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.tuple
+)
+"cderiving.ml" 219 8164 8184 "cderiving.ml" 219 8164 8191
+type(
+  Ast_405.Parsetree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.untyped
+)
+"cderiving.ml" 219 8164 8193 "cderiving.ml" 219 8164 8215
+type(
+  ?loc:Ast_405.Location.t ->
+  ?attrs:Ast_405.Ast_helper.attrs -> string -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Helper.Exp.string
+)
+"cderiving.ml" 219 8164 8216 "cderiving.ml" 219 8164 8217
+type(
+  string
+)
+ident(
+  int_ref l "cderiving.ml" 216 7952 7990 "cderiving.ml" 216 7952 7991
+)
+"cderiving.ml" 219 8164 8192 "cderiving.ml" 219 8164 8218
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"cderiving.ml" 219 8164 8184 "cderiving.ml" 219 8164 8218
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 220 8220 8240 "cderiving.ml" 220 8220 8247
+type(
+  Ast_405.Parsetree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.untyped
+)
+"cderiving.ml" 220 8220 8249 "cderiving.ml" 220 8220 8268
+type(
+  ?loc:Ast_405.Location.t ->
+  ?attrs:Ast_405.Ast_helper.attrs -> int -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Helper.Exp.int
+)
+"cderiving.ml" 220 8220 8269 "cderiving.ml" 220 8220 8273
+type(
+  int
+)
+ident(
+  int_ref hash "cderiving.ml" 217 8011 8027 "cderiving.ml" 217 8011 8031
+)
+"cderiving.ml" 220 8220 8248 "cderiving.ml" 220 8220 8274
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"cderiving.ml" 220 8220 8240 "cderiving.ml" 220 8220 8274
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 221 8276 8296 "cderiving.ml" 221 8276 8304
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref obj_repr "cderiving.ml" 17 154 158 "cderiving.ml" 17 154 166
+)
+"cderiving.ml" 221 8276 8305 "cderiving.ml" 221 8276 8308
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 179 6319 6344 "cderiving.ml" 179 6319 6347
+)
+"cderiving.ml" 221 8276 8309 "cderiving.ml" 221 8276 8312
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 179 6319 6348 "cderiving.ml" 179 6319 6351
+)
+"cderiving.ml" 221 8276 8296 "cderiving.ml" 221 8276 8312
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"cderiving.ml" 221 8276 8313 "cderiving.ml" 221 8276 8314
+type(
+  (Typedtree.expression -> Typedtree.expression) ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 221 8276 8315 "cderiving.ml" 221 8276 8323
+type(
+  Env.t -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.with_env
+)
+"cderiving.ml" 221 8276 8324 "cderiving.ml" 221 8276 8327
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 179 6319 6344 "cderiving.ml" 179 6319 6347
+)
+"cderiving.ml" 221 8276 8315 "cderiving.ml" 221 8276 8327
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"cderiving.ml" 221 8276 8328 "cderiving.ml" 221 8276 8329
+type(
+  (Typedtree.expression -> Typedtree.expression) ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 221 8276 8330 "cderiving.ml" 221 8276 8335
+type(
+  Typpx.Forge.Path.t -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.ident
+)
+"cderiving.ml" 221 8276 8336 "cderiving.ml" 221 8276 8337
+type(
+  (Typpx.Forge.Path.t -> Typedtree.expression) ->
+  Typpx.Forge.Path.t -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 221 8276 8350 "cderiving.ml" 221 8276 8352
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "cderiving.ml" 216 7952 8004 "cderiving.ml" 216 7952 8006
+)
+"cderiving.ml" 221 8276 8338 "cderiving.ml" 221 8276 8352
+type(
+  Typpx.Compilerlib.Path.t
+)
+"cderiving.ml" 221 8276 8330 "cderiving.ml" 221 8276 8352
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 221 8276 8315 "cderiving.ml" 221 8276 8352
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 221 8276 8296 "cderiving.ml" 221 8276 8352
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 219 8164 8182 "cderiving.ml" 221 8276 8354
+type(
+  Typedtree.expression list
+)
+"cderiving.ml" 219 8164 8176 "cderiving.ml" 221 8276 8354
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 217 8011 8023 "cderiving.ml" 221 8276 8354
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 216 7952 7977 "cderiving.ml" 221 8276 8355
+type(
+  (string * Types.type_expr) field -> Typedtree.expression
+)
+"cderiving.ml" 222 8356 8375 "cderiving.ml" 222 8356 8381
+type(
+  (string * Types.type_expr) field list
+)
+ident(
+  int_ref fields "cderiving.ml" 213 7827 7839 "cderiving.ml" 213 7827 7845
+)
+"cderiving.ml" 216 7952 7973 "cderiving.ml" 222 8356 8381
+call(
+  stack
+)
+type(
+  Typedtree.expression list
+)
+"cderiving.ml" 216 7952 7962 "cderiving.ml" 222 8356 8381
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 224 8393 8405 "cderiving.ml" 224 8393 8406
+type(
+  Typedtree.expression
+)
+ident(
+  def e "cderiving.ml" 225 8469 8477 "cderiving.ml" 229 8656 8709
+)
+"cderiving.ml" 224 8393 8420 "cderiving.ml" 224 8393 8423
+type(
+  Typedtree.expression ->
+  (Asttypes.arg_label * Typedtree.expression) list -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.app
+)
+"cderiving.ml" 224 8393 8425 "cderiving.ml" 224 8393 8433
+type(
+  Env.t -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.with_env
+)
+"cderiving.ml" 224 8393 8434 "cderiving.ml" 224 8393 8437
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 179 6319 6344 "cderiving.ml" 179 6319 6347
+)
+"cderiving.ml" 224 8393 8425 "cderiving.ml" 224 8393 8437
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+"cderiving.ml" 224 8393 8438 "cderiving.ml" 224 8393 8439
+type(
+  (Typedtree.expression -> Typedtree.expression) ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"cderiving.ml" 224 8393 8440 "cderiving.ml" 224 8393 8445
+type(
+  Typpx.Forge.Path.t -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.ident
+)
+"cderiving.ml" 224 8393 8446 "cderiving.ml" 224 8393 8450
+type(
+  Typpx.Forge.Path.t
+)
+ident(
+  int_ref path "cderiving.ml" 184 6471 6479 "cderiving.ml" 184 6471 6483
+)
+"cderiving.ml" 224 8393 8440 "cderiving.ml" 224 8393 8450
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 224 8393 8424 "cderiving.ml" 224 8393 8451
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 224 8393 8453 "cderiving.ml" 224 8393 8459
+type(
+  Asttypes.arg_label
+)
+ident(
+  int_ref dlabel "cderiving.ml" 184 6471 6485 "cderiving.ml" 184 6471 6491
+)
+"cderiving.ml" 224 8393 8461 "cderiving.ml" 224 8393 8463
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref ds "cderiving.ml" 214 7903 7915 "cderiving.ml" 214 7903 7917
+)
+"cderiving.ml" 224 8393 8453 "cderiving.ml" 224 8393 8463
+type(
+  Asttypes.arg_label * Typedtree.expression
+)
+"cderiving.ml" 224 8393 8452 "cderiving.ml" 224 8393 8464
+type(
+  (Asttypes.arg_label * Typedtree.expression) list
+)
+"cderiving.ml" 224 8393 8420 "cderiving.ml" 224 8393 8464
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 225 8469 8481 "cderiving.ml" 225 8469 8485
+type(
+  Typedtree.expression
+)
+ident(
+  def expr "cderiving.ml" 226 8505 8513 "cderiving.ml" 229 8656 8709
+)
+"cderiving.ml" 225 8469 8488 "cderiving.ml" 225 8469 8492
+type(
+  (string * Types.type_expr) field list ->
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  int_ref kabs "cderiving.ml" 81 2411 2415 "cderiving.ml" 81 2411 2419
+)
+"cderiving.ml" 225 8469 8493 "cderiving.ml" 225 8469 8499
+type(
+  (string * Types.type_expr) field list
+)
+ident(
+  int_ref fields "cderiving.ml" 213 7827 7839 "cderiving.ml" 213 7827 7845
+)
+"cderiving.ml" 225 8469 8500 "cderiving.ml" 225 8469 8501
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "cderiving.ml" 224 8393 8405 "cderiving.ml" 224 8393 8406
+)
+"cderiving.ml" 225 8469 8488 "cderiving.ml" 225 8469 8501
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"cderiving.ml" 226 8505 8517 "cderiving.ml" 226 8505 8522
+type(
+  Types.type_expr
+)
+ident(
+  def type_ "cderiving.ml" 229 8656 8664 "cderiving.ml" 229 8656 8709
+)
+"cderiving.ml" 226 8505 8525 "cderiving.ml" 226 8505 8535
+type(
+  (string * Types.type_expr -> Types.type_expr) ->
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr ->
+  (string * Types.type_expr) field list -> Types.type_expr -> Types.type_expr
+)
+ident(
+  int_ref build_type "cderiving.ml" 86 2546 2550 "cderiving.ml" 86 2546 2560
+)
+"cderiving.ml" 226 8505 8536 "cderiving.ml" 226 8505 8539
+type(
+  string * Types.type_expr -> Types.type_expr
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"cderiving.ml" 226 8505 8540 "cderiving.ml" 226 8505 8543
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 179 6319 6344 "cderiving.ml" 179 6319 6347
+)
+"cderiving.ml" 226 8505 8544 "cderiving.ml" 226 8505 8555
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref template_ty "cderiving.ml" 184 6471 6496 "cderiving.ml" 184 6471 6507
+)
+"cderiving.ml" 226 8505 8556 "cderiving.ml" 226 8505 8562
+type(
+  (string * Types.type_expr) field list
+)
+ident(
+  int_ref fields "cderiving.ml" 213 7827 7839 "cderiving.ml" 213 7827 7845
+)
+"cderiving.ml" 226 8505 8563 "cderiving.ml" 226 8505 8565
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 179 6319 6352 "cderiving.ml" 179 6319 6354
+)
+"cderiving.ml" 226 8505 8525 "cderiving.ml" 226 8505 8565
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"cderiving.ml" 229 8656 8671 "cderiving.ml" 229 8656 8675
+type(
+  Path.t
+)
+ident(
+  int_ref path "cderiving.ml" 184 6471 6479 "cderiving.ml" 184 6471 6483
+)
+"cderiving.ml" 229 8656 8677 "cderiving.ml" 229 8656 8681
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref expr "cderiving.ml" 225 8469 8481 "cderiving.ml" 225 8469 8485
+)
+"cderiving.ml" 229 8656 8683 "cderiving.ml" 229 8656 8688
+type(
+  Types.type_expr
+)
+ident(
+  int_ref type_ "cderiving.ml" 226 8505 8517 "cderiving.ml" 226 8505 8522
+)
+"cderiving.ml" 229 8656 8703 "cderiving.ml" 229 8656 8708
+type(
+  bool
+)
+"cderiving.ml" 229 8656 8669 "cderiving.ml" 229 8656 8709
+type(
+  Candidate.t
+)
+"cderiving.ml" 229 8656 8664 "cderiving.ml" 229 8656 8709
+type(
+  Candidate.t option
+)
+"cderiving.ml" 226 8505 8513 "cderiving.ml" 229 8656 8709
+type(
+  Candidate.t option
+)
+"cderiving.ml" 225 8469 8477 "cderiving.ml" 229 8656 8709
+type(
+  Candidate.t option
+)
+"cderiving.ml" 224 8393 8401 "cderiving.ml" 229 8656 8709
+type(
+  Candidate.t option
+)
+"cderiving.ml" 214 7903 7911 "cderiving.ml" 229 8656 8709
+type(
+  Candidate.t option
+)
+"cderiving.ml" 213 7827 7835 "cderiving.ml" 229 8656 8709
+type(
+  Candidate.t option
+)
+"cderiving.ml" 206 7514 7522 "cderiving.ml" 229 8656 8709
+type(
+  Candidate.t option
+)
+"cderiving.ml" 205 7423 7431 "cderiving.ml" 229 8656 8709
+type(
+  Candidate.t option
+)
+"cderiving.ml" 189 6778 6786 "cderiving.ml" 229 8656 8709
+type(
+  Candidate.t option
+)
+"cderiving.ml" 187 6614 6622 "cderiving.ml" 229 8656 8709
+type(
+  Candidate.t option
+)
+"cderiving.ml" 230 8710 8714 "cderiving.ml" 230 8710 8715
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"cderiving.ml" 230 8710 8719 "cderiving.ml" 230 8710 8723
+type(
+  Candidate.t option
+)
+"cderiving.ml" 185 6547 6551 "cderiving.ml" 230 8710 8723
+type(
+  Candidate.t option
+)
+"cderiving.ml" 184 6471 6475 "cderiving.ml" 230 8710 8723
+type(
+  Candidate.t option
+)
+"cderiving.ml" 183 6431 6435 "cderiving.ml" 230 8710 8723
+type(
+  Candidate.t option
+)
+"cderiving.ml" 182 6402 6421 "cderiving.ml" 230 8710 8723
+type(
+  unit -> Candidate.t option
+)
+"cderiving.ml" 182 6402 6404 "cderiving.ml" 230 8710 8723
+call(
+  tail
+)
+type(
+  Candidate.t option
+)
+"cderiving.ml" 233 8730 8734 "cderiving.ml" 233 8730 8747
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Types.type_expr -> Ppxx.Compilerlib.Longident.t -> Candidate.t list
+)
+ident(
+  def cand_deriving "cderiving.ml" 238 8936 8941 "cderiving.ml" 1 0 -1
+)
+"cderiving.ml" 233 8730 8748 "cderiving.ml" 233 8730 8751
+type(
+  Env.t
+)
+ident(
+  def env "cderiving.ml" 233 8730 8752 "cderiving.ml" 238 8936 8941
+)
+"cderiving.ml" 233 8730 8752 "cderiving.ml" 233 8730 8755
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "cderiving.ml" 233 8730 8756 "cderiving.ml" 238 8936 8941
+)
+"cderiving.ml" 233 8730 8756 "cderiving.ml" 233 8730 8758
+type(
+  Types.type_expr
+)
+ident(
+  def ty "cderiving.ml" 233 8730 8759 "cderiving.ml" 238 8936 8941
+)
+"cderiving.ml" 233 8730 8759 "cderiving.ml" 233 8730 8763
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def mlid "cderiving.ml" 234 8766 8768 "cderiving.ml" 238 8936 8941
+)
+"cderiving.ml" 234 8766 8768 "cderiving.ml" 234 8766 8778
+type(
+  (Candidate.t option -> Candidate.t option) ->
+  Candidate.t option list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.filter_map
+)
+"cderiving.ml" 234 8766 8784 "cderiving.ml" 234 8766 8785
+type(
+  Candidate.t option
+)
+ident(
+  def x "cderiving.ml" 234 8766 8789 "cderiving.ml" 234 8766 8790
+)
+"cderiving.ml" 234 8766 8789 "cderiving.ml" 234 8766 8790
+type(
+  Candidate.t option
+)
+ident(
+  int_ref x "cderiving.ml" 234 8766 8784 "cderiving.ml" 234 8766 8785
+)
+"cderiving.ml" 234 8766 8779 "cderiving.ml" 234 8766 8791
+type(
+  Candidate.t option -> Candidate.t option
+)
+"cderiving.ml" 235 8792 8798 "cderiving.ml" 235 8792 8817
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Types.type_expr -> Ppxx.Compilerlib.Longident.t -> Candidate.t option
+)
+ident(
+  int_ref cand_deriving_tuple "cderiving.ml" 99 3125 3129 "cderiving.ml" 99 3125 3148
+)
+"cderiving.ml" 235 8792 8818 "cderiving.ml" 235 8792 8821
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 233 8730 8748 "cderiving.ml" 233 8730 8751
+)
+"cderiving.ml" 235 8792 8822 "cderiving.ml" 235 8792 8825
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 233 8730 8752 "cderiving.ml" 233 8730 8755
+)
+"cderiving.ml" 235 8792 8826 "cderiving.ml" 235 8792 8828
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 233 8730 8756 "cderiving.ml" 233 8730 8758
+)
+"cderiving.ml" 235 8792 8829 "cderiving.ml" 235 8792 8833
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref mlid "cderiving.ml" 233 8730 8759 "cderiving.ml" 233 8730 8763
+)
+"cderiving.ml" 235 8792 8798 "cderiving.ml" 235 8792 8833
+call(
+  stack
+)
+type(
+  Candidate.t option
+)
+"cderiving.ml" 236 8835 8841 "cderiving.ml" 236 8835 8874
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Types.type_expr -> Ppxx.Compilerlib.Longident.t -> Candidate.t option
+)
+ident(
+  int_ref cand_deriving_polymorphic_variant "cderiving.ml" 118 3922 3926 "cderiving.ml" 118 3922 3959
+)
+"cderiving.ml" 236 8835 8875 "cderiving.ml" 236 8835 8878
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 233 8730 8748 "cderiving.ml" 233 8730 8751
+)
+"cderiving.ml" 236 8835 8879 "cderiving.ml" 236 8835 8882
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 233 8730 8752 "cderiving.ml" 233 8730 8755
+)
+"cderiving.ml" 236 8835 8883 "cderiving.ml" 236 8835 8885
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 233 8730 8756 "cderiving.ml" 233 8730 8758
+)
+"cderiving.ml" 236 8835 8886 "cderiving.ml" 236 8835 8890
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref mlid "cderiving.ml" 233 8730 8759 "cderiving.ml" 233 8730 8763
+)
+"cderiving.ml" 236 8835 8841 "cderiving.ml" 236 8835 8890
+call(
+  stack
+)
+type(
+  Candidate.t option
+)
+"cderiving.ml" 237 8892 8898 "cderiving.ml" 237 8892 8918
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Types.type_expr -> Ppxx.Compilerlib.Longident.t -> Candidate.t option
+)
+ident(
+  int_ref cand_deriving_object "cderiving.ml" 179 6319 6323 "cderiving.ml" 179 6319 6343
+)
+"cderiving.ml" 237 8892 8919 "cderiving.ml" 237 8892 8922
+type(
+  Env.t
+)
+ident(
+  int_ref env "cderiving.ml" 233 8730 8748 "cderiving.ml" 233 8730 8751
+)
+"cderiving.ml" 237 8892 8923 "cderiving.ml" 237 8892 8926
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "cderiving.ml" 233 8730 8752 "cderiving.ml" 233 8730 8755
+)
+"cderiving.ml" 237 8892 8927 "cderiving.ml" 237 8892 8929
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "cderiving.ml" 233 8730 8756 "cderiving.ml" 233 8730 8758
+)
+"cderiving.ml" 237 8892 8930 "cderiving.ml" 237 8892 8934
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref mlid "cderiving.ml" 233 8730 8759 "cderiving.ml" 233 8730 8763
+)
+"cderiving.ml" 237 8892 8898 "cderiving.ml" 237 8892 8934
+call(
+  stack
+)
+type(
+  Candidate.t option
+)
+"cderiving.ml" 235 8792 8796 "cderiving.ml" 238 8936 8941
+type(
+  Candidate.t option list
+)
+"cderiving.ml" 234 8766 8768 "cderiving.ml" 238 8936 8941
+call(
+  tail
+)
+type(
+  Candidate.t list
+)

@@ -1,0 +1,94 @@
+package "_caml" (
+  directory = "_caml"
+  version = "1.10.0"
+  description = "[Internal] Wrapped version of the OCaml stdlib"
+  requires = "dune._result"
+  archive(byte) = "dune_caml.cma"
+  archive(native) = "dune_caml.cmxa"
+  plugin(byte) = "dune_caml.cma"
+  plugin(native) = "dune_caml.cmxs"
+)
+package "_dune_lang" (
+  directory = "_dune_lang"
+  version = "1.10.0"
+  description = "[Internal] S-expression library"
+  requires = "dune._stdune"
+  archive(byte) = "dune_lang.cma"
+  archive(native) = "dune_lang.cmxa"
+  plugin(byte) = "dune_lang.cma"
+  plugin(native) = "dune_lang.cmxs"
+)
+package "_ocaml_config" (
+  directory = "_ocaml_config"
+  version = "1.10.0"
+  description = "[Internal] Interpret the output of 'ocamlc -config'"
+  requires = "dune._stdune"
+  archive(byte) = "ocaml_config.cma"
+  archive(native) = "ocaml_config.cmxa"
+  plugin(byte) = "ocaml_config.cma"
+  plugin(native) = "ocaml_config.cmxs"
+)
+package "_result" (
+  directory = "_result"
+  version = "1.10.0"
+  description = "[internal] Compatibility layer for the result type"
+  requires = ""
+  archive(byte) = "dune_result.cma"
+  archive(native) = "dune_result.cmxa"
+  plugin(byte) = "dune_result.cma"
+  plugin(native) = "dune_result.cmxs"
+)
+package "_stdune" (
+  directory = "_stdune"
+  version = "1.10.0"
+  description = "[Internal] Standard library of Dune"
+  requires = "dune._caml dune._result unix"
+  archive(byte) = "stdune.cma"
+  archive(native) = "stdune.cmxa"
+  plugin(byte) = "stdune.cma"
+  plugin(native) = "stdune.cmxs"
+)
+package "_wp" (
+  directory = "_wp"
+  version = "1.10.0"
+  description = "[Internal] Standard library of Dune"
+  requires = ""
+  archive(byte) = ""
+  archive(native) = ""
+  plugin(byte) = ""
+  plugin(native) = ""
+  package "dune" (
+    directory = "dune"
+    version = "1.10.0"
+    description = ""
+    requires = "dune._wp"
+    archive(byte) = "wp_dune.cma"
+    archive(native) = "wp_dune.cmxa"
+    plugin(byte) = "wp_dune.cma"
+    plugin(native) = "wp_dune.cmxs"
+  )
+  package "jbuilder" (
+    directory = "jbuilder"
+    version = "1.10.0"
+    description = ""
+    requires = "dune._wp"
+    archive(byte) = "wp_jbuilder.cma"
+    archive(native) = "wp_jbuilder.cmxa"
+    plugin(byte) = "wp_jbuilder.cma"
+    plugin(native) = "wp_jbuilder.cmxs"
+  )
+)
+package "configurator" (
+  directory = "configurator"
+  version = "1.10.0"
+  description = ""
+  requires = "dune._caml
+              dune._dune_lang
+              dune._ocaml_config
+              dune._result
+              dune._stdune"
+  archive(byte) = "configurator.cma"
+  archive(native) = "configurator.cmxa"
+  plugin(byte) = "configurator.cma"
+  plugin(native) = "configurator.cmxs"
+)

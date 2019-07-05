@@ -1,0 +1,23 @@
+true : bin_annot, safe_string, keep_locs
+true : package(unix)
+# true : package(landmarks.ppx,landmarks)
+
+<src-b00> : include
+<examples> : include
+<test> : include
+<tools> : include
+<src-std> : include
+<src-std/b0_std.{cma,cmxa}> : record_b0_stubs
+<src-std/b0_std.cmxs> : link_b0_stubs
+
+<src-ui> : include
+<src-ui/b0_ui*> : package(cmdliner)
+
+<src-care> : include
+<src-care/**> : package(cmdliner)
+
+<test/**> : use_b0_stubs, package(cmdliner)
+<examples/**> : use_b0_stubs, not_hygienic
+<tools/**> : use_b0_stubs
+<tools/b00_cache*> : package(cmdliner)
+<tools/show_uri*> : package(cmdliner)

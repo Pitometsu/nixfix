@@ -1,0 +1,4496 @@
+"src/oUnitAssert.ml" 37 2438 2442 "src/oUnitAssert.ml" 37 2438 2449
+type(
+  bool -> string -> unit
+)
+ident(
+  def skip_if "src/oUnitAssert.ml" 41 2492 2492 "src/oUnitAssert.ml" 1 0 -1
+)
+"src/oUnitAssert.ml" 37 2438 2450 "src/oUnitAssert.ml" 37 2438 2451
+type(
+  bool
+)
+ident(
+  def b "src/oUnitAssert.ml" 37 2438 2452 "src/oUnitAssert.ml" 39 2470 2490
+)
+"src/oUnitAssert.ml" 37 2438 2452 "src/oUnitAssert.ml" 37 2438 2455
+type(
+  string
+)
+ident(
+  def msg "src/oUnitAssert.ml" 38 2458 2460 "src/oUnitAssert.ml" 39 2470 2490
+)
+"src/oUnitAssert.ml" 38 2458 2463 "src/oUnitAssert.ml" 38 2458 2464
+type(
+  bool
+)
+ident(
+  int_ref b "src/oUnitAssert.ml" 37 2438 2450 "src/oUnitAssert.ml" 37 2438 2451
+)
+"src/oUnitAssert.ml" 39 2470 2474 "src/oUnitAssert.ml" 39 2470 2479
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/oUnitAssert.ml" 39 2470 2486 "src/oUnitAssert.ml" 39 2470 2489
+type(
+  string
+)
+ident(
+  int_ref msg "src/oUnitAssert.ml" 37 2438 2452 "src/oUnitAssert.ml" 37 2438 2455
+)
+"src/oUnitAssert.ml" 39 2470 2480 "src/oUnitAssert.ml" 39 2470 2490
+type(
+  exn
+)
+"src/oUnitAssert.ml" 39 2470 2474 "src/oUnitAssert.ml" 39 2470 2490
+type(
+  unit
+)
+"src/oUnitAssert.ml" 38 2458 2460 "src/oUnitAssert.ml" 39 2470 2490
+type(
+  unit
+)
+"src/oUnitAssert.ml" 41 2492 2496 "src/oUnitAssert.ml" 41 2492 2500
+type(
+  string -> 'a
+)
+ident(
+  def todo "src/oUnitAssert.ml" 44 2527 2527 "src/oUnitAssert.ml" 1 0 -1
+)
+"src/oUnitAssert.ml" 41 2492 2501 "src/oUnitAssert.ml" 41 2492 2504
+type(
+  string
+)
+ident(
+  def msg "src/oUnitAssert.ml" 42 2507 2509 "src/oUnitAssert.ml" 42 2507 2525
+)
+"src/oUnitAssert.ml" 42 2507 2509 "src/oUnitAssert.ml" 42 2507 2514
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/oUnitAssert.ml" 42 2507 2521 "src/oUnitAssert.ml" 42 2507 2524
+type(
+  string
+)
+ident(
+  int_ref msg "src/oUnitAssert.ml" 41 2492 2501 "src/oUnitAssert.ml" 41 2492 2504
+)
+"src/oUnitAssert.ml" 42 2507 2515 "src/oUnitAssert.ml" 42 2507 2525
+type(
+  exn
+)
+"src/oUnitAssert.ml" 42 2507 2509 "src/oUnitAssert.ml" 42 2507 2525
+type(
+  'a
+)
+"src/oUnitAssert.ml" 44 2527 2531 "src/oUnitAssert.ml" 44 2527 2545
+type(
+  string -> 'a
+)
+ident(
+  def assert_failure "src/oUnitAssert.ml" 47 2581 2581 "src/oUnitAssert.ml" 1 0 -1
+)
+"src/oUnitAssert.ml" 44 2527 2546 "src/oUnitAssert.ml" 44 2527 2549
+type(
+  string
+)
+ident(
+  def msg "src/oUnitAssert.ml" 45 2552 2554 "src/oUnitAssert.ml" 45 2552 2579
+)
+"src/oUnitAssert.ml" 45 2552 2554 "src/oUnitAssert.ml" 45 2552 2559
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/oUnitAssert.ml" 45 2552 2575 "src/oUnitAssert.ml" 45 2552 2578
+type(
+  string
+)
+ident(
+  int_ref msg "src/oUnitAssert.ml" 44 2527 2546 "src/oUnitAssert.ml" 44 2527 2549
+)
+"src/oUnitAssert.ml" 45 2552 2560 "src/oUnitAssert.ml" 45 2552 2579
+type(
+  exn
+)
+"src/oUnitAssert.ml" 45 2552 2554 "src/oUnitAssert.ml" 45 2552 2579
+type(
+  'a
+)
+"src/oUnitAssert.ml" 47 2581 2585 "src/oUnitAssert.ml" 47 2581 2596
+type(
+  string -> bool -> unit
+)
+ident(
+  def assert_bool "src/oUnitAssert.ml" 50 2641 2641 "src/oUnitAssert.ml" 1 0 -1
+)
+"src/oUnitAssert.ml" 47 2581 2597 "src/oUnitAssert.ml" 47 2581 2600
+type(
+  string
+)
+ident(
+  def msg "src/oUnitAssert.ml" 47 2581 2601 "src/oUnitAssert.ml" 48 2605 2639
+)
+"src/oUnitAssert.ml" 47 2581 2601 "src/oUnitAssert.ml" 47 2581 2602
+type(
+  bool
+)
+ident(
+  def b "src/oUnitAssert.ml" 48 2605 2607 "src/oUnitAssert.ml" 48 2605 2639
+)
+"src/oUnitAssert.ml" 48 2605 2610 "src/oUnitAssert.ml" 48 2605 2613
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/oUnitAssert.ml" 48 2605 2614 "src/oUnitAssert.ml" 48 2605 2615
+type(
+  bool
+)
+ident(
+  int_ref b "src/oUnitAssert.ml" 47 2581 2601 "src/oUnitAssert.ml" 47 2581 2602
+)
+"src/oUnitAssert.ml" 48 2605 2610 "src/oUnitAssert.ml" 48 2605 2615
+type(
+  bool
+)
+"src/oUnitAssert.ml" 48 2605 2621 "src/oUnitAssert.ml" 48 2605 2635
+type(
+  string -> unit
+)
+ident(
+  int_ref assert_failure "src/oUnitAssert.ml" 44 2527 2531 "src/oUnitAssert.ml" 44 2527 2545
+)
+"src/oUnitAssert.ml" 48 2605 2636 "src/oUnitAssert.ml" 48 2605 2639
+type(
+  string
+)
+ident(
+  int_ref msg "src/oUnitAssert.ml" 47 2581 2597 "src/oUnitAssert.ml" 47 2581 2600
+)
+"src/oUnitAssert.ml" 48 2605 2621 "src/oUnitAssert.ml" 48 2605 2639
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 48 2605 2607 "src/oUnitAssert.ml" 48 2605 2639
+type(
+  unit
+)
+"src/oUnitAssert.ml" 50 2641 2645 "src/oUnitAssert.ml" 50 2641 2658
+type(
+  string -> unit
+)
+ident(
+  def assert_string "src/oUnitAssert.ml" 53 2710 2710 "src/oUnitAssert.ml" 1 0 -1
+)
+"src/oUnitAssert.ml" 50 2641 2659 "src/oUnitAssert.ml" 50 2641 2662
+type(
+  string
+)
+ident(
+  def str "src/oUnitAssert.ml" 51 2665 2667 "src/oUnitAssert.ml" 51 2665 2708
+)
+"src/oUnitAssert.ml" 51 2665 2670 "src/oUnitAssert.ml" 51 2665 2673
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/oUnitAssert.ml" 51 2665 2675 "src/oUnitAssert.ml" 51 2665 2678
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitAssert.ml" 50 2641 2659 "src/oUnitAssert.ml" 50 2641 2662
+)
+"src/oUnitAssert.ml" 51 2665 2679 "src/oUnitAssert.ml" 51 2665 2680
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/oUnitAssert.ml" 51 2665 2681 "src/oUnitAssert.ml" 51 2665 2683
+type(
+  string
+)
+"src/oUnitAssert.ml" 51 2665 2674 "src/oUnitAssert.ml" 51 2665 2684
+type(
+  bool
+)
+"src/oUnitAssert.ml" 51 2665 2670 "src/oUnitAssert.ml" 51 2665 2684
+type(
+  bool
+)
+"src/oUnitAssert.ml" 51 2665 2690 "src/oUnitAssert.ml" 51 2665 2704
+type(
+  string -> unit
+)
+ident(
+  int_ref assert_failure "src/oUnitAssert.ml" 44 2527 2531 "src/oUnitAssert.ml" 44 2527 2545
+)
+"src/oUnitAssert.ml" 51 2665 2705 "src/oUnitAssert.ml" 51 2665 2708
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitAssert.ml" 50 2641 2659 "src/oUnitAssert.ml" 50 2641 2662
+)
+"src/oUnitAssert.ml" 51 2665 2690 "src/oUnitAssert.ml" 51 2665 2708
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 51 2665 2667 "src/oUnitAssert.ml" 51 2665 2708
+type(
+  unit
+)
+"src/oUnitAssert.ml" 53 2710 2714 "src/oUnitAssert.ml" 53 2710 2726
+type(
+  ?ctxt:OUnitTest.ctxt ->
+  ?cmp:('a -> 'a -> bool) ->
+  ?printer:('a -> string) ->
+  ?pp_diff:(Format.formatter -> 'a * 'a -> unit) ->
+  ?msg:string -> 'a -> 'a -> unit
+)
+ident(
+  def assert_equal "src/oUnitAssert.ml" 128 4603 4603 "src/oUnitAssert.ml" 1 0 -1
+)
+"src/oUnitAssert.ml" 53 2710 2728 "src/oUnitAssert.ml" 53 2710 2732
+type(
+  OUnitTest.ctxt option
+)
+ident(
+  def ctxt "src/oUnitAssert.ml" 53 2710 2733 "src/oUnitAssert.ml" 126 4559 4601
+)
+"src/oUnitAssert.ml" 53 2710 2735 "src/oUnitAssert.ml" 53 2710 2738
+type(
+  'a -> 'a -> bool
+)
+"src/oUnitAssert.ml" 53 2710 2741 "src/oUnitAssert.ml" 53 2710 2746
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref *sth* "src/oUnitAssert.ml" 53 2710 2741 "src/oUnitAssert.ml" 53 2710 2746
+)
+type(
+  ('a -> 'a -> bool) option
+)
+type(
+  ('a -> 'a -> bool) option
+)
+type(
+  'a -> 'a -> bool
+)
+"src/oUnitAssert.ml" 53 2710 2749 "src/oUnitAssert.ml" 53 2710 2756
+type(
+  ('a -> string) option
+)
+ident(
+  def printer "src/oUnitAssert.ml" 53 2710 2757 "src/oUnitAssert.ml" 126 4559 4601
+)
+"src/oUnitAssert.ml" 53 2710 2758 "src/oUnitAssert.ml" 53 2710 2765
+type(
+  (Format.formatter -> 'a * 'a -> unit) option
+)
+ident(
+  def pp_diff "src/oUnitAssert.ml" 53 2710 2766 "src/oUnitAssert.ml" 126 4559 4601
+)
+"src/oUnitAssert.ml" 53 2710 2767 "src/oUnitAssert.ml" 53 2710 2770
+type(
+  string option
+)
+ident(
+  def msg "src/oUnitAssert.ml" 53 2710 2771 "src/oUnitAssert.ml" 126 4559 4601
+)
+"src/oUnitAssert.ml" 53 2710 2771 "src/oUnitAssert.ml" 53 2710 2779
+type(
+  'a
+)
+ident(
+  def expected "src/oUnitAssert.ml" 53 2710 2780 "src/oUnitAssert.ml" 126 4559 4601
+)
+"src/oUnitAssert.ml" 53 2710 2780 "src/oUnitAssert.ml" 53 2710 2786
+type(
+  'a
+)
+ident(
+  def actual "src/oUnitAssert.ml" 54 2789 2791 "src/oUnitAssert.ml" 126 4559 4601
+)
+"src/oUnitAssert.ml" 54 2789 2795 "src/oUnitAssert.ml" 54 2789 2811
+type(
+  unit -> string
+)
+ident(
+  def get_error_string "src/oUnitAssert.ml" 102 4045 4047 "src/oUnitAssert.ml" 126 4559 4601
+)
+"src/oUnitAssert.ml" 54 2789 2812 "src/oUnitAssert.ml" 54 2789 2814
+type(
+  unit
+)
+"src/oUnitAssert.ml" 55 2817 2825 "src/oUnitAssert.ml" 55 2817 2828
+type(
+  string
+)
+ident(
+  def res "src/oUnitAssert.ml" 94 3891 3895 "src/oUnitAssert.ml" 100 4028 4039
+)
+"src/oUnitAssert.ml" 56 2831 2837 "src/oUnitAssert.ml" 56 2831 2855
+type(
+  (Format.formatter -> unit) -> string
+)
+ident(
+  ext_ref OUnitUtils.buff_format_printf
+)
+"src/oUnitAssert.ml" 57 2856 2869 "src/oUnitAssert.ml" 57 2856 2872
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/oUnitAssert.ml" 58 2876 2887 "src/oUnitAssert.ml" 92 3845 3882
+)
+"src/oUnitAssert.ml" 58 2876 2887 "src/oUnitAssert.ml" 58 2876 2906
+type(
+  Format.formatter -> int -> unit
+)
+ident(
+  ext_ref Format.pp_open_vbox
+)
+"src/oUnitAssert.ml" 58 2876 2907 "src/oUnitAssert.ml" 58 2876 2910
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 57 2856 2869 "src/oUnitAssert.ml" 57 2856 2872
+)
+"src/oUnitAssert.ml" 58 2876 2911 "src/oUnitAssert.ml" 58 2876 2912
+type(
+  int
+)
+"src/oUnitAssert.ml" 58 2876 2887 "src/oUnitAssert.ml" 58 2876 2912
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 60 2931 2950 "src/oUnitAssert.ml" 60 2931 2953
+type(
+  string option
+)
+ident(
+  int_ref msg "src/oUnitAssert.ml" 53 2710 2767 "src/oUnitAssert.ml" 53 2710 2770
+)
+"src/oUnitAssert.ml" 61 2959 2981 "src/oUnitAssert.ml" 61 2959 2982
+type(
+  string
+)
+ident(
+  def s "src/oUnitAssert.ml" 62 2986 3005 "src/oUnitAssert.ml" 65 3127 3172
+)
+"src/oUnitAssert.ml" 61 2959 2976 "src/oUnitAssert.ml" 61 2959 2982
+type(
+  string option
+)
+"src/oUnitAssert.ml" 62 2986 3005 "src/oUnitAssert.ml" 62 2986 3023
+type(
+  Format.formatter -> int -> unit
+)
+ident(
+  ext_ref Format.pp_open_box
+)
+"src/oUnitAssert.ml" 62 2986 3024 "src/oUnitAssert.ml" 62 2986 3027
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 57 2856 2869 "src/oUnitAssert.ml" 57 2856 2872
+)
+"src/oUnitAssert.ml" 62 2986 3028 "src/oUnitAssert.ml" 62 2986 3029
+type(
+  int
+)
+"src/oUnitAssert.ml" 62 2986 3005 "src/oUnitAssert.ml" 62 2986 3029
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 63 3031 3050 "src/oUnitAssert.ml" 63 3031 3072
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"src/oUnitAssert.ml" 63 3031 3073 "src/oUnitAssert.ml" 63 3031 3076
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 57 2856 2869 "src/oUnitAssert.ml" 57 2856 2872
+)
+"src/oUnitAssert.ml" 63 3031 3077 "src/oUnitAssert.ml" 63 3031 3078
+type(
+  string
+)
+ident(
+  int_ref s "src/oUnitAssert.ml" 61 2959 2981 "src/oUnitAssert.ml" 61 2959 2982
+)
+"src/oUnitAssert.ml" 63 3031 3050 "src/oUnitAssert.ml" 63 3031 3078
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 64 3080 3099 "src/oUnitAssert.ml" 64 3080 3118
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_close_box
+)
+"src/oUnitAssert.ml" 64 3080 3119 "src/oUnitAssert.ml" 64 3080 3122
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 57 2856 2869 "src/oUnitAssert.ml" 57 2856 2872
+)
+"src/oUnitAssert.ml" 64 3080 3123 "src/oUnitAssert.ml" 64 3080 3125
+type(
+  unit
+)
+"src/oUnitAssert.ml" 64 3080 3099 "src/oUnitAssert.ml" 64 3080 3125
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 65 3127 3146 "src/oUnitAssert.ml" 65 3127 3165
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_print_cut
+)
+"src/oUnitAssert.ml" 65 3127 3166 "src/oUnitAssert.ml" 65 3127 3169
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 57 2856 2869 "src/oUnitAssert.ml" 57 2856 2872
+)
+"src/oUnitAssert.ml" 65 3127 3170 "src/oUnitAssert.ml" 65 3127 3172
+type(
+  unit
+)
+"src/oUnitAssert.ml" 65 3127 3146 "src/oUnitAssert.ml" 65 3127 3172
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 64 3080 3099 "src/oUnitAssert.ml" 65 3127 3172
+type(
+  unit
+)
+"src/oUnitAssert.ml" 63 3031 3050 "src/oUnitAssert.ml" 65 3127 3172
+type(
+  unit
+)
+"src/oUnitAssert.ml" 62 2986 3005 "src/oUnitAssert.ml" 65 3127 3172
+type(
+  unit
+)
+"src/oUnitAssert.ml" 66 3173 3190 "src/oUnitAssert.ml" 66 3173 3194
+type(
+  string option
+)
+"src/oUnitAssert.ml" 67 3198 3217 "src/oUnitAssert.ml" 67 3198 3219
+type(
+  unit
+)
+"src/oUnitAssert.ml" 59 2914 2925 "src/oUnitAssert.ml" 68 3220 3234
+type(
+  unit
+)
+"src/oUnitAssert.ml" 71 3254 3273 "src/oUnitAssert.ml" 71 3254 3280
+type(
+  ('a -> string) option
+)
+ident(
+  int_ref printer "src/oUnitAssert.ml" 53 2710 2749 "src/oUnitAssert.ml" 53 2710 2756
+)
+"src/oUnitAssert.ml" 72 3286 3308 "src/oUnitAssert.ml" 72 3286 3309
+type(
+  'a -> string
+)
+ident(
+  def p "src/oUnitAssert.ml" 73 3313 3332 "src/oUnitAssert.ml" 76 3448 3479
+)
+"src/oUnitAssert.ml" 72 3286 3303 "src/oUnitAssert.ml" 72 3286 3309
+type(
+  ('a -> string) option
+)
+"src/oUnitAssert.ml" 73 3313 3332 "src/oUnitAssert.ml" 73 3313 3346
+type(
+  Format.formatter ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/oUnitAssert.ml" 73 3313 3347 "src/oUnitAssert.ml" 73 3313 3350
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 57 2856 2869 "src/oUnitAssert.ml" 57 2856 2872
+)
+"src/oUnitAssert.ml" 74 3351 3372 "src/oUnitAssert.ml" 74 3351 3413
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"src/oUnitAssert.ml" 75 3414 3436 "src/oUnitAssert.ml" 75 3414 3437
+type(
+  'a -> string
+)
+ident(
+  int_ref p "src/oUnitAssert.ml" 72 3286 3308 "src/oUnitAssert.ml" 72 3286 3309
+)
+"src/oUnitAssert.ml" 75 3414 3438 "src/oUnitAssert.ml" 75 3414 3446
+type(
+  'a
+)
+ident(
+  int_ref expected "src/oUnitAssert.ml" 53 2710 2771 "src/oUnitAssert.ml" 53 2710 2779
+)
+"src/oUnitAssert.ml" 75 3414 3435 "src/oUnitAssert.ml" 75 3414 3447
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 76 3448 3470 "src/oUnitAssert.ml" 76 3448 3471
+type(
+  'a -> string
+)
+ident(
+  int_ref p "src/oUnitAssert.ml" 72 3286 3308 "src/oUnitAssert.ml" 72 3286 3309
+)
+"src/oUnitAssert.ml" 76 3448 3472 "src/oUnitAssert.ml" 76 3448 3478
+type(
+  'a
+)
+ident(
+  int_ref actual "src/oUnitAssert.ml" 53 2710 2780 "src/oUnitAssert.ml" 53 2710 2786
+)
+"src/oUnitAssert.ml" 76 3448 3469 "src/oUnitAssert.ml" 76 3448 3479
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 73 3313 3332 "src/oUnitAssert.ml" 76 3448 3479
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 78 3481 3498 "src/oUnitAssert.ml" 78 3481 3502
+type(
+  ('a -> string) option
+)
+"src/oUnitAssert.ml" 79 3506 3525 "src/oUnitAssert.ml" 79 3506 3539
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/oUnitAssert.ml" 79 3506 3540 "src/oUnitAssert.ml" 79 3506 3543
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 57 2856 2869 "src/oUnitAssert.ml" 57 2856 2872
+)
+"src/oUnitAssert.ml" 79 3506 3544 "src/oUnitAssert.ml" 79 3506 3561
+type(
+  (unit, Format.formatter, unit) format
+)
+"src/oUnitAssert.ml" 79 3506 3525 "src/oUnitAssert.ml" 79 3506 3561
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 70 3237 3248 "src/oUnitAssert.ml" 80 3562 3576
+type(
+  unit
+)
+"src/oUnitAssert.ml" 83 3596 3615 "src/oUnitAssert.ml" 83 3596 3622
+type(
+  (Format.formatter -> 'a * 'a -> unit) option
+)
+ident(
+  int_ref pp_diff "src/oUnitAssert.ml" 53 2710 2758 "src/oUnitAssert.ml" 53 2710 2765
+)
+"src/oUnitAssert.ml" 84 3628 3650 "src/oUnitAssert.ml" 84 3628 3651
+type(
+  Format.formatter -> 'a * 'a -> unit
+)
+ident(
+  def d "src/oUnitAssert.ml" 85 3655 3674 "src/oUnitAssert.ml" 87 3738 3780
+)
+"src/oUnitAssert.ml" 84 3628 3645 "src/oUnitAssert.ml" 84 3628 3651
+type(
+  (Format.formatter -> 'a * 'a -> unit) option
+)
+"src/oUnitAssert.ml" 85 3655 3674 "src/oUnitAssert.ml" 85 3655 3688
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'a * 'a -> unit) -> 'a * 'a -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> 'a * 'a -> unit) -> 'a * 'a -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/oUnitAssert.ml" 85 3655 3689 "src/oUnitAssert.ml" 85 3655 3692
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 57 2856 2869 "src/oUnitAssert.ml" 57 2856 2872
+)
+"src/oUnitAssert.ml" 86 3693 3714 "src/oUnitAssert.ml" 86 3693 3737
+type(
+  ((Format.formatter -> 'a * 'a -> unit) -> 'a * 'a -> unit,
+   Format.formatter, unit)
+  format
+)
+"src/oUnitAssert.ml" 87 3738 3760 "src/oUnitAssert.ml" 87 3738 3761
+type(
+  Format.formatter -> 'a * 'a -> unit
+)
+ident(
+  int_ref d "src/oUnitAssert.ml" 84 3628 3650 "src/oUnitAssert.ml" 84 3628 3651
+)
+"src/oUnitAssert.ml" 87 3738 3763 "src/oUnitAssert.ml" 87 3738 3771
+type(
+  'a
+)
+ident(
+  int_ref expected "src/oUnitAssert.ml" 53 2710 2771 "src/oUnitAssert.ml" 53 2710 2779
+)
+"src/oUnitAssert.ml" 87 3738 3773 "src/oUnitAssert.ml" 87 3738 3779
+type(
+  'a
+)
+ident(
+  int_ref actual "src/oUnitAssert.ml" 53 2710 2780 "src/oUnitAssert.ml" 53 2710 2786
+)
+"src/oUnitAssert.ml" 87 3738 3762 "src/oUnitAssert.ml" 87 3738 3780
+type(
+  'a * 'a
+)
+"src/oUnitAssert.ml" 85 3655 3674 "src/oUnitAssert.ml" 87 3738 3780
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 89 3782 3799 "src/oUnitAssert.ml" 89 3782 3803
+type(
+  (Format.formatter -> 'a * 'a -> unit) option
+)
+"src/oUnitAssert.ml" 90 3807 3826 "src/oUnitAssert.ml" 90 3807 3828
+type(
+  unit
+)
+"src/oUnitAssert.ml" 82 3579 3590 "src/oUnitAssert.ml" 91 3829 3843
+type(
+  unit
+)
+"src/oUnitAssert.ml" 92 3845 3856 "src/oUnitAssert.ml" 92 3845 3875
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_close_box
+)
+"src/oUnitAssert.ml" 92 3845 3876 "src/oUnitAssert.ml" 92 3845 3879
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 57 2856 2869 "src/oUnitAssert.ml" 57 2856 2872
+)
+"src/oUnitAssert.ml" 92 3845 3880 "src/oUnitAssert.ml" 92 3845 3882
+type(
+  unit
+)
+"src/oUnitAssert.ml" 92 3845 3856 "src/oUnitAssert.ml" 92 3845 3882
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 82 3579 3590 "src/oUnitAssert.ml" 92 3845 3882
+type(
+  unit
+)
+"src/oUnitAssert.ml" 70 3237 3248 "src/oUnitAssert.ml" 92 3845 3882
+type(
+  unit
+)
+"src/oUnitAssert.ml" 59 2914 2925 "src/oUnitAssert.ml" 92 3845 3882
+type(
+  unit
+)
+"src/oUnitAssert.ml" 58 2876 2887 "src/oUnitAssert.ml" 92 3845 3882
+type(
+  unit
+)
+"src/oUnitAssert.ml" 57 2856 2864 "src/oUnitAssert.ml" 92 3845 3883
+type(
+  Format.formatter -> unit
+)
+"src/oUnitAssert.ml" 56 2831 2837 "src/oUnitAssert.ml" 92 3845 3883
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 94 3891 3899 "src/oUnitAssert.ml" 94 3891 3902
+type(
+  int
+)
+ident(
+  def len "src/oUnitAssert.ml" 97 3936 3942 "src/oUnitAssert.ml" 100 4028 4039
+)
+"src/oUnitAssert.ml" 95 3905 3911 "src/oUnitAssert.ml" 95 3905 3924
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/oUnitAssert.ml" 95 3905 3925 "src/oUnitAssert.ml" 95 3905 3928
+type(
+  string
+)
+ident(
+  int_ref res "src/oUnitAssert.ml" 55 2817 2825 "src/oUnitAssert.ml" 55 2817 2828
+)
+"src/oUnitAssert.ml" 95 3905 3911 "src/oUnitAssert.ml" 95 3905 3928
+type(
+  int
+)
+"src/oUnitAssert.ml" 97 3936 3945 "src/oUnitAssert.ml" 97 3936 3948
+type(
+  int
+)
+ident(
+  int_ref len "src/oUnitAssert.ml" 94 3891 3899 "src/oUnitAssert.ml" 94 3891 3902
+)
+"src/oUnitAssert.ml" 97 3936 3949 "src/oUnitAssert.ml" 97 3936 3950
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/oUnitAssert.ml" 97 3936 3951 "src/oUnitAssert.ml" 97 3936 3952
+type(
+  int
+)
+"src/oUnitAssert.ml" 97 3936 3945 "src/oUnitAssert.ml" 97 3936 3952
+type(
+  bool
+)
+"src/oUnitAssert.ml" 97 3936 3953 "src/oUnitAssert.ml" 97 3936 3955
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/oUnitAssert.ml" 97 3936 3956 "src/oUnitAssert.ml" 97 3936 3959
+type(
+  string
+)
+ident(
+  int_ref res "src/oUnitAssert.ml" 55 2817 2825 "src/oUnitAssert.ml" 55 2817 2828
+)
+"src/oUnitAssert.ml" 97 3936 3961 "src/oUnitAssert.ml" 97 3936 3964
+type(
+  int
+)
+ident(
+  int_ref len "src/oUnitAssert.ml" 94 3891 3899 "src/oUnitAssert.ml" 94 3891 3902
+)
+"src/oUnitAssert.ml" 97 3936 3965 "src/oUnitAssert.ml" 97 3936 3966
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/oUnitAssert.ml" 97 3936 3967 "src/oUnitAssert.ml" 97 3936 3968
+type(
+  int
+)
+"src/oUnitAssert.ml" 97 3936 3961 "src/oUnitAssert.ml" 97 3936 3968
+type(
+  int
+)
+"src/oUnitAssert.ml" 97 3936 3956 "src/oUnitAssert.ml" 97 3936 3969
+type(
+  char
+)
+"src/oUnitAssert.ml" 97 3936 3970 "src/oUnitAssert.ml" 97 3936 3971
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/oUnitAssert.ml" 97 3936 3972 "src/oUnitAssert.ml" 97 3936 3976
+type(
+  char
+)
+"src/oUnitAssert.ml" 97 3936 3956 "src/oUnitAssert.ml" 97 3936 3976
+type(
+  bool
+)
+"src/oUnitAssert.ml" 97 3936 3945 "src/oUnitAssert.ml" 97 3936 3976
+type(
+  bool
+)
+"src/oUnitAssert.ml" 98 3982 3990 "src/oUnitAssert.ml" 98 3982 4000
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/oUnitAssert.ml" 98 3982 4001 "src/oUnitAssert.ml" 98 3982 4004
+type(
+  string
+)
+ident(
+  int_ref res "src/oUnitAssert.ml" 55 2817 2825 "src/oUnitAssert.ml" 55 2817 2828
+)
+"src/oUnitAssert.ml" 98 3982 4005 "src/oUnitAssert.ml" 98 3982 4006
+type(
+  int
+)
+"src/oUnitAssert.ml" 98 3982 4008 "src/oUnitAssert.ml" 98 3982 4011
+type(
+  int
+)
+ident(
+  int_ref len "src/oUnitAssert.ml" 94 3891 3899 "src/oUnitAssert.ml" 94 3891 3902
+)
+"src/oUnitAssert.ml" 98 3982 4012 "src/oUnitAssert.ml" 98 3982 4013
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/oUnitAssert.ml" 98 3982 4014 "src/oUnitAssert.ml" 98 3982 4015
+type(
+  int
+)
+"src/oUnitAssert.ml" 98 3982 4007 "src/oUnitAssert.ml" 98 3982 4016
+type(
+  int
+)
+"src/oUnitAssert.ml" 98 3982 3990 "src/oUnitAssert.ml" 98 3982 4016
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 100 4028 4036 "src/oUnitAssert.ml" 100 4028 4039
+type(
+  string
+)
+ident(
+  int_ref res "src/oUnitAssert.ml" 55 2817 2825 "src/oUnitAssert.ml" 55 2817 2828
+)
+"src/oUnitAssert.ml" 97 3936 3942 "src/oUnitAssert.ml" 100 4028 4039
+type(
+  string
+)
+"src/oUnitAssert.ml" 94 3891 3895 "src/oUnitAssert.ml" 100 4028 4039
+type(
+  string
+)
+"src/oUnitAssert.ml" 55 2817 2821 "src/oUnitAssert.ml" 100 4028 4039
+type(
+  string
+)
+"src/oUnitAssert.ml" 102 4045 4051 "src/oUnitAssert.ml" 102 4045 4055
+type(
+  ('b, unit, string, unit) format4 -> 'b
+)
+ident(
+  def logf "src/oUnitAssert.ml" 109 4220 4224 "src/oUnitAssert.ml" 126 4559 4601
+)
+"src/oUnitAssert.ml" 102 4045 4056 "src/oUnitAssert.ml" 102 4045 4059
+type(
+  ('b, unit, string, unit) format4
+)
+ident(
+  def fmt "src/oUnitAssert.ml" 103 4062 4066 "src/oUnitAssert.ml" 107 4178 4214
+)
+"src/oUnitAssert.ml" 103 4062 4072 "src/oUnitAssert.ml" 103 4062 4076
+type(
+  OUnitTest.ctxt option
+)
+ident(
+  int_ref ctxt "src/oUnitAssert.ml" 53 2710 2728 "src/oUnitAssert.ml" 53 2710 2732
+)
+"src/oUnitAssert.ml" 104 4082 4095 "src/oUnitAssert.ml" 104 4082 4099
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def ctxt "src/oUnitAssert.ml" 105 4103 4113 "src/oUnitAssert.ml" 105 4103 4161
+)
+"src/oUnitAssert.ml" 104 4082 4090 "src/oUnitAssert.ml" 104 4082 4099
+type(
+  OUnitTest.ctxt option
+)
+"src/oUnitAssert.ml" 105 4103 4113 "src/oUnitAssert.ml" 105 4103 4134
+type(
+  OUnitTest.result OUnitLogger.Test.t ->
+  OUnitLogger.log_severity -> ('b, unit, string, unit) format4 -> 'b
+)
+ident(
+  ext_ref OUnitLogger.Test.logf
+)
+"src/oUnitAssert.ml" 105 4103 4135 "src/oUnitAssert.ml" 105 4103 4139
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnitAssert.ml" 104 4082 4095 "src/oUnitAssert.ml" 104 4082 4099
+)
+"src/oUnitAssert.ml" 105 4103 4135 "src/oUnitAssert.ml" 105 4103 4151
+type(
+  OUnitTest.result OUnitLogger.Test.t
+)
+"src/oUnitAssert.ml" 105 4103 4152 "src/oUnitAssert.ml" 105 4103 4157
+type(
+  OUnitLogger.log_severity
+)
+"src/oUnitAssert.ml" 105 4103 4158 "src/oUnitAssert.ml" 105 4103 4161
+type(
+  ('b, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 102 4045 4056 "src/oUnitAssert.ml" 102 4045 4059
+)
+"src/oUnitAssert.ml" 105 4103 4113 "src/oUnitAssert.ml" 105 4103 4161
+call(
+  tail
+)
+type(
+  'b
+)
+"src/oUnitAssert.ml" 106 4162 4170 "src/oUnitAssert.ml" 106 4162 4174
+type(
+  OUnitTest.ctxt option
+)
+"src/oUnitAssert.ml" 107 4178 4188 "src/oUnitAssert.ml" 107 4178 4203
+type(
+  (string -> unit) -> ('b, unit, string, unit) format4 -> 'b
+)
+ident(
+  ext_ref Printf.ksprintf
+)
+"src/oUnitAssert.ml" 107 4178 4204 "src/oUnitAssert.ml" 107 4178 4210
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/oUnitAssert.ml" 107 4178 4211 "src/oUnitAssert.ml" 107 4178 4214
+type(
+  ('b, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 102 4045 4056 "src/oUnitAssert.ml" 102 4045 4059
+)
+"src/oUnitAssert.ml" 107 4178 4188 "src/oUnitAssert.ml" 107 4178 4214
+call(
+  tail
+)
+type(
+  'b
+)
+"src/oUnitAssert.ml" 103 4062 4066 "src/oUnitAssert.ml" 107 4178 4214
+type(
+  'b
+)
+"src/oUnitAssert.ml" 110 4230 4242 "src/oUnitAssert.ml" 110 4230 4245
+type(
+  string option
+)
+ident(
+  int_ref msg "src/oUnitAssert.ml" 53 2710 2767 "src/oUnitAssert.ml" 53 2710 2770
+)
+"src/oUnitAssert.ml" 111 4251 4266 "src/oUnitAssert.ml" 111 4251 4269
+type(
+  string
+)
+ident(
+  def str "src/oUnitAssert.ml" 112 4273 4285 "src/oUnitAssert.ml" 112 4273 4299
+)
+"src/oUnitAssert.ml" 111 4251 4261 "src/oUnitAssert.ml" 111 4251 4269
+type(
+  string option
+)
+"src/oUnitAssert.ml" 112 4273 4285 "src/oUnitAssert.ml" 112 4273 4289
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  int_ref logf "src/oUnitAssert.ml" 102 4045 4051 "src/oUnitAssert.ml" 102 4045 4055
+)
+"src/oUnitAssert.ml" 112 4273 4290 "src/oUnitAssert.ml" 112 4273 4294
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitAssert.ml" 112 4273 4295 "src/oUnitAssert.ml" 112 4273 4298
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitAssert.ml" 111 4251 4266 "src/oUnitAssert.ml" 111 4251 4269
+)
+"src/oUnitAssert.ml" 112 4273 4285 "src/oUnitAssert.ml" 112 4273 4299
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 113 4300 4310 "src/oUnitAssert.ml" 113 4300 4311
+type(
+  string option
+)
+"src/oUnitAssert.ml" 114 4315 4327 "src/oUnitAssert.ml" 114 4315 4329
+type(
+  unit
+)
+"src/oUnitAssert.ml" 109 4220 4224 "src/oUnitAssert.ml" 115 4330 4337
+type(
+  unit
+)
+"src/oUnitAssert.ml" 117 4349 4361 "src/oUnitAssert.ml" 117 4349 4368
+type(
+  ('a -> string) option
+)
+ident(
+  int_ref printer "src/oUnitAssert.ml" 53 2710 2749 "src/oUnitAssert.ml" 53 2710 2756
+)
+"src/oUnitAssert.ml" 118 4374 4389 "src/oUnitAssert.ml" 118 4374 4390
+type(
+  'a -> string
+)
+ident(
+  def p "src/oUnitAssert.ml" 119 4394 4406 "src/oUnitAssert.ml" 120 4440 4480
+)
+"src/oUnitAssert.ml" 118 4374 4384 "src/oUnitAssert.ml" 118 4374 4390
+type(
+  ('a -> string) option
+)
+"src/oUnitAssert.ml" 119 4394 4406 "src/oUnitAssert.ml" 119 4394 4410
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  int_ref logf "src/oUnitAssert.ml" 102 4045 4051 "src/oUnitAssert.ml" 102 4045 4055
+)
+"src/oUnitAssert.ml" 119 4394 4411 "src/oUnitAssert.ml" 119 4394 4425
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitAssert.ml" 119 4394 4427 "src/oUnitAssert.ml" 119 4394 4428
+type(
+  'a -> string
+)
+ident(
+  int_ref p "src/oUnitAssert.ml" 118 4374 4389 "src/oUnitAssert.ml" 118 4374 4390
+)
+"src/oUnitAssert.ml" 119 4394 4429 "src/oUnitAssert.ml" 119 4394 4437
+type(
+  'a
+)
+ident(
+  int_ref expected "src/oUnitAssert.ml" 53 2710 2771 "src/oUnitAssert.ml" 53 2710 2779
+)
+"src/oUnitAssert.ml" 119 4394 4426 "src/oUnitAssert.ml" 119 4394 4438
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 119 4394 4406 "src/oUnitAssert.ml" 119 4394 4438
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 120 4440 4452 "src/oUnitAssert.ml" 120 4440 4456
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  int_ref logf "src/oUnitAssert.ml" 102 4045 4051 "src/oUnitAssert.ml" 102 4045 4055
+)
+"src/oUnitAssert.ml" 120 4440 4457 "src/oUnitAssert.ml" 120 4440 4469
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitAssert.ml" 120 4440 4471 "src/oUnitAssert.ml" 120 4440 4472
+type(
+  'a -> string
+)
+ident(
+  int_ref p "src/oUnitAssert.ml" 118 4374 4389 "src/oUnitAssert.ml" 118 4374 4390
+)
+"src/oUnitAssert.ml" 120 4440 4473 "src/oUnitAssert.ml" 120 4440 4479
+type(
+  'a
+)
+ident(
+  int_ref actual "src/oUnitAssert.ml" 53 2710 2780 "src/oUnitAssert.ml" 53 2710 2786
+)
+"src/oUnitAssert.ml" 120 4440 4470 "src/oUnitAssert.ml" 120 4440 4480
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 120 4440 4452 "src/oUnitAssert.ml" 120 4440 4480
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 119 4394 4406 "src/oUnitAssert.ml" 120 4440 4480
+type(
+  unit
+)
+"src/oUnitAssert.ml" 121 4481 4491 "src/oUnitAssert.ml" 121 4481 4492
+type(
+  ('a -> string) option
+)
+"src/oUnitAssert.ml" 122 4496 4508 "src/oUnitAssert.ml" 122 4496 4510
+type(
+  unit
+)
+"src/oUnitAssert.ml" 116 4339 4343 "src/oUnitAssert.ml" 123 4511 4518
+type(
+  unit
+)
+"src/oUnitAssert.ml" 125 4521 4528 "src/oUnitAssert.ml" 125 4521 4531
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/oUnitAssert.ml" 125 4521 4533 "src/oUnitAssert.ml" 125 4521 4536
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref cmp "src/oUnitAssert.ml" 53 2710 2735 "src/oUnitAssert.ml" 53 2710 2738
+)
+"src/oUnitAssert.ml" 125 4521 4537 "src/oUnitAssert.ml" 125 4521 4545
+type(
+  'a
+)
+ident(
+  int_ref expected "src/oUnitAssert.ml" 53 2710 2771 "src/oUnitAssert.ml" 53 2710 2779
+)
+"src/oUnitAssert.ml" 125 4521 4546 "src/oUnitAssert.ml" 125 4521 4552
+type(
+  'a
+)
+ident(
+  int_ref actual "src/oUnitAssert.ml" 53 2710 2780 "src/oUnitAssert.ml" 53 2710 2786
+)
+"src/oUnitAssert.ml" 125 4521 4532 "src/oUnitAssert.ml" 125 4521 4553
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitAssert.ml" 125 4521 4528 "src/oUnitAssert.ml" 125 4521 4553
+type(
+  bool
+)
+"src/oUnitAssert.ml" 126 4559 4565 "src/oUnitAssert.ml" 126 4559 4579
+type(
+  string -> unit
+)
+ident(
+  int_ref assert_failure "src/oUnitAssert.ml" 44 2527 2531 "src/oUnitAssert.ml" 44 2527 2545
+)
+"src/oUnitAssert.ml" 126 4559 4581 "src/oUnitAssert.ml" 126 4559 4597
+type(
+  unit -> string
+)
+ident(
+  int_ref get_error_string "src/oUnitAssert.ml" 54 2789 2795 "src/oUnitAssert.ml" 54 2789 2811
+)
+"src/oUnitAssert.ml" 126 4559 4598 "src/oUnitAssert.ml" 126 4559 4600
+type(
+  unit
+)
+"src/oUnitAssert.ml" 126 4559 4580 "src/oUnitAssert.ml" 126 4559 4601
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 126 4559 4565 "src/oUnitAssert.ml" 126 4559 4601
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 125 4521 4525 "src/oUnitAssert.ml" 126 4559 4601
+type(
+  unit
+)
+"src/oUnitAssert.ml" 116 4339 4343 "src/oUnitAssert.ml" 126 4559 4601
+type(
+  unit
+)
+"src/oUnitAssert.ml" 109 4220 4224 "src/oUnitAssert.ml" 126 4559 4601
+type(
+  unit
+)
+"src/oUnitAssert.ml" 102 4045 4047 "src/oUnitAssert.ml" 126 4559 4601
+type(
+  unit
+)
+"src/oUnitAssert.ml" 54 2789 2791 "src/oUnitAssert.ml" 126 4559 4601
+type(
+  unit
+)
+"src/oUnitAssert.ml" 128 4603 4607 "src/oUnitAssert.ml" 128 4603 4621
+type(
+  ?exit_code:Unix.process_status ->
+  ?sinput:char Stream.t ->
+  ?foutput:(char Stream.t -> unit) ->
+  ?use_stderr:bool ->
+  ?backtrace:bool ->
+  ?chdir:string ->
+  ?env:string array -> ctxt:OUnitTest.ctxt -> string -> string list -> unit
+)
+ident(
+  def assert_command "src/oUnitAssert.ml" 291 9802 9802 "src/oUnitAssert.ml" 1 0 -1
+)
+"src/oUnitAssert.ml" 129 4622 4628 "src/oUnitAssert.ml" 129 4622 4637
+type(
+  Unix.process_status
+)
+"src/oUnitAssert.ml" 129 4622 4651 "src/oUnitAssert.ml" 129 4622 4652
+type(
+  int
+)
+"src/oUnitAssert.ml" 129 4622 4638 "src/oUnitAssert.ml" 129 4622 4652
+type(
+  Unix.process_status
+)
+type(
+  Unix.process_status
+)
+ident(
+  int_ref *sth* "src/oUnitAssert.ml" 129 4622 4638 "src/oUnitAssert.ml" 129 4622 4652
+)
+type(
+  Unix.process_status option
+)
+type(
+  Unix.process_status option
+)
+type(
+  Unix.process_status
+)
+"src/oUnitAssert.ml" 130 4654 4660 "src/oUnitAssert.ml" 130 4654 4666
+type(
+  char Stream.t
+)
+"src/oUnitAssert.ml" 130 4654 4667 "src/oUnitAssert.ml" 130 4654 4681
+type(
+  char list -> char Stream.t
+)
+ident(
+  ext_ref Stream.of_list
+)
+"src/oUnitAssert.ml" 130 4654 4682 "src/oUnitAssert.ml" 130 4654 4684
+type(
+  char list
+)
+"src/oUnitAssert.ml" 130 4654 4667 "src/oUnitAssert.ml" 130 4654 4684
+call(
+  stack
+)
+type(
+  char Stream.t
+)
+type(
+  char Stream.t
+)
+ident(
+  int_ref *sth* "src/oUnitAssert.ml" 130 4654 4667 "src/oUnitAssert.ml" 130 4654 4684
+)
+type(
+  char Stream.t option
+)
+type(
+  char Stream.t option
+)
+type(
+  char Stream.t
+)
+"src/oUnitAssert.ml" 131 4686 4692 "src/oUnitAssert.ml" 131 4686 4699
+type(
+  char Stream.t -> unit
+)
+"src/oUnitAssert.ml" 131 4686 4700 "src/oUnitAssert.ml" 131 4686 4706
+type(
+  char Stream.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref *sth* "src/oUnitAssert.ml" 131 4686 4700 "src/oUnitAssert.ml" 131 4686 4706
+)
+type(
+  (char Stream.t -> unit) option
+)
+type(
+  (char Stream.t -> unit) option
+)
+type(
+  char Stream.t -> unit
+)
+"src/oUnitAssert.ml" 132 4708 4714 "src/oUnitAssert.ml" 132 4708 4724
+type(
+  bool
+)
+"src/oUnitAssert.ml" 132 4708 4725 "src/oUnitAssert.ml" 132 4708 4729
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/oUnitAssert.ml" 132 4708 4725 "src/oUnitAssert.ml" 132 4708 4729
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/oUnitAssert.ml" 133 4731 4737 "src/oUnitAssert.ml" 133 4731 4746
+type(
+  bool
+)
+"src/oUnitAssert.ml" 133 4731 4747 "src/oUnitAssert.ml" 133 4731 4751
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/oUnitAssert.ml" 133 4731 4747 "src/oUnitAssert.ml" 133 4731 4751
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/oUnitAssert.ml" 134 4753 4758 "src/oUnitAssert.ml" 134 4753 4763
+type(
+  string option
+)
+ident(
+  def chdir "src/oUnitAssert.ml" 135 4764 4768 "src/oUnitAssert.ml" 289 9785 9800
+)
+"src/oUnitAssert.ml" 135 4764 4769 "src/oUnitAssert.ml" 135 4764 4772
+type(
+  string array option
+)
+ident(
+  def env "src/oUnitAssert.ml" 136 4773 4777 "src/oUnitAssert.ml" 289 9785 9800
+)
+"src/oUnitAssert.ml" 136 4773 4778 "src/oUnitAssert.ml" 136 4773 4782
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def ctxt "src/oUnitAssert.ml" 137 4783 4787 "src/oUnitAssert.ml" 289 9785 9800
+)
+"src/oUnitAssert.ml" 137 4783 4787 "src/oUnitAssert.ml" 137 4783 4790
+type(
+  string
+)
+ident(
+  def prg "src/oUnitAssert.ml" 137 4783 4791 "src/oUnitAssert.ml" 289 9785 9800
+)
+"src/oUnitAssert.ml" 137 4783 4791 "src/oUnitAssert.ml" 137 4783 4795
+type(
+  string list
+)
+ident(
+  def args "src/oUnitAssert.ml" 139 4799 4803 "src/oUnitAssert.ml" 289 9785 9800
+)
+"src/oUnitAssert.ml" 139 4799 4803 "src/oUnitAssert.ml" 139 4799 4825
+type(
+  OUnitTest.ctxt -> (OUnitTest.ctxt -> unit) -> unit
+)
+ident(
+  ext_ref OUnitTest.section_ctxt
+)
+"src/oUnitAssert.ml" 139 4799 4826 "src/oUnitAssert.ml" 139 4799 4830
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnitAssert.ml" 136 4773 4778 "src/oUnitAssert.ml" 136 4773 4782
+)
+"src/oUnitAssert.ml" 140 4831 4842 "src/oUnitAssert.ml" 140 4831 4846
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def ctxt "src/oUnitAssert.ml" 141 4850 4859 "src/oUnitAssert.ml" 289 9785 9799
+)
+"src/oUnitAssert.ml" 141 4850 4864 "src/oUnitAssert.ml" 141 4850 4870
+type(
+  string
+)
+ident(
+  def fn_out "src/oUnitAssert.ml" 142 4907 4916 "src/oUnitAssert.ml" 289 9785 9799
+)
+"src/oUnitAssert.ml" 141 4850 4872 "src/oUnitAssert.ml" 141 4850 4879
+type(
+  out_channel
+)
+ident(
+  def chn_out "src/oUnitAssert.ml" 142 4907 4916 "src/oUnitAssert.ml" 289 9785 9799
+)
+"src/oUnitAssert.ml" 141 4850 4863 "src/oUnitAssert.ml" 141 4850 4880
+type(
+  string * out_channel
+)
+"src/oUnitAssert.ml" 141 4850 4883 "src/oUnitAssert.ml" 141 4850 4898
+type(
+  ?prefix:string ->
+  ?suffix:string ->
+  ?mode:open_flag list -> OUnitTest.ctxt -> string * out_channel
+)
+ident(
+  ext_ref OUnitBracket.bracket_tmpfile
+)
+"src/oUnitAssert.ml" 141 4850 4899 "src/oUnitAssert.ml" 141 4850 4903
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnitAssert.ml" 140 4831 4842 "src/oUnitAssert.ml" 140 4831 4846
+)
+"src/oUnitAssert.ml" 141 4850 4883 "src/oUnitAssert.ml" 141 4850 4903
+call(
+  stack
+)
+type(
+  string * out_channel
+)
+"src/oUnitAssert.ml" 142 4907 4920 "src/oUnitAssert.ml" 142 4907 4929
+type(
+  Format.formatter -> unit
+)
+ident(
+  def cmd_print "src/oUnitAssert.ml" 148 5079 5088 "src/oUnitAssert.ml" 289 9785 9799
+)
+"src/oUnitAssert.ml" 142 4907 4930 "src/oUnitAssert.ml" 142 4907 4933
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/oUnitAssert.ml" 143 4936 4947 "src/oUnitAssert.ml" 144 4979 5032
+)
+"src/oUnitAssert.ml" 143 4936 4947 "src/oUnitAssert.ml" 143 4936 4969
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"src/oUnitAssert.ml" 143 4936 4970 "src/oUnitAssert.ml" 143 4936 4973
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 142 4907 4930 "src/oUnitAssert.ml" 142 4907 4933
+)
+"src/oUnitAssert.ml" 143 4936 4974 "src/oUnitAssert.ml" 143 4936 4977
+type(
+  string
+)
+ident(
+  int_ref prg "src/oUnitAssert.ml" 137 4783 4787 "src/oUnitAssert.ml" 137 4783 4790
+)
+"src/oUnitAssert.ml" 143 4936 4947 "src/oUnitAssert.ml" 143 4936 4977
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 144 4979 4990 "src/oUnitAssert.ml" 144 4979 4999
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitAssert.ml" 144 4979 5001 "src/oUnitAssert.ml" 144 4979 5015
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/oUnitAssert.ml" 144 4979 5016 "src/oUnitAssert.ml" 144 4979 5019
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 142 4907 4930 "src/oUnitAssert.ml" 142 4907 4933
+)
+"src/oUnitAssert.ml" 144 4979 5020 "src/oUnitAssert.ml" 144 4979 5026
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"src/oUnitAssert.ml" 144 4979 5000 "src/oUnitAssert.ml" 144 4979 5027
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"src/oUnitAssert.ml" 144 4979 5028 "src/oUnitAssert.ml" 144 4979 5032
+type(
+  string list
+)
+ident(
+  int_ref args "src/oUnitAssert.ml" 137 4783 4791 "src/oUnitAssert.ml" 137 4783 4795
+)
+"src/oUnitAssert.ml" 144 4979 4990 "src/oUnitAssert.ml" 144 4979 5032
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 143 4936 4947 "src/oUnitAssert.ml" 144 4979 5032
+type(
+  unit
+)
+"src/oUnitAssert.ml" 148 5079 5092 "src/oUnitAssert.ml" 148 5079 5100
+type(
+  Unix.file_descr
+)
+ident(
+  def in_write "src/oUnitAssert.ml" 151 5171 5180 "src/oUnitAssert.ml" 289 9785 9799
+)
+"src/oUnitAssert.ml" 149 5103 5114 "src/oUnitAssert.ml" 149 5103 5122
+type(
+  ?cloexec:bool -> Unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Unix.dup
+)
+"src/oUnitAssert.ml" 149 5103 5124 "src/oUnitAssert.ml" 149 5103 5149
+type(
+  out_channel -> Unix.file_descr
+)
+ident(
+  ext_ref Unix.descr_of_out_channel
+)
+"src/oUnitAssert.ml" 149 5103 5150 "src/oUnitAssert.ml" 149 5103 5157
+type(
+  out_channel
+)
+ident(
+  int_ref chn_out "src/oUnitAssert.ml" 141 4850 4872 "src/oUnitAssert.ml" 141 4850 4879
+)
+"src/oUnitAssert.ml" 149 5103 5123 "src/oUnitAssert.ml" 149 5103 5158
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/oUnitAssert.ml" 149 5103 5114 "src/oUnitAssert.ml" 149 5103 5158
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/oUnitAssert.ml" 151 5171 5185 "src/oUnitAssert.ml" 151 5171 5193
+type(
+  Unix.file_descr
+)
+ident(
+  def out_read "src/oUnitAssert.ml" 154 5244 5253 "src/oUnitAssert.ml" 289 9785 9799
+)
+"src/oUnitAssert.ml" 151 5171 5195 "src/oUnitAssert.ml" 151 5171 5204
+type(
+  Unix.file_descr
+)
+ident(
+  def out_write "src/oUnitAssert.ml" 154 5244 5253 "src/oUnitAssert.ml" 289 9785 9799
+)
+"src/oUnitAssert.ml" 151 5171 5184 "src/oUnitAssert.ml" 151 5171 5205
+type(
+  Unix.file_descr * Unix.file_descr
+)
+"src/oUnitAssert.ml" 152 5208 5219 "src/oUnitAssert.ml" 152 5208 5228
+type(
+  ?cloexec:bool -> unit -> Unix.file_descr * Unix.file_descr
+)
+ident(
+  ext_ref Unix.pipe
+)
+"src/oUnitAssert.ml" 152 5208 5229 "src/oUnitAssert.ml" 152 5208 5231
+type(
+  unit
+)
+"src/oUnitAssert.ml" 152 5208 5219 "src/oUnitAssert.ml" 152 5208 5231
+call(
+  stack
+)
+type(
+  Unix.file_descr * Unix.file_descr
+)
+"src/oUnitAssert.ml" 154 5244 5257 "src/oUnitAssert.ml" 154 5244 5260
+type(
+  Unix.file_descr
+)
+ident(
+  def err "src/oUnitAssert.ml" 160 5368 5377 "src/oUnitAssert.ml" 289 9785 9799
+)
+"src/oUnitAssert.ml" 155 5263 5277 "src/oUnitAssert.ml" 155 5263 5287
+type(
+  bool
+)
+ident(
+  int_ref use_stderr "src/oUnitAssert.ml" 132 4708 4714 "src/oUnitAssert.ml" 132 4708 4724
+)
+"src/oUnitAssert.ml" 156 5293 5306 "src/oUnitAssert.ml" 156 5293 5314
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref in_write "src/oUnitAssert.ml" 148 5079 5092 "src/oUnitAssert.ml" 148 5079 5100
+)
+"src/oUnitAssert.ml" 158 5331 5344 "src/oUnitAssert.ml" 158 5331 5355
+type(
+  Unix.file_descr
+)
+ident(
+  ext_ref Unix.stderr
+)
+"src/oUnitAssert.ml" 155 5263 5274 "src/oUnitAssert.ml" 158 5331 5355
+type(
+  Unix.file_descr
+)
+"src/oUnitAssert.ml" 160 5368 5381 "src/oUnitAssert.ml" 160 5368 5385
+type(
+  string array
+)
+ident(
+  def args "src/oUnitAssert.ml" 163 5439 5448 "src/oUnitAssert.ml" 289 9785 9799
+)
+"src/oUnitAssert.ml" 161 5388 5399 "src/oUnitAssert.ml" 161 5388 5412
+type(
+  string list -> string array
+)
+ident(
+  ext_ref Array.of_list
+)
+"src/oUnitAssert.ml" 161 5388 5414 "src/oUnitAssert.ml" 161 5388 5417
+type(
+  string
+)
+ident(
+  int_ref prg "src/oUnitAssert.ml" 137 4783 4787 "src/oUnitAssert.ml" 137 4783 4790
+)
+"src/oUnitAssert.ml" 161 5388 5421 "src/oUnitAssert.ml" 161 5388 5425
+type(
+  string list
+)
+ident(
+  int_ref args "src/oUnitAssert.ml" 137 4783 4791 "src/oUnitAssert.ml" 137 4783 4795
+)
+"src/oUnitAssert.ml" 161 5388 5413 "src/oUnitAssert.ml" 161 5388 5426
+type(
+  string list
+)
+"src/oUnitAssert.ml" 161 5388 5399 "src/oUnitAssert.ml" 161 5388 5426
+call(
+  stack
+)
+type(
+  string array
+)
+"src/oUnitAssert.ml" 163 5439 5452 "src/oUnitAssert.ml" 163 5439 5455
+type(
+  string array option
+)
+ident(
+  def env "src/oUnitAssert.ml" 198 6680 6689 "src/oUnitAssert.ml" 289 9785 9799
+)
+"src/oUnitAssert.ml" 164 5458 5473 "src/oUnitAssert.ml" 164 5458 5478
+type(
+  string
+)
+ident(
+  def param "src/oUnitAssert.ml" 165 5500 5511 "src/oUnitAssert.ml" 196 6653 6667
+)
+"src/oUnitAssert.ml" 164 5458 5481 "src/oUnitAssert.ml" 164 5458 5496
+type(
+  string
+)
+"src/oUnitAssert.ml" 165 5500 5515 "src/oUnitAssert.ml" 165 5500 5530
+type(
+  string array -> string array
+)
+ident(
+  def analyse_and_fix "src/oUnitAssert.ml" 187 6327 6338 "src/oUnitAssert.ml" 196 6653 6667
+)
+"src/oUnitAssert.ml" 165 5500 5531 "src/oUnitAssert.ml" 165 5500 5534
+type(
+  string array
+)
+ident(
+  def env "src/oUnitAssert.ml" 166 5537 5550 "src/oUnitAssert.ml" 185 6266 6312
+)
+"src/oUnitAssert.ml" 166 5537 5554 "src/oUnitAssert.ml" 166 5537 5557
+type(
+  string array
+)
+ident(
+  def arr "src/oUnitAssert.ml" 167 5578 5591 "src/oUnitAssert.ml" 185 6266 6312
+)
+"src/oUnitAssert.ml" 166 5537 5560 "src/oUnitAssert.ml" 166 5537 5570
+type(
+  string array -> string array
+)
+ident(
+  ext_ref Array.copy
+)
+"src/oUnitAssert.ml" 166 5537 5571 "src/oUnitAssert.ml" 166 5537 5574
+type(
+  string array
+)
+ident(
+  int_ref env "src/oUnitAssert.ml" 165 5500 5531 "src/oUnitAssert.ml" 165 5500 5534
+)
+"src/oUnitAssert.ml" 166 5537 5560 "src/oUnitAssert.ml" 166 5537 5574
+call(
+  stack
+)
+type(
+  string array
+)
+"src/oUnitAssert.ml" 167 5578 5595 "src/oUnitAssert.ml" 167 5578 5600
+type(
+  bool ref
+)
+ident(
+  def fixed "src/oUnitAssert.ml" 168 5616 5629 "src/oUnitAssert.ml" 185 6266 6312
+)
+"src/oUnitAssert.ml" 167 5578 5603 "src/oUnitAssert.ml" 167 5578 5606
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitAssert.ml" 167 5578 5607 "src/oUnitAssert.ml" 167 5578 5612
+type(
+  bool
+)
+"src/oUnitAssert.ml" 167 5578 5603 "src/oUnitAssert.ml" 167 5578 5612
+type(
+  bool ref
+)
+"src/oUnitAssert.ml" 168 5616 5633 "src/oUnitAssert.ml" 168 5616 5640
+type(
+  string ref
+)
+ident(
+  def new_var "src/oUnitAssert.ml" 169 5653 5666 "src/oUnitAssert.ml" 185 6266 6312
+)
+"src/oUnitAssert.ml" 168 5616 5643 "src/oUnitAssert.ml" 168 5616 5646
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitAssert.ml" 168 5616 5647 "src/oUnitAssert.ml" 168 5616 5649
+type(
+  string
+)
+"src/oUnitAssert.ml" 168 5616 5643 "src/oUnitAssert.ml" 168 5616 5649
+type(
+  string ref
+)
+"src/oUnitAssert.ml" 169 5653 5674 "src/oUnitAssert.ml" 169 5653 5675
+type(
+  int
+)
+"src/oUnitAssert.ml" 169 5653 5680 "src/oUnitAssert.ml" 169 5653 5692
+type(
+  string array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/oUnitAssert.ml" 169 5653 5693 "src/oUnitAssert.ml" 169 5653 5696
+type(
+  string array
+)
+ident(
+  int_ref arr "src/oUnitAssert.ml" 166 5537 5554 "src/oUnitAssert.ml" 166 5537 5557
+)
+"src/oUnitAssert.ml" 169 5653 5679 "src/oUnitAssert.ml" 169 5653 5697
+type(
+  int
+)
+"src/oUnitAssert.ml" 169 5653 5698 "src/oUnitAssert.ml" 169 5653 5699
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/oUnitAssert.ml" 169 5653 5700 "src/oUnitAssert.ml" 169 5653 5701
+type(
+  int
+)
+"src/oUnitAssert.ml" 169 5653 5679 "src/oUnitAssert.ml" 169 5653 5701
+type(
+  int
+)
+"src/oUnitAssert.ml" 170 5705 5724 "src/oUnitAssert.ml" 170 5705 5737
+type(
+  bool
+)
+ident(
+  def really_starts "src/oUnitAssert.ml" 173 5842 5859 "src/oUnitAssert.ml" 180 6161 6181
+)
+"src/oUnitAssert.ml" 170 5705 5739 "src/oUnitAssert.ml" 170 5705 5752
+type(
+  string
+)
+ident(
+  def current_value "src/oUnitAssert.ml" 173 5842 5859 "src/oUnitAssert.ml" 180 6161 6181
+)
+"src/oUnitAssert.ml" 170 5705 5724 "src/oUnitAssert.ml" 170 5705 5752
+type(
+  bool * string
+)
+"src/oUnitAssert.ml" 171 5755 5772 "src/oUnitAssert.ml" 171 5755 5795
+type(
+  prefix:string -> string -> bool * string
+)
+ident(
+  ext_ref OUnitUtils.start_substr
+)
+"src/oUnitAssert.ml" 171 5755 5805 "src/oUnitAssert.ml" 171 5755 5810
+type(
+  string
+)
+ident(
+  int_ref param "src/oUnitAssert.ml" 164 5458 5473 "src/oUnitAssert.ml" 164 5458 5478
+)
+"src/oUnitAssert.ml" 171 5755 5810 "src/oUnitAssert.ml" 171 5755 5811
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitAssert.ml" 171 5755 5811 "src/oUnitAssert.ml" 171 5755 5814
+type(
+  string
+)
+"src/oUnitAssert.ml" 171 5755 5804 "src/oUnitAssert.ml" 171 5755 5815
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 171 5755 5816 "src/oUnitAssert.ml" 171 5755 5819
+type(
+  string array
+)
+ident(
+  int_ref arr "src/oUnitAssert.ml" 166 5537 5554 "src/oUnitAssert.ml" 166 5537 5557
+)
+"src/oUnitAssert.ml" 171 5755 5821 "src/oUnitAssert.ml" 171 5755 5822
+type(
+  int
+)
+ident(
+  int_ref i "src/oUnitAssert.ml" 169 5653 5666 "src/oUnitAssert.ml" 181 6182 6199
+)
+"src/oUnitAssert.ml" 171 5755 5816 "src/oUnitAssert.ml" 171 5755 5823
+type(
+  string
+)
+"src/oUnitAssert.ml" 171 5755 5772 "src/oUnitAssert.ml" 171 5755 5823
+call(
+  stack
+)
+type(
+  bool * string
+)
+"src/oUnitAssert.ml" 173 5842 5862 "src/oUnitAssert.ml" 173 5842 5875
+type(
+  bool
+)
+ident(
+  int_ref really_starts "src/oUnitAssert.ml" 170 5705 5724 "src/oUnitAssert.ml" 170 5705 5737
+)
+"src/oUnitAssert.ml" 175 5932 5954 "src/oUnitAssert.ml" 175 5932 5957
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/oUnitAssert.ml" 175 5932 5959 "src/oUnitAssert.ml" 175 5932 5974
+type(
+  string -> char -> bool
+)
+ident(
+  ext_ref String.contains
+)
+"src/oUnitAssert.ml" 175 5932 5975 "src/oUnitAssert.ml" 175 5932 5988
+type(
+  string
+)
+ident(
+  int_ref current_value "src/oUnitAssert.ml" 170 5705 5739 "src/oUnitAssert.ml" 170 5705 5752
+)
+"src/oUnitAssert.ml" 175 5932 5989 "src/oUnitAssert.ml" 175 5932 5992
+type(
+  char
+)
+"src/oUnitAssert.ml" 175 5932 5958 "src/oUnitAssert.ml" 175 5932 5993
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitAssert.ml" 175 5932 5954 "src/oUnitAssert.ml" 175 5932 5993
+type(
+  bool
+)
+"src/oUnitAssert.ml" 176 6005 6026 "src/oUnitAssert.ml" 176 6005 6029
+type(
+  string array
+)
+ident(
+  int_ref arr "src/oUnitAssert.ml" 166 5537 5554 "src/oUnitAssert.ml" 166 5537 5557
+)
+"src/oUnitAssert.ml" 176 6005 6031 "src/oUnitAssert.ml" 176 6005 6032
+type(
+  int
+)
+ident(
+  int_ref i "src/oUnitAssert.ml" 169 5653 5666 "src/oUnitAssert.ml" 181 6182 6199
+)
+"src/oUnitAssert.ml" 176 6005 6037 "src/oUnitAssert.ml" 176 6005 6042
+type(
+  string
+)
+ident(
+  int_ref param "src/oUnitAssert.ml" 164 5458 5473 "src/oUnitAssert.ml" 164 5458 5478
+)
+"src/oUnitAssert.ml" 176 6005 6042 "src/oUnitAssert.ml" 176 6005 6043
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitAssert.ml" 176 6005 6043 "src/oUnitAssert.ml" 176 6005 6046
+type(
+  string
+)
+"src/oUnitAssert.ml" 176 6005 6046 "src/oUnitAssert.ml" 176 6005 6047
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitAssert.ml" 176 6005 6047 "src/oUnitAssert.ml" 176 6005 6060
+type(
+  string
+)
+ident(
+  int_ref current_value "src/oUnitAssert.ml" 170 5705 5739 "src/oUnitAssert.ml" 170 5705 5752
+)
+"src/oUnitAssert.ml" 176 6005 6060 "src/oUnitAssert.ml" 176 6005 6061
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitAssert.ml" 176 6005 6061 "src/oUnitAssert.ml" 176 6005 6064
+type(
+  string
+)
+"src/oUnitAssert.ml" 176 6005 6047 "src/oUnitAssert.ml" 176 6005 6064
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 176 6005 6043 "src/oUnitAssert.ml" 176 6005 6064
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 176 6005 6037 "src/oUnitAssert.ml" 176 6005 6064
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 175 5932 5999 "src/oUnitAssert.ml" 177 6065 6087
+type(
+  unit
+)
+"src/oUnitAssert.ml" 175 5932 5951 "src/oUnitAssert.ml" 177 6065 6087
+type(
+  unit
+)
+"src/oUnitAssert.ml" 178 6089 6108 "src/oUnitAssert.ml" 178 6089 6115
+type(
+  string ref
+)
+ident(
+  int_ref new_var "src/oUnitAssert.ml" 168 5616 5633 "src/oUnitAssert.ml" 168 5616 5640
+)
+"src/oUnitAssert.ml" 178 6089 6116 "src/oUnitAssert.ml" 178 6089 6118
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitAssert.ml" 178 6089 6119 "src/oUnitAssert.ml" 178 6089 6122
+type(
+  string array
+)
+ident(
+  int_ref arr "src/oUnitAssert.ml" 166 5537 5554 "src/oUnitAssert.ml" 166 5537 5557
+)
+"src/oUnitAssert.ml" 178 6089 6124 "src/oUnitAssert.ml" 178 6089 6125
+type(
+  int
+)
+ident(
+  int_ref i "src/oUnitAssert.ml" 169 5653 5666 "src/oUnitAssert.ml" 181 6182 6199
+)
+"src/oUnitAssert.ml" 178 6089 6119 "src/oUnitAssert.ml" 178 6089 6126
+type(
+  string
+)
+"src/oUnitAssert.ml" 178 6089 6108 "src/oUnitAssert.ml" 178 6089 6126
+type(
+  unit
+)
+"src/oUnitAssert.ml" 179 6128 6147 "src/oUnitAssert.ml" 179 6128 6152
+type(
+  bool ref
+)
+ident(
+  int_ref fixed "src/oUnitAssert.ml" 167 5578 5595 "src/oUnitAssert.ml" 167 5578 5600
+)
+"src/oUnitAssert.ml" 179 6128 6153 "src/oUnitAssert.ml" 179 6128 6155
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitAssert.ml" 179 6128 6156 "src/oUnitAssert.ml" 179 6128 6160
+type(
+  bool
+)
+"src/oUnitAssert.ml" 179 6128 6147 "src/oUnitAssert.ml" 179 6128 6160
+type(
+  unit
+)
+"src/oUnitAssert.ml" 178 6089 6108 "src/oUnitAssert.ml" 179 6128 6160
+type(
+  unit
+)
+"src/oUnitAssert.ml" 173 5842 5881 "src/oUnitAssert.ml" 180 6161 6181
+type(
+  unit
+)
+"src/oUnitAssert.ml" 173 5842 5859 "src/oUnitAssert.ml" 180 6161 6181
+type(
+  unit
+)
+"src/oUnitAssert.ml" 170 5705 5720 "src/oUnitAssert.ml" 180 6161 6181
+type(
+  unit
+)
+"src/oUnitAssert.ml" 169 5653 5666 "src/oUnitAssert.ml" 181 6182 6199
+type(
+  unit
+)
+"src/oUnitAssert.ml" 182 6201 6217 "src/oUnitAssert.ml" 182 6201 6218
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitAssert.ml" 182 6201 6218 "src/oUnitAssert.ml" 182 6201 6223
+type(
+  bool ref
+)
+ident(
+  int_ref fixed "src/oUnitAssert.ml" 167 5578 5595 "src/oUnitAssert.ml" 167 5578 5600
+)
+"src/oUnitAssert.ml" 182 6201 6217 "src/oUnitAssert.ml" 182 6201 6223
+type(
+  bool
+)
+"src/oUnitAssert.ml" 183 6229 6244 "src/oUnitAssert.ml" 183 6229 6247
+type(
+  string array
+)
+ident(
+  int_ref arr "src/oUnitAssert.ml" 166 5537 5554 "src/oUnitAssert.ml" 166 5537 5557
+)
+"src/oUnitAssert.ml" 185 6266 6281 "src/oUnitAssert.ml" 185 6266 6293
+type(
+  string array -> string array -> string array
+)
+ident(
+  ext_ref Array.append
+)
+"src/oUnitAssert.ml" 185 6266 6294 "src/oUnitAssert.ml" 185 6266 6297
+type(
+  string array
+)
+ident(
+  int_ref arr "src/oUnitAssert.ml" 166 5537 5554 "src/oUnitAssert.ml" 166 5537 5557
+)
+"src/oUnitAssert.ml" 185 6266 6300 "src/oUnitAssert.ml" 185 6266 6305
+type(
+  string
+)
+ident(
+  int_ref param "src/oUnitAssert.ml" 164 5458 5473 "src/oUnitAssert.ml" 164 5458 5478
+)
+"src/oUnitAssert.ml" 185 6266 6305 "src/oUnitAssert.ml" 185 6266 6306
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitAssert.ml" 185 6266 6306 "src/oUnitAssert.ml" 185 6266 6310
+type(
+  string
+)
+"src/oUnitAssert.ml" 185 6266 6300 "src/oUnitAssert.ml" 185 6266 6310
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 185 6266 6298 "src/oUnitAssert.ml" 185 6266 6312
+type(
+  string array
+)
+"src/oUnitAssert.ml" 185 6266 6281 "src/oUnitAssert.ml" 185 6266 6312
+call(
+  tail
+)
+type(
+  string array
+)
+"src/oUnitAssert.ml" 182 6201 6214 "src/oUnitAssert.ml" 185 6266 6312
+type(
+  string array
+)
+"src/oUnitAssert.ml" 169 5653 5666 "src/oUnitAssert.ml" 185 6266 6312
+type(
+  string array
+)
+"src/oUnitAssert.ml" 168 5616 5629 "src/oUnitAssert.ml" 185 6266 6312
+type(
+  string array
+)
+"src/oUnitAssert.ml" 167 5578 5591 "src/oUnitAssert.ml" 185 6266 6312
+type(
+  string array
+)
+"src/oUnitAssert.ml" 166 5537 5550 "src/oUnitAssert.ml" 185 6266 6312
+type(
+  string array
+)
+"src/oUnitAssert.ml" 187 6327 6341 "src/oUnitAssert.ml" 187 6327 6350
+type(
+  bool
+)
+ident(
+  int_ref backtrace "src/oUnitAssert.ml" 133 4731 4737 "src/oUnitAssert.ml" 133 4731 4746
+)
+"src/oUnitAssert.ml" 189 6418 6437 "src/oUnitAssert.ml" 189 6418 6440
+type(
+  string array option
+)
+ident(
+  int_ref env "src/oUnitAssert.ml" 135 4764 4769 "src/oUnitAssert.ml" 135 4764 4772
+)
+"src/oUnitAssert.ml" 190 6446 6468 "src/oUnitAssert.ml" 190 6446 6471
+type(
+  string array
+)
+ident(
+  def env "src/oUnitAssert.ml" 191 6475 6494 "src/oUnitAssert.ml" 191 6475 6520
+)
+"src/oUnitAssert.ml" 190 6446 6463 "src/oUnitAssert.ml" 190 6446 6471
+type(
+  string array option
+)
+"src/oUnitAssert.ml" 191 6475 6500 "src/oUnitAssert.ml" 191 6475 6515
+type(
+  string array -> string array
+)
+ident(
+  int_ref analyse_and_fix "src/oUnitAssert.ml" 165 5500 5515 "src/oUnitAssert.ml" 165 5500 5530
+)
+"src/oUnitAssert.ml" 191 6475 6516 "src/oUnitAssert.ml" 191 6475 6519
+type(
+  string array
+)
+ident(
+  int_ref env "src/oUnitAssert.ml" 190 6446 6468 "src/oUnitAssert.ml" 190 6446 6471
+)
+"src/oUnitAssert.ml" 191 6475 6499 "src/oUnitAssert.ml" 191 6475 6520
+call(
+  stack
+)
+type(
+  string array
+)
+"src/oUnitAssert.ml" 191 6475 6494 "src/oUnitAssert.ml" 191 6475 6520
+type(
+  string array option
+)
+"src/oUnitAssert.ml" 192 6521 6538 "src/oUnitAssert.ml" 192 6521 6542
+type(
+  string array option
+)
+"src/oUnitAssert.ml" 193 6546 6571 "src/oUnitAssert.ml" 193 6546 6586
+type(
+  string array -> string array
+)
+ident(
+  int_ref analyse_and_fix "src/oUnitAssert.ml" 165 5500 5515 "src/oUnitAssert.ml" 165 5500 5530
+)
+"src/oUnitAssert.ml" 193 6546 6588 "src/oUnitAssert.ml" 193 6546 6604
+type(
+  unit -> string array
+)
+ident(
+  ext_ref Unix.environment
+)
+"src/oUnitAssert.ml" 193 6546 6605 "src/oUnitAssert.ml" 193 6546 6607
+type(
+  unit
+)
+"src/oUnitAssert.ml" 193 6546 6587 "src/oUnitAssert.ml" 193 6546 6608
+call(
+  stack
+)
+type(
+  string array
+)
+"src/oUnitAssert.ml" 193 6546 6570 "src/oUnitAssert.ml" 193 6546 6609
+call(
+  stack
+)
+type(
+  string array
+)
+"src/oUnitAssert.ml" 193 6546 6565 "src/oUnitAssert.ml" 193 6546 6609
+type(
+  string array option
+)
+"src/oUnitAssert.ml" 187 6327 6356 "src/oUnitAssert.ml" 194 6610 6624
+type(
+  string array option
+)
+"src/oUnitAssert.ml" 194 6610 6630 "src/oUnitAssert.ml" 196 6653 6667
+type(
+  string array option
+)
+ident(
+  int_ref env "src/oUnitAssert.ml" 135 4764 4769 "src/oUnitAssert.ml" 135 4764 4772
+)
+"src/oUnitAssert.ml" 187 6327 6338 "src/oUnitAssert.ml" 196 6653 6667
+type(
+  string array option
+)
+"src/oUnitAssert.ml" 165 5500 5511 "src/oUnitAssert.ml" 196 6653 6667
+type(
+  string array option
+)
+"src/oUnitAssert.ml" 164 5458 5469 "src/oUnitAssert.ml" 196 6653 6667
+type(
+  string array option
+)
+"src/oUnitAssert.ml" 198 6680 6693 "src/oUnitAssert.ml" 198 6680 6706
+type(
+  string
+)
+ident(
+  def command_chdir "src/oUnitAssert.ml" 208 6996 7005 "src/oUnitAssert.ml" 289 9785 9799
+)
+"src/oUnitAssert.ml" 198 6680 6708 "src/oUnitAssert.ml" 198 6680 6716
+type(
+  (unit -> int) -> int
+)
+ident(
+  def in_chdir "src/oUnitAssert.ml" 208 6996 7005 "src/oUnitAssert.ml" 289 9785 9799
+)
+"src/oUnitAssert.ml" 198 6680 6693 "src/oUnitAssert.ml" 198 6680 6716
+type(
+  string * ((unit -> int) -> int)
+)
+"src/oUnitAssert.ml" 199 6719 6736 "src/oUnitAssert.ml" 199 6719 6741
+type(
+  string option
+)
+ident(
+  int_ref chdir "src/oUnitAssert.ml" 134 4753 4758 "src/oUnitAssert.ml" 134 4753 4763
+)
+"src/oUnitAssert.ml" 200 6747 6767 "src/oUnitAssert.ml" 200 6747 6769
+type(
+  string
+)
+ident(
+  def dn "src/oUnitAssert.ml" 201 6773 6790 "src/oUnitAssert.ml" 204 6876 6914
+)
+"src/oUnitAssert.ml" 200 6747 6762 "src/oUnitAssert.ml" 200 6747 6769
+type(
+  string option
+)
+"src/oUnitAssert.ml" 201 6773 6790 "src/oUnitAssert.ml" 201 6773 6792
+type(
+  string
+)
+ident(
+  int_ref dn "src/oUnitAssert.ml" 200 6747 6767 "src/oUnitAssert.ml" 200 6747 6769
+)
+"src/oUnitAssert.ml" 202 6794 6815 "src/oUnitAssert.ml" 202 6794 6816
+type(
+  unit -> int
+)
+ident(
+  def f "src/oUnitAssert.ml" 203 6820 6839 "src/oUnitAssert.ml" 204 6876 6914
+)
+"src/oUnitAssert.ml" 203 6820 6839 "src/oUnitAssert.ml" 203 6820 6851
+type(
+  OUnitTest.ctxt ->
+  (OUnitTest.ctxt -> string) -> (string -> OUnitTest.ctxt -> int) -> int
+)
+ident(
+  ext_ref OUnitBracket.with_bracket
+)
+"src/oUnitAssert.ml" 203 6820 6852 "src/oUnitAssert.ml" 203 6820 6856
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnitAssert.ml" 140 4831 4842 "src/oUnitAssert.ml" 140 4831 4846
+)
+"src/oUnitAssert.ml" 203 6820 6858 "src/oUnitAssert.ml" 203 6820 6871
+type(
+  string -> OUnitTest.ctxt -> string
+)
+ident(
+  ext_ref OUnitBracket.bracket_chdir
+)
+"src/oUnitAssert.ml" 203 6820 6872 "src/oUnitAssert.ml" 203 6820 6874
+type(
+  string
+)
+ident(
+  int_ref dn "src/oUnitAssert.ml" 200 6747 6767 "src/oUnitAssert.ml" 200 6747 6769
+)
+"src/oUnitAssert.ml" 203 6820 6857 "src/oUnitAssert.ml" 203 6820 6875
+call(
+  stack
+)
+type(
+  OUnitTest.ctxt -> string
+)
+"src/oUnitAssert.ml" 204 6876 6902 "src/oUnitAssert.ml" 204 6876 6903
+type(
+  string
+)
+"src/oUnitAssert.ml" 204 6876 6904 "src/oUnitAssert.ml" 204 6876 6905
+type(
+  OUnitTest.ctxt
+)
+"src/oUnitAssert.ml" 204 6876 6909 "src/oUnitAssert.ml" 204 6876 6910
+type(
+  unit -> int
+)
+ident(
+  int_ref f "src/oUnitAssert.ml" 202 6794 6815 "src/oUnitAssert.ml" 202 6794 6816
+)
+"src/oUnitAssert.ml" 204 6876 6911 "src/oUnitAssert.ml" 204 6876 6913
+type(
+  unit
+)
+"src/oUnitAssert.ml" 204 6876 6909 "src/oUnitAssert.ml" 204 6876 6913
+call(
+  tail
+)
+type(
+  int
+)
+"src/oUnitAssert.ml" 204 6876 6897 "src/oUnitAssert.ml" 204 6876 6914
+type(
+  string -> OUnitTest.ctxt -> int
+)
+"src/oUnitAssert.ml" 203 6820 6839 "src/oUnitAssert.ml" 204 6876 6914
+call(
+  tail
+)
+type(
+  int
+)
+"src/oUnitAssert.ml" 202 6794 6811 "src/oUnitAssert.ml" 204 6876 6914
+type(
+  (unit -> int) -> int
+)
+"src/oUnitAssert.ml" 201 6773 6790 "src/oUnitAssert.ml" 204 6876 6914
+type(
+  string * ((unit -> int) -> int)
+)
+"src/oUnitAssert.ml" 205 6915 6930 "src/oUnitAssert.ml" 205 6915 6934
+type(
+  string option
+)
+"src/oUnitAssert.ml" 206 6938 6955 "src/oUnitAssert.ml" 206 6938 6965
+type(
+  unit -> string
+)
+ident(
+  ext_ref Sys.getcwd
+)
+"src/oUnitAssert.ml" 206 6938 6966 "src/oUnitAssert.ml" 206 6938 6968
+type(
+  unit
+)
+"src/oUnitAssert.ml" 206 6938 6955 "src/oUnitAssert.ml" 206 6938 6968
+type(
+  string
+)
+"src/oUnitAssert.ml" 206 6938 6974 "src/oUnitAssert.ml" 206 6938 6975
+type(
+  unit -> int
+)
+ident(
+  def f "src/oUnitAssert.ml" 206 6938 6979 "src/oUnitAssert.ml" 206 6938 6983
+)
+"src/oUnitAssert.ml" 206 6938 6979 "src/oUnitAssert.ml" 206 6938 6980
+type(
+  unit -> int
+)
+ident(
+  int_ref f "src/oUnitAssert.ml" 206 6938 6974 "src/oUnitAssert.ml" 206 6938 6975
+)
+"src/oUnitAssert.ml" 206 6938 6981 "src/oUnitAssert.ml" 206 6938 6983
+type(
+  unit
+)
+"src/oUnitAssert.ml" 206 6938 6979 "src/oUnitAssert.ml" 206 6938 6983
+call(
+  tail
+)
+type(
+  int
+)
+"src/oUnitAssert.ml" 206 6938 6970 "src/oUnitAssert.ml" 206 6938 6983
+type(
+  (unit -> int) -> int
+)
+"src/oUnitAssert.ml" 206 6938 6955 "src/oUnitAssert.ml" 206 6938 6983
+type(
+  string * ((unit -> int) -> int)
+)
+"src/oUnitAssert.ml" 199 6719 6730 "src/oUnitAssert.ml" 206 6938 6983
+type(
+  string * ((unit -> int) -> int)
+)
+"src/oUnitAssert.ml" 208 6996 7009 "src/oUnitAssert.ml" 208 6996 7012
+type(
+  int
+)
+ident(
+  def pid "src/oUnitAssert.ml" 233 8011 8020 "src/oUnitAssert.ml" 289 9785 9799
+)
+"src/oUnitAssert.ml" 209 7015 7026 "src/oUnitAssert.ml" 209 7015 7047
+type(
+  OUnitTest.result OUnitLogger.Test.t ->
+  OUnitLogger.log_severity ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref OUnitLogger.Test.logf
+)
+"src/oUnitAssert.ml" 209 7015 7048 "src/oUnitAssert.ml" 209 7015 7052
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnitAssert.ml" 140 4831 4842 "src/oUnitAssert.ml" 140 4831 4846
+)
+"src/oUnitAssert.ml" 209 7015 7048 "src/oUnitAssert.ml" 209 7015 7064
+type(
+  OUnitTest.result OUnitLogger.Test.t
+)
+"src/oUnitAssert.ml" 209 7015 7065 "src/oUnitAssert.ml" 209 7015 7070
+type(
+  OUnitLogger.log_severity
+)
+"src/oUnitAssert.ml" 209 7015 7071 "src/oUnitAssert.ml" 209 7015 7075
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitAssert.ml" 210 7076 7090 "src/oUnitAssert.ml" 210 7076 7108
+type(
+  (Format.formatter -> unit) -> string
+)
+ident(
+  ext_ref OUnitUtils.buff_format_printf
+)
+"src/oUnitAssert.ml" 211 7109 7130 "src/oUnitAssert.ml" 211 7109 7133
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/oUnitAssert.ml" 212 7137 7156 "src/oUnitAssert.ml" 212 7137 7209
+)
+"src/oUnitAssert.ml" 212 7137 7156 "src/oUnitAssert.ml" 212 7137 7170
+type(
+  Format.formatter ->
+  ((Format.formatter -> unit) -> unit, Format.formatter, unit) format ->
+  (Format.formatter -> unit) -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/oUnitAssert.ml" 212 7137 7171 "src/oUnitAssert.ml" 212 7137 7174
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 211 7109 7130 "src/oUnitAssert.ml" 211 7109 7133
+)
+"src/oUnitAssert.ml" 212 7137 7175 "src/oUnitAssert.ml" 212 7137 7199
+type(
+  ((Format.formatter -> unit) -> unit, Format.formatter, unit) format
+)
+"src/oUnitAssert.ml" 212 7137 7200 "src/oUnitAssert.ml" 212 7137 7209
+type(
+  Format.formatter -> unit
+)
+ident(
+  int_ref cmd_print "src/oUnitAssert.ml" 142 4907 4920 "src/oUnitAssert.ml" 142 4907 4929
+)
+"src/oUnitAssert.ml" 212 7137 7156 "src/oUnitAssert.ml" 212 7137 7209
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 211 7109 7125 "src/oUnitAssert.ml" 212 7137 7210
+type(
+  Format.formatter -> unit
+)
+"src/oUnitAssert.ml" 210 7076 7089 "src/oUnitAssert.ml" 212 7137 7211
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 209 7015 7026 "src/oUnitAssert.ml" 212 7137 7211
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 213 7213 7224 "src/oUnitAssert.ml" 213 7213 7245
+type(
+  OUnitTest.result OUnitLogger.Test.t ->
+  OUnitLogger.log_severity ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref OUnitLogger.Test.logf
+)
+"src/oUnitAssert.ml" 213 7213 7246 "src/oUnitAssert.ml" 213 7213 7250
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnitAssert.ml" 140 4831 4842 "src/oUnitAssert.ml" 140 4831 4846
+)
+"src/oUnitAssert.ml" 213 7213 7246 "src/oUnitAssert.ml" 213 7213 7262
+type(
+  OUnitTest.result OUnitLogger.Test.t
+)
+"src/oUnitAssert.ml" 213 7213 7263 "src/oUnitAssert.ml" 213 7213 7268
+type(
+  OUnitLogger.log_severity
+)
+"src/oUnitAssert.ml" 213 7213 7269 "src/oUnitAssert.ml" 213 7213 7292
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitAssert.ml" 214 7293 7306 "src/oUnitAssert.ml" 214 7293 7319
+type(
+  string
+)
+ident(
+  int_ref command_chdir "src/oUnitAssert.ml" 198 6680 6693 "src/oUnitAssert.ml" 198 6680 6706
+)
+"src/oUnitAssert.ml" 213 7213 7224 "src/oUnitAssert.ml" 214 7293 7319
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 215 7321 7332 "src/oUnitAssert.ml" 215 7321 7353
+type(
+  OUnitTest.result OUnitLogger.Test.t ->
+  OUnitLogger.log_severity -> (unit, unit, string, unit) format4 -> unit
+)
+ident(
+  ext_ref OUnitLogger.Test.logf
+)
+"src/oUnitAssert.ml" 215 7321 7354 "src/oUnitAssert.ml" 215 7321 7358
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnitAssert.ml" 140 4831 4842 "src/oUnitAssert.ml" 140 4831 4846
+)
+"src/oUnitAssert.ml" 215 7321 7354 "src/oUnitAssert.ml" 215 7321 7370
+type(
+  OUnitTest.result OUnitLogger.Test.t
+)
+"src/oUnitAssert.ml" 215 7321 7371 "src/oUnitAssert.ml" 215 7321 7376
+type(
+  OUnitLogger.log_severity
+)
+"src/oUnitAssert.ml" 215 7321 7377 "src/oUnitAssert.ml" 215 7321 7392
+type(
+  (unit, unit, string, unit) format4
+)
+"src/oUnitAssert.ml" 215 7321 7332 "src/oUnitAssert.ml" 215 7321 7392
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 216 7394 7405 "src/oUnitAssert.ml" 216 7394 7415
+type(
+  (string -> unit) -> string array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"src/oUnitAssert.ml" 217 7416 7434 "src/oUnitAssert.ml" 217 7416 7435
+type(
+  string
+)
+ident(
+  def v "src/oUnitAssert.ml" 218 7439 7455 "src/oUnitAssert.ml" 218 7439 7506
+)
+"src/oUnitAssert.ml" 218 7439 7455 "src/oUnitAssert.ml" 218 7439 7476
+type(
+  OUnitTest.result OUnitLogger.Test.t ->
+  OUnitLogger.log_severity ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref OUnitLogger.Test.logf
+)
+"src/oUnitAssert.ml" 218 7439 7477 "src/oUnitAssert.ml" 218 7439 7481
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnitAssert.ml" 140 4831 4842 "src/oUnitAssert.ml" 140 4831 4846
+)
+"src/oUnitAssert.ml" 218 7439 7477 "src/oUnitAssert.ml" 218 7439 7493
+type(
+  OUnitTest.result OUnitLogger.Test.t
+)
+"src/oUnitAssert.ml" 218 7439 7494 "src/oUnitAssert.ml" 218 7439 7499
+type(
+  OUnitLogger.log_severity
+)
+"src/oUnitAssert.ml" 218 7439 7500 "src/oUnitAssert.ml" 218 7439 7504
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitAssert.ml" 218 7439 7505 "src/oUnitAssert.ml" 218 7439 7506
+type(
+  string
+)
+ident(
+  int_ref v "src/oUnitAssert.ml" 217 7416 7434 "src/oUnitAssert.ml" 217 7416 7435
+)
+"src/oUnitAssert.ml" 218 7439 7455 "src/oUnitAssert.ml" 218 7439 7506
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 217 7416 7429 "src/oUnitAssert.ml" 218 7439 7507
+type(
+  string -> unit
+)
+"src/oUnitAssert.ml" 219 7508 7528 "src/oUnitAssert.ml" 219 7508 7531
+type(
+  string array option
+)
+ident(
+  int_ref env "src/oUnitAssert.ml" 163 5439 5452 "src/oUnitAssert.ml" 163 5439 5455
+)
+"src/oUnitAssert.ml" 220 7537 7560 "src/oUnitAssert.ml" 220 7537 7561
+type(
+  string array
+)
+ident(
+  def e "src/oUnitAssert.ml" 220 7537 7565 "src/oUnitAssert.ml" 220 7537 7566
+)
+"src/oUnitAssert.ml" 220 7537 7555 "src/oUnitAssert.ml" 220 7537 7561
+type(
+  string array option
+)
+"src/oUnitAssert.ml" 220 7537 7565 "src/oUnitAssert.ml" 220 7537 7566
+type(
+  string array
+)
+ident(
+  int_ref e "src/oUnitAssert.ml" 220 7537 7560 "src/oUnitAssert.ml" 220 7537 7561
+)
+"src/oUnitAssert.ml" 221 7567 7585 "src/oUnitAssert.ml" 221 7567 7589
+type(
+  string array option
+)
+"src/oUnitAssert.ml" 221 7567 7593 "src/oUnitAssert.ml" 221 7567 7609
+type(
+  unit -> string array
+)
+ident(
+  ext_ref Unix.environment
+)
+"src/oUnitAssert.ml" 221 7567 7610 "src/oUnitAssert.ml" 221 7567 7612
+type(
+  unit
+)
+"src/oUnitAssert.ml" 221 7567 7593 "src/oUnitAssert.ml" 221 7567 7612
+call(
+  stack
+)
+type(
+  string array
+)
+"src/oUnitAssert.ml" 219 7508 7521 "src/oUnitAssert.ml" 221 7567 7613
+type(
+  string array
+)
+"src/oUnitAssert.ml" 216 7394 7405 "src/oUnitAssert.ml" 221 7567 7613
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 222 7615 7626 "src/oUnitAssert.ml" 222 7615 7648
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.set_close_on_exec
+)
+"src/oUnitAssert.ml" 222 7615 7649 "src/oUnitAssert.ml" 222 7615 7658
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref out_write "src/oUnitAssert.ml" 151 5171 5195 "src/oUnitAssert.ml" 151 5171 5204
+)
+"src/oUnitAssert.ml" 222 7615 7626 "src/oUnitAssert.ml" 222 7615 7658
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 223 7660 7677 "src/oUnitAssert.ml" 223 7660 7680
+type(
+  string array option
+)
+ident(
+  int_ref env "src/oUnitAssert.ml" 163 5439 5452 "src/oUnitAssert.ml" 163 5439 5455
+)
+"src/oUnitAssert.ml" 224 7686 7706 "src/oUnitAssert.ml" 224 7686 7707
+type(
+  string array
+)
+ident(
+  def e "src/oUnitAssert.ml" 225 7711 7728 "src/oUnitAssert.ml" 227 7767 7845
+)
+"src/oUnitAssert.ml" 224 7686 7701 "src/oUnitAssert.ml" 224 7686 7707
+type(
+  string array option
+)
+"src/oUnitAssert.ml" 225 7711 7728 "src/oUnitAssert.ml" 225 7711 7736
+type(
+  (unit -> int) -> int
+)
+ident(
+  int_ref in_chdir "src/oUnitAssert.ml" 198 6680 6708 "src/oUnitAssert.ml" 198 6680 6716
+)
+"src/oUnitAssert.ml" 226 7737 7761 "src/oUnitAssert.ml" 226 7737 7763
+type(
+  unit
+)
+"src/oUnitAssert.ml" 227 7767 7788 "src/oUnitAssert.ml" 227 7767 7811
+type(
+  string ->
+  string array ->
+  string array ->
+  Unix.file_descr -> Unix.file_descr -> Unix.file_descr -> int
+)
+ident(
+  ext_ref Unix.create_process_env
+)
+"src/oUnitAssert.ml" 227 7767 7812 "src/oUnitAssert.ml" 227 7767 7815
+type(
+  string
+)
+ident(
+  int_ref prg "src/oUnitAssert.ml" 137 4783 4787 "src/oUnitAssert.ml" 137 4783 4790
+)
+"src/oUnitAssert.ml" 227 7767 7816 "src/oUnitAssert.ml" 227 7767 7820
+type(
+  string array
+)
+ident(
+  int_ref args "src/oUnitAssert.ml" 160 5368 5381 "src/oUnitAssert.ml" 160 5368 5385
+)
+"src/oUnitAssert.ml" 227 7767 7821 "src/oUnitAssert.ml" 227 7767 7822
+type(
+  string array
+)
+ident(
+  int_ref e "src/oUnitAssert.ml" 224 7686 7706 "src/oUnitAssert.ml" 224 7686 7707
+)
+"src/oUnitAssert.ml" 227 7767 7823 "src/oUnitAssert.ml" 227 7767 7831
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref out_read "src/oUnitAssert.ml" 151 5171 5185 "src/oUnitAssert.ml" 151 5171 5193
+)
+"src/oUnitAssert.ml" 227 7767 7832 "src/oUnitAssert.ml" 227 7767 7840
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref in_write "src/oUnitAssert.ml" 148 5079 5092 "src/oUnitAssert.ml" 148 5079 5100
+)
+"src/oUnitAssert.ml" 227 7767 7841 "src/oUnitAssert.ml" 227 7767 7844
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref err "src/oUnitAssert.ml" 154 5244 5257 "src/oUnitAssert.ml" 154 5244 5260
+)
+"src/oUnitAssert.ml" 227 7767 7788 "src/oUnitAssert.ml" 227 7767 7844
+call(
+  tail
+)
+type(
+  int
+)
+"src/oUnitAssert.ml" 226 7737 7756 "src/oUnitAssert.ml" 227 7767 7845
+type(
+  unit -> int
+)
+"src/oUnitAssert.ml" 225 7711 7728 "src/oUnitAssert.ml" 227 7767 7845
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitAssert.ml" 228 7846 7861 "src/oUnitAssert.ml" 228 7846 7865
+type(
+  string array option
+)
+"src/oUnitAssert.ml" 229 7869 7886 "src/oUnitAssert.ml" 229 7869 7894
+type(
+  (unit -> int) -> int
+)
+ident(
+  int_ref in_chdir "src/oUnitAssert.ml" 198 6680 6708 "src/oUnitAssert.ml" 198 6680 6716
+)
+"src/oUnitAssert.ml" 230 7895 7919 "src/oUnitAssert.ml" 230 7895 7921
+type(
+  unit
+)
+"src/oUnitAssert.ml" 231 7925 7947 "src/oUnitAssert.ml" 231 7925 7966
+type(
+  string ->
+  string array ->
+  Unix.file_descr -> Unix.file_descr -> Unix.file_descr -> int
+)
+ident(
+  ext_ref Unix.create_process
+)
+"src/oUnitAssert.ml" 231 7925 7967 "src/oUnitAssert.ml" 231 7925 7970
+type(
+  string
+)
+ident(
+  int_ref prg "src/oUnitAssert.ml" 137 4783 4787 "src/oUnitAssert.ml" 137 4783 4790
+)
+"src/oUnitAssert.ml" 231 7925 7971 "src/oUnitAssert.ml" 231 7925 7975
+type(
+  string array
+)
+ident(
+  int_ref args "src/oUnitAssert.ml" 160 5368 5381 "src/oUnitAssert.ml" 160 5368 5385
+)
+"src/oUnitAssert.ml" 231 7925 7976 "src/oUnitAssert.ml" 231 7925 7984
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref out_read "src/oUnitAssert.ml" 151 5171 5185 "src/oUnitAssert.ml" 151 5171 5193
+)
+"src/oUnitAssert.ml" 231 7925 7985 "src/oUnitAssert.ml" 231 7925 7993
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref in_write "src/oUnitAssert.ml" 148 5079 5092 "src/oUnitAssert.ml" 148 5079 5100
+)
+"src/oUnitAssert.ml" 231 7925 7994 "src/oUnitAssert.ml" 231 7925 7997
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref err "src/oUnitAssert.ml" 154 5244 5257 "src/oUnitAssert.ml" 154 5244 5260
+)
+"src/oUnitAssert.ml" 231 7925 7947 "src/oUnitAssert.ml" 231 7925 7997
+call(
+  tail
+)
+type(
+  int
+)
+"src/oUnitAssert.ml" 230 7895 7914 "src/oUnitAssert.ml" 231 7925 7998
+type(
+  unit -> int
+)
+"src/oUnitAssert.ml" 229 7869 7886 "src/oUnitAssert.ml" 231 7925 7998
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitAssert.ml" 223 7660 7671 "src/oUnitAssert.ml" 231 7925 7998
+type(
+  int
+)
+"src/oUnitAssert.ml" 222 7615 7626 "src/oUnitAssert.ml" 231 7925 7998
+type(
+  int
+)
+"src/oUnitAssert.ml" 216 7394 7405 "src/oUnitAssert.ml" 231 7925 7998
+type(
+  int
+)
+"src/oUnitAssert.ml" 215 7321 7332 "src/oUnitAssert.ml" 231 7925 7998
+type(
+  int
+)
+"src/oUnitAssert.ml" 213 7213 7224 "src/oUnitAssert.ml" 231 7925 7998
+type(
+  int
+)
+"src/oUnitAssert.ml" 209 7015 7026 "src/oUnitAssert.ml" 231 7925 7998
+type(
+  int
+)
+"src/oUnitAssert.ml" 233 8011 8024 "src/oUnitAssert.ml" 233 8011 8026
+type(
+  unit
+)
+"src/oUnitAssert.ml" 234 8029 8040 "src/oUnitAssert.ml" 234 8029 8050
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"src/oUnitAssert.ml" 234 8029 8051 "src/oUnitAssert.ml" 234 8029 8059
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref out_read "src/oUnitAssert.ml" 151 5171 5185 "src/oUnitAssert.ml" 151 5171 5193
+)
+"src/oUnitAssert.ml" 234 8029 8040 "src/oUnitAssert.ml" 234 8029 8059
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 235 8061 8072 "src/oUnitAssert.ml" 235 8061 8082
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"src/oUnitAssert.ml" 235 8061 8083 "src/oUnitAssert.ml" 235 8061 8091
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref in_write "src/oUnitAssert.ml" 148 5079 5092 "src/oUnitAssert.ml" 148 5079 5100
+)
+"src/oUnitAssert.ml" 235 8061 8072 "src/oUnitAssert.ml" 235 8061 8091
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 234 8029 8040 "src/oUnitAssert.ml" 235 8061 8091
+type(
+  unit
+)
+"src/oUnitAssert.ml" 237 8104 8117 "src/oUnitAssert.ml" 237 8104 8119
+type(
+  unit
+)
+"src/oUnitAssert.ml" 239 8174 8189 "src/oUnitAssert.ml" 239 8174 8193
+type(
+  bytes
+)
+ident(
+  def buff "src/oUnitAssert.ml" 240 8216 8229 "src/oUnitAssert.ml" 248 8457 8490
+)
+"src/oUnitAssert.ml" 239 8174 8196 "src/oUnitAssert.ml" 239 8174 8206
+type(
+  int -> char -> bytes
+)
+ident(
+  ext_ref Bytes.make
+)
+"src/oUnitAssert.ml" 239 8174 8207 "src/oUnitAssert.ml" 239 8174 8208
+type(
+  int
+)
+"src/oUnitAssert.ml" 239 8174 8209 "src/oUnitAssert.ml" 239 8174 8212
+type(
+  char
+)
+"src/oUnitAssert.ml" 239 8174 8196 "src/oUnitAssert.ml" 239 8174 8212
+call(
+  stack
+)
+type(
+  bytes
+)
+"src/oUnitAssert.ml" 240 8216 8229 "src/oUnitAssert.ml" 240 8216 8240
+type(
+  (char -> unit) -> char Stream.t -> unit
+)
+ident(
+  ext_ref Stream.iter
+)
+"src/oUnitAssert.ml" 241 8241 8261 "src/oUnitAssert.ml" 241 8241 8262
+type(
+  char
+)
+ident(
+  def c "src/oUnitAssert.ml" 242 8266 8284 "src/oUnitAssert.ml" 246 8410 8432
+)
+"src/oUnitAssert.ml" 242 8266 8288 "src/oUnitAssert.ml" 242 8266 8290
+type(
+  int
+)
+ident(
+  def _i "src/oUnitAssert.ml" 246 8410 8430 "src/oUnitAssert.ml" 246 8410 8432
+)
+"src/oUnitAssert.ml" 243 8299 8319 "src/oUnitAssert.ml" 243 8299 8328
+type(
+  bytes -> int -> char -> unit
+)
+ident(
+  ext_ref Bytes.set
+)
+"src/oUnitAssert.ml" 243 8299 8329 "src/oUnitAssert.ml" 243 8299 8333
+type(
+  bytes
+)
+ident(
+  int_ref buff "src/oUnitAssert.ml" 239 8174 8189 "src/oUnitAssert.ml" 239 8174 8193
+)
+"src/oUnitAssert.ml" 243 8299 8334 "src/oUnitAssert.ml" 243 8299 8335
+type(
+  int
+)
+"src/oUnitAssert.ml" 243 8299 8336 "src/oUnitAssert.ml" 243 8299 8337
+type(
+  char
+)
+ident(
+  int_ref c "src/oUnitAssert.ml" 241 8241 8261 "src/oUnitAssert.ml" 241 8241 8262
+)
+"src/oUnitAssert.ml" 243 8299 8319 "src/oUnitAssert.ml" 243 8299 8337
+type(
+  unit
+)
+"src/oUnitAssert.ml" 244 8339 8359 "src/oUnitAssert.ml" 244 8339 8369
+type(
+  Unix.file_descr -> bytes -> int -> int -> int
+)
+ident(
+  ext_ref Unix.write
+)
+"src/oUnitAssert.ml" 244 8339 8370 "src/oUnitAssert.ml" 244 8339 8379
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref out_write "src/oUnitAssert.ml" 151 5171 5195 "src/oUnitAssert.ml" 151 5171 5204
+)
+"src/oUnitAssert.ml" 244 8339 8380 "src/oUnitAssert.ml" 244 8339 8384
+type(
+  bytes
+)
+ident(
+  int_ref buff "src/oUnitAssert.ml" 239 8174 8189 "src/oUnitAssert.ml" 239 8174 8193
+)
+"src/oUnitAssert.ml" 244 8339 8385 "src/oUnitAssert.ml" 244 8339 8386
+type(
+  int
+)
+"src/oUnitAssert.ml" 244 8339 8387 "src/oUnitAssert.ml" 244 8339 8388
+type(
+  int
+)
+"src/oUnitAssert.ml" 244 8339 8359 "src/oUnitAssert.ml" 244 8339 8388
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitAssert.ml" 243 8299 8319 "src/oUnitAssert.ml" 244 8339 8388
+type(
+  int
+)
+type(
+  int
+)
+"src/oUnitAssert.ml" 246 8410 8430 "src/oUnitAssert.ml" 246 8410 8432
+type(
+  unit
+)
+"src/oUnitAssert.ml" 242 8266 8284 "src/oUnitAssert.ml" 246 8410 8432
+type(
+  unit
+)
+"src/oUnitAssert.ml" 241 8241 8256 "src/oUnitAssert.ml" 246 8410 8433
+type(
+  char -> unit
+)
+"src/oUnitAssert.ml" 247 8434 8449 "src/oUnitAssert.ml" 247 8434 8455
+type(
+  char Stream.t
+)
+ident(
+  int_ref sinput "src/oUnitAssert.ml" 130 4654 4660 "src/oUnitAssert.ml" 130 4654 4666
+)
+"src/oUnitAssert.ml" 240 8216 8229 "src/oUnitAssert.ml" 247 8434 8455
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 248 8457 8470 "src/oUnitAssert.ml" 248 8457 8480
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"src/oUnitAssert.ml" 248 8457 8481 "src/oUnitAssert.ml" 248 8457 8490
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref out_write "src/oUnitAssert.ml" 151 5171 5195 "src/oUnitAssert.ml" 151 5171 5204
+)
+"src/oUnitAssert.ml" 248 8457 8470 "src/oUnitAssert.ml" 248 8457 8490
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 240 8216 8229 "src/oUnitAssert.ml" 248 8457 8490
+type(
+  unit
+)
+"src/oUnitAssert.ml" 239 8174 8185 "src/oUnitAssert.ml" 248 8457 8490
+type(
+  unit
+)
+"src/oUnitAssert.ml" 250 8503 8516 "src/oUnitAssert.ml" 250 8503 8517
+type(
+  int
+)
+"src/oUnitAssert.ml" 250 8503 8519 "src/oUnitAssert.ml" 250 8503 8533
+type(
+  Unix.process_status
+)
+ident(
+  def real_exit_code "src/oUnitAssert.ml" 260 8805 8816 "src/oUnitAssert.ml" 289 9785 9799
+)
+"src/oUnitAssert.ml" 250 8503 8516 "src/oUnitAssert.ml" 250 8503 8533
+type(
+  int * Unix.process_status
+)
+"src/oUnitAssert.ml" 251 8536 8555 "src/oUnitAssert.ml" 251 8536 8564
+type(
+  unit -> int * Unix.process_status
+)
+ident(
+  def wait_intr "src/oUnitAssert.ml" 251 8536 8547 "src/oUnitAssert.ml" 257 8720 8745
+)
+"src/oUnitAssert.ml" 251 8536 8565 "src/oUnitAssert.ml" 251 8536 8567
+type(
+  unit
+)
+"src/oUnitAssert.ml" 253 8587 8602 "src/oUnitAssert.ml" 253 8587 8614
+type(
+  Unix.wait_flag list -> int -> int * Unix.process_status
+)
+ident(
+  ext_ref Unix.waitpid
+)
+"src/oUnitAssert.ml" 253 8587 8615 "src/oUnitAssert.ml" 253 8587 8617
+type(
+  Unix.wait_flag list
+)
+"src/oUnitAssert.ml" 253 8587 8618 "src/oUnitAssert.ml" 253 8587 8621
+type(
+  int
+)
+ident(
+  int_ref pid "src/oUnitAssert.ml" 208 6996 7009 "src/oUnitAssert.ml" 208 6996 7012
+)
+"src/oUnitAssert.ml" 253 8587 8602 "src/oUnitAssert.ml" 253 8587 8621
+call(
+  stack
+)
+type(
+  int * Unix.process_status
+)
+"src/oUnitAssert.ml" 254 8622 8657 "src/oUnitAssert.ml" 254 8622 8667
+type(
+  Unix.error
+)
+"src/oUnitAssert.ml" 254 8622 8669 "src/oUnitAssert.ml" 254 8622 8670
+type(
+  string
+)
+"src/oUnitAssert.ml" 254 8622 8672 "src/oUnitAssert.ml" 254 8622 8673
+type(
+  string
+)
+"src/oUnitAssert.ml" 254 8622 8640 "src/oUnitAssert.ml" 254 8622 8674
+type(
+  exn
+)
+"src/oUnitAssert.ml" 255 8678 8693 "src/oUnitAssert.ml" 255 8678 8702
+type(
+  unit -> int * Unix.process_status
+)
+ident(
+  int_ref wait_intr "src/oUnitAssert.ml" 251 8536 8555 "src/oUnitAssert.ml" 251 8536 8564
+)
+"src/oUnitAssert.ml" 255 8678 8703 "src/oUnitAssert.ml" 255 8678 8705
+type(
+  unit
+)
+"src/oUnitAssert.ml" 255 8678 8693 "src/oUnitAssert.ml" 255 8678 8705
+call(
+  tail
+)
+type(
+  int * Unix.process_status
+)
+"src/oUnitAssert.ml" 252 8570 8583 "src/oUnitAssert.ml" 255 8678 8705
+type(
+  int * Unix.process_status
+)
+"src/oUnitAssert.ml" 257 8720 8733 "src/oUnitAssert.ml" 257 8720 8742
+type(
+  unit -> int * Unix.process_status
+)
+ident(
+  int_ref wait_intr "src/oUnitAssert.ml" 251 8536 8555 "src/oUnitAssert.ml" 251 8536 8564
+)
+"src/oUnitAssert.ml" 257 8720 8743 "src/oUnitAssert.ml" 257 8720 8745
+type(
+  unit
+)
+"src/oUnitAssert.ml" 257 8720 8733 "src/oUnitAssert.ml" 257 8720 8745
+call(
+  stack
+)
+type(
+  int * Unix.process_status
+)
+"src/oUnitAssert.ml" 251 8536 8547 "src/oUnitAssert.ml" 257 8720 8745
+type(
+  int * Unix.process_status
+)
+"src/oUnitAssert.ml" 261 8822 8839 "src/oUnitAssert.ml" 261 8822 8842
+type(
+  in_channel
+)
+ident(
+  def chn "src/oUnitAssert.ml" 262 8863 8876 "src/oUnitAssert.ml" 269 9185 9212
+)
+"src/oUnitAssert.ml" 261 8822 8845 "src/oUnitAssert.ml" 261 8822 8852
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/oUnitAssert.ml" 261 8822 8853 "src/oUnitAssert.ml" 261 8822 8859
+type(
+  string
+)
+ident(
+  int_ref fn_out "src/oUnitAssert.ml" 141 4850 4864 "src/oUnitAssert.ml" 141 4850 4870
+)
+"src/oUnitAssert.ml" 261 8822 8845 "src/oUnitAssert.ml" 261 8822 8859
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/oUnitAssert.ml" 262 8863 8880 "src/oUnitAssert.ml" 262 8863 8884
+type(
+  bytes
+)
+ident(
+  def buff "src/oUnitAssert.ml" 263 8910 8923 "src/oUnitAssert.ml" 269 9185 9212
+)
+"src/oUnitAssert.ml" 262 8863 8887 "src/oUnitAssert.ml" 262 8863 8897
+type(
+  int -> char -> bytes
+)
+ident(
+  ext_ref Bytes.make
+)
+"src/oUnitAssert.ml" 262 8863 8898 "src/oUnitAssert.ml" 262 8863 8902
+type(
+  int
+)
+"src/oUnitAssert.ml" 262 8863 8903 "src/oUnitAssert.ml" 262 8863 8906
+type(
+  char
+)
+"src/oUnitAssert.ml" 262 8863 8887 "src/oUnitAssert.ml" 262 8863 8906
+call(
+  stack
+)
+type(
+  bytes
+)
+"src/oUnitAssert.ml" 263 8910 8927 "src/oUnitAssert.ml" 263 8910 8930
+type(
+  int ref
+)
+ident(
+  def len "src/oUnitAssert.ml" 264 8945 8960 "src/oUnitAssert.ml" 269 9185 9212
+)
+"src/oUnitAssert.ml" 263 8910 8933 "src/oUnitAssert.ml" 263 8910 8936
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitAssert.ml" 263 8910 8937 "src/oUnitAssert.ml" 263 8910 8941
+type(
+  int
+)
+"src/oUnitAssert.ml" 263 8910 8933 "src/oUnitAssert.ml" 263 8910 8941
+type(
+  int ref
+)
+"src/oUnitAssert.ml" 264 8945 8966 "src/oUnitAssert.ml" 264 8945 8967
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitAssert.ml" 264 8945 8967 "src/oUnitAssert.ml" 264 8945 8970
+type(
+  int ref
+)
+ident(
+  int_ref len "src/oUnitAssert.ml" 263 8910 8927 "src/oUnitAssert.ml" 263 8910 8930
+)
+"src/oUnitAssert.ml" 264 8945 8966 "src/oUnitAssert.ml" 264 8945 8970
+type(
+  int
+)
+"src/oUnitAssert.ml" 264 8945 8971 "src/oUnitAssert.ml" 264 8945 8973
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/oUnitAssert.ml" 264 8945 8974 "src/oUnitAssert.ml" 264 8945 8975
+type(
+  int
+)
+"src/oUnitAssert.ml" 264 8945 8966 "src/oUnitAssert.ml" 264 8945 8975
+type(
+  bool
+)
+"src/oUnitAssert.ml" 265 8979 8996 "src/oUnitAssert.ml" 265 8979 8999
+type(
+  int ref
+)
+ident(
+  int_ref len "src/oUnitAssert.ml" 263 8910 8927 "src/oUnitAssert.ml" 263 8910 8930
+)
+"src/oUnitAssert.ml" 265 8979 9000 "src/oUnitAssert.ml" 265 8979 9002
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitAssert.ml" 265 8979 9003 "src/oUnitAssert.ml" 265 8979 9008
+type(
+  in_channel -> bytes -> int -> int -> int
+)
+ident(
+  ext_ref Pervasives.input
+)
+"src/oUnitAssert.ml" 265 8979 9009 "src/oUnitAssert.ml" 265 8979 9012
+type(
+  in_channel
+)
+ident(
+  int_ref chn "src/oUnitAssert.ml" 261 8822 8839 "src/oUnitAssert.ml" 261 8822 8842
+)
+"src/oUnitAssert.ml" 265 8979 9013 "src/oUnitAssert.ml" 265 8979 9017
+type(
+  bytes
+)
+ident(
+  int_ref buff "src/oUnitAssert.ml" 262 8863 8880 "src/oUnitAssert.ml" 262 8863 8884
+)
+"src/oUnitAssert.ml" 265 8979 9018 "src/oUnitAssert.ml" 265 8979 9019
+type(
+  int
+)
+"src/oUnitAssert.ml" 265 8979 9021 "src/oUnitAssert.ml" 265 8979 9033
+type(
+  bytes -> int
+)
+ident(
+  ext_ref Bytes.length
+)
+"src/oUnitAssert.ml" 265 8979 9034 "src/oUnitAssert.ml" 265 8979 9038
+type(
+  bytes
+)
+ident(
+  int_ref buff "src/oUnitAssert.ml" 262 8863 8880 "src/oUnitAssert.ml" 262 8863 8884
+)
+"src/oUnitAssert.ml" 265 8979 9020 "src/oUnitAssert.ml" 265 8979 9039
+type(
+  int
+)
+"src/oUnitAssert.ml" 265 8979 9003 "src/oUnitAssert.ml" 265 8979 9039
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitAssert.ml" 265 8979 8996 "src/oUnitAssert.ml" 265 8979 9039
+type(
+  unit
+)
+"src/oUnitAssert.ml" 266 9041 9058 "src/oUnitAssert.ml" 266 9041 9085
+type(
+  OUnitTest.result OUnitLogger.Test.t ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref OUnitLogger.Test.raw_printf
+)
+"src/oUnitAssert.ml" 267 9086 9105 "src/oUnitAssert.ml" 267 9086 9109
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnitAssert.ml" 140 4831 4842 "src/oUnitAssert.ml" 140 4831 4846
+)
+"src/oUnitAssert.ml" 267 9086 9105 "src/oUnitAssert.ml" 267 9086 9121
+type(
+  OUnitTest.result OUnitLogger.Test.t
+)
+"src/oUnitAssert.ml" 267 9086 9122 "src/oUnitAssert.ml" 267 9086 9126
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitAssert.ml" 267 9086 9134 "src/oUnitAssert.ml" 267 9086 9143
+type(
+  bytes -> string
+)
+ident(
+  ext_ref Bytes.to_string
+)
+"src/oUnitAssert.ml" 267 9086 9145 "src/oUnitAssert.ml" 267 9086 9148
+type(
+  bytes -> int -> int -> bytes
+)
+ident(
+  ext_ref Bytes.sub
+)
+"src/oUnitAssert.ml" 267 9086 9149 "src/oUnitAssert.ml" 267 9086 9153
+type(
+  bytes
+)
+ident(
+  int_ref buff "src/oUnitAssert.ml" 262 8863 8880 "src/oUnitAssert.ml" 262 8863 8884
+)
+"src/oUnitAssert.ml" 267 9086 9154 "src/oUnitAssert.ml" 267 9086 9155
+type(
+  int
+)
+"src/oUnitAssert.ml" 267 9086 9156 "src/oUnitAssert.ml" 267 9086 9157
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitAssert.ml" 267 9086 9157 "src/oUnitAssert.ml" 267 9086 9160
+type(
+  int ref
+)
+ident(
+  int_ref len "src/oUnitAssert.ml" 263 8910 8927 "src/oUnitAssert.ml" 263 8910 8930
+)
+"src/oUnitAssert.ml" 267 9086 9156 "src/oUnitAssert.ml" 267 9086 9160
+type(
+  int
+)
+"src/oUnitAssert.ml" 267 9086 9144 "src/oUnitAssert.ml" 267 9086 9161
+call(
+  stack
+)
+type(
+  bytes
+)
+"src/oUnitAssert.ml" 267 9086 9134 "src/oUnitAssert.ml" 267 9086 9161
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 266 9041 9058 "src/oUnitAssert.ml" 267 9086 9163
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 265 8979 8996 "src/oUnitAssert.ml" 267 9086 9163
+type(
+  unit
+)
+"src/oUnitAssert.ml" 264 8945 8960 "src/oUnitAssert.ml" 268 9164 9183
+type(
+  unit
+)
+"src/oUnitAssert.ml" 269 9185 9200 "src/oUnitAssert.ml" 269 9185 9208
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"src/oUnitAssert.ml" 269 9185 9209 "src/oUnitAssert.ml" 269 9185 9212
+type(
+  in_channel
+)
+ident(
+  int_ref chn "src/oUnitAssert.ml" 261 8822 8839 "src/oUnitAssert.ml" 261 8822 8842
+)
+"src/oUnitAssert.ml" 269 9185 9200 "src/oUnitAssert.ml" 269 9185 9212
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 264 8945 8960 "src/oUnitAssert.ml" 269 9185 9212
+type(
+  unit
+)
+"src/oUnitAssert.ml" 263 8910 8923 "src/oUnitAssert.ml" 269 9185 9212
+type(
+  unit
+)
+"src/oUnitAssert.ml" 262 8863 8876 "src/oUnitAssert.ml" 269 9185 9212
+type(
+  unit
+)
+"src/oUnitAssert.ml" 260 8805 8816 "src/oUnitAssert.ml" 270 9213 9227
+type(
+  unit
+)
+"src/oUnitAssert.ml" 273 9268 9279 "src/oUnitAssert.ml" 273 9268 9291
+type(
+  ?ctxt:OUnitTest.ctxt ->
+  ?cmp:(Unix.process_status -> Unix.process_status -> bool) ->
+  ?printer:(Unix.process_status -> string) ->
+  ?pp_diff:(Format.formatter ->
+            Unix.process_status * Unix.process_status -> unit) ->
+  ?msg:string -> Unix.process_status -> Unix.process_status -> unit
+)
+ident(
+  int_ref assert_equal "src/oUnitAssert.ml" 53 2710 2714 "src/oUnitAssert.ml" 53 2710 2726
+)
+"src/oUnitAssert.ml" 274 9292 9311 "src/oUnitAssert.ml" 274 9292 9329
+type(
+  (Format.formatter -> unit) -> string
+)
+ident(
+  ext_ref OUnitUtils.buff_format_printf
+)
+"src/oUnitAssert.ml" 275 9330 9356 "src/oUnitAssert.ml" 275 9330 9359
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/oUnitAssert.ml" 276 9363 9387 "src/oUnitAssert.ml" 277 9406 9475
+)
+"src/oUnitAssert.ml" 276 9363 9387 "src/oUnitAssert.ml" 276 9363 9401
+type(
+  Format.formatter ->
+  ((Format.formatter -> unit) -> unit, Format.formatter, unit) format ->
+  (Format.formatter -> unit) -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/oUnitAssert.ml" 276 9363 9402 "src/oUnitAssert.ml" 276 9363 9405
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitAssert.ml" 275 9330 9356 "src/oUnitAssert.ml" 275 9330 9359
+)
+"src/oUnitAssert.ml" 277 9406 9432 "src/oUnitAssert.ml" 277 9406 9465
+type(
+  ((Format.formatter -> unit) -> unit, Format.formatter, unit) format
+)
+"src/oUnitAssert.ml" 277 9406 9466 "src/oUnitAssert.ml" 277 9406 9475
+type(
+  Format.formatter -> unit
+)
+ident(
+  int_ref cmd_print "src/oUnitAssert.ml" 142 4907 4920 "src/oUnitAssert.ml" 142 4907 4929
+)
+"src/oUnitAssert.ml" 276 9363 9387 "src/oUnitAssert.ml" 277 9406 9475
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 275 9330 9351 "src/oUnitAssert.ml" 277 9406 9476
+type(
+  Format.formatter -> unit
+)
+"src/oUnitAssert.ml" 274 9292 9310 "src/oUnitAssert.ml" 277 9406 9477
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 278 9478 9500 "src/oUnitAssert.ml" 278 9478 9524
+type(
+  Unix.process_status -> string
+)
+ident(
+  ext_ref OUnitUtils.string_of_process_status
+)
+"src/oUnitAssert.ml" 279 9525 9538 "src/oUnitAssert.ml" 279 9525 9547
+type(
+  Unix.process_status
+)
+ident(
+  int_ref exit_code "src/oUnitAssert.ml" 129 4622 4628 "src/oUnitAssert.ml" 129 4622 4637
+)
+"src/oUnitAssert.ml" 280 9548 9561 "src/oUnitAssert.ml" 280 9548 9575
+type(
+  Unix.process_status
+)
+ident(
+  int_ref real_exit_code "src/oUnitAssert.ml" 250 8503 8519 "src/oUnitAssert.ml" 250 8503 8533
+)
+"src/oUnitAssert.ml" 273 9268 9279 "src/oUnitAssert.ml" 280 9548 9575
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 283 9595 9612 "src/oUnitAssert.ml" 283 9595 9615
+type(
+  in_channel
+)
+ident(
+  def chn "src/oUnitAssert.ml" 284 9636 9651 "src/oUnitAssert.ml" 288 9760 9784
+)
+"src/oUnitAssert.ml" 283 9595 9618 "src/oUnitAssert.ml" 283 9595 9625
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/oUnitAssert.ml" 283 9595 9626 "src/oUnitAssert.ml" 283 9595 9632
+type(
+  string
+)
+ident(
+  int_ref fn_out "src/oUnitAssert.ml" 141 4850 4864 "src/oUnitAssert.ml" 141 4850 4870
+)
+"src/oUnitAssert.ml" 283 9595 9618 "src/oUnitAssert.ml" 283 9595 9632
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/oUnitAssert.ml" 285 9655 9672 "src/oUnitAssert.ml" 285 9655 9679
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref foutput "src/oUnitAssert.ml" 131 4686 4692 "src/oUnitAssert.ml" 131 4686 4699
+)
+"src/oUnitAssert.ml" 285 9655 9681 "src/oUnitAssert.ml" 285 9655 9698
+type(
+  in_channel -> char Stream.t
+)
+ident(
+  ext_ref Stream.of_channel
+)
+"src/oUnitAssert.ml" 285 9655 9699 "src/oUnitAssert.ml" 285 9655 9702
+type(
+  in_channel
+)
+ident(
+  int_ref chn "src/oUnitAssert.ml" 283 9595 9612 "src/oUnitAssert.ml" 283 9595 9615
+)
+"src/oUnitAssert.ml" 285 9655 9680 "src/oUnitAssert.ml" 285 9655 9703
+call(
+  stack
+)
+type(
+  char Stream.t
+)
+"src/oUnitAssert.ml" 285 9655 9672 "src/oUnitAssert.ml" 285 9655 9703
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 286 9704 9724 "src/oUnitAssert.ml" 286 9704 9725
+type(
+  exn
+)
+ident(
+  def e "src/oUnitAssert.ml" 287 9729 9746 "src/oUnitAssert.ml" 288 9760 9784
+)
+"src/oUnitAssert.ml" 287 9729 9746 "src/oUnitAssert.ml" 287 9729 9754
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"src/oUnitAssert.ml" 287 9729 9755 "src/oUnitAssert.ml" 287 9729 9758
+type(
+  in_channel
+)
+ident(
+  int_ref chn "src/oUnitAssert.ml" 283 9595 9612 "src/oUnitAssert.ml" 283 9595 9615
+)
+"src/oUnitAssert.ml" 287 9729 9746 "src/oUnitAssert.ml" 287 9729 9758
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 288 9760 9777 "src/oUnitAssert.ml" 288 9760 9782
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/oUnitAssert.ml" 288 9760 9783 "src/oUnitAssert.ml" 288 9760 9784
+type(
+  exn
+)
+ident(
+  int_ref e "src/oUnitAssert.ml" 286 9704 9724 "src/oUnitAssert.ml" 286 9704 9725
+)
+"src/oUnitAssert.ml" 288 9760 9777 "src/oUnitAssert.ml" 288 9760 9784
+type(
+  unit
+)
+"src/oUnitAssert.ml" 287 9729 9746 "src/oUnitAssert.ml" 288 9760 9784
+type(
+  unit
+)
+"src/oUnitAssert.ml" 284 9636 9651 "src/oUnitAssert.ml" 288 9760 9784
+type(
+  unit
+)
+"src/oUnitAssert.ml" 282 9578 9589 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 273 9268 9279 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 260 8805 8816 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 250 8503 8512 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 237 8104 8113 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 233 8011 8020 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 208 6996 7005 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 198 6680 6689 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 163 5439 5448 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 160 5368 5377 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 154 5244 5253 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 151 5171 5180 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 148 5079 5088 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 142 4907 4916 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 141 4850 4859 "src/oUnitAssert.ml" 289 9785 9799
+type(
+  unit
+)
+"src/oUnitAssert.ml" 140 4831 4837 "src/oUnitAssert.ml" 289 9785 9800
+type(
+  OUnitTest.ctxt -> unit
+)
+"src/oUnitAssert.ml" 139 4799 4803 "src/oUnitAssert.ml" 289 9785 9800
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 291 9802 9806 "src/oUnitAssert.ml" 291 9802 9812
+type(
+  (unit -> 'a) -> exn option
+)
+ident(
+  def raises "src/oUnitAssert.ml" 298 9866 9866 "src/oUnitAssert.ml" 1 0 -1
+)
+"src/oUnitAssert.ml" 291 9802 9813 "src/oUnitAssert.ml" 291 9802 9814
+type(
+  unit -> 'a
+)
+ident(
+  def f "src/oUnitAssert.ml" 292 9817 9819 "src/oUnitAssert.ml" 296 9854 9864
+)
+"src/oUnitAssert.ml" 293 9823 9827 "src/oUnitAssert.ml" 293 9823 9828
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "src/oUnitAssert.ml" 291 9802 9813 "src/oUnitAssert.ml" 291 9802 9814
+)
+"src/oUnitAssert.ml" 293 9823 9829 "src/oUnitAssert.ml" 293 9823 9831
+type(
+  unit
+)
+"src/oUnitAssert.ml" 293 9823 9827 "src/oUnitAssert.ml" 293 9823 9831
+call(
+  stack
+)
+type(
+  'a
+)
+"src/oUnitAssert.ml" 294 9833 9837 "src/oUnitAssert.ml" 294 9833 9841
+type(
+  exn option
+)
+"src/oUnitAssert.ml" 293 9823 9827 "src/oUnitAssert.ml" 294 9833 9841
+type(
+  exn option
+)
+"src/oUnitAssert.ml" 295 9842 9849 "src/oUnitAssert.ml" 295 9842 9850
+type(
+  exn
+)
+ident(
+  def e "src/oUnitAssert.ml" 296 9854 9858 "src/oUnitAssert.ml" 296 9854 9864
+)
+"src/oUnitAssert.ml" 296 9854 9863 "src/oUnitAssert.ml" 296 9854 9864
+type(
+  exn
+)
+ident(
+  int_ref e "src/oUnitAssert.ml" 295 9842 9849 "src/oUnitAssert.ml" 295 9842 9850
+)
+"src/oUnitAssert.ml" 296 9854 9858 "src/oUnitAssert.ml" 296 9854 9864
+type(
+  exn option
+)
+"src/oUnitAssert.ml" 292 9817 9819 "src/oUnitAssert.ml" 296 9854 9864
+type(
+  exn option
+)
+"src/oUnitAssert.ml" 298 9866 9870 "src/oUnitAssert.ml" 298 9866 9883
+type(
+  ?msg:string -> exn -> (unit -> 'a) -> unit
+)
+ident(
+  def assert_raises "src/oUnitAssert.ml" 320 10345 10392 "src/oUnitAssert.ml" 1 0 -1
+)
+"src/oUnitAssert.ml" 298 9866 9885 "src/oUnitAssert.ml" 298 9866 9888
+type(
+  string option
+)
+ident(
+  def msg "src/oUnitAssert.ml" 298 9866 9889 "src/oUnitAssert.ml" 320 10345 10392
+)
+"src/oUnitAssert.ml" 298 9866 9889 "src/oUnitAssert.ml" 298 9866 9892
+type(
+  exn
+)
+ident(
+  def exn "src/oUnitAssert.ml" 298 9866 9893 "src/oUnitAssert.ml" 320 10345 10392
+)
+"src/oUnitAssert.ml" 298 9866 9894 "src/oUnitAssert.ml" 298 9866 9895
+type(
+  unit -> 'a
+)
+ident(
+  def f "src/oUnitAssert.ml" 299 9911 9913 "src/oUnitAssert.ml" 320 10345 10392
+)
+"src/oUnitAssert.ml" 299 9911 9917 "src/oUnitAssert.ml" 299 9911 9921
+type(
+  exn -> string
+)
+ident(
+  def pexn "src/oUnitAssert.ml" 302 9952 9954 "src/oUnitAssert.ml" 320 10345 10392
+)
+"src/oUnitAssert.ml" 300 9924 9928 "src/oUnitAssert.ml" 300 9924 9946
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"src/oUnitAssert.ml" 302 9952 9958 "src/oUnitAssert.ml" 302 9952 9974
+type(
+  unit -> 'b
+)
+ident(
+  def get_error_string "src/oUnitAssert.ml" 315 10239 10243 "src/oUnitAssert.ml" 320 10345 10392
+)
+"src/oUnitAssert.ml" 302 9952 9975 "src/oUnitAssert.ml" 302 9952 9977
+type(
+  unit
+)
+"src/oUnitAssert.ml" 303 9980 9988 "src/oUnitAssert.ml" 303 9980 9991
+type(
+  string
+)
+ident(
+  def str "src/oUnitAssert.ml" 308 10103 10109 "src/oUnitAssert.ml" 313 10194 10233
+)
+"src/oUnitAssert.ml" 304 9994 10000 "src/oUnitAssert.ml" 304 9994 10014
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"src/oUnitAssert.ml" 305 10015 10023 "src/oUnitAssert.ml" 305 10015 10076
+type(
+  (string -> string, unit, string) format
+)
+"src/oUnitAssert.ml" 306 10077 10086 "src/oUnitAssert.ml" 306 10077 10090
+type(
+  exn -> string
+)
+ident(
+  int_ref pexn "src/oUnitAssert.ml" 299 9911 9917 "src/oUnitAssert.ml" 299 9911 9921
+)
+"src/oUnitAssert.ml" 306 10077 10091 "src/oUnitAssert.ml" 306 10077 10094
+type(
+  exn
+)
+ident(
+  int_ref exn "src/oUnitAssert.ml" 298 9866 9889 "src/oUnitAssert.ml" 298 9866 9892
+)
+"src/oUnitAssert.ml" 306 10077 10085 "src/oUnitAssert.ml" 306 10077 10095
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 304 9994 10000 "src/oUnitAssert.ml" 306 10077 10095
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 308 10103 10115 "src/oUnitAssert.ml" 308 10103 10118
+type(
+  string option
+)
+ident(
+  int_ref msg "src/oUnitAssert.ml" 298 9866 9885 "src/oUnitAssert.ml" 298 9866 9888
+)
+"src/oUnitAssert.ml" 309 10124 10134 "src/oUnitAssert.ml" 309 10124 10138
+type(
+  string option
+)
+"src/oUnitAssert.ml" 310 10142 10154 "src/oUnitAssert.ml" 310 10142 10168
+type(
+  string -> 'b
+)
+ident(
+  int_ref assert_failure "src/oUnitAssert.ml" 44 2527 2531 "src/oUnitAssert.ml" 44 2527 2545
+)
+"src/oUnitAssert.ml" 310 10142 10169 "src/oUnitAssert.ml" 310 10142 10172
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitAssert.ml" 303 9980 9988 "src/oUnitAssert.ml" 303 9980 9991
+)
+"src/oUnitAssert.ml" 310 10142 10154 "src/oUnitAssert.ml" 310 10142 10172
+call(
+  tail
+)
+type(
+  'b
+)
+"src/oUnitAssert.ml" 312 10174 10189 "src/oUnitAssert.ml" 312 10174 10190
+type(
+  string
+)
+ident(
+  def s "src/oUnitAssert.ml" 313 10194 10206 "src/oUnitAssert.ml" 313 10194 10233
+)
+"src/oUnitAssert.ml" 312 10174 10184 "src/oUnitAssert.ml" 312 10174 10190
+type(
+  string option
+)
+"src/oUnitAssert.ml" 313 10194 10206 "src/oUnitAssert.ml" 313 10194 10220
+type(
+  string -> 'b
+)
+ident(
+  int_ref assert_failure "src/oUnitAssert.ml" 44 2527 2531 "src/oUnitAssert.ml" 44 2527 2545
+)
+"src/oUnitAssert.ml" 313 10194 10222 "src/oUnitAssert.ml" 313 10194 10223
+type(
+  string
+)
+ident(
+  int_ref s "src/oUnitAssert.ml" 312 10174 10189 "src/oUnitAssert.ml" 312 10174 10190
+)
+"src/oUnitAssert.ml" 313 10194 10223 "src/oUnitAssert.ml" 313 10194 10224
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitAssert.ml" 313 10194 10224 "src/oUnitAssert.ml" 313 10194 10228
+type(
+  string
+)
+"src/oUnitAssert.ml" 313 10194 10228 "src/oUnitAssert.ml" 313 10194 10229
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitAssert.ml" 313 10194 10229 "src/oUnitAssert.ml" 313 10194 10232
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitAssert.ml" 303 9980 9988 "src/oUnitAssert.ml" 303 9980 9991
+)
+"src/oUnitAssert.ml" 313 10194 10224 "src/oUnitAssert.ml" 313 10194 10232
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 313 10194 10221 "src/oUnitAssert.ml" 313 10194 10233
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 313 10194 10206 "src/oUnitAssert.ml" 313 10194 10233
+call(
+  tail
+)
+type(
+  'b
+)
+"src/oUnitAssert.ml" 308 10103 10109 "src/oUnitAssert.ml" 313 10194 10233
+type(
+  'b
+)
+"src/oUnitAssert.ml" 303 9980 9984 "src/oUnitAssert.ml" 313 10194 10233
+type(
+  'b
+)
+"src/oUnitAssert.ml" 315 10239 10249 "src/oUnitAssert.ml" 315 10239 10255
+type(
+  (unit -> 'a) -> exn option
+)
+ident(
+  int_ref raises "src/oUnitAssert.ml" 291 9802 9806 "src/oUnitAssert.ml" 291 9802 9812
+)
+"src/oUnitAssert.ml" 315 10239 10256 "src/oUnitAssert.ml" 315 10239 10257
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "src/oUnitAssert.ml" 298 9866 9894 "src/oUnitAssert.ml" 298 9866 9895
+)
+"src/oUnitAssert.ml" 315 10239 10249 "src/oUnitAssert.ml" 315 10239 10257
+call(
+  stack
+)
+type(
+  exn option
+)
+"src/oUnitAssert.ml" 316 10263 10271 "src/oUnitAssert.ml" 316 10263 10275
+type(
+  exn option
+)
+"src/oUnitAssert.ml" 317 10279 10289 "src/oUnitAssert.ml" 317 10279 10303
+type(
+  string -> unit
+)
+ident(
+  int_ref assert_failure "src/oUnitAssert.ml" 44 2527 2531 "src/oUnitAssert.ml" 44 2527 2545
+)
+"src/oUnitAssert.ml" 317 10279 10305 "src/oUnitAssert.ml" 317 10279 10321
+type(
+  unit -> string
+)
+ident(
+  int_ref get_error_string "src/oUnitAssert.ml" 302 9952 9958 "src/oUnitAssert.ml" 302 9952 9974
+)
+"src/oUnitAssert.ml" 317 10279 10322 "src/oUnitAssert.ml" 317 10279 10324
+type(
+  unit
+)
+"src/oUnitAssert.ml" 317 10279 10304 "src/oUnitAssert.ml" 317 10279 10325
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitAssert.ml" 317 10279 10289 "src/oUnitAssert.ml" 317 10279 10325
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 319 10327 10340 "src/oUnitAssert.ml" 319 10327 10341
+type(
+  exn
+)
+ident(
+  def e "src/oUnitAssert.ml" 320 10345 10355 "src/oUnitAssert.ml" 320 10345 10392
+)
+"src/oUnitAssert.ml" 319 10327 10335 "src/oUnitAssert.ml" 319 10327 10341
+type(
+  exn option
+)
+"src/oUnitAssert.ml" 320 10345 10355 "src/oUnitAssert.ml" 320 10345 10367
+type(
+  ?ctxt:OUnitTest.ctxt ->
+  ?cmp:(exn -> exn -> bool) ->
+  ?printer:(exn -> string) ->
+  ?pp_diff:(Format.formatter -> exn * exn -> unit) ->
+  ?msg:string -> exn -> exn -> unit
+)
+ident(
+  int_ref assert_equal "src/oUnitAssert.ml" 53 2710 2714 "src/oUnitAssert.ml" 53 2710 2726
+)
+"src/oUnitAssert.ml" 320 10345 10369 "src/oUnitAssert.ml" 320 10345 10372
+type(
+  string option
+)
+ident(
+  int_ref msg "src/oUnitAssert.ml" 298 9866 9885 "src/oUnitAssert.ml" 298 9866 9888
+)
+"src/oUnitAssert.ml" 320 10345 10382 "src/oUnitAssert.ml" 320 10345 10386
+type(
+  exn -> string
+)
+ident(
+  int_ref pexn "src/oUnitAssert.ml" 299 9911 9917 "src/oUnitAssert.ml" 299 9911 9921
+)
+"src/oUnitAssert.ml" 320 10345 10387 "src/oUnitAssert.ml" 320 10345 10390
+type(
+  exn
+)
+ident(
+  int_ref exn "src/oUnitAssert.ml" 298 9866 9889 "src/oUnitAssert.ml" 298 9866 9892
+)
+"src/oUnitAssert.ml" 320 10345 10391 "src/oUnitAssert.ml" 320 10345 10392
+type(
+  exn
+)
+ident(
+  int_ref e "src/oUnitAssert.ml" 319 10327 10340 "src/oUnitAssert.ml" 319 10327 10341
+)
+"src/oUnitAssert.ml" 320 10345 10355 "src/oUnitAssert.ml" 320 10345 10392
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitAssert.ml" 315 10239 10243 "src/oUnitAssert.ml" 320 10345 10392
+type(
+  unit
+)
+"src/oUnitAssert.ml" 302 9952 9954 "src/oUnitAssert.ml" 320 10345 10392
+type(
+  unit
+)
+"src/oUnitAssert.ml" 299 9911 9913 "src/oUnitAssert.ml" 320 10345 10392
+type(
+  unit
+)

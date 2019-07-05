@@ -1,0 +1,11 @@
+version = "2.3.0"
+description = ""
+requires(ppx_driver) = "compiler-libs.common ocaml-migrate-parsetree ppxx"
+archive(ppx_driver,byte) = "ppx_monaidc.cma"
+archive(ppx_driver,native) = "ppx_monaidc.cmxa"
+plugin(ppx_driver,byte) = "ppx_monaidc.cma"
+plugin(ppx_driver,native) = "ppx_monaidc.cmxs"
+# This line makes things transparent for people mixing preprocessors
+# and normal dependencies
+requires(-ppx_driver) = ""
+ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"

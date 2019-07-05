@@ -1,0 +1,47 @@
+(lang dune 1.10)
+(name macaddr)
+(library
+ (name macaddr)
+ (kind normal)
+ (archives (byte macaddr.cma) (native macaddr.cmxa))
+ (plugins (byte macaddr.cma) (native macaddr.cmxs))
+ (foreign_archives (native macaddr.a))
+ (main_module_name Macaddr)
+ (modes byte native)
+ (modules
+  (main_module_name Macaddr)
+  (modules
+   ((name Macaddr) (obj_name macaddr) (visibility public) (impl) (intf)))
+  (wrapped true)))
+(library
+ (name macaddr.sexp)
+ (kind normal)
+ (archives (byte sexp/macaddr_sexp.cma) (native sexp/macaddr_sexp.cmxa))
+ (plugins (byte sexp/macaddr_sexp.cma) (native sexp/macaddr_sexp.cmxs))
+ (foreign_archives (native sexp/macaddr_sexp.a))
+ (requires macaddr sexplib0)
+ (main_module_name Macaddr_sexp)
+ (modes byte native)
+ (modules
+  (main_module_name Macaddr_sexp)
+  (modules
+   ((name Macaddr_sexp)
+    (obj_name macaddr_sexp)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name macaddr.top)
+ (kind normal)
+ (archives (byte top/macaddr_top.cma) (native top/macaddr_top.cmxa))
+ (plugins (byte top/macaddr_top.cma) (native top/macaddr_top.cmxs))
+ (foreign_archives (native top/macaddr_top.a))
+ (requires macaddr compiler-libs)
+ (main_module_name Macaddr_top)
+ (modes byte native)
+ (modules
+  (main_module_name Macaddr_top)
+  (modules
+   ((name Macaddr_top) (obj_name macaddr_top) (visibility public) (impl)))
+  (wrapped true)))

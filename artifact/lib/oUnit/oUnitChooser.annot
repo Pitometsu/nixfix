@@ -1,0 +1,851 @@
+"src/oUnitChooser.ml" 55 2723 2727 "src/oUnitChooser.ml" 55 2723 2743
+type(
+  choice -> string
+)
+ident(
+  def string_of_choice "src/oUnitChooser.ml" 65 3001 3001 "src/oUnitChooser.ml" 1 0 -1
+)
+"src/oUnitChooser.ml" 57 2757 2776 "src/oUnitChooser.ml" 57 2757 2780
+type(
+  OUnitTest.path
+)
+ident(
+  def path "src/oUnitChooser.ml" 58 2784 2792 "src/oUnitChooser.ml" 58 2784 2846
+)
+"src/oUnitChooser.ml" 57 2757 2763 "src/oUnitChooser.ml" 57 2757 2780
+type(
+  choice
+)
+"src/oUnitChooser.ml" 58 2784 2792 "src/oUnitChooser.ml" 58 2784 2806
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitChooser.ml" 58 2784 2807 "src/oUnitChooser.ml" 58 2784 2824
+type(
+  (string -> string, unit, string) format
+)
+"src/oUnitChooser.ml" 58 2784 2826 "src/oUnitChooser.ml" 58 2784 2840
+type(
+  OUnitTest.path -> string
+)
+ident(
+  ext_ref OUnitTest.string_of_path
+)
+"src/oUnitChooser.ml" 58 2784 2841 "src/oUnitChooser.ml" 58 2784 2845
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref path "src/oUnitChooser.ml" 57 2757 2776 "src/oUnitChooser.ml" 57 2757 2780
+)
+"src/oUnitChooser.ml" 58 2784 2825 "src/oUnitChooser.ml" 58 2784 2846
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitChooser.ml" 58 2784 2792 "src/oUnitChooser.ml" 58 2784 2846
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitChooser.ml" 59 2847 2853 "src/oUnitChooser.ml" 59 2847 2869
+type(
+  choice
+)
+"src/oUnitChooser.ml" 59 2847 2873 "src/oUnitChooser.ml" 59 2847 2891
+type(
+  string
+)
+"src/oUnitChooser.ml" 60 2892 2905 "src/oUnitChooser.ml" 60 2892 2909
+type(
+  OUnitTest.path
+)
+ident(
+  def path "src/oUnitChooser.ml" 61 2913 2921 "src/oUnitChooser.ml" 61 2913 2969
+)
+"src/oUnitChooser.ml" 60 2892 2898 "src/oUnitChooser.ml" 60 2892 2909
+type(
+  choice
+)
+"src/oUnitChooser.ml" 61 2913 2921 "src/oUnitChooser.ml" 61 2913 2935
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitChooser.ml" 61 2913 2936 "src/oUnitChooser.ml" 61 2913 2947
+type(
+  (string -> string, unit, string) format
+)
+"src/oUnitChooser.ml" 61 2913 2949 "src/oUnitChooser.ml" 61 2913 2963
+type(
+  OUnitTest.path -> string
+)
+ident(
+  ext_ref OUnitTest.string_of_path
+)
+"src/oUnitChooser.ml" 61 2913 2964 "src/oUnitChooser.ml" 61 2913 2968
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref path "src/oUnitChooser.ml" 60 2892 2905 "src/oUnitChooser.ml" 60 2892 2909
+)
+"src/oUnitChooser.ml" 61 2913 2948 "src/oUnitChooser.ml" 61 2913 2969
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitChooser.ml" 61 2913 2921 "src/oUnitChooser.ml" 61 2913 2969
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitChooser.ml" 62 2970 2976 "src/oUnitChooser.ml" 62 2970 2984
+type(
+  choice
+)
+"src/oUnitChooser.ml" 62 2970 2988 "src/oUnitChooser.ml" 62 2970 2998
+type(
+  string
+)
+"src/oUnitChooser.ml" 56 2746 2748 "src/oUnitChooser.ml" 62 2970 2998
+type(
+  choice -> string
+)
+"src/oUnitChooser.ml" 68 3085 3089 "src/oUnitChooser.ml" 68 3085 3095
+type(
+  t -> choice
+)
+ident(
+  def simple "src/oUnitChooser.ml" 73 3178 3178 "src/oUnitChooser.ml" 1 0 -1
+)
+"src/oUnitChooser.ml" 68 3085 3096 "src/oUnitChooser.ml" 68 3085 3097
+type(
+  t
+)
+ident(
+  def t "src/oUnitChooser.ml" 69 3100 3102 "src/oUnitChooser.ml" 71 3156 3176
+)
+"src/oUnitChooser.ml" 69 3100 3108 "src/oUnitChooser.ml" 69 3100 3109
+type(
+  t
+)
+ident(
+  int_ref t "src/oUnitChooser.ml" 68 3085 3096 "src/oUnitChooser.ml" 68 3085 3097
+)
+"src/oUnitChooser.ml" 69 3100 3108 "src/oUnitChooser.ml" 69 3100 3123
+type(
+  OUnitTest.path list
+)
+"src/oUnitChooser.ml" 70 3129 3135 "src/oUnitChooser.ml" 70 3129 3137
+type(
+  OUnitTest.path
+)
+ident(
+  def hd "src/oUnitChooser.ml" 70 3129 3146 "src/oUnitChooser.ml" 70 3129 3155
+)
+"src/oUnitChooser.ml" 70 3129 3141 "src/oUnitChooser.ml" 70 3129 3142
+type(
+  OUnitTest.path list
+)
+"src/oUnitChooser.ml" 70 3129 3135 "src/oUnitChooser.ml" 70 3129 3142
+type(
+  OUnitTest.path list
+)
+"src/oUnitChooser.ml" 70 3129 3153 "src/oUnitChooser.ml" 70 3129 3155
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref hd "src/oUnitChooser.ml" 70 3129 3135 "src/oUnitChooser.ml" 70 3129 3137
+)
+"src/oUnitChooser.ml" 70 3129 3146 "src/oUnitChooser.ml" 70 3129 3155
+type(
+  choice
+)
+"src/oUnitChooser.ml" 71 3156 3162 "src/oUnitChooser.ml" 71 3156 3164
+type(
+  OUnitTest.path list
+)
+"src/oUnitChooser.ml" 71 3156 3168 "src/oUnitChooser.ml" 71 3156 3176
+type(
+  choice
+)
+"src/oUnitChooser.ml" 69 3100 3102 "src/oUnitChooser.ml" 71 3156 3176
+type(
+  choice
+)
+"src/oUnitChooser.ml" 77 3249 3260 "src/oUnitChooser.ml" 77 3249 3264
+type(
+  string
+)
+ident(
+  def name "src/oUnitChooser.ml" 78 3277 3284 "src/oUnitChooser.ml" 82 3422 3430
+)
+"src/oUnitChooser.ml" 77 3249 3267 "src/oUnitChooser.ml" 77 3249 3276
+type(
+  string
+)
+"src/oUnitChooser.ml" 78 3277 3288 "src/oUnitChooser.ml" 78 3277 3297
+type(
+  string
+)
+ident(
+  def conf_help "src/oUnitChooser.ml" 80 3353 3360 "src/oUnitChooser.ml" 82 3422 3430
+)
+"src/oUnitChooser.ml" 79 3300 3309 "src/oUnitChooser.ml" 79 3300 3352
+type(
+  string
+)
+"src/oUnitChooser.ml" 80 3353 3364 "src/oUnitChooser.ml" 80 3353 3376
+type(
+  string
+)
+ident(
+  def default_name "src/oUnitChooser.ml" 81 3388 3395 "src/oUnitChooser.ml" 82 3422 3430
+)
+"src/oUnitChooser.ml" 80 3353 3379 "src/oUnitChooser.ml" 80 3353 3387
+type(
+  string
+)
+"src/oUnitChooser.ml" 81 3388 3399 "src/oUnitChooser.ml" 81 3388 3412
+type(
+  t -> choice
+)
+ident(
+  def default_value "src/oUnitChooser.ml" 81 3388 3421 "src/oUnitChooser.ml" 82 3422 3430
+)
+"src/oUnitChooser.ml" 81 3388 3415 "src/oUnitChooser.ml" 81 3388 3421
+type(
+  t -> choice
+)
+ident(
+  int_ref simple "src/oUnitChooser.ml" 68 3085 3089 "src/oUnitChooser.ml" 68 3085 3095
+)
+"src/oUnitChooser.ml" 74 3194 3196 "src/oUnitChooser.ml" 82 3422 3431
+call(
+  stack
+)
+"src/oUnitChooser.ml" 86 3449 3453 "src/oUnitChooser.ml" 86 3449 3460
+type(
+  t -> choice
+)
+ident(
+  def allskip "src/oUnitChooser.ml" 91 3549 3549 "src/oUnitChooser.ml" 1 0 -1
+)
+"src/oUnitChooser.ml" 86 3449 3461 "src/oUnitChooser.ml" 86 3449 3462
+type(
+  t
+)
+ident(
+  def t "src/oUnitChooser.ml" 87 3465 3467 "src/oUnitChooser.ml" 89 3527 3547
+)
+"src/oUnitChooser.ml" 87 3465 3473 "src/oUnitChooser.ml" 87 3465 3474
+type(
+  t
+)
+ident(
+  int_ref t "src/oUnitChooser.ml" 86 3449 3461 "src/oUnitChooser.ml" 86 3449 3462
+)
+"src/oUnitChooser.ml" 87 3465 3473 "src/oUnitChooser.ml" 87 3465 3488
+type(
+  OUnitTest.path list
+)
+"src/oUnitChooser.ml" 88 3494 3500 "src/oUnitChooser.ml" 88 3494 3502
+type(
+  OUnitTest.path
+)
+ident(
+  def hd "src/oUnitChooser.ml" 88 3494 3511 "src/oUnitChooser.ml" 88 3494 3526
+)
+"src/oUnitChooser.ml" 88 3494 3506 "src/oUnitChooser.ml" 88 3494 3507
+type(
+  OUnitTest.path list
+)
+"src/oUnitChooser.ml" 88 3494 3500 "src/oUnitChooser.ml" 88 3494 3507
+type(
+  OUnitTest.path list
+)
+"src/oUnitChooser.ml" 88 3494 3524 "src/oUnitChooser.ml" 88 3494 3526
+type(
+  OUnitTest.path
+)
+ident(
+  int_ref hd "src/oUnitChooser.ml" 88 3494 3500 "src/oUnitChooser.ml" 88 3494 3502
+)
+"src/oUnitChooser.ml" 88 3494 3511 "src/oUnitChooser.ml" 88 3494 3526
+type(
+  choice
+)
+"src/oUnitChooser.ml" 89 3527 3533 "src/oUnitChooser.ml" 89 3527 3535
+type(
+  OUnitTest.path list
+)
+"src/oUnitChooser.ml" 89 3527 3539 "src/oUnitChooser.ml" 89 3527 3547
+type(
+  choice
+)
+"src/oUnitChooser.ml" 87 3465 3467 "src/oUnitChooser.ml" 89 3527 3547
+type(
+  choice
+)
+"src/oUnitChooser.ml" 91 3549 3553 "src/oUnitChooser.ml" 91 3549 3562
+type(
+  t -> choice
+)
+ident(
+  def failfirst "src/oUnitChooser.ml" 135 5099 5099 "src/oUnitChooser.ml" 1 0 -1
+)
+"src/oUnitChooser.ml" 91 3549 3563 "src/oUnitChooser.ml" 91 3549 3564
+type(
+  t
+)
+ident(
+  def t "src/oUnitChooser.ml" 92 3567 3569 "src/oUnitChooser.ml" 133 5065 5097
+)
+"src/oUnitChooser.ml" 92 3567 3573 "src/oUnitChooser.ml" 92 3567 3587
+type(
+  ('a * OUnitTest.result * 'b) list -> bool
+)
+ident(
+  def was_successful "src/oUnitChooser.ml" 93 3627 3629 "src/oUnitChooser.ml" 133 5065 5097
+)
+"src/oUnitChooser.ml" 92 3567 3590 "src/oUnitChooser.ml" 92 3567 3623
+type(
+  ('a * OUnitTest.result * 'b) list -> bool
+)
+ident(
+  ext_ref OUnitResultSummary.was_successful
+)
+"src/oUnitChooser.ml" 93 3627 3637 "src/oUnitChooser.ml" 93 3627 3649
+type(
+  OUnitTest.MapPath.key list -> choice
+)
+ident(
+  def find_failing "src/oUnitChooser.ml" 93 3627 3629 "src/oUnitChooser.ml" 133 5065 5097
+)
+"src/oUnitChooser.ml" 95 3665 3673 "src/oUnitChooser.ml" 95 3665 3677
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  def path "src/oUnitChooser.ml" 96 3687 3697 "src/oUnitChooser.ml" 106 4061 4074
+)
+"src/oUnitChooser.ml" 95 3665 3681 "src/oUnitChooser.ml" 95 3665 3683
+type(
+  OUnitTest.MapPath.key list
+)
+ident(
+  def tl "src/oUnitChooser.ml" 96 3687 3697 "src/oUnitChooser.ml" 106 4061 4074
+)
+"src/oUnitChooser.ml" 95 3665 3673 "src/oUnitChooser.ml" 95 3665 3683
+type(
+  OUnitTest.MapPath.key list
+)
+"src/oUnitChooser.ml" 97 3703 3721 "src/oUnitChooser.ml" 97 3703 3742
+type(
+  OUnitTest.MapPath.key ->
+  OUnitTest.result OUnitTest.MapPath.t -> OUnitTest.result option
+)
+ident(
+  ext_ref OUnitCache.get_result
+)
+"src/oUnitChooser.ml" 97 3703 3743 "src/oUnitChooser.ml" 97 3703 3747
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  int_ref path "src/oUnitChooser.ml" 95 3665 3673 "src/oUnitChooser.ml" 95 3665 3677
+)
+"src/oUnitChooser.ml" 97 3703 3748 "src/oUnitChooser.ml" 97 3703 3749
+type(
+  t
+)
+ident(
+  int_ref t "src/oUnitChooser.ml" 91 3549 3563 "src/oUnitChooser.ml" 91 3549 3564
+)
+"src/oUnitChooser.ml" 97 3703 3748 "src/oUnitChooser.ml" 97 3703 3755
+type(
+  OUnitCache.cache
+)
+"src/oUnitChooser.ml" 97 3703 3721 "src/oUnitChooser.ml" 97 3703 3755
+call(
+  stack
+)
+type(
+  OUnitTest.result option
+)
+"src/oUnitChooser.ml" 98 3761 3782 "src/oUnitChooser.ml" 98 3761 3788
+type(
+  OUnitTest.result
+)
+ident(
+  def result "src/oUnitChooser.ml" 100 3854 3872 "src/oUnitChooser.ml" 103 3975 4006
+)
+"src/oUnitChooser.ml" 98 3761 3777 "src/oUnitChooser.ml" 98 3761 3788
+type(
+  OUnitTest.result option
+)
+"src/oUnitChooser.ml" 100 3854 3875 "src/oUnitChooser.ml" 100 3854 3889
+type(
+  (OUnitTest.MapPath.key * OUnitTest.result * '_c option) list -> bool
+)
+ident(
+  int_ref was_successful "src/oUnitChooser.ml" 92 3567 3573 "src/oUnitChooser.ml" 92 3567 3587
+)
+"src/oUnitChooser.ml" 100 3854 3891 "src/oUnitChooser.ml" 100 3854 3895
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  int_ref path "src/oUnitChooser.ml" 95 3665 3673 "src/oUnitChooser.ml" 95 3665 3677
+)
+"src/oUnitChooser.ml" 100 3854 3897 "src/oUnitChooser.ml" 100 3854 3903
+type(
+  OUnitTest.result
+)
+ident(
+  int_ref result "src/oUnitChooser.ml" 98 3761 3782 "src/oUnitChooser.ml" 98 3761 3788
+)
+"src/oUnitChooser.ml" 100 3854 3905 "src/oUnitChooser.ml" 100 3854 3909
+type(
+  '_c option
+)
+"src/oUnitChooser.ml" 100 3854 3891 "src/oUnitChooser.ml" 100 3854 3909
+type(
+  OUnitTest.MapPath.key * OUnitTest.result * '_c option
+)
+"src/oUnitChooser.ml" 100 3854 3890 "src/oUnitChooser.ml" 100 3854 3910
+type(
+  (OUnitTest.MapPath.key * OUnitTest.result * '_c option) list
+)
+"src/oUnitChooser.ml" 100 3854 3875 "src/oUnitChooser.ml" 100 3854 3910
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitChooser.ml" 101 3916 3936 "src/oUnitChooser.ml" 101 3916 3948
+type(
+  OUnitTest.MapPath.key list -> choice
+)
+ident(
+  int_ref find_failing "src/oUnitChooser.ml" 93 3627 3637 "src/oUnitChooser.ml" 93 3627 3649
+)
+"src/oUnitChooser.ml" 101 3916 3949 "src/oUnitChooser.ml" 101 3916 3951
+type(
+  OUnitTest.MapPath.key list
+)
+ident(
+  int_ref tl "src/oUnitChooser.ml" 95 3665 3681 "src/oUnitChooser.ml" 95 3665 3683
+)
+"src/oUnitChooser.ml" 101 3916 3936 "src/oUnitChooser.ml" 101 3916 3951
+call(
+  tail
+)
+type(
+  choice
+)
+"src/oUnitChooser.ml" 103 3975 4002 "src/oUnitChooser.ml" 103 3975 4006
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  int_ref path "src/oUnitChooser.ml" 95 3665 3673 "src/oUnitChooser.ml" 95 3665 3677
+)
+"src/oUnitChooser.ml" 103 3975 3995 "src/oUnitChooser.ml" 103 3975 4006
+type(
+  choice
+)
+"src/oUnitChooser.ml" 100 3854 3872 "src/oUnitChooser.ml" 103 3975 4006
+type(
+  choice
+)
+"src/oUnitChooser.ml" 104 4007 4023 "src/oUnitChooser.ml" 104 4007 4027
+type(
+  OUnitTest.result option
+)
+"src/oUnitChooser.ml" 105 4031 4056 "src/oUnitChooser.ml" 105 4031 4060
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  int_ref path "src/oUnitChooser.ml" 95 3665 3673 "src/oUnitChooser.ml" 95 3665 3677
+)
+"src/oUnitChooser.ml" 105 4031 4049 "src/oUnitChooser.ml" 105 4031 4060
+type(
+  choice
+)
+"src/oUnitChooser.ml" 96 3687 3697 "src/oUnitChooser.ml" 106 4061 4074
+type(
+  choice
+)
+"src/oUnitChooser.ml" 107 4075 4083 "src/oUnitChooser.ml" 107 4075 4085
+type(
+  OUnitTest.MapPath.key list
+)
+"src/oUnitChooser.ml" 109 4105 4121 "src/oUnitChooser.ml" 109 4105 4141
+type(
+  bool
+)
+ident(
+  def wait_results_running "src/oUnitChooser.ml" 122 4638 4652 "src/oUnitChooser.ml" 130 5020 5045
+)
+"src/oUnitChooser.ml" 110 4144 4158 "src/oUnitChooser.ml" 110 4144 4172
+type(
+  (bool -> OUnitTest.MapPath.key -> bool) ->
+  bool -> OUnitTest.MapPath.key list -> bool
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/oUnitChooser.ml" 111 4173 4194 "src/oUnitChooser.ml" 111 4173 4198
+type(
+  bool
+)
+ident(
+  def wait "src/oUnitChooser.ml" 111 4173 4199 "src/oUnitChooser.ml" 119 4554 4583
+)
+"src/oUnitChooser.ml" 111 4173 4199 "src/oUnitChooser.ml" 111 4173 4203
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  def path "src/oUnitChooser.ml" 112 4207 4226 "src/oUnitChooser.ml" 119 4554 4583
+)
+"src/oUnitChooser.ml" 112 4207 4232 "src/oUnitChooser.ml" 112 4207 4253
+type(
+  OUnitTest.MapPath.key ->
+  OUnitTest.result OUnitTest.MapPath.t -> OUnitTest.result option
+)
+ident(
+  ext_ref OUnitCache.get_result
+)
+"src/oUnitChooser.ml" 112 4207 4254 "src/oUnitChooser.ml" 112 4207 4258
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  int_ref path "src/oUnitChooser.ml" 111 4173 4199 "src/oUnitChooser.ml" 111 4173 4203
+)
+"src/oUnitChooser.ml" 112 4207 4259 "src/oUnitChooser.ml" 112 4207 4260
+type(
+  t
+)
+ident(
+  int_ref t "src/oUnitChooser.ml" 91 3549 3563 "src/oUnitChooser.ml" 91 3549 3564
+)
+"src/oUnitChooser.ml" 112 4207 4259 "src/oUnitChooser.ml" 112 4207 4266
+type(
+  OUnitCache.cache
+)
+"src/oUnitChooser.ml" 112 4207 4232 "src/oUnitChooser.ml" 112 4207 4266
+call(
+  stack
+)
+type(
+  OUnitTest.result option
+)
+"src/oUnitChooser.ml" 113 4272 4300 "src/oUnitChooser.ml" 113 4272 4306
+type(
+  OUnitTest.result
+)
+ident(
+  def result "src/oUnitChooser.ml" 114 4310 4335 "src/oUnitChooser.ml" 114 4310 4386
+)
+"src/oUnitChooser.ml" 113 4272 4295 "src/oUnitChooser.ml" 113 4272 4306
+type(
+  OUnitTest.result option
+)
+"src/oUnitChooser.ml" 114 4310 4336 "src/oUnitChooser.ml" 114 4310 4339
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/oUnitChooser.ml" 114 4310 4341 "src/oUnitChooser.ml" 114 4310 4355
+type(
+  (OUnitTest.MapPath.key * OUnitTest.result * '_d option) list -> bool
+)
+ident(
+  int_ref was_successful "src/oUnitChooser.ml" 92 3567 3573 "src/oUnitChooser.ml" 92 3567 3587
+)
+"src/oUnitChooser.ml" 114 4310 4357 "src/oUnitChooser.ml" 114 4310 4361
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  int_ref path "src/oUnitChooser.ml" 111 4173 4199 "src/oUnitChooser.ml" 111 4173 4203
+)
+"src/oUnitChooser.ml" 114 4310 4363 "src/oUnitChooser.ml" 114 4310 4369
+type(
+  OUnitTest.result
+)
+ident(
+  int_ref result "src/oUnitChooser.ml" 113 4272 4300 "src/oUnitChooser.ml" 113 4272 4306
+)
+"src/oUnitChooser.ml" 114 4310 4371 "src/oUnitChooser.ml" 114 4310 4375
+type(
+  '_d option
+)
+"src/oUnitChooser.ml" 114 4310 4357 "src/oUnitChooser.ml" 114 4310 4375
+type(
+  OUnitTest.MapPath.key * OUnitTest.result * '_d option
+)
+"src/oUnitChooser.ml" 114 4310 4356 "src/oUnitChooser.ml" 114 4310 4376
+type(
+  (OUnitTest.MapPath.key * OUnitTest.result * '_d option) list
+)
+"src/oUnitChooser.ml" 114 4310 4340 "src/oUnitChooser.ml" 114 4310 4377
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitChooser.ml" 114 4310 4335 "src/oUnitChooser.ml" 114 4310 4378
+type(
+  bool
+)
+"src/oUnitChooser.ml" 114 4310 4379 "src/oUnitChooser.ml" 114 4310 4381
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/oUnitChooser.ml" 114 4310 4382 "src/oUnitChooser.ml" 114 4310 4386
+type(
+  bool
+)
+ident(
+  int_ref wait "src/oUnitChooser.ml" 111 4173 4194 "src/oUnitChooser.ml" 111 4173 4198
+)
+"src/oUnitChooser.ml" 114 4310 4335 "src/oUnitChooser.ml" 114 4310 4386
+type(
+  bool
+)
+"src/oUnitChooser.ml" 115 4387 4410 "src/oUnitChooser.ml" 115 4387 4414
+type(
+  OUnitTest.result option
+)
+"src/oUnitChooser.ml" 119 4554 4579 "src/oUnitChooser.ml" 119 4554 4583
+type(
+  bool
+)
+"src/oUnitChooser.ml" 112 4207 4226 "src/oUnitChooser.ml" 119 4554 4583
+type(
+  bool
+)
+"src/oUnitChooser.ml" 111 4173 4189 "src/oUnitChooser.ml" 119 4554 4584
+type(
+  bool -> OUnitTest.MapPath.key -> bool
+)
+"src/oUnitChooser.ml" 120 4585 4601 "src/oUnitChooser.ml" 120 4585 4606
+type(
+  bool
+)
+"src/oUnitChooser.ml" 120 4585 4607 "src/oUnitChooser.ml" 120 4585 4608
+type(
+  t
+)
+ident(
+  int_ref t "src/oUnitChooser.ml" 91 3549 3563 "src/oUnitChooser.ml" 91 3549 3564
+)
+"src/oUnitChooser.ml" 120 4585 4607 "src/oUnitChooser.ml" 120 4585 4622
+type(
+  OUnitTest.MapPath.key list
+)
+"src/oUnitChooser.ml" 110 4144 4158 "src/oUnitChooser.ml" 120 4585 4622
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitChooser.ml" 122 4638 4655 "src/oUnitChooser.ml" 122 4638 4675
+type(
+  bool
+)
+ident(
+  int_ref wait_results_running "src/oUnitChooser.ml" 109 4105 4121 "src/oUnitChooser.ml" 109 4105 4141
+)
+"src/oUnitChooser.ml" 124 4752 4768 "src/oUnitChooser.ml" 124 4752 4784
+type(
+  choice
+)
+"src/oUnitChooser.ml" 125 4785 4807 "src/oUnitChooser.ml" 125 4785 4821
+type(
+  OUnitTest.result_list -> bool
+)
+ident(
+  int_ref was_successful "src/oUnitChooser.ml" 92 3567 3573 "src/oUnitChooser.ml" 92 3567 3587
+)
+"src/oUnitChooser.ml" 125 4785 4822 "src/oUnitChooser.ml" 125 4785 4823
+type(
+  t
+)
+ident(
+  int_ref t "src/oUnitChooser.ml" 91 3549 3563 "src/oUnitChooser.ml" 91 3549 3564
+)
+"src/oUnitChooser.ml" 125 4785 4822 "src/oUnitChooser.ml" 125 4785 4836
+type(
+  OUnitTest.result_list
+)
+"src/oUnitChooser.ml" 125 4785 4807 "src/oUnitChooser.ml" 125 4785 4836
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitChooser.ml" 127 4916 4932 "src/oUnitChooser.ml" 127 4916 4938
+type(
+  t -> choice
+)
+ident(
+  int_ref simple "src/oUnitChooser.ml" 68 3085 3089 "src/oUnitChooser.ml" 68 3085 3095
+)
+"src/oUnitChooser.ml" 127 4916 4939 "src/oUnitChooser.ml" 127 4916 4940
+type(
+  t
+)
+ident(
+  int_ref t "src/oUnitChooser.ml" 91 3549 3563 "src/oUnitChooser.ml" 91 3549 3564
+)
+"src/oUnitChooser.ml" 127 4916 4932 "src/oUnitChooser.ml" 127 4916 4940
+call(
+  tail
+)
+type(
+  choice
+)
+"src/oUnitChooser.ml" 130 5020 5036 "src/oUnitChooser.ml" 130 5020 5043
+type(
+  t -> choice
+)
+ident(
+  int_ref allskip "src/oUnitChooser.ml" 86 3449 3453 "src/oUnitChooser.ml" 86 3449 3460
+)
+"src/oUnitChooser.ml" 130 5020 5044 "src/oUnitChooser.ml" 130 5020 5045
+type(
+  t
+)
+ident(
+  int_ref t "src/oUnitChooser.ml" 91 3549 3563 "src/oUnitChooser.ml" 91 3549 3564
+)
+"src/oUnitChooser.ml" 130 5020 5036 "src/oUnitChooser.ml" 130 5020 5045
+call(
+  tail
+)
+type(
+  choice
+)
+"src/oUnitChooser.ml" 125 4785 4804 "src/oUnitChooser.ml" 130 5020 5045
+type(
+  choice
+)
+"src/oUnitChooser.ml" 122 4638 4652 "src/oUnitChooser.ml" 130 5020 5045
+type(
+  choice
+)
+"src/oUnitChooser.ml" 108 4089 4099 "src/oUnitChooser.ml" 131 5046 5059
+type(
+  choice
+)
+"src/oUnitChooser.ml" 94 3652 3656 "src/oUnitChooser.ml" 131 5046 5059
+type(
+  OUnitTest.MapPath.key list -> choice
+)
+"src/oUnitChooser.ml" 133 5065 5069 "src/oUnitChooser.ml" 133 5065 5081
+type(
+  OUnitTest.MapPath.key list -> choice
+)
+ident(
+  int_ref find_failing "src/oUnitChooser.ml" 93 3627 3637 "src/oUnitChooser.ml" 93 3627 3649
+)
+"src/oUnitChooser.ml" 133 5065 5082 "src/oUnitChooser.ml" 133 5065 5083
+type(
+  t
+)
+ident(
+  int_ref t "src/oUnitChooser.ml" 91 3549 3563 "src/oUnitChooser.ml" 91 3549 3564
+)
+"src/oUnitChooser.ml" 133 5065 5082 "src/oUnitChooser.ml" 133 5065 5097
+type(
+  OUnitTest.MapPath.key list
+)
+"src/oUnitChooser.ml" 133 5065 5069 "src/oUnitChooser.ml" 133 5065 5097
+call(
+  tail
+)
+type(
+  choice
+)
+"src/oUnitChooser.ml" 93 3627 3629 "src/oUnitChooser.ml" 133 5065 5097
+type(
+  choice
+)
+"src/oUnitChooser.ml" 92 3567 3569 "src/oUnitChooser.ml" 133 5065 5097
+type(
+  choice
+)
+"src/oUnitChooser.ml" 135 5099 5103 "src/oUnitChooser.ml" 135 5099 5105
+type(
+  unit
+)
+"src/oUnitChooser.ml" 136 5108 5110 "src/oUnitChooser.ml" 136 5108 5118
+type(
+  string -> int -> chooser -> unit
+)
+ident(
+  ext_ref register
+)
+"src/oUnitChooser.ml" 136 5108 5119 "src/oUnitChooser.ml" 136 5108 5130
+type(
+  string
+)
+"src/oUnitChooser.ml" 136 5108 5131 "src/oUnitChooser.ml" 136 5108 5133
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"src/oUnitChooser.ml" 136 5108 5133 "src/oUnitChooser.ml" 136 5108 5134
+type(
+  int
+)
+"src/oUnitChooser.ml" 136 5108 5131 "src/oUnitChooser.ml" 136 5108 5134
+type(
+  int
+)
+"src/oUnitChooser.ml" 136 5108 5135 "src/oUnitChooser.ml" 136 5108 5144
+type(
+  chooser
+)
+ident(
+  int_ref failfirst "src/oUnitChooser.ml" 91 3549 3553 "src/oUnitChooser.ml" 91 3549 3562
+)
+"src/oUnitChooser.ml" 136 5108 5110 "src/oUnitChooser.ml" 136 5108 5144
+call(
+  stack
+)
+type(
+  unit
+)

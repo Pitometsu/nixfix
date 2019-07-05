@@ -1,0 +1,175 @@
+.\" Pipe this output to groff -Tutf8 | less
+.\"
+.mso an.tmac
+.TH "OCAMLFORMAT" 1 "" "Ocamlformat 0.8" "Ocamlformat Manual"
+.\" Disable hyphenation and ragged-right
+.nh
+.ad l
+.SH NAME
+.P
+ocamlformat \N'45' A tool to format OCaml code\N'46'
+.SH SYNOPSIS
+.P
+\fBocamlformat\fR [\fIOPTION\fR]\N'46'\N'46'\N'46' [\fISRC\fR]\N'46'\N'46'\N'46'
+.SH DESCRIPTION
+.P
+\fBocamlformat\fR automatically formats OCaml code\N'46'
+.SH OPTIONS (CODE FORMATTING STYLE)
+.P
+Unless otherwise noted, any option \fB\N'45'\N'45'\fR\fIoption\fR\fB=\fR\fIVAL\fR detailed in this section can be set in many ways, its value is determined in the following order (of increasing priority): the default value is used if no other value is specified, the value can be modified in an \fB\N'46'ocamlformat\fR configuration file with an \N'39'\fBoption = \fR\fIVAL\fR\N'39' line (*), or using the OCAMLFORMAT environment variable: \fBOCAMLFORMAT=\fR\fIoption\fR\fB=\fR\fIVAL\fR\fB,\fR\N'46'\N'46'\N'46'\fB,\fR\fIoption\fR\fB=\fR\fIVAL\fR, or as an optional parameter on the command line, or with a global \fB[@@@ocamlformat "\fR\fIoption\fR\fB=\fR\fIVAL\fR\fB"]\fR attribute in the processed file, or with an \fB[@@ocamlformat "\fR\fIoption\fR\fB=\fR\fIVAL\fR\fB"]\fR attribute on expression in the processed file\N'46'
+.P
+(*) \N'46'ocamlformat files in current and all ancestor directories for each input file are used, as well as the global \N'46'ocamlformat file defined in \fB$XDG_CONFIG_HOME/ocamlformat\fR\N'46' The global \N'46'ocamlformat file has the lowest priority, then the closer the directory is to the processed file, the higher the priority\N'46'
+.TP 4
+\fB\N'45'\N'45'break\N'45'cases\fR=\fI{fit|nested|all}\fR
+Break pattern match cases\N'46' Specifying \fBfit\fR lets pattern matches break at the margin naturally\N'46' \fBnested\fR forces a break after nested or\N'45'patterns to highlight the case body\N'46' \fBall\fR forces all pattern matches to break across lines\N'46' The default value is \fBfit\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'break\N'45'collection\N'45'expressions\fR=\fI{fit\N'45'or\N'45'vertical|wrap}\fR
+Break collection expressions (lists and arrays) elements by elements\N'46' \fBfit\N'45'or\N'45'vertical\fR vertically breaks expressions if they do not fit on a single line\N'46' \fBwrap\fR will group simple expressions and try to format them in a single line\N'46' The default value is \fBfit\N'45'or\N'45'vertical\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'break\N'45'infix\fR=\fI{wrap|fit\N'45'or\N'45'vertical}\fR
+Break sequence of infix operators\N'46' \fBwrap\fR will group simple expressions and try to format them in a single line\N'46' \fBfit\N'45'or\N'45'vertical\fR vertically breaks expressions if they do not fit on a single line\N'46' The default value is \fBwrap\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'break\N'45'sequences\fR
+Force sequence expressions to break irrespective of margin\N'46'
+.TP 4
+\fB\N'45'\N'45'break\N'45'string\N'45'literals\fR=\fI{wrap|newlines|never}\fR
+Break string literals\N'46' \fBwrap\fR mode wraps string literals at the margin\N'46' Quoted strings such as \fI{id|\N'46'\N'46'\N'46'|id}\fR are preserved\N'46' \fBnewlines\fR mode breaks lines at newlines\N'46' \fBnever\fR mode formats string literals as they are parsed, in particular, with escape sequences expanded\N'46' The default value is \fBwrap\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'break\N'45'struct\fR=\fI{force|natural}\fR
+Break struct\N'45'end module items\N'46' \fBforce\fR will break struct\N'45'end phrases unconditionally\N'46' \fBnatural\fR will break struct\N'45'end phrases naturally at the margin\N'46' The default value is \fBforce\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'cases\N'45'exp\N'45'indent\fR=\fICOLS\fR
+Indentation of cases expressions (\fICOLS\fR columns), except for nested `match` or `try` expressions\N'46' The default value is \fB4\fR\N'46' Cannot be set in attributes\N'46'
+.TP 4
+\fB\N'45'\N'45'disable\fR
+Disable ocamlformat\N'46' This is used in attributes to locally disable automatic code formatting\N'46' One can also use \fB[@@@ocamlformat "enable"]\fR instead of \fB[@@@ocamlformat "disable=false"]\fR
+.TP 4
+\fB\N'45'\N'45'doc\N'45'comments\fR=\fI{after|before}\fR
+Doc comments position\N'46' \fBafter\fR puts doc comments after the corresponding code\N'46' \fBbefore\fR puts comments before the corresponding code\N'46' The default value is \fBafter\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'escape\N'45'chars\fR=\fI{preserve|decimal|hexadecimal}\fR
+Escape encoding for character literals\N'46' \fBpreserve\fR escapes ASCII control codes but leaves the upper 128 characters unchanged\N'46' \fBdecimal\fR produces ASCII printable characters using decimal escape sequences as needed\N'46' \fBhexadecimal\fR mode escapes every character\N'46' The default value is \fBpreserve\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'escape\N'45'strings\fR=\fI{preserve|decimal|hexadecimal}\fR
+Escape encoding for string literals\N'46' See `\N'45'\N'45'escape\N'45'chars` for the interpretation of the modes\N'46' The default value is \fBpreserve\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'extension\N'45'sugar\fR=\fI{preserve|always}\fR
+Extension formatting\N'46' The default value is \fBpreserve\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'field\N'45'space\fR=\fI{tight|loose}\fR
+Whether or not to use a space between a field name and the rhs\N'46' This option affects records and objects\N'46' \fBtight\fR does not use a space between a field name and the punctuation symbol (`:`or `=`)\N'46' \fBloose\fR does\N'46' The default value is \fBtight\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'if\N'45'then\N'45'else\fR=\fI{compact|keyword\N'45'first}\fR
+If\N'45'then\N'45'else formatting\N'46' \fBcompact\fR tries to format an if\N'45'then\N'45'else expression on a single line\N'46' \fBkeyword\N'45'first\fR formats if\N'45'then\N'45'else expressions such that the if\N'45'then\N'45'else keywords are the first on the line\N'46' The default value is \fBcompact\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'infix\N'45'precedence\fR=\fI{indent|parens}\fR
+Use indentation or also discretionary parentheses to explicitly disambiguate precedences of infix operators\N'46' \fBindent\fR uses indentation to explicitly disambiguate precedences of infix operators\N'46' \fBparens\fR uses parentheses to explicitly disambiguate precedences of infix operators\N'46' The default value is \fBindent\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'leading\N'45'nested\N'45'match\N'45'parens\fR
+Nested match parens formatting\N'46' Cannot be set in attributes\N'46'
+.TP 4
+\fB\N'45'\N'45'let\N'45'and\fR=\fI{compact|sparse}\fR
+Style of let_and\N'46' \fBcompact\fR will try to format `let p = e and p = e` in a single line\N'46' \fBsparse\fR will always break between them\N'46' The default value is \fBcompact\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'let\N'45'binding\N'45'spacing\fR=\fI{compact|sparse|double\N'45'semicolon}\fR
+Spacing between let binding\N'46' \fBcompact\fR spacing separates adjacent let bindings in a module according to module\N'45'item\N'45'spacing\N'46' \fBsparse\fR places two open lines between a multi\N'45'line module\N'45'level let binding and the next\N'46' \fBdouble\N'45'semicolon\fR places double semicolons and an open line between a multi\N'45'line module\N'45'level let binding and the next\N'46' The default value is \fBcompact\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'let\N'45'open\fR=\fI{preserve|short|long|auto}\fR
+Module open formatting\N'46' \fBpreserve\fR keeps the original style\N'46' \fBshort\fR means the \fIModule\N'46'(\N'46'\N'46'\N'46'\fR) style is used\N'46' \fBlong\fR means the \fIlet open Module in (\N'46'\N'46'\N'46'\fR) style is used\N'46' \fBauto\fR means the one fitting best is used\N'46' The default value is \fBpreserve\fR\N'46'
+.TP 4
+\fB\N'45'm\fR \fICOLS\fR, \fB\N'45'\N'45'margin\fR=\fICOLS\fR
+Format code to fit within \fICOLS\fR columns\N'46' The default value is \fB80\fR\N'46' Cannot be set in attributes\N'46'
+.TP 4
+\fB\N'45'\N'45'module\N'45'item\N'45'spacing\fR=\fI{sparse|compact}\fR
+Spacing between items of structures and signatures\N'46' \fBsparse\fR will always break a line between two items\N'46' \fBcompact\fR will not leave open lines between one\N'45'liners of similar sorts\N'46' The default value is \fBsparse\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'no\N'45'indicate\N'45'multiline\N'45'delimiters\fR
+Print a space inside a delimiter to indicate that it\N'39's matching delimiter is on a different line\N'46'
+.TP 4
+\fB\N'45'\N'45'no\N'45'indicate\N'45'nested\N'45'or\N'45'patterns\fR
+Control whether or not to indicate nested or\N'45'pattern using indentation\N'46'
+.TP 4
+\fB\N'45'\N'45'no\N'45'wrap\N'45'fun\N'45'args\fR
+Style for function call and function definition\N'46'
+.TP 4
+\fB\N'45'\N'45'ocp\N'45'indent\N'45'compat\fR
+Attempt to generate output which does not change (much) when post\N'45'processing with ocp\N'45'indent\N'46'
+.TP 4
+\fB\N'45'\N'45'parens\N'45'tuple\fR=\fI{always|multi\N'45'line\N'45'only}\fR
+Parens tuples\N'46' \fBalways\fR always uses parentheses around tuples\N'46' \fBmulti\N'45'line\N'45'only\fR mode will try to skip parens for single\N'45'line tuples\N'46' The default value is \fBalways\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'sequence\N'45'style\fR=\fI{separator|terminator}\fR
+Style of sequence\N'46' \fBseparator\fR puts spaces before and after semicolons\N'46' \fBterminator\fR only puts spaces after semicolons\N'46' The default value is \fBseparator\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'type\N'45'decl\fR=\fI{compact|sparse}\fR
+Style of type declaration\N'46' \fBcompact\fR will try to format constructors and records definition in a single line\N'46' \fBsparse\fR will always break between constructors and record fields\N'46' The default value is \fBcompact\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'wrap\N'45'comments\fR
+Wrap comments and docstrings\N'46' Comments and docstrings are divided into paragraphs by open lines (two or more consecutive newlines), and each paragraph is wrapped at the margin\N'46' Multi\N'45'line comments with vertically\N'45'aligned asterisks on the left margin are not wrapped\N'46' Consecutive comments with both left and right margin aligned are not wrapped either\N'46'
+.SH OPTIONS
+.TP 4
+\fB\N'45'c\fR \fIVAL\fR, \fB\N'45'\N'45'config\fR=\fIVAL\fR (absent \fBOCAMLFORMAT\fR env)
+Aggregate options\N'46' Options are specified as a comma\N'45'separated list of pairs: \fIoption\fR\fB=\fR\fIVAL\fR\fB,\fR\N'46'\N'46'\N'46'\fB,\fR\fIoption\fR\fB=\fR\fIVAL\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'disable\N'45'outside\N'45'detected\N'45'project\fR
+Do not read \fB\N'46'ocamlformat\fR config files outside the current project\N'46' The project root of an input file is taken to be the nearest ancestor directory that contains a \fB\N'46'git\fR or \fB\N'46'hg\fR or \fBdune\N'45'project\fR file\N'46' If no config file is found, formatting is disabled\N'46'
+.TP 4
+\fB\N'45'g\fR, \fB\N'45'\N'45'debug\fR
+Generate debugging output\N'46'
+.TP 4
+\fB\N'45'\N'45'help\fR[=\fIFMT\fR] (default=auto)
+Show this help in format \fIFMT\fR\N'46' The value \fIFMT\fR must be one of `auto\N'39', `pager\N'39', `groff\N'39' or `plain\N'39'\N'46' With `auto\N'39', the format is `pager` or `plain\N'39' whenever the \fBTERM\fR env var is `dumb\N'39' or undefined\N'46'
+.TP 4
+\fB\N'45'i\fR, \fB\N'45'\N'45'inplace\fR
+Format in\N'45'place, overwriting input file(s)\N'46'
+.TP 4
+\fB\N'45'\N'45'impl\fR
+Parse file with unrecognized extension as an implementation\N'46'
+.TP 4
+\fB\N'45'\N'45'intf\fR
+Parse file with unrecognized extension as an interface\N'46'
+.TP 4
+\fB\N'45'n\fR \fIN\fR, \fB\N'45'\N'45'max\N'45'iters\fR=\fIN\fR
+Fail if output of formatting does not stabilize within \fIN\fR iterations\N'46' May be set in \fB\N'46'ocamlformat\fR\N'46' The default value is \fB10\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'name\fR=\fINAME\fR
+Name of input file for use in error reporting\N'46' Defaults to the input file name\N'46' Some options can be specified in configuration files named \N'39'\N'46'ocamlformat\N'39' in the same or a parent directory of \fINAME\fR, see documentation of other options for details\N'46' Mutually exclusive with \N'45'\N'45'inplace\N'46'
+.TP 4
+\fB\N'45'\N'45'no\N'45'comment\N'45'check\fR
+UNSAFE: Control wether to check comments and documentation comments\N'46' May be set in \fB\N'46'ocamlformat\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'no\N'45'version\N'45'check\fR
+Do no check version matches the one specified in \N'46'ocamlformat\N'46'
+.TP 4
+\fB\N'45'o\fR \fIDST\fR, \fB\N'45'\N'45'output\fR=\fIDST\fR
+Output file\N'46' Mutually exclusive with \N'45'\N'45'inplace\N'46' Write to stdout if omitted\N'46'
+.TP 4
+\fB\N'45'\N'45'ocp\N'45'indent\N'45'config\fR
+Read \N'46'ocp\N'45'indent configuration files\N'46' \fBmatch\N'45'clause\fR sets \fBcases\N'45'exp\N'45'indent\fR to the same value\N'46'
+.TP 4
+\fB\N'45'p\fR \fI{default|compact|sparse|janestreet}\fR, \fB\N'45'\N'45'profile\fR=\fI{default|compact|sparse|janestreet}\fR
+Preset profiles which set \fIall\fR options, overriding lower priority configuration\N'46' \fBdefault\fR sets each option to its default value\N'46' \fBcompact\fR sets options for a generally compact code style\N'46' \fBsparse\fR sets options for a generally sparse code style\N'46' \fBjanestreet\fR is the profile used at JaneStreet\N'46' 
+.TP 4
+\fB\N'45'\N'45'print\N'45'config\fR
+Print config\N'46'
+.TP 4
+\fB\N'45'q\fR, \fB\N'45'\N'45'quiet\fR
+Quiet\N'46' May be set in \fB\N'46'ocamlformat\fR\N'46'
+.TP 4
+\fB\N'45'\N'45'root\fR=\fIDIR\fR
+Root of the project\N'46' If specified, only take into account \N'46'ocamlformat configuration files inside \fIDIR\fR and its subdirectories\N'46'
+.TP 4
+\fB\N'45'\N'45'use\N'45'file\fR
+Parse file with unrecognized extension as a use_file\N'46'
+.TP 4
+\fB\N'45'\N'45'version\fR
+Show version information\N'46'
+.TP 4
+\fISRC\fR
+Input files\N'46' At least one is required, and exactly one without \fB\N'45'\N'45'inplace\fR\N'46' If \fB\N'45'\fR is passed, will read from stdin\N'46'
+.SH ENVIRONMENT
+.P
+These environment variables affect the execution of \fBocamlformat\fR:
+.TP 4
+\fBOCAMLFORMAT\fR
+See option \fB\N'45'\N'45'config\fR\N'46'

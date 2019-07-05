@@ -1,0 +1,10 @@
+lib: [
+  "_build/install/default/lib/opam-lock/META"
+  "_build/install/default/lib/opam-lock/dune-package"
+  "_build/install/default/lib/opam-lock/opam"
+]
+bin: "_build/install/default/bin/opam-lock"
+doc: [
+  "_build/install/default/doc/opam-lock/LICENSE"
+  "_build/install/default/doc/opam-lock/README.md"
+]

@@ -1,0 +1,17 @@
+(lang dune 1.10)
+(name variantslib)
+(version v0.11.0)
+(library
+ (name variantslib)
+ (kind normal)
+ (archives (byte variantslib.cma) (native variantslib.cmxa))
+ (plugins (byte variantslib.cma) (native variantslib.cmxs))
+ (foreign_archives (native variantslib.a))
+ (requires base)
+ (main_module_name Variantslib)
+ (modes byte native)
+ (modules
+  (main_module_name Variantslib)
+  (modules
+   ((name Variantslib) (obj_name variantslib) (visibility public) (impl)))
+  (wrapped true)))

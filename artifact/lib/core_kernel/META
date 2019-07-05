@@ -1,0 +1,41 @@
+version = "v0.11.0"
+description = ""
+requires = "base
+            base.caml
+            base.md5
+            bin_prot
+            core_kernel.base_for_tests
+            fieldslib
+            jane-street-headers
+            ppx_assert.runtime-lib
+            ppx_bench.runtime-lib
+            ppx_compare.runtime-lib
+            ppx_expect.collector
+            ppx_hash.runtime-lib
+            ppx_inline_test.runtime-lib
+            ppx_sexp_conv.runtime-lib
+            sexplib
+            splittable_random
+            stdio
+            typerep
+            variantslib"
+archive(byte) = "core_kernel.cma"
+archive(native) = "core_kernel.cmxa"
+plugin(byte) = "core_kernel.cma"
+plugin(native) = "core_kernel.cmxs"
+linkopts(javascript) = "+core_kernel/strftime.js +core_kernel/runtime.js"
+jsoo_runtime = "strftime.js runtime.js"
+package "base_for_tests" (
+  directory = "base_for_tests"
+  version = "v0.11.0"
+  description = ""
+  requires = "base
+              ppx_compare.runtime-lib
+              ppx_hash.runtime-lib
+              ppx_inline_test.runtime-lib
+              ppx_sexp_conv.runtime-lib"
+  archive(byte) = "base_for_tests.cma"
+  archive(native) = "base_for_tests.cmxa"
+  plugin(byte) = "base_for_tests.cma"
+  plugin(native) = "base_for_tests.cmxs"
+)

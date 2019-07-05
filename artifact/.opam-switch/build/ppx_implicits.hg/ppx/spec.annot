@@ -1,0 +1,2353 @@
+"spec.ml" 29 1374 1382 "spec.ml" 29 1374 1391
+type(
+  t2 -> bool
+)
+ident(
+  def is_static "spec.ml" 29 1374 1374 "spec.ml" 1 0 -1
+)
+"spec.ml" 30 1403 1414 "spec.ml" 30 1403 1415
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+type(
+  [ `In | `Just ]
+)
+"spec.ml" 30 1403 1407 "spec.ml" 30 1403 1415
+type(
+  t2
+)
+"spec.ml" 30 1403 1419 "spec.ml" 30 1403 1423
+type(
+  bool
+)
+"spec.ml" 31 1424 1435 "spec.ml" 31 1424 1436
+type(
+  Typpx.Compilerlib.Path.t option
+)
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+type(
+  [ `In | `Just ]
+)
+"spec.ml" 31 1424 1428 "spec.ml" 31 1424 1436
+type(
+  t2
+)
+"spec.ml" 31 1424 1440 "spec.ml" 31 1424 1444
+type(
+  bool
+)
+"spec.ml" 32 1445 1449 "spec.ml" 32 1445 1456
+type(
+  t2
+)
+"spec.ml" 32 1445 1460 "spec.ml" 32 1445 1465
+type(
+  bool
+)
+"spec.ml" 33 1466 1481 "spec.ml" 33 1466 1483
+type(
+  t2
+)
+ident(
+  def t2 "spec.ml" 33 1466 1505 "spec.ml" 33 1466 1517
+)
+"spec.ml" 33 1466 1470 "spec.ml" 33 1466 1483
+type(
+  t2
+)
+"spec.ml" 33 1466 1492 "spec.ml" 33 1466 1493
+type(
+  string
+)
+"spec.ml" 33 1466 1495 "spec.ml" 33 1466 1496
+type(
+  Re.re
+)
+"spec.ml" 33 1466 1498 "spec.ml" 33 1466 1500
+type(
+  t2
+)
+ident(
+  def t2 "spec.ml" 33 1466 1505 "spec.ml" 33 1466 1517
+)
+"spec.ml" 33 1466 1486 "spec.ml" 33 1466 1501
+type(
+  t2
+)
+"spec.ml" 33 1466 1470 "spec.ml" 33 1466 1501
+type(
+  t2
+)
+"spec.ml" 33 1466 1505 "spec.ml" 33 1466 1514
+type(
+  t2 -> bool
+)
+ident(
+  int_ref is_static "spec.ml" 29 1374 1382 "spec.ml" 29 1374 1391
+)
+"spec.ml" 33 1466 1515 "spec.ml" 33 1466 1517
+type(
+  t2
+)
+ident(
+  int_ref t2 "spec.ml" 33 1466 1481 "spec.ml" 33 1466 1483
+)
+"spec.ml" 33 1466 1505 "spec.ml" 33 1466 1517
+call(
+  tail
+)
+type(
+  bool
+)
+"spec.ml" 34 1518 1531 "spec.ml" 34 1518 1532
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+type(
+  Parsetree.core_type
+)
+"spec.ml" 34 1518 1522 "spec.ml" 34 1518 1532
+type(
+  t2
+)
+"spec.ml" 34 1518 1536 "spec.ml" 34 1518 1540
+type(
+  bool
+)
+"spec.ml" 35 1541 1554 "spec.ml" 35 1541 1555
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"spec.ml" 35 1541 1545 "spec.ml" 35 1541 1555
+type(
+  t2
+)
+"spec.ml" 35 1541 1559 "spec.ml" 35 1541 1564
+type(
+  bool
+)
+"spec.ml" 36 1565 1579 "spec.ml" 36 1565 1580
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+type(
+  Parsetree.core_type
+)
+type(
+  Parsetree.expression
+)
+"spec.ml" 36 1565 1569 "spec.ml" 36 1565 1580
+type(
+  t2
+)
+"spec.ml" 36 1565 1584 "spec.ml" 36 1565 1589
+type(
+  bool
+)
+"spec.ml" 29 1374 1394 "spec.ml" 36 1565 1589
+type(
+  t2 -> bool
+)
+"spec.ml" 38 1595 1599 "spec.ml" 38 1595 1608
+type(
+  t2 list -> string
+)
+ident(
+  def to_string "spec.ml" 61 2492 2492 "spec.ml" 1 0 -1
+)
+"spec.ml" 39 1612 1622 "spec.ml" 39 1612 1623
+type(
+  t2 list -> string
+)
+ident(
+  def t "spec.ml" 39 1612 1614 "spec.ml" 59 2486 2489
+)
+"spec.ml" 40 1635 1642 "spec.ml" 40 1635 1643
+type(
+  t2
+)
+ident(
+  def x "spec.ml" 40 1635 1648 "spec.ml" 40 1635 1652
+)
+"spec.ml" 40 1635 1641 "spec.ml" 40 1635 1644
+type(
+  t2 list
+)
+"spec.ml" 40 1635 1648 "spec.ml" 40 1635 1650
+type(
+  t2 -> string
+)
+ident(
+  int_ref t2 "spec.ml" 42 1696 1702 "spec.ml" 42 1696 1704
+)
+"spec.ml" 40 1635 1651 "spec.ml" 40 1635 1652
+type(
+  t2
+)
+ident(
+  int_ref x "spec.ml" 40 1635 1642 "spec.ml" 40 1635 1643
+)
+"spec.ml" 40 1635 1648 "spec.ml" 40 1635 1652
+call(
+  tail
+)
+type(
+  string
+)
+"spec.ml" 41 1653 1659 "spec.ml" 41 1653 1661
+type(
+  t2 list
+)
+ident(
+  def xs "spec.ml" 41 1653 1665 "spec.ml" 41 1653 1695
+)
+"spec.ml" 41 1653 1665 "spec.ml" 41 1653 1678
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref Ppxx.Utils.String.concat
+)
+"spec.ml" 41 1653 1679 "spec.ml" 41 1653 1683
+type(
+  string
+)
+"spec.ml" 41 1653 1685 "spec.ml" 41 1653 1688
+type(
+  (t2 -> string) -> t2 list -> string list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"spec.ml" 41 1653 1689 "spec.ml" 41 1653 1691
+type(
+  t2 -> string
+)
+ident(
+  int_ref t2 "spec.ml" 42 1696 1702 "spec.ml" 42 1696 1704
+)
+"spec.ml" 41 1653 1692 "spec.ml" 41 1653 1694
+type(
+  t2 list
+)
+ident(
+  int_ref xs "spec.ml" 41 1653 1659 "spec.ml" 41 1653 1661
+)
+"spec.ml" 41 1653 1684 "spec.ml" 41 1653 1695
+call(
+  stack
+)
+type(
+  string list
+)
+"spec.ml" 41 1653 1665 "spec.ml" 41 1653 1695
+call(
+  tail
+)
+type(
+  string
+)
+"spec.ml" 39 1612 1626 "spec.ml" 41 1653 1695
+type(
+  t2 list -> string
+)
+"spec.ml" 42 1696 1702 "spec.ml" 42 1696 1704
+type(
+  t2 -> string
+)
+ident(
+  def t2 "spec.ml" 39 1612 1614 "spec.ml" 59 2486 2489
+)
+"spec.ml" 43 1716 1730 "spec.ml" 43 1716 1733
+type(
+  [ `In | `Just ]
+)
+"spec.ml" 43 1716 1735 "spec.ml" 43 1716 1736
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def l "spec.ml" 43 1716 1744 "spec.ml" 43 1716 1765
+)
+"spec.ml" 43 1716 1738 "spec.ml" 43 1716 1739
+type(
+  Typpx.Compilerlib.Path.t option
+)
+"spec.ml" 43 1716 1722 "spec.ml" 43 1716 1740
+type(
+  t2
+)
+"spec.ml" 43 1716 1744 "spec.ml" 43 1716 1763
+type(
+  Ppxx.Compilerlib.Longident.t -> string
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Longident.to_string
+)
+"spec.ml" 43 1716 1764 "spec.ml" 43 1716 1765
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref l "spec.ml" 43 1716 1735 "spec.ml" 43 1716 1736
+)
+"spec.ml" 43 1716 1744 "spec.ml" 43 1716 1765
+call(
+  tail
+)
+type(
+  string
+)
+"spec.ml" 44 1766 1780 "spec.ml" 44 1766 1785
+type(
+  [ `In | `Just ]
+)
+"spec.ml" 44 1766 1787 "spec.ml" 44 1766 1788
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def l "spec.ml" 44 1766 1796 "spec.ml" 44 1766 1844
+)
+"spec.ml" 44 1766 1790 "spec.ml" 44 1766 1791
+type(
+  Typpx.Compilerlib.Path.t option
+)
+"spec.ml" 44 1766 1772 "spec.ml" 44 1766 1792
+type(
+  t2
+)
+"spec.ml" 44 1766 1796 "spec.ml" 44 1766 1810
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"spec.ml" 44 1766 1811 "spec.ml" 44 1766 1820
+type(
+  (string -> string, unit, string) format
+)
+"spec.ml" 44 1766 1796 "spec.ml" 44 1766 1820
+type(
+  string -> string
+)
+"spec.ml" 44 1766 1821 "spec.ml" 44 1766 1822
+type(
+  (string -> string) -> string -> string
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"spec.ml" 44 1766 1823 "spec.ml" 44 1766 1842
+type(
+  Ppxx.Compilerlib.Longident.t -> string
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Longident.to_string
+)
+"spec.ml" 44 1766 1843 "spec.ml" 44 1766 1844
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref l "spec.ml" 44 1766 1787 "spec.ml" 44 1766 1788
+)
+"spec.ml" 44 1766 1823 "spec.ml" 44 1766 1844
+call(
+  stack
+)
+type(
+  string
+)
+"spec.ml" 44 1766 1796 "spec.ml" 44 1766 1844
+call(
+  tail
+)
+type(
+  string
+)
+"spec.ml" 45 1845 1859 "spec.ml" 45 1845 1862
+type(
+  [ `In | `Just ]
+)
+"spec.ml" 45 1845 1864 "spec.ml" 45 1845 1865
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def l "spec.ml" 45 1845 1870 "spec.ml" 45 1845 1922
+)
+"spec.ml" 45 1845 1851 "spec.ml" 45 1845 1866
+type(
+  t2
+)
+"spec.ml" 45 1845 1870 "spec.ml" 45 1845 1884
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"spec.ml" 45 1845 1885 "spec.ml" 45 1845 1898
+type(
+  (string -> string, unit, string) format
+)
+"spec.ml" 45 1845 1870 "spec.ml" 45 1845 1898
+type(
+  string -> string
+)
+"spec.ml" 45 1845 1899 "spec.ml" 45 1845 1900
+type(
+  (string -> string) -> string -> string
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"spec.ml" 45 1845 1901 "spec.ml" 45 1845 1920
+type(
+  Ppxx.Compilerlib.Longident.t -> string
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Longident.to_string
+)
+"spec.ml" 45 1845 1921 "spec.ml" 45 1845 1922
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref l "spec.ml" 45 1845 1864 "spec.ml" 45 1845 1865
+)
+"spec.ml" 45 1845 1901 "spec.ml" 45 1845 1922
+call(
+  stack
+)
+type(
+  string
+)
+"spec.ml" 45 1845 1870 "spec.ml" 45 1845 1922
+call(
+  tail
+)
+type(
+  string
+)
+"spec.ml" 46 1923 1937 "spec.ml" 46 1923 1942
+type(
+  [ `In | `Just ]
+)
+"spec.ml" 46 1923 1944 "spec.ml" 46 1923 1945
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def l "spec.ml" 46 1923 1950 "spec.ml" 46 1923 2007
+)
+"spec.ml" 46 1923 1929 "spec.ml" 46 1923 1946
+type(
+  t2
+)
+"spec.ml" 46 1923 1950 "spec.ml" 46 1923 1964
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"spec.ml" 46 1923 1965 "spec.ml" 46 1923 1983
+type(
+  (string -> string, unit, string) format
+)
+"spec.ml" 46 1923 1950 "spec.ml" 46 1923 1983
+type(
+  string -> string
+)
+"spec.ml" 46 1923 1984 "spec.ml" 46 1923 1985
+type(
+  (string -> string) -> string -> string
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"spec.ml" 46 1923 1986 "spec.ml" 46 1923 2005
+type(
+  Ppxx.Compilerlib.Longident.t -> string
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Longident.to_string
+)
+"spec.ml" 46 1923 2006 "spec.ml" 46 1923 2007
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref l "spec.ml" 46 1923 1944 "spec.ml" 46 1923 1945
+)
+"spec.ml" 46 1923 1986 "spec.ml" 46 1923 2007
+call(
+  stack
+)
+type(
+  string
+)
+"spec.ml" 46 1923 1950 "spec.ml" 46 1923 2007
+call(
+  tail
+)
+type(
+  string
+)
+"spec.ml" 47 2008 2014 "spec.ml" 47 2008 2021
+type(
+  t2
+)
+"spec.ml" 47 2008 2025 "spec.ml" 47 2008 2034
+type(
+  string
+)
+"spec.ml" 48 2035 2052 "spec.ml" 48 2035 2053
+type(
+  t2
+)
+ident(
+  def x "spec.ml" 48 2035 2057 "spec.ml" 48 2035 2096
+)
+"spec.ml" 48 2035 2041 "spec.ml" 48 2035 2053
+type(
+  t2
+)
+"spec.ml" 48 2035 2057 "spec.ml" 48 2035 2071
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"spec.ml" 48 2035 2072 "spec.ml" 48 2035 2089
+type(
+  (string -> string, unit, string) format
+)
+"spec.ml" 48 2035 2091 "spec.ml" 48 2035 2093
+type(
+  t2 -> string
+)
+ident(
+  int_ref t2 "spec.ml" 42 1696 1702 "spec.ml" 42 1696 1704
+)
+"spec.ml" 48 2035 2094 "spec.ml" 48 2035 2095
+type(
+  t2
+)
+ident(
+  int_ref x "spec.ml" 48 2035 2052 "spec.ml" 48 2035 2053
+)
+"spec.ml" 48 2035 2090 "spec.ml" 48 2035 2096
+call(
+  stack
+)
+type(
+  string
+)
+"spec.ml" 48 2035 2057 "spec.ml" 48 2035 2096
+call(
+  tail
+)
+type(
+  string
+)
+"spec.ml" 49 2097 2109 "spec.ml" 49 2097 2110
+type(
+  string
+)
+ident(
+  def s "spec.ml" 49 2097 2123 "spec.ml" 49 2097 2161
+)
+"spec.ml" 49 2097 2112 "spec.ml" 49 2097 2115
+type(
+  Re.re
+)
+ident(
+  def _re "spec.ml" 49 2097 2123 "spec.ml" 49 2097 2161
+)
+"spec.ml" 49 2097 2117 "spec.ml" 49 2097 2118
+type(
+  t2
+)
+ident(
+  def x "spec.ml" 49 2097 2123 "spec.ml" 49 2097 2161
+)
+"spec.ml" 49 2097 2103 "spec.ml" 49 2097 2119
+type(
+  t2
+)
+"spec.ml" 49 2097 2123 "spec.ml" 49 2097 2137
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"spec.ml" 49 2097 2138 "spec.ml" 49 2097 2152
+type(
+  (string -> string -> string, unit, string) format
+)
+"spec.ml" 49 2097 2153 "spec.ml" 49 2097 2154
+type(
+  string
+)
+ident(
+  int_ref s "spec.ml" 49 2097 2109 "spec.ml" 49 2097 2110
+)
+"spec.ml" 49 2097 2156 "spec.ml" 49 2097 2158
+type(
+  t2 -> string
+)
+ident(
+  int_ref t2 "spec.ml" 42 1696 1702 "spec.ml" 42 1696 1704
+)
+"spec.ml" 49 2097 2159 "spec.ml" 49 2097 2160
+type(
+  t2
+)
+ident(
+  int_ref x "spec.ml" 49 2097 2117 "spec.ml" 49 2097 2118
+)
+"spec.ml" 49 2097 2155 "spec.ml" 49 2097 2161
+call(
+  stack
+)
+type(
+  string
+)
+"spec.ml" 49 2097 2123 "spec.ml" 49 2097 2161
+call(
+  tail
+)
+type(
+  string
+)
+"spec.ml" 50 2162 2178 "spec.ml" 50 2162 2181
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "spec.ml" 51 2190 2198 "spec.ml" 52 2230 2263
+)
+"spec.ml" 50 2162 2183 "spec.ml" 50 2162 2184
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"spec.ml" 50 2162 2168 "spec.ml" 50 2162 2185
+type(
+  t2
+)
+"spec.ml" 51 2190 2198 "spec.ml" 51 2190 2213
+type(
+  ((Ppxx.Utils.Format.formatter -> Parsetree.core_type -> unit) ->
+   Parsetree.core_type -> string, Ppxx.Utils.Format.formatter, unit, 
+   string)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Parsetree.core_type -> unit) ->
+  Parsetree.core_type -> string
+)
+ident(
+  ext_ref Ppxx.Utils.Format.asprintf
+)
+"spec.ml" 51 2190 2214 "spec.ml" 51 2190 2229
+type(
+  ((Ppxx.Utils.Format.formatter -> Parsetree.core_type -> unit) ->
+   Parsetree.core_type -> string, Ppxx.Utils.Format.formatter, unit, 
+   string)
+  format4
+)
+"spec.ml" 52 2230 2240 "spec.ml" 52 2230 2259
+type(
+  Ppxx.Utils.Format.formatter -> Parsetree.core_type -> unit
+)
+ident(
+  ext_ref Pprintast.core_type
+)
+"spec.ml" 52 2230 2260 "spec.ml" 52 2230 2263
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "spec.ml" 50 2162 2178 "spec.ml" 50 2162 2181
+)
+"spec.ml" 51 2190 2198 "spec.ml" 52 2230 2263
+call(
+  tail
+)
+type(
+  string
+)
+"spec.ml" 53 2264 2279 "spec.ml" 53 2264 2280
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def p "spec.ml" 53 2264 2284 "spec.ml" 53 2264 2336
+)
+"spec.ml" 53 2264 2270 "spec.ml" 53 2264 2280
+type(
+  t2
+)
+"spec.ml" 53 2264 2284 "spec.ml" 53 2264 2298
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"spec.ml" 53 2264 2299 "spec.ml" 53 2264 2312
+type(
+  (string -> string, unit, string) format
+)
+"spec.ml" 53 2264 2284 "spec.ml" 53 2264 2312
+type(
+  string -> string
+)
+"spec.ml" 53 2264 2313 "spec.ml" 53 2264 2314
+type(
+  (string -> string) -> string -> string
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"spec.ml" 53 2264 2315 "spec.ml" 53 2264 2334
+type(
+  Ppxx.Compilerlib.Longident.t -> string
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Longident.to_string
+)
+"spec.ml" 53 2264 2335 "spec.ml" 53 2264 2336
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref p "spec.ml" 53 2264 2279 "spec.ml" 53 2264 2280
+)
+"spec.ml" 53 2264 2315 "spec.ml" 53 2264 2336
+call(
+  stack
+)
+type(
+  string
+)
+"spec.ml" 53 2264 2284 "spec.ml" 53 2264 2336
+call(
+  tail
+)
+type(
+  string
+)
+"spec.ml" 54 2337 2354 "spec.ml" 54 2337 2355
+type(
+  Parsetree.expression
+)
+ident(
+  def e "spec.ml" 55 2368 2376 "spec.ml" 57 2447 2480
+)
+"spec.ml" 54 2337 2357 "spec.ml" 54 2337 2360
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "spec.ml" 55 2368 2376 "spec.ml" 57 2447 2480
+)
+"spec.ml" 54 2337 2362 "spec.ml" 54 2337 2363
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"spec.ml" 54 2337 2343 "spec.ml" 54 2337 2364
+type(
+  t2
+)
+"spec.ml" 55 2368 2376 "spec.ml" 55 2368 2391
+type(
+  ((Ppxx.Utils.Format.formatter -> Parsetree.expression -> unit) ->
+   Parsetree.expression ->
+   (Ppxx.Utils.Format.formatter -> Parsetree.core_type -> unit) ->
+   Parsetree.core_type -> string, Ppxx.Utils.Format.formatter, unit, 
+   string)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Parsetree.expression -> unit) ->
+  Parsetree.expression ->
+  (Ppxx.Utils.Format.formatter -> Parsetree.core_type -> unit) ->
+  Parsetree.core_type -> string
+)
+ident(
+  ext_ref Ppxx.Utils.Format.asprintf
+)
+"spec.ml" 55 2368 2392 "spec.ml" 55 2368 2413
+type(
+  ((Ppxx.Utils.Format.formatter -> Parsetree.expression -> unit) ->
+   Parsetree.expression ->
+   (Ppxx.Utils.Format.formatter -> Parsetree.core_type -> unit) ->
+   Parsetree.core_type -> string, Ppxx.Utils.Format.formatter, unit, 
+   string)
+  format4
+)
+"spec.ml" 56 2414 2424 "spec.ml" 56 2414 2444
+type(
+  Ppxx.Utils.Format.formatter -> Parsetree.expression -> unit
+)
+ident(
+  ext_ref Pprintast.expression
+)
+"spec.ml" 56 2414 2445 "spec.ml" 56 2414 2446
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "spec.ml" 54 2337 2354 "spec.ml" 54 2337 2355
+)
+"spec.ml" 57 2447 2457 "spec.ml" 57 2447 2476
+type(
+  Ppxx.Utils.Format.formatter -> Parsetree.core_type -> unit
+)
+ident(
+  ext_ref Pprintast.core_type
+)
+"spec.ml" 57 2447 2477 "spec.ml" 57 2447 2480
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "spec.ml" 54 2337 2357 "spec.ml" 54 2337 2360
+)
+"spec.ml" 55 2368 2376 "spec.ml" 57 2447 2480
+call(
+  tail
+)
+type(
+  string
+)
+"spec.ml" 42 1696 1707 "spec.ml" 57 2447 2480
+type(
+  t2 -> string
+)
+"spec.ml" 59 2486 2488 "spec.ml" 59 2486 2489
+type(
+  t2 list -> string
+)
+ident(
+  int_ref t "spec.ml" 39 1612 1622 "spec.ml" 39 1612 1623
+)
+"spec.ml" 39 1612 1614 "spec.ml" 59 2486 2489
+type(
+  t2 list -> string
+)
+"spec.ml" 65 2539 2547 "spec.ml" 65 2539 2558
+type(
+  Env.t -> Location.t -> t2 -> Candidate.t list
+)
+ident(
+  def cand_static "spec.ml" 65 2539 2539 "spec.ml" 1 0 -1
+)
+"spec.ml" 65 2539 2559 "spec.ml" 65 2539 2562
+type(
+  Env.t
+)
+ident(
+  def env "spec.ml" 65 2539 2563 "spec.ml" 74 3027 3048
+)
+"spec.ml" 65 2539 2563 "spec.ml" 65 2539 2566
+type(
+  Location.t
+)
+ident(
+  def loc "spec.ml" 65 2539 2567 "spec.ml" 74 3027 3048
+)
+"spec.ml" 66 2593 2608 "spec.ml" 66 2593 2609
+type(
+  t2
+)
+ident(
+  def x "spec.ml" 67 2613 2619 "spec.ml" 67 2613 2686
+)
+"spec.ml" 66 2593 2597 "spec.ml" 66 2593 2609
+type(
+  t2
+)
+"spec.ml" 67 2613 2619 "spec.ml" 67 2613 2622
+type(
+  (Candidate.t -> Candidate.t) -> Candidate.t list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"spec.ml" 67 2613 2628 "spec.ml" 67 2613 2629
+type(
+  Candidate.t
+)
+ident(
+  def x "spec.ml" 67 2613 2633 "spec.ml" 67 2613 2661
+)
+"spec.ml" 67 2613 2635 "spec.ml" 67 2613 2636
+type(
+  Candidate.t
+)
+ident(
+  int_ref x "spec.ml" 67 2613 2628 "spec.ml" 67 2613 2629
+)
+"spec.ml" 67 2613 2655 "spec.ml" 67 2613 2659
+type(
+  bool
+)
+"spec.ml" 67 2613 2633 "spec.ml" 67 2613 2661
+type(
+  Candidate.t
+)
+"spec.ml" 67 2613 2623 "spec.ml" 67 2613 2662
+type(
+  Candidate.t -> Candidate.t
+)
+"spec.ml" 67 2613 2619 "spec.ml" 67 2613 2662
+type(
+  Candidate.t list -> Candidate.t list
+)
+"spec.ml" 67 2613 2663 "spec.ml" 67 2613 2664
+type(
+  (Candidate.t list -> Candidate.t list) ->
+  Candidate.t list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"spec.ml" 67 2613 2665 "spec.ml" 67 2613 2676
+type(
+  Env.t -> Location.t -> t2 -> Candidate.t list
+)
+ident(
+  int_ref cand_static "spec.ml" 65 2539 2547 "spec.ml" 65 2539 2558
+)
+"spec.ml" 67 2613 2677 "spec.ml" 67 2613 2680
+type(
+  Env.t
+)
+ident(
+  int_ref env "spec.ml" 65 2539 2559 "spec.ml" 65 2539 2562
+)
+"spec.ml" 67 2613 2681 "spec.ml" 67 2613 2684
+type(
+  Location.t
+)
+ident(
+  int_ref loc "spec.ml" 65 2539 2563 "spec.ml" 65 2539 2566
+)
+"spec.ml" 67 2613 2685 "spec.ml" 67 2613 2686
+type(
+  t2
+)
+ident(
+  int_ref x "spec.ml" 66 2593 2608 "spec.ml" 66 2593 2609
+)
+"spec.ml" 67 2613 2665 "spec.ml" 67 2613 2686
+call(
+  stack
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 67 2613 2619 "spec.ml" 67 2613 2686
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 68 2687 2699 "spec.ml" 68 2687 2700
+type(
+  [ `In | `Just ]
+)
+ident(
+  def f "spec.ml" 68 2687 2707 "spec.ml" 68 2687 2732
+)
+"spec.ml" 68 2687 2701 "spec.ml" 68 2687 2702
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def x "spec.ml" 68 2687 2707 "spec.ml" 68 2687 2732
+)
+"spec.ml" 68 2687 2691 "spec.ml" 68 2687 2703
+type(
+  t2
+)
+"spec.ml" 68 2687 2707 "spec.ml" 68 2687 2718
+type(
+  Env.t ->
+  Location.t ->
+  [ `In | `Just ] * Ppxx.Compilerlib.Longident.t -> Candidate.t list
+)
+ident(
+  ext_ref Candidate.cand_opened
+)
+"spec.ml" 68 2687 2719 "spec.ml" 68 2687 2722
+type(
+  Env.t
+)
+ident(
+  int_ref env "spec.ml" 65 2539 2559 "spec.ml" 65 2539 2562
+)
+"spec.ml" 68 2687 2723 "spec.ml" 68 2687 2726
+type(
+  Location.t
+)
+ident(
+  int_ref loc "spec.ml" 65 2539 2563 "spec.ml" 65 2539 2566
+)
+"spec.ml" 68 2687 2728 "spec.ml" 68 2687 2729
+type(
+  [ `In | `Just ]
+)
+ident(
+  int_ref f "spec.ml" 68 2687 2699 "spec.ml" 68 2687 2700
+)
+"spec.ml" 68 2687 2730 "spec.ml" 68 2687 2731
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref x "spec.ml" 68 2687 2701 "spec.ml" 68 2687 2702
+)
+"spec.ml" 68 2687 2727 "spec.ml" 68 2687 2732
+type(
+  [ `In | `Just ] * Ppxx.Compilerlib.Longident.t
+)
+"spec.ml" 68 2687 2707 "spec.ml" 68 2687 2732
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 69 2733 2745 "spec.ml" 69 2733 2746
+type(
+  [ `In | `Just ]
+)
+ident(
+  def f "spec.ml" 69 2733 2758 "spec.ml" 69 2733 2788
+)
+"spec.ml" 69 2733 2747 "spec.ml" 69 2733 2748
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def x "spec.ml" 69 2733 2758 "spec.ml" 69 2733 2788
+)
+"spec.ml" 69 2733 2749 "spec.ml" 69 2733 2753
+type(
+  Typpx.Compilerlib.Path.t option
+)
+ident(
+  def popt "spec.ml" 69 2733 2758 "spec.ml" 69 2733 2788
+)
+"spec.ml" 69 2733 2737 "spec.ml" 69 2733 2754
+type(
+  t2
+)
+"spec.ml" 69 2733 2758 "spec.ml" 69 2733 2769
+type(
+  Env.t ->
+  Location.t ->
+  [ `In | `Just ] * Ppxx.Compilerlib.Longident.t *
+  Typpx.Compilerlib.Path.t option -> Candidate.t list
+)
+ident(
+  ext_ref Candidate.cand_direct
+)
+"spec.ml" 69 2733 2770 "spec.ml" 69 2733 2773
+type(
+  Env.t
+)
+ident(
+  int_ref env "spec.ml" 65 2539 2559 "spec.ml" 65 2539 2562
+)
+"spec.ml" 69 2733 2774 "spec.ml" 69 2733 2777
+type(
+  Location.t
+)
+ident(
+  int_ref loc "spec.ml" 65 2539 2563 "spec.ml" 65 2539 2566
+)
+"spec.ml" 69 2733 2779 "spec.ml" 69 2733 2780
+type(
+  [ `In | `Just ]
+)
+ident(
+  int_ref f "spec.ml" 69 2733 2745 "spec.ml" 69 2733 2746
+)
+"spec.ml" 69 2733 2781 "spec.ml" 69 2733 2782
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref x "spec.ml" 69 2733 2747 "spec.ml" 69 2733 2748
+)
+"spec.ml" 69 2733 2783 "spec.ml" 69 2733 2787
+type(
+  Typpx.Compilerlib.Path.t option
+)
+ident(
+  int_ref popt "spec.ml" 69 2733 2749 "spec.ml" 69 2733 2753
+)
+"spec.ml" 69 2733 2778 "spec.ml" 69 2733 2788
+type(
+  [ `In | `Just ] * Ppxx.Compilerlib.Longident.t *
+  Typpx.Compilerlib.Path.t option
+)
+"spec.ml" 69 2733 2758 "spec.ml" 69 2733 2788
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 70 2789 2799 "spec.ml" 70 2789 2800
+type(
+  string
+)
+"spec.ml" 70 2789 2802 "spec.ml" 70 2789 2805
+type(
+  Re.re
+)
+ident(
+  def rex "spec.ml" 70 2789 2814 "spec.ml" 70 2789 2862
+)
+"spec.ml" 70 2789 2807 "spec.ml" 70 2789 2809
+type(
+  t2
+)
+ident(
+  def t2 "spec.ml" 70 2789 2814 "spec.ml" 70 2789 2862
+)
+"spec.ml" 70 2789 2793 "spec.ml" 70 2789 2810
+type(
+  t2
+)
+"spec.ml" 70 2789 2814 "spec.ml" 70 2789 2823
+type(
+  Re.re -> (unit -> Candidate.t list) -> Candidate.t list
+)
+ident(
+  ext_ref Candidate.cand_name
+)
+"spec.ml" 70 2789 2824 "spec.ml" 70 2789 2827
+type(
+  Re.re
+)
+ident(
+  int_ref rex "spec.ml" 70 2789 2802 "spec.ml" 70 2789 2805
+)
+"spec.ml" 70 2789 2814 "spec.ml" 70 2789 2827
+type(
+  (unit -> Candidate.t list) -> Candidate.t list
+)
+"spec.ml" 70 2789 2828 "spec.ml" 70 2789 2829
+type(
+  ((unit -> Candidate.t list) -> Candidate.t list) ->
+  (unit -> Candidate.t list) -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"spec.ml" 70 2789 2834 "spec.ml" 70 2789 2836
+type(
+  unit
+)
+"spec.ml" 70 2789 2840 "spec.ml" 70 2789 2851
+type(
+  Env.t -> Location.t -> t2 -> Candidate.t list
+)
+ident(
+  int_ref cand_static "spec.ml" 65 2539 2547 "spec.ml" 65 2539 2558
+)
+"spec.ml" 70 2789 2852 "spec.ml" 70 2789 2855
+type(
+  Env.t
+)
+ident(
+  int_ref env "spec.ml" 65 2539 2559 "spec.ml" 65 2539 2562
+)
+"spec.ml" 70 2789 2856 "spec.ml" 70 2789 2859
+type(
+  Location.t
+)
+ident(
+  int_ref loc "spec.ml" 65 2539 2563 "spec.ml" 65 2539 2566
+)
+"spec.ml" 70 2789 2860 "spec.ml" 70 2789 2862
+type(
+  t2
+)
+ident(
+  int_ref t2 "spec.ml" 70 2789 2807 "spec.ml" 70 2789 2809
+)
+"spec.ml" 70 2789 2840 "spec.ml" 70 2789 2862
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 70 2789 2830 "spec.ml" 70 2789 2862
+type(
+  unit -> Candidate.t list
+)
+"spec.ml" 70 2789 2814 "spec.ml" 70 2789 2862
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 71 2863 2877 "spec.ml" 71 2863 2878
+type(
+  Parsetree.core_type
+)
+"spec.ml" 71 2863 2885 "spec.ml" 71 2863 2887
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "spec.ml" 71 2863 2892 "spec.ml" 71 2863 2926
+)
+"spec.ml" 71 2863 2880 "spec.ml" 71 2863 2887
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"spec.ml" 71 2863 2867 "spec.ml" 71 2863 2888
+type(
+  t2
+)
+"spec.ml" 71 2863 2892 "spec.ml" 71 2863 2915
+type(
+  Env.t ->
+  Location.t -> Typpx.Compilerlib.Types.type_expr -> Candidate.t list
+)
+ident(
+  ext_ref Chas_type.cand_has_type
+)
+"spec.ml" 71 2863 2916 "spec.ml" 71 2863 2919
+type(
+  Env.t
+)
+ident(
+  int_ref env "spec.ml" 65 2539 2559 "spec.ml" 65 2539 2562
+)
+"spec.ml" 71 2863 2920 "spec.ml" 71 2863 2923
+type(
+  Location.t
+)
+ident(
+  int_ref loc "spec.ml" 65 2539 2563 "spec.ml" 65 2539 2566
+)
+"spec.ml" 71 2863 2924 "spec.ml" 71 2863 2926
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "spec.ml" 71 2863 2885 "spec.ml" 71 2863 2887
+)
+"spec.ml" 71 2863 2892 "spec.ml" 71 2863 2926
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 72 2927 2940 "spec.ml" 72 2927 2941
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+type(
+  Parsetree.core_type
+)
+"spec.ml" 72 2927 2931 "spec.ml" 72 2927 2941
+type(
+  t2
+)
+"spec.ml" 72 2927 2952 "spec.ml" 72 2927 2957
+type(
+  bool
+)
+"spec.ml" 72 2927 2945 "spec.ml" 72 2927 2957
+type(
+  Candidate.t list
+)
+"spec.ml" 73 2970 2974 "spec.ml" 73 2970 2978
+type(
+  t2
+)
+ident(
+  def spec "spec.ml" 73 2970 2984 "spec.ml" 73 2970 3014
+)
+"spec.ml" 73 2970 2984 "spec.ml" 73 2970 2993
+type(
+  t2 -> bool
+)
+ident(
+  int_ref is_static "spec.ml" 29 1374 1382 "spec.ml" 29 1374 1391
+)
+"spec.ml" 73 2970 2994 "spec.ml" 73 2970 2998
+type(
+  t2
+)
+ident(
+  int_ref spec "spec.ml" 73 2970 2974 "spec.ml" 73 2970 2978
+)
+"spec.ml" 73 2970 2984 "spec.ml" 73 2970 2998
+call(
+  stack
+)
+type(
+  bool
+)
+"spec.ml" 73 2970 3009 "spec.ml" 73 2970 3014
+type(
+  bool
+)
+"spec.ml" 73 2970 3002 "spec.ml" 73 2970 3014
+type(
+  Candidate.t list
+)
+"spec.ml" 74 3027 3031 "spec.ml" 74 3027 3032
+type(
+  t2
+)
+"spec.ml" 74 3027 3043 "spec.ml" 74 3027 3048
+type(
+  bool
+)
+"spec.ml" 74 3027 3036 "spec.ml" 74 3027 3048
+type(
+  Candidate.t list
+)
+"spec.ml" 65 2539 2584 "spec.ml" 74 3027 3048
+type(
+  t2 -> Candidate.t list
+)
+type(
+  t2 -> Candidate.t list
+)
+"spec.ml" 76 3062 3070 "spec.ml" 76 3062 3082
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t -> Types.type_expr -> t2 -> Candidate.t list
+)
+ident(
+  def cand_dynamic "spec.ml" 76 3062 3062 "spec.ml" 1 0 -1
+)
+"spec.ml" 76 3062 3083 "spec.ml" 76 3062 3086
+type(
+  Env.t
+)
+ident(
+  def env "spec.ml" 76 3062 3087 "spec.ml" 85 3594 3612
+)
+"spec.ml" 76 3062 3087 "spec.ml" 76 3062 3090
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "spec.ml" 76 3062 3091 "spec.ml" 85 3594 3612
+)
+"spec.ml" 76 3062 3091 "spec.ml" 76 3062 3093
+type(
+  Types.type_expr
+)
+ident(
+  def ty "spec.ml" 76 3062 3096 "spec.ml" 85 3594 3612
+)
+"spec.ml" 77 3105 3109 "spec.ml" 77 3105 3116
+type(
+  t2
+)
+"spec.ml" 77 3105 3120 "spec.ml" 77 3105 3141
+type(
+  Env.t -> Ppxx.Compilerlib.Location.t -> Types.type_expr -> Candidate.t list
+)
+ident(
+  ext_ref Crelated.cand_related
+)
+"spec.ml" 77 3105 3142 "spec.ml" 77 3105 3145
+type(
+  Env.t
+)
+ident(
+  int_ref env "spec.ml" 76 3062 3083 "spec.ml" 76 3062 3086
+)
+"spec.ml" 77 3105 3146 "spec.ml" 77 3105 3149
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "spec.ml" 76 3062 3087 "spec.ml" 76 3062 3090
+)
+"spec.ml" 77 3105 3150 "spec.ml" 77 3105 3152
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "spec.ml" 76 3062 3091 "spec.ml" 76 3062 3093
+)
+"spec.ml" 77 3105 3120 "spec.ml" 77 3105 3152
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 78 3153 3168 "spec.ml" 78 3153 3169
+type(
+  t2
+)
+ident(
+  def x "spec.ml" 78 3153 3173 "spec.ml" 78 3153 3243
+)
+"spec.ml" 78 3153 3157 "spec.ml" 78 3153 3169
+type(
+  t2
+)
+"spec.ml" 78 3153 3173 "spec.ml" 78 3153 3176
+type(
+  (Candidate.t -> Candidate.t) -> Candidate.t list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"spec.ml" 78 3153 3182 "spec.ml" 78 3153 3183
+type(
+  Candidate.t
+)
+ident(
+  def x "spec.ml" 78 3153 3187 "spec.ml" 78 3153 3214
+)
+"spec.ml" 78 3153 3189 "spec.ml" 78 3153 3190
+type(
+  Candidate.t
+)
+ident(
+  int_ref x "spec.ml" 78 3153 3182 "spec.ml" 78 3153 3183
+)
+"spec.ml" 78 3153 3208 "spec.ml" 78 3153 3212
+type(
+  bool
+)
+"spec.ml" 78 3153 3187 "spec.ml" 78 3153 3214
+type(
+  Candidate.t
+)
+"spec.ml" 78 3153 3177 "spec.ml" 78 3153 3215
+type(
+  Candidate.t -> Candidate.t
+)
+"spec.ml" 78 3153 3173 "spec.ml" 78 3153 3215
+type(
+  Candidate.t list -> Candidate.t list
+)
+"spec.ml" 78 3153 3216 "spec.ml" 78 3153 3217
+type(
+  (Candidate.t list -> Candidate.t list) ->
+  Candidate.t list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"spec.ml" 78 3153 3218 "spec.ml" 78 3153 3230
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t -> Types.type_expr -> t2 -> Candidate.t list
+)
+ident(
+  int_ref cand_dynamic "spec.ml" 76 3062 3070 "spec.ml" 76 3062 3082
+)
+"spec.ml" 78 3153 3231 "spec.ml" 78 3153 3234
+type(
+  Env.t
+)
+ident(
+  int_ref env "spec.ml" 76 3062 3083 "spec.ml" 76 3062 3086
+)
+"spec.ml" 78 3153 3235 "spec.ml" 78 3153 3238
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "spec.ml" 76 3062 3087 "spec.ml" 76 3062 3090
+)
+"spec.ml" 78 3153 3239 "spec.ml" 78 3153 3241
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "spec.ml" 76 3062 3091 "spec.ml" 76 3062 3093
+)
+"spec.ml" 78 3153 3242 "spec.ml" 78 3153 3243
+type(
+  t2
+)
+ident(
+  int_ref x "spec.ml" 78 3153 3168 "spec.ml" 78 3153 3169
+)
+"spec.ml" 78 3153 3218 "spec.ml" 78 3153 3243
+call(
+  stack
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 78 3153 3173 "spec.ml" 78 3153 3243
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 79 3244 3254 "spec.ml" 79 3244 3255
+type(
+  string
+)
+"spec.ml" 79 3244 3257 "spec.ml" 79 3244 3260
+type(
+  Re.re
+)
+ident(
+  def rex "spec.ml" 79 3244 3269 "spec.ml" 79 3244 3321
+)
+"spec.ml" 79 3244 3262 "spec.ml" 79 3244 3264
+type(
+  t2
+)
+ident(
+  def t2 "spec.ml" 79 3244 3269 "spec.ml" 79 3244 3321
+)
+"spec.ml" 79 3244 3248 "spec.ml" 79 3244 3265
+type(
+  t2
+)
+"spec.ml" 79 3244 3269 "spec.ml" 79 3244 3278
+type(
+  Re.re -> (unit -> Candidate.t list) -> Candidate.t list
+)
+ident(
+  ext_ref Candidate.cand_name
+)
+"spec.ml" 79 3244 3279 "spec.ml" 79 3244 3282
+type(
+  Re.re
+)
+ident(
+  int_ref rex "spec.ml" 79 3244 3257 "spec.ml" 79 3244 3260
+)
+"spec.ml" 79 3244 3269 "spec.ml" 79 3244 3282
+type(
+  (unit -> Candidate.t list) -> Candidate.t list
+)
+"spec.ml" 79 3244 3283 "spec.ml" 79 3244 3284
+type(
+  ((unit -> Candidate.t list) -> Candidate.t list) ->
+  (unit -> Candidate.t list) -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"spec.ml" 79 3244 3289 "spec.ml" 79 3244 3291
+type(
+  unit
+)
+"spec.ml" 79 3244 3295 "spec.ml" 79 3244 3307
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t -> Types.type_expr -> t2 -> Candidate.t list
+)
+ident(
+  int_ref cand_dynamic "spec.ml" 76 3062 3070 "spec.ml" 76 3062 3082
+)
+"spec.ml" 79 3244 3308 "spec.ml" 79 3244 3311
+type(
+  Env.t
+)
+ident(
+  int_ref env "spec.ml" 76 3062 3083 "spec.ml" 76 3062 3086
+)
+"spec.ml" 79 3244 3312 "spec.ml" 79 3244 3315
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "spec.ml" 76 3062 3087 "spec.ml" 76 3062 3090
+)
+"spec.ml" 79 3244 3316 "spec.ml" 79 3244 3318
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "spec.ml" 76 3062 3091 "spec.ml" 76 3062 3093
+)
+"spec.ml" 79 3244 3319 "spec.ml" 79 3244 3321
+type(
+  t2
+)
+ident(
+  int_ref t2 "spec.ml" 79 3244 3262 "spec.ml" 79 3244 3264
+)
+"spec.ml" 79 3244 3295 "spec.ml" 79 3244 3321
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 79 3244 3285 "spec.ml" 79 3244 3321
+type(
+  unit -> Candidate.t list
+)
+"spec.ml" 79 3244 3269 "spec.ml" 79 3244 3321
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 80 3322 3335 "spec.ml" 80 3322 3338
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def lid "spec.ml" 80 3322 3342 "spec.ml" 80 3322 3380
+)
+"spec.ml" 80 3322 3326 "spec.ml" 80 3322 3338
+type(
+  t2
+)
+"spec.ml" 80 3322 3342 "spec.ml" 80 3322 3365
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Types.type_expr -> Ppxx.Compilerlib.Longident.t -> Candidate.t list
+)
+ident(
+  ext_ref Cderiving.cand_deriving
+)
+"spec.ml" 80 3322 3366 "spec.ml" 80 3322 3369
+type(
+  Env.t
+)
+ident(
+  int_ref env "spec.ml" 76 3062 3083 "spec.ml" 76 3062 3086
+)
+"spec.ml" 80 3322 3370 "spec.ml" 80 3322 3373
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "spec.ml" 76 3062 3087 "spec.ml" 76 3062 3090
+)
+"spec.ml" 80 3322 3374 "spec.ml" 80 3322 3376
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "spec.ml" 76 3062 3091 "spec.ml" 76 3062 3093
+)
+"spec.ml" 80 3322 3377 "spec.ml" 80 3322 3380
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "spec.ml" 80 3322 3335 "spec.ml" 80 3322 3338
+)
+"spec.ml" 80 3322 3342 "spec.ml" 80 3322 3380
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 81 3381 3396 "spec.ml" 81 3381 3398
+type(
+  Parsetree.expression
+)
+ident(
+  def _e "spec.ml" 81 3381 3415 "spec.ml" 81 3381 3427
+)
+"spec.ml" 81 3381 3400 "spec.ml" 81 3381 3404
+type(
+  Parsetree.core_type
+)
+ident(
+  def _cty "spec.ml" 81 3381 3415 "spec.ml" 81 3381 3427
+)
+"spec.ml" 81 3381 3406 "spec.ml" 81 3381 3410
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"spec.ml" 81 3381 3385 "spec.ml" 81 3381 3411
+type(
+  t2
+)
+"spec.ml" 81 3381 3422 "spec.ml" 81 3381 3427
+type(
+  bool
+)
+"spec.ml" 81 3381 3415 "spec.ml" 81 3381 3427
+type(
+  Candidate.t list
+)
+"spec.ml" 82 3440 3455 "spec.ml" 82 3440 3456
+type(
+  Parsetree.expression
+)
+ident(
+  def e "spec.ml" 82 3440 3481 "spec.ml" 82 3440 3524
+)
+"spec.ml" 82 3440 3458 "spec.ml" 82 3440 3462
+type(
+  Parsetree.core_type
+)
+ident(
+  def _cty "spec.ml" 82 3440 3481 "spec.ml" 82 3440 3524
+)
+"spec.ml" 82 3440 3469 "spec.ml" 82 3440 3476
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def temp_ty "spec.ml" 82 3440 3481 "spec.ml" 82 3440 3524
+)
+"spec.ml" 82 3440 3464 "spec.ml" 82 3440 3476
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"spec.ml" 82 3440 3444 "spec.ml" 82 3440 3477
+type(
+  t2
+)
+"spec.ml" 82 3440 3481 "spec.ml" 82 3440 3503
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Parsetree.expression ->
+  Typpx.Compilerlib.Types.type_expr -> Types.type_expr -> Candidate.t list
+)
+ident(
+  ext_ref Cppxderive.cand_derive
+)
+"spec.ml" 82 3440 3504 "spec.ml" 82 3440 3507
+type(
+  Env.t
+)
+ident(
+  int_ref env "spec.ml" 76 3062 3083 "spec.ml" 76 3062 3086
+)
+"spec.ml" 82 3440 3508 "spec.ml" 82 3440 3511
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "spec.ml" 76 3062 3087 "spec.ml" 76 3062 3090
+)
+"spec.ml" 82 3440 3512 "spec.ml" 82 3440 3513
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "spec.ml" 82 3440 3455 "spec.ml" 82 3440 3456
+)
+"spec.ml" 82 3440 3514 "spec.ml" 82 3440 3521
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref temp_ty "spec.ml" 82 3440 3469 "spec.ml" 82 3440 3476
+)
+"spec.ml" 82 3440 3522 "spec.ml" 82 3440 3524
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "spec.ml" 76 3062 3091 "spec.ml" 76 3062 3093
+)
+"spec.ml" 82 3440 3481 "spec.ml" 82 3440 3524
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 83 3526 3537 "spec.ml" 83 3526 3538
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+type(
+  [ `In | `Just ]
+)
+"spec.ml" 83 3526 3530 "spec.ml" 83 3526 3538
+type(
+  t2
+)
+"spec.ml" 83 3526 3548 "spec.ml" 83 3526 3549
+type(
+  Typpx.Compilerlib.Path.t option
+)
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+type(
+  [ `In | `Just ]
+)
+"spec.ml" 83 3526 3541 "spec.ml" 83 3526 3549
+type(
+  t2
+)
+"spec.ml" 83 3526 3530 "spec.ml" 83 3526 3549
+type(
+  t2
+)
+"spec.ml" 83 3526 3561 "spec.ml" 83 3526 3562
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+type(
+  Parsetree.core_type
+)
+"spec.ml" 83 3526 3552 "spec.ml" 83 3526 3562
+type(
+  t2
+)
+"spec.ml" 83 3526 3530 "spec.ml" 83 3526 3562
+type(
+  t2
+)
+"spec.ml" 85 3594 3607 "spec.ml" 85 3594 3612
+type(
+  bool
+)
+"spec.ml" 85 3594 3600 "spec.ml" 85 3594 3612
+type(
+  Candidate.t list
+)
+"spec.ml" 76 3062 3096 "spec.ml" 85 3594 3612
+type(
+  t2 -> Candidate.t list
+)
+"spec.ml" 87 3626 3630 "spec.ml" 87 3626 3640
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  t2 list -> Types.type_expr -> Candidate.t list
+)
+ident(
+  def candidates "spec.ml" 97 4148 4192 "spec.ml" 1 0 -1
+)
+"spec.ml" 87 3626 3641 "spec.ml" 87 3626 3644
+type(
+  Env.t
+)
+ident(
+  def env "spec.ml" 87 3626 3645 "spec.ml" 97 4148 4192
+)
+"spec.ml" 87 3626 3645 "spec.ml" 87 3626 3648
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "spec.ml" 87 3626 3651 "spec.ml" 97 4148 4192
+)
+"spec.ml" 88 3660 3664 "spec.ml" 88 3660 3666
+type(
+  t2 list
+)
+ident(
+  def ts "spec.ml" 89 3670 3676 "spec.ml" 97 4148 4192
+)
+"spec.ml" 89 3670 3680 "spec.ml" 89 3670 3687
+type(
+  t2 list
+)
+ident(
+  def statics "spec.ml" 90 3726 3732 "spec.ml" 97 4148 4192
+)
+"spec.ml" 89 3670 3689 "spec.ml" 89 3670 3697
+type(
+  t2 list
+)
+ident(
+  def dynamics "spec.ml" 90 3726 3732 "spec.ml" 97 4148 4192
+)
+"spec.ml" 89 3670 3680 "spec.ml" 89 3670 3697
+type(
+  t2 list * t2 list
+)
+"spec.ml" 89 3670 3700 "spec.ml" 89 3670 3709
+type(
+  (t2 -> bool) -> t2 list -> t2 list * t2 list
+)
+ident(
+  ext_ref Ppxx.Utils.List.partition
+)
+"spec.ml" 89 3670 3710 "spec.ml" 89 3670 3719
+type(
+  t2 -> bool
+)
+ident(
+  int_ref is_static "spec.ml" 29 1374 1382 "spec.ml" 29 1374 1391
+)
+"spec.ml" 89 3670 3720 "spec.ml" 89 3670 3722
+type(
+  t2 list
+)
+ident(
+  int_ref ts "spec.ml" 88 3660 3664 "spec.ml" 88 3660 3666
+)
+"spec.ml" 89 3670 3700 "spec.ml" 89 3670 3722
+call(
+  stack
+)
+type(
+  t2 list * t2 list
+)
+"spec.ml" 90 3726 3736 "spec.ml" 90 3726 3743
+type(
+  Candidate.t list
+)
+ident(
+  def statics "spec.ml" 91 3792 3798 "spec.ml" 97 4148 4192
+)
+"spec.ml" 90 3726 3746 "spec.ml" 90 3726 3752
+type(
+  Candidate.t list list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.concat
+)
+"spec.ml" 90 3726 3753 "spec.ml" 90 3726 3754
+type(
+  (Candidate.t list list -> Candidate.t list) ->
+  Candidate.t list list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"spec.ml" 90 3726 3755 "spec.ml" 90 3726 3758
+type(
+  (t2 -> Candidate.t list) -> t2 list -> Candidate.t list list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"spec.ml" 90 3726 3760 "spec.ml" 90 3726 3771
+type(
+  Env.t -> Ppxx.Compilerlib.Location.t -> t2 -> Candidate.t list
+)
+ident(
+  int_ref cand_static "spec.ml" 65 2539 2547 "spec.ml" 65 2539 2558
+)
+"spec.ml" 90 3726 3772 "spec.ml" 90 3726 3775
+type(
+  Env.t
+)
+ident(
+  int_ref env "spec.ml" 87 3626 3641 "spec.ml" 87 3626 3644
+)
+"spec.ml" 90 3726 3776 "spec.ml" 90 3726 3779
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "spec.ml" 87 3626 3645 "spec.ml" 87 3626 3648
+)
+"spec.ml" 90 3726 3759 "spec.ml" 90 3726 3780
+call(
+  stack
+)
+type(
+  t2 -> Candidate.t list
+)
+"spec.ml" 90 3726 3781 "spec.ml" 90 3726 3788
+type(
+  t2 list
+)
+ident(
+  int_ref statics "spec.ml" 89 3670 3680 "spec.ml" 89 3670 3687
+)
+"spec.ml" 90 3726 3755 "spec.ml" 90 3726 3788
+call(
+  stack
+)
+type(
+  Candidate.t list list
+)
+"spec.ml" 90 3726 3746 "spec.ml" 90 3726 3788
+call(
+  stack
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 91 3792 3801 "spec.ml" 91 3792 3802
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"spec.ml" 91 3792 3802 "spec.ml" 91 3792 3821
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_resolve
+)
+"spec.ml" 91 3792 3801 "spec.ml" 91 3792 3821
+type(
+  bool
+)
+"spec.ml" 92 3833 3841 "spec.ml" 92 3833 3844
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"spec.ml" 92 3833 3845 "spec.ml" 92 3833 3881
+type(
+  (unit, Format.formatter, unit) format
+)
+"spec.ml" 92 3833 3841 "spec.ml" 92 3833 3881
+call(
+  stack
+)
+type(
+  unit
+)
+"spec.ml" 93 3883 3891 "spec.ml" 93 3883 3895
+type(
+  ((Candidate.t -> unit) -> Candidate.t list -> unit) ->
+  Candidate.t list -> (Candidate.t -> unit) -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"spec.ml" 93 3883 3896 "spec.ml" 93 3883 3900
+type(
+  (Candidate.t -> unit) -> Candidate.t list -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.List.iter
+)
+"spec.ml" 93 3883 3901 "spec.ml" 93 3883 3908
+type(
+  Candidate.t list
+)
+ident(
+  int_ref statics "spec.ml" 90 3726 3736 "spec.ml" 90 3726 3743
+)
+"spec.ml" 93 3883 3891 "spec.ml" 93 3883 3908
+type(
+  (Candidate.t -> unit) -> unit
+)
+"spec.ml" 93 3883 3909 "spec.ml" 93 3883 3910
+type(
+  ((Candidate.t -> unit) -> unit) -> (Candidate.t -> unit) -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"spec.ml" 93 3883 3915 "spec.ml" 93 3883 3916
+type(
+  Candidate.t
+)
+ident(
+  def x "spec.ml" 94 3920 3930 "spec.ml" 94 3920 4061
+)
+"spec.ml" 94 3920 3930 "spec.ml" 94 3920 3933
+type(
+  ((Format.formatter -> Parsetree.expression -> unit) ->
+   Parsetree.expression -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Parsetree.expression -> unit) ->
+  Parsetree.expression -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"spec.ml" 94 3920 3934 "spec.ml" 94 3920 3942
+type(
+  ((Format.formatter -> Parsetree.expression -> unit) ->
+   Parsetree.expression -> unit, Format.formatter, unit)
+  format
+)
+"spec.ml" 94 3920 3930 "spec.ml" 94 3920 3942
+type(
+  (Format.formatter -> Parsetree.expression -> unit) ->
+  Parsetree.expression -> unit
+)
+"spec.ml" 94 3920 3943 "spec.ml" 94 3920 3963
+type(
+  Format.formatter -> Parsetree.expression -> unit
+)
+ident(
+  ext_ref Pprintast.expression
+)
+"spec.ml" 94 3920 4017 "spec.ml" 94 3920 4031
+type(
+  Untypeast.mapper
+)
+ident(
+  ext_ref Untypeast.default_mapper
+)
+"spec.ml" 94 3920 4017 "spec.ml" 94 3920 4036
+type(
+  Untypeast.mapper -> Typedtree.expression -> Parsetree.expression
+)
+"spec.ml" 94 3920 4037 "spec.ml" 94 3920 4051
+type(
+  Untypeast.mapper
+)
+ident(
+  ext_ref Untypeast.default_mapper
+)
+"spec.ml" 94 3920 4017 "spec.ml" 94 3920 4051
+type(
+  Typedtree.expression -> Parsetree.expression
+)
+"spec.ml" 94 3920 4054 "spec.ml" 94 3920 4055
+type(
+  Candidate.t
+)
+ident(
+  int_ref x "spec.ml" 93 3883 3915 "spec.ml" 93 3883 3916
+)
+"spec.ml" 94 3920 4054 "spec.ml" 94 3920 4060
+type(
+  Typedtree.expression
+)
+"spec.ml" 94 3920 3964 "spec.ml" 94 3920 4061
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"spec.ml" 94 3920 3930 "spec.ml" 94 3920 4061
+call(
+  tail
+)
+type(
+  unit
+)
+"spec.ml" 93 3883 3911 "spec.ml" 94 3920 4061
+type(
+  Candidate.t -> unit
+)
+"spec.ml" 93 3883 3891 "spec.ml" 94 3920 4061
+call(
+  stack
+)
+type(
+  unit
+)
+"spec.ml" 91 3792 3827 "spec.ml" 95 4062 4071
+type(
+  unit
+)
+"spec.ml" 91 3792 3798 "spec.ml" 95 4062 4071
+type(
+  unit
+)
+"spec.ml" 96 4073 4083 "spec.ml" 96 4073 4091
+type(
+  Types.type_expr -> Candidate.t list
+)
+ident(
+  def dynamics "spec.ml" 97 4148 4154 "spec.ml" 97 4148 4192
+)
+"spec.ml" 96 4073 4092 "spec.ml" 96 4073 4094
+type(
+  Types.type_expr
+)
+ident(
+  def ty "spec.ml" 96 4073 4097 "spec.ml" 96 4073 4144
+)
+"spec.ml" 96 4073 4097 "spec.ml" 96 4073 4103
+type(
+  Candidate.t list list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.concat
+)
+"spec.ml" 96 4073 4104 "spec.ml" 96 4073 4105
+type(
+  (Candidate.t list list -> Candidate.t list) ->
+  Candidate.t list list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"spec.ml" 96 4073 4106 "spec.ml" 96 4073 4109
+type(
+  (t2 -> Candidate.t list) -> t2 list -> Candidate.t list list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"spec.ml" 96 4073 4111 "spec.ml" 96 4073 4123
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t -> Types.type_expr -> t2 -> Candidate.t list
+)
+ident(
+  int_ref cand_dynamic "spec.ml" 76 3062 3070 "spec.ml" 76 3062 3082
+)
+"spec.ml" 96 4073 4124 "spec.ml" 96 4073 4127
+type(
+  Env.t
+)
+ident(
+  int_ref env "spec.ml" 87 3626 3641 "spec.ml" 87 3626 3644
+)
+"spec.ml" 96 4073 4128 "spec.ml" 96 4073 4131
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "spec.ml" 87 3626 3645 "spec.ml" 87 3626 3648
+)
+"spec.ml" 96 4073 4132 "spec.ml" 96 4073 4134
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "spec.ml" 96 4073 4092 "spec.ml" 96 4073 4094
+)
+"spec.ml" 96 4073 4110 "spec.ml" 96 4073 4135
+call(
+  stack
+)
+type(
+  t2 -> Candidate.t list
+)
+"spec.ml" 96 4073 4136 "spec.ml" 96 4073 4144
+type(
+  t2 list
+)
+ident(
+  int_ref dynamics "spec.ml" 89 3670 3689 "spec.ml" 89 3670 3697
+)
+"spec.ml" 96 4073 4106 "spec.ml" 96 4073 4144
+call(
+  stack
+)
+type(
+  Candidate.t list list
+)
+"spec.ml" 96 4073 4097 "spec.ml" 96 4073 4144
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 97 4148 4158 "spec.ml" 97 4148 4160
+type(
+  Types.type_expr
+)
+ident(
+  def ty "spec.ml" 97 4148 4164 "spec.ml" 97 4148 4192
+)
+"spec.ml" 97 4148 4164 "spec.ml" 97 4148 4168
+type(
+  Candidate.t list -> Candidate.t list
+)
+ident(
+  ext_ref Candidate.uniq
+)
+"spec.ml" 97 4148 4169 "spec.ml" 97 4148 4170
+type(
+  (Candidate.t list -> Candidate.t list) ->
+  Candidate.t list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"spec.ml" 97 4148 4171 "spec.ml" 97 4148 4178
+type(
+  Candidate.t list
+)
+ident(
+  int_ref statics "spec.ml" 90 3726 3736 "spec.ml" 90 3726 3743
+)
+"spec.ml" 97 4148 4179 "spec.ml" 97 4148 4180
+type(
+  Candidate.t list -> Candidate.t list -> Candidate.t list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"spec.ml" 97 4148 4181 "spec.ml" 97 4148 4189
+type(
+  Types.type_expr -> Candidate.t list
+)
+ident(
+  int_ref dynamics "spec.ml" 96 4073 4083 "spec.ml" 96 4073 4091
+)
+"spec.ml" 97 4148 4190 "spec.ml" 97 4148 4192
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "spec.ml" 97 4148 4158 "spec.ml" 97 4148 4160
+)
+"spec.ml" 97 4148 4181 "spec.ml" 97 4148 4192
+call(
+  stack
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 97 4148 4171 "spec.ml" 97 4148 4192
+call(
+  stack
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 97 4148 4164 "spec.ml" 97 4148 4192
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"spec.ml" 97 4148 4154 "spec.ml" 97 4148 4192
+type(
+  Types.type_expr -> Candidate.t list
+)
+"spec.ml" 96 4073 4079 "spec.ml" 97 4148 4192
+type(
+  Types.type_expr -> Candidate.t list
+)
+"spec.ml" 91 3792 3798 "spec.ml" 97 4148 4192
+type(
+  Types.type_expr -> Candidate.t list
+)
+"spec.ml" 90 3726 3732 "spec.ml" 97 4148 4192
+type(
+  Types.type_expr -> Candidate.t list
+)
+"spec.ml" 89 3670 3676 "spec.ml" 97 4148 4192
+type(
+  Types.type_expr -> Candidate.t list
+)
+"spec.ml" 87 3626 3651 "spec.ml" 97 4148 4192
+type(
+  t2 list -> Types.type_expr -> Candidate.t list
+)

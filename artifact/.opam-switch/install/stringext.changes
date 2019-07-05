@@ -1,0 +1,20 @@
+added: [
+  "doc/stringext" {"D"}
+  "doc/stringext/CHANGES.md" {"F:S99T1560961124.09"}
+  "doc/stringext/LICENSE.md" {"F:S1069T1560961124.18"}
+  "doc/stringext/README.md" {"F:S2713T1560961124.27"}
+  "lib/stringext" {"D"}
+  "lib/stringext/META" {"F:S181T1560961122.99"}
+  "lib/stringext/dune-package" {"F:S386T1560961123.1"}
+  "lib/stringext/opam" {"F:S712T1560961123.15"}
+  "lib/stringext/stringext.a" {"F:S46640T1560961123.2"}
+  "lib/stringext/stringext.cma" {"F:S45271T1560961123.26"}
+  "lib/stringext/stringext.cmi" {"F:S2338T1560961123.34"}
+  "lib/stringext/stringext.cmt" {"F:S112301T1560961123.41"}
+  "lib/stringext/stringext.cmti" {"F:S15950T1560961123.48"}
+  "lib/stringext/stringext.cmx" {"F:S2171T1560961123.6"}
+  "lib/stringext/stringext.cmxa" {"F:S469T1560961123.68"}
+  "lib/stringext/stringext.cmxs" {"F:S52808T1560961123.75"}
+  "lib/stringext/stringext.ml" {"F:S10444T1560961123.95"}
+  "lib/stringext/stringext.mli" {"F:S2554T1560961124.04"}
+]

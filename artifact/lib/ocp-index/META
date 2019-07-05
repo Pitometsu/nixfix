@@ -1,0 +1,13 @@
+package "lib" (
+  directory = "lib"
+  version = "1.1.9"
+  description = ""
+  requires = "compiler-libs
+              compiler-libs.common
+              ocp-indent.lexer
+              ocp-indent.utils"
+  archive(byte) = "indexLib.cma"
+  archive(native) = "indexLib.cmxa"
+  plugin(byte) = "indexLib.cma"
+  plugin(native) = "indexLib.cmxs"
+)

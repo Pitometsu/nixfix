@@ -1,0 +1,17 @@
+(lang dune 1.10)
+(name spawn)
+(version 0.13.0)
+(library
+ (name spawn)
+ (kind normal)
+ (archives (byte spawn.cma) (native spawn.cmxa))
+ (plugins (byte spawn.cma) (native spawn.cmxs))
+ (foreign_objects spawn_stubs.o)
+ (foreign_archives (byte libspawn_stubs.a) (native spawn.a libspawn_stubs.a))
+ (requires unix threads)
+ (main_module_name Spawn)
+ (modes byte native)
+ (modules
+  (main_module_name Spawn)
+  (modules ((name Spawn) (obj_name spawn) (visibility public) (impl) (intf)))
+  (wrapped true)))

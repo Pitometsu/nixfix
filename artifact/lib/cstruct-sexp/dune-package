@@ -1,0 +1,21 @@
+(lang dune 1.10)
+(name cstruct-sexp)
+(version 5.0.0)
+(library
+ (name cstruct-sexp)
+ (kind normal)
+ (archives (byte cstruct_sexp.cma) (native cstruct_sexp.cmxa))
+ (plugins (byte cstruct_sexp.cma) (native cstruct_sexp.cmxs))
+ (foreign_archives (native cstruct_sexp.a))
+ (requires cstruct sexplib)
+ (main_module_name Cstruct_sexp)
+ (modes byte native)
+ (modules
+  (main_module_name Cstruct_sexp)
+  (modules
+   ((name Cstruct_sexp)
+    (obj_name cstruct_sexp)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

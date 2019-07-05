@@ -1,0 +1,11 @@
+version = "v0.11.0"
+description = ""
+requires(ppx_driver) = "base ppx_here.expander ppxlib"
+archive(ppx_driver,byte) = "ppx_fail.cma"
+archive(ppx_driver,native) = "ppx_fail.cmxa"
+plugin(ppx_driver,byte) = "ppx_fail.cma"
+plugin(ppx_driver,native) = "ppx_fail.cmxs"
+# This line makes things transparent for people mixing preprocessors
+# and normal dependencies
+requires(-ppx_driver) = ""
+ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"

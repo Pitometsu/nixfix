@@ -1,0 +1,28 @@
+(lang dune 1.10)
+(name ppx_optcomp)
+(version v0.11.0)
+(library
+ (name ppx_optcomp)
+ (kind ppx_deriver)
+ (archives (byte ppx_optcomp.cma) (native ppx_optcomp.cmxa))
+ (plugins (byte ppx_optcomp.cma) (native ppx_optcomp.cmxs))
+ (foreign_archives (native ppx_optcomp.a))
+ (requires compiler-libs.common base ppxlib stdio)
+ (main_module_name Ppx_optcomp)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Ppx_optcomp__)
+   (obj_name ppx_optcomp__)
+   (visibility public)
+   (impl))
+  (main_module_name Ppx_optcomp)
+  (modules
+   ((name Cparser) (obj_name ppx_optcomp__Cparser) (visibility public) (impl))
+   ((name Interpreter)
+    (obj_name ppx_optcomp__Interpreter)
+    (visibility public)
+    (impl))
+   ((name Ppx_optcomp) (obj_name ppx_optcomp) (visibility public) (impl))
+   ((name Token) (obj_name ppx_optcomp__Token) (visibility public) (impl)))
+  (wrapped true)))

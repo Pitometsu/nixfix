@@ -1,0 +1,7 @@
+version = "0.9"
+description = ""
+requires = "bytes oUnit qcheck-core qcheck-core.runner unix"
+archive(byte) = "qcheck_ounit.cma"
+archive(native) = "qcheck_ounit.cmxa"
+plugin(byte) = "qcheck_ounit.cma"
+plugin(native) = "qcheck_ounit.cmxs"

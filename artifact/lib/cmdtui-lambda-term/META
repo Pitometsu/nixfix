@@ -1,0 +1,7 @@
+version = "0.4.3"
+description = ""
+requires = "cmdliner cmdtui fmt.tty lambda-term logs.fmt logs.lwt"
+archive(byte) = "cmdtui_lambda_term.cma"
+archive(native) = "cmdtui_lambda_term.cmxa"
+plugin(byte) = "cmdtui_lambda_term.cma"
+plugin(native) = "cmdtui_lambda_term.cmxs"

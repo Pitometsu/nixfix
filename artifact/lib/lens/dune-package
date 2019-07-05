@@ -1,0 +1,44 @@
+(lang dune 1.10)
+(name lens)
+(version 1.2.2)
+(library
+ (name lens)
+ (kind normal)
+ (synopsis "Functional lenses")
+ (archives (byte lens.cma) (native lens.cmxa))
+ (plugins (byte lens.cma) (native lens.cmxs))
+ (foreign_archives (native lens.a))
+ (main_module_name Lens)
+ (modes byte native)
+ (modules
+  (main_module_name Lens)
+  (modules ((name Lens) (obj_name lens) (visibility public) (impl) (intf)))
+  (wrapped true)))
+(library
+ (name lens.ppx_deriving)
+ (kind ppx_deriver)
+ (synopsis "[@@deriving lens]")
+ (archives
+  (byte ppx_deriving/lens_ppx_deriving.cma)
+  (native ppx_deriving/lens_ppx_deriving.cmxa))
+ (plugins
+  (byte ppx_deriving/lens_ppx_deriving.cma)
+  (native ppx_deriving/lens_ppx_deriving.cmxs))
+ (foreign_archives (native ppx_deriving/lens_ppx_deriving.a))
+ (requires ppx_deriving.api)
+ (ppx_runtime_deps lens)
+ (main_module_name Lens_ppx_deriving)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Lens_ppx_deriving)
+   (obj_name lens_ppx_deriving)
+   (visibility public)
+   (impl))
+  (main_module_name Lens_ppx_deriving)
+  (modules
+   ((name Ppx_deriving_lens)
+    (obj_name lens_ppx_deriving__Ppx_deriving_lens)
+    (visibility public)
+    (impl)))
+  (wrapped true)))

@@ -1,0 +1,13 @@
+added: [
+  "bin/ocamlformat" {"F:S17261576T1560961159.14"}
+  "doc/ocamlformat" {"D"}
+  "doc/ocamlformat/CHANGES.md" {"F:S24329T1560961159.28"}
+  "doc/ocamlformat/LICENSE.md" {"F:S1080T1560961159.3"}
+  "doc/ocamlformat/README.md" {"F:S7808T1560961159.32"}
+  "lib/ocamlformat" {"D"}
+  "lib/ocamlformat/META" {"F:S1T1560961159.16"}
+  "lib/ocamlformat/dune-package" {"F:S36T1560961159.18"}
+  "lib/ocamlformat/opam" {"F:S795T1560961159.2"}
+  "man/man1/ocamlformat.1" {"F:S13937T1560961159.23"}
+  "share/emacs/site-lisp/ocamlformat.el" {"F:S9887T1560961159.25"}
+]

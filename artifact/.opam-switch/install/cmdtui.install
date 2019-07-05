@@ -1,0 +1,20 @@
+lib: [
+  "_build/install/default/lib/cmdtui/META"
+  "_build/install/default/lib/cmdtui/cmdtui.a"
+  "_build/install/default/lib/cmdtui/cmdtui.cma"
+  "_build/install/default/lib/cmdtui/cmdtui.cmi"
+  "_build/install/default/lib/cmdtui/cmdtui.cmt"
+  "_build/install/default/lib/cmdtui/cmdtui.cmti"
+  "_build/install/default/lib/cmdtui/cmdtui.cmx"
+  "_build/install/default/lib/cmdtui/cmdtui.cmxa"
+  "_build/install/default/lib/cmdtui/cmdtui.cmxs"
+  "_build/install/default/lib/cmdtui/cmdtui.ml"
+  "_build/install/default/lib/cmdtui/cmdtui.mli"
+  "_build/install/default/lib/cmdtui/dune-package"
+  "_build/install/default/lib/cmdtui/opam"
+]
+doc: [
+  "_build/install/default/doc/cmdtui/CHANGES.md"
+  "_build/install/default/doc/cmdtui/LICENSE.md"
+  "_build/install/default/doc/cmdtui/README.md"
+]

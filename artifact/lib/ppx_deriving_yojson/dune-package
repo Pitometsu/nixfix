@@ -1,0 +1,44 @@
+(lang dune 1.10)
+(name ppx_deriving_yojson)
+(library
+ (name ppx_deriving_yojson)
+ (kind ppx_deriver)
+ (synopsis "[@@deriving yojson]")
+ (archives (byte ppx_deriving_yojson.cma) (native ppx_deriving_yojson.cmxa))
+ (plugins (byte ppx_deriving_yojson.cma) (native ppx_deriving_yojson.cmxs))
+ (foreign_archives (native ppx_deriving_yojson.a))
+ (requires ppx_deriving.api)
+ (ppx_runtime_deps ppx_deriving_yojson.runtime yojson)
+ (main_module_name Ppx_deriving_yojson)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_deriving_yojson)
+  (modules
+   ((name Ppx_deriving_yojson)
+    (obj_name ppx_deriving_yojson)
+    (visibility public)
+    (impl)))
+  (wrapped true)))
+(library
+ (name ppx_deriving_yojson.runtime)
+ (kind normal)
+ (synopsis "Runtime components of [@@deriving yojson]")
+ (archives
+  (byte runtime/ppx_deriving_yojson_runtime.cma)
+  (native runtime/ppx_deriving_yojson_runtime.cmxa))
+ (plugins
+  (byte runtime/ppx_deriving_yojson_runtime.cma)
+  (native runtime/ppx_deriving_yojson_runtime.cmxs))
+ (foreign_archives (native runtime/ppx_deriving_yojson_runtime.a))
+ (requires ppx_deriving.runtime result)
+ (main_module_name Ppx_deriving_yojson_runtime)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_deriving_yojson_runtime)
+  (modules
+   ((name Ppx_deriving_yojson_runtime)
+    (obj_name ppx_deriving_yojson_runtime)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

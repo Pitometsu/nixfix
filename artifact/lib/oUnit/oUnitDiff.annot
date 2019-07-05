@@ -1,0 +1,2419 @@
+"src/oUnitDiff.ml" 63 2833 2837 "src/oUnitDiff.ml" 63 2833 2849
+type(
+  ?msg:string ->
+  ('a -> 'a -> int) ->
+  (Format.formatter -> 'a -> 'b) ->
+  (Format.formatter -> 'a * 'a -> unit) -> 'a -> 'a -> unit
+)
+ident(
+  def assert_equal "src/oUnitDiff.ml" 76 3239 3239 "src/oUnitDiff.ml" 1 0 -1
+)
+"src/oUnitDiff.ml" 63 2833 2851 "src/oUnitDiff.ml" 63 2833 2854
+type(
+  string option
+)
+ident(
+  def msg "src/oUnitDiff.ml" 63 2833 2855 "src/oUnitDiff.ml" 74 3226 3237
+)
+"src/oUnitDiff.ml" 63 2833 2855 "src/oUnitDiff.ml" 63 2833 2862
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "src/oUnitDiff.ml" 63 2833 2863 "src/oUnitDiff.ml" 74 3226 3237
+)
+"src/oUnitDiff.ml" 63 2833 2863 "src/oUnitDiff.ml" 63 2833 2873
+type(
+  Format.formatter -> 'a -> 'b
+)
+ident(
+  def pp_printer "src/oUnitDiff.ml" 63 2833 2874 "src/oUnitDiff.ml" 74 3226 3237
+)
+"src/oUnitDiff.ml" 63 2833 2874 "src/oUnitDiff.ml" 63 2833 2881
+type(
+  Format.formatter -> 'a * 'a -> unit
+)
+ident(
+  def pp_diff "src/oUnitDiff.ml" 63 2833 2882 "src/oUnitDiff.ml" 74 3226 3237
+)
+"src/oUnitDiff.ml" 63 2833 2882 "src/oUnitDiff.ml" 63 2833 2885
+type(
+  'a
+)
+ident(
+  def exp "src/oUnitDiff.ml" 63 2833 2886 "src/oUnitDiff.ml" 74 3226 3237
+)
+"src/oUnitDiff.ml" 63 2833 2886 "src/oUnitDiff.ml" 63 2833 2889
+type(
+  'a
+)
+ident(
+  def act "src/oUnitDiff.ml" 64 2892 2894 "src/oUnitDiff.ml" 74 3226 3237
+)
+"src/oUnitDiff.ml" 64 2892 2894 "src/oUnitDiff.ml" 64 2892 2918
+type(
+  ?ctxt:OUnitTest.ctxt ->
+  ?cmp:('a -> 'a -> bool) ->
+  ?printer:('a -> string) ->
+  ?pp_diff:(Format.formatter -> 'a * 'a -> unit) ->
+  ?msg:string -> 'a -> 'a -> unit
+)
+ident(
+  ext_ref OUnitAssert.assert_equal
+)
+"src/oUnitDiff.ml" 65 2919 2933 "src/oUnitDiff.ml" 65 2919 2935
+type(
+  'a
+)
+ident(
+  def t1 "src/oUnitDiff.ml" 65 2919 2936 "src/oUnitDiff.ml" 65 2919 2961
+)
+"src/oUnitDiff.ml" 65 2919 2936 "src/oUnitDiff.ml" 65 2919 2938
+type(
+  'a
+)
+ident(
+  def t2 "src/oUnitDiff.ml" 65 2919 2942 "src/oUnitDiff.ml" 65 2919 2961
+)
+"src/oUnitDiff.ml" 65 2919 2943 "src/oUnitDiff.ml" 65 2919 2950
+type(
+  'a -> 'a -> int
+)
+ident(
+  int_ref compare "src/oUnitDiff.ml" 63 2833 2855 "src/oUnitDiff.ml" 63 2833 2862
+)
+"src/oUnitDiff.ml" 65 2919 2951 "src/oUnitDiff.ml" 65 2919 2953
+type(
+  'a
+)
+ident(
+  int_ref t1 "src/oUnitDiff.ml" 65 2919 2933 "src/oUnitDiff.ml" 65 2919 2935
+)
+"src/oUnitDiff.ml" 65 2919 2954 "src/oUnitDiff.ml" 65 2919 2956
+type(
+  'a
+)
+ident(
+  int_ref t2 "src/oUnitDiff.ml" 65 2919 2936 "src/oUnitDiff.ml" 65 2919 2938
+)
+"src/oUnitDiff.ml" 65 2919 2942 "src/oUnitDiff.ml" 65 2919 2957
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitDiff.ml" 65 2919 2958 "src/oUnitDiff.ml" 65 2919 2959
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/oUnitDiff.ml" 65 2919 2960 "src/oUnitDiff.ml" 65 2919 2961
+type(
+  int
+)
+"src/oUnitDiff.ml" 65 2919 2942 "src/oUnitDiff.ml" 65 2919 2961
+type(
+  bool
+)
+"src/oUnitDiff.ml" 65 2919 2928 "src/oUnitDiff.ml" 65 2919 2962
+type(
+  'a -> 'a -> bool
+)
+"src/oUnitDiff.ml" 66 2963 2981 "src/oUnitDiff.ml" 66 2963 2982
+type(
+  'a
+)
+ident(
+  def t "src/oUnitDiff.ml" 67 2986 3002 "src/oUnitDiff.ml" 71 3164 3202
+)
+"src/oUnitDiff.ml" 67 2986 3006 "src/oUnitDiff.ml" 67 2986 3010
+type(
+  Buffer.t
+)
+ident(
+  def buff "src/oUnitDiff.ml" 68 3033 3049 "src/oUnitDiff.ml" 71 3164 3202
+)
+"src/oUnitDiff.ml" 67 2986 3013 "src/oUnitDiff.ml" 67 2986 3026
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"src/oUnitDiff.ml" 67 2986 3027 "src/oUnitDiff.ml" 67 2986 3029
+type(
+  int
+)
+"src/oUnitDiff.ml" 67 2986 3013 "src/oUnitDiff.ml" 67 2986 3029
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"src/oUnitDiff.ml" 68 3033 3053 "src/oUnitDiff.ml" 68 3033 3056
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/oUnitDiff.ml" 69 3087 3105 "src/oUnitDiff.ml" 71 3164 3202
+)
+"src/oUnitDiff.ml" 68 3033 3059 "src/oUnitDiff.ml" 68 3033 3078
+type(
+  Buffer.t -> Format.formatter
+)
+ident(
+  ext_ref Format.formatter_of_buffer
+)
+"src/oUnitDiff.ml" 68 3033 3079 "src/oUnitDiff.ml" 68 3033 3083
+type(
+  Buffer.t
+)
+ident(
+  int_ref buff "src/oUnitDiff.ml" 67 2986 3006 "src/oUnitDiff.ml" 67 2986 3010
+)
+"src/oUnitDiff.ml" 68 3033 3059 "src/oUnitDiff.ml" 68 3033 3083
+call(
+  stack
+)
+type(
+  Format.formatter
+)
+"src/oUnitDiff.ml" 69 3087 3105 "src/oUnitDiff.ml" 69 3087 3115
+type(
+  Format.formatter -> 'a -> 'b
+)
+ident(
+  int_ref pp_printer "src/oUnitDiff.ml" 63 2833 2863 "src/oUnitDiff.ml" 63 2833 2873
+)
+"src/oUnitDiff.ml" 69 3087 3116 "src/oUnitDiff.ml" 69 3087 3119
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 68 3033 3053 "src/oUnitDiff.ml" 68 3033 3056
+)
+"src/oUnitDiff.ml" 69 3087 3120 "src/oUnitDiff.ml" 69 3087 3121
+type(
+  'a
+)
+ident(
+  int_ref t "src/oUnitDiff.ml" 66 2963 2981 "src/oUnitDiff.ml" 66 2963 2982
+)
+"src/oUnitDiff.ml" 69 3087 3105 "src/oUnitDiff.ml" 69 3087 3121
+call(
+  stack
+)
+type(
+  'b
+)
+"src/oUnitDiff.ml" 70 3123 3141 "src/oUnitDiff.ml" 70 3123 3155
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_print_flush
+)
+"src/oUnitDiff.ml" 70 3123 3156 "src/oUnitDiff.ml" 70 3123 3159
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 68 3033 3053 "src/oUnitDiff.ml" 68 3033 3056
+)
+"src/oUnitDiff.ml" 70 3123 3160 "src/oUnitDiff.ml" 70 3123 3162
+type(
+  unit
+)
+"src/oUnitDiff.ml" 70 3123 3141 "src/oUnitDiff.ml" 70 3123 3162
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 71 3164 3182 "src/oUnitDiff.ml" 71 3164 3197
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/oUnitDiff.ml" 71 3164 3198 "src/oUnitDiff.ml" 71 3164 3202
+type(
+  Buffer.t
+)
+ident(
+  int_ref buff "src/oUnitDiff.ml" 67 2986 3006 "src/oUnitDiff.ml" 67 2986 3010
+)
+"src/oUnitDiff.ml" 71 3164 3182 "src/oUnitDiff.ml" 71 3164 3202
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitDiff.ml" 70 3123 3141 "src/oUnitDiff.ml" 71 3164 3202
+type(
+  string
+)
+"src/oUnitDiff.ml" 69 3087 3105 "src/oUnitDiff.ml" 71 3164 3202
+type(
+  string
+)
+"src/oUnitDiff.ml" 68 3033 3049 "src/oUnitDiff.ml" 71 3164 3202
+type(
+  string
+)
+"src/oUnitDiff.ml" 67 2986 3002 "src/oUnitDiff.ml" 71 3164 3202
+type(
+  string
+)
+"src/oUnitDiff.ml" 66 2963 2976 "src/oUnitDiff.ml" 71 3164 3203
+type(
+  'a -> string
+)
+"src/oUnitDiff.ml" 72 3204 3209 "src/oUnitDiff.ml" 72 3204 3216
+type(
+  Format.formatter -> 'a * 'a -> unit
+)
+ident(
+  int_ref pp_diff "src/oUnitDiff.ml" 63 2833 2874 "src/oUnitDiff.ml" 63 2833 2881
+)
+"src/oUnitDiff.ml" 73 3217 3222 "src/oUnitDiff.ml" 73 3217 3225
+type(
+  string option
+)
+ident(
+  int_ref msg "src/oUnitDiff.ml" 63 2833 2851 "src/oUnitDiff.ml" 63 2833 2854
+)
+"src/oUnitDiff.ml" 74 3226 3230 "src/oUnitDiff.ml" 74 3226 3233
+type(
+  'a
+)
+ident(
+  int_ref exp "src/oUnitDiff.ml" 63 2833 2882 "src/oUnitDiff.ml" 63 2833 2885
+)
+"src/oUnitDiff.ml" 74 3226 3234 "src/oUnitDiff.ml" 74 3226 3237
+type(
+  'a
+)
+ident(
+  int_ref act "src/oUnitDiff.ml" 63 2833 2886 "src/oUnitDiff.ml" 63 2833 2889
+)
+"src/oUnitDiff.ml" 64 2892 2894 "src/oUnitDiff.ml" 74 3226 3237
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 78 3303 3318 "src/oUnitDiff.ml" 78 3303 3329
+call(
+  stack
+)
+"src/oUnitDiff.ml" 84 3365 3371 "src/oUnitDiff.ml" 84 3365 3378
+type(
+  Set.t -> Set.t -> int
+)
+ident(
+  def compare "src/oUnitDiff.ml" 87 3398 3400 "src/oUnitDiff.ml" 126 4291 4294
+)
+"src/oUnitDiff.ml" 85 3381 3385 "src/oUnitDiff.ml" 85 3381 3396
+type(
+  Set.t -> Set.t -> int
+)
+ident(
+  ext_ref Set.compare
+)
+"src/oUnitDiff.ml" 87 3398 3404 "src/oUnitDiff.ml" 87 3398 3414
+type(
+  Format.formatter -> Set.t -> unit
+)
+ident(
+  def pp_printer "src/oUnitDiff.ml" 99 3671 3673 "src/oUnitDiff.ml" 126 4291 4294
+)
+"src/oUnitDiff.ml" 87 3398 3415 "src/oUnitDiff.ml" 87 3398 3418
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/oUnitDiff.ml" 87 3398 3419 "src/oUnitDiff.ml" 97 3644 3669
+)
+"src/oUnitDiff.ml" 87 3398 3419 "src/oUnitDiff.ml" 87 3398 3420
+type(
+  Set.t
+)
+ident(
+  def t "src/oUnitDiff.ml" 88 3423 3427 "src/oUnitDiff.ml" 97 3644 3669
+)
+"src/oUnitDiff.ml" 88 3423 3431 "src/oUnitDiff.ml" 88 3423 3436
+type(
+  bool ref
+)
+ident(
+  def first "src/oUnitDiff.ml" 89 3451 3457 "src/oUnitDiff.ml" 97 3644 3669
+)
+"src/oUnitDiff.ml" 88 3423 3439 "src/oUnitDiff.ml" 88 3423 3442
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitDiff.ml" 88 3423 3443 "src/oUnitDiff.ml" 88 3423 3447
+type(
+  bool
+)
+"src/oUnitDiff.ml" 88 3423 3439 "src/oUnitDiff.ml" 88 3423 3447
+type(
+  bool ref
+)
+"src/oUnitDiff.ml" 89 3451 3457 "src/oUnitDiff.ml" 89 3451 3468
+type(
+  Format.formatter -> int -> unit
+)
+ident(
+  ext_ref Format.pp_open_box
+)
+"src/oUnitDiff.ml" 89 3451 3469 "src/oUnitDiff.ml" 89 3451 3472
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 87 3398 3415 "src/oUnitDiff.ml" 87 3398 3418
+)
+"src/oUnitDiff.ml" 89 3451 3473 "src/oUnitDiff.ml" 89 3451 3474
+type(
+  int
+)
+"src/oUnitDiff.ml" 89 3451 3457 "src/oUnitDiff.ml" 89 3451 3474
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 90 3476 3482 "src/oUnitDiff.ml" 90 3476 3490
+type(
+  (Set.elt -> unit) -> Set.t -> unit
+)
+ident(
+  ext_ref Set.iter
+)
+"src/oUnitDiff.ml" 91 3491 3504 "src/oUnitDiff.ml" 91 3491 3505
+type(
+  Set.elt
+)
+ident(
+  def e "src/oUnitDiff.ml" 92 3509 3520 "src/oUnitDiff.ml" 95 3606 3631
+)
+"src/oUnitDiff.ml" 92 3509 3523 "src/oUnitDiff.ml" 92 3509 3526
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/oUnitDiff.ml" 92 3509 3527 "src/oUnitDiff.ml" 92 3509 3528
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitDiff.ml" 92 3509 3528 "src/oUnitDiff.ml" 92 3509 3533
+type(
+  bool ref
+)
+ident(
+  int_ref first "src/oUnitDiff.ml" 88 3423 3431 "src/oUnitDiff.ml" 88 3423 3436
+)
+"src/oUnitDiff.ml" 92 3509 3527 "src/oUnitDiff.ml" 92 3509 3533
+type(
+  bool
+)
+"src/oUnitDiff.ml" 92 3509 3523 "src/oUnitDiff.ml" 92 3509 3533
+type(
+  bool
+)
+"src/oUnitDiff.ml" 93 3539 3552 "src/oUnitDiff.ml" 93 3539 3566
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref D.pp_print_sep "src/oUnitDiff.ml" 43 2521 2523 "src/oUnitDiff.ml" 43 2521 2573
+)
+"src/oUnitDiff.ml" 93 3539 3567 "src/oUnitDiff.ml" 93 3539 3570
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 87 3398 3415 "src/oUnitDiff.ml" 87 3398 3418
+)
+"src/oUnitDiff.ml" 93 3539 3571 "src/oUnitDiff.ml" 93 3539 3573
+type(
+  unit
+)
+"src/oUnitDiff.ml" 93 3539 3552 "src/oUnitDiff.ml" 93 3539 3573
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 92 3509 3520 "src/oUnitDiff.ml" 93 3539 3573
+type(
+  unit
+)
+"src/oUnitDiff.ml" 94 3575 3586 "src/oUnitDiff.ml" 94 3575 3598
+type(
+  Format.formatter -> Set.elt -> unit
+)
+ident(
+  int_ref D.pp_printer "src/oUnitDiff.ml" 39 2442 2444 "src/oUnitDiff.ml" 39 2442 2489
+)
+"src/oUnitDiff.ml" 94 3575 3599 "src/oUnitDiff.ml" 94 3575 3602
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 87 3398 3415 "src/oUnitDiff.ml" 87 3398 3418
+)
+"src/oUnitDiff.ml" 94 3575 3603 "src/oUnitDiff.ml" 94 3575 3604
+type(
+  Set.elt
+)
+ident(
+  int_ref e "src/oUnitDiff.ml" 91 3491 3504 "src/oUnitDiff.ml" 91 3491 3505
+)
+"src/oUnitDiff.ml" 94 3575 3586 "src/oUnitDiff.ml" 94 3575 3604
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 95 3606 3617 "src/oUnitDiff.ml" 95 3606 3622
+type(
+  bool ref
+)
+ident(
+  int_ref first "src/oUnitDiff.ml" 88 3423 3431 "src/oUnitDiff.ml" 88 3423 3436
+)
+"src/oUnitDiff.ml" 95 3606 3623 "src/oUnitDiff.ml" 95 3606 3625
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitDiff.ml" 95 3606 3626 "src/oUnitDiff.ml" 95 3606 3631
+type(
+  bool
+)
+"src/oUnitDiff.ml" 95 3606 3617 "src/oUnitDiff.ml" 95 3606 3631
+type(
+  unit
+)
+"src/oUnitDiff.ml" 94 3575 3586 "src/oUnitDiff.ml" 95 3606 3631
+type(
+  unit
+)
+"src/oUnitDiff.ml" 92 3509 3520 "src/oUnitDiff.ml" 95 3606 3631
+type(
+  unit
+)
+"src/oUnitDiff.ml" 91 3491 3499 "src/oUnitDiff.ml" 95 3606 3632
+type(
+  Set.elt -> unit
+)
+"src/oUnitDiff.ml" 96 3633 3641 "src/oUnitDiff.ml" 96 3633 3642
+type(
+  Set.t
+)
+ident(
+  int_ref t "src/oUnitDiff.ml" 87 3398 3419 "src/oUnitDiff.ml" 87 3398 3420
+)
+"src/oUnitDiff.ml" 90 3476 3482 "src/oUnitDiff.ml" 96 3633 3642
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 97 3644 3650 "src/oUnitDiff.ml" 97 3644 3662
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_close_box
+)
+"src/oUnitDiff.ml" 97 3644 3663 "src/oUnitDiff.ml" 97 3644 3666
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 87 3398 3415 "src/oUnitDiff.ml" 87 3398 3418
+)
+"src/oUnitDiff.ml" 97 3644 3667 "src/oUnitDiff.ml" 97 3644 3669
+type(
+  unit
+)
+"src/oUnitDiff.ml" 97 3644 3650 "src/oUnitDiff.ml" 97 3644 3669
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 90 3476 3482 "src/oUnitDiff.ml" 97 3644 3669
+type(
+  unit
+)
+"src/oUnitDiff.ml" 89 3451 3457 "src/oUnitDiff.ml" 97 3644 3669
+type(
+  unit
+)
+"src/oUnitDiff.ml" 88 3423 3427 "src/oUnitDiff.ml" 97 3644 3669
+type(
+  unit
+)
+"src/oUnitDiff.ml" 99 3671 3677 "src/oUnitDiff.ml" 99 3671 3684
+type(
+  Format.formatter -> Set.t * Set.t -> unit
+)
+ident(
+  def pp_diff "src/oUnitDiff.ml" 116 4089 4091 "src/oUnitDiff.ml" 126 4291 4294
+)
+"src/oUnitDiff.ml" 99 3671 3685 "src/oUnitDiff.ml" 99 3671 3688
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/oUnitDiff.ml" 99 3671 3689 "src/oUnitDiff.ml" 114 4062 4087
+)
+"src/oUnitDiff.ml" 99 3671 3690 "src/oUnitDiff.ml" 99 3671 3692
+type(
+  Set.t
+)
+ident(
+  def t1 "src/oUnitDiff.ml" 100 3700 3704 "src/oUnitDiff.ml" 114 4062 4087
+)
+"src/oUnitDiff.ml" 99 3671 3694 "src/oUnitDiff.ml" 99 3671 3696
+type(
+  Set.t
+)
+ident(
+  def t2 "src/oUnitDiff.ml" 100 3700 3704 "src/oUnitDiff.ml" 114 4062 4087
+)
+"src/oUnitDiff.ml" 99 3671 3689 "src/oUnitDiff.ml" 99 3671 3697
+type(
+  Set.t * Set.t
+)
+"src/oUnitDiff.ml" 100 3700 3708 "src/oUnitDiff.ml" 100 3700 3713
+type(
+  bool ref
+)
+ident(
+  def first "src/oUnitDiff.ml" 101 3728 3732 "src/oUnitDiff.ml" 114 4062 4087
+)
+"src/oUnitDiff.ml" 100 3700 3716 "src/oUnitDiff.ml" 100 3700 3719
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitDiff.ml" 100 3700 3720 "src/oUnitDiff.ml" 100 3700 3724
+type(
+  bool
+)
+"src/oUnitDiff.ml" 100 3700 3716 "src/oUnitDiff.ml" 100 3700 3724
+type(
+  bool ref
+)
+"src/oUnitDiff.ml" 101 3728 3736 "src/oUnitDiff.ml" 101 3728 3746
+type(
+  char -> Set.t -> unit
+)
+ident(
+  def print_list "src/oUnitDiff.ml" 111 3959 3965 "src/oUnitDiff.ml" 114 4062 4087
+)
+"src/oUnitDiff.ml" 101 3728 3747 "src/oUnitDiff.ml" 101 3728 3748
+type(
+  char
+)
+ident(
+  def c "src/oUnitDiff.ml" 101 3728 3749 "src/oUnitDiff.ml" 109 3942 3951
+)
+"src/oUnitDiff.ml" 101 3728 3749 "src/oUnitDiff.ml" 101 3728 3750
+type(
+  Set.t
+)
+ident(
+  def t "src/oUnitDiff.ml" 102 3753 3759 "src/oUnitDiff.ml" 109 3942 3951
+)
+"src/oUnitDiff.ml" 102 3753 3759 "src/oUnitDiff.ml" 102 3753 3767
+type(
+  (Set.elt -> unit) -> Set.t -> unit
+)
+ident(
+  ext_ref Set.iter
+)
+"src/oUnitDiff.ml" 103 3768 3781 "src/oUnitDiff.ml" 103 3768 3782
+type(
+  Set.elt
+)
+ident(
+  def e "src/oUnitDiff.ml" 104 3786 3797 "src/oUnitDiff.ml" 108 3915 3940
+)
+"src/oUnitDiff.ml" 104 3786 3800 "src/oUnitDiff.ml" 104 3786 3803
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/oUnitDiff.ml" 104 3786 3804 "src/oUnitDiff.ml" 104 3786 3805
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitDiff.ml" 104 3786 3805 "src/oUnitDiff.ml" 104 3786 3810
+type(
+  bool ref
+)
+ident(
+  int_ref first "src/oUnitDiff.ml" 100 3700 3708 "src/oUnitDiff.ml" 100 3700 3713
+)
+"src/oUnitDiff.ml" 104 3786 3804 "src/oUnitDiff.ml" 104 3786 3810
+type(
+  bool
+)
+"src/oUnitDiff.ml" 104 3786 3800 "src/oUnitDiff.ml" 104 3786 3810
+type(
+  bool
+)
+"src/oUnitDiff.ml" 105 3816 3829 "src/oUnitDiff.ml" 105 3816 3843
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref D.pp_print_sep "src/oUnitDiff.ml" 43 2521 2523 "src/oUnitDiff.ml" 43 2521 2573
+)
+"src/oUnitDiff.ml" 105 3816 3844 "src/oUnitDiff.ml" 105 3816 3847
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 99 3671 3685 "src/oUnitDiff.ml" 99 3671 3688
+)
+"src/oUnitDiff.ml" 105 3816 3848 "src/oUnitDiff.ml" 105 3816 3850
+type(
+  unit
+)
+"src/oUnitDiff.ml" 105 3816 3829 "src/oUnitDiff.ml" 105 3816 3850
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 104 3786 3797 "src/oUnitDiff.ml" 105 3816 3850
+type(
+  unit
+)
+"src/oUnitDiff.ml" 106 3852 3863 "src/oUnitDiff.ml" 106 3852 3876
+type(
+  Format.formatter -> char -> unit
+)
+ident(
+  ext_ref Format.pp_print_char
+)
+"src/oUnitDiff.ml" 106 3852 3877 "src/oUnitDiff.ml" 106 3852 3880
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 99 3671 3685 "src/oUnitDiff.ml" 99 3671 3688
+)
+"src/oUnitDiff.ml" 106 3852 3881 "src/oUnitDiff.ml" 106 3852 3882
+type(
+  char
+)
+ident(
+  int_ref c "src/oUnitDiff.ml" 101 3728 3747 "src/oUnitDiff.ml" 101 3728 3748
+)
+"src/oUnitDiff.ml" 106 3852 3863 "src/oUnitDiff.ml" 106 3852 3882
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 107 3884 3895 "src/oUnitDiff.ml" 107 3884 3907
+type(
+  Format.formatter -> Set.elt -> unit
+)
+ident(
+  int_ref D.pp_printer "src/oUnitDiff.ml" 39 2442 2444 "src/oUnitDiff.ml" 39 2442 2489
+)
+"src/oUnitDiff.ml" 107 3884 3908 "src/oUnitDiff.ml" 107 3884 3911
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 99 3671 3685 "src/oUnitDiff.ml" 99 3671 3688
+)
+"src/oUnitDiff.ml" 107 3884 3912 "src/oUnitDiff.ml" 107 3884 3913
+type(
+  Set.elt
+)
+ident(
+  int_ref e "src/oUnitDiff.ml" 103 3768 3781 "src/oUnitDiff.ml" 103 3768 3782
+)
+"src/oUnitDiff.ml" 107 3884 3895 "src/oUnitDiff.ml" 107 3884 3913
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 108 3915 3926 "src/oUnitDiff.ml" 108 3915 3931
+type(
+  bool ref
+)
+ident(
+  int_ref first "src/oUnitDiff.ml" 100 3700 3708 "src/oUnitDiff.ml" 100 3700 3713
+)
+"src/oUnitDiff.ml" 108 3915 3932 "src/oUnitDiff.ml" 108 3915 3934
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitDiff.ml" 108 3915 3935 "src/oUnitDiff.ml" 108 3915 3940
+type(
+  bool
+)
+"src/oUnitDiff.ml" 108 3915 3926 "src/oUnitDiff.ml" 108 3915 3940
+type(
+  unit
+)
+"src/oUnitDiff.ml" 107 3884 3895 "src/oUnitDiff.ml" 108 3915 3940
+type(
+  unit
+)
+"src/oUnitDiff.ml" 106 3852 3863 "src/oUnitDiff.ml" 108 3915 3940
+type(
+  unit
+)
+"src/oUnitDiff.ml" 104 3786 3797 "src/oUnitDiff.ml" 108 3915 3940
+type(
+  unit
+)
+"src/oUnitDiff.ml" 103 3768 3776 "src/oUnitDiff.ml" 108 3915 3941
+type(
+  Set.elt -> unit
+)
+"src/oUnitDiff.ml" 109 3942 3950 "src/oUnitDiff.ml" 109 3942 3951
+type(
+  Set.t
+)
+ident(
+  int_ref t "src/oUnitDiff.ml" 101 3728 3749 "src/oUnitDiff.ml" 101 3728 3750
+)
+"src/oUnitDiff.ml" 102 3753 3759 "src/oUnitDiff.ml" 109 3942 3951
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 111 3959 3965 "src/oUnitDiff.ml" 111 3959 3976
+type(
+  Format.formatter -> int -> unit
+)
+ident(
+  ext_ref Format.pp_open_box
+)
+"src/oUnitDiff.ml" 111 3959 3977 "src/oUnitDiff.ml" 111 3959 3980
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 99 3671 3685 "src/oUnitDiff.ml" 99 3671 3688
+)
+"src/oUnitDiff.ml" 111 3959 3981 "src/oUnitDiff.ml" 111 3959 3982
+type(
+  int
+)
+"src/oUnitDiff.ml" 111 3959 3965 "src/oUnitDiff.ml" 111 3959 3982
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 112 3984 3990 "src/oUnitDiff.ml" 112 3984 4000
+type(
+  char -> Set.t -> unit
+)
+ident(
+  int_ref print_list "src/oUnitDiff.ml" 101 3728 3736 "src/oUnitDiff.ml" 101 3728 3746
+)
+"src/oUnitDiff.ml" 112 3984 4001 "src/oUnitDiff.ml" 112 3984 4004
+type(
+  char
+)
+"src/oUnitDiff.ml" 112 3984 4006 "src/oUnitDiff.ml" 112 3984 4014
+type(
+  Set.t -> Set.t -> Set.t
+)
+ident(
+  ext_ref Set.diff
+)
+"src/oUnitDiff.ml" 112 3984 4015 "src/oUnitDiff.ml" 112 3984 4017
+type(
+  Set.t
+)
+ident(
+  int_ref t2 "src/oUnitDiff.ml" 99 3671 3694 "src/oUnitDiff.ml" 99 3671 3696
+)
+"src/oUnitDiff.ml" 112 3984 4018 "src/oUnitDiff.ml" 112 3984 4020
+type(
+  Set.t
+)
+ident(
+  int_ref t1 "src/oUnitDiff.ml" 99 3671 3690 "src/oUnitDiff.ml" 99 3671 3692
+)
+"src/oUnitDiff.ml" 112 3984 4005 "src/oUnitDiff.ml" 112 3984 4021
+call(
+  stack
+)
+type(
+  Set.t
+)
+"src/oUnitDiff.ml" 112 3984 3990 "src/oUnitDiff.ml" 112 3984 4021
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 113 4023 4029 "src/oUnitDiff.ml" 113 4023 4039
+type(
+  char -> Set.t -> unit
+)
+ident(
+  int_ref print_list "src/oUnitDiff.ml" 101 3728 3736 "src/oUnitDiff.ml" 101 3728 3746
+)
+"src/oUnitDiff.ml" 113 4023 4040 "src/oUnitDiff.ml" 113 4023 4043
+type(
+  char
+)
+"src/oUnitDiff.ml" 113 4023 4045 "src/oUnitDiff.ml" 113 4023 4053
+type(
+  Set.t -> Set.t -> Set.t
+)
+ident(
+  ext_ref Set.diff
+)
+"src/oUnitDiff.ml" 113 4023 4054 "src/oUnitDiff.ml" 113 4023 4056
+type(
+  Set.t
+)
+ident(
+  int_ref t1 "src/oUnitDiff.ml" 99 3671 3690 "src/oUnitDiff.ml" 99 3671 3692
+)
+"src/oUnitDiff.ml" 113 4023 4057 "src/oUnitDiff.ml" 113 4023 4059
+type(
+  Set.t
+)
+ident(
+  int_ref t2 "src/oUnitDiff.ml" 99 3671 3694 "src/oUnitDiff.ml" 99 3671 3696
+)
+"src/oUnitDiff.ml" 113 4023 4044 "src/oUnitDiff.ml" 113 4023 4060
+call(
+  stack
+)
+type(
+  Set.t
+)
+"src/oUnitDiff.ml" 113 4023 4029 "src/oUnitDiff.ml" 113 4023 4060
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 114 4062 4068 "src/oUnitDiff.ml" 114 4062 4080
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_close_box
+)
+"src/oUnitDiff.ml" 114 4062 4081 "src/oUnitDiff.ml" 114 4062 4084
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 99 3671 3685 "src/oUnitDiff.ml" 99 3671 3688
+)
+"src/oUnitDiff.ml" 114 4062 4085 "src/oUnitDiff.ml" 114 4062 4087
+type(
+  unit
+)
+"src/oUnitDiff.ml" 114 4062 4068 "src/oUnitDiff.ml" 114 4062 4087
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 113 4023 4029 "src/oUnitDiff.ml" 114 4062 4087
+type(
+  unit
+)
+"src/oUnitDiff.ml" 112 3984 3990 "src/oUnitDiff.ml" 114 4062 4087
+type(
+  unit
+)
+"src/oUnitDiff.ml" 111 3959 3965 "src/oUnitDiff.ml" 114 4062 4087
+type(
+  unit
+)
+"src/oUnitDiff.ml" 101 3728 3732 "src/oUnitDiff.ml" 114 4062 4087
+type(
+  unit
+)
+"src/oUnitDiff.ml" 100 3700 3704 "src/oUnitDiff.ml" 114 4062 4087
+type(
+  unit
+)
+"src/oUnitDiff.ml" 116 4089 4095 "src/oUnitDiff.ml" 116 4089 4107
+type(
+  ?msg:string -> Set.t -> Set.t -> unit
+)
+ident(
+  def assert_equal "src/oUnitDiff.ml" 119 4181 4183 "src/oUnitDiff.ml" 126 4291 4294
+)
+"src/oUnitDiff.ml" 116 4089 4109 "src/oUnitDiff.ml" 116 4089 4112
+type(
+  string option
+)
+ident(
+  def msg "src/oUnitDiff.ml" 116 4089 4113 "src/oUnitDiff.ml" 117 4123 4179
+)
+"src/oUnitDiff.ml" 116 4089 4113 "src/oUnitDiff.ml" 116 4089 4116
+type(
+  Set.t
+)
+ident(
+  def exp "src/oUnitDiff.ml" 116 4089 4117 "src/oUnitDiff.ml" 117 4123 4179
+)
+"src/oUnitDiff.ml" 116 4089 4117 "src/oUnitDiff.ml" 116 4089 4120
+type(
+  Set.t
+)
+ident(
+  def act "src/oUnitDiff.ml" 117 4123 4127 "src/oUnitDiff.ml" 117 4123 4179
+)
+"src/oUnitDiff.ml" 117 4123 4127 "src/oUnitDiff.ml" 117 4123 4139
+type(
+  ?msg:string ->
+  (Set.t -> Set.t -> int) ->
+  (Format.formatter -> Set.t -> unit) ->
+  (Format.formatter -> Set.t * Set.t -> unit) -> Set.t -> Set.t -> unit
+)
+ident(
+  int_ref assert_equal "src/oUnitDiff.ml" 63 2833 2837 "src/oUnitDiff.ml" 63 2833 2849
+)
+"src/oUnitDiff.ml" 117 4123 4141 "src/oUnitDiff.ml" 117 4123 4144
+type(
+  string option
+)
+ident(
+  int_ref msg "src/oUnitDiff.ml" 116 4089 4109 "src/oUnitDiff.ml" 116 4089 4112
+)
+"src/oUnitDiff.ml" 117 4123 4145 "src/oUnitDiff.ml" 117 4123 4152
+type(
+  Set.t -> Set.t -> int
+)
+ident(
+  int_ref compare "src/oUnitDiff.ml" 84 3365 3371 "src/oUnitDiff.ml" 84 3365 3378
+)
+"src/oUnitDiff.ml" 117 4123 4153 "src/oUnitDiff.ml" 117 4123 4163
+type(
+  Format.formatter -> Set.t -> unit
+)
+ident(
+  int_ref pp_printer "src/oUnitDiff.ml" 87 3398 3404 "src/oUnitDiff.ml" 87 3398 3414
+)
+"src/oUnitDiff.ml" 117 4123 4164 "src/oUnitDiff.ml" 117 4123 4171
+type(
+  Format.formatter -> Set.t * Set.t -> unit
+)
+ident(
+  int_ref pp_diff "src/oUnitDiff.ml" 99 3671 3677 "src/oUnitDiff.ml" 99 3671 3684
+)
+"src/oUnitDiff.ml" 117 4123 4172 "src/oUnitDiff.ml" 117 4123 4175
+type(
+  Set.t
+)
+ident(
+  int_ref exp "src/oUnitDiff.ml" 116 4089 4113 "src/oUnitDiff.ml" 116 4089 4116
+)
+"src/oUnitDiff.ml" 117 4123 4176 "src/oUnitDiff.ml" 117 4123 4179
+type(
+  Set.t
+)
+ident(
+  int_ref act "src/oUnitDiff.ml" 116 4089 4117 "src/oUnitDiff.ml" 116 4089 4120
+)
+"src/oUnitDiff.ml" 117 4123 4127 "src/oUnitDiff.ml" 117 4123 4179
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 119 4181 4187 "src/oUnitDiff.ml" 119 4181 4194
+type(
+  Set.elt list -> Set.t
+)
+ident(
+  def of_list "src/oUnitDiff.ml" 124 4280 4289 "src/oUnitDiff.ml" 126 4291 4294
+)
+"src/oUnitDiff.ml" 119 4181 4195 "src/oUnitDiff.ml" 119 4181 4198
+type(
+  Set.elt list
+)
+ident(
+  def lst "src/oUnitDiff.ml" 120 4201 4205 "src/oUnitDiff.ml" 124 4280 4289
+)
+"src/oUnitDiff.ml" 120 4201 4205 "src/oUnitDiff.ml" 120 4201 4219
+type(
+  (Set.t -> Set.elt -> Set.t) -> Set.t -> Set.elt list -> Set.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/oUnitDiff.ml" 121 4220 4231 "src/oUnitDiff.ml" 121 4220 4234
+type(
+  Set.t
+)
+ident(
+  def acc "src/oUnitDiff.ml" 121 4220 4235 "src/oUnitDiff.ml" 122 4240 4262
+)
+"src/oUnitDiff.ml" 121 4220 4235 "src/oUnitDiff.ml" 121 4220 4236
+type(
+  Set.elt
+)
+ident(
+  def e "src/oUnitDiff.ml" 122 4240 4249 "src/oUnitDiff.ml" 122 4240 4262
+)
+"src/oUnitDiff.ml" 122 4240 4249 "src/oUnitDiff.ml" 122 4240 4256
+type(
+  Set.elt -> Set.t -> Set.t
+)
+ident(
+  ext_ref Set.add
+)
+"src/oUnitDiff.ml" 122 4240 4257 "src/oUnitDiff.ml" 122 4240 4258
+type(
+  Set.elt
+)
+ident(
+  int_ref e "src/oUnitDiff.ml" 121 4220 4235 "src/oUnitDiff.ml" 121 4220 4236
+)
+"src/oUnitDiff.ml" 122 4240 4259 "src/oUnitDiff.ml" 122 4240 4262
+type(
+  Set.t
+)
+ident(
+  int_ref acc "src/oUnitDiff.ml" 121 4220 4231 "src/oUnitDiff.ml" 121 4220 4234
+)
+"src/oUnitDiff.ml" 122 4240 4249 "src/oUnitDiff.ml" 122 4240 4262
+call(
+  tail
+)
+type(
+  Set.t
+)
+"src/oUnitDiff.ml" 121 4220 4226 "src/oUnitDiff.ml" 122 4240 4263
+type(
+  Set.t -> Set.elt -> Set.t
+)
+"src/oUnitDiff.ml" 123 4264 4270 "src/oUnitDiff.ml" 123 4264 4279
+type(
+  Set.t
+)
+ident(
+  ext_ref Set.empty
+)
+"src/oUnitDiff.ml" 124 4280 4286 "src/oUnitDiff.ml" 124 4280 4289
+type(
+  Set.elt list
+)
+ident(
+  int_ref lst "src/oUnitDiff.ml" 119 4181 4195 "src/oUnitDiff.ml" 119 4181 4198
+)
+"src/oUnitDiff.ml" 120 4201 4205 "src/oUnitDiff.ml" 124 4280 4289
+call(
+  tail
+)
+type(
+  Set.t
+)
+"src/oUnitDiff.ml" 135 4428 4438 "src/oUnitDiff.ml" 135 4428 4445
+type(
+  D.t list -> D.t list -> int
+)
+ident(
+  def compare "src/oUnitDiff.ml" 135 4428 4430 "src/oUnitDiff.ml" 206 6024 6027
+)
+"src/oUnitDiff.ml" 135 4428 4446 "src/oUnitDiff.ml" 135 4428 4448
+type(
+  D.t list
+)
+ident(
+  def t1 "src/oUnitDiff.ml" 135 4428 4449 "src/oUnitDiff.ml" 153 4753 4764
+)
+"src/oUnitDiff.ml" 135 4428 4449 "src/oUnitDiff.ml" 135 4428 4451
+type(
+  D.t list
+)
+ident(
+  def t2 "src/oUnitDiff.ml" 136 4454 4458 "src/oUnitDiff.ml" 153 4753 4764
+)
+"src/oUnitDiff.ml" 136 4454 4464 "src/oUnitDiff.ml" 136 4454 4466
+type(
+  D.t list
+)
+ident(
+  int_ref t1 "src/oUnitDiff.ml" 135 4428 4446 "src/oUnitDiff.ml" 135 4428 4448
+)
+"src/oUnitDiff.ml" 136 4454 4468 "src/oUnitDiff.ml" 136 4454 4470
+type(
+  D.t list
+)
+ident(
+  int_ref t2 "src/oUnitDiff.ml" 135 4428 4449 "src/oUnitDiff.ml" 135 4428 4451
+)
+"src/oUnitDiff.ml" 136 4454 4464 "src/oUnitDiff.ml" 136 4454 4470
+type(
+  D.t list * D.t list
+)
+"src/oUnitDiff.ml" 137 4476 4484 "src/oUnitDiff.ml" 137 4476 4486
+type(
+  D.t
+)
+ident(
+  def e1 "src/oUnitDiff.ml" 138 4508 4518 "src/oUnitDiff.ml" 144 4659 4672
+)
+"src/oUnitDiff.ml" 137 4476 4490 "src/oUnitDiff.ml" 137 4476 4493
+type(
+  D.t list
+)
+ident(
+  def tl1 "src/oUnitDiff.ml" 138 4508 4518 "src/oUnitDiff.ml" 144 4659 4672
+)
+"src/oUnitDiff.ml" 137 4476 4484 "src/oUnitDiff.ml" 137 4476 4493
+type(
+  D.t list
+)
+"src/oUnitDiff.ml" 137 4476 4495 "src/oUnitDiff.ml" 137 4476 4497
+type(
+  D.t
+)
+ident(
+  def e2 "src/oUnitDiff.ml" 138 4508 4518 "src/oUnitDiff.ml" 144 4659 4672
+)
+"src/oUnitDiff.ml" 137 4476 4501 "src/oUnitDiff.ml" 137 4476 4504
+type(
+  D.t list
+)
+ident(
+  def tl2 "src/oUnitDiff.ml" 138 4508 4518 "src/oUnitDiff.ml" 144 4659 4672
+)
+"src/oUnitDiff.ml" 137 4476 4495 "src/oUnitDiff.ml" 137 4476 4504
+type(
+  D.t list
+)
+"src/oUnitDiff.ml" 137 4476 4484 "src/oUnitDiff.ml" 137 4476 4504
+type(
+  D.t list * D.t list
+)
+"src/oUnitDiff.ml" 139 4524 4542 "src/oUnitDiff.ml" 139 4524 4551
+type(
+  D.t -> D.t -> int
+)
+ident(
+  int_ref D.compare "src/oUnitDiff.ml" 41 2491 2493 "src/oUnitDiff.ml" 41 2491 2519
+)
+"src/oUnitDiff.ml" 139 4524 4552 "src/oUnitDiff.ml" 139 4524 4554
+type(
+  D.t
+)
+ident(
+  int_ref e1 "src/oUnitDiff.ml" 137 4476 4484 "src/oUnitDiff.ml" 137 4476 4486
+)
+"src/oUnitDiff.ml" 139 4524 4555 "src/oUnitDiff.ml" 139 4524 4557
+type(
+  D.t
+)
+ident(
+  int_ref e2 "src/oUnitDiff.ml" 137 4476 4495 "src/oUnitDiff.ml" 137 4476 4497
+)
+"src/oUnitDiff.ml" 139 4524 4542 "src/oUnitDiff.ml" 139 4524 4557
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitDiff.ml" 140 4563 4579 "src/oUnitDiff.ml" 140 4563 4580
+type(
+  int
+)
+"src/oUnitDiff.ml" 141 4584 4602 "src/oUnitDiff.ml" 141 4584 4609
+type(
+  D.t list -> D.t list -> int
+)
+ident(
+  int_ref compare "src/oUnitDiff.ml" 135 4428 4438 "src/oUnitDiff.ml" 135 4428 4445
+)
+"src/oUnitDiff.ml" 141 4584 4610 "src/oUnitDiff.ml" 141 4584 4613
+type(
+  D.t list
+)
+ident(
+  int_ref tl1 "src/oUnitDiff.ml" 137 4476 4490 "src/oUnitDiff.ml" 137 4476 4493
+)
+"src/oUnitDiff.ml" 141 4584 4614 "src/oUnitDiff.ml" 141 4584 4617
+type(
+  D.t list
+)
+ident(
+  int_ref tl2 "src/oUnitDiff.ml" 137 4476 4501 "src/oUnitDiff.ml" 137 4476 4504
+)
+"src/oUnitDiff.ml" 141 4584 4602 "src/oUnitDiff.ml" 141 4584 4617
+call(
+  tail
+)
+type(
+  int
+)
+"src/oUnitDiff.ml" 142 4618 4634 "src/oUnitDiff.ml" 142 4618 4635
+type(
+  int
+)
+ident(
+  def n "src/oUnitDiff.ml" 143 4639 4657 "src/oUnitDiff.ml" 143 4639 4658
+)
+"src/oUnitDiff.ml" 143 4639 4657 "src/oUnitDiff.ml" 143 4639 4658
+type(
+  int
+)
+ident(
+  int_ref n "src/oUnitDiff.ml" 142 4618 4634 "src/oUnitDiff.ml" 142 4618 4635
+)
+"src/oUnitDiff.ml" 138 4508 4518 "src/oUnitDiff.ml" 144 4659 4672
+type(
+  int
+)
+"src/oUnitDiff.ml" 146 4674 4682 "src/oUnitDiff.ml" 146 4674 4684
+type(
+  D.t list
+)
+"src/oUnitDiff.ml" 146 4674 4686 "src/oUnitDiff.ml" 146 4674 4688
+type(
+  D.t list
+)
+"src/oUnitDiff.ml" 146 4674 4682 "src/oUnitDiff.ml" 146 4674 4688
+type(
+  D.t list * D.t list
+)
+"src/oUnitDiff.ml" 147 4692 4702 "src/oUnitDiff.ml" 147 4692 4703
+type(
+  int
+)
+"src/oUnitDiff.ml" 149 4705 4713 "src/oUnitDiff.ml" 149 4705 4714
+type(
+  D.t list
+)
+"src/oUnitDiff.ml" 149 4705 4716 "src/oUnitDiff.ml" 149 4705 4718
+type(
+  D.t list
+)
+"src/oUnitDiff.ml" 149 4705 4713 "src/oUnitDiff.ml" 149 4705 4718
+type(
+  D.t list * D.t list
+)
+"src/oUnitDiff.ml" 150 4722 4732 "src/oUnitDiff.ml" 150 4722 4734
+type(
+  int
+)
+"src/oUnitDiff.ml" 152 4736 4744 "src/oUnitDiff.ml" 152 4736 4746
+type(
+  D.t list
+)
+"src/oUnitDiff.ml" 152 4736 4748 "src/oUnitDiff.ml" 152 4736 4749
+type(
+  D.t list
+)
+"src/oUnitDiff.ml" 152 4736 4744 "src/oUnitDiff.ml" 152 4736 4749
+type(
+  D.t list * D.t list
+)
+"src/oUnitDiff.ml" 153 4753 4763 "src/oUnitDiff.ml" 153 4753 4764
+type(
+  int
+)
+"src/oUnitDiff.ml" 136 4454 4458 "src/oUnitDiff.ml" 153 4753 4764
+type(
+  int
+)
+"src/oUnitDiff.ml" 155 4766 4772 "src/oUnitDiff.ml" 155 4766 4784
+type(
+  string -> Format.formatter -> D.t list -> unit
+)
+ident(
+  def pp_print_gen "src/oUnitDiff.ml" 167 5065 5067 "src/oUnitDiff.ml" 206 6024 6027
+)
+"src/oUnitDiff.ml" 155 4766 4785 "src/oUnitDiff.ml" 155 4766 4788
+type(
+  string
+)
+ident(
+  def pre "src/oUnitDiff.ml" 155 4766 4789 "src/oUnitDiff.ml" 165 5038 5063
+)
+"src/oUnitDiff.ml" 155 4766 4789 "src/oUnitDiff.ml" 155 4766 4792
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/oUnitDiff.ml" 155 4766 4793 "src/oUnitDiff.ml" 165 5038 5063
+)
+"src/oUnitDiff.ml" 155 4766 4793 "src/oUnitDiff.ml" 155 4766 4794
+type(
+  D.t list
+)
+ident(
+  def t "src/oUnitDiff.ml" 156 4797 4801 "src/oUnitDiff.ml" 165 5038 5063
+)
+"src/oUnitDiff.ml" 156 4797 4805 "src/oUnitDiff.ml" 156 4797 4810
+type(
+  bool ref
+)
+ident(
+  def first "src/oUnitDiff.ml" 157 4825 4831 "src/oUnitDiff.ml" 165 5038 5063
+)
+"src/oUnitDiff.ml" 156 4797 4813 "src/oUnitDiff.ml" 156 4797 4816
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitDiff.ml" 156 4797 4817 "src/oUnitDiff.ml" 156 4797 4821
+type(
+  bool
+)
+"src/oUnitDiff.ml" 156 4797 4813 "src/oUnitDiff.ml" 156 4797 4821
+type(
+  bool ref
+)
+"src/oUnitDiff.ml" 157 4825 4831 "src/oUnitDiff.ml" 157 4825 4842
+type(
+  Format.formatter -> int -> unit
+)
+ident(
+  ext_ref Format.pp_open_box
+)
+"src/oUnitDiff.ml" 157 4825 4843 "src/oUnitDiff.ml" 157 4825 4846
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 155 4766 4789 "src/oUnitDiff.ml" 155 4766 4792
+)
+"src/oUnitDiff.ml" 157 4825 4847 "src/oUnitDiff.ml" 157 4825 4848
+type(
+  int
+)
+"src/oUnitDiff.ml" 157 4825 4831 "src/oUnitDiff.ml" 157 4825 4848
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 158 4850 4856 "src/oUnitDiff.ml" 158 4850 4865
+type(
+  (D.t -> unit) -> D.t list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitDiff.ml" 159 4866 4879 "src/oUnitDiff.ml" 159 4866 4880
+type(
+  D.t
+)
+ident(
+  def e "src/oUnitDiff.ml" 160 4884 4895 "src/oUnitDiff.ml" 163 5000 5025
+)
+"src/oUnitDiff.ml" 160 4884 4898 "src/oUnitDiff.ml" 160 4884 4901
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/oUnitDiff.ml" 160 4884 4902 "src/oUnitDiff.ml" 160 4884 4903
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitDiff.ml" 160 4884 4903 "src/oUnitDiff.ml" 160 4884 4908
+type(
+  bool ref
+)
+ident(
+  int_ref first "src/oUnitDiff.ml" 156 4797 4805 "src/oUnitDiff.ml" 156 4797 4810
+)
+"src/oUnitDiff.ml" 160 4884 4902 "src/oUnitDiff.ml" 160 4884 4908
+type(
+  bool
+)
+"src/oUnitDiff.ml" 160 4884 4898 "src/oUnitDiff.ml" 160 4884 4908
+type(
+  bool
+)
+"src/oUnitDiff.ml" 161 4914 4927 "src/oUnitDiff.ml" 161 4914 4941
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref D.pp_print_sep "src/oUnitDiff.ml" 43 2521 2523 "src/oUnitDiff.ml" 43 2521 2573
+)
+"src/oUnitDiff.ml" 161 4914 4942 "src/oUnitDiff.ml" 161 4914 4945
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 155 4766 4789 "src/oUnitDiff.ml" 155 4766 4792
+)
+"src/oUnitDiff.ml" 161 4914 4946 "src/oUnitDiff.ml" 161 4914 4948
+type(
+  unit
+)
+"src/oUnitDiff.ml" 161 4914 4927 "src/oUnitDiff.ml" 161 4914 4948
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 160 4884 4895 "src/oUnitDiff.ml" 161 4914 4948
+type(
+  unit
+)
+"src/oUnitDiff.ml" 162 4950 4961 "src/oUnitDiff.ml" 162 4950 4968
+type(
+  Format.formatter ->
+  (string -> (Format.formatter -> D.t -> unit) -> D.t -> unit,
+   Format.formatter, unit)
+  format -> string -> (Format.formatter -> D.t -> unit) -> D.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/oUnitDiff.ml" 162 4950 4969 "src/oUnitDiff.ml" 162 4950 4972
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 155 4766 4789 "src/oUnitDiff.ml" 155 4766 4792
+)
+"src/oUnitDiff.ml" 162 4950 4973 "src/oUnitDiff.ml" 162 4950 4979
+type(
+  (string -> (Format.formatter -> D.t -> unit) -> D.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"src/oUnitDiff.ml" 162 4950 4980 "src/oUnitDiff.ml" 162 4950 4983
+type(
+  string
+)
+ident(
+  int_ref pre "src/oUnitDiff.ml" 155 4766 4785 "src/oUnitDiff.ml" 155 4766 4788
+)
+"src/oUnitDiff.ml" 162 4950 4984 "src/oUnitDiff.ml" 162 4950 4996
+type(
+  Format.formatter -> D.t -> unit
+)
+ident(
+  int_ref D.pp_printer "src/oUnitDiff.ml" 39 2442 2444 "src/oUnitDiff.ml" 39 2442 2489
+)
+"src/oUnitDiff.ml" 162 4950 4997 "src/oUnitDiff.ml" 162 4950 4998
+type(
+  D.t
+)
+ident(
+  int_ref e "src/oUnitDiff.ml" 159 4866 4879 "src/oUnitDiff.ml" 159 4866 4880
+)
+"src/oUnitDiff.ml" 162 4950 4961 "src/oUnitDiff.ml" 162 4950 4998
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 163 5000 5011 "src/oUnitDiff.ml" 163 5000 5016
+type(
+  bool ref
+)
+ident(
+  int_ref first "src/oUnitDiff.ml" 156 4797 4805 "src/oUnitDiff.ml" 156 4797 4810
+)
+"src/oUnitDiff.ml" 163 5000 5017 "src/oUnitDiff.ml" 163 5000 5019
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitDiff.ml" 163 5000 5020 "src/oUnitDiff.ml" 163 5000 5025
+type(
+  bool
+)
+"src/oUnitDiff.ml" 163 5000 5011 "src/oUnitDiff.ml" 163 5000 5025
+type(
+  unit
+)
+"src/oUnitDiff.ml" 162 4950 4961 "src/oUnitDiff.ml" 163 5000 5025
+type(
+  unit
+)
+"src/oUnitDiff.ml" 160 4884 4895 "src/oUnitDiff.ml" 163 5000 5025
+type(
+  unit
+)
+"src/oUnitDiff.ml" 159 4866 4874 "src/oUnitDiff.ml" 163 5000 5026
+type(
+  D.t -> unit
+)
+"src/oUnitDiff.ml" 164 5027 5035 "src/oUnitDiff.ml" 164 5027 5036
+type(
+  D.t list
+)
+ident(
+  int_ref t "src/oUnitDiff.ml" 155 4766 4793 "src/oUnitDiff.ml" 155 4766 4794
+)
+"src/oUnitDiff.ml" 158 4850 4856 "src/oUnitDiff.ml" 164 5027 5036
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 165 5038 5044 "src/oUnitDiff.ml" 165 5038 5056
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_close_box
+)
+"src/oUnitDiff.ml" 165 5038 5057 "src/oUnitDiff.ml" 165 5038 5060
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 155 4766 4789 "src/oUnitDiff.ml" 155 4766 4792
+)
+"src/oUnitDiff.ml" 165 5038 5061 "src/oUnitDiff.ml" 165 5038 5063
+type(
+  unit
+)
+"src/oUnitDiff.ml" 165 5038 5044 "src/oUnitDiff.ml" 165 5038 5063
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 158 4850 4856 "src/oUnitDiff.ml" 165 5038 5063
+type(
+  unit
+)
+"src/oUnitDiff.ml" 157 4825 4831 "src/oUnitDiff.ml" 165 5038 5063
+type(
+  unit
+)
+"src/oUnitDiff.ml" 156 4797 4801 "src/oUnitDiff.ml" 165 5038 5063
+type(
+  unit
+)
+"src/oUnitDiff.ml" 167 5065 5071 "src/oUnitDiff.ml" 167 5065 5081
+type(
+  Format.formatter -> D.t list -> unit
+)
+ident(
+  def pp_printer "src/oUnitDiff.ml" 170 5117 5119 "src/oUnitDiff.ml" 206 6024 6027
+)
+"src/oUnitDiff.ml" 167 5065 5082 "src/oUnitDiff.ml" 167 5065 5085
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/oUnitDiff.ml" 167 5065 5086 "src/oUnitDiff.ml" 168 5090 5115
+)
+"src/oUnitDiff.ml" 167 5065 5086 "src/oUnitDiff.ml" 167 5065 5087
+type(
+  D.t list
+)
+ident(
+  def t "src/oUnitDiff.ml" 168 5090 5094 "src/oUnitDiff.ml" 168 5090 5115
+)
+"src/oUnitDiff.ml" 168 5090 5094 "src/oUnitDiff.ml" 168 5090 5106
+type(
+  string -> Format.formatter -> D.t list -> unit
+)
+ident(
+  int_ref pp_print_gen "src/oUnitDiff.ml" 155 4766 4772 "src/oUnitDiff.ml" 155 4766 4784
+)
+"src/oUnitDiff.ml" 168 5090 5107 "src/oUnitDiff.ml" 168 5090 5109
+type(
+  string
+)
+"src/oUnitDiff.ml" 168 5090 5110 "src/oUnitDiff.ml" 168 5090 5113
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 167 5065 5082 "src/oUnitDiff.ml" 167 5065 5085
+)
+"src/oUnitDiff.ml" 168 5090 5114 "src/oUnitDiff.ml" 168 5090 5115
+type(
+  D.t list
+)
+ident(
+  int_ref t "src/oUnitDiff.ml" 167 5065 5086 "src/oUnitDiff.ml" 167 5065 5087
+)
+"src/oUnitDiff.ml" 168 5090 5094 "src/oUnitDiff.ml" 168 5090 5115
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 170 5117 5123 "src/oUnitDiff.ml" 170 5117 5130
+type(
+  Format.formatter -> D.t list * D.t list -> unit
+)
+ident(
+  def pp_diff "src/oUnitDiff.ml" 201 5904 5906 "src/oUnitDiff.ml" 206 6024 6027
+)
+"src/oUnitDiff.ml" 170 5117 5131 "src/oUnitDiff.ml" 170 5117 5134
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/oUnitDiff.ml" 170 5117 5135 "src/oUnitDiff.ml" 199 5877 5902
+)
+"src/oUnitDiff.ml" 170 5117 5136 "src/oUnitDiff.ml" 170 5117 5138
+type(
+  D.t list
+)
+ident(
+  def t1 "src/oUnitDiff.ml" 171 5146 5150 "src/oUnitDiff.ml" 199 5877 5902
+)
+"src/oUnitDiff.ml" 170 5117 5140 "src/oUnitDiff.ml" 170 5117 5142
+type(
+  D.t list
+)
+ident(
+  def t2 "src/oUnitDiff.ml" 171 5146 5150 "src/oUnitDiff.ml" 199 5877 5902
+)
+"src/oUnitDiff.ml" 170 5117 5135 "src/oUnitDiff.ml" 170 5117 5143
+type(
+  D.t list * D.t list
+)
+"src/oUnitDiff.ml" 171 5146 5158 "src/oUnitDiff.ml" 171 5146 5166
+type(
+  int -> D.t list -> D.t list -> unit
+)
+ident(
+  def pp_diff' "src/oUnitDiff.ml" 171 5146 5150 "src/oUnitDiff.ml" 199 5877 5902
+)
+"src/oUnitDiff.ml" 171 5146 5167 "src/oUnitDiff.ml" 171 5146 5168
+type(
+  int
+)
+ident(
+  def n "src/oUnitDiff.ml" 171 5146 5169 "src/oUnitDiff.ml" 195 5784 5820
+)
+"src/oUnitDiff.ml" 171 5146 5169 "src/oUnitDiff.ml" 171 5146 5171
+type(
+  D.t list
+)
+ident(
+  def t1 "src/oUnitDiff.ml" 171 5146 5172 "src/oUnitDiff.ml" 195 5784 5820
+)
+"src/oUnitDiff.ml" 171 5146 5172 "src/oUnitDiff.ml" 171 5146 5174
+type(
+  D.t list
+)
+ident(
+  def t2 "src/oUnitDiff.ml" 172 5177 5183 "src/oUnitDiff.ml" 195 5784 5820
+)
+"src/oUnitDiff.ml" 172 5177 5189 "src/oUnitDiff.ml" 172 5177 5191
+type(
+  D.t list
+)
+ident(
+  int_ref t1 "src/oUnitDiff.ml" 171 5146 5169 "src/oUnitDiff.ml" 171 5146 5171
+)
+"src/oUnitDiff.ml" 172 5177 5193 "src/oUnitDiff.ml" 172 5177 5195
+type(
+  D.t list
+)
+ident(
+  int_ref t2 "src/oUnitDiff.ml" 171 5146 5172 "src/oUnitDiff.ml" 171 5146 5174
+)
+"src/oUnitDiff.ml" 172 5177 5189 "src/oUnitDiff.ml" 172 5177 5195
+type(
+  D.t list * D.t list
+)
+"src/oUnitDiff.ml" 173 5201 5211 "src/oUnitDiff.ml" 173 5201 5213
+type(
+  D.t
+)
+ident(
+  def e1 "src/oUnitDiff.ml" 174 5235 5247 "src/oUnitDiff.ml" 184 5577 5592
+)
+"src/oUnitDiff.ml" 173 5201 5217 "src/oUnitDiff.ml" 173 5201 5220
+type(
+  D.t list
+)
+ident(
+  def tl1 "src/oUnitDiff.ml" 174 5235 5247 "src/oUnitDiff.ml" 184 5577 5592
+)
+"src/oUnitDiff.ml" 173 5201 5211 "src/oUnitDiff.ml" 173 5201 5220
+type(
+  D.t list
+)
+"src/oUnitDiff.ml" 173 5201 5222 "src/oUnitDiff.ml" 173 5201 5224
+type(
+  D.t
+)
+ident(
+  def e2 "src/oUnitDiff.ml" 174 5235 5247 "src/oUnitDiff.ml" 184 5577 5592
+)
+"src/oUnitDiff.ml" 173 5201 5228 "src/oUnitDiff.ml" 173 5201 5231
+type(
+  D.t list
+)
+ident(
+  def tl2 "src/oUnitDiff.ml" 174 5235 5247 "src/oUnitDiff.ml" 184 5577 5592
+)
+"src/oUnitDiff.ml" 173 5201 5222 "src/oUnitDiff.ml" 173 5201 5231
+type(
+  D.t list
+)
+"src/oUnitDiff.ml" 173 5201 5211 "src/oUnitDiff.ml" 173 5201 5231
+type(
+  D.t list * D.t list
+)
+"src/oUnitDiff.ml" 175 5253 5273 "src/oUnitDiff.ml" 175 5253 5282
+type(
+  D.t -> D.t -> int
+)
+ident(
+  int_ref D.compare "src/oUnitDiff.ml" 41 2491 2493 "src/oUnitDiff.ml" 41 2491 2519
+)
+"src/oUnitDiff.ml" 175 5253 5283 "src/oUnitDiff.ml" 175 5253 5285
+type(
+  D.t
+)
+ident(
+  int_ref e1 "src/oUnitDiff.ml" 173 5201 5211 "src/oUnitDiff.ml" 173 5201 5213
+)
+"src/oUnitDiff.ml" 175 5253 5286 "src/oUnitDiff.ml" 175 5253 5288
+type(
+  D.t
+)
+ident(
+  int_ref e2 "src/oUnitDiff.ml" 173 5201 5222 "src/oUnitDiff.ml" 173 5201 5224
+)
+"src/oUnitDiff.ml" 175 5253 5273 "src/oUnitDiff.ml" 175 5253 5288
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitDiff.ml" 176 5294 5312 "src/oUnitDiff.ml" 176 5294 5313
+type(
+  int
+)
+"src/oUnitDiff.ml" 177 5317 5337 "src/oUnitDiff.ml" 177 5317 5345
+type(
+  int -> D.t list -> D.t list -> unit
+)
+ident(
+  int_ref pp_diff' "src/oUnitDiff.ml" 171 5146 5158 "src/oUnitDiff.ml" 171 5146 5166
+)
+"src/oUnitDiff.ml" 177 5317 5347 "src/oUnitDiff.ml" 177 5317 5348
+type(
+  int
+)
+ident(
+  int_ref n "src/oUnitDiff.ml" 171 5146 5167 "src/oUnitDiff.ml" 171 5146 5168
+)
+"src/oUnitDiff.ml" 177 5317 5349 "src/oUnitDiff.ml" 177 5317 5350
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/oUnitDiff.ml" 177 5317 5351 "src/oUnitDiff.ml" 177 5317 5352
+type(
+  int
+)
+"src/oUnitDiff.ml" 177 5317 5346 "src/oUnitDiff.ml" 177 5317 5353
+type(
+  int
+)
+"src/oUnitDiff.ml" 177 5317 5354 "src/oUnitDiff.ml" 177 5317 5357
+type(
+  D.t list
+)
+ident(
+  int_ref tl1 "src/oUnitDiff.ml" 173 5201 5217 "src/oUnitDiff.ml" 173 5201 5220
+)
+"src/oUnitDiff.ml" 177 5317 5358 "src/oUnitDiff.ml" 177 5317 5361
+type(
+  D.t list
+)
+ident(
+  int_ref tl2 "src/oUnitDiff.ml" 173 5201 5228 "src/oUnitDiff.ml" 173 5201 5231
+)
+"src/oUnitDiff.ml" 177 5317 5337 "src/oUnitDiff.ml" 177 5317 5361
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 178 5362 5380 "src/oUnitDiff.ml" 178 5362 5381
+type(
+  int
+)
+"src/oUnitDiff.ml" 179 5385 5405 "src/oUnitDiff.ml" 179 5385 5412
+type(
+  Format.formatter ->
+  (int ->
+   (Format.formatter -> D.t -> unit) ->
+   D.t -> (Format.formatter -> D.t -> unit) -> D.t -> unit, Format.formatter,
+   unit)
+  format ->
+  int ->
+  (Format.formatter -> D.t -> unit) ->
+  D.t -> (Format.formatter -> D.t -> unit) -> D.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/oUnitDiff.ml" 179 5385 5413 "src/oUnitDiff.ml" 179 5385 5416
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 170 5117 5131 "src/oUnitDiff.ml" 170 5117 5134
+)
+"src/oUnitDiff.ml" 180 5417 5439 "src/oUnitDiff.ml" 180 5417 5476
+type(
+  (int ->
+   (Format.formatter -> D.t -> unit) ->
+   D.t -> (Format.formatter -> D.t -> unit) -> D.t -> unit, Format.formatter,
+   unit)
+  format
+)
+"src/oUnitDiff.ml" 181 5477 5499 "src/oUnitDiff.ml" 181 5477 5500
+type(
+  int
+)
+ident(
+  int_ref n "src/oUnitDiff.ml" 171 5146 5167 "src/oUnitDiff.ml" 171 5146 5168
+)
+"src/oUnitDiff.ml" 182 5501 5523 "src/oUnitDiff.ml" 182 5501 5535
+type(
+  Format.formatter -> D.t -> unit
+)
+ident(
+  int_ref D.pp_printer "src/oUnitDiff.ml" 39 2442 2444 "src/oUnitDiff.ml" 39 2442 2489
+)
+"src/oUnitDiff.ml" 182 5501 5536 "src/oUnitDiff.ml" 182 5501 5538
+type(
+  D.t
+)
+ident(
+  int_ref e1 "src/oUnitDiff.ml" 173 5201 5211 "src/oUnitDiff.ml" 173 5201 5213
+)
+"src/oUnitDiff.ml" 183 5539 5561 "src/oUnitDiff.ml" 183 5539 5573
+type(
+  Format.formatter -> D.t -> unit
+)
+ident(
+  int_ref D.pp_printer "src/oUnitDiff.ml" 39 2442 2444 "src/oUnitDiff.ml" 39 2442 2489
+)
+"src/oUnitDiff.ml" 183 5539 5574 "src/oUnitDiff.ml" 183 5539 5576
+type(
+  D.t
+)
+ident(
+  int_ref e2 "src/oUnitDiff.ml" 173 5201 5222 "src/oUnitDiff.ml" 173 5201 5224
+)
+"src/oUnitDiff.ml" 179 5385 5405 "src/oUnitDiff.ml" 183 5539 5576
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 174 5235 5247 "src/oUnitDiff.ml" 184 5577 5592
+type(
+  unit
+)
+"src/oUnitDiff.ml" 186 5594 5604 "src/oUnitDiff.ml" 186 5594 5606
+type(
+  D.t list
+)
+"src/oUnitDiff.ml" 186 5594 5608 "src/oUnitDiff.ml" 186 5594 5610
+type(
+  D.t list
+)
+"src/oUnitDiff.ml" 186 5594 5604 "src/oUnitDiff.ml" 186 5594 5610
+type(
+  D.t list * D.t list
+)
+"src/oUnitDiff.ml" 187 5614 5626 "src/oUnitDiff.ml" 187 5614 5628
+type(
+  unit
+)
+"src/oUnitDiff.ml" 189 5630 5640 "src/oUnitDiff.ml" 189 5630 5642
+type(
+  D.t list
+)
+"src/oUnitDiff.ml" 189 5630 5644 "src/oUnitDiff.ml" 189 5630 5647
+type(
+  D.t list
+)
+ident(
+  def lst "src/oUnitDiff.ml" 190 5651 5663 "src/oUnitDiff.ml" 191 5688 5724
+)
+"src/oUnitDiff.ml" 189 5630 5640 "src/oUnitDiff.ml" 189 5630 5647
+type(
+  D.t list * D.t list
+)
+"src/oUnitDiff.ml" 190 5651 5663 "src/oUnitDiff.ml" 190 5651 5670
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/oUnitDiff.ml" 190 5651 5671 "src/oUnitDiff.ml" 190 5651 5674
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 170 5117 5131 "src/oUnitDiff.ml" 170 5117 5134
+)
+"src/oUnitDiff.ml" 190 5651 5675 "src/oUnitDiff.ml" 190 5651 5686
+type(
+  (unit, Format.formatter, unit) format
+)
+"src/oUnitDiff.ml" 190 5651 5663 "src/oUnitDiff.ml" 190 5651 5686
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 191 5688 5700 "src/oUnitDiff.ml" 191 5688 5712
+type(
+  string -> Format.formatter -> D.t list -> unit
+)
+ident(
+  int_ref pp_print_gen "src/oUnitDiff.ml" 155 4766 4772 "src/oUnitDiff.ml" 155 4766 4784
+)
+"src/oUnitDiff.ml" 191 5688 5713 "src/oUnitDiff.ml" 191 5688 5716
+type(
+  string
+)
+"src/oUnitDiff.ml" 191 5688 5717 "src/oUnitDiff.ml" 191 5688 5720
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 170 5117 5131 "src/oUnitDiff.ml" 170 5117 5134
+)
+"src/oUnitDiff.ml" 191 5688 5721 "src/oUnitDiff.ml" 191 5688 5724
+type(
+  D.t list
+)
+ident(
+  int_ref lst "src/oUnitDiff.ml" 189 5630 5644 "src/oUnitDiff.ml" 189 5630 5647
+)
+"src/oUnitDiff.ml" 191 5688 5700 "src/oUnitDiff.ml" 191 5688 5724
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 190 5651 5663 "src/oUnitDiff.ml" 191 5688 5724
+type(
+  unit
+)
+"src/oUnitDiff.ml" 193 5726 5736 "src/oUnitDiff.ml" 193 5726 5739
+type(
+  D.t list
+)
+ident(
+  def lst "src/oUnitDiff.ml" 194 5747 5759 "src/oUnitDiff.ml" 195 5784 5820
+)
+"src/oUnitDiff.ml" 193 5726 5741 "src/oUnitDiff.ml" 193 5726 5743
+type(
+  D.t list
+)
+"src/oUnitDiff.ml" 193 5726 5736 "src/oUnitDiff.ml" 193 5726 5743
+type(
+  D.t list * D.t list
+)
+"src/oUnitDiff.ml" 194 5747 5759 "src/oUnitDiff.ml" 194 5747 5766
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/oUnitDiff.ml" 194 5747 5767 "src/oUnitDiff.ml" 194 5747 5770
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 170 5117 5131 "src/oUnitDiff.ml" 170 5117 5134
+)
+"src/oUnitDiff.ml" 194 5747 5771 "src/oUnitDiff.ml" 194 5747 5782
+type(
+  (unit, Format.formatter, unit) format
+)
+"src/oUnitDiff.ml" 194 5747 5759 "src/oUnitDiff.ml" 194 5747 5782
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 195 5784 5796 "src/oUnitDiff.ml" 195 5784 5808
+type(
+  string -> Format.formatter -> D.t list -> unit
+)
+ident(
+  int_ref pp_print_gen "src/oUnitDiff.ml" 155 4766 4772 "src/oUnitDiff.ml" 155 4766 4784
+)
+"src/oUnitDiff.ml" 195 5784 5809 "src/oUnitDiff.ml" 195 5784 5812
+type(
+  string
+)
+"src/oUnitDiff.ml" 195 5784 5813 "src/oUnitDiff.ml" 195 5784 5816
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 170 5117 5131 "src/oUnitDiff.ml" 170 5117 5134
+)
+"src/oUnitDiff.ml" 195 5784 5817 "src/oUnitDiff.ml" 195 5784 5820
+type(
+  D.t list
+)
+ident(
+  int_ref lst "src/oUnitDiff.ml" 193 5726 5736 "src/oUnitDiff.ml" 193 5726 5739
+)
+"src/oUnitDiff.ml" 195 5784 5796 "src/oUnitDiff.ml" 195 5784 5820
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 194 5747 5759 "src/oUnitDiff.ml" 195 5784 5820
+type(
+  unit
+)
+"src/oUnitDiff.ml" 172 5177 5183 "src/oUnitDiff.ml" 195 5784 5820
+type(
+  unit
+)
+"src/oUnitDiff.ml" 197 5828 5834 "src/oUnitDiff.ml" 197 5828 5845
+type(
+  Format.formatter -> int -> unit
+)
+ident(
+  ext_ref Format.pp_open_box
+)
+"src/oUnitDiff.ml" 197 5828 5846 "src/oUnitDiff.ml" 197 5828 5849
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 170 5117 5131 "src/oUnitDiff.ml" 170 5117 5134
+)
+"src/oUnitDiff.ml" 197 5828 5850 "src/oUnitDiff.ml" 197 5828 5851
+type(
+  int
+)
+"src/oUnitDiff.ml" 197 5828 5834 "src/oUnitDiff.ml" 197 5828 5851
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 198 5853 5859 "src/oUnitDiff.ml" 198 5853 5867
+type(
+  int -> D.t list -> D.t list -> unit
+)
+ident(
+  int_ref pp_diff' "src/oUnitDiff.ml" 171 5146 5158 "src/oUnitDiff.ml" 171 5146 5166
+)
+"src/oUnitDiff.ml" 198 5853 5868 "src/oUnitDiff.ml" 198 5853 5869
+type(
+  int
+)
+"src/oUnitDiff.ml" 198 5853 5870 "src/oUnitDiff.ml" 198 5853 5872
+type(
+  D.t list
+)
+ident(
+  int_ref t1 "src/oUnitDiff.ml" 170 5117 5136 "src/oUnitDiff.ml" 170 5117 5138
+)
+"src/oUnitDiff.ml" 198 5853 5873 "src/oUnitDiff.ml" 198 5853 5875
+type(
+  D.t list
+)
+ident(
+  int_ref t2 "src/oUnitDiff.ml" 170 5117 5140 "src/oUnitDiff.ml" 170 5117 5142
+)
+"src/oUnitDiff.ml" 198 5853 5859 "src/oUnitDiff.ml" 198 5853 5875
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 199 5877 5883 "src/oUnitDiff.ml" 199 5877 5895
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_close_box
+)
+"src/oUnitDiff.ml" 199 5877 5896 "src/oUnitDiff.ml" 199 5877 5899
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 170 5117 5131 "src/oUnitDiff.ml" 170 5117 5134
+)
+"src/oUnitDiff.ml" 199 5877 5900 "src/oUnitDiff.ml" 199 5877 5902
+type(
+  unit
+)
+"src/oUnitDiff.ml" 199 5877 5883 "src/oUnitDiff.ml" 199 5877 5902
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 198 5853 5859 "src/oUnitDiff.ml" 199 5877 5902
+type(
+  unit
+)
+"src/oUnitDiff.ml" 197 5828 5834 "src/oUnitDiff.ml" 199 5877 5902
+type(
+  unit
+)
+"src/oUnitDiff.ml" 171 5146 5150 "src/oUnitDiff.ml" 199 5877 5902
+type(
+  unit
+)
+"src/oUnitDiff.ml" 201 5904 5910 "src/oUnitDiff.ml" 201 5904 5922
+type(
+  ?msg:string -> D.t list -> D.t list -> unit
+)
+ident(
+  def assert_equal "src/oUnitDiff.ml" 204 5996 5998 "src/oUnitDiff.ml" 206 6024 6027
+)
+"src/oUnitDiff.ml" 201 5904 5924 "src/oUnitDiff.ml" 201 5904 5927
+type(
+  string option
+)
+ident(
+  def msg "src/oUnitDiff.ml" 201 5904 5928 "src/oUnitDiff.ml" 202 5938 5994
+)
+"src/oUnitDiff.ml" 201 5904 5928 "src/oUnitDiff.ml" 201 5904 5931
+type(
+  D.t list
+)
+ident(
+  def exp "src/oUnitDiff.ml" 201 5904 5932 "src/oUnitDiff.ml" 202 5938 5994
+)
+"src/oUnitDiff.ml" 201 5904 5932 "src/oUnitDiff.ml" 201 5904 5935
+type(
+  D.t list
+)
+ident(
+  def act "src/oUnitDiff.ml" 202 5938 5942 "src/oUnitDiff.ml" 202 5938 5994
+)
+"src/oUnitDiff.ml" 202 5938 5942 "src/oUnitDiff.ml" 202 5938 5954
+type(
+  ?msg:string ->
+  (D.t list -> D.t list -> int) ->
+  (Format.formatter -> D.t list -> unit) ->
+  (Format.formatter -> D.t list * D.t list -> unit) ->
+  D.t list -> D.t list -> unit
+)
+ident(
+  int_ref assert_equal "src/oUnitDiff.ml" 63 2833 2837 "src/oUnitDiff.ml" 63 2833 2849
+)
+"src/oUnitDiff.ml" 202 5938 5956 "src/oUnitDiff.ml" 202 5938 5959
+type(
+  string option
+)
+ident(
+  int_ref msg "src/oUnitDiff.ml" 201 5904 5924 "src/oUnitDiff.ml" 201 5904 5927
+)
+"src/oUnitDiff.ml" 202 5938 5960 "src/oUnitDiff.ml" 202 5938 5967
+type(
+  D.t list -> D.t list -> int
+)
+ident(
+  int_ref compare "src/oUnitDiff.ml" 135 4428 4438 "src/oUnitDiff.ml" 135 4428 4445
+)
+"src/oUnitDiff.ml" 202 5938 5968 "src/oUnitDiff.ml" 202 5938 5978
+type(
+  Format.formatter -> D.t list -> unit
+)
+ident(
+  int_ref pp_printer "src/oUnitDiff.ml" 167 5065 5071 "src/oUnitDiff.ml" 167 5065 5081
+)
+"src/oUnitDiff.ml" 202 5938 5979 "src/oUnitDiff.ml" 202 5938 5986
+type(
+  Format.formatter -> D.t list * D.t list -> unit
+)
+ident(
+  int_ref pp_diff "src/oUnitDiff.ml" 170 5117 5123 "src/oUnitDiff.ml" 170 5117 5130
+)
+"src/oUnitDiff.ml" 202 5938 5987 "src/oUnitDiff.ml" 202 5938 5990
+type(
+  D.t list
+)
+ident(
+  int_ref exp "src/oUnitDiff.ml" 201 5904 5928 "src/oUnitDiff.ml" 201 5904 5931
+)
+"src/oUnitDiff.ml" 202 5938 5991 "src/oUnitDiff.ml" 202 5938 5994
+type(
+  D.t list
+)
+ident(
+  int_ref act "src/oUnitDiff.ml" 201 5904 5932 "src/oUnitDiff.ml" 201 5904 5935
+)
+"src/oUnitDiff.ml" 202 5938 5942 "src/oUnitDiff.ml" 202 5938 5994
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitDiff.ml" 204 5996 6002 "src/oUnitDiff.ml" 204 5996 6009
+type(
+  'a -> 'a
+)
+ident(
+  def of_list "src/oUnitDiff.ml" 205 6016 6023 "src/oUnitDiff.ml" 206 6024 6027
+)
+"src/oUnitDiff.ml" 204 5996 6010 "src/oUnitDiff.ml" 204 5996 6013
+type(
+  'a
+)
+ident(
+  def lst "src/oUnitDiff.ml" 205 6016 6020 "src/oUnitDiff.ml" 205 6016 6023
+)
+"src/oUnitDiff.ml" 205 6016 6020 "src/oUnitDiff.ml" 205 6016 6023
+type(
+  'a
+)
+ident(
+  int_ref lst "src/oUnitDiff.ml" 204 5996 6010 "src/oUnitDiff.ml" 204 5996 6013
+)
+"src/oUnitDiff.ml" 208 6029 6033 "src/oUnitDiff.ml" 208 6029 6051
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  def pp_comma_separator "src/oUnitDiff.ml" 209 6061 6080 "src/oUnitDiff.ml" 1 0 -1
+)
+"src/oUnitDiff.ml" 208 6029 6052 "src/oUnitDiff.ml" 208 6029 6055
+type(
+  Format.formatter
+)
+ident(
+  def fmt "src/oUnitDiff.ml" 208 6029 6056 "src/oUnitDiff.ml" 209 6061 6080
+)
+"src/oUnitDiff.ml" 208 6029 6056 "src/oUnitDiff.ml" 208 6029 6058
+type(
+  unit
+)
+"src/oUnitDiff.ml" 209 6061 6063 "src/oUnitDiff.ml" 209 6061 6070
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/oUnitDiff.ml" 209 6061 6071 "src/oUnitDiff.ml" 209 6061 6074
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/oUnitDiff.ml" 208 6029 6052 "src/oUnitDiff.ml" 208 6029 6055
+)
+"src/oUnitDiff.ml" 209 6061 6075 "src/oUnitDiff.ml" 209 6061 6080
+type(
+  (unit, Format.formatter, unit) format
+)
+"src/oUnitDiff.ml" 209 6061 6063 "src/oUnitDiff.ml" 209 6061 6080
+call(
+  tail
+)
+type(
+  unit
+)

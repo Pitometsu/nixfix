@@ -1,0 +1,71 @@
+
+if $(THREADS_ENABLED)
+    lm_thread_core.ml: lm_thread_core_system.ml
+        ln-or-cp $< $@
+
+    lm_thread_pool.ml: lm_thread_pool_system.ml
+        ln-or-cp $< $@
+else
+    lm_thread_core.ml: lm_thread_core_null.ml
+        ln-or-cp $< $@
+
+    lm_thread_pool.ml: lm_thread_pool_null.ml
+        ln-or-cp $< $@
+
+OCamlGeneratedFiles(lm_thread_pool.ml lm_thread_core.ml)
+
+
+FILES[] =
+    lm_printf
+    lm_debug
+    lm_heap
+    lm_list_util
+    lm_array_util
+    lm_set_sig
+    lm_set
+    lm_map_sig
+    lm_map
+    lm_int_set
+    lm_termsize
+    lm_terminfo
+    lm_arg
+    lm_index
+    lm_thread_sig
+    lm_thread_core
+    lm_thread
+    lm_string_util
+    lm_string_set
+    # lm_hash_stat
+    # lm_coarse_hash
+    # lm_fine_hash
+    lm_hash
+    lm_hash_code
+    lm_symbol
+    lm_location
+    lm_position
+    lm_filename_util
+    lm_uname
+    lm_thread_pool
+    lm_channel
+    lm_unix_util
+    lm_db
+    lm_notify
+    lm_fs_case_sensitive
+    lm_wild
+    lm_readline
+    lm_marshal
+    lm_handle_table
+    lm_int_handle_table
+    lm_bitset
+    lm_instrument
+
+
+MakeOCamlLibrary(lm, $(FILES))
+
+clean:
+    $(CLEAN) 
+
+
+MakeLinkFile(lm_thread_pool.ml, lm_thread_pool_$'$(system)'.ml)
+MakeLinkFile(lm_thread_core.ml, lm_thread_core_$'$(system)'.ml)
+MakeMakefile()

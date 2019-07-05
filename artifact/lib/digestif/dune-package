@@ -1,0 +1,106 @@
+(lang dune 1.10)
+(name digestif)
+(version 0.7.2)
+(library
+ (name digestif)
+ (kind normal)
+ (virtual)
+ (foreign_archives (native digestif.a))
+ (requires eqaf)
+ (default_implementation digestif.c)
+ (modes byte native)
+ (modules
+  (modules
+   ((name Digestif)
+    (obj_name digestif)
+    (visibility public)
+    (kind virtual)
+    (intf)))
+  (wrapped false)))
+(library
+ (name digestif.c)
+ (kind normal)
+ (archives (byte c/digestif_c.cma) (native c/digestif_c.cmxa))
+ (plugins (byte c/digestif_c.cma) (native c/digestif_c.cmxs))
+ (foreign_archives (native c/digestif_c.a))
+ (requires digestif bigarray eqaf digestif.rakia)
+ (implements digestif)
+ (modes byte native)
+ (obj_dir (private_dir .private))
+ (modules
+  (modules
+   ((name Digestif) (obj_name digestif) (visibility public) (impl))
+   ((name Digestif_bi) (obj_name digestif_bi) (visibility private) (impl))
+   ((name Digestif_by) (obj_name digestif_by) (visibility private) (impl))
+   ((name Digestif_conv) (obj_name digestif_conv) (visibility private) (impl))
+   ((name Digestif_eq) (obj_name digestif_eq) (visibility private) (impl))
+   ((name Digestif_hash) (obj_name digestif_hash) (visibility private) (impl))
+   ((name Digestif_native)
+    (obj_name digestif_native)
+    (visibility private)
+    (impl)))
+  (wrapped false)))
+(library
+ (name digestif.rakia)
+ (kind normal)
+ (archives (byte rakia/rakia.cma) (native rakia/rakia.cmxa))
+ (plugins (byte rakia/rakia.cma) (native rakia/rakia.cmxs))
+ (foreign_objects
+  rakia/blake2b.o
+  rakia/blake2s.o
+  rakia/md5.o
+  rakia/misc.o
+  rakia/ripemd160.o
+  rakia/sha1.o
+  rakia/sha256.o
+  rakia/sha512.o
+  rakia/stubs.o
+  rakia/whirlpool.o)
+ (foreign_archives
+  (byte rakia/librakia_stubs.a)
+  (native rakia/rakia.a rakia/librakia_stubs.a))
+ (main_module_name Rakia)
+ (modes byte native)
+ (modules
+  (alias_module (name Rakia) (obj_name rakia) (visibility public) (impl))
+  (main_module_name Rakia)
+  (wrapped true)))
+(library
+ (name digestif.ocaml)
+ (kind normal)
+ (archives (byte ocaml/digestif_ocaml.cma) (native ocaml/digestif_ocaml.cmxa))
+ (plugins (byte ocaml/digestif_ocaml.cma) (native ocaml/digestif_ocaml.cmxs))
+ (foreign_archives (native ocaml/digestif_ocaml.a))
+ (requires digestif bigarray eqaf)
+ (implements digestif)
+ (modes byte native)
+ (obj_dir (private_dir .private))
+ (modules
+  (modules
+   ((name Baijiu_blake2b)
+    (obj_name baijiu_blake2b)
+    (visibility private)
+    (impl))
+   ((name Baijiu_blake2s)
+    (obj_name baijiu_blake2s)
+    (visibility private)
+    (impl))
+   ((name Baijiu_md5) (obj_name baijiu_md5) (visibility private) (impl))
+   ((name Baijiu_rmd160) (obj_name baijiu_rmd160) (visibility private) (impl))
+   ((name Baijiu_sha1) (obj_name baijiu_sha1) (visibility private) (impl))
+   ((name Baijiu_sha224) (obj_name baijiu_sha224) (visibility private) (impl))
+   ((name Baijiu_sha256) (obj_name baijiu_sha256) (visibility private) (impl))
+   ((name Baijiu_sha384) (obj_name baijiu_sha384) (visibility private) (impl))
+   ((name Baijiu_sha512) (obj_name baijiu_sha512) (visibility private) (impl))
+   ((name Baijiu_whirlpool)
+    (obj_name baijiu_whirlpool)
+    (visibility private)
+    (impl))
+   ((name Digestif) (obj_name digestif) (visibility public) (impl))
+   ((name Digestif_bi) (obj_name digestif_bi) (visibility private) (impl))
+   ((name Digestif_by) (obj_name digestif_by) (visibility private) (impl))
+   ((name Digestif_conv) (obj_name digestif_conv) (visibility private) (impl))
+   ((name Digestif_eq) (obj_name digestif_eq) (visibility private) (impl))
+   ((name Digestif_hash) (obj_name digestif_hash) (visibility private) (impl))
+   ((name Xor) (obj_name xor) (visibility private) (impl)))
+  (wrapped false)))

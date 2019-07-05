@@ -1,0 +1,6 @@
+name="ppx_curried_constr"
+version="1.4.1"
+description="PPX for curried variant constructors"
+requires=""
+ppx="./ppx_curried_constr"
+linkopts = ""

@@ -1,0 +1,22 @@
+(lang dune 1.10)
+(name ppx_typerep_conv)
+(version v0.11.0)
+(library
+ (name ppx_typerep_conv)
+ (kind ppx_deriver)
+ (archives (byte ppx_typerep_conv.cma) (native ppx_typerep_conv.cmxa))
+ (plugins (byte ppx_typerep_conv.cma) (native ppx_typerep_conv.cmxs))
+ (foreign_archives (native ppx_typerep_conv.a))
+ (requires base ppxlib)
+ (ppx_runtime_deps typerep)
+ (main_module_name Ppx_typerep_conv)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_typerep_conv)
+  (modules
+   ((name Ppx_typerep_conv)
+    (obj_name ppx_typerep_conv)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

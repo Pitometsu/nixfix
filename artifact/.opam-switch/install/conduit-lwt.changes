@@ -1,0 +1,20 @@
+added: [
+  "doc/conduit-lwt" {"D"}
+  "doc/conduit-lwt/CHANGES.md" {"F:S10380T1560961222.94"}
+  "doc/conduit-lwt/LICENSE.md" {"F:S769T1560961222.97"}
+  "doc/conduit-lwt/README.md" {"F:S1550T1560961223."}
+  "lib/conduit-lwt" {"D"}
+  "lib/conduit-lwt/META" {"F:S208T1560961222.54"}
+  "lib/conduit-lwt/conduit_lwt.a" {"F:S4254T1560961222.58"}
+  "lib/conduit-lwt/conduit_lwt.cma" {"F:S6657T1560961222.64"}
+  "lib/conduit-lwt/conduit_lwt.cmxa" {"F:S690T1560961222.66"}
+  "lib/conduit-lwt/conduit_lwt.cmxs" {"F:S10272T1560961222.68"}
+  "lib/conduit-lwt/dune-package" {"F:S456T1560961222.71"}
+  "lib/conduit-lwt/opam" {"F:S629T1560961222.74"}
+  "lib/conduit-lwt/resolver_lwt.cmi" {"F:S3979T1560961222.77"}
+  "lib/conduit-lwt/resolver_lwt.cmt" {"F:S12879T1560961222.8"}
+  "lib/conduit-lwt/resolver_lwt.cmti" {"F:S12936T1560961222.82"}
+  "lib/conduit-lwt/resolver_lwt.cmx" {"F:S2205T1560961222.84"}
+  "lib/conduit-lwt/resolver_lwt.ml" {"F:S1011T1560961222.87"}
+  "lib/conduit-lwt/resolver_lwt.mli" {"F:S1172T1560961222.91"}
+]

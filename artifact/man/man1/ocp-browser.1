@@ -1,0 +1,53 @@
+.\" Pipe this output to groff -Tutf8 | less
+.\"
+.mso an.tmac
+.TH "OCP-BROWSER" 1 "" "Ocp-browser" "Ocp-browser Manual"
+.\" Disable hyphenation and ragged-right
+.nh
+.ad l
+.SH NAME
+.P
+ocp\N'45'browser \N'45' Interactively completes and prints documentation\N'46'
+.SH SYNOPSIS
+.P
+\fBocp\N'45'browser\fR [\fIOPTION\fR]\N'46'\N'46'\N'46' 
+.SH DESCRIPTION
+.P
+See alt+h for help\N'46'
+.SH OPTIONS
+.TP 4
+\fB\N'45'\N'45'build\fR=\fIDIR\fR
+Set the current project build dir (default: try to guess)
+.TP 4
+\fB\N'45'c\fR \fIWHEN\fR, \fB\N'45'\N'45'color\fR=\fIWHEN\fR
+Colorize the output\N'46' \fIWHEN\fR is either `always\N'39', `never\N'39' or `auto\N'39'\N'46'
+.TP 4
+\fB\N'45'\N'45'context\fR=\fIFILEPOS\fR
+Will analyse the context at given FILE[:LINE[,COL]] to give appropriate answers w\N'46'r\N'46't open modules, etc\N'46' You can specify just `:\N'39' to read from stdin
+.TP 4
+\fB\N'45'F\fR \fIMODULES\fR, \fB\N'45'\N'45'full\N'45'open\fR=\fIMODULES\fR
+Like `\N'45'\N'45'open\N'39', but if the \N'46'cmt is available, load even the elements that would be restricted by the interface\N'46' Useful for the current file\N'46'
+.TP 4
+\fB\N'45'h\fR \fILIST\fR, \fB\N'45'\N'45'hide\fR=\fILIST\fR
+kinds of elements not to show in answers: \fILIST\fR is a comma\N'45'separated list of element kinds (see `\N'45'\N'45'show\N'39')
+.TP 4
+\fB\N'45'\N'45'help\fR[=\fIFMT\fR] (default=auto)
+Show this help in format \fIFMT\fR\N'46' The value \fIFMT\fR must be one of `auto\N'39', `pager\N'39', `groff\N'39' or `plain\N'39'\N'46' With `auto\N'39', the format is `pager` or `plain\N'39' whenever the \fBTERM\fR env var is `dumb\N'39' or undefined\N'46'
+.TP 4
+\fB\N'45'I\fR \fIDIRS\fR
+OCaml directories to (recursively) load the libraries from\N'46'
+.TP 4
+\fB\N'45'\N'45'no\N'45'opamlib\fR
+Don\N'39't include the OPAM library directory (`opam config var lib`) in lookups\N'46'
+.TP 4
+\fB\N'45'\N'45'no\N'45'stdlib\fR
+Don\N'39't include the OCaml standard library directory (`ocamlc \N'45'where`) in lookups\N'46'
+.TP 4
+\fB\N'45'O\fR \fIMODULES\fR, \fB\N'45'\N'45'open\fR=\fIMODULES\fR
+Consider the given (comma\N'45'separated list of) modules are opened for lookup\N'46'
+.TP 4
+\fB\N'45'\N'45'root\fR=\fIDIR\fR
+Set the current project root (default: try to guess)
+.TP 4
+\fB\N'45's\fR \fILIST\fR, \fB\N'45'\N'45'show\fR=\fILIST\fR
+Kinds of elements to show in answers: \fILIST\fR is a comma\N'45'separated list of `\fItypes\fR\N'39', `\fIvalues\fR\N'39' and methods, `\fIexceptions\fR\N'39', `\fIconstructs\fR\N'39' (record fields and sum type constructors), `\fImodules\fR\N'39' and classes, `\fIsigs\fR\N'39' (module and class types), `\fIkeywords\fR\N'39'\N'46' The default is \fBt,v,e,c,m,s,k\fR

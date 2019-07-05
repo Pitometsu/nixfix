@@ -1,0 +1,22 @@
+(lang dune 1.10)
+(name ppx_sexp_value)
+(version v0.11.0)
+(library
+ (name ppx_sexp_value)
+ (kind ppx_rewriter)
+ (archives (byte ppx_sexp_value.cma) (native ppx_sexp_value.cmxa))
+ (plugins (byte ppx_sexp_value.cma) (native ppx_sexp_value.cmxs))
+ (foreign_archives (native ppx_sexp_value.a))
+ (requires base ppxlib ppx_sexp_conv.expander ppx_here.expander)
+ (ppx_runtime_deps ppx_sexp_conv.runtime-lib)
+ (main_module_name Ppx_sexp_value)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_sexp_value)
+  (modules
+   ((name Ppx_sexp_value)
+    (obj_name ppx_sexp_value)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

@@ -1,0 +1,21 @@
+added: [
+  "doc/ppx_let" {"D"}
+  "doc/ppx_let/CHANGES.md" {"F:S509T1560961167.72"}
+  "doc/ppx_let/LICENSE.txt" {"F:S11358T1560961167.74"}
+  "doc/ppx_let/README.md" {"F:S4755T1560961167.76"}
+  "lib/ppx_let" {"D"}
+  "lib/ppx_let/META" {"F:S416T1560961166.62"}
+  "lib/ppx_let/dune-package" {"F:S456T1560961166.64"}
+  "lib/ppx_let/opam" {"F:S715T1560961166.68"}
+  "lib/ppx_let/ppx.exe" {"F:S16903128T1560961167.7"}
+  "lib/ppx_let/ppx_let.a" {"F:S35492T1560961166.72"}
+  "lib/ppx_let/ppx_let.cma" {"F:S57453T1560961166.82"}
+  "lib/ppx_let/ppx_let.cmi" {"F:S188T1560961167.52"}
+  "lib/ppx_let/ppx_let.cmt" {"F:S113053T1560961167.54"}
+  "lib/ppx_let/ppx_let.cmti" {"F:S2938T1560961167.56"}
+  "lib/ppx_let/ppx_let.cmx" {"F:S19948T1560961167.58"}
+  "lib/ppx_let/ppx_let.cmxa" {"F:S7302T1560961167.6"}
+  "lib/ppx_let/ppx_let.cmxs" {"F:S54656T1560961167.62"}
+  "lib/ppx_let/ppx_let.ml" {"F:S4574T1560961167.65"}
+  "lib/ppx_let/ppx_let.mli" {"F:S45T1560961167.67"}
+]

@@ -1,0 +1,31 @@
+added: [
+  "doc/eqaf" {"D"}
+  "doc/eqaf/CHANGES.md" {"F:S892T1560960932.92"}
+  "doc/eqaf/LICENSE.md" {"F:S1086T1560960932.94"}
+  "doc/eqaf/README.md" {"F:S3835T1560960932.97"}
+  "lib/eqaf" {"D"}
+  "lib/eqaf/META" {"F:S430T1560960932.17"}
+  "lib/eqaf/bigstring" {"D"}
+  "lib/eqaf/bigstring/eqaf_bigstring.a" {"F:S6914T1560960932.21"}
+  "lib/eqaf/bigstring/eqaf_bigstring.cma" {"F:S6626T1560960932.25"}
+  "lib/eqaf/bigstring/eqaf_bigstring.cmi" {"F:S573T1560960932.28"}
+  "lib/eqaf/bigstring/eqaf_bigstring.cmt" {"F:S15554T1560960932.32"}
+  "lib/eqaf/bigstring/eqaf_bigstring.cmti" {"F:S3345T1560960932.35"}
+  "lib/eqaf/bigstring/eqaf_bigstring.cmx" {"F:S715T1560960932.4"}
+  "lib/eqaf/bigstring/eqaf_bigstring.cmxa" {"F:S298T1560960932.44"}
+  "lib/eqaf/bigstring/eqaf_bigstring.cmxs" {"F:S15288T1560960932.46"}
+  "lib/eqaf/bigstring/eqaf_bigstring.ml" {"F:S800T1560960932.48"}
+  "lib/eqaf/bigstring/eqaf_bigstring.mli" {"F:S186T1560960932.5"}
+  "lib/eqaf/dune-package" {"F:S927T1560960932.53"}
+  "lib/eqaf/eqaf.a" {"F:S5358T1560960932.56"}
+  "lib/eqaf/eqaf.cma" {"F:S5809T1560960932.58"}
+  "lib/eqaf/eqaf.cmi" {"F:S296T1560960932.6"}
+  "lib/eqaf/eqaf.cmt" {"F:S16257T1560960932.62"}
+  "lib/eqaf/eqaf.cmti" {"F:S2393T1560960932.67"}
+  "lib/eqaf/eqaf.cmx" {"F:S514T1560960932.69"}
+  "lib/eqaf/eqaf.cmxa" {"F:S233T1560960932.74"}
+  "lib/eqaf/eqaf.cmxs" {"F:S14568T1560960932.77"}
+  "lib/eqaf/eqaf.ml" {"F:S2398T1560960932.79"}
+  "lib/eqaf/eqaf.mli" {"F:S86T1560960932.86"}
+  "lib/eqaf/opam" {"F:S876T1560960932.89"}
+]

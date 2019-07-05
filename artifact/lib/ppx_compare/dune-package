@@ -1,0 +1,65 @@
+(lang dune 1.10)
+(name ppx_compare)
+(version v0.11.0)
+(library
+ (name ppx_compare)
+ (kind ppx_deriver)
+ (archives (byte ppx_compare.cma) (native ppx_compare.cmxa))
+ (plugins (byte ppx_compare.cma) (native ppx_compare.cmxs))
+ (foreign_archives (native ppx_compare.a))
+ (requires ppxlib ppx_compare.expander)
+ (main_module_name Ppx_compare)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_compare)
+  (modules
+   ((name Ppx_compare)
+    (obj_name ppx_compare)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name ppx_compare.expander)
+ (kind normal)
+ (archives
+  (byte expander/ppx_compare_expander.cma)
+  (native expander/ppx_compare_expander.cmxa))
+ (plugins
+  (byte expander/ppx_compare_expander.cma)
+  (native expander/ppx_compare_expander.cmxs))
+ (foreign_archives (native expander/ppx_compare_expander.a))
+ (requires base ppxlib)
+ (ppx_runtime_deps ppx_compare.runtime-lib)
+ (main_module_name Ppx_compare_expander)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_compare_expander)
+  (modules
+   ((name Ppx_compare_expander)
+    (obj_name ppx_compare_expander)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name ppx_compare.runtime-lib)
+ (kind normal)
+ (archives
+  (byte runtime-lib/ppx_compare_lib.cma)
+  (native runtime-lib/ppx_compare_lib.cmxa))
+ (plugins
+  (byte runtime-lib/ppx_compare_lib.cma)
+  (native runtime-lib/ppx_compare_lib.cmxs))
+ (foreign_archives (native runtime-lib/ppx_compare_lib.a))
+ (requires base)
+ (main_module_name Ppx_compare_lib)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_compare_lib)
+  (modules
+   ((name Ppx_compare_lib)
+    (obj_name ppx_compare_lib)
+    (visibility public)
+    (impl)))
+  (wrapped true)))

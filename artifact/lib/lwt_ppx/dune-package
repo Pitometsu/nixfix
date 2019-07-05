@@ -1,0 +1,19 @@
+(lang dune 1.10)
+(name lwt_ppx)
+(version dev)
+(library
+ (name lwt_ppx)
+ (kind ppx_rewriter)
+ (synopsis "Lwt PPX syntax extension")
+ (archives (byte ppx_lwt.cma) (native ppx_lwt.cmxa))
+ (plugins (byte ppx_lwt.cma) (native ppx_lwt.cmxs))
+ (foreign_archives (native ppx_lwt.a))
+ (requires compiler-libs.common ocaml-migrate-parsetree ppx_tools_versioned)
+ (ppx_runtime_deps lwt)
+ (main_module_name Ppx_lwt)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_lwt)
+  (modules
+   ((name Ppx_lwt) (obj_name ppx_lwt) (visibility public) (impl) (intf)))
+  (wrapped true)))

@@ -1,0 +1,20 @@
+(lang dune 1.10)
+(name alcotest-lwt)
+(library
+ (name alcotest-lwt)
+ (kind normal)
+ (archives (byte alcotest_lwt.cma) (native alcotest_lwt.cmxa))
+ (plugins (byte alcotest_lwt.cma) (native alcotest_lwt.cmxs))
+ (foreign_archives (native alcotest_lwt.a))
+ (requires logs lwt.unix alcotest)
+ (main_module_name Alcotest_lwt)
+ (modes byte native)
+ (modules
+  (main_module_name Alcotest_lwt)
+  (modules
+   ((name Alcotest_lwt)
+    (obj_name alcotest_lwt)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

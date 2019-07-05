@@ -1,0 +1,124 @@
+-*- Mode: text; fill-column: 70 -*-
+
+UNIFIED BUILD SCRIPTS
+
+In version 0.10 the build scripts have changed a lot. In particular,
+the scripts have been unified and are now the same under Unix and
+Windows. Also, no external "make" or "nmake" utility is needed anymore.
+
+Under Unix, you can simply do now
+
+    ./configure && make && make install
+
+to install omake. The "configure" script takes a few arguments, see
+"./configure -help" for a list.
+
+Under Windows, the equivalent is (and this actually also works under Unix):
+
+    ocaml configure.ml
+    ocaml build.ml
+    ocaml build.ml -install
+
+The scripts are essentially the same, just wrapped in a little bit different
+way.
+
+
+INSTALLATION WITH EXPLICIT BOOTSTRAP
+
+omake is designed to build itself.  Of course you must be wondering
+how we build in the first place!
+
+If you already have a working copy of omake (for instance, by
+downloading and installing it from somewhere else like
+omake.metaprl.org), you can skip the bootstrap, and directly run:
+
+    ocaml build.ml -no-bootstrap
+
+which picks up the working copy of omake found in PATH.
+
+Otherwise, let's assume you do don't have omake already installed and
+you want to build it.
+
+-- Bootstrapping --
+
+Bootstrapping is done with the script "make.ml", which is actually
+implementing most of the functionality of a traditional Unix "make"
+utility. With the help of "make.ml", you can build a limited version
+of omake that you can then use to complete the install.
+
+   NOTE: The bootstrap uses the file src/Makefile
+   with default options, like CC=cc.  If something goes wrong, you can
+   edit these files by hand to suit your taste.  However, the
+   src/Makefiles are generated, and they will be clobbered when you
+   run omake for the first time.  To be safe, if you decide to modify
+   them, save your changes in some safe place, not /tmp.
+
+There is a build driver "build.ml" that runs "make.ml" with the right
+options:
+
+  ocaml build.ml -no-bootstrap -build
+  => Skip the bootstrap, and build omake with omake
+
+  ocaml build.ml -auto-bootstrap -build
+  => Do the bootstrap when necessary
+
+  ocaml build.ml -force-bootstrap -build
+  => Enforce the bootstrap
+
+The bootstrap is always followed by the regular omake build.
+
+-- Detailed configuration --
+
+omake maintains its own detailed configuration in the file .config.
+This file is written at the beginning of the regular build, but once
+it exists, it is not overwritten. You can modify it as you need it.
+
+-- Environment --
+
+Environment variables:
+ - PREFIX (make all, make install) specifies the prefix for OMake
+   installation (defaults to /usr/local)
+ - LIBDIR (make all, make install) specifies the location for OMake
+   library directory (defaults to $PREFIX/lib)
+ - BINDIR (make install) specifies the location for OMake binaries
+   (defaults to $PREFIX/bin)
+ - INSTALL_ROOT (make install) specifies a "packaging root" for the
+   installation. Namely, omake will be installed under 
+   $INSTALL_ROOT/$LIBDIR and $INSTALL_ROOT/$BINDIR, but the omake binary
+   will be compiled to look for its files under $LIBDIR.
+
+Please note that the first time OMake is built, the PREFIX, LIBDIR and
+BINDIR variables are wrtten into the .config file in the root of the 
+sources tree. If the .config file exists, then the variables present there
+have precedence over the environment variables.
+
+-- Win32 bootstrap --
+
+Win32 is supported both for the MinGW and for the MSVC toolchains-
+
+The native Win32 build is faster than a Cygwin executable; it is
+recommended.  However, no matter what you do, execution times on Win32
+will be substantially longer than on Unix (I'm not sure why; I'm
+guessing that Win32 is a pig).
+
+   NOTE: Note that if you call any native executable from a Cygwin
+   shell, and you signal it (for example, with control-C), Cygwin
+   immediately terminates the process.  This is a well-known problem
+   with Cygwin.  It also means that when you abort omake from a Cygwin
+   shell, it will not have a chance to save its work.  Next time you
+   run omake, it will have forgotten everything it did before you
+   aborted it.  Please complain to the Cygwin people at www.cygwin.com
+   if you would like this to change.  Please be nice.  They already
+   know about this issue.
+
+   One way to avoid this problem is to run omake from a dos-prompt.
+   You can also run osh in a console window if you want a usable
+   shell.
+
+-- Finishing the install --
+
+Do
+
+    ocaml build.ml -install
+
+to install omake.

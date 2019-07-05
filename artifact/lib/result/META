@@ -1,0 +1,6 @@
+description = ""
+requires = ""
+archive(byte) = "result.cma"
+archive(native) = "result.cmxa"
+plugin(byte) = "result.cma"
+plugin(native) = "result.cmxs"

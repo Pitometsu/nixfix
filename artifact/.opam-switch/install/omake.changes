@@ -1,0 +1,36 @@
+added: [
+  "bin/omake" {"F:S6937160T1560960960.36"}
+  "bin/osh" {"L:omake"}
+  "lib/omake" {"D"}
+  "lib/omake/OMakefile.default" {"F:S4022T1560960960.37"}
+  "lib/omake/OMakeroot.default" {"F:S1646T1560960960.37"}
+  "lib/omake/OMakeroot.om" {"F:S1437T1560960960.38"}
+  "lib/omake/Pervasives.om" {"F:S38063T1560960960.38"}
+  "lib/omake/build" {"D"}
+  "lib/omake/build/C.om" {"F:S25953T1560960960.38"}
+  "lib/omake/build/Common.om" {"F:S5830T1560960960.38"}
+  "lib/omake/build/LaTeX.om" {"F:S15582T1560960960.38"}
+  "lib/omake/build/OCaml.om" {"F:S49372T1560960960.38"}
+  "lib/omake/build/svn_realclean.om" {"F:S4047T1560960960.38"}
+  "lib/omake/configure" {"D"}
+  "lib/omake/configure/Configure.om" {"F:S11944T1560960960.39"}
+  "lib/omake/configure/X.om" {"F:S1224T1560960960.38"}
+  "lib/omake/configure/fam.om" {"F:S2212T1560960960.38"}
+  "lib/omake/configure/fs_case_sensitive.om" {"F:S1443T1560960960.39"}
+  "lib/omake/configure/moncontrol.om" {"F:S606T1560960960.39"}
+  "lib/omake/configure/ncurses.om" {"F:S1805T1560960960.39"}
+  "lib/omake/configure/posix_spawn.om" {"F:S616T1560960960.39"}
+  "lib/omake/configure/readline.om" {"F:S2045T1560960960.38"}
+  "lib/omake/configure/snprintf.om" {"F:S588T1560960960.39"}
+  "lib/omake/parse" {"D"}
+  "lib/omake/parse/C" {"D"}
+  "lib/omake/parse/C/Lex.om" {"F:S4476T1560960960.37"}
+  "lib/omake/parse/C/Parse.om" {"F:S119890T1560960960.37"}
+  "lib/omake/parse/LaTeX" {"D"}
+  "lib/omake/parse/LaTeX/Lex.om" {"F:S2494T1560960960.38"}
+  "lib/omake/parse/LaTeX/Macros.om" {"F:S1672T1560960960.38"}
+  "lib/omake/parse/LaTeX/Parse.om" {"F:S10055T1560960960.37"}
+  "lib/omake/parse/LaTeX/Spell.om" {"F:S2041T1560960960.38"}
+  "lib/omake/web" {"D"}
+  "lib/omake/web/simple-xml.om" {"F:S6021T1560960960.39"}
+]

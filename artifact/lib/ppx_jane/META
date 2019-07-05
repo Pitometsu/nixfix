@@ -1,0 +1,60 @@
+version = "v0.11.0"
+description = ""
+requires(ppx_driver) = "ppx_expect ppx_jane.kernel"
+archive(ppx_driver,byte) = "ppx_jane.cma"
+archive(ppx_driver,native) = "ppx_jane.cmxa"
+plugin(ppx_driver,byte) = "ppx_jane.cma"
+plugin(ppx_driver,native) = "ppx_jane.cmxs"
+# This line makes things transparent for people mixing preprocessors
+# and normal dependencies
+requires(-ppx_driver) = "bin_prot
+                         fieldslib
+                         ppx_assert.runtime-lib
+                         ppx_bench.runtime-lib
+                         ppx_compare.runtime-lib
+                         ppx_expect.collector
+                         ppx_hash.runtime-lib
+                         ppx_inline_test.runtime-lib
+                         ppx_sexp_conv.runtime-lib
+                         typerep
+                         variantslib"
+ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"
+package "kernel" (
+  directory = "kernel"
+  version = "v0.11.0"
+  description = ""
+  requires(ppx_driver) = "ppx_assert
+                          ppx_base
+                          ppx_bench
+                          ppx_bin_prot
+                          ppx_custom_printf
+                          ppx_fail
+                          ppx_fields_conv
+                          ppx_here
+                          ppx_inline_test
+                          ppx_let
+                          ppx_optcomp
+                          ppx_optional
+                          ppx_pipebang
+                          ppx_sexp_message
+                          ppx_sexp_value
+                          ppx_typerep_conv
+                          ppx_variants_conv"
+  archive(ppx_driver,byte) = "ppx_jane_kernel.cma"
+  archive(ppx_driver,native) = "ppx_jane_kernel.cmxa"
+  plugin(ppx_driver,byte) = "ppx_jane_kernel.cma"
+  plugin(ppx_driver,native) = "ppx_jane_kernel.cmxs"
+  # This line makes things transparent for people mixing preprocessors
+  # and normal dependencies
+  requires(-ppx_driver) = "bin_prot
+                           fieldslib
+                           ppx_assert.runtime-lib
+                           ppx_bench.runtime-lib
+                           ppx_compare.runtime-lib
+                           ppx_hash.runtime-lib
+                           ppx_inline_test.runtime-lib
+                           ppx_sexp_conv.runtime-lib
+                           typerep
+                           variantslib"
+  ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"
+)

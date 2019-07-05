@@ -1,0 +1,67 @@
+(lang dune 1.10)
+(name ipaddr)
+(version 3.1.0)
+(library
+ (name ipaddr)
+ (kind normal)
+ (archives (byte ipaddr.cma) (native ipaddr.cmxa))
+ (plugins (byte ipaddr.cma) (native ipaddr.cmxs))
+ (foreign_archives (native ipaddr.a))
+ (requires macaddr)
+ (main_module_name Ipaddr)
+ (modes byte native)
+ (modules
+  (main_module_name Ipaddr)
+  (modules
+   ((name Ipaddr) (obj_name ipaddr) (visibility public) (impl) (intf)))
+  (wrapped true)))
+(library
+ (name ipaddr.sexp)
+ (kind normal)
+ (archives (byte sexp/ipaddr_sexp.cma) (native sexp/ipaddr_sexp.cmxa))
+ (plugins (byte sexp/ipaddr_sexp.cma) (native sexp/ipaddr_sexp.cmxs))
+ (foreign_archives (native sexp/ipaddr_sexp.a))
+ (requires ipaddr sexplib0)
+ (main_module_name Ipaddr_sexp)
+ (modes byte native)
+ (modules
+  (main_module_name Ipaddr_sexp)
+  (modules
+   ((name Ipaddr_sexp)
+    (obj_name ipaddr_sexp)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name ipaddr.top)
+ (kind normal)
+ (archives (byte top/ipaddr_top.cma) (native top/ipaddr_top.cmxa))
+ (plugins (byte top/ipaddr_top.cma) (native top/ipaddr_top.cmxs))
+ (foreign_archives (native top/ipaddr_top.a))
+ (requires macaddr.top ipaddr compiler-libs)
+ (main_module_name Ipaddr_top)
+ (modes byte native)
+ (modules
+  (main_module_name Ipaddr_top)
+  (modules
+   ((name Ipaddr_top) (obj_name ipaddr_top) (visibility public) (impl) (intf)))
+  (wrapped true)))
+(library
+ (name ipaddr.unix)
+ (kind normal)
+ (archives (byte unix/ipaddr_unix.cma) (native unix/ipaddr_unix.cmxa))
+ (plugins (byte unix/ipaddr_unix.cma) (native unix/ipaddr_unix.cmxs))
+ (foreign_archives (native unix/ipaddr_unix.a))
+ (requires unix ipaddr)
+ (main_module_name Ipaddr_unix)
+ (modes byte native)
+ (modules
+  (main_module_name Ipaddr_unix)
+  (modules
+   ((name Ipaddr_unix)
+    (obj_name ipaddr_unix)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

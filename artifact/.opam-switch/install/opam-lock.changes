@@ -1,0 +1,10 @@
+added: [
+  "bin/opam-lock" {"F:S11891560T1560961139.46"}
+  "doc/opam-lock" {"D"}
+  "doc/opam-lock/LICENSE" {"F:S77306T1560961139.55"}
+  "doc/opam-lock/README.md" {"F:S1040T1560961139.57"}
+  "lib/opam-lock" {"D"}
+  "lib/opam-lock/META" {"F:S1T1560961139.48"}
+  "lib/opam-lock/dune-package" {"F:S48T1560961139.5"}
+  "lib/opam-lock/opam" {"F:S537T1560961139.52"}
+]

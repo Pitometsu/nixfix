@@ -1,0 +1,22 @@
+"migrate_register.ml" 1 0 4 "migrate_register.ml" 1 0 6
+type(
+  unit
+)
+"migrate_register.ml" 1 0 9 "migrate_register.ml" 1 0 21
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Ppx.register
+)
+"migrate_register.ml" 1 0 22 "migrate_register.ml" 1 0 24
+type(
+  unit
+)
+"migrate_register.ml" 1 0 9 "migrate_register.ml" 1 0 24
+call(
+  stack
+)
+type(
+  unit
+)

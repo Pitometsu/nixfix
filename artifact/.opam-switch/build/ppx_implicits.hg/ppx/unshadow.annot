@@ -1,0 +1,2245 @@
+"unshadow.ml" 9 100 104 "unshadow.ml" 9 100 114
+type(
+  Typpx.Compilerlib.Ident.t -> string
+)
+ident(
+  def conv_ident "unshadow.ml" 11 168 168 "unshadow.ml" 1 0 -1
+)
+"unshadow.ml" 9 100 115 "unshadow.ml" 9 100 117
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  def id "unshadow.ml" 9 100 120 "unshadow.ml" 9 100 166
+)
+"unshadow.ml" 9 100 120 "unshadow.ml" 9 100 124
+type(
+  string
+)
+"unshadow.ml" 9 100 125 "unshadow.ml" 9 100 126
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"unshadow.ml" 9 100 127 "unshadow.ml" 9 100 129
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "unshadow.ml" 9 100 115 "unshadow.ml" 9 100 117
+)
+"unshadow.ml" 9 100 127 "unshadow.ml" 9 100 134
+type(
+  string
+)
+"unshadow.ml" 9 100 135 "unshadow.ml" 9 100 136
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"unshadow.ml" 9 100 137 "unshadow.ml" 9 100 141
+type(
+  string
+)
+"unshadow.ml" 9 100 142 "unshadow.ml" 9 100 143
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"unshadow.ml" 9 100 144 "unshadow.ml" 9 100 157
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"unshadow.ml" 9 100 158 "unshadow.ml" 9 100 160
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "unshadow.ml" 9 100 115 "unshadow.ml" 9 100 117
+)
+"unshadow.ml" 9 100 158 "unshadow.ml" 9 100 166
+type(
+  int
+)
+"unshadow.ml" 9 100 144 "unshadow.ml" 9 100 166
+call(
+  stack
+)
+type(
+  string
+)
+"unshadow.ml" 9 100 137 "unshadow.ml" 9 100 166
+call(
+  stack
+)
+type(
+  string
+)
+"unshadow.ml" 9 100 127 "unshadow.ml" 9 100 166
+call(
+  stack
+)
+type(
+  string
+)
+"unshadow.ml" 9 100 120 "unshadow.ml" 9 100 166
+call(
+  tail
+)
+type(
+  string
+)
+"unshadow.ml" 11 168 176 "unshadow.ml" 11 168 193
+type(
+  Env.t ->
+  Typpx.Compilerlib.Path.t ->
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+ident(
+  def check_module_path "unshadow.ml" 11 168 168 "unshadow.ml" 1 0 -1
+)
+"unshadow.ml" 11 168 194 "unshadow.ml" 11 168 197
+type(
+  Env.t
+)
+ident(
+  def env "unshadow.ml" 11 168 198 "unshadow.ml" 30 978 983
+)
+"unshadow.ml" 11 168 198 "unshadow.ml" 11 168 202
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def path "unshadow.ml" 13 261 263 "unshadow.ml" 30 978 983
+)
+"unshadow.ml" 13 261 267 "unshadow.ml" 13 261 270
+type(
+  Longident.t
+)
+ident(
+  def lid "unshadow.ml" 14 306 308 "unshadow.ml" 30 978 983
+)
+"unshadow.ml" 13 261 273 "unshadow.ml" 13 261 297
+type(
+  Typpx.Compilerlib.Path.t -> Longident.t
+)
+ident(
+  ext_ref Untypeast.lident_of_path
+)
+"unshadow.ml" 13 261 298 "unshadow.ml" 13 261 302
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "unshadow.ml" 11 168 198 "unshadow.ml" 11 168 202
+)
+"unshadow.ml" 13 261 273 "unshadow.ml" 13 261 302
+call(
+  stack
+)
+type(
+  Longident.t
+)
+"unshadow.ml" 14 306 312 "unshadow.ml" 14 306 317
+type(
+  Path.t option
+)
+ident(
+  def path' "unshadow.ml" 15 407 409 "unshadow.ml" 30 978 983
+)
+"unshadow.ml" 14 306 330 "unshadow.ml" 14 306 347
+type(
+  load:bool -> ?loc:Location.t -> Longident.t -> Env.t -> Path.t
+)
+ident(
+  ext_ref Env.lookup_module
+)
+"unshadow.ml" 14 306 354 "unshadow.ml" 14 306 358
+type(
+  bool
+)
+"unshadow.ml" 14 306 379 "unshadow.ml" 14 306 382
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "unshadow.ml" 13 261 267 "unshadow.ml" 13 261 270
+)
+"unshadow.ml" 14 306 383 "unshadow.ml" 14 306 386
+type(
+  Env.t
+)
+ident(
+  int_ref env "unshadow.ml" 11 168 194 "unshadow.ml" 11 168 197
+)
+"unshadow.ml" 14 306 329 "unshadow.ml" 14 306 387
+call(
+  stack
+)
+type(
+  Path.t
+)
+"unshadow.ml" 14 306 324 "unshadow.ml" 14 306 387
+type(
+  Path.t option
+)
+"unshadow.ml" 14 306 393 "unshadow.ml" 14 306 394
+type(
+  exn
+)
+"unshadow.ml" 14 306 398 "unshadow.ml" 14 306 402
+type(
+  Path.t option
+)
+"unshadow.ml" 14 306 320 "unshadow.ml" 14 306 402
+type(
+  Path.t option
+)
+"unshadow.ml" 15 407 417 "unshadow.ml" 15 407 421
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "unshadow.ml" 11 168 198 "unshadow.ml" 11 168 202
+)
+"unshadow.ml" 15 407 412 "unshadow.ml" 15 407 421
+type(
+  Typpx.Compilerlib.Path.t option
+)
+"unshadow.ml" 15 407 422 "unshadow.ml" 15 407 423
+type(
+  Typpx.Compilerlib.Path.t option -> Typpx.Compilerlib.Path.t option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"unshadow.ml" 15 407 424 "unshadow.ml" 15 407 429
+type(
+  Typpx.Compilerlib.Path.t option
+)
+ident(
+  int_ref path' "unshadow.ml" 14 306 312 "unshadow.ml" 14 306 317
+)
+"unshadow.ml" 15 407 412 "unshadow.ml" 15 407 429
+type(
+  bool
+)
+"unshadow.ml" 15 407 447 "unshadow.ml" 15 407 450
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "unshadow.ml" 13 261 267 "unshadow.ml" 13 261 270
+)
+"unshadow.ml" 15 407 435 "unshadow.ml" 15 407 450
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 18 546 556 "unshadow.ml" 18 546 560
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "unshadow.ml" 11 168 198 "unshadow.ml" 11 168 202
+)
+"unshadow.ml" 19 566 579 "unshadow.ml" 19 566 581
+type(
+  Ident.t
+)
+ident(
+  def id "unshadow.ml" 20 586 594 "unshadow.ml" 22 655 694
+)
+"unshadow.ml" 19 566 572 "unshadow.ml" 19 566 581
+type(
+  Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 20 586 598 "unshadow.ml" 20 586 599
+type(
+  string
+)
+ident(
+  def n "unshadow.ml" 21 619 627 "unshadow.ml" 22 655 694
+)
+"unshadow.ml" 20 586 602 "unshadow.ml" 20 586 612
+type(
+  Typpx.Compilerlib.Ident.t -> string
+)
+ident(
+  int_ref conv_ident "unshadow.ml" 9 100 104 "unshadow.ml" 9 100 114
+)
+"unshadow.ml" 20 586 613 "unshadow.ml" 20 586 615
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "unshadow.ml" 19 566 579 "unshadow.ml" 19 566 581
+)
+"unshadow.ml" 20 586 602 "unshadow.ml" 20 586 615
+call(
+  stack
+)
+type(
+  string
+)
+"unshadow.ml" 21 619 631 "unshadow.ml" 21 619 634
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  def id' "unshadow.ml" 22 655 663 "unshadow.ml" 22 655 694
+)
+"unshadow.ml" 21 619 637 "unshadow.ml" 21 619 649
+type(
+  string -> Typpx.Compilerlib.Ident.t
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ident.create
+)
+"unshadow.ml" 21 619 650 "unshadow.ml" 21 619 651
+type(
+  string
+)
+ident(
+  int_ref n "unshadow.ml" 20 586 598 "unshadow.ml" 20 586 599
+)
+"unshadow.ml" 21 619 637 "unshadow.ml" 21 619 651
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Ident.t
+)
+"unshadow.ml" 22 655 674 "unshadow.ml" 22 655 676
+type(
+  Ident.t
+)
+ident(
+  int_ref id "unshadow.ml" 19 566 579 "unshadow.ml" 19 566 581
+)
+"unshadow.ml" 22 655 678 "unshadow.ml" 22 655 681
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id' "unshadow.ml" 21 619 631 "unshadow.ml" 21 619 634
+)
+"unshadow.ml" 22 655 690 "unshadow.ml" 22 655 693
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id' "unshadow.ml" 21 619 631 "unshadow.ml" 21 619 634
+)
+"unshadow.ml" 22 655 683 "unshadow.ml" 22 655 693
+type(
+  Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 22 655 673 "unshadow.ml" 22 655 694
+type(
+  Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 22 655 663 "unshadow.ml" 22 655 694
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 21 619 627 "unshadow.ml" 22 655 694
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 20 586 594 "unshadow.ml" 22 655 694
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 23 695 707 "unshadow.ml" 23 695 708
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def p "unshadow.ml" 24 720 728 "unshadow.ml" 28 934 941
+)
+"unshadow.ml" 23 695 710 "unshadow.ml" 23 695 711
+type(
+  string
+)
+ident(
+  def n "unshadow.ml" 24 720 728 "unshadow.ml" 28 934 941
+)
+"unshadow.ml" 23 695 713 "unshadow.ml" 23 695 714
+type(
+  int
+)
+ident(
+  def x "unshadow.ml" 24 720 728 "unshadow.ml" 28 934 941
+)
+"unshadow.ml" 23 695 701 "unshadow.ml" 23 695 715
+type(
+  Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 24 720 740 "unshadow.ml" 24 720 757
+type(
+  Env.t ->
+  Typpx.Compilerlib.Path.t ->
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+ident(
+  int_ref check_module_path "unshadow.ml" 11 168 176 "unshadow.ml" 11 168 193
+)
+"unshadow.ml" 24 720 758 "unshadow.ml" 24 720 761
+type(
+  Env.t
+)
+ident(
+  int_ref env "unshadow.ml" 11 168 194 "unshadow.ml" 11 168 197
+)
+"unshadow.ml" 24 720 762 "unshadow.ml" 24 720 763
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref p "unshadow.ml" 23 695 707 "unshadow.ml" 23 695 708
+)
+"unshadow.ml" 24 720 740 "unshadow.ml" 24 720 763
+call(
+  stack
+)
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 25 769 790 "unshadow.ml" 25 769 792
+type(
+  Ident.t
+)
+ident(
+  def id "unshadow.ml" 25 769 806 "unshadow.ml" 25 769 842
+)
+"unshadow.ml" 25 769 794 "unshadow.ml" 25 769 798
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  def name "unshadow.ml" 25 769 806 "unshadow.ml" 25 769 842
+)
+"unshadow.ml" 25 769 800 "unshadow.ml" 25 769 801
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def p "unshadow.ml" 25 769 806 "unshadow.ml" 25 769 842
+)
+"unshadow.ml" 25 769 789 "unshadow.ml" 25 769 802
+type(
+  Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 25 769 779 "unshadow.ml" 25 769 802
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 25 769 817 "unshadow.ml" 25 769 819
+type(
+  Ident.t
+)
+ident(
+  int_ref id "unshadow.ml" 25 769 790 "unshadow.ml" 25 769 792
+)
+"unshadow.ml" 25 769 821 "unshadow.ml" 25 769 825
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref name "unshadow.ml" 25 769 794 "unshadow.ml" 25 769 798
+)
+"unshadow.ml" 25 769 833 "unshadow.ml" 25 769 834
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref p "unshadow.ml" 25 769 800 "unshadow.ml" 25 769 801
+)
+"unshadow.ml" 25 769 836 "unshadow.ml" 25 769 837
+type(
+  string
+)
+ident(
+  int_ref n "unshadow.ml" 23 695 710 "unshadow.ml" 23 695 711
+)
+"unshadow.ml" 25 769 839 "unshadow.ml" 25 769 840
+type(
+  int
+)
+ident(
+  int_ref x "unshadow.ml" 23 695 713 "unshadow.ml" 23 695 714
+)
+"unshadow.ml" 25 769 827 "unshadow.ml" 25 769 841
+type(
+  Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 25 769 816 "unshadow.ml" 25 769 842
+type(
+  Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 25 769 806 "unshadow.ml" 25 769 842
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 26 843 865 "unshadow.ml" 26 843 866
+type(
+  Longident.t
+)
+"unshadow.ml" 26 843 853 "unshadow.ml" 26 843 866
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 26 843 877 "unshadow.ml" 26 843 882
+type(
+  bool
+)
+"unshadow.ml" 26 843 870 "unshadow.ml" 26 843 882
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 27 895 916 "unshadow.ml" 27 895 917
+type(
+  'a
+)
+ident(
+  def p "unshadow.ml" 27 895 921 "unshadow.ml" 27 895 933
+)
+"unshadow.ml" 27 895 905 "unshadow.ml" 27 895 917
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 27 895 932 "unshadow.ml" 27 895 933
+type(
+  'a
+)
+ident(
+  int_ref p "unshadow.ml" 27 895 916 "unshadow.ml" 27 895 917
+)
+"unshadow.ml" 27 895 921 "unshadow.ml" 27 895 933
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 24 720 728 "unshadow.ml" 28 934 941
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 29 942 948 "unshadow.ml" 29 942 949
+type(
+  Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 29 942 960 "unshadow.ml" 29 942 965
+type(
+  bool
+)
+"unshadow.ml" 29 942 953 "unshadow.ml" 29 942 965
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 16 451 458 "unshadow.ml" 30 978 983
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 15 407 409 "unshadow.ml" 30 978 983
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 14 306 308 "unshadow.ml" 30 978 983
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 13 261 263 "unshadow.ml" 30 978 983
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 32 985 989 "unshadow.ml" 32 985 996
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ref
+)
+ident(
+  def aliases "unshadow.ml" 35 1120 1120 "unshadow.ml" 1 0 -1
+)
+"unshadow.ml" 32 985 999 "unshadow.ml" 32 985 1002
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ->
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"unshadow.ml" 32 985 1004 "unshadow.ml" 32 985 1006
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list
+)
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list
+)
+"unshadow.ml" 32 985 999 "unshadow.ml" 32 985 1033
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ref
+)
+"unshadow.ml" 35 1120 1124 "unshadow.ml" 35 1120 1129
+type(
+  unit -> unit
+)
+ident(
+  def reset "unshadow.ml" 37 1150 1150 "unshadow.ml" 1 0 -1
+)
+"unshadow.ml" 35 1120 1130 "unshadow.ml" 35 1120 1132
+type(
+  unit
+)
+"unshadow.ml" 35 1120 1135 "unshadow.ml" 35 1120 1142
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ref
+)
+ident(
+  int_ref aliases "unshadow.ml" 32 985 989 "unshadow.ml" 32 985 996
+)
+"unshadow.ml" 35 1120 1143 "unshadow.ml" 35 1120 1145
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ref ->
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"unshadow.ml" 35 1120 1146 "unshadow.ml" 35 1120 1148
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list
+)
+"unshadow.ml" 35 1120 1135 "unshadow.ml" 35 1120 1148
+type(
+  unit
+)
+"unshadow.ml" 45 1308 1316 "unshadow.ml" 45 1308 1332
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def enter_expression "unshadow.ml" 72 2439 2453 "unshadow.ml" 73 2454 2459
+)
+"unshadow.ml" 45 1308 1333 "unshadow.ml" 45 1308 1334
+type(
+  Typedtree.expression
+)
+ident(
+  def e "unshadow.ml" 45 1308 1337 "unshadow.ml" 72 2439 2453
+)
+"unshadow.ml" 45 1308 1343 "unshadow.ml" 45 1308 1344
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "unshadow.ml" 45 1308 1333 "unshadow.ml" 45 1308 1334
+)
+"unshadow.ml" 45 1308 1343 "unshadow.ml" 45 1308 1353
+type(
+  Typedtree.expression_desc
+)
+"unshadow.ml" 46 1359 1379 "unshadow.ml" 46 1359 1380
+type(
+  Path.t
+)
+ident(
+  def p "unshadow.ml" 47 1396 1406 "unshadow.ml" 71 2425 2438
+)
+"unshadow.ml" 46 1359 1383 "unshadow.ml" 46 1359 1386
+type(
+  Location.t
+)
+ident(
+  def loc "unshadow.ml" 47 1396 1406 "unshadow.ml" 71 2425 2438
+)
+"unshadow.ml" 46 1359 1382 "unshadow.ml" 46 1359 1387
+type(
+  Longident.t Asttypes.loc
+)
+"unshadow.ml" 46 1359 1389 "unshadow.ml" 46 1359 1391
+type(
+  Types.value_description
+)
+ident(
+  def vd "unshadow.ml" 47 1396 1406 "unshadow.ml" 71 2425 2438
+)
+"unshadow.ml" 46 1359 1367 "unshadow.ml" 46 1359 1392
+type(
+  Typedtree.expression_desc
+)
+"unshadow.ml" 47 1396 1410 "unshadow.ml" 47 1396 1413
+type(
+  Env.t
+)
+ident(
+  def env "unshadow.ml" 48 1429 1439 "unshadow.ml" 71 2425 2438
+)
+"unshadow.ml" 47 1396 1416 "unshadow.ml" 47 1396 1417
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "unshadow.ml" 45 1308 1333 "unshadow.ml" 45 1308 1334
+)
+"unshadow.ml" 47 1396 1416 "unshadow.ml" 47 1396 1425
+type(
+  Env.t
+)
+"unshadow.ml" 48 1429 1451 "unshadow.ml" 48 1429 1452
+type(
+  Path.t
+)
+ident(
+  int_ref p "unshadow.ml" 46 1359 1379 "unshadow.ml" 46 1359 1380
+)
+"unshadow.ml" 49 1458 1481 "unshadow.ml" 49 1458 1482
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def p "unshadow.ml" 50 1493 1507 "unshadow.ml" 60 2038 2055
+)
+"unshadow.ml" 49 1458 1484 "unshadow.ml" 49 1458 1485
+type(
+  string
+)
+ident(
+  def n "unshadow.ml" 50 1493 1507 "unshadow.ml" 60 2038 2055
+)
+"unshadow.ml" 49 1458 1487 "unshadow.ml" 49 1458 1488
+type(
+  int
+)
+ident(
+  def i "unshadow.ml" 50 1493 1507 "unshadow.ml" 60 2038 2055
+)
+"unshadow.ml" 49 1458 1470 "unshadow.ml" 49 1458 1489
+type(
+  Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 50 1493 1519 "unshadow.ml" 50 1493 1536
+type(
+  Env.t ->
+  Typpx.Compilerlib.Path.t ->
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+ident(
+  int_ref check_module_path "unshadow.ml" 11 168 176 "unshadow.ml" 11 168 193
+)
+"unshadow.ml" 50 1493 1537 "unshadow.ml" 50 1493 1540
+type(
+  Env.t
+)
+ident(
+  int_ref env "unshadow.ml" 47 1396 1410 "unshadow.ml" 47 1396 1413
+)
+"unshadow.ml" 50 1493 1541 "unshadow.ml" 50 1493 1542
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref p "unshadow.ml" 49 1458 1481 "unshadow.ml" 49 1458 1482
+)
+"unshadow.ml" 50 1493 1519 "unshadow.ml" 50 1493 1542
+call(
+  stack
+)
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'a
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 51 1548 1576 "unshadow.ml" 51 1548 1577
+type(
+  Longident.t
+)
+"unshadow.ml" 51 1548 1564 "unshadow.ml" 51 1548 1577
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'b
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 51 1548 1581 "unshadow.ml" 51 1548 1582
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "unshadow.ml" 45 1308 1333 "unshadow.ml" 45 1308 1334
+)
+"unshadow.ml" 52 1583 1610 "unshadow.ml" 52 1583 1612
+type(
+  'b
+)
+ident(
+  def _p "unshadow.ml" 53 1616 1634 "unshadow.ml" 54 1719 1749
+)
+"unshadow.ml" 52 1583 1599 "unshadow.ml" 52 1583 1612
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'b
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 53 1616 1634 "unshadow.ml" 53 1616 1637
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"unshadow.ml" 53 1616 1638 "unshadow.ml" 53 1616 1702
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format
+)
+"unshadow.ml" 53 1616 1634 "unshadow.ml" 53 1616 1702
+type(
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+"unshadow.ml" 53 1616 1703 "unshadow.ml" 53 1616 1714
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"unshadow.ml" 53 1616 1715 "unshadow.ml" 53 1616 1716
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref p "unshadow.ml" 49 1458 1481 "unshadow.ml" 49 1458 1482
+)
+"unshadow.ml" 53 1616 1634 "unshadow.ml" 53 1616 1716
+call(
+  stack
+)
+type(
+  unit
+)
+"unshadow.ml" 54 1719 1744 "unshadow.ml" 54 1719 1749
+type(
+  bool
+)
+"unshadow.ml" 54 1719 1737 "unshadow.ml" 54 1719 1749
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 53 1616 1634 "unshadow.ml" 54 1719 1749
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 55 1762 1789 "unshadow.ml" 55 1762 1791
+type(
+  Ident.t
+)
+ident(
+  def id "unshadow.ml" 56 1804 1822 "unshadow.ml" 59 1963 2037
+)
+"unshadow.ml" 55 1762 1793 "unshadow.ml" 55 1762 1796
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  def id' "unshadow.ml" 56 1804 1822 "unshadow.ml" 59 1963 2037
+)
+"unshadow.ml" 55 1762 1798 "unshadow.ml" 55 1762 1799
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def p "unshadow.ml" 56 1804 1822 "unshadow.ml" 59 1963 2037
+)
+"unshadow.ml" 55 1762 1788 "unshadow.ml" 55 1762 1800
+type(
+  Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 55 1762 1778 "unshadow.ml" 55 1762 1800
+type(
+  [ `Accessible of Longident.t
+  | `Not_found of 'b
+  | `Shadowed of
+      Ident.t * Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Path.t ]
+)
+"unshadow.ml" 56 1804 1822 "unshadow.ml" 56 1804 1829
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ref
+)
+ident(
+  int_ref aliases "unshadow.ml" 32 985 989 "unshadow.ml" 32 985 996
+)
+"unshadow.ml" 56 1804 1830 "unshadow.ml" 56 1804 1832
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ref ->
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"unshadow.ml" 56 1804 1834 "unshadow.ml" 56 1804 1836
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "unshadow.ml" 55 1762 1789 "unshadow.ml" 55 1762 1791
+)
+"unshadow.ml" 56 1804 1838 "unshadow.ml" 56 1804 1841
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id' "unshadow.ml" 55 1762 1793 "unshadow.ml" 55 1762 1796
+)
+"unshadow.ml" 56 1804 1833 "unshadow.ml" 56 1804 1842
+type(
+  Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t
+)
+"unshadow.ml" 56 1804 1846 "unshadow.ml" 56 1804 1847
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ref ->
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"unshadow.ml" 56 1804 1847 "unshadow.ml" 56 1804 1854
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ref
+)
+ident(
+  int_ref aliases "unshadow.ml" 32 985 989 "unshadow.ml" 32 985 996
+)
+"unshadow.ml" 56 1804 1846 "unshadow.ml" 56 1804 1854
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list
+)
+"unshadow.ml" 56 1804 1833 "unshadow.ml" 56 1804 1854
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list
+)
+"unshadow.ml" 56 1804 1822 "unshadow.ml" 56 1804 1854
+type(
+  unit
+)
+"unshadow.ml" 57 1856 1878 "unshadow.ml" 57 1856 1879
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def p "unshadow.ml" 58 1905 1923 "unshadow.ml" 59 1963 2037
+)
+"unshadow.ml" 57 1856 1893 "unshadow.ml" 57 1856 1894
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref p "unshadow.ml" 55 1762 1798 "unshadow.ml" 55 1762 1799
+)
+"unshadow.ml" 57 1856 1896 "unshadow.ml" 57 1856 1897
+type(
+  string
+)
+ident(
+  int_ref n "unshadow.ml" 49 1458 1484 "unshadow.ml" 49 1458 1485
+)
+"unshadow.ml" 57 1856 1899 "unshadow.ml" 57 1856 1900
+type(
+  int
+)
+ident(
+  int_ref i "unshadow.ml" 49 1458 1487 "unshadow.ml" 49 1458 1488
+)
+"unshadow.ml" 57 1856 1882 "unshadow.ml" 57 1856 1901
+type(
+  Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 58 1905 1927 "unshadow.ml" 58 1905 1930
+type(
+  Longident.t
+)
+ident(
+  def lid "unshadow.ml" 59 1963 1981 "unshadow.ml" 59 1963 2037
+)
+"unshadow.ml" 58 1905 1933 "unshadow.ml" 58 1905 1957
+type(
+  Typpx.Compilerlib.Path.t -> Longident.t
+)
+ident(
+  ext_ref Untypeast.lident_of_path
+)
+"unshadow.ml" 58 1905 1958 "unshadow.ml" 58 1905 1959
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref p "unshadow.ml" 57 1856 1878 "unshadow.ml" 57 1856 1879
+)
+"unshadow.ml" 58 1905 1933 "unshadow.ml" 58 1905 1959
+call(
+  stack
+)
+type(
+  Longident.t
+)
+"unshadow.ml" 59 1963 1983 "unshadow.ml" 59 1963 1984
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "unshadow.ml" 45 1308 1333 "unshadow.ml" 45 1308 1334
+)
+"unshadow.ml" 59 1963 2013 "unshadow.ml" 59 1963 2014
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref p "unshadow.ml" 57 1856 1878 "unshadow.ml" 57 1856 1879
+)
+"unshadow.ml" 59 1963 2021 "unshadow.ml" 59 1963 2024
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "unshadow.ml" 58 1905 1927 "unshadow.ml" 58 1905 1930
+)
+"unshadow.ml" 59 1963 2026 "unshadow.ml" 59 1963 2029
+type(
+  Location.t
+)
+ident(
+  int_ref loc "unshadow.ml" 46 1359 1383 "unshadow.ml" 46 1359 1386
+)
+"unshadow.ml" 59 1963 2016 "unshadow.ml" 59 1963 2030
+type(
+  Longident.t Asttypes.loc
+)
+"unshadow.ml" 59 1963 2032 "unshadow.ml" 59 1963 2034
+type(
+  Types.value_description
+)
+ident(
+  int_ref vd "unshadow.ml" 46 1359 1389 "unshadow.ml" 46 1359 1391
+)
+"unshadow.ml" 59 1963 2001 "unshadow.ml" 59 1963 2035
+type(
+  Typedtree.expression_desc
+)
+"unshadow.ml" 59 1963 1981 "unshadow.ml" 59 1963 2037
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 58 1905 1923 "unshadow.ml" 59 1963 2037
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 57 1856 1874 "unshadow.ml" 59 1963 2037
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 56 1804 1822 "unshadow.ml" 59 1963 2037
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 50 1493 1507 "unshadow.ml" 60 2038 2055
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 61 2056 2080 "unshadow.ml" 61 2056 2081
+type(
+  Ident.t
+)
+"unshadow.ml" 61 2056 2068 "unshadow.ml" 61 2056 2081
+type(
+  Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 62 2085 2103 "unshadow.ml" 62 2085 2106
+type(
+  Longident.t
+)
+ident(
+  def lid "unshadow.ml" 63 2139 2153 "unshadow.ml" 69 2365 2382
+)
+"unshadow.ml" 62 2085 2109 "unshadow.ml" 62 2085 2133
+type(
+  Path.t -> Longident.t
+)
+ident(
+  ext_ref Untypeast.lident_of_path
+)
+"unshadow.ml" 62 2085 2134 "unshadow.ml" 62 2085 2135
+type(
+  Path.t
+)
+ident(
+  int_ref p "unshadow.ml" 46 1359 1379 "unshadow.ml" 46 1359 1380
+)
+"unshadow.ml" 62 2085 2109 "unshadow.ml" 62 2085 2135
+call(
+  stack
+)
+type(
+  Longident.t
+)
+"unshadow.ml" 65 2179 2201 "unshadow.ml" 65 2179 2203
+type(
+  Path.t
+)
+ident(
+  def p' "unshadow.ml" 66 2237 2255 "unshadow.ml" 67 2272 2291
+)
+"unshadow.ml" 65 2179 2205 "unshadow.ml" 65 2179 2206
+type(
+  Types.value_description
+)
+"unshadow.ml" 65 2179 2201 "unshadow.ml" 65 2179 2206
+type(
+  Path.t * Types.value_description
+)
+"unshadow.ml" 65 2179 2209 "unshadow.ml" 65 2179 2225
+type(
+  ?loc:Location.t -> Longident.t -> Env.t -> Path.t * Types.value_description
+)
+ident(
+  ext_ref Env.lookup_value
+)
+"unshadow.ml" 65 2179 2226 "unshadow.ml" 65 2179 2229
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "unshadow.ml" 62 2085 2103 "unshadow.ml" 62 2085 2106
+)
+"unshadow.ml" 65 2179 2230 "unshadow.ml" 65 2179 2233
+type(
+  Env.t
+)
+ident(
+  int_ref env "unshadow.ml" 47 1396 1410 "unshadow.ml" 47 1396 1413
+)
+"unshadow.ml" 65 2179 2209 "unshadow.ml" 65 2179 2233
+call(
+  stack
+)
+type(
+  Path.t * Types.value_description
+)
+"unshadow.ml" 66 2237 2263 "unshadow.ml" 66 2237 2264
+type(
+  Path.t
+)
+ident(
+  int_ref p "unshadow.ml" 46 1359 1379 "unshadow.ml" 46 1359 1380
+)
+"unshadow.ml" 66 2237 2265 "unshadow.ml" 66 2237 2266
+type(
+  Path.t -> Path.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"unshadow.ml" 66 2237 2267 "unshadow.ml" 66 2237 2269
+type(
+  Path.t
+)
+ident(
+  int_ref p' "unshadow.ml" 65 2179 2201 "unshadow.ml" 65 2179 2203
+)
+"unshadow.ml" 66 2237 2262 "unshadow.ml" 66 2237 2270
+type(
+  bool
+)
+"unshadow.ml" 66 2237 2255 "unshadow.ml" 66 2237 2270
+type(
+  unit
+)
+"unshadow.ml" 67 2272 2290 "unshadow.ml" 67 2272 2291
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "unshadow.ml" 45 1308 1333 "unshadow.ml" 45 1308 1334
+)
+"unshadow.ml" 66 2237 2255 "unshadow.ml" 67 2272 2291
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 65 2179 2197 "unshadow.ml" 67 2272 2291
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 68 2292 2313 "unshadow.ml" 68 2292 2322
+type(
+  exn
+)
+"unshadow.ml" 68 2292 2326 "unshadow.ml" 68 2292 2327
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "unshadow.ml" 45 1308 1333 "unshadow.ml" 45 1308 1334
+)
+"unshadow.ml" 63 2139 2153 "unshadow.ml" 69 2365 2382
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 62 2085 2099 "unshadow.ml" 69 2365 2382
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 70 2383 2395 "unshadow.ml" 70 2383 2396
+type(
+  Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 70 2383 2407 "unshadow.ml" 70 2383 2412
+type(
+  bool
+)
+"unshadow.ml" 70 2383 2400 "unshadow.ml" 70 2383 2412
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 48 1429 1439 "unshadow.ml" 71 2425 2438
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 47 1396 1406 "unshadow.ml" 71 2425 2438
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 72 2439 2447 "unshadow.ml" 72 2439 2448
+type(
+  Typedtree.expression_desc
+)
+"unshadow.ml" 72 2439 2452 "unshadow.ml" 72 2439 2453
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "unshadow.ml" 45 1308 1333 "unshadow.ml" 45 1308 1334
+)
+"unshadow.ml" 45 1308 1337 "unshadow.ml" 72 2439 2453
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 75 2463 2478 "unshadow.ml" 75 2463 2506
+call(
+  stack
+)
+"unshadow.ml" 77 2508 2514 "unshadow.ml" 77 2508 2521
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def replace "unshadow.ml" 77 2508 2546 "unshadow.ml" 78 2547 2550
+)
+"unshadow.ml" 77 2508 2522 "unshadow.ml" 77 2508 2523
+type(
+  Typedtree.expression
+)
+ident(
+  def e "unshadow.ml" 77 2508 2526 "unshadow.ml" 77 2508 2546
+)
+"unshadow.ml" 77 2508 2526 "unshadow.ml" 77 2508 2544
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Map.map_expression
+)
+"unshadow.ml" 77 2508 2545 "unshadow.ml" 77 2508 2546
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "unshadow.ml" 77 2508 2522 "unshadow.ml" 77 2508 2523
+)
+"unshadow.ml" 77 2508 2526 "unshadow.ml" 77 2508 2546
+call(
+  tail
+)
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 107 3041 3049 "unshadow.ml" 107 3041 3065
+type(
+  Typedtree.expression -> Typedtree.expression
+)
+ident(
+  def enter_expression "unshadow.ml" 119 3433 3437 "unshadow.ml" 148 4513 4518
+)
+"unshadow.ml" 107 3041 3066 "unshadow.ml" 107 3041 3067
+type(
+  Typedtree.expression
+)
+ident(
+  def e "unshadow.ml" 107 3041 3070 "unshadow.ml" 117 3415 3429
+)
+"unshadow.ml" 107 3041 3076 "unshadow.ml" 107 3041 3077
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "unshadow.ml" 107 3041 3066 "unshadow.ml" 107 3041 3067
+)
+"unshadow.ml" 107 3041 3076 "unshadow.ml" 107 3041 3086
+type(
+  Typedtree.expression_desc
+)
+"unshadow.ml" 108 3092 3116 "unshadow.ml" 108 3092 3118
+type(
+  Ident.t
+)
+ident(
+  def id "unshadow.ml" 109 3133 3143 "unshadow.ml" 116 3401 3414
+)
+"unshadow.ml" 108 3092 3120 "unshadow.ml" 108 3092 3121
+type(
+  string Asttypes.loc
+)
+ident(
+  def a "unshadow.ml" 109 3133 3143 "unshadow.ml" 116 3401 3414
+)
+"unshadow.ml" 108 3092 3123 "unshadow.ml" 108 3092 3124
+type(
+  Typedtree.module_expr
+)
+ident(
+  def b "unshadow.ml" 109 3133 3143 "unshadow.ml" 116 3401 3414
+)
+"unshadow.ml" 108 3092 3126 "unshadow.ml" 108 3092 3128
+type(
+  Typedtree.expression
+)
+ident(
+  def e' "unshadow.ml" 109 3133 3143 "unshadow.ml" 116 3401 3414
+)
+"unshadow.ml" 108 3092 3100 "unshadow.ml" 108 3092 3129
+type(
+  Typedtree.expression_desc
+)
+"unshadow.ml" 109 3133 3155 "unshadow.ml" 109 3133 3164
+type(
+  Typpx.Compilerlib.Ident.t ->
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ->
+  Typpx.Compilerlib.Ident.t option
+)
+ident(
+  ext_ref Ppxx.Utils.List.assoc_opt
+)
+"unshadow.ml" 109 3133 3165 "unshadow.ml" 109 3133 3167
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "unshadow.ml" 108 3092 3116 "unshadow.ml" 108 3092 3118
+)
+"unshadow.ml" 109 3133 3168 "unshadow.ml" 109 3133 3177
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list
+)
+ident(
+  int_ref A.aliases "unshadow.ml" 81 2576 2600 "unshadow.ml" 81 2576 2638
+)
+"unshadow.ml" 109 3133 3155 "unshadow.ml" 109 3133 3177
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Ident.t option
+)
+"unshadow.ml" 110 3183 3195 "unshadow.ml" 110 3183 3199
+type(
+  Typpx.Compilerlib.Ident.t option
+)
+"unshadow.ml" 110 3183 3203 "unshadow.ml" 110 3183 3204
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "unshadow.ml" 107 3041 3066 "unshadow.ml" 107 3041 3067
+)
+"unshadow.ml" 111 3205 3222 "unshadow.ml" 111 3205 3225
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  def id' "unshadow.ml" 112 3230 3244 "unshadow.ml" 115 3385 3400
+)
+"unshadow.ml" 111 3205 3217 "unshadow.ml" 111 3205 3225
+type(
+  Typpx.Compilerlib.Ident.t option
+)
+"unshadow.ml" 112 3230 3248 "unshadow.ml" 112 3230 3249
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def p "unshadow.ml" 113 3265 3279 "unshadow.ml" 115 3385 3400
+)
+"unshadow.ml" 112 3230 3259 "unshadow.ml" 112 3230 3261
+type(
+  Ident.t
+)
+ident(
+  int_ref id "unshadow.ml" 108 3092 3116 "unshadow.ml" 108 3092 3118
+)
+"unshadow.ml" 112 3230 3252 "unshadow.ml" 112 3230 3261
+type(
+  Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 113 3265 3281 "unshadow.ml" 113 3265 3282
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "unshadow.ml" 107 3041 3066 "unshadow.ml" 107 3041 3067
+)
+"unshadow.ml" 114 3300 3333 "unshadow.ml" 114 3300 3335
+type(
+  Ident.t
+)
+ident(
+  int_ref id "unshadow.ml" 108 3092 3116 "unshadow.ml" 108 3092 3118
+)
+"unshadow.ml" 114 3300 3337 "unshadow.ml" 114 3300 3338
+type(
+  string Asttypes.loc
+)
+ident(
+  int_ref a "unshadow.ml" 108 3092 3120 "unshadow.ml" 108 3092 3121
+)
+"unshadow.ml" 114 3300 3340 "unshadow.ml" 114 3300 3341
+type(
+  Typedtree.module_expr
+)
+ident(
+  int_ref b "unshadow.ml" 108 3092 3123 "unshadow.ml" 108 3092 3124
+)
+"unshadow.ml" 114 3300 3343 "unshadow.ml" 114 3300 3356
+type(
+  Typpx.Compilerlib.Ident.t ->
+  Typedtree.module_expr -> Typedtree.expression -> Typedtree.expression
+)
+ident(
+  ext_ref Typpx.Forge.Exp.letmodule
+)
+"unshadow.ml" 114 3300 3357 "unshadow.ml" 114 3300 3360
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id' "unshadow.ml" 111 3205 3222 "unshadow.ml" 111 3205 3225
+)
+"unshadow.ml" 114 3300 3362 "unshadow.ml" 114 3300 3377
+type(
+  Typpx.Forge.Path.t -> Typedtree.module_expr
+)
+ident(
+  ext_ref Typpx.Forge.Mod.ident
+)
+"unshadow.ml" 114 3300 3378 "unshadow.ml" 114 3300 3379
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref p "unshadow.ml" 112 3230 3248 "unshadow.ml" 112 3230 3249
+)
+"unshadow.ml" 114 3300 3361 "unshadow.ml" 114 3300 3380
+call(
+  stack
+)
+type(
+  Typedtree.module_expr
+)
+"unshadow.ml" 114 3300 3381 "unshadow.ml" 114 3300 3383
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e' "unshadow.ml" 108 3092 3126 "unshadow.ml" 108 3092 3128
+)
+"unshadow.ml" 114 3300 3343 "unshadow.ml" 114 3300 3383
+call(
+  stack
+)
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 114 3300 3317 "unshadow.ml" 114 3300 3384
+type(
+  Typedtree.expression_desc
+)
+"unshadow.ml" 113 3265 3279 "unshadow.ml" 115 3385 3400
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 112 3230 3244 "unshadow.ml" 115 3385 3400
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 109 3133 3143 "unshadow.ml" 116 3401 3414
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 117 3415 3423 "unshadow.ml" 117 3415 3424
+type(
+  Typedtree.expression_desc
+)
+"unshadow.ml" 117 3415 3428 "unshadow.ml" 117 3415 3429
+type(
+  Typedtree.expression
+)
+ident(
+  int_ref e "unshadow.ml" 107 3041 3066 "unshadow.ml" 107 3041 3067
+)
+"unshadow.ml" 107 3041 3070 "unshadow.ml" 117 3415 3429
+type(
+  Typedtree.expression
+)
+"unshadow.ml" 119 3433 3441 "unshadow.ml" 119 3433 3455
+type(
+  Typedtree.structure_item -> Typedtree.structure_item list
+)
+ident(
+  def structure_item "unshadow.ml" 144 4307 4311 "unshadow.ml" 148 4513 4518
+)
+"unshadow.ml" 119 3433 3456 "unshadow.ml" 119 3433 3458
+type(
+  Typedtree.structure_item
+)
+ident(
+  def si "unshadow.ml" 119 3433 3461 "unshadow.ml" 142 4286 4303
+)
+"unshadow.ml" 119 3433 3467 "unshadow.ml" 119 3433 3469
+type(
+  Typedtree.structure_item
+)
+ident(
+  int_ref si "unshadow.ml" 119 3433 3456 "unshadow.ml" 119 3433 3458
+)
+"unshadow.ml" 119 3433 3467 "unshadow.ml" 119 3433 3478
+type(
+  Typedtree.structure_item_desc
+)
+"unshadow.ml" 120 3484 3504 "unshadow.ml" 120 3484 3506
+type(
+  Typedtree.module_binding
+)
+ident(
+  def mb "unshadow.ml" 124 3563 3573 "unshadow.ml" 132 3878 3891
+)
+"unshadow.ml" 120 3484 3492 "unshadow.ml" 120 3484 3506
+type(
+  Typedtree.structure_item_desc
+)
+"unshadow.ml" 124 3563 3573 "unshadow.ml" 124 3563 3575
+type(
+  Typedtree.structure_item
+)
+ident(
+  int_ref si "unshadow.ml" 119 3433 3456 "unshadow.ml" 119 3433 3458
+)
+"unshadow.ml" 125 3579 3601 "unshadow.ml" 125 3579 3610
+type(
+  Typpx.Compilerlib.Ident.t ->
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ->
+  Typpx.Compilerlib.Ident.t option
+)
+ident(
+  ext_ref Ppxx.Utils.List.assoc_opt
+)
+"unshadow.ml" 125 3579 3611 "unshadow.ml" 125 3579 3613
+type(
+  Typedtree.module_binding
+)
+ident(
+  int_ref mb "unshadow.ml" 120 3484 3504 "unshadow.ml" 120 3484 3506
+)
+"unshadow.ml" 125 3579 3611 "unshadow.ml" 125 3579 3619
+type(
+  Typpx.Compilerlib.Ident.t
+)
+"unshadow.ml" 125 3579 3620 "unshadow.ml" 125 3579 3629
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list
+)
+ident(
+  int_ref A.aliases "unshadow.ml" 81 2576 2600 "unshadow.ml" 81 2576 2638
+)
+"unshadow.ml" 125 3579 3601 "unshadow.ml" 125 3579 3629
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Ident.t option
+)
+"unshadow.ml" 126 3635 3647 "unshadow.ml" 126 3635 3651
+type(
+  Typpx.Compilerlib.Ident.t option
+)
+"unshadow.ml" 126 3635 3655 "unshadow.ml" 126 3635 3657
+type(
+  Typedtree.structure_item list
+)
+"unshadow.ml" 127 3658 3675 "unshadow.ml" 127 3658 3678
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  def id' "unshadow.ml" 128 3683 3697 "unshadow.ml" 131 3858 3877
+)
+"unshadow.ml" 127 3658 3670 "unshadow.ml" 127 3658 3678
+type(
+  Typpx.Compilerlib.Ident.t option
+)
+"unshadow.ml" 128 3683 3701 "unshadow.ml" 128 3683 3702
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def p "unshadow.ml" 129 3724 3738 "unshadow.ml" 131 3858 3877
+)
+"unshadow.ml" 128 3683 3712 "unshadow.ml" 128 3683 3714
+type(
+  Typedtree.module_binding
+)
+ident(
+  int_ref mb "unshadow.ml" 120 3484 3504 "unshadow.ml" 120 3484 3506
+)
+"unshadow.ml" 128 3683 3712 "unshadow.ml" 128 3683 3720
+type(
+  Ident.t
+)
+"unshadow.ml" 128 3683 3705 "unshadow.ml" 128 3683 3720
+type(
+  Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 129 3724 3743 "unshadow.ml" 129 3724 3763
+type(
+  unit -> Typedtree.structure_item
+)
+ident(
+  ext_ref Typpx.Forge.Dummy.structure_item
+)
+"unshadow.ml" 129 3724 3764 "unshadow.ml" 129 3724 3766
+type(
+  unit
+)
+"unshadow.ml" 129 3724 3742 "unshadow.ml" 129 3724 3767
+call(
+  stack
+)
+type(
+  Typedtree.structure_item
+)
+"unshadow.ml" 130 3768 3815 "unshadow.ml" 130 3768 3832
+type(
+  Typpx.Compilerlib.Ident.t ->
+  Typedtree.module_expr -> Typedtree.module_binding
+)
+ident(
+  ext_ref Typpx.Forge.MB.module_binding
+)
+"unshadow.ml" 130 3768 3833 "unshadow.ml" 130 3768 3836
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id' "unshadow.ml" 127 3658 3675 "unshadow.ml" 127 3658 3678
+)
+"unshadow.ml" 130 3768 3815 "unshadow.ml" 130 3768 3836
+type(
+  Typedtree.module_expr -> Typedtree.module_binding
+)
+"unshadow.ml" 130 3768 3837 "unshadow.ml" 130 3768 3838
+type(
+  (Typedtree.module_expr -> Typedtree.module_binding) ->
+  Typedtree.module_expr -> Typedtree.module_binding
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"unshadow.ml" 130 3768 3839 "unshadow.ml" 130 3768 3854
+type(
+  Typpx.Forge.Path.t -> Typedtree.module_expr
+)
+ident(
+  ext_ref Typpx.Forge.Mod.ident
+)
+"unshadow.ml" 130 3768 3855 "unshadow.ml" 130 3768 3856
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref p "unshadow.ml" 128 3683 3701 "unshadow.ml" 128 3683 3702
+)
+"unshadow.ml" 130 3768 3839 "unshadow.ml" 130 3768 3856
+call(
+  stack
+)
+type(
+  Typedtree.module_expr
+)
+"unshadow.ml" 130 3768 3814 "unshadow.ml" 130 3768 3857
+call(
+  stack
+)
+type(
+  Typedtree.module_binding
+)
+"unshadow.ml" 130 3768 3802 "unshadow.ml" 130 3768 3857
+type(
+  Typedtree.structure_item_desc
+)
+"unshadow.ml" 129 3724 3740 "unshadow.ml" 131 3858 3875
+type(
+  Typedtree.structure_item
+)
+"unshadow.ml" 129 3724 3738 "unshadow.ml" 131 3858 3877
+type(
+  Typedtree.structure_item list
+)
+"unshadow.ml" 128 3683 3697 "unshadow.ml" 131 3858 3877
+type(
+  Typedtree.structure_item list
+)
+"unshadow.ml" 125 3579 3589 "unshadow.ml" 132 3878 3891
+type(
+  Typedtree.structure_item list
+)
+"unshadow.ml" 124 3563 3573 "unshadow.ml" 132 3878 3891
+type(
+  Typedtree.structure_item list
+)
+"unshadow.ml" 133 3892 3915 "unshadow.ml" 133 3892 3918
+type(
+  Typedtree.module_binding list
+)
+ident(
+  def mbs "unshadow.ml" 134 3922 3932 "unshadow.ml" 141 4262 4285
+)
+"unshadow.ml" 133 3892 3900 "unshadow.ml" 133 3892 3918
+type(
+  Typedtree.structure_item_desc
+)
+"unshadow.ml" 134 3922 3932 "unshadow.ml" 134 3922 3934
+type(
+  Typedtree.structure_item
+)
+ident(
+  int_ref si "unshadow.ml" 119 3433 3456 "unshadow.ml" 119 3433 3458
+)
+"unshadow.ml" 134 3922 3938 "unshadow.ml" 134 3922 3942
+type(
+  ((Typedtree.module_binding -> Typedtree.structure_item option) ->
+   Typedtree.module_binding list -> Typedtree.structure_item list) ->
+  Typedtree.module_binding list ->
+  (Typedtree.module_binding -> Typedtree.structure_item option) ->
+  Typedtree.structure_item list
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"unshadow.ml" 134 3922 3943 "unshadow.ml" 134 3922 3953
+type(
+  (Typedtree.module_binding -> Typedtree.structure_item option) ->
+  Typedtree.module_binding list -> Typedtree.structure_item list
+)
+ident(
+  ext_ref Ppxx.Utils.List.filter_map
+)
+"unshadow.ml" 134 3922 3954 "unshadow.ml" 134 3922 3957
+type(
+  Typedtree.module_binding list
+)
+ident(
+  int_ref mbs "unshadow.ml" 133 3892 3915 "unshadow.ml" 133 3892 3918
+)
+"unshadow.ml" 134 3922 3963 "unshadow.ml" 134 3922 3965
+type(
+  Typedtree.module_binding
+)
+ident(
+  def mb "unshadow.ml" 135 3969 3981 "unshadow.ml" 141 4262 4284
+)
+"unshadow.ml" 135 3969 3987 "unshadow.ml" 135 3969 3996
+type(
+  Typpx.Compilerlib.Ident.t ->
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ->
+  Typpx.Compilerlib.Ident.t option
+)
+ident(
+  ext_ref Ppxx.Utils.List.assoc_opt
+)
+"unshadow.ml" 135 3969 3997 "unshadow.ml" 135 3969 3999
+type(
+  Typedtree.module_binding
+)
+ident(
+  int_ref mb "unshadow.ml" 134 3922 3963 "unshadow.ml" 134 3922 3965
+)
+"unshadow.ml" 135 3969 3997 "unshadow.ml" 135 3969 4005
+type(
+  Typpx.Compilerlib.Ident.t
+)
+"unshadow.ml" 135 3969 4006 "unshadow.ml" 135 3969 4015
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list
+)
+ident(
+  int_ref A.aliases "unshadow.ml" 81 2576 2600 "unshadow.ml" 81 2576 2638
+)
+"unshadow.ml" 135 3969 3987 "unshadow.ml" 135 3969 4015
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Ident.t option
+)
+"unshadow.ml" 136 4021 4035 "unshadow.ml" 136 4021 4039
+type(
+  Typpx.Compilerlib.Ident.t option
+)
+"unshadow.ml" 136 4021 4043 "unshadow.ml" 136 4021 4047
+type(
+  Typedtree.structure_item option
+)
+"unshadow.ml" 137 4048 4067 "unshadow.ml" 137 4048 4070
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  def id' "unshadow.ml" 138 4075 4091 "unshadow.ml" 141 4262 4284
+)
+"unshadow.ml" 137 4048 4062 "unshadow.ml" 137 4048 4070
+type(
+  Typpx.Compilerlib.Ident.t option
+)
+"unshadow.ml" 138 4075 4095 "unshadow.ml" 138 4075 4096
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def p "unshadow.ml" 139 4118 4134 "unshadow.ml" 141 4262 4284
+)
+"unshadow.ml" 138 4075 4106 "unshadow.ml" 138 4075 4108
+type(
+  Typedtree.module_binding
+)
+ident(
+  int_ref mb "unshadow.ml" 134 3922 3963 "unshadow.ml" 134 3922 3965
+)
+"unshadow.ml" 138 4075 4106 "unshadow.ml" 138 4075 4114
+type(
+  Ident.t
+)
+"unshadow.ml" 138 4075 4099 "unshadow.ml" 138 4075 4114
+type(
+  Typpx.Compilerlib.Path.t
+)
+"unshadow.ml" 139 4118 4142 "unshadow.ml" 139 4118 4162
+type(
+  unit -> Typedtree.structure_item
+)
+ident(
+  ext_ref Typpx.Forge.Dummy.structure_item
+)
+"unshadow.ml" 139 4118 4163 "unshadow.ml" 139 4118 4165
+type(
+  unit
+)
+"unshadow.ml" 139 4118 4141 "unshadow.ml" 139 4118 4166
+call(
+  stack
+)
+type(
+  Typedtree.structure_item
+)
+"unshadow.ml" 140 4167 4219 "unshadow.ml" 140 4167 4236
+type(
+  Typpx.Compilerlib.Ident.t ->
+  Typedtree.module_expr -> Typedtree.module_binding
+)
+ident(
+  ext_ref Typpx.Forge.MB.module_binding
+)
+"unshadow.ml" 140 4167 4237 "unshadow.ml" 140 4167 4240
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id' "unshadow.ml" 137 4048 4067 "unshadow.ml" 137 4048 4070
+)
+"unshadow.ml" 140 4167 4219 "unshadow.ml" 140 4167 4240
+type(
+  Typedtree.module_expr -> Typedtree.module_binding
+)
+"unshadow.ml" 140 4167 4241 "unshadow.ml" 140 4167 4242
+type(
+  (Typedtree.module_expr -> Typedtree.module_binding) ->
+  Typedtree.module_expr -> Typedtree.module_binding
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"unshadow.ml" 140 4167 4243 "unshadow.ml" 140 4167 4258
+type(
+  Typpx.Forge.Path.t -> Typedtree.module_expr
+)
+ident(
+  ext_ref Typpx.Forge.Mod.ident
+)
+"unshadow.ml" 140 4167 4259 "unshadow.ml" 140 4167 4260
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref p "unshadow.ml" 138 4075 4095 "unshadow.ml" 138 4075 4096
+)
+"unshadow.ml" 140 4167 4243 "unshadow.ml" 140 4167 4260
+call(
+  stack
+)
+type(
+  Typedtree.module_expr
+)
+"unshadow.ml" 140 4167 4218 "unshadow.ml" 140 4167 4261
+call(
+  stack
+)
+type(
+  Typedtree.module_binding
+)
+"unshadow.ml" 140 4167 4206 "unshadow.ml" 140 4167 4261
+type(
+  Typedtree.structure_item_desc
+)
+"unshadow.ml" 139 4118 4139 "unshadow.ml" 141 4262 4284
+type(
+  Typedtree.structure_item
+)
+"unshadow.ml" 139 4118 4134 "unshadow.ml" 141 4262 4284
+type(
+  Typedtree.structure_item option
+)
+"unshadow.ml" 138 4075 4091 "unshadow.ml" 141 4262 4284
+type(
+  Typedtree.structure_item option
+)
+"unshadow.ml" 135 3969 3981 "unshadow.ml" 141 4262 4284
+type(
+  Typedtree.structure_item option
+)
+"unshadow.ml" 134 3922 3958 "unshadow.ml" 141 4262 4285
+type(
+  Typedtree.module_binding -> Typedtree.structure_item option
+)
+"unshadow.ml" 134 3922 3938 "unshadow.ml" 141 4262 4285
+call(
+  stack
+)
+type(
+  Typedtree.structure_item list
+)
+"unshadow.ml" 134 3922 3932 "unshadow.ml" 141 4262 4285
+type(
+  Typedtree.structure_item list
+)
+"unshadow.ml" 142 4286 4294 "unshadow.ml" 142 4286 4295
+type(
+  Typedtree.structure_item_desc
+)
+"unshadow.ml" 142 4286 4300 "unshadow.ml" 142 4286 4302
+type(
+  Typedtree.structure_item
+)
+ident(
+  int_ref si "unshadow.ml" 119 3433 3456 "unshadow.ml" 119 3433 3458
+)
+"unshadow.ml" 142 4286 4299 "unshadow.ml" 142 4286 4303
+type(
+  Typedtree.structure_item list
+)
+"unshadow.ml" 119 3433 3461 "unshadow.ml" 142 4286 4303
+type(
+  Typedtree.structure_item list
+)
+"unshadow.ml" 144 4307 4315 "unshadow.ml" 144 4307 4330
+type(
+  Typedtree.structure -> Typedtree.structure
+)
+ident(
+  def enter_structure "unshadow.ml" 147 4430 4512 "unshadow.ml" 148 4513 4518
+)
+"unshadow.ml" 144 4307 4346 "unshadow.ml" 144 4307 4349
+type(
+  Typedtree.structure_item list
+)
+ident(
+  def sis "unshadow.ml" 146 4419 4425 "unshadow.ml" 147 4430 4512
+)
+"unshadow.ml" 144 4307 4332 "unshadow.ml" 144 4307 4351
+type(
+  Typedtree.structure
+)
+"unshadow.ml" 144 4307 4355 "unshadow.ml" 144 4307 4356
+ident(
+  def s "unshadow.ml" 146 4419 4425 "unshadow.ml" 147 4430 4512
+)
+"unshadow.ml" 144 4307 4331 "unshadow.ml" 144 4307 4357
+type(
+  Typedtree.structure
+)
+"unshadow.ml" 146 4419 4427 "unshadow.ml" 146 4419 4428
+type(
+  Typedtree.structure
+)
+ident(
+  int_ref s "unshadow.ml" 144 4307 4331 "unshadow.ml" 144 4307 4357
+)
+"unshadow.ml" 147 4430 4455 "unshadow.ml" 147 4430 4465
+type(
+  (Typedtree.structure_item ->
+   Typedtree.structure_item list -> Typedtree.structure_item list) ->
+  Typedtree.structure_item list ->
+  Typedtree.structure_item list -> Typedtree.structure_item list
+)
+ident(
+  ext_ref Ppxx.Utils.List.fold_right
+)
+"unshadow.ml" 147 4430 4471 "unshadow.ml" 147 4430 4473
+type(
+  Typedtree.structure_item
+)
+ident(
+  def si "unshadow.ml" 147 4430 4474 "unshadow.ml" 147 4430 4502
+)
+"unshadow.ml" 147 4430 4474 "unshadow.ml" 147 4430 4476
+type(
+  Typedtree.structure_item list
+)
+ident(
+  def st "unshadow.ml" 147 4430 4480 "unshadow.ml" 147 4430 4502
+)
+"unshadow.ml" 147 4430 4480 "unshadow.ml" 147 4430 4494
+type(
+  Typedtree.structure_item -> Typedtree.structure_item list
+)
+ident(
+  int_ref structure_item "unshadow.ml" 119 3433 3441 "unshadow.ml" 119 3433 3455
+)
+"unshadow.ml" 147 4430 4495 "unshadow.ml" 147 4430 4497
+type(
+  Typedtree.structure_item
+)
+ident(
+  int_ref si "unshadow.ml" 147 4430 4471 "unshadow.ml" 147 4430 4473
+)
+"unshadow.ml" 147 4430 4480 "unshadow.ml" 147 4430 4497
+call(
+  stack
+)
+type(
+  Typedtree.structure_item list
+)
+"unshadow.ml" 147 4430 4498 "unshadow.ml" 147 4430 4499
+type(
+  Typedtree.structure_item list ->
+  Typedtree.structure_item list -> Typedtree.structure_item list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"unshadow.ml" 147 4430 4500 "unshadow.ml" 147 4430 4502
+type(
+  Typedtree.structure_item list
+)
+ident(
+  int_ref st "unshadow.ml" 147 4430 4474 "unshadow.ml" 147 4430 4476
+)
+"unshadow.ml" 147 4430 4480 "unshadow.ml" 147 4430 4502
+call(
+  tail
+)
+type(
+  Typedtree.structure_item list
+)
+"unshadow.ml" 147 4430 4466 "unshadow.ml" 147 4430 4503
+type(
+  Typedtree.structure_item ->
+  Typedtree.structure_item list -> Typedtree.structure_item list
+)
+"unshadow.ml" 147 4430 4504 "unshadow.ml" 147 4430 4507
+type(
+  Typedtree.structure_item list
+)
+ident(
+  int_ref sis "unshadow.ml" 144 4307 4346 "unshadow.ml" 144 4307 4349
+)
+"unshadow.ml" 147 4430 4508 "unshadow.ml" 147 4430 4510
+type(
+  Typedtree.structure_item list
+)
+"unshadow.ml" 147 4430 4455 "unshadow.ml" 147 4430 4510
+call(
+  stack
+)
+type(
+  Typedtree.structure_item list
+)
+"unshadow.ml" 146 4419 4425 "unshadow.ml" 147 4430 4512
+type(
+  Typedtree.structure
+)
+"unshadow.ml" 150 4522 4528 "unshadow.ml" 150 4522 4534
+type(
+  Typedtree.structure -> Typedtree.structure
+)
+ident(
+  def insert "unshadow.ml" 153 4653 4678 "unshadow.ml" 154 4679 4682
+)
+"unshadow.ml" 150 4522 4535 "unshadow.ml" 150 4522 4538
+type(
+  Typedtree.structure
+)
+ident(
+  def str "unshadow.ml" 151 4541 4545 "unshadow.ml" 153 4653 4678
+)
+"unshadow.ml" 151 4541 4578 "unshadow.ml" 151 4541 4585
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list
+)
+ident(
+  def aliases "unshadow.ml" 151 4541 4596 "unshadow.ml" 151 4541 4600
+)
+"unshadow.ml" 151 4541 4588 "unshadow.ml" 151 4541 4589
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ref ->
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"unshadow.ml" 151 4541 4589 "unshadow.ml" 151 4541 4596
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list ref
+)
+ident(
+  int_ref aliases "unshadow.ml" 32 985 989 "unshadow.ml" 32 985 996
+)
+"unshadow.ml" 151 4541 4588 "unshadow.ml" 151 4541 4596
+type(
+  (Typpx.Compilerlib.Ident.t * Typpx.Compilerlib.Ident.t) list
+)
+"unshadow.ml" 151 4541 4560 "unshadow.ml" 151 4541 4601
+call(
+  stack
+)
+"unshadow.ml" 152 4605 4626 "unshadow.ml" 152 4605 4649
+call(
+  stack
+)
+"unshadow.ml" 153 4653 4657 "unshadow.ml" 153 4653 4674
+type(
+  Typedtree.structure -> Typedtree.structure
+)
+ident(
+  ext_ref Map.map_structure
+)
+"unshadow.ml" 153 4653 4675 "unshadow.ml" 153 4653 4678
+type(
+  Typedtree.structure
+)
+ident(
+  int_ref str "unshadow.ml" 150 4522 4535 "unshadow.ml" 150 4522 4538
+)
+"unshadow.ml" 153 4653 4657 "unshadow.ml" 153 4653 4678
+call(
+  tail
+)
+type(
+  Typedtree.structure
+)
+"unshadow.ml" 152 4605 4609 "unshadow.ml" 153 4653 4678
+type(
+  Typedtree.structure
+)
+"unshadow.ml" 151 4541 4545 "unshadow.ml" 153 4653 4678
+type(
+  Typedtree.structure
+)

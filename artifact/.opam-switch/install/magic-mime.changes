@@ -1,0 +1,26 @@
+added: [
+  "doc/magic-mime" {"D"}
+  "doc/magic-mime/CHANGES.md" {"F:S861T1560960950.71"}
+  "doc/magic-mime/LICENSE.md" {"F:S750T1560960950.81"}
+  "doc/magic-mime/README.md" {"F:S1375T1560960950.84"}
+  "lib/magic-mime" {"D"}
+  "lib/magic-mime/META" {"F:S217T1560960949.79"}
+  "lib/magic-mime/dune-package" {"F:S514T1560960949.83"}
+  "lib/magic-mime/magic_mime.cmi" {"F:S277T1560960949.92"}
+  "lib/magic-mime/magic_mime.cmt" {"F:S8482T1560960949.96"}
+  "lib/magic-mime/magic_mime.cmti" {"F:S3728T1560960950.01"}
+  "lib/magic-mime/magic_mime.cmx" {"F:S362T1560960950.07"}
+  "lib/magic-mime/magic_mime.ml" {"F:S1343T1560960950.09"}
+  "lib/magic-mime/magic_mime.mli" {"F:S1114T1560960950.15"}
+  "lib/magic-mime/magic_mime_library.a" {"F:S157430T1560960950.21"}
+  "lib/magic-mime/magic_mime_library.cma" {"F:S186305T1560960950.27"}
+  "lib/magic-mime/magic_mime_library.cmxa" {"F:S437T1560960950.29"}
+  "lib/magic-mime/magic_mime_library.cmxs" {"F:S137696T1560960950.35"}
+  "lib/magic-mime/mime_types.cmi" {"F:S344T1560960950.41"}
+  "lib/magic-mime/mime_types.cmt" {"F:S125632T1560960950.45"}
+  "lib/magic-mime/mime_types.cmti" {"F:S4200T1560960950.47"}
+  "lib/magic-mime/mime_types.cmx" {"F:S257T1560960950.49"}
+  "lib/magic-mime/mime_types.ml" {"F:S41123T1560960950.53"}
+  "lib/magic-mime/mime_types.mli" {"F:S1202T1560960950.56"}
+  "lib/magic-mime/opam" {"F:S1163T1560960950.62"}
+]

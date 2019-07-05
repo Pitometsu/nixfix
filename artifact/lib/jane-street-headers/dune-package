@@ -1,0 +1,19 @@
+(lang dune 1.10)
+(name jane-street-headers)
+(version v0.11.0)
+(library
+ (name jane-street-headers)
+ (kind normal)
+ (archives (byte jane_street_headers.cma) (native jane_street_headers.cmxa))
+ (plugins (byte jane_street_headers.cma) (native jane_street_headers.cmxs))
+ (foreign_archives (native jane_street_headers.a))
+ (main_module_name Jane_street_headers)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Jane_street_headers)
+   (obj_name jane_street_headers)
+   (visibility public)
+   (impl))
+  (main_module_name Jane_street_headers)
+  (wrapped true)))

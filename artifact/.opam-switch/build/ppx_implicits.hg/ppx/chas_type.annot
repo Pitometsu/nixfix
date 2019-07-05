@@ -1,0 +1,1408 @@
+"chas_type.ml" 12 100 104 "chas_type.ml" 12 100 113
+type(
+  Env.t -> Types.type_expr -> Types.type_expr -> bool
+)
+ident(
+  def unifiable "chas_type.ml" 19 307 307 "chas_type.ml" 1 0 -1
+)
+"chas_type.ml" 12 100 114 "chas_type.ml" 12 100 117
+type(
+  Env.t
+)
+ident(
+  def env "chas_type.ml" 12 100 118 "chas_type.ml" 15 232 248
+)
+"chas_type.ml" 12 100 118 "chas_type.ml" 12 100 121
+type(
+  Types.type_expr
+)
+ident(
+  def ty1 "chas_type.ml" 12 100 122 "chas_type.ml" 15 232 248
+)
+"chas_type.ml" 12 100 122 "chas_type.ml" 12 100 125
+type(
+  Types.type_expr
+)
+ident(
+  def ty2 "chas_type.ml" 12 100 128 "chas_type.ml" 15 232 248
+)
+"chas_type.ml" 12 100 128 "chas_type.ml" 12 100 141
+type(
+  (unit -> bool) -> bool
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.with_snapshot
+)
+"chas_type.ml" 12 100 142 "chas_type.ml" 12 100 143
+type(
+  ((unit -> bool) -> bool) -> (unit -> bool) -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"chas_type.ml" 12 100 148 "chas_type.ml" 12 100 150
+type(
+  unit
+)
+"chas_type.ml" 13 154 162 "chas_type.ml" 13 154 169
+type(
+  (unit -> unit) -> (unit, exn) result
+)
+ident(
+  ext_ref Ppxx.Utils.protect
+)
+"chas_type.ml" 13 154 170 "chas_type.ml" 13 154 171
+type(
+  ((unit -> unit) -> (unit, exn) result) ->
+  (unit -> unit) -> (unit, exn) result
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"chas_type.ml" 13 154 176 "chas_type.ml" 13 154 178
+type(
+  unit
+)
+"chas_type.ml" 13 154 182 "chas_type.ml" 13 154 193
+type(
+  Env.t -> Types.type_expr -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.unify
+)
+"chas_type.ml" 13 154 194 "chas_type.ml" 13 154 197
+type(
+  Env.t
+)
+ident(
+  int_ref env "chas_type.ml" 12 100 114 "chas_type.ml" 12 100 117
+)
+"chas_type.ml" 13 154 198 "chas_type.ml" 13 154 201
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty1 "chas_type.ml" 12 100 118 "chas_type.ml" 12 100 121
+)
+"chas_type.ml" 13 154 202 "chas_type.ml" 13 154 205
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty2 "chas_type.ml" 12 100 122 "chas_type.ml" 12 100 125
+)
+"chas_type.ml" 13 154 182 "chas_type.ml" 13 154 205
+call(
+  tail
+)
+type(
+  unit
+)
+"chas_type.ml" 13 154 172 "chas_type.ml" 13 154 205
+type(
+  unit -> unit
+)
+"chas_type.ml" 13 154 162 "chas_type.ml" 13 154 205
+call(
+  stack
+)
+type(
+  (unit, exn) result
+)
+"chas_type.ml" 14 211 221 "chas_type.ml" 14 211 222
+type(
+  exn
+)
+"chas_type.ml" 14 211 215 "chas_type.ml" 14 211 222
+type(
+  (unit, exn) result
+)
+"chas_type.ml" 14 211 226 "chas_type.ml" 14 211 231
+type(
+  bool
+)
+"chas_type.ml" 15 232 239 "chas_type.ml" 15 232 240
+type(
+  unit
+)
+"chas_type.ml" 15 232 236 "chas_type.ml" 15 232 240
+type(
+  (unit, exn) result
+)
+"chas_type.ml" 15 232 244 "chas_type.ml" 15 232 248
+type(
+  bool
+)
+"chas_type.ml" 13 154 156 "chas_type.ml" 15 232 248
+type(
+  bool
+)
+"chas_type.ml" 12 100 144 "chas_type.ml" 15 232 248
+type(
+  unit -> bool
+)
+"chas_type.ml" 12 100 128 "chas_type.ml" 15 232 248
+call(
+  tail
+)
+type(
+  bool
+)
+"chas_type.ml" 19 307 311 "chas_type.ml" 19 307 324
+type(
+  Env.t -> Location.t -> Types.type_expr -> Candidate.t list
+)
+ident(
+  def cand_has_type "chas_type.ml" 71 2023 2077 "chas_type.ml" 1 0 -1
+)
+"chas_type.ml" 19 307 325 "chas_type.ml" 19 307 328
+type(
+  Env.t
+)
+ident(
+  def env "chas_type.ml" 19 307 329 "chas_type.ml" 71 2023 2077
+)
+"chas_type.ml" 19 307 329 "chas_type.ml" 19 307 332
+type(
+  Location.t
+)
+ident(
+  def loc "chas_type.ml" 19 307 333 "chas_type.ml" 71 2023 2077
+)
+"chas_type.ml" 19 307 333 "chas_type.ml" 19 307 335
+type(
+  Types.type_expr
+)
+ident(
+  def ty "chas_type.ml" 20 338 340 "chas_type.ml" 71 2023 2077
+)
+"chas_type.ml" 20 338 344 "chas_type.ml" 20 338 356
+type(
+  Path.t -> Path.t option
+)
+ident(
+  def has_instance "chas_type.ml" 35 736 738 "chas_type.ml" 71 2023 2077
+)
+"chas_type.ml" 20 338 357 "chas_type.ml" 20 338 359
+type(
+  Path.t
+)
+ident(
+  def mp "chas_type.ml" 21 362 366 "chas_type.ml" 33 707 730
+)
+"chas_type.ml" 21 362 370 "chas_type.ml" 21 362 372
+type(
+  Types.module_declaration
+)
+ident(
+  def md "chas_type.ml" 22 401 405 "chas_type.ml" 33 707 730
+)
+"chas_type.ml" 21 362 375 "chas_type.ml" 21 362 390
+type(
+  Path.t -> Env.t -> Types.module_declaration
+)
+ident(
+  ext_ref Env.find_module
+)
+"chas_type.ml" 21 362 391 "chas_type.ml" 21 362 393
+type(
+  Path.t
+)
+ident(
+  int_ref mp "chas_type.ml" 20 338 357 "chas_type.ml" 20 338 359
+)
+"chas_type.ml" 21 362 394 "chas_type.ml" 21 362 397
+type(
+  Env.t
+)
+ident(
+  int_ref env "chas_type.ml" 19 307 325 "chas_type.ml" 19 307 328
+)
+"chas_type.ml" 21 362 375 "chas_type.ml" 21 362 397
+call(
+  stack
+)
+type(
+  Types.module_declaration
+)
+"chas_type.ml" 22 401 409 "chas_type.ml" 22 401 410
+type(
+  Utils.dummy_module
+)
+ident(
+  def m "chas_type.ml" 23 451 455 "chas_type.ml" 33 707 730
+)
+"chas_type.ml" 22 401 413 "chas_type.ml" 22 401 429
+type(
+  Env.t ->
+  Path.t -> Typpx.Compilerlib.Types.module_type -> Utils.dummy_module
+)
+"chas_type.ml" 22 401 430 "chas_type.ml" 22 401 433
+type(
+  Env.t
+)
+ident(
+  int_ref env "chas_type.ml" 19 307 325 "chas_type.ml" 19 307 328
+)
+"chas_type.ml" 22 401 434 "chas_type.ml" 22 401 436
+type(
+  Path.t
+)
+ident(
+  int_ref mp "chas_type.ml" 20 338 357 "chas_type.ml" 20 338 359
+)
+"chas_type.ml" 22 401 437 "chas_type.ml" 22 401 439
+type(
+  Typpx.Compilerlib.Types.module_declaration
+)
+ident(
+  int_ref md "chas_type.ml" 21 362 370 "chas_type.ml" 21 362 372
+)
+"chas_type.ml" 22 401 437 "chas_type.ml" 22 401 447
+type(
+  Typpx.Compilerlib.Types.module_type
+)
+"chas_type.ml" 22 401 413 "chas_type.ml" 22 401 447
+call(
+  stack
+)
+type(
+  Utils.dummy_module
+)
+"chas_type.ml" 24 459 469 "chas_type.ml" 24 459 470
+type(
+  Path.t
+)
+"chas_type.ml" 24 459 472 "chas_type.ml" 24 459 474
+type(
+  Types.type_declaration
+)
+ident(
+  def td "chas_type.ml" 25 516 522 "chas_type.ml" 31 683 697
+)
+"chas_type.ml" 24 459 469 "chas_type.ml" 24 459 474
+type(
+  Path.t * Types.type_declaration
+)
+"chas_type.ml" 24 459 477 "chas_type.ml" 24 459 478
+type(
+  Utils.dummy_module
+)
+ident(
+  int_ref m "chas_type.ml" 22 401 409 "chas_type.ml" 22 401 410
+)
+"chas_type.ml" 24 459 477 "chas_type.ml" 24 459 490
+call(
+  stack
+)
+type(
+  string -> Path.t * Types.type_declaration
+)
+"chas_type.ml" 24 459 491 "chas_type.ml" 24 459 512
+type(
+  string
+)
+"chas_type.ml" 24 459 477 "chas_type.ml" 24 459 512
+type(
+  Path.t * Types.type_declaration
+)
+"chas_type.ml" 25 516 528 "chas_type.ml" 25 516 530
+type(
+  Types.type_declaration
+)
+ident(
+  int_ref td "chas_type.ml" 24 459 472 "chas_type.ml" 24 459 474
+)
+"chas_type.ml" 26 536 560 "chas_type.ml" 26 536 562
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+"chas_type.ml" 27 563 594 "chas_type.ml" 27 563 597
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty' "chas_type.ml" 28 603 613 "chas_type.ml" 29 650 669
+)
+"chas_type.ml" 27 563 589 "chas_type.ml" 27 563 597
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"chas_type.ml" 26 536 544 "chas_type.ml" 27 563 599
+type(
+  Typpx.Compilerlib.Types.type_declaration
+)
+"chas_type.ml" 28 603 616 "chas_type.ml" 28 603 625
+type(
+  Env.t -> Types.type_expr -> Typpx.Compilerlib.Types.type_expr -> bool
+)
+ident(
+  int_ref unifiable "chas_type.ml" 12 100 104 "chas_type.ml" 12 100 113
+)
+"chas_type.ml" 28 603 626 "chas_type.ml" 28 603 629
+type(
+  Env.t
+)
+ident(
+  int_ref env "chas_type.ml" 19 307 325 "chas_type.ml" 19 307 328
+)
+"chas_type.ml" 28 603 630 "chas_type.ml" 28 603 632
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "chas_type.ml" 19 307 333 "chas_type.ml" 19 307 335
+)
+"chas_type.ml" 28 603 633 "chas_type.ml" 28 603 636
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty' "chas_type.ml" 27 563 594 "chas_type.ml" 27 563 597
+)
+"chas_type.ml" 28 603 616 "chas_type.ml" 28 603 636
+call(
+  stack
+)
+type(
+  bool
+)
+"chas_type.ml" 28 603 647 "chas_type.ml" 28 603 649
+type(
+  Path.t
+)
+ident(
+  int_ref mp "chas_type.ml" 20 338 357 "chas_type.ml" 20 338 359
+)
+"chas_type.ml" 28 603 642 "chas_type.ml" 28 603 649
+type(
+  Path.t option
+)
+"chas_type.ml" 29 650 665 "chas_type.ml" 29 650 669
+type(
+  Path.t option
+)
+"chas_type.ml" 28 603 613 "chas_type.ml" 29 650 669
+type(
+  Path.t option
+)
+"chas_type.ml" 30 670 678 "chas_type.ml" 30 670 679
+type(
+  Typpx.Compilerlib.Types.type_declaration
+)
+"chas_type.ml" 31 683 693 "chas_type.ml" 31 683 697
+type(
+  Path.t option
+)
+"chas_type.ml" 25 516 522 "chas_type.ml" 31 683 697
+type(
+  Path.t option
+)
+"chas_type.ml" 24 459 465 "chas_type.ml" 31 683 697
+type(
+  Path.t option
+)
+"chas_type.ml" 33 707 713 "chas_type.ml" 33 707 722
+type(
+  exn
+)
+"chas_type.ml" 33 707 726 "chas_type.ml" 33 707 730
+type(
+  Path.t option
+)
+"chas_type.ml" 23 451 455 "chas_type.ml" 33 707 730
+type(
+  Path.t option
+)
+"chas_type.ml" 22 401 405 "chas_type.ml" 33 707 730
+type(
+  Path.t option
+)
+"chas_type.ml" 21 362 366 "chas_type.ml" 33 707 730
+type(
+  Path.t option
+)
+"chas_type.ml" 35 736 746 "chas_type.ml" 35 736 758
+type(
+  Env.summary -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  def find_modules "chas_type.ml" 35 736 738 "chas_type.ml" 71 2023 2077
+)
+"chas_type.ml" 36 770 776 "chas_type.ml" 36 770 789
+type(
+  Env.summary
+)
+"chas_type.ml" 36 770 793 "chas_type.ml" 36 770 795
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 37 796 813 "chas_type.ml" 37 796 814
+type(
+  Env.summary
+)
+ident(
+  def s "chas_type.ml" 44 987 1019 "chas_type.ml" 44 987 1033
+)
+"chas_type.ml" 37 796 816 "chas_type.ml" 37 796 817
+type(
+  Ident.t
+)
+"chas_type.ml" 37 796 819 "chas_type.ml" 37 796 820
+type(
+  Types.value_description
+)
+"chas_type.ml" 37 796 802 "chas_type.ml" 37 796 821
+type(
+  Env.summary
+)
+"chas_type.ml" 38 822 843 "chas_type.ml" 38 822 844
+type(
+  Env.summary
+)
+ident(
+  def s "chas_type.ml" 44 987 1019 "chas_type.ml" 44 987 1033
+)
+"chas_type.ml" 38 822 846 "chas_type.ml" 38 822 847
+type(
+  Ident.t
+)
+"chas_type.ml" 38 822 849 "chas_type.ml" 38 822 850
+type(
+  Types.extension_constructor
+)
+"chas_type.ml" 38 822 828 "chas_type.ml" 38 822 851
+type(
+  Env.summary
+)
+"chas_type.ml" 37 796 802 "chas_type.ml" 38 822 851
+type(
+  Env.summary
+)
+"chas_type.ml" 39 852 871 "chas_type.ml" 39 852 872
+type(
+  Env.summary
+)
+ident(
+  def s "chas_type.ml" 44 987 1019 "chas_type.ml" 44 987 1033
+)
+"chas_type.ml" 39 852 874 "chas_type.ml" 39 852 875
+type(
+  Ident.t
+)
+"chas_type.ml" 39 852 877 "chas_type.ml" 39 852 878
+type(
+  Types.modtype_declaration
+)
+"chas_type.ml" 39 852 858 "chas_type.ml" 39 852 879
+type(
+  Env.summary
+)
+"chas_type.ml" 37 796 802 "chas_type.ml" 39 852 879
+type(
+  Env.summary
+)
+"chas_type.ml" 40 880 897 "chas_type.ml" 40 880 898
+type(
+  Env.summary
+)
+ident(
+  def s "chas_type.ml" 44 987 1019 "chas_type.ml" 44 987 1033
+)
+"chas_type.ml" 40 880 900 "chas_type.ml" 40 880 901
+type(
+  Ident.t
+)
+"chas_type.ml" 40 880 903 "chas_type.ml" 40 880 904
+type(
+  Types.class_declaration
+)
+"chas_type.ml" 40 880 886 "chas_type.ml" 40 880 905
+type(
+  Env.summary
+)
+"chas_type.ml" 37 796 802 "chas_type.ml" 40 880 905
+type(
+  Env.summary
+)
+"chas_type.ml" 41 906 924 "chas_type.ml" 41 906 925
+type(
+  Env.summary
+)
+ident(
+  def s "chas_type.ml" 44 987 1019 "chas_type.ml" 44 987 1033
+)
+"chas_type.ml" 41 906 927 "chas_type.ml" 41 906 928
+type(
+  Ident.t
+)
+"chas_type.ml" 41 906 930 "chas_type.ml" 41 906 931
+type(
+  Types.class_type_declaration
+)
+"chas_type.ml" 41 906 912 "chas_type.ml" 41 906 932
+type(
+  Env.summary
+)
+"chas_type.ml" 37 796 802 "chas_type.ml" 41 906 932
+type(
+  Env.summary
+)
+"chas_type.ml" 42 933 956 "chas_type.ml" 42 933 957
+type(
+  Env.summary
+)
+ident(
+  def s "chas_type.ml" 44 987 1019 "chas_type.ml" 44 987 1033
+)
+"chas_type.ml" 42 933 959 "chas_type.ml" 42 933 960
+type(
+  Ident.t
+)
+"chas_type.ml" 42 933 939 "chas_type.ml" 42 933 961
+type(
+  Env.summary
+)
+"chas_type.ml" 37 796 802 "chas_type.ml" 42 933 961
+type(
+  Env.summary
+)
+"chas_type.ml" 43 962 978 "chas_type.ml" 43 962 979
+type(
+  Env.summary
+)
+ident(
+  def s "chas_type.ml" 44 987 1019 "chas_type.ml" 44 987 1033
+)
+"chas_type.ml" 43 962 981 "chas_type.ml" 43 962 982
+type(
+  Ident.t
+)
+"chas_type.ml" 43 962 984 "chas_type.ml" 43 962 985
+type(
+  Types.type_declaration
+)
+"chas_type.ml" 43 962 968 "chas_type.ml" 43 962 986
+type(
+  Env.summary
+)
+"chas_type.ml" 37 796 802 "chas_type.ml" 43 962 986
+type(
+  Env.summary
+)
+"chas_type.ml" 44 987 1010 "chas_type.ml" 44 987 1011
+type(
+  Env.summary
+)
+ident(
+  def s "chas_type.ml" 44 987 1019 "chas_type.ml" 44 987 1033
+)
+"chas_type.ml" 44 987 1013 "chas_type.ml" 44 987 1014
+type(
+  Types.type_declaration Env.PathMap.t
+)
+"chas_type.ml" 44 987 993 "chas_type.ml" 44 987 1015
+type(
+  Env.summary
+)
+"chas_type.ml" 37 796 802 "chas_type.ml" 44 987 1015
+type(
+  Env.summary
+)
+"chas_type.ml" 44 987 1019 "chas_type.ml" 44 987 1031
+type(
+  Env.summary -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref find_modules "chas_type.ml" 35 736 746 "chas_type.ml" 35 736 758
+)
+"chas_type.ml" 44 987 1032 "chas_type.ml" 44 987 1033
+type(
+  Env.summary
+)
+ident(
+  int_ref s "chas_type.ml" 37 796 813 "chas_type.ml" 37 796 814
+)
+"chas_type.ml" 44 987 1019 "chas_type.ml" 44 987 1033
+call(
+  tail
+)
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 45 1034 1052 "chas_type.ml" 45 1034 1053
+type(
+  Env.summary
+)
+ident(
+  def s "chas_type.ml" 46 1067 1075 "chas_type.ml" 50 1204 1215
+)
+"chas_type.ml" 45 1034 1055 "chas_type.ml" 45 1034 1057
+type(
+  Ident.t
+)
+ident(
+  def id "chas_type.ml" 46 1067 1075 "chas_type.ml" 50 1204 1215
+)
+"chas_type.ml" 45 1034 1059 "chas_type.ml" 45 1034 1062
+type(
+  Types.module_declaration
+)
+ident(
+  def _md "chas_type.ml" 46 1067 1075 "chas_type.ml" 50 1204 1215
+)
+"chas_type.ml" 45 1034 1040 "chas_type.ml" 45 1034 1063
+type(
+  Env.summary
+)
+"chas_type.ml" 46 1067 1079 "chas_type.ml" 46 1067 1082
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  def res "chas_type.ml" 47 1103 1111 "chas_type.ml" 50 1204 1215
+)
+"chas_type.ml" 46 1067 1085 "chas_type.ml" 46 1067 1097
+type(
+  Env.summary -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref find_modules "chas_type.ml" 35 736 746 "chas_type.ml" 35 736 758
+)
+"chas_type.ml" 46 1067 1098 "chas_type.ml" 46 1067 1099
+type(
+  Env.summary
+)
+ident(
+  int_ref s "chas_type.ml" 45 1034 1052 "chas_type.ml" 45 1034 1053
+)
+"chas_type.ml" 46 1067 1085 "chas_type.ml" 46 1067 1099
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 47 1103 1123 "chas_type.ml" 47 1103 1135
+type(
+  Typpx.Compilerlib.Path.t -> Typpx.Compilerlib.Path.t option
+)
+ident(
+  int_ref has_instance "chas_type.ml" 20 338 344 "chas_type.ml" 20 338 356
+)
+"chas_type.ml" 47 1103 1144 "chas_type.ml" 47 1103 1146
+type(
+  Ident.t
+)
+ident(
+  int_ref id "chas_type.ml" 45 1034 1055 "chas_type.ml" 45 1034 1057
+)
+"chas_type.ml" 47 1103 1136 "chas_type.ml" 47 1103 1147
+type(
+  Typpx.Compilerlib.Path.t
+)
+"chas_type.ml" 47 1103 1123 "chas_type.ml" 47 1103 1147
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Path.t option
+)
+"chas_type.ml" 48 1153 1163 "chas_type.ml" 48 1153 1167
+type(
+  Typpx.Compilerlib.Path.t option
+)
+"chas_type.ml" 48 1153 1171 "chas_type.ml" 48 1153 1174
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref res "chas_type.ml" 46 1067 1079 "chas_type.ml" 46 1067 1082
+)
+"chas_type.ml" 49 1175 1190 "chas_type.ml" 49 1175 1191
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def x "chas_type.ml" 49 1175 1195 "chas_type.ml" 49 1175 1203
+)
+"chas_type.ml" 49 1175 1185 "chas_type.ml" 49 1175 1191
+type(
+  Typpx.Compilerlib.Path.t option
+)
+"chas_type.ml" 49 1175 1195 "chas_type.ml" 49 1175 1196
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref x "chas_type.ml" 49 1175 1190 "chas_type.ml" 49 1175 1191
+)
+"chas_type.ml" 49 1175 1200 "chas_type.ml" 49 1175 1203
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref res "chas_type.ml" 46 1067 1079 "chas_type.ml" 46 1067 1082
+)
+"chas_type.ml" 49 1175 1195 "chas_type.ml" 49 1175 1203
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 47 1103 1111 "chas_type.ml" 50 1204 1215
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 46 1067 1075 "chas_type.ml" 50 1204 1215
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 51 1216 1232 "chas_type.ml" 51 1216 1233
+type(
+  Env.summary
+)
+ident(
+  def s "chas_type.ml" 52 1244 1252 "chas_type.ml" 62 1660 1710
+)
+"chas_type.ml" 51 1216 1235 "chas_type.ml" 51 1216 1239
+type(
+  Path.t
+)
+ident(
+  def path "chas_type.ml" 52 1244 1252 "chas_type.ml" 62 1660 1710
+)
+"chas_type.ml" 51 1216 1222 "chas_type.ml" 51 1216 1240
+type(
+  Env.summary
+)
+"chas_type.ml" 52 1244 1256 "chas_type.ml" 52 1244 1258
+type(
+  Types.module_declaration
+)
+ident(
+  def md "chas_type.ml" 54 1347 1355 "chas_type.ml" 62 1660 1710
+)
+"chas_type.ml" 52 1244 1261 "chas_type.ml" 52 1244 1276
+type(
+  Path.t -> Env.t -> Types.module_declaration
+)
+ident(
+  ext_ref Env.find_module
+)
+"chas_type.ml" 52 1244 1277 "chas_type.ml" 52 1244 1281
+type(
+  Path.t
+)
+ident(
+  int_ref path "chas_type.ml" 51 1216 1235 "chas_type.ml" 51 1216 1239
+)
+"chas_type.ml" 52 1244 1282 "chas_type.ml" 52 1244 1285
+type(
+  Env.t
+)
+ident(
+  int_ref env "chas_type.ml" 19 307 325 "chas_type.ml" 19 307 328
+)
+"chas_type.ml" 52 1244 1261 "chas_type.ml" 52 1244 1285
+call(
+  stack
+)
+type(
+  Types.module_declaration
+)
+"chas_type.ml" 54 1347 1359 "chas_type.ml" 54 1347 1360
+type(
+  Utils.dummy_module
+)
+ident(
+  def m "chas_type.ml" 55 1403 1411 "chas_type.ml" 62 1660 1710
+)
+"chas_type.ml" 54 1347 1363 "chas_type.ml" 54 1347 1379
+type(
+  Env.t ->
+  Path.t -> Typpx.Compilerlib.Types.module_type -> Utils.dummy_module
+)
+"chas_type.ml" 54 1347 1380 "chas_type.ml" 54 1347 1383
+type(
+  Env.t
+)
+ident(
+  int_ref env "chas_type.ml" 19 307 325 "chas_type.ml" 19 307 328
+)
+"chas_type.ml" 54 1347 1384 "chas_type.ml" 54 1347 1388
+type(
+  Path.t
+)
+ident(
+  int_ref path "chas_type.ml" 51 1216 1235 "chas_type.ml" 51 1216 1239
+)
+"chas_type.ml" 54 1347 1389 "chas_type.ml" 54 1347 1391
+type(
+  Typpx.Compilerlib.Types.module_declaration
+)
+ident(
+  int_ref md "chas_type.ml" 52 1244 1256 "chas_type.ml" 52 1244 1258
+)
+"chas_type.ml" 54 1347 1389 "chas_type.ml" 54 1347 1399
+type(
+  Typpx.Compilerlib.Types.module_type
+)
+"chas_type.ml" 54 1347 1363 "chas_type.ml" 54 1347 1399
+call(
+  stack
+)
+type(
+  Utils.dummy_module
+)
+"chas_type.ml" 55 1403 1411 "chas_type.ml" 55 1403 1420
+type(
+  (Typpx.Compilerlib.Path.t list ->
+   Typpx.Compilerlib.Types.signature_item -> Typpx.Compilerlib.Path.t list) ->
+  Typpx.Compilerlib.Path.t list ->
+  Types.signature -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.fold_left
+)
+"chas_type.ml" 55 1403 1426 "chas_type.ml" 55 1403 1429
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  def res "chas_type.ml" 55 1403 1433 "chas_type.ml" 61 1638 1658
+)
+"chas_type.ml" 56 1442 1466 "chas_type.ml" 56 1442 1468
+type(
+  Ident.t
+)
+ident(
+  def id "chas_type.ml" 57 1481 1495 "chas_type.ml" 60 1620 1637
+)
+"chas_type.ml" 56 1442 1470 "chas_type.ml" 56 1442 1473
+type(
+  Typpx.Compilerlib.Types.module_declaration
+)
+ident(
+  def _md "chas_type.ml" 57 1481 1495 "chas_type.ml" 60 1620 1637
+)
+"chas_type.ml" 56 1442 1475 "chas_type.ml" 56 1442 1476
+type(
+  Typpx.Compilerlib.Types.rec_status
+)
+"chas_type.ml" 56 1442 1454 "chas_type.ml" 56 1442 1477
+type(
+  Typpx.Compilerlib.Types.signature_item
+)
+"chas_type.ml" 57 1481 1507 "chas_type.ml" 57 1481 1519
+type(
+  Path.t -> Path.t option
+)
+ident(
+  int_ref has_instance "chas_type.ml" 20 338 344 "chas_type.ml" 20 338 356
+)
+"chas_type.ml" 57 1481 1521 "chas_type.ml" 57 1481 1522
+type(
+  Utils.dummy_module
+)
+ident(
+  int_ref m "chas_type.ml" 54 1347 1359 "chas_type.ml" 54 1347 1360
+)
+"chas_type.ml" 57 1481 1521 "chas_type.ml" 57 1481 1536
+call(
+  stack
+)
+type(
+  string -> Path.t
+)
+"chas_type.ml" 57 1481 1537 "chas_type.ml" 57 1481 1539
+type(
+  Typpx.Compilerlib.Ident.t
+)
+ident(
+  int_ref id "chas_type.ml" 56 1442 1466 "chas_type.ml" 56 1442 1468
+)
+"chas_type.ml" 57 1481 1537 "chas_type.ml" 57 1481 1550
+type(
+  string
+)
+"chas_type.ml" 57 1481 1520 "chas_type.ml" 57 1481 1551
+type(
+  Path.t
+)
+"chas_type.ml" 57 1481 1507 "chas_type.ml" 57 1481 1551
+call(
+  stack
+)
+type(
+  Path.t option
+)
+"chas_type.ml" 58 1557 1573 "chas_type.ml" 58 1557 1577
+type(
+  Path.t option
+)
+"chas_type.ml" 58 1557 1581 "chas_type.ml" 58 1557 1584
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref res "chas_type.ml" 55 1403 1426 "chas_type.ml" 55 1403 1429
+)
+"chas_type.ml" 59 1585 1606 "chas_type.ml" 59 1585 1607
+type(
+  Path.t
+)
+ident(
+  def x "chas_type.ml" 59 1585 1611 "chas_type.ml" 59 1585 1619
+)
+"chas_type.ml" 59 1585 1601 "chas_type.ml" 59 1585 1607
+type(
+  Path.t option
+)
+"chas_type.ml" 59 1585 1611 "chas_type.ml" 59 1585 1612
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref x "chas_type.ml" 59 1585 1606 "chas_type.ml" 59 1585 1607
+)
+"chas_type.ml" 59 1585 1616 "chas_type.ml" 59 1585 1619
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref res "chas_type.ml" 55 1403 1426 "chas_type.ml" 55 1403 1429
+)
+"chas_type.ml" 59 1585 1611 "chas_type.ml" 59 1585 1619
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 57 1481 1495 "chas_type.ml" 60 1620 1637
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 61 1638 1650 "chas_type.ml" 61 1638 1651
+type(
+  Typpx.Compilerlib.Types.signature_item
+)
+"chas_type.ml" 61 1638 1655 "chas_type.ml" 61 1638 1658
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref res "chas_type.ml" 55 1403 1426 "chas_type.ml" 55 1403 1429
+)
+"chas_type.ml" 55 1403 1433 "chas_type.ml" 61 1638 1658
+type(
+  Typpx.Compilerlib.Types.signature_item -> Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 55 1403 1421 "chas_type.ml" 61 1638 1659
+type(
+  Typpx.Compilerlib.Path.t list ->
+  Typpx.Compilerlib.Types.signature_item -> Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 62 1660 1671 "chas_type.ml" 62 1660 1683
+type(
+  Env.summary -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref find_modules "chas_type.ml" 35 736 746 "chas_type.ml" 35 736 758
+)
+"chas_type.ml" 62 1660 1684 "chas_type.ml" 62 1660 1685
+type(
+  Env.summary
+)
+ident(
+  int_ref s "chas_type.ml" 51 1216 1232 "chas_type.ml" 51 1216 1233
+)
+"chas_type.ml" 62 1660 1670 "chas_type.ml" 62 1660 1686
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 62 1660 1688 "chas_type.ml" 62 1660 1697
+type(
+  Path.t -> Env.t -> Types.module_declaration -> Types.signature
+)
+ident(
+  ext_ref Utils.scrape_sg
+)
+"chas_type.ml" 62 1660 1698 "chas_type.ml" 62 1660 1702
+type(
+  Path.t
+)
+ident(
+  int_ref path "chas_type.ml" 51 1216 1235 "chas_type.ml" 51 1216 1239
+)
+"chas_type.ml" 62 1660 1703 "chas_type.ml" 62 1660 1706
+type(
+  Env.t
+)
+ident(
+  int_ref env "chas_type.ml" 19 307 325 "chas_type.ml" 19 307 328
+)
+"chas_type.ml" 62 1660 1707 "chas_type.ml" 62 1660 1709
+type(
+  Types.module_declaration
+)
+ident(
+  int_ref md "chas_type.ml" 52 1244 1256 "chas_type.ml" 52 1244 1258
+)
+"chas_type.ml" 62 1660 1687 "chas_type.ml" 62 1660 1710
+call(
+  stack
+)
+type(
+  Types.signature
+)
+"chas_type.ml" 55 1403 1411 "chas_type.ml" 62 1660 1710
+call(
+  tail
+)
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 54 1347 1355 "chas_type.ml" 62 1660 1710
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 52 1244 1252 "chas_type.ml" 62 1660 1710
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 35 736 761 "chas_type.ml" 62 1660 1710
+type(
+  Env.summary -> Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 64 1716 1722 "chas_type.ml" 64 1716 1727
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  def paths "chas_type.ml" 65 1764 1766 "chas_type.ml" 71 2023 2077
+)
+"chas_type.ml" 64 1716 1730 "chas_type.ml" 64 1716 1742
+type(
+  Env.summary -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref find_modules "chas_type.ml" 35 736 746 "chas_type.ml" 35 736 758
+)
+"chas_type.ml" 64 1716 1743 "chas_type.ml" 64 1716 1744
+type(
+  (Env.summary -> Typpx.Compilerlib.Path.t list) ->
+  Env.summary -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"chas_type.ml" 64 1716 1745 "chas_type.ml" 64 1716 1756
+type(
+  Env.t -> Env.summary
+)
+ident(
+  ext_ref Env.summary
+)
+"chas_type.ml" 64 1716 1757 "chas_type.ml" 64 1716 1760
+type(
+  Env.t
+)
+ident(
+  int_ref env "chas_type.ml" 19 307 325 "chas_type.ml" 19 307 328
+)
+"chas_type.ml" 64 1716 1745 "chas_type.ml" 64 1716 1760
+call(
+  stack
+)
+type(
+  Env.summary
+)
+"chas_type.ml" 64 1716 1730 "chas_type.ml" 64 1716 1760
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"chas_type.ml" 65 1764 1769 "chas_type.ml" 65 1764 1770
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"chas_type.ml" 65 1764 1770 "chas_type.ml" 65 1764 1789
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_resolve
+)
+"chas_type.ml" 65 1764 1769 "chas_type.ml" 65 1764 1789
+type(
+  bool
+)
+"chas_type.ml" 66 1801 1805 "chas_type.ml" 66 1801 1808
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"chas_type.ml" 66 1801 1809 "chas_type.ml" 66 1801 1855
+type(
+  (unit, Format.formatter, unit) format
+)
+"chas_type.ml" 66 1801 1805 "chas_type.ml" 66 1801 1855
+call(
+  stack
+)
+type(
+  unit
+)
+"chas_type.ml" 67 1857 1861 "chas_type.ml" 67 1857 1865
+type(
+  ((Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t list -> unit) ->
+  Typpx.Compilerlib.Path.t list -> (Typpx.Compilerlib.Path.t -> unit) -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"chas_type.ml" 67 1857 1866 "chas_type.ml" 67 1857 1870
+type(
+  (Typpx.Compilerlib.Path.t -> unit) -> Typpx.Compilerlib.Path.t list -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.List.iter
+)
+"chas_type.ml" 67 1857 1871 "chas_type.ml" 67 1857 1876
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref paths "chas_type.ml" 64 1716 1722 "chas_type.ml" 64 1716 1727
+)
+"chas_type.ml" 67 1857 1861 "chas_type.ml" 67 1857 1876
+type(
+  (Typpx.Compilerlib.Path.t -> unit) -> unit
+)
+"chas_type.ml" 67 1857 1877 "chas_type.ml" 67 1857 1878
+type(
+  ((Typpx.Compilerlib.Path.t -> unit) -> unit) ->
+  (Typpx.Compilerlib.Path.t -> unit) -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"chas_type.ml" 67 1857 1879 "chas_type.ml" 67 1857 1882
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format ->
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.( !!% )
+)
+"chas_type.ml" 67 1857 1883 "chas_type.ml" 67 1857 1891
+type(
+  ((Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+   Typpx.Compilerlib.Path.t -> unit, Ppxx.Utils.Format.formatter, unit)
+  format
+)
+"chas_type.ml" 67 1857 1879 "chas_type.ml" 67 1857 1891
+type(
+  (Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit) ->
+  Typpx.Compilerlib.Path.t -> unit
+)
+"chas_type.ml" 67 1857 1892 "chas_type.ml" 67 1857 1903
+type(
+  Ppxx.Utils.Format.formatter -> Typpx.Compilerlib.Path.t -> unit
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.format
+)
+"chas_type.ml" 67 1857 1879 "chas_type.ml" 67 1857 1903
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Path.t -> unit
+)
+"chas_type.ml" 67 1857 1861 "chas_type.ml" 67 1857 1903
+call(
+  stack
+)
+type(
+  unit
+)
+"chas_type.ml" 65 1764 1795 "chas_type.ml" 68 1904 1909
+type(
+  unit
+)
+"chas_type.ml" 65 1764 1766 "chas_type.ml" 68 1904 1909
+type(
+  unit
+)
+"chas_type.ml" 69 1911 1913 "chas_type.ml" 69 1911 1919
+type(
+  Candidate.t list list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.concat
+)
+"chas_type.ml" 69 1911 1920 "chas_type.ml" 69 1911 1921
+type(
+  (Candidate.t list list -> Candidate.t list) ->
+  Candidate.t list list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"chas_type.ml" 69 1911 1922 "chas_type.ml" 69 1911 1925
+type(
+  (Typpx.Compilerlib.Path.t -> Candidate.t list) ->
+  Typpx.Compilerlib.Path.t list -> Candidate.t list list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"chas_type.ml" 69 1911 1931 "chas_type.ml" 69 1911 1935
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def path "chas_type.ml" 70 1939 1943 "chas_type.ml" 71 2023 2070
+)
+"chas_type.ml" 70 1939 1947 "chas_type.ml" 70 1939 1950
+type(
+  Longident.t
+)
+ident(
+  def lid "chas_type.ml" 71 2023 2027 "chas_type.ml" 71 2023 2070
+)
+"chas_type.ml" 70 1939 1990 "chas_type.ml" 70 1939 2014
+type(
+  Typpx.Compilerlib.Path.t -> Longident.t
+)
+ident(
+  ext_ref Untypeast.lident_of_path
+)
+"chas_type.ml" 70 1939 2015 "chas_type.ml" 70 1939 2019
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "chas_type.ml" 69 1911 1931 "chas_type.ml" 69 1911 1935
+)
+"chas_type.ml" 70 1939 1990 "chas_type.ml" 70 1939 2019
+call(
+  stack
+)
+type(
+  Longident.t
+)
+"chas_type.ml" 71 2023 2027 "chas_type.ml" 71 2023 2038
+type(
+  Env.t ->
+  Location.t ->
+  [ `In | `Just ] * Longident.t * Typpx.Compilerlib.Path.t option ->
+  Candidate.t list
+)
+ident(
+  ext_ref Candidate.cand_direct
+)
+"chas_type.ml" 71 2023 2039 "chas_type.ml" 71 2023 2042
+type(
+  Env.t
+)
+ident(
+  int_ref env "chas_type.ml" 19 307 325 "chas_type.ml" 19 307 328
+)
+"chas_type.ml" 71 2023 2043 "chas_type.ml" 71 2023 2046
+type(
+  Location.t
+)
+ident(
+  int_ref loc "chas_type.ml" 19 307 329 "chas_type.ml" 19 307 332
+)
+"chas_type.ml" 71 2023 2048 "chas_type.ml" 71 2023 2053
+type(
+  [ `In | `Just ]
+)
+"chas_type.ml" 71 2023 2055 "chas_type.ml" 71 2023 2058
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "chas_type.ml" 70 1939 1947 "chas_type.ml" 70 1939 1950
+)
+"chas_type.ml" 71 2023 2065 "chas_type.ml" 71 2023 2069
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "chas_type.ml" 69 1911 1931 "chas_type.ml" 69 1911 1935
+)
+"chas_type.ml" 71 2023 2060 "chas_type.ml" 71 2023 2069
+type(
+  Typpx.Compilerlib.Path.t option
+)
+"chas_type.ml" 71 2023 2047 "chas_type.ml" 71 2023 2070
+type(
+  [ `In | `Just ] * Longident.t * Typpx.Compilerlib.Path.t option
+)
+"chas_type.ml" 71 2023 2027 "chas_type.ml" 71 2023 2070
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"chas_type.ml" 70 1939 1943 "chas_type.ml" 71 2023 2070
+type(
+  Candidate.t list
+)
+"chas_type.ml" 69 1911 1926 "chas_type.ml" 71 2023 2071
+type(
+  Typpx.Compilerlib.Path.t -> Candidate.t list
+)
+"chas_type.ml" 71 2023 2072 "chas_type.ml" 71 2023 2077
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref paths "chas_type.ml" 64 1716 1722 "chas_type.ml" 64 1716 1727
+)
+"chas_type.ml" 69 1911 1922 "chas_type.ml" 71 2023 2077
+call(
+  stack
+)
+type(
+  Candidate.t list list
+)
+"chas_type.ml" 69 1911 1913 "chas_type.ml" 71 2023 2077
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"chas_type.ml" 65 1764 1766 "chas_type.ml" 71 2023 2077
+type(
+  Candidate.t list
+)
+"chas_type.ml" 64 1716 1718 "chas_type.ml" 71 2023 2077
+type(
+  Candidate.t list
+)
+"chas_type.ml" 35 736 738 "chas_type.ml" 71 2023 2077
+type(
+  Candidate.t list
+)
+"chas_type.ml" 20 338 340 "chas_type.ml" 71 2023 2077
+type(
+  Candidate.t list
+)

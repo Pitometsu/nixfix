@@ -1,0 +1,35 @@
+(lang dune 1.10)
+(name splittable_random)
+(version v0.11.0)
+(library
+ (name splittable_random)
+ (kind normal)
+ (archives (byte splittable_random.cma) (native splittable_random.cmxa))
+ (plugins (byte splittable_random.cma) (native splittable_random.cmxs))
+ (foreign_archives (native splittable_random.a))
+ (requires
+  ppx_expect.collector
+  variantslib
+  typerep
+  ppx_sexp_conv.runtime-lib
+  ppx_sexp_conv.runtime-lib
+  ppx_inline_test.runtime-lib
+  fieldslib
+  bin_prot
+  ppx_bench.runtime-lib
+  ppx_assert.runtime-lib
+  ppx_hash.runtime-lib
+  ppx_compare.runtime-lib
+  ppx_sexp_conv.runtime-lib
+  base)
+ (main_module_name Splittable_random)
+ (modes byte native)
+ (modules
+  (main_module_name Splittable_random)
+  (modules
+   ((name Splittable_random)
+    (obj_name splittable_random)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

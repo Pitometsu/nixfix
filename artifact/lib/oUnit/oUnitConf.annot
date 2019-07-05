@@ -1,0 +1,6357 @@
+"src/oUnitConf.ml" 47 2644 2648 "src/oUnitConf.ml" 47 2644 2656
+type(
+  (string, metadata) Hashtbl.t
+)
+ident(
+  def metaconf "src/oUnitConf.ml" 49 2678 2678 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 47 2644 2659 "src/oUnitConf.ml" 47 2644 2673
+type(
+  ?random:bool -> int -> (string, metadata) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/oUnitConf.ml" 47 2644 2674 "src/oUnitConf.ml" 47 2644 2676
+type(
+  int
+)
+"src/oUnitConf.ml" 47 2644 2659 "src/oUnitConf.ml" 47 2644 2676
+call(
+  stack
+)
+type(
+  (string, metadata) Hashtbl.t
+)
+"src/oUnitConf.ml" 49 2678 2682 "src/oUnitConf.ml" 49 2678 2701
+type(
+  string -> unit
+)
+ident(
+  def check_variable_name "src/oUnitConf.ml" 73 3261 3261 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 49 2678 2702 "src/oUnitConf.ml" 49 2678 2705
+type(
+  string
+)
+ident(
+  def str "src/oUnitConf.ml" 50 2708 2710 "src/oUnitConf.ml" 71 3250 3259
+)
+"src/oUnitConf.ml" 50 2708 2714 "src/oUnitConf.ml" 50 2708 2716
+type(
+  unit
+)
+"src/oUnitConf.ml" 51 2719 2726 "src/oUnitConf.ml" 51 2719 2739
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/oUnitConf.ml" 51 2719 2740 "src/oUnitConf.ml" 51 2719 2743
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 49 2678 2702 "src/oUnitConf.ml" 49 2678 2705
+)
+"src/oUnitConf.ml" 51 2719 2726 "src/oUnitConf.ml" 51 2719 2743
+type(
+  int
+)
+"src/oUnitConf.ml" 51 2719 2744 "src/oUnitConf.ml" 51 2719 2745
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/oUnitConf.ml" 51 2719 2746 "src/oUnitConf.ml" 51 2719 2747
+type(
+  int
+)
+"src/oUnitConf.ml" 51 2719 2726 "src/oUnitConf.ml" 51 2719 2747
+type(
+  bool
+)
+"src/oUnitConf.ml" 52 2753 2759 "src/oUnitConf.ml" 52 2753 2767
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/oUnitConf.ml" 52 2753 2768 "src/oUnitConf.ml" 52 2753 2793
+type(
+  string
+)
+"src/oUnitConf.ml" 52 2753 2759 "src/oUnitConf.ml" 52 2753 2793
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 51 2719 2723 "src/oUnitConf.ml" 52 2753 2793
+type(
+  unit
+)
+"src/oUnitConf.ml" 54 2799 2805 "src/oUnitConf.ml" 54 2799 2807
+type(
+  unit
+)
+"src/oUnitConf.ml" 55 2810 2820 "src/oUnitConf.ml" 55 2810 2823
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 49 2678 2702 "src/oUnitConf.ml" 49 2678 2705
+)
+"src/oUnitConf.ml" 55 2810 2825 "src/oUnitConf.ml" 55 2810 2826
+type(
+  int
+)
+"src/oUnitConf.ml" 55 2810 2820 "src/oUnitConf.ml" 55 2810 2827
+type(
+  char
+)
+"src/oUnitConf.ml" 56 2833 2841 "src/oUnitConf.ml" 56 2833 2851
+type(
+  char
+)
+"src/oUnitConf.ml" 56 2833 2854 "src/oUnitConf.ml" 56 2833 2857
+type(
+  char
+)
+"src/oUnitConf.ml" 56 2833 2841 "src/oUnitConf.ml" 56 2833 2857
+type(
+  char
+)
+"src/oUnitConf.ml" 57 2861 2871 "src/oUnitConf.ml" 57 2861 2880
+type(
+  (string -> char -> unit, unit, string, unit) format4 ->
+  string -> char -> unit
+)
+ident(
+  ext_ref OUnitUtils.failwithf
+)
+"src/oUnitConf.ml" 58 2881 2893 "src/oUnitConf.ml" 58 2881 2954
+type(
+  (string -> char -> unit, unit, string, unit) format4
+)
+"src/oUnitConf.ml" 59 2955 2967 "src/oUnitConf.ml" 59 2955 2970
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 49 2678 2702 "src/oUnitConf.ml" 49 2678 2705
+)
+"src/oUnitConf.ml" 59 2955 2971 "src/oUnitConf.ml" 59 2955 2974
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 49 2678 2702 "src/oUnitConf.ml" 49 2678 2705
+)
+"src/oUnitConf.ml" 59 2955 2976 "src/oUnitConf.ml" 59 2955 2977
+type(
+  int
+)
+"src/oUnitConf.ml" 59 2955 2971 "src/oUnitConf.ml" 59 2955 2978
+type(
+  char
+)
+"src/oUnitConf.ml" 57 2861 2871 "src/oUnitConf.ml" 59 2955 2978
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 60 2979 2987 "src/oUnitConf.ml" 60 2979 2988
+type(
+  char
+)
+"src/oUnitConf.ml" 61 2992 3002 "src/oUnitConf.ml" 61 2992 3004
+type(
+  unit
+)
+"src/oUnitConf.ml" 55 2810 2814 "src/oUnitConf.ml" 61 2992 3004
+type(
+  unit
+)
+"src/oUnitConf.ml" 63 3010 3014 "src/oUnitConf.ml" 63 3010 3025
+type(
+  (char -> unit) -> string -> unit
+)
+ident(
+  ext_ref String.iter
+)
+"src/oUnitConf.ml" 65 3042 3053 "src/oUnitConf.ml" 65 3042 3063
+type(
+  char
+)
+"src/oUnitConf.ml" 65 3042 3066 "src/oUnitConf.ml" 65 3042 3076
+type(
+  char
+)
+"src/oUnitConf.ml" 65 3042 3053 "src/oUnitConf.ml" 65 3042 3076
+type(
+  char
+)
+"src/oUnitConf.ml" 65 3042 3079 "src/oUnitConf.ml" 65 3042 3082
+type(
+  char
+)
+"src/oUnitConf.ml" 65 3042 3053 "src/oUnitConf.ml" 65 3042 3082
+type(
+  char
+)
+"src/oUnitConf.ml" 65 3042 3085 "src/oUnitConf.ml" 65 3042 3095
+type(
+  char
+)
+"src/oUnitConf.ml" 65 3042 3053 "src/oUnitConf.ml" 65 3042 3095
+type(
+  char
+)
+"src/oUnitConf.ml" 66 3099 3112 "src/oUnitConf.ml" 66 3099 3114
+type(
+  unit
+)
+"src/oUnitConf.ml" 67 3115 3126 "src/oUnitConf.ml" 67 3115 3127
+type(
+  char
+)
+ident(
+  def c "src/oUnitConf.ml" 68 3131 3144 "src/oUnitConf.ml" 70 3228 3248
+)
+"src/oUnitConf.ml" 68 3131 3144 "src/oUnitConf.ml" 68 3131 3153
+type(
+  (string -> char -> unit, unit, string, unit) format4 ->
+  string -> char -> unit
+)
+ident(
+  ext_ref OUnitUtils.failwithf
+)
+"src/oUnitConf.ml" 69 3154 3169 "src/oUnitConf.ml" 69 3154 3227
+type(
+  (string -> char -> unit, unit, string, unit) format4
+)
+"src/oUnitConf.ml" 70 3228 3243 "src/oUnitConf.ml" 70 3228 3246
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 49 2678 2702 "src/oUnitConf.ml" 49 2678 2705
+)
+"src/oUnitConf.ml" 70 3228 3247 "src/oUnitConf.ml" 70 3228 3248
+type(
+  char
+)
+ident(
+  int_ref c "src/oUnitConf.ml" 67 3115 3126 "src/oUnitConf.ml" 67 3115 3127
+)
+"src/oUnitConf.ml" 68 3131 3144 "src/oUnitConf.ml" 70 3228 3248
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 64 3026 3032 "src/oUnitConf.ml" 70 3228 3249
+type(
+  char -> unit
+)
+"src/oUnitConf.ml" 71 3250 3256 "src/oUnitConf.ml" 71 3250 3259
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 49 2678 2702 "src/oUnitConf.ml" 49 2678 2705
+)
+"src/oUnitConf.ml" 63 3010 3014 "src/oUnitConf.ml" 71 3250 3259
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 54 2799 2801 "src/oUnitConf.ml" 71 3250 3259
+type(
+  unit
+)
+"src/oUnitConf.ml" 50 2708 2710 "src/oUnitConf.ml" 71 3250 3259
+type(
+  unit
+)
+"src/oUnitConf.ml" 73 3261 3265 "src/oUnitConf.ml" 73 3261 3273
+type(
+  string -> string
+)
+ident(
+  def cli_name "src/oUnitConf.ml" 85 3553 3553 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 73 3261 3274 "src/oUnitConf.ml" 73 3261 3278
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 74 3281 3283 "src/oUnitConf.ml" 83 3519 3551
+)
+"src/oUnitConf.ml" 74 3281 3287 "src/oUnitConf.ml" 74 3281 3306
+type(
+  string -> string
+)
+ident(
+  def replace_underscores "src/oUnitConf.ml" 83 3519 3521 "src/oUnitConf.ml" 83 3519 3551
+)
+"src/oUnitConf.ml" 74 3281 3307 "src/oUnitConf.ml" 74 3281 3310
+type(
+  string
+)
+ident(
+  def str "src/oUnitConf.ml" 75 3313 3317 "src/oUnitConf.ml" 81 3490 3513
+)
+"src/oUnitConf.ml" 75 3313 3321 "src/oUnitConf.ml" 75 3313 3322
+type(
+  Buffer.t
+)
+ident(
+  def b "src/oUnitConf.ml" 76 3362 3368 "src/oUnitConf.ml" 81 3490 3513
+)
+"src/oUnitConf.ml" 75 3313 3325 "src/oUnitConf.ml" 75 3313 3338
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"src/oUnitConf.ml" 75 3313 3340 "src/oUnitConf.ml" 75 3313 3353
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/oUnitConf.ml" 75 3313 3354 "src/oUnitConf.ml" 75 3313 3357
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 74 3281 3307 "src/oUnitConf.ml" 74 3281 3310
+)
+"src/oUnitConf.ml" 75 3313 3339 "src/oUnitConf.ml" 75 3313 3358
+type(
+  int
+)
+"src/oUnitConf.ml" 75 3313 3325 "src/oUnitConf.ml" 75 3313 3358
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"src/oUnitConf.ml" 76 3362 3368 "src/oUnitConf.ml" 76 3362 3379
+type(
+  (char -> unit) -> string -> unit
+)
+ident(
+  ext_ref String.iter
+)
+"src/oUnitConf.ml" 78 3398 3410 "src/oUnitConf.ml" 78 3398 3413
+type(
+  char
+)
+"src/oUnitConf.ml" 78 3398 3417 "src/oUnitConf.ml" 78 3398 3432
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/oUnitConf.ml" 78 3398 3433 "src/oUnitConf.ml" 78 3398 3434
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "src/oUnitConf.ml" 75 3313 3321 "src/oUnitConf.ml" 75 3313 3322
+)
+"src/oUnitConf.ml" 78 3398 3435 "src/oUnitConf.ml" 78 3398 3438
+type(
+  char
+)
+"src/oUnitConf.ml" 78 3398 3417 "src/oUnitConf.ml" 78 3398 3438
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 79 3439 3451 "src/oUnitConf.ml" 79 3439 3452
+type(
+  char
+)
+ident(
+  def c "src/oUnitConf.ml" 79 3439 3456 "src/oUnitConf.ml" 79 3439 3475
+)
+"src/oUnitConf.ml" 79 3439 3456 "src/oUnitConf.ml" 79 3439 3471
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/oUnitConf.ml" 79 3439 3472 "src/oUnitConf.ml" 79 3439 3473
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "src/oUnitConf.ml" 75 3313 3321 "src/oUnitConf.ml" 75 3313 3322
+)
+"src/oUnitConf.ml" 79 3439 3474 "src/oUnitConf.ml" 79 3439 3475
+type(
+  char
+)
+ident(
+  int_ref c "src/oUnitConf.ml" 79 3439 3451 "src/oUnitConf.ml" 79 3439 3452
+)
+"src/oUnitConf.ml" 79 3439 3456 "src/oUnitConf.ml" 79 3439 3475
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 77 3380 3388 "src/oUnitConf.ml" 79 3439 3476
+type(
+  char -> unit
+)
+"src/oUnitConf.ml" 80 3477 3485 "src/oUnitConf.ml" 80 3477 3488
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 74 3281 3307 "src/oUnitConf.ml" 74 3281 3310
+)
+"src/oUnitConf.ml" 76 3362 3368 "src/oUnitConf.ml" 80 3477 3488
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 81 3490 3496 "src/oUnitConf.ml" 81 3490 3511
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/oUnitConf.ml" 81 3490 3512 "src/oUnitConf.ml" 81 3490 3513
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "src/oUnitConf.ml" 75 3313 3321 "src/oUnitConf.ml" 75 3313 3322
+)
+"src/oUnitConf.ml" 81 3490 3496 "src/oUnitConf.ml" 81 3490 3513
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 76 3362 3368 "src/oUnitConf.ml" 81 3490 3513
+type(
+  string
+)
+"src/oUnitConf.ml" 75 3313 3317 "src/oUnitConf.ml" 81 3490 3513
+type(
+  string
+)
+"src/oUnitConf.ml" 83 3519 3521 "src/oUnitConf.ml" 83 3519 3524
+type(
+  string
+)
+"src/oUnitConf.ml" 83 3519 3525 "src/oUnitConf.ml" 83 3519 3526
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 83 3519 3527 "src/oUnitConf.ml" 83 3519 3546
+type(
+  string -> string
+)
+ident(
+  int_ref replace_underscores "src/oUnitConf.ml" 74 3281 3287 "src/oUnitConf.ml" 74 3281 3306
+)
+"src/oUnitConf.ml" 83 3519 3547 "src/oUnitConf.ml" 83 3519 3551
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 73 3261 3274 "src/oUnitConf.ml" 73 3261 3278
+)
+"src/oUnitConf.ml" 83 3519 3527 "src/oUnitConf.ml" 83 3519 3551
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 83 3519 3521 "src/oUnitConf.ml" 83 3519 3551
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 74 3281 3283 "src/oUnitConf.ml" 83 3519 3551
+type(
+  string
+)
+"src/oUnitConf.ml" 85 3553 3557 "src/oUnitConf.ml" 85 3553 3562
+type(
+  conf -> (string * string) list -> string -> string
+)
+ident(
+  def subst "src/oUnitConf.ml" 105 4198 4198 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 85 3553 3563 "src/oUnitConf.ml" 85 3553 3567
+type(
+  conf
+)
+ident(
+  def conf "src/oUnitConf.ml" 85 3553 3568 "src/oUnitConf.ml" 103 4172 4196
+)
+"src/oUnitConf.ml" 85 3553 3568 "src/oUnitConf.ml" 85 3553 3579
+type(
+  (string * string) list
+)
+ident(
+  def extra_subst "src/oUnitConf.ml" 85 3553 3580 "src/oUnitConf.ml" 103 4172 4196
+)
+"src/oUnitConf.ml" 85 3553 3580 "src/oUnitConf.ml" 85 3553 3583
+type(
+  string
+)
+ident(
+  def str "src/oUnitConf.ml" 86 3586 3588 "src/oUnitConf.ml" 103 4172 4196
+)
+"src/oUnitConf.ml" 86 3586 3592 "src/oUnitConf.ml" 86 3586 3605
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  def substitutions "src/oUnitConf.ml" 87 3652 3654 "src/oUnitConf.ml" 103 4172 4196
+)
+"src/oUnitConf.ml" 86 3586 3608 "src/oUnitConf.ml" 86 3586 3622
+type(
+  ?random:bool -> int -> (string, string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/oUnitConf.ml" 86 3586 3624 "src/oUnitConf.ml" 86 3586 3638
+type(
+  (string, metadata) Hashtbl.t -> int
+)
+ident(
+  ext_ref Hashtbl.length
+)
+"src/oUnitConf.ml" 86 3586 3639 "src/oUnitConf.ml" 86 3586 3647
+type(
+  (string, metadata) Hashtbl.t
+)
+ident(
+  int_ref metaconf "src/oUnitConf.ml" 47 2644 2648 "src/oUnitConf.ml" 47 2644 2656
+)
+"src/oUnitConf.ml" 86 3586 3623 "src/oUnitConf.ml" 86 3586 3648
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitConf.ml" 86 3586 3608 "src/oUnitConf.ml" 86 3586 3648
+call(
+  stack
+)
+type(
+  (string, string) Hashtbl.t
+)
+"src/oUnitConf.ml" 87 3652 3658 "src/oUnitConf.ml" 87 3652 3660
+type(
+  unit
+)
+"src/oUnitConf.ml" 89 3703 3707 "src/oUnitConf.ml" 89 3703 3719
+type(
+  (string -> metadata -> unit) -> (string, metadata) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"src/oUnitConf.ml" 90 3720 3731 "src/oUnitConf.ml" 90 3720 3735
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 90 3720 3736 "src/oUnitConf.ml" 91 3748 3813
+)
+"src/oUnitConf.ml" 90 3720 3736 "src/oUnitConf.ml" 90 3720 3744
+type(
+  metadata
+)
+ident(
+  def metadata "src/oUnitConf.ml" 91 3748 3757 "src/oUnitConf.ml" 91 3748 3813
+)
+"src/oUnitConf.ml" 91 3748 3757 "src/oUnitConf.ml" 91 3748 3768
+type(
+  (string, string) Hashtbl.t -> string -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"src/oUnitConf.ml" 91 3748 3769 "src/oUnitConf.ml" 91 3748 3782
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref substitutions "src/oUnitConf.ml" 86 3586 3592 "src/oUnitConf.ml" 86 3586 3605
+)
+"src/oUnitConf.ml" 91 3748 3783 "src/oUnitConf.ml" 91 3748 3787
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 90 3720 3731 "src/oUnitConf.ml" 90 3720 3735
+)
+"src/oUnitConf.ml" 91 3748 3789 "src/oUnitConf.ml" 91 3748 3797
+type(
+  metadata
+)
+ident(
+  int_ref metadata "src/oUnitConf.ml" 90 3720 3736 "src/oUnitConf.ml" 90 3720 3744
+)
+"src/oUnitConf.ml" 91 3748 3789 "src/oUnitConf.ml" 91 3748 3807
+type(
+  conf -> string
+)
+"src/oUnitConf.ml" 91 3748 3808 "src/oUnitConf.ml" 91 3748 3812
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 85 3553 3563 "src/oUnitConf.ml" 85 3553 3567
+)
+"src/oUnitConf.ml" 91 3748 3788 "src/oUnitConf.ml" 91 3748 3813
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 91 3748 3757 "src/oUnitConf.ml" 91 3748 3813
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 90 3720 3726 "src/oUnitConf.ml" 91 3748 3814
+type(
+  string -> metadata -> unit
+)
+"src/oUnitConf.ml" 92 3815 3821 "src/oUnitConf.ml" 92 3815 3829
+type(
+  (string, metadata) Hashtbl.t
+)
+ident(
+  int_ref metaconf "src/oUnitConf.ml" 47 2644 2648 "src/oUnitConf.ml" 47 2644 2656
+)
+"src/oUnitConf.ml" 89 3703 3707 "src/oUnitConf.ml" 92 3815 3829
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 93 3831 3835 "src/oUnitConf.ml" 93 3831 3844
+type(
+  (string * string -> unit) -> (string * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitConf.ml" 93 3831 3851 "src/oUnitConf.ml" 93 3831 3852
+type(
+  string
+)
+ident(
+  def k "src/oUnitConf.ml" 93 3831 3860 "src/oUnitConf.ml" 93 3831 3889
+)
+"src/oUnitConf.ml" 93 3831 3854 "src/oUnitConf.ml" 93 3831 3855
+type(
+  string
+)
+ident(
+  def v "src/oUnitConf.ml" 93 3831 3860 "src/oUnitConf.ml" 93 3831 3889
+)
+"src/oUnitConf.ml" 93 3831 3850 "src/oUnitConf.ml" 93 3831 3856
+type(
+  string * string
+)
+"src/oUnitConf.ml" 93 3831 3860 "src/oUnitConf.ml" 93 3831 3871
+type(
+  (string, string) Hashtbl.t -> string -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"src/oUnitConf.ml" 93 3831 3872 "src/oUnitConf.ml" 93 3831 3885
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref substitutions "src/oUnitConf.ml" 86 3586 3592 "src/oUnitConf.ml" 86 3586 3605
+)
+"src/oUnitConf.ml" 93 3831 3886 "src/oUnitConf.ml" 93 3831 3887
+type(
+  string
+)
+ident(
+  int_ref k "src/oUnitConf.ml" 93 3831 3851 "src/oUnitConf.ml" 93 3831 3852
+)
+"src/oUnitConf.ml" 93 3831 3888 "src/oUnitConf.ml" 93 3831 3889
+type(
+  string
+)
+ident(
+  int_ref v "src/oUnitConf.ml" 93 3831 3854 "src/oUnitConf.ml" 93 3831 3855
+)
+"src/oUnitConf.ml" 93 3831 3860 "src/oUnitConf.ml" 93 3831 3889
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 93 3831 3845 "src/oUnitConf.ml" 93 3831 3890
+type(
+  string * string -> unit
+)
+"src/oUnitConf.ml" 93 3831 3891 "src/oUnitConf.ml" 93 3831 3902
+type(
+  (string * string) list
+)
+ident(
+  int_ref extra_subst "src/oUnitConf.ml" 85 3553 3568 "src/oUnitConf.ml" 85 3553 3579
+)
+"src/oUnitConf.ml" 93 3831 3835 "src/oUnitConf.ml" 93 3831 3902
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 89 3703 3707 "src/oUnitConf.ml" 93 3831 3902
+type(
+  unit
+)
+"src/oUnitConf.ml" 95 3908 3914 "src/oUnitConf.ml" 95 3908 3918
+type(
+  Buffer.t
+)
+ident(
+  def buff "src/oUnitConf.ml" 96 3958 3962 "src/oUnitConf.ml" 103 4172 4196
+)
+"src/oUnitConf.ml" 95 3908 3921 "src/oUnitConf.ml" 95 3908 3934
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"src/oUnitConf.ml" 95 3908 3936 "src/oUnitConf.ml" 95 3908 3949
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/oUnitConf.ml" 95 3908 3950 "src/oUnitConf.ml" 95 3908 3953
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 85 3553 3580 "src/oUnitConf.ml" 85 3553 3583
+)
+"src/oUnitConf.ml" 95 3908 3935 "src/oUnitConf.ml" 95 3908 3954
+type(
+  int
+)
+"src/oUnitConf.ml" 95 3908 3921 "src/oUnitConf.ml" 95 3908 3954
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"src/oUnitConf.ml" 96 3958 3962 "src/oUnitConf.ml" 96 3958 3983
+type(
+  Buffer.t -> (string -> string) -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_substitute
+)
+"src/oUnitConf.ml" 96 3958 3984 "src/oUnitConf.ml" 96 3958 3988
+type(
+  Buffer.t
+)
+ident(
+  int_ref buff "src/oUnitConf.ml" 95 3908 3914 "src/oUnitConf.ml" 95 3908 3918
+)
+"src/oUnitConf.ml" 97 3989 4000 "src/oUnitConf.ml" 97 3989 4003
+type(
+  string
+)
+ident(
+  def var "src/oUnitConf.ml" 98 4007 4016 "src/oUnitConf.ml" 101 4089 4159
+)
+"src/oUnitConf.ml" 99 4020 4031 "src/oUnitConf.ml" 99 4020 4043
+type(
+  (string, string) Hashtbl.t -> string -> string
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/oUnitConf.ml" 99 4020 4044 "src/oUnitConf.ml" 99 4020 4057
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref substitutions "src/oUnitConf.ml" 86 3586 3592 "src/oUnitConf.ml" 86 3586 3605
+)
+"src/oUnitConf.ml" 99 4020 4058 "src/oUnitConf.ml" 99 4020 4061
+type(
+  string
+)
+ident(
+  int_ref var "src/oUnitConf.ml" 97 3989 4000 "src/oUnitConf.ml" 97 3989 4003
+)
+"src/oUnitConf.ml" 99 4020 4031 "src/oUnitConf.ml" 99 4020 4061
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 100 4062 4076 "src/oUnitConf.ml" 100 4062 4085
+type(
+  exn
+)
+"src/oUnitConf.ml" 101 4089 4100 "src/oUnitConf.ml" 101 4089 4109
+type(
+  (string -> string -> string, unit, string, string) format4 ->
+  string -> string -> string
+)
+ident(
+  ext_ref OUnitUtils.failwithf
+)
+"src/oUnitConf.ml" 101 4089 4110 "src/oUnitConf.ml" 101 4089 4151
+type(
+  (string -> string -> string, unit, string, string) format4
+)
+"src/oUnitConf.ml" 101 4089 4152 "src/oUnitConf.ml" 101 4089 4155
+type(
+  string
+)
+ident(
+  int_ref var "src/oUnitConf.ml" 97 3989 4000 "src/oUnitConf.ml" 97 3989 4003
+)
+"src/oUnitConf.ml" 101 4089 4156 "src/oUnitConf.ml" 101 4089 4159
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 85 3553 3580 "src/oUnitConf.ml" 85 3553 3583
+)
+"src/oUnitConf.ml" 101 4089 4100 "src/oUnitConf.ml" 101 4089 4159
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 98 4007 4016 "src/oUnitConf.ml" 101 4089 4159
+type(
+  string
+)
+"src/oUnitConf.ml" 97 3989 3995 "src/oUnitConf.ml" 101 4089 4160
+type(
+  string -> string
+)
+"src/oUnitConf.ml" 102 4161 4167 "src/oUnitConf.ml" 102 4161 4170
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 85 3553 3580 "src/oUnitConf.ml" 85 3553 3583
+)
+"src/oUnitConf.ml" 96 3958 3962 "src/oUnitConf.ml" 102 4161 4170
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 103 4172 4176 "src/oUnitConf.ml" 103 4172 4191
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/oUnitConf.ml" 103 4172 4192 "src/oUnitConf.ml" 103 4172 4196
+type(
+  Buffer.t
+)
+ident(
+  int_ref buff "src/oUnitConf.ml" 95 3908 3914 "src/oUnitConf.ml" 95 3908 3918
+)
+"src/oUnitConf.ml" 103 4172 4176 "src/oUnitConf.ml" 103 4172 4196
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 96 3958 3962 "src/oUnitConf.ml" 103 4172 4196
+type(
+  string
+)
+"src/oUnitConf.ml" 95 3908 3910 "src/oUnitConf.ml" 103 4172 4196
+type(
+  string
+)
+"src/oUnitConf.ml" 87 3652 3654 "src/oUnitConf.ml" 103 4172 4196
+type(
+  string
+)
+"src/oUnitConf.ml" 86 3586 3588 "src/oUnitConf.ml" 103 4172 4196
+type(
+  string
+)
+"src/oUnitConf.ml" 105 4198 4202 "src/oUnitConf.ml" 105 4198 4206
+type(
+  name:string ->
+  parse:(string -> 'a) ->
+  print:('a -> string) ->
+  default:'a ->
+  help:string ->
+  fcli:('a -> ('a -> unit) -> (string * Arg.spec * string) list) ->
+  unit -> (int, unit -> unit) Hashtbl.t -> 'a
+)
+ident(
+  def make "src/oUnitConf.ml" 122 4744 4744 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 105 4198 4208 "src/oUnitConf.ml" 105 4198 4212
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 105 4198 4213 "src/oUnitConf.ml" 120 4735 4742
+)
+"src/oUnitConf.ml" 105 4198 4214 "src/oUnitConf.ml" 105 4198 4219
+type(
+  string -> 'a
+)
+ident(
+  def parse "src/oUnitConf.ml" 105 4198 4220 "src/oUnitConf.ml" 120 4735 4742
+)
+"src/oUnitConf.ml" 105 4198 4221 "src/oUnitConf.ml" 105 4198 4226
+type(
+  'a -> string
+)
+ident(
+  def print "src/oUnitConf.ml" 105 4198 4227 "src/oUnitConf.ml" 120 4735 4742
+)
+"src/oUnitConf.ml" 105 4198 4228 "src/oUnitConf.ml" 105 4198 4235
+type(
+  'a
+)
+ident(
+  def default "src/oUnitConf.ml" 105 4198 4236 "src/oUnitConf.ml" 120 4735 4742
+)
+"src/oUnitConf.ml" 105 4198 4237 "src/oUnitConf.ml" 105 4198 4241
+type(
+  string
+)
+ident(
+  def help "src/oUnitConf.ml" 105 4198 4242 "src/oUnitConf.ml" 120 4735 4742
+)
+"src/oUnitConf.ml" 105 4198 4243 "src/oUnitConf.ml" 105 4198 4247
+type(
+  'a -> ('a -> unit) -> (string * Arg.spec * string) list
+)
+ident(
+  def fcli "src/oUnitConf.ml" 105 4198 4248 "src/oUnitConf.ml" 120 4735 4742
+)
+"src/oUnitConf.ml" 105 4198 4248 "src/oUnitConf.ml" 105 4198 4250
+type(
+  unit
+)
+"src/oUnitConf.ml" 106 4253 4259 "src/oUnitConf.ml" 106 4253 4261
+type(
+  unit
+)
+"src/oUnitConf.ml" 107 4264 4268 "src/oUnitConf.ml" 107 4264 4287
+type(
+  string -> unit
+)
+ident(
+  int_ref check_variable_name "src/oUnitConf.ml" 49 2678 2682 "src/oUnitConf.ml" 49 2678 2701
+)
+"src/oUnitConf.ml" 107 4264 4288 "src/oUnitConf.ml" 107 4264 4292
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 105 4198 4208 "src/oUnitConf.ml" 105 4198 4212
+)
+"src/oUnitConf.ml" 107 4264 4268 "src/oUnitConf.ml" 107 4264 4292
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 108 4294 4301 "src/oUnitConf.ml" 108 4294 4312
+type(
+  (string, metadata) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"src/oUnitConf.ml" 108 4294 4313 "src/oUnitConf.ml" 108 4294 4321
+type(
+  (string, metadata) Hashtbl.t
+)
+ident(
+  int_ref metaconf "src/oUnitConf.ml" 47 2644 2648 "src/oUnitConf.ml" 47 2644 2656
+)
+"src/oUnitConf.ml" 108 4294 4322 "src/oUnitConf.ml" 108 4294 4326
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 105 4198 4208 "src/oUnitConf.ml" 105 4198 4212
+)
+"src/oUnitConf.ml" 108 4294 4301 "src/oUnitConf.ml" 108 4294 4326
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitConf.ml" 109 4332 4338 "src/oUnitConf.ml" 109 4332 4347
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref OUnitUtils.failwithf
+)
+"src/oUnitConf.ml" 110 4348 4356 "src/oUnitConf.ml" 110 4348 4409
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"src/oUnitConf.ml" 110 4348 4410 "src/oUnitConf.ml" 110 4348 4414
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 105 4198 4208 "src/oUnitConf.ml" 105 4198 4212
+)
+"src/oUnitConf.ml" 109 4332 4338 "src/oUnitConf.ml" 110 4348 4414
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 108 4294 4298 "src/oUnitConf.ml" 110 4348 4414
+type(
+  unit
+)
+"src/oUnitConf.ml" 107 4264 4268 "src/oUnitConf.ml" 110 4348 4414
+type(
+  unit
+)
+"src/oUnitConf.ml" 112 4420 4426 "src/oUnitConf.ml" 112 4420 4429
+type(
+  (int, unit -> unit) Hashtbl.t -> 'a -> unit
+)
+ident(
+  def set "src/oUnitConf.ml" 113 4475 4477 "src/oUnitConf.ml" 120 4735 4742
+)
+"src/oUnitConf.ml" 112 4420 4431 "src/oUnitConf.ml" 112 4420 4434
+type(
+  (int, unit -> unit) Hashtbl.t -> 'a
+)
+ident(
+  def get "src/oUnitConf.ml" 113 4475 4477 "src/oUnitConf.ml" 120 4735 4742
+)
+"src/oUnitConf.ml" 112 4420 4426 "src/oUnitConf.ml" 112 4420 4434
+type(
+  ((int, unit -> unit) Hashtbl.t -> 'a -> unit) *
+  ((int, unit -> unit) Hashtbl.t -> 'a)
+)
+"src/oUnitConf.ml" 112 4420 4437 "src/oUnitConf.ml" 112 4420 4463
+type(
+  'a ->
+  ((int, unit -> unit) Hashtbl.t -> 'a -> unit) *
+  ((int, unit -> unit) Hashtbl.t -> 'a)
+)
+ident(
+  ext_ref OUnitPropList.new_property
+)
+"src/oUnitConf.ml" 112 4420 4464 "src/oUnitConf.ml" 112 4420 4471
+type(
+  'a
+)
+ident(
+  int_ref default "src/oUnitConf.ml" 105 4198 4228 "src/oUnitConf.ml" 105 4198 4235
+)
+"src/oUnitConf.ml" 112 4420 4437 "src/oUnitConf.ml" 112 4420 4471
+call(
+  stack
+)
+type(
+  ((int, unit -> unit) Hashtbl.t -> 'a -> unit) *
+  ((int, unit -> unit) Hashtbl.t -> 'a)
+)
+"src/oUnitConf.ml" 113 4475 4481 "src/oUnitConf.ml" 113 4475 4490
+type(
+  string -> (int, unit -> unit) Hashtbl.t -> unit
+)
+ident(
+  def parse_set "src/oUnitConf.ml" 114 4526 4528 "src/oUnitConf.ml" 120 4735 4742
+)
+"src/oUnitConf.ml" 113 4475 4491 "src/oUnitConf.ml" 113 4475 4494
+type(
+  string
+)
+ident(
+  def str "src/oUnitConf.ml" 113 4475 4495 "src/oUnitConf.ml" 113 4475 4522
+)
+"src/oUnitConf.ml" 113 4475 4495 "src/oUnitConf.ml" 113 4475 4499
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  def conf "src/oUnitConf.ml" 113 4475 4502 "src/oUnitConf.ml" 113 4475 4522
+)
+"src/oUnitConf.ml" 113 4475 4502 "src/oUnitConf.ml" 113 4475 4505
+type(
+  (int, unit -> unit) Hashtbl.t -> 'a -> unit
+)
+ident(
+  int_ref set "src/oUnitConf.ml" 112 4420 4426 "src/oUnitConf.ml" 112 4420 4429
+)
+"src/oUnitConf.ml" 113 4475 4506 "src/oUnitConf.ml" 113 4475 4510
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 113 4475 4495 "src/oUnitConf.ml" 113 4475 4499
+)
+"src/oUnitConf.ml" 113 4475 4512 "src/oUnitConf.ml" 113 4475 4517
+type(
+  string -> 'a
+)
+ident(
+  int_ref parse "src/oUnitConf.ml" 105 4198 4214 "src/oUnitConf.ml" 105 4198 4219
+)
+"src/oUnitConf.ml" 113 4475 4518 "src/oUnitConf.ml" 113 4475 4521
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 113 4475 4491 "src/oUnitConf.ml" 113 4475 4494
+)
+"src/oUnitConf.ml" 113 4475 4511 "src/oUnitConf.ml" 113 4475 4522
+call(
+  stack
+)
+type(
+  'a
+)
+"src/oUnitConf.ml" 113 4475 4502 "src/oUnitConf.ml" 113 4475 4522
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 114 4526 4532 "src/oUnitConf.ml" 114 4526 4541
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  def get_print "src/oUnitConf.ml" 115 4569 4573 "src/oUnitConf.ml" 120 4735 4742
+)
+"src/oUnitConf.ml" 114 4526 4542 "src/oUnitConf.ml" 114 4526 4546
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  def conf "src/oUnitConf.ml" 114 4526 4549 "src/oUnitConf.ml" 114 4526 4565
+)
+"src/oUnitConf.ml" 114 4526 4549 "src/oUnitConf.ml" 114 4526 4554
+type(
+  'a -> string
+)
+ident(
+  int_ref print "src/oUnitConf.ml" 105 4198 4221 "src/oUnitConf.ml" 105 4198 4226
+)
+"src/oUnitConf.ml" 114 4526 4556 "src/oUnitConf.ml" 114 4526 4559
+type(
+  (int, unit -> unit) Hashtbl.t -> 'a
+)
+ident(
+  int_ref get "src/oUnitConf.ml" 112 4420 4431 "src/oUnitConf.ml" 112 4420 4434
+)
+"src/oUnitConf.ml" 114 4526 4560 "src/oUnitConf.ml" 114 4526 4564
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 114 4526 4542 "src/oUnitConf.ml" 114 4526 4546
+)
+"src/oUnitConf.ml" 114 4526 4555 "src/oUnitConf.ml" 114 4526 4565
+call(
+  stack
+)
+type(
+  'a
+)
+"src/oUnitConf.ml" 114 4526 4549 "src/oUnitConf.ml" 114 4526 4565
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 115 4569 4573 "src/oUnitConf.ml" 115 4569 4584
+type(
+  (string, metadata) Hashtbl.t -> string -> metadata -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"src/oUnitConf.ml" 115 4569 4585 "src/oUnitConf.ml" 115 4569 4593
+type(
+  (string, metadata) Hashtbl.t
+)
+ident(
+  int_ref metaconf "src/oUnitConf.ml" 47 2644 2648 "src/oUnitConf.ml" 47 2644 2656
+)
+"src/oUnitConf.ml" 115 4569 4594 "src/oUnitConf.ml" 115 4569 4598
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 105 4198 4208 "src/oUnitConf.ml" 105 4198 4212
+)
+"src/oUnitConf.ml" 116 4599 4613 "src/oUnitConf.ml" 116 4599 4617
+type(
+  string
+)
+ident(
+  int_ref help "src/oUnitConf.ml" 105 4198 4237 "src/oUnitConf.ml" 105 4198 4241
+)
+"src/oUnitConf.ml" 117 4619 4638 "src/oUnitConf.ml" 117 4619 4647
+type(
+  conf -> string
+)
+ident(
+  int_ref get_print "src/oUnitConf.ml" 114 4526 4532 "src/oUnitConf.ml" 114 4526 4541
+)
+"src/oUnitConf.ml" 118 4649 4668 "src/oUnitConf.ml" 118 4649 4677
+type(
+  string -> conf -> unit
+)
+ident(
+  int_ref parse_set "src/oUnitConf.ml" 113 4475 4481 "src/oUnitConf.ml" 113 4475 4490
+)
+"src/oUnitConf.ml" 119 4679 4697 "src/oUnitConf.ml" 119 4679 4701
+type(
+  conf
+)
+ident(
+  def conf "src/oUnitConf.ml" 119 4679 4705 "src/oUnitConf.ml" 119 4679 4731
+)
+"src/oUnitConf.ml" 119 4679 4705 "src/oUnitConf.ml" 119 4679 4709
+type(
+  'a -> ('a -> unit) -> (string * Arg.spec * string) list
+)
+ident(
+  int_ref fcli "src/oUnitConf.ml" 105 4198 4243 "src/oUnitConf.ml" 105 4198 4247
+)
+"src/oUnitConf.ml" 119 4679 4711 "src/oUnitConf.ml" 119 4679 4714
+type(
+  conf -> 'a
+)
+ident(
+  int_ref get "src/oUnitConf.ml" 112 4420 4431 "src/oUnitConf.ml" 112 4420 4434
+)
+"src/oUnitConf.ml" 119 4679 4715 "src/oUnitConf.ml" 119 4679 4719
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 119 4679 4697 "src/oUnitConf.ml" 119 4679 4701
+)
+"src/oUnitConf.ml" 119 4679 4710 "src/oUnitConf.ml" 119 4679 4720
+call(
+  stack
+)
+type(
+  'a
+)
+"src/oUnitConf.ml" 119 4679 4722 "src/oUnitConf.ml" 119 4679 4725
+type(
+  conf -> 'a -> unit
+)
+ident(
+  int_ref set "src/oUnitConf.ml" 112 4420 4426 "src/oUnitConf.ml" 112 4420 4429
+)
+"src/oUnitConf.ml" 119 4679 4726 "src/oUnitConf.ml" 119 4679 4730
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 119 4679 4697 "src/oUnitConf.ml" 119 4679 4701
+)
+"src/oUnitConf.ml" 119 4679 4721 "src/oUnitConf.ml" 119 4679 4731
+call(
+  stack
+)
+type(
+  'a -> unit
+)
+"src/oUnitConf.ml" 119 4679 4705 "src/oUnitConf.ml" 119 4679 4731
+call(
+  tail
+)
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 119 4679 4692 "src/oUnitConf.ml" 119 4679 4732
+type(
+  conf -> (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 116 4599 4605 "src/oUnitConf.ml" 119 4679 4733
+type(
+  metadata
+)
+"src/oUnitConf.ml" 115 4569 4573 "src/oUnitConf.ml" 119 4679 4733
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 120 4735 4739 "src/oUnitConf.ml" 120 4735 4742
+type(
+  (int, unit -> unit) Hashtbl.t -> 'a
+)
+ident(
+  int_ref get "src/oUnitConf.ml" 112 4420 4431 "src/oUnitConf.ml" 112 4420 4434
+)
+"src/oUnitConf.ml" 115 4569 4573 "src/oUnitConf.ml" 120 4735 4742
+type(
+  (int, unit -> unit) Hashtbl.t -> 'a
+)
+"src/oUnitConf.ml" 114 4526 4528 "src/oUnitConf.ml" 120 4735 4742
+type(
+  (int, unit -> unit) Hashtbl.t -> 'a
+)
+"src/oUnitConf.ml" 113 4475 4477 "src/oUnitConf.ml" 120 4735 4742
+type(
+  (int, unit -> unit) Hashtbl.t -> 'a
+)
+"src/oUnitConf.ml" 112 4420 4422 "src/oUnitConf.ml" 120 4735 4742
+type(
+  (int, unit -> unit) Hashtbl.t -> 'a
+)
+"src/oUnitConf.ml" 106 4253 4255 "src/oUnitConf.ml" 120 4735 4742
+type(
+  (int, unit -> unit) Hashtbl.t -> 'a
+)
+"src/oUnitConf.ml" 122 4744 4748 "src/oUnitConf.ml" 122 4744 4759
+type(
+  string -> string -> string -> (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  def make_string "src/oUnitConf.ml" 136 4976 4976 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 122 4744 4760 "src/oUnitConf.ml" 122 4744 4764
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 122 4744 4765 "src/oUnitConf.ml" 134 4968 4974
+)
+"src/oUnitConf.ml" 122 4744 4765 "src/oUnitConf.ml" 122 4744 4772
+type(
+  string
+)
+ident(
+  def default "src/oUnitConf.ml" 122 4744 4773 "src/oUnitConf.ml" 134 4968 4974
+)
+"src/oUnitConf.ml" 122 4744 4773 "src/oUnitConf.ml" 122 4744 4777
+type(
+  string
+)
+ident(
+  def help "src/oUnitConf.ml" 123 4780 4782 "src/oUnitConf.ml" 134 4968 4974
+)
+"src/oUnitConf.ml" 123 4780 4782 "src/oUnitConf.ml" 123 4780 4786
+type(
+  name:string ->
+  parse:(string -> string) ->
+  print:(string -> string) ->
+  default:string ->
+  help:string ->
+  fcli:(string -> (string -> unit) -> (string * Arg.spec * string) list) ->
+  unit -> (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  int_ref make "src/oUnitConf.ml" 105 4198 4202 "src/oUnitConf.ml" 105 4198 4206
+)
+"src/oUnitConf.ml" 124 4787 4792 "src/oUnitConf.ml" 124 4787 4796
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 122 4744 4760 "src/oUnitConf.ml" 122 4744 4764
+)
+"src/oUnitConf.ml" 125 4797 4813 "src/oUnitConf.ml" 125 4797 4814
+type(
+  string
+)
+ident(
+  def s "src/oUnitConf.ml" 125 4797 4818 "src/oUnitConf.ml" 125 4797 4819
+)
+"src/oUnitConf.ml" 125 4797 4818 "src/oUnitConf.ml" 125 4797 4819
+type(
+  string
+)
+ident(
+  int_ref s "src/oUnitConf.ml" 125 4797 4813 "src/oUnitConf.ml" 125 4797 4814
+)
+"src/oUnitConf.ml" 125 4797 4808 "src/oUnitConf.ml" 125 4797 4820
+type(
+  string -> string
+)
+"src/oUnitConf.ml" 126 4821 4837 "src/oUnitConf.ml" 126 4821 4838
+type(
+  string
+)
+ident(
+  def s "src/oUnitConf.ml" 126 4821 4842 "src/oUnitConf.ml" 126 4821 4843
+)
+"src/oUnitConf.ml" 126 4821 4842 "src/oUnitConf.ml" 126 4821 4843
+type(
+  string
+)
+ident(
+  int_ref s "src/oUnitConf.ml" 126 4821 4837 "src/oUnitConf.ml" 126 4821 4838
+)
+"src/oUnitConf.ml" 126 4821 4832 "src/oUnitConf.ml" 126 4821 4844
+type(
+  string -> string
+)
+"src/oUnitConf.ml" 127 4845 4850 "src/oUnitConf.ml" 127 4845 4857
+type(
+  string
+)
+ident(
+  int_ref default "src/oUnitConf.ml" 122 4744 4765 "src/oUnitConf.ml" 122 4744 4772
+)
+"src/oUnitConf.ml" 128 4858 4863 "src/oUnitConf.ml" 128 4858 4867
+type(
+  string
+)
+ident(
+  int_ref help "src/oUnitConf.ml" 122 4744 4773 "src/oUnitConf.ml" 122 4744 4777
+)
+"src/oUnitConf.ml" 130 4879 4888 "src/oUnitConf.ml" 130 4879 4891
+type(
+  string
+)
+ident(
+  def get "src/oUnitConf.ml" 130 4879 4892 "src/oUnitConf.ml" 133 4946 4966
+)
+"src/oUnitConf.ml" 130 4879 4892 "src/oUnitConf.ml" 130 4879 4895
+type(
+  string -> unit
+)
+ident(
+  def set "src/oUnitConf.ml" 131 4899 4906 "src/oUnitConf.ml" 133 4946 4966
+)
+"src/oUnitConf.ml" 131 4899 4907 "src/oUnitConf.ml" 131 4899 4915
+type(
+  string -> string
+)
+ident(
+  int_ref cli_name "src/oUnitConf.ml" 73 3261 3265 "src/oUnitConf.ml" 73 3261 3273
+)
+"src/oUnitConf.ml" 131 4899 4916 "src/oUnitConf.ml" 131 4899 4920
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 122 4744 4760 "src/oUnitConf.ml" 122 4744 4764
+)
+"src/oUnitConf.ml" 131 4899 4907 "src/oUnitConf.ml" 131 4899 4920
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 132 4922 4941 "src/oUnitConf.ml" 132 4922 4944
+type(
+  string -> unit
+)
+ident(
+  int_ref set "src/oUnitConf.ml" 130 4879 4892 "src/oUnitConf.ml" 130 4879 4895
+)
+"src/oUnitConf.ml" 132 4922 4930 "src/oUnitConf.ml" 132 4922 4944
+type(
+  Arg.spec
+)
+"src/oUnitConf.ml" 133 4946 4954 "src/oUnitConf.ml" 133 4946 4960
+type(
+  string
+)
+"src/oUnitConf.ml" 133 4946 4960 "src/oUnitConf.ml" 133 4946 4961
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 133 4946 4961 "src/oUnitConf.ml" 133 4946 4965
+type(
+  string
+)
+ident(
+  int_ref help "src/oUnitConf.ml" 122 4744 4773 "src/oUnitConf.ml" 122 4744 4777
+)
+"src/oUnitConf.ml" 133 4946 4954 "src/oUnitConf.ml" 133 4946 4965
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 131 4899 4907 "src/oUnitConf.ml" 133 4946 4965
+type(
+  string * Arg.spec * string
+)
+"src/oUnitConf.ml" 131 4899 4906 "src/oUnitConf.ml" 133 4946 4966
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 130 4879 4883 "src/oUnitConf.ml" 133 4946 4967
+type(
+  string -> (string -> unit) -> (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 134 4968 4972 "src/oUnitConf.ml" 134 4968 4974
+type(
+  unit
+)
+"src/oUnitConf.ml" 123 4780 4782 "src/oUnitConf.ml" 134 4968 4974
+call(
+  tail
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+"src/oUnitConf.ml" 136 4976 4980 "src/oUnitConf.ml" 136 4976 4997
+type(
+  string ->
+  string -> string -> ?extra_subst:(string * string) list -> conf -> string
+)
+ident(
+  def make_string_subst "src/oUnitConf.ml" 141 5141 5141 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 136 4976 4998 "src/oUnitConf.ml" 136 4976 5002
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 136 4976 5003 "src/oUnitConf.ml" 139 5098 5139
+)
+"src/oUnitConf.ml" 136 4976 5003 "src/oUnitConf.ml" 136 4976 5010
+type(
+  string
+)
+ident(
+  def default "src/oUnitConf.ml" 136 4976 5011 "src/oUnitConf.ml" 139 5098 5139
+)
+"src/oUnitConf.ml" 136 4976 5011 "src/oUnitConf.ml" 136 4976 5015
+type(
+  string
+)
+ident(
+  def help "src/oUnitConf.ml" 137 5018 5020 "src/oUnitConf.ml" 139 5098 5139
+)
+"src/oUnitConf.ml" 137 5018 5024 "src/oUnitConf.ml" 137 5018 5027
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  def get "src/oUnitConf.ml" 138 5063 5067 "src/oUnitConf.ml" 139 5098 5139
+)
+"src/oUnitConf.ml" 137 5018 5030 "src/oUnitConf.ml" 137 5018 5041
+type(
+  string -> string -> string -> (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  int_ref make_string "src/oUnitConf.ml" 122 4744 4748 "src/oUnitConf.ml" 122 4744 4759
+)
+"src/oUnitConf.ml" 137 5018 5042 "src/oUnitConf.ml" 137 5018 5046
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 136 4976 4998 "src/oUnitConf.ml" 136 4976 5002
+)
+"src/oUnitConf.ml" 137 5018 5047 "src/oUnitConf.ml" 137 5018 5054
+type(
+  string
+)
+ident(
+  int_ref default "src/oUnitConf.ml" 136 4976 5003 "src/oUnitConf.ml" 136 4976 5010
+)
+"src/oUnitConf.ml" 137 5018 5055 "src/oUnitConf.ml" 137 5018 5059
+type(
+  string
+)
+ident(
+  int_ref help "src/oUnitConf.ml" 136 4976 5011 "src/oUnitConf.ml" 136 4976 5015
+)
+"src/oUnitConf.ml" 137 5018 5030 "src/oUnitConf.ml" 137 5018 5059
+call(
+  stack
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+"src/oUnitConf.ml" 138 5063 5074 "src/oUnitConf.ml" 138 5063 5085
+type(
+  (string * string) list
+)
+"src/oUnitConf.ml" 138 5063 5086 "src/oUnitConf.ml" 138 5063 5088
+type(
+  (string * string) list
+)
+type(
+  (string * string) list
+)
+ident(
+  int_ref *sth* "src/oUnitConf.ml" 138 5063 5086 "src/oUnitConf.ml" 138 5063 5088
+)
+type(
+  (string * string) list option
+)
+type(
+  (string * string) list option
+)
+type(
+  (string * string) list
+)
+"src/oUnitConf.ml" 138 5063 5090 "src/oUnitConf.ml" 138 5063 5094
+type(
+  conf
+)
+ident(
+  def conf "src/oUnitConf.ml" 139 5098 5105 "src/oUnitConf.ml" 139 5098 5138
+)
+"src/oUnitConf.ml" 139 5098 5105 "src/oUnitConf.ml" 139 5098 5110
+type(
+  conf -> (string * string) list -> string -> string
+)
+ident(
+  int_ref subst "src/oUnitConf.ml" 85 3553 3557 "src/oUnitConf.ml" 85 3553 3562
+)
+"src/oUnitConf.ml" 139 5098 5111 "src/oUnitConf.ml" 139 5098 5115
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 138 5063 5090 "src/oUnitConf.ml" 138 5063 5094
+)
+"src/oUnitConf.ml" 139 5098 5116 "src/oUnitConf.ml" 139 5098 5127
+type(
+  (string * string) list
+)
+ident(
+  int_ref extra_subst "src/oUnitConf.ml" 138 5063 5074 "src/oUnitConf.ml" 138 5063 5085
+)
+"src/oUnitConf.ml" 139 5098 5129 "src/oUnitConf.ml" 139 5098 5132
+type(
+  conf -> string
+)
+ident(
+  int_ref get "src/oUnitConf.ml" 137 5018 5024 "src/oUnitConf.ml" 137 5018 5027
+)
+"src/oUnitConf.ml" 139 5098 5133 "src/oUnitConf.ml" 139 5098 5137
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 138 5063 5090 "src/oUnitConf.ml" 138 5063 5094
+)
+"src/oUnitConf.ml" 139 5098 5128 "src/oUnitConf.ml" 139 5098 5138
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 139 5098 5105 "src/oUnitConf.ml" 139 5098 5138
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 138 5063 5067 "src/oUnitConf.ml" 139 5098 5139
+type(
+  ?extra_subst:(string * string) list -> conf -> string
+)
+type(
+  conf -> string
+)
+type(
+  (string * string) list option
+)
+ident(
+  ext_ref *opt*
+)
+"src/oUnitConf.ml" 137 5018 5020 "src/oUnitConf.ml" 139 5098 5139
+type(
+  ?extra_subst:(string * string) list -> conf -> string
+)
+"src/oUnitConf.ml" 141 5141 5145 "src/oUnitConf.ml" 141 5141 5160
+type(
+  string ->
+  string option -> string -> (int, unit -> unit) Hashtbl.t -> string option
+)
+ident(
+  def make_string_opt "src/oUnitConf.ml" 165 5623 5623 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 141 5141 5161 "src/oUnitConf.ml" 141 5141 5165
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 141 5141 5166 "src/oUnitConf.ml" 163 5615 5621
+)
+"src/oUnitConf.ml" 141 5141 5166 "src/oUnitConf.ml" 141 5141 5173
+type(
+  string option
+)
+ident(
+  def default "src/oUnitConf.ml" 141 5141 5174 "src/oUnitConf.ml" 163 5615 5621
+)
+"src/oUnitConf.ml" 141 5141 5174 "src/oUnitConf.ml" 141 5141 5178
+type(
+  string
+)
+ident(
+  def help "src/oUnitConf.ml" 142 5181 5183 "src/oUnitConf.ml" 163 5615 5621
+)
+"src/oUnitConf.ml" 142 5181 5183 "src/oUnitConf.ml" 142 5181 5187
+type(
+  name:string ->
+  parse:(string -> string option) ->
+  print:(string option -> string) ->
+  default:string option ->
+  help:string ->
+  fcli:(string option ->
+        (string option -> unit) -> (string * Arg.spec * string) list) ->
+  unit -> (int, unit -> unit) Hashtbl.t -> string option
+)
+ident(
+  int_ref make "src/oUnitConf.ml" 105 4198 4202 "src/oUnitConf.ml" 105 4198 4206
+)
+"src/oUnitConf.ml" 143 5188 5193 "src/oUnitConf.ml" 143 5188 5197
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 141 5141 5161 "src/oUnitConf.ml" 141 5141 5165
+)
+"src/oUnitConf.ml" 146 5224 5233 "src/oUnitConf.ml" 146 5224 5239
+type(
+  string
+)
+"src/oUnitConf.ml" 146 5224 5243 "src/oUnitConf.ml" 146 5224 5247
+type(
+  string option
+)
+"src/oUnitConf.ml" 147 5248 5257 "src/oUnitConf.ml" 147 5248 5260
+type(
+  string
+)
+ident(
+  def str "src/oUnitConf.ml" 147 5248 5264 "src/oUnitConf.ml" 147 5248 5272
+)
+"src/oUnitConf.ml" 147 5248 5269 "src/oUnitConf.ml" 147 5248 5272
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 147 5248 5257 "src/oUnitConf.ml" 147 5248 5260
+)
+"src/oUnitConf.ml" 147 5248 5264 "src/oUnitConf.ml" 147 5248 5272
+type(
+  string option
+)
+"src/oUnitConf.ml" 145 5210 5214 "src/oUnitConf.ml" 147 5248 5273
+type(
+  string -> string option
+)
+"src/oUnitConf.ml" 150 5300 5314 "src/oUnitConf.ml" 150 5300 5315
+type(
+  string
+)
+ident(
+  def x "src/oUnitConf.ml" 150 5300 5319 "src/oUnitConf.ml" 150 5300 5320
+)
+"src/oUnitConf.ml" 150 5300 5309 "src/oUnitConf.ml" 150 5300 5315
+type(
+  string option
+)
+"src/oUnitConf.ml" 150 5300 5319 "src/oUnitConf.ml" 150 5300 5320
+type(
+  string
+)
+ident(
+  int_ref x "src/oUnitConf.ml" 150 5300 5314 "src/oUnitConf.ml" 150 5300 5315
+)
+"src/oUnitConf.ml" 151 5321 5330 "src/oUnitConf.ml" 151 5321 5334
+type(
+  string option
+)
+"src/oUnitConf.ml" 151 5321 5338 "src/oUnitConf.ml" 151 5321 5344
+type(
+  string
+)
+"src/oUnitConf.ml" 149 5286 5290 "src/oUnitConf.ml" 151 5321 5345
+type(
+  string option -> string
+)
+"src/oUnitConf.ml" 152 5346 5351 "src/oUnitConf.ml" 152 5346 5358
+type(
+  string option
+)
+ident(
+  int_ref default "src/oUnitConf.ml" 141 5141 5166 "src/oUnitConf.ml" 141 5141 5173
+)
+"src/oUnitConf.ml" 153 5359 5364 "src/oUnitConf.ml" 153 5359 5368
+type(
+  string
+)
+ident(
+  int_ref help "src/oUnitConf.ml" 141 5141 5174 "src/oUnitConf.ml" 141 5141 5178
+)
+"src/oUnitConf.ml" 155 5380 5389 "src/oUnitConf.ml" 155 5380 5392
+type(
+  string option
+)
+ident(
+  def get "src/oUnitConf.ml" 155 5380 5393 "src/oUnitConf.ml" 162 5563 5613
+)
+"src/oUnitConf.ml" 155 5380 5393 "src/oUnitConf.ml" 155 5380 5396
+type(
+  string option -> unit
+)
+ident(
+  def set "src/oUnitConf.ml" 156 5400 5407 "src/oUnitConf.ml" 162 5563 5613
+)
+"src/oUnitConf.ml" 156 5400 5408 "src/oUnitConf.ml" 156 5400 5416
+type(
+  string -> string
+)
+ident(
+  int_ref cli_name "src/oUnitConf.ml" 73 3261 3265 "src/oUnitConf.ml" 73 3261 3273
+)
+"src/oUnitConf.ml" 156 5400 5417 "src/oUnitConf.ml" 156 5400 5421
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 141 5141 5161 "src/oUnitConf.ml" 141 5141 5165
+)
+"src/oUnitConf.ml" 156 5400 5408 "src/oUnitConf.ml" 156 5400 5421
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 157 5423 5447 "src/oUnitConf.ml" 157 5423 5450
+type(
+  string
+)
+ident(
+  def str "src/oUnitConf.ml" 157 5423 5454 "src/oUnitConf.ml" 157 5423 5468
+)
+"src/oUnitConf.ml" 157 5423 5454 "src/oUnitConf.ml" 157 5423 5457
+type(
+  string option -> unit
+)
+ident(
+  int_ref set "src/oUnitConf.ml" 155 5380 5393 "src/oUnitConf.ml" 155 5380 5396
+)
+"src/oUnitConf.ml" 157 5423 5464 "src/oUnitConf.ml" 157 5423 5467
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 157 5423 5447 "src/oUnitConf.ml" 157 5423 5450
+)
+"src/oUnitConf.ml" 157 5423 5458 "src/oUnitConf.ml" 157 5423 5468
+type(
+  string option
+)
+"src/oUnitConf.ml" 157 5423 5454 "src/oUnitConf.ml" 157 5423 5468
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 157 5423 5442 "src/oUnitConf.ml" 157 5423 5469
+type(
+  string -> unit
+)
+"src/oUnitConf.ml" 157 5423 5431 "src/oUnitConf.ml" 157 5423 5469
+type(
+  Arg.spec
+)
+"src/oUnitConf.ml" 158 5471 5479 "src/oUnitConf.ml" 158 5471 5485
+type(
+  string
+)
+"src/oUnitConf.ml" 158 5471 5485 "src/oUnitConf.ml" 158 5471 5486
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 158 5471 5486 "src/oUnitConf.ml" 158 5471 5490
+type(
+  string
+)
+ident(
+  int_ref help "src/oUnitConf.ml" 141 5141 5174 "src/oUnitConf.ml" 141 5141 5178
+)
+"src/oUnitConf.ml" 158 5471 5479 "src/oUnitConf.ml" 158 5471 5490
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 156 5400 5408 "src/oUnitConf.ml" 158 5471 5490
+type(
+  string * Arg.spec * string
+)
+"src/oUnitConf.ml" 160 5493 5501 "src/oUnitConf.ml" 160 5493 5509
+type(
+  string -> string
+)
+ident(
+  int_ref cli_name "src/oUnitConf.ml" 73 3261 3265 "src/oUnitConf.ml" 73 3261 3273
+)
+"src/oUnitConf.ml" 160 5493 5511 "src/oUnitConf.ml" 160 5493 5516
+type(
+  string
+)
+"src/oUnitConf.ml" 160 5493 5516 "src/oUnitConf.ml" 160 5493 5517
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 160 5493 5517 "src/oUnitConf.ml" 160 5493 5521
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 141 5141 5161 "src/oUnitConf.ml" 141 5141 5165
+)
+"src/oUnitConf.ml" 160 5493 5510 "src/oUnitConf.ml" 160 5493 5522
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 160 5493 5501 "src/oUnitConf.ml" 160 5493 5522
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 161 5524 5546 "src/oUnitConf.ml" 161 5524 5548
+type(
+  unit
+)
+"src/oUnitConf.ml" 161 5524 5552 "src/oUnitConf.ml" 161 5524 5555
+type(
+  string option -> unit
+)
+ident(
+  int_ref set "src/oUnitConf.ml" 155 5380 5393 "src/oUnitConf.ml" 155 5380 5396
+)
+"src/oUnitConf.ml" 161 5524 5556 "src/oUnitConf.ml" 161 5524 5560
+type(
+  string option
+)
+"src/oUnitConf.ml" 161 5524 5552 "src/oUnitConf.ml" 161 5524 5560
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 161 5524 5541 "src/oUnitConf.ml" 161 5524 5561
+type(
+  unit -> unit
+)
+"src/oUnitConf.ml" 161 5524 5532 "src/oUnitConf.ml" 161 5524 5561
+type(
+  Arg.spec
+)
+"src/oUnitConf.ml" 162 5563 5571 "src/oUnitConf.ml" 162 5563 5585
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitConf.ml" 162 5563 5586 "src/oUnitConf.ml" 162 5563 5607
+type(
+  (string -> string, unit, string) format
+)
+"src/oUnitConf.ml" 162 5563 5608 "src/oUnitConf.ml" 162 5563 5612
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 141 5141 5161 "src/oUnitConf.ml" 141 5141 5165
+)
+"src/oUnitConf.ml" 162 5563 5571 "src/oUnitConf.ml" 162 5563 5612
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 160 5493 5501 "src/oUnitConf.ml" 162 5563 5612
+type(
+  string * Arg.spec * string
+)
+"src/oUnitConf.ml" 156 5400 5407 "src/oUnitConf.ml" 162 5563 5613
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 155 5380 5384 "src/oUnitConf.ml" 162 5563 5614
+type(
+  string option ->
+  (string option -> unit) -> (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 163 5615 5619 "src/oUnitConf.ml" 163 5615 5621
+type(
+  unit
+)
+"src/oUnitConf.ml" 142 5181 5183 "src/oUnitConf.ml" 163 5615 5621
+call(
+  tail
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> string option
+)
+"src/oUnitConf.ml" 165 5623 5627 "src/oUnitConf.ml" 165 5623 5648
+type(
+  string ->
+  string option ->
+  string -> ?extra_subst:(string * string) list -> conf -> string option
+)
+ident(
+  def make_string_subst_opt "src/oUnitConf.ml" 172 5861 5861 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 165 5623 5649 "src/oUnitConf.ml" 165 5623 5653
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 165 5623 5654 "src/oUnitConf.ml" 170 5835 5859
+)
+"src/oUnitConf.ml" 165 5623 5654 "src/oUnitConf.ml" 165 5623 5661
+type(
+  string option
+)
+ident(
+  def default "src/oUnitConf.ml" 165 5623 5662 "src/oUnitConf.ml" 170 5835 5859
+)
+"src/oUnitConf.ml" 165 5623 5662 "src/oUnitConf.ml" 165 5623 5665
+type(
+  string
+)
+ident(
+  def opt "src/oUnitConf.ml" 166 5668 5670 "src/oUnitConf.ml" 170 5835 5859
+)
+"src/oUnitConf.ml" 166 5668 5674 "src/oUnitConf.ml" 166 5668 5677
+type(
+  (int, unit -> unit) Hashtbl.t -> string option
+)
+ident(
+  def get "src/oUnitConf.ml" 167 5716 5720 "src/oUnitConf.ml" 170 5835 5859
+)
+"src/oUnitConf.ml" 166 5668 5680 "src/oUnitConf.ml" 166 5668 5695
+type(
+  string ->
+  string option -> string -> (int, unit -> unit) Hashtbl.t -> string option
+)
+ident(
+  int_ref make_string_opt "src/oUnitConf.ml" 141 5141 5145 "src/oUnitConf.ml" 141 5141 5160
+)
+"src/oUnitConf.ml" 166 5668 5696 "src/oUnitConf.ml" 166 5668 5700
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 165 5623 5649 "src/oUnitConf.ml" 165 5623 5653
+)
+"src/oUnitConf.ml" 166 5668 5701 "src/oUnitConf.ml" 166 5668 5708
+type(
+  string option
+)
+ident(
+  int_ref default "src/oUnitConf.ml" 165 5623 5654 "src/oUnitConf.ml" 165 5623 5661
+)
+"src/oUnitConf.ml" 166 5668 5709 "src/oUnitConf.ml" 166 5668 5712
+type(
+  string
+)
+ident(
+  int_ref opt "src/oUnitConf.ml" 165 5623 5662 "src/oUnitConf.ml" 165 5623 5665
+)
+"src/oUnitConf.ml" 166 5668 5680 "src/oUnitConf.ml" 166 5668 5712
+call(
+  stack
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> string option
+)
+"src/oUnitConf.ml" 167 5716 5727 "src/oUnitConf.ml" 167 5716 5738
+type(
+  (string * string) list
+)
+"src/oUnitConf.ml" 167 5716 5739 "src/oUnitConf.ml" 167 5716 5741
+type(
+  (string * string) list
+)
+type(
+  (string * string) list
+)
+ident(
+  int_ref *sth* "src/oUnitConf.ml" 167 5716 5739 "src/oUnitConf.ml" 167 5716 5741
+)
+type(
+  (string * string) list option
+)
+type(
+  (string * string) list option
+)
+type(
+  (string * string) list
+)
+"src/oUnitConf.ml" 167 5716 5743 "src/oUnitConf.ml" 167 5716 5747
+type(
+  conf
+)
+ident(
+  def conf "src/oUnitConf.ml" 168 5751 5758 "src/oUnitConf.ml" 170 5835 5858
+)
+"src/oUnitConf.ml" 168 5751 5764 "src/oUnitConf.ml" 168 5751 5767
+type(
+  conf -> string option
+)
+ident(
+  int_ref get "src/oUnitConf.ml" 166 5668 5674 "src/oUnitConf.ml" 166 5668 5677
+)
+"src/oUnitConf.ml" 168 5751 5768 "src/oUnitConf.ml" 168 5751 5772
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 167 5716 5743 "src/oUnitConf.ml" 167 5716 5747
+)
+"src/oUnitConf.ml" 168 5751 5764 "src/oUnitConf.ml" 168 5751 5772
+call(
+  stack
+)
+type(
+  string option
+)
+"src/oUnitConf.ml" 169 5778 5794 "src/oUnitConf.ml" 169 5778 5797
+type(
+  string
+)
+ident(
+  def str "src/oUnitConf.ml" 169 5778 5801 "src/oUnitConf.ml" 169 5778 5834
+)
+"src/oUnitConf.ml" 169 5778 5789 "src/oUnitConf.ml" 169 5778 5797
+type(
+  string option
+)
+"src/oUnitConf.ml" 169 5778 5807 "src/oUnitConf.ml" 169 5778 5812
+type(
+  conf -> (string * string) list -> string -> string
+)
+ident(
+  int_ref subst "src/oUnitConf.ml" 85 3553 3557 "src/oUnitConf.ml" 85 3553 3562
+)
+"src/oUnitConf.ml" 169 5778 5813 "src/oUnitConf.ml" 169 5778 5817
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 167 5716 5743 "src/oUnitConf.ml" 167 5716 5747
+)
+"src/oUnitConf.ml" 169 5778 5818 "src/oUnitConf.ml" 169 5778 5829
+type(
+  (string * string) list
+)
+ident(
+  int_ref extra_subst "src/oUnitConf.ml" 167 5716 5727 "src/oUnitConf.ml" 167 5716 5738
+)
+"src/oUnitConf.ml" 169 5778 5830 "src/oUnitConf.ml" 169 5778 5833
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 169 5778 5794 "src/oUnitConf.ml" 169 5778 5797
+)
+"src/oUnitConf.ml" 169 5778 5806 "src/oUnitConf.ml" 169 5778 5834
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 169 5778 5801 "src/oUnitConf.ml" 169 5778 5834
+type(
+  string option
+)
+"src/oUnitConf.ml" 170 5835 5846 "src/oUnitConf.ml" 170 5835 5850
+type(
+  string option
+)
+"src/oUnitConf.ml" 170 5835 5854 "src/oUnitConf.ml" 170 5835 5858
+type(
+  string option
+)
+"src/oUnitConf.ml" 168 5751 5758 "src/oUnitConf.ml" 170 5835 5858
+type(
+  string option
+)
+"src/oUnitConf.ml" 167 5716 5720 "src/oUnitConf.ml" 170 5835 5859
+type(
+  ?extra_subst:(string * string) list -> conf -> string option
+)
+type(
+  conf -> string option
+)
+type(
+  (string * string) list option
+)
+ident(
+  ext_ref *opt*
+)
+"src/oUnitConf.ml" 166 5668 5670 "src/oUnitConf.ml" 170 5835 5859
+type(
+  ?extra_subst:(string * string) list -> conf -> string option
+)
+"src/oUnitConf.ml" 172 5861 5865 "src/oUnitConf.ml" 172 5861 5873
+type(
+  string -> int -> string -> (int, unit -> unit) Hashtbl.t -> int
+)
+ident(
+  def make_int "src/oUnitConf.ml" 193 6253 6253 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 172 5861 5874 "src/oUnitConf.ml" 172 5861 5878
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 172 5861 5879 "src/oUnitConf.ml" 191 6245 6251
+)
+"src/oUnitConf.ml" 172 5861 5879 "src/oUnitConf.ml" 172 5861 5886
+type(
+  int
+)
+ident(
+  def default "src/oUnitConf.ml" 172 5861 5887 "src/oUnitConf.ml" 191 6245 6251
+)
+"src/oUnitConf.ml" 172 5861 5887 "src/oUnitConf.ml" 172 5861 5891
+type(
+  string
+)
+ident(
+  def help "src/oUnitConf.ml" 173 5894 5896 "src/oUnitConf.ml" 191 6245 6251
+)
+"src/oUnitConf.ml" 173 5894 5896 "src/oUnitConf.ml" 173 5894 5900
+type(
+  name:string ->
+  parse:(string -> int) ->
+  print:(int -> string) ->
+  default:int ->
+  help:string ->
+  fcli:(int -> (int -> unit) -> (string * Arg.spec * string) list) ->
+  unit -> (int, unit -> unit) Hashtbl.t -> int
+)
+ident(
+  int_ref make "src/oUnitConf.ml" 105 4198 4202 "src/oUnitConf.ml" 105 4198 4206
+)
+"src/oUnitConf.ml" 174 5901 5906 "src/oUnitConf.ml" 174 5901 5910
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 172 5861 5874 "src/oUnitConf.ml" 172 5861 5878
+)
+"src/oUnitConf.ml" 176 5923 5932 "src/oUnitConf.ml" 176 5923 5935
+type(
+  string
+)
+ident(
+  def str "src/oUnitConf.ml" 177 5939 5946 "src/oUnitConf.ml" 182 6041 6100
+)
+"src/oUnitConf.ml" 178 5950 5959 "src/oUnitConf.ml" 178 5950 5972
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/oUnitConf.ml" 178 5950 5973 "src/oUnitConf.ml" 178 5950 5976
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 176 5923 5932 "src/oUnitConf.ml" 176 5923 5935
+)
+"src/oUnitConf.ml" 178 5950 5959 "src/oUnitConf.ml" 178 5950 5976
+type(
+  int
+)
+"src/oUnitConf.ml" 179 5977 5997 "src/oUnitConf.ml" 179 5977 5998
+type(
+  string
+)
+"src/oUnitConf.ml" 179 5977 5989 "src/oUnitConf.ml" 179 5977 5998
+type(
+  exn
+)
+"src/oUnitConf.ml" 180 6002 6011 "src/oUnitConf.ml" 180 6002 6016
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/oUnitConf.ml" 182 6041 6056 "src/oUnitConf.ml" 182 6041 6070
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitConf.ml" 182 6041 6071 "src/oUnitConf.ml" 182 6041 6094
+type(
+  (string -> string, unit, string) format
+)
+"src/oUnitConf.ml" 182 6041 6095 "src/oUnitConf.ml" 182 6041 6098
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 176 5923 5932 "src/oUnitConf.ml" 176 5923 5935
+)
+"src/oUnitConf.ml" 182 6041 6055 "src/oUnitConf.ml" 182 6041 6099
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 181 6017 6028 "src/oUnitConf.ml" 182 6041 6100
+type(
+  exn
+)
+"src/oUnitConf.ml" 180 6002 6011 "src/oUnitConf.ml" 182 6041 6100
+type(
+  int
+)
+"src/oUnitConf.ml" 177 5939 5946 "src/oUnitConf.ml" 182 6041 6100
+type(
+  int
+)
+"src/oUnitConf.ml" 176 5923 5927 "src/oUnitConf.ml" 182 6041 6101
+type(
+  string -> int
+)
+"src/oUnitConf.ml" 183 6102 6113 "src/oUnitConf.ml" 183 6102 6126
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/oUnitConf.ml" 184 6127 6132 "src/oUnitConf.ml" 184 6127 6139
+type(
+  int
+)
+ident(
+  int_ref default "src/oUnitConf.ml" 172 5861 5879 "src/oUnitConf.ml" 172 5861 5886
+)
+"src/oUnitConf.ml" 185 6140 6145 "src/oUnitConf.ml" 185 6140 6149
+type(
+  string
+)
+ident(
+  int_ref help "src/oUnitConf.ml" 172 5861 5887 "src/oUnitConf.ml" 172 5861 5891
+)
+"src/oUnitConf.ml" 187 6161 6170 "src/oUnitConf.ml" 187 6161 6173
+type(
+  int
+)
+ident(
+  def get "src/oUnitConf.ml" 187 6161 6174 "src/oUnitConf.ml" 190 6225 6243
+)
+"src/oUnitConf.ml" 187 6161 6174 "src/oUnitConf.ml" 187 6161 6177
+type(
+  int -> unit
+)
+ident(
+  def set "src/oUnitConf.ml" 188 6181 6188 "src/oUnitConf.ml" 190 6225 6243
+)
+"src/oUnitConf.ml" 188 6181 6189 "src/oUnitConf.ml" 188 6181 6197
+type(
+  string -> string
+)
+ident(
+  int_ref cli_name "src/oUnitConf.ml" 73 3261 3265 "src/oUnitConf.ml" 73 3261 3273
+)
+"src/oUnitConf.ml" 188 6181 6198 "src/oUnitConf.ml" 188 6181 6202
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 172 5861 5874 "src/oUnitConf.ml" 172 5861 5878
+)
+"src/oUnitConf.ml" 188 6181 6189 "src/oUnitConf.ml" 188 6181 6202
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 189 6204 6220 "src/oUnitConf.ml" 189 6204 6223
+type(
+  int -> unit
+)
+ident(
+  int_ref set "src/oUnitConf.ml" 187 6161 6174 "src/oUnitConf.ml" 187 6161 6177
+)
+"src/oUnitConf.ml" 189 6204 6212 "src/oUnitConf.ml" 189 6204 6223
+type(
+  Arg.spec
+)
+"src/oUnitConf.ml" 190 6225 6233 "src/oUnitConf.ml" 190 6225 6237
+type(
+  string
+)
+"src/oUnitConf.ml" 190 6225 6237 "src/oUnitConf.ml" 190 6225 6238
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 190 6225 6238 "src/oUnitConf.ml" 190 6225 6242
+type(
+  string
+)
+ident(
+  int_ref help "src/oUnitConf.ml" 172 5861 5887 "src/oUnitConf.ml" 172 5861 5891
+)
+"src/oUnitConf.ml" 190 6225 6233 "src/oUnitConf.ml" 190 6225 6242
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 188 6181 6189 "src/oUnitConf.ml" 190 6225 6242
+type(
+  string * Arg.spec * string
+)
+"src/oUnitConf.ml" 188 6181 6188 "src/oUnitConf.ml" 190 6225 6243
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 187 6161 6165 "src/oUnitConf.ml" 190 6225 6244
+type(
+  int -> (int -> unit) -> (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 191 6245 6249 "src/oUnitConf.ml" 191 6245 6251
+type(
+  unit
+)
+"src/oUnitConf.ml" 173 5894 5896 "src/oUnitConf.ml" 191 6245 6251
+call(
+  tail
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> int
+)
+"src/oUnitConf.ml" 193 6253 6257 "src/oUnitConf.ml" 193 6253 6267
+type(
+  string -> float -> string -> (int, unit -> unit) Hashtbl.t -> float
+)
+ident(
+  def make_float "src/oUnitConf.ml" 214 6650 6650 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 193 6253 6268 "src/oUnitConf.ml" 193 6253 6272
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 193 6253 6273 "src/oUnitConf.ml" 212 6642 6648
+)
+"src/oUnitConf.ml" 193 6253 6273 "src/oUnitConf.ml" 193 6253 6280
+type(
+  float
+)
+ident(
+  def default "src/oUnitConf.ml" 193 6253 6281 "src/oUnitConf.ml" 212 6642 6648
+)
+"src/oUnitConf.ml" 193 6253 6281 "src/oUnitConf.ml" 193 6253 6285
+type(
+  string
+)
+ident(
+  def help "src/oUnitConf.ml" 194 6288 6290 "src/oUnitConf.ml" 212 6642 6648
+)
+"src/oUnitConf.ml" 194 6288 6290 "src/oUnitConf.ml" 194 6288 6294
+type(
+  name:string ->
+  parse:(string -> float) ->
+  print:(float -> string) ->
+  default:float ->
+  help:string ->
+  fcli:(float -> (float -> unit) -> (string * Arg.spec * string) list) ->
+  unit -> (int, unit -> unit) Hashtbl.t -> float
+)
+ident(
+  int_ref make "src/oUnitConf.ml" 105 4198 4202 "src/oUnitConf.ml" 105 4198 4206
+)
+"src/oUnitConf.ml" 195 6295 6300 "src/oUnitConf.ml" 195 6295 6304
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 193 6253 6268 "src/oUnitConf.ml" 193 6253 6272
+)
+"src/oUnitConf.ml" 197 6317 6326 "src/oUnitConf.ml" 197 6317 6329
+type(
+  string
+)
+ident(
+  def str "src/oUnitConf.ml" 198 6333 6340 "src/oUnitConf.ml" 203 6437 6493
+)
+"src/oUnitConf.ml" 199 6344 6353 "src/oUnitConf.ml" 199 6344 6368
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+"src/oUnitConf.ml" 199 6344 6369 "src/oUnitConf.ml" 199 6344 6372
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 197 6317 6326 "src/oUnitConf.ml" 197 6317 6329
+)
+"src/oUnitConf.ml" 199 6344 6353 "src/oUnitConf.ml" 199 6344 6372
+type(
+  float
+)
+"src/oUnitConf.ml" 200 6373 6393 "src/oUnitConf.ml" 200 6373 6394
+type(
+  string
+)
+"src/oUnitConf.ml" 200 6373 6385 "src/oUnitConf.ml" 200 6373 6394
+type(
+  exn
+)
+"src/oUnitConf.ml" 201 6398 6407 "src/oUnitConf.ml" 201 6398 6412
+type(
+  exn -> float
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/oUnitConf.ml" 203 6437 6452 "src/oUnitConf.ml" 203 6437 6466
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitConf.ml" 203 6437 6467 "src/oUnitConf.ml" 203 6437 6487
+type(
+  (string -> string, unit, string) format
+)
+"src/oUnitConf.ml" 203 6437 6488 "src/oUnitConf.ml" 203 6437 6491
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 197 6317 6326 "src/oUnitConf.ml" 197 6317 6329
+)
+"src/oUnitConf.ml" 203 6437 6451 "src/oUnitConf.ml" 203 6437 6492
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 202 6413 6424 "src/oUnitConf.ml" 203 6437 6493
+type(
+  exn
+)
+"src/oUnitConf.ml" 201 6398 6407 "src/oUnitConf.ml" 203 6437 6493
+type(
+  float
+)
+"src/oUnitConf.ml" 198 6333 6340 "src/oUnitConf.ml" 203 6437 6493
+type(
+  float
+)
+"src/oUnitConf.ml" 197 6317 6321 "src/oUnitConf.ml" 203 6437 6494
+type(
+  string -> float
+)
+"src/oUnitConf.ml" 204 6495 6506 "src/oUnitConf.ml" 204 6495 6521
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"src/oUnitConf.ml" 205 6522 6527 "src/oUnitConf.ml" 205 6522 6534
+type(
+  float
+)
+ident(
+  int_ref default "src/oUnitConf.ml" 193 6253 6273 "src/oUnitConf.ml" 193 6253 6280
+)
+"src/oUnitConf.ml" 206 6535 6540 "src/oUnitConf.ml" 206 6535 6544
+type(
+  string
+)
+ident(
+  int_ref help "src/oUnitConf.ml" 193 6253 6281 "src/oUnitConf.ml" 193 6253 6285
+)
+"src/oUnitConf.ml" 208 6556 6565 "src/oUnitConf.ml" 208 6556 6568
+type(
+  float
+)
+ident(
+  def get "src/oUnitConf.ml" 208 6556 6569 "src/oUnitConf.ml" 211 6622 6640
+)
+"src/oUnitConf.ml" 208 6556 6569 "src/oUnitConf.ml" 208 6556 6572
+type(
+  float -> unit
+)
+ident(
+  def set "src/oUnitConf.ml" 209 6576 6583 "src/oUnitConf.ml" 211 6622 6640
+)
+"src/oUnitConf.ml" 209 6576 6584 "src/oUnitConf.ml" 209 6576 6592
+type(
+  string -> string
+)
+ident(
+  int_ref cli_name "src/oUnitConf.ml" 73 3261 3265 "src/oUnitConf.ml" 73 3261 3273
+)
+"src/oUnitConf.ml" 209 6576 6593 "src/oUnitConf.ml" 209 6576 6597
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 193 6253 6268 "src/oUnitConf.ml" 193 6253 6272
+)
+"src/oUnitConf.ml" 209 6576 6584 "src/oUnitConf.ml" 209 6576 6597
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 210 6599 6617 "src/oUnitConf.ml" 210 6599 6620
+type(
+  float -> unit
+)
+ident(
+  int_ref set "src/oUnitConf.ml" 208 6556 6569 "src/oUnitConf.ml" 208 6556 6572
+)
+"src/oUnitConf.ml" 210 6599 6607 "src/oUnitConf.ml" 210 6599 6620
+type(
+  Arg.spec
+)
+"src/oUnitConf.ml" 211 6622 6630 "src/oUnitConf.ml" 211 6622 6634
+type(
+  string
+)
+"src/oUnitConf.ml" 211 6622 6634 "src/oUnitConf.ml" 211 6622 6635
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 211 6622 6635 "src/oUnitConf.ml" 211 6622 6639
+type(
+  string
+)
+ident(
+  int_ref help "src/oUnitConf.ml" 193 6253 6281 "src/oUnitConf.ml" 193 6253 6285
+)
+"src/oUnitConf.ml" 211 6622 6630 "src/oUnitConf.ml" 211 6622 6639
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 209 6576 6584 "src/oUnitConf.ml" 211 6622 6639
+type(
+  string * Arg.spec * string
+)
+"src/oUnitConf.ml" 209 6576 6583 "src/oUnitConf.ml" 211 6622 6640
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 208 6556 6560 "src/oUnitConf.ml" 211 6622 6641
+type(
+  float -> (float -> unit) -> (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 212 6642 6646 "src/oUnitConf.ml" 212 6642 6648
+type(
+  unit
+)
+"src/oUnitConf.ml" 194 6288 6290 "src/oUnitConf.ml" 212 6642 6648
+call(
+  tail
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> float
+)
+"src/oUnitConf.ml" 214 6650 6654 "src/oUnitConf.ml" 214 6650 6663
+type(
+  string -> bool -> string -> (int, unit -> unit) Hashtbl.t -> bool
+)
+ident(
+  def make_bool "src/oUnitConf.ml" 235 7072 7072 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 214 6650 6664 "src/oUnitConf.ml" 214 6650 6668
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 214 6650 6669 "src/oUnitConf.ml" 233 7064 7070
+)
+"src/oUnitConf.ml" 214 6650 6669 "src/oUnitConf.ml" 214 6650 6676
+type(
+  bool
+)
+ident(
+  def default "src/oUnitConf.ml" 214 6650 6677 "src/oUnitConf.ml" 233 7064 7070
+)
+"src/oUnitConf.ml" 214 6650 6677 "src/oUnitConf.ml" 214 6650 6681
+type(
+  string
+)
+ident(
+  def help "src/oUnitConf.ml" 215 6684 6686 "src/oUnitConf.ml" 233 7064 7070
+)
+"src/oUnitConf.ml" 215 6684 6686 "src/oUnitConf.ml" 215 6684 6690
+type(
+  name:string ->
+  parse:(string -> bool) ->
+  print:(bool -> string) ->
+  default:bool ->
+  help:string ->
+  fcli:(bool -> (bool -> unit) -> (string * Arg.spec * string) list) ->
+  unit -> (int, unit -> unit) Hashtbl.t -> bool
+)
+ident(
+  int_ref make "src/oUnitConf.ml" 105 4198 4202 "src/oUnitConf.ml" 105 4198 4206
+)
+"src/oUnitConf.ml" 216 6691 6696 "src/oUnitConf.ml" 216 6691 6700
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 214 6650 6664 "src/oUnitConf.ml" 214 6650 6668
+)
+"src/oUnitConf.ml" 218 6713 6722 "src/oUnitConf.ml" 218 6713 6725
+type(
+  string
+)
+ident(
+  def str "src/oUnitConf.ml" 219 6729 6736 "src/oUnitConf.ml" 224 6832 6906
+)
+"src/oUnitConf.ml" 220 6740 6749 "src/oUnitConf.ml" 220 6740 6763
+type(
+  string -> bool
+)
+ident(
+  ext_ref Pervasives.bool_of_string
+)
+"src/oUnitConf.ml" 220 6740 6764 "src/oUnitConf.ml" 220 6740 6767
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 218 6713 6722 "src/oUnitConf.ml" 218 6713 6725
+)
+"src/oUnitConf.ml" 220 6740 6749 "src/oUnitConf.ml" 220 6740 6767
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitConf.ml" 221 6768 6788 "src/oUnitConf.ml" 221 6768 6789
+type(
+  string
+)
+"src/oUnitConf.ml" 221 6768 6780 "src/oUnitConf.ml" 221 6768 6789
+type(
+  exn
+)
+"src/oUnitConf.ml" 222 6793 6802 "src/oUnitConf.ml" 222 6793 6807
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/oUnitConf.ml" 224 6832 6847 "src/oUnitConf.ml" 224 6832 6861
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitConf.ml" 224 6832 6862 "src/oUnitConf.ml" 224 6832 6900
+type(
+  (string -> string, unit, string) format
+)
+"src/oUnitConf.ml" 224 6832 6901 "src/oUnitConf.ml" 224 6832 6904
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 218 6713 6722 "src/oUnitConf.ml" 218 6713 6725
+)
+"src/oUnitConf.ml" 224 6832 6846 "src/oUnitConf.ml" 224 6832 6905
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 223 6808 6819 "src/oUnitConf.ml" 224 6832 6906
+type(
+  exn
+)
+"src/oUnitConf.ml" 222 6793 6802 "src/oUnitConf.ml" 224 6832 6906
+type(
+  bool
+)
+"src/oUnitConf.ml" 219 6729 6736 "src/oUnitConf.ml" 224 6832 6906
+type(
+  bool
+)
+"src/oUnitConf.ml" 218 6713 6717 "src/oUnitConf.ml" 224 6832 6907
+type(
+  string -> bool
+)
+"src/oUnitConf.ml" 225 6908 6919 "src/oUnitConf.ml" 225 6908 6933
+type(
+  bool -> string
+)
+ident(
+  ext_ref Pervasives.string_of_bool
+)
+"src/oUnitConf.ml" 226 6934 6939 "src/oUnitConf.ml" 226 6934 6946
+type(
+  bool
+)
+ident(
+  int_ref default "src/oUnitConf.ml" 214 6650 6669 "src/oUnitConf.ml" 214 6650 6676
+)
+"src/oUnitConf.ml" 227 6947 6952 "src/oUnitConf.ml" 227 6947 6956
+type(
+  string
+)
+ident(
+  int_ref help "src/oUnitConf.ml" 214 6650 6677 "src/oUnitConf.ml" 214 6650 6681
+)
+"src/oUnitConf.ml" 229 6968 6977 "src/oUnitConf.ml" 229 6968 6980
+type(
+  bool
+)
+ident(
+  def get "src/oUnitConf.ml" 229 6968 6981 "src/oUnitConf.ml" 232 7033 7062
+)
+"src/oUnitConf.ml" 229 6968 6981 "src/oUnitConf.ml" 229 6968 6984
+type(
+  bool -> unit
+)
+ident(
+  def set "src/oUnitConf.ml" 230 6988 6995 "src/oUnitConf.ml" 232 7033 7062
+)
+"src/oUnitConf.ml" 230 6988 6996 "src/oUnitConf.ml" 230 6988 7004
+type(
+  string -> string
+)
+ident(
+  int_ref cli_name "src/oUnitConf.ml" 73 3261 3265 "src/oUnitConf.ml" 73 3261 3273
+)
+"src/oUnitConf.ml" 230 6988 7005 "src/oUnitConf.ml" 230 6988 7009
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 214 6650 6664 "src/oUnitConf.ml" 214 6650 6668
+)
+"src/oUnitConf.ml" 230 6988 6996 "src/oUnitConf.ml" 230 6988 7009
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 231 7011 7028 "src/oUnitConf.ml" 231 7011 7031
+type(
+  bool -> unit
+)
+ident(
+  int_ref set "src/oUnitConf.ml" 229 6968 6981 "src/oUnitConf.ml" 229 6968 6984
+)
+"src/oUnitConf.ml" 231 7011 7019 "src/oUnitConf.ml" 231 7011 7031
+type(
+  Arg.spec
+)
+"src/oUnitConf.ml" 232 7033 7041 "src/oUnitConf.ml" 232 7033 7056
+type(
+  string
+)
+"src/oUnitConf.ml" 232 7033 7056 "src/oUnitConf.ml" 232 7033 7057
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 232 7033 7057 "src/oUnitConf.ml" 232 7033 7061
+type(
+  string
+)
+ident(
+  int_ref help "src/oUnitConf.ml" 214 6650 6677 "src/oUnitConf.ml" 214 6650 6681
+)
+"src/oUnitConf.ml" 232 7033 7041 "src/oUnitConf.ml" 232 7033 7061
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 230 6988 6996 "src/oUnitConf.ml" 232 7033 7061
+type(
+  string * Arg.spec * string
+)
+"src/oUnitConf.ml" 230 6988 6995 "src/oUnitConf.ml" 232 7033 7062
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 229 6968 6972 "src/oUnitConf.ml" 232 7033 7063
+type(
+  bool -> (bool -> unit) -> (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 233 7064 7068 "src/oUnitConf.ml" 233 7064 7070
+type(
+  unit
+)
+"src/oUnitConf.ml" 215 6684 6686 "src/oUnitConf.ml" 233 7064 7070
+call(
+  tail
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> bool
+)
+"src/oUnitConf.ml" 235 7072 7076 "src/oUnitConf.ml" 235 7072 7085
+type(
+  string ->
+  (unit -> (string * 'a) list) ->
+  string -> string -> (int, unit -> unit) Hashtbl.t -> string * 'a
+)
+ident(
+  def make_enum "src/oUnitConf.ml" 267 7842 7842 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 235 7072 7086 "src/oUnitConf.ml" 235 7072 7090
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 235 7072 7091 "src/oUnitConf.ml" 265 7776 7840
+)
+"src/oUnitConf.ml" 235 7072 7091 "src/oUnitConf.ml" 235 7072 7100
+type(
+  unit -> (string * 'a) list
+)
+ident(
+  def get_enums "src/oUnitConf.ml" 235 7072 7101 "src/oUnitConf.ml" 265 7776 7840
+)
+"src/oUnitConf.ml" 235 7072 7101 "src/oUnitConf.ml" 235 7072 7108
+type(
+  string
+)
+ident(
+  def default "src/oUnitConf.ml" 235 7072 7109 "src/oUnitConf.ml" 265 7776 7840
+)
+"src/oUnitConf.ml" 235 7072 7109 "src/oUnitConf.ml" 235 7072 7113
+type(
+  string
+)
+ident(
+  def help "src/oUnitConf.ml" 236 7116 7118 "src/oUnitConf.ml" 265 7776 7840
+)
+"src/oUnitConf.ml" 236 7116 7122 "src/oUnitConf.ml" 236 7116 7127
+type(
+  string -> string
+)
+ident(
+  def parse "src/oUnitConf.ml" 246 7402 7404 "src/oUnitConf.ml" 265 7776 7840
+)
+"src/oUnitConf.ml" 236 7116 7128 "src/oUnitConf.ml" 236 7116 7131
+type(
+  string
+)
+ident(
+  def str "src/oUnitConf.ml" 237 7134 7138 "src/oUnitConf.ml" 244 7387 7396
+)
+"src/oUnitConf.ml" 237 7134 7142 "src/oUnitConf.ml" 237 7134 7150
+type(
+  (string * 'a) list
+)
+ident(
+  def enum_lst "src/oUnitConf.ml" 238 7169 7175 "src/oUnitConf.ml" 244 7387 7396
+)
+"src/oUnitConf.ml" 237 7134 7153 "src/oUnitConf.ml" 237 7134 7162
+type(
+  unit -> (string * 'a) list
+)
+ident(
+  int_ref get_enums "src/oUnitConf.ml" 235 7072 7091 "src/oUnitConf.ml" 235 7072 7100
+)
+"src/oUnitConf.ml" 237 7134 7163 "src/oUnitConf.ml" 237 7134 7165
+type(
+  unit
+)
+"src/oUnitConf.ml" 237 7134 7153 "src/oUnitConf.ml" 237 7134 7165
+call(
+  stack
+)
+type(
+  (string * 'a) list
+)
+"src/oUnitConf.ml" 238 7169 7178 "src/oUnitConf.ml" 238 7169 7181
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/oUnitConf.ml" 238 7169 7183 "src/oUnitConf.ml" 238 7169 7194
+type(
+  (string * 'a -> bool) -> (string * 'a) list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"src/oUnitConf.ml" 238 7169 7201 "src/oUnitConf.ml" 238 7169 7205
+type(
+  string
+)
+ident(
+  def str' "src/oUnitConf.ml" 238 7169 7213 "src/oUnitConf.ml" 238 7169 7223
+)
+"src/oUnitConf.ml" 238 7169 7207 "src/oUnitConf.ml" 238 7169 7208
+type(
+  'a
+)
+"src/oUnitConf.ml" 238 7169 7200 "src/oUnitConf.ml" 238 7169 7209
+type(
+  string * 'a
+)
+"src/oUnitConf.ml" 238 7169 7213 "src/oUnitConf.ml" 238 7169 7216
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 236 7116 7128 "src/oUnitConf.ml" 236 7116 7131
+)
+"src/oUnitConf.ml" 238 7169 7217 "src/oUnitConf.ml" 238 7169 7218
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/oUnitConf.ml" 238 7169 7219 "src/oUnitConf.ml" 238 7169 7223
+type(
+  string
+)
+ident(
+  int_ref str' "src/oUnitConf.ml" 238 7169 7201 "src/oUnitConf.ml" 238 7169 7205
+)
+"src/oUnitConf.ml" 238 7169 7213 "src/oUnitConf.ml" 238 7169 7223
+type(
+  bool
+)
+"src/oUnitConf.ml" 238 7169 7195 "src/oUnitConf.ml" 238 7169 7224
+type(
+  string * 'a -> bool
+)
+"src/oUnitConf.ml" 238 7169 7225 "src/oUnitConf.ml" 238 7169 7233
+type(
+  (string * 'a) list
+)
+ident(
+  int_ref enum_lst "src/oUnitConf.ml" 237 7134 7142 "src/oUnitConf.ml" 237 7134 7150
+)
+"src/oUnitConf.ml" 238 7169 7182 "src/oUnitConf.ml" 238 7169 7234
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitConf.ml" 238 7169 7178 "src/oUnitConf.ml" 238 7169 7234
+type(
+  bool
+)
+"src/oUnitConf.ml" 239 7240 7248 "src/oUnitConf.ml" 239 7240 7253
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/oUnitConf.ml" 241 7277 7291 "src/oUnitConf.ml" 241 7277 7305
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitConf.ml" 242 7306 7322 "src/oUnitConf.ml" 242 7306 7358
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/oUnitConf.ml" 243 7359 7375 "src/oUnitConf.ml" 243 7359 7378
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 236 7116 7128 "src/oUnitConf.ml" 236 7116 7131
+)
+"src/oUnitConf.ml" 243 7359 7379 "src/oUnitConf.ml" 243 7359 7383
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 235 7072 7086 "src/oUnitConf.ml" 235 7072 7090
+)
+"src/oUnitConf.ml" 241 7277 7290 "src/oUnitConf.ml" 243 7359 7384
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 240 7254 7264 "src/oUnitConf.ml" 243 7359 7385
+type(
+  exn
+)
+"src/oUnitConf.ml" 239 7240 7248 "src/oUnitConf.ml" 243 7359 7385
+type(
+  unit
+)
+"src/oUnitConf.ml" 238 7169 7175 "src/oUnitConf.ml" 243 7359 7385
+type(
+  unit
+)
+"src/oUnitConf.ml" 244 7387 7393 "src/oUnitConf.ml" 244 7387 7396
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 236 7116 7128 "src/oUnitConf.ml" 236 7116 7131
+)
+"src/oUnitConf.ml" 238 7169 7175 "src/oUnitConf.ml" 244 7387 7396
+type(
+  string
+)
+"src/oUnitConf.ml" 237 7134 7138 "src/oUnitConf.ml" 244 7387 7396
+type(
+  string
+)
+"src/oUnitConf.ml" 246 7402 7408 "src/oUnitConf.ml" 246 7402 7411
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  def get "src/oUnitConf.ml" 260 7653 7657 "src/oUnitConf.ml" 265 7776 7840
+)
+"src/oUnitConf.ml" 247 7414 7418 "src/oUnitConf.ml" 247 7414 7422
+type(
+  name:string ->
+  parse:(string -> string) ->
+  print:(string -> string) ->
+  default:string ->
+  help:string ->
+  fcli:(string -> (string -> unit) -> (string * Arg.spec * string) list) ->
+  unit -> (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  int_ref make "src/oUnitConf.ml" 105 4198 4202 "src/oUnitConf.ml" 105 4198 4206
+)
+"src/oUnitConf.ml" 248 7423 7430 "src/oUnitConf.ml" 248 7423 7434
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 235 7072 7086 "src/oUnitConf.ml" 235 7072 7090
+)
+"src/oUnitConf.ml" 249 7435 7442 "src/oUnitConf.ml" 249 7435 7447
+type(
+  string -> string
+)
+ident(
+  int_ref parse "src/oUnitConf.ml" 236 7116 7122 "src/oUnitConf.ml" 236 7116 7127
+)
+"src/oUnitConf.ml" 250 7448 7466 "src/oUnitConf.ml" 250 7448 7467
+type(
+  string
+)
+ident(
+  def s "src/oUnitConf.ml" 250 7448 7471 "src/oUnitConf.ml" 250 7448 7472
+)
+"src/oUnitConf.ml" 250 7448 7471 "src/oUnitConf.ml" 250 7448 7472
+type(
+  string
+)
+ident(
+  int_ref s "src/oUnitConf.ml" 250 7448 7466 "src/oUnitConf.ml" 250 7448 7467
+)
+"src/oUnitConf.ml" 250 7448 7461 "src/oUnitConf.ml" 250 7448 7473
+type(
+  string -> string
+)
+"src/oUnitConf.ml" 251 7474 7481 "src/oUnitConf.ml" 251 7474 7488
+type(
+  string
+)
+ident(
+  int_ref default "src/oUnitConf.ml" 235 7072 7101 "src/oUnitConf.ml" 235 7072 7108
+)
+"src/oUnitConf.ml" 252 7489 7496 "src/oUnitConf.ml" 252 7489 7500
+type(
+  string
+)
+ident(
+  int_ref help "src/oUnitConf.ml" 235 7072 7109 "src/oUnitConf.ml" 235 7072 7113
+)
+"src/oUnitConf.ml" 254 7514 7525 "src/oUnitConf.ml" 254 7514 7528
+type(
+  string
+)
+ident(
+  def get "src/oUnitConf.ml" 254 7514 7529 "src/oUnitConf.ml" 257 7618 7637
+)
+"src/oUnitConf.ml" 254 7514 7529 "src/oUnitConf.ml" 254 7514 7532
+type(
+  string -> unit
+)
+ident(
+  def set "src/oUnitConf.ml" 255 7536 7545 "src/oUnitConf.ml" 257 7618 7637
+)
+"src/oUnitConf.ml" 255 7536 7546 "src/oUnitConf.ml" 255 7536 7554
+type(
+  string -> string
+)
+ident(
+  int_ref cli_name "src/oUnitConf.ml" 73 3261 3265 "src/oUnitConf.ml" 73 3261 3273
+)
+"src/oUnitConf.ml" 255 7536 7555 "src/oUnitConf.ml" 255 7536 7559
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 235 7072 7086 "src/oUnitConf.ml" 235 7072 7090
+)
+"src/oUnitConf.ml" 255 7536 7546 "src/oUnitConf.ml" 255 7536 7559
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 256 7561 7583 "src/oUnitConf.ml" 256 7561 7591
+type(
+  (string * 'a -> string) -> (string * 'a) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/oUnitConf.ml" 256 7561 7592 "src/oUnitConf.ml" 256 7561 7595
+type(
+  string * 'a -> string
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"src/oUnitConf.ml" 256 7561 7597 "src/oUnitConf.ml" 256 7561 7606
+type(
+  unit -> (string * 'a) list
+)
+ident(
+  int_ref get_enums "src/oUnitConf.ml" 235 7072 7091 "src/oUnitConf.ml" 235 7072 7100
+)
+"src/oUnitConf.ml" 256 7561 7607 "src/oUnitConf.ml" 256 7561 7609
+type(
+  unit
+)
+"src/oUnitConf.ml" 256 7561 7596 "src/oUnitConf.ml" 256 7561 7610
+call(
+  stack
+)
+type(
+  (string * 'a) list
+)
+"src/oUnitConf.ml" 256 7561 7583 "src/oUnitConf.ml" 256 7561 7610
+call(
+  stack
+)
+type(
+  string list
+)
+"src/oUnitConf.ml" 256 7561 7612 "src/oUnitConf.ml" 256 7561 7615
+type(
+  string -> unit
+)
+ident(
+  int_ref set "src/oUnitConf.ml" 254 7514 7529 "src/oUnitConf.ml" 254 7514 7532
+)
+"src/oUnitConf.ml" 256 7561 7571 "src/oUnitConf.ml" 256 7561 7616
+type(
+  Arg.spec
+)
+"src/oUnitConf.ml" 257 7618 7628 "src/oUnitConf.ml" 257 7618 7631
+type(
+  string
+)
+"src/oUnitConf.ml" 257 7618 7631 "src/oUnitConf.ml" 257 7618 7632
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 257 7618 7632 "src/oUnitConf.ml" 257 7618 7636
+type(
+  string
+)
+ident(
+  int_ref help "src/oUnitConf.ml" 235 7072 7109 "src/oUnitConf.ml" 235 7072 7113
+)
+"src/oUnitConf.ml" 257 7618 7628 "src/oUnitConf.ml" 257 7618 7636
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 255 7536 7546 "src/oUnitConf.ml" 257 7618 7636
+type(
+  string * Arg.spec * string
+)
+"src/oUnitConf.ml" 255 7536 7545 "src/oUnitConf.ml" 257 7618 7637
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 254 7514 7520 "src/oUnitConf.ml" 257 7618 7638
+type(
+  string -> (string -> unit) -> (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 258 7639 7645 "src/oUnitConf.ml" 258 7639 7647
+type(
+  unit
+)
+"src/oUnitConf.ml" 247 7414 7418 "src/oUnitConf.ml" 258 7639 7647
+call(
+  stack
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+"src/oUnitConf.ml" 260 7653 7661 "src/oUnitConf.ml" 260 7653 7665
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  def conf "src/oUnitConf.ml" 261 7669 7675 "src/oUnitConf.ml" 265 7776 7840
+)
+"src/oUnitConf.ml" 262 7679 7687 "src/oUnitConf.ml" 262 7679 7690
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  int_ref get "src/oUnitConf.ml" 246 7402 7408 "src/oUnitConf.ml" 246 7402 7411
+)
+"src/oUnitConf.ml" 262 7679 7691 "src/oUnitConf.ml" 262 7679 7695
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 260 7653 7661 "src/oUnitConf.ml" 260 7653 7665
+)
+"src/oUnitConf.ml" 262 7679 7687 "src/oUnitConf.ml" 262 7679 7695
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 262 7679 7697 "src/oUnitConf.ml" 262 7679 7707
+type(
+  string -> (string * 'a) list -> 'a
+)
+ident(
+  ext_ref List.assoc
+)
+"src/oUnitConf.ml" 262 7679 7709 "src/oUnitConf.ml" 262 7679 7712
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  int_ref get "src/oUnitConf.ml" 246 7402 7408 "src/oUnitConf.ml" 246 7402 7411
+)
+"src/oUnitConf.ml" 262 7679 7713 "src/oUnitConf.ml" 262 7679 7717
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 260 7653 7661 "src/oUnitConf.ml" 260 7653 7665
+)
+"src/oUnitConf.ml" 262 7679 7708 "src/oUnitConf.ml" 262 7679 7718
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 262 7679 7720 "src/oUnitConf.ml" 262 7679 7729
+type(
+  unit -> (string * 'a) list
+)
+ident(
+  int_ref get_enums "src/oUnitConf.ml" 235 7072 7091 "src/oUnitConf.ml" 235 7072 7100
+)
+"src/oUnitConf.ml" 262 7679 7730 "src/oUnitConf.ml" 262 7679 7732
+type(
+  unit
+)
+"src/oUnitConf.ml" 262 7679 7719 "src/oUnitConf.ml" 262 7679 7733
+call(
+  stack
+)
+type(
+  (string * 'a) list
+)
+"src/oUnitConf.ml" 262 7679 7697 "src/oUnitConf.ml" 262 7679 7733
+call(
+  stack
+)
+type(
+  'a
+)
+"src/oUnitConf.ml" 262 7679 7687 "src/oUnitConf.ml" 262 7679 7733
+type(
+  string * 'a
+)
+"src/oUnitConf.ml" 263 7734 7745 "src/oUnitConf.ml" 263 7734 7754
+type(
+  exn
+)
+"src/oUnitConf.ml" 264 7758 7766 "src/oUnitConf.ml" 264 7758 7775
+type(
+  (string -> string * 'a, unit, string, string * 'a) format4 ->
+  string -> string * 'a
+)
+ident(
+  ext_ref OUnitUtils.failwithf
+)
+"src/oUnitConf.ml" 265 7776 7786 "src/oUnitConf.ml" 265 7776 7835
+type(
+  (string -> string * 'a, unit, string, string * 'a) format4
+)
+"src/oUnitConf.ml" 265 7776 7836 "src/oUnitConf.ml" 265 7776 7840
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 235 7072 7086 "src/oUnitConf.ml" 235 7072 7090
+)
+"src/oUnitConf.ml" 264 7758 7766 "src/oUnitConf.ml" 265 7776 7840
+call(
+  tail
+)
+type(
+  string * 'a
+)
+"src/oUnitConf.ml" 261 7669 7675 "src/oUnitConf.ml" 265 7776 7840
+type(
+  string * 'a
+)
+"src/oUnitConf.ml" 260 7653 7657 "src/oUnitConf.ml" 265 7776 7840
+type(
+  (int, unit -> unit) Hashtbl.t -> string * 'a
+)
+"src/oUnitConf.ml" 246 7402 7404 "src/oUnitConf.ml" 265 7776 7840
+type(
+  (int, unit -> unit) Hashtbl.t -> string * 'a
+)
+"src/oUnitConf.ml" 236 7116 7118 "src/oUnitConf.ml" 265 7776 7840
+type(
+  (int, unit -> unit) Hashtbl.t -> string * 'a
+)
+"src/oUnitConf.ml" 267 7842 7846 "src/oUnitConf.ml" 267 7842 7855
+type(
+  string -> (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  def make_exec "src/oUnitConf.ml" 280 8182 8182 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 267 7842 7856 "src/oUnitConf.ml" 267 7842 7860
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 268 7863 7865 "src/oUnitConf.ml" 278 8113 8180
+)
+"src/oUnitConf.ml" 268 7863 7869 "src/oUnitConf.ml" 268 7863 7876
+type(
+  string
+)
+ident(
+  def default "src/oUnitConf.ml" 278 8113 8117 "src/oUnitConf.ml" 278 8113 8180
+)
+"src/oUnitConf.ml" 269 7879 7887 "src/oUnitConf.ml" 269 7879 7890
+type(
+  string
+)
+ident(
+  def pwd "src/oUnitConf.ml" 270 7910 7914 "src/oUnitConf.ml" 276 8095 8107
+)
+"src/oUnitConf.ml" 269 7879 7893 "src/oUnitConf.ml" 269 7879 7903
+type(
+  unit -> string
+)
+ident(
+  ext_ref Sys.getcwd
+)
+"src/oUnitConf.ml" 269 7879 7904 "src/oUnitConf.ml" 269 7879 7906
+type(
+  unit
+)
+"src/oUnitConf.ml" 269 7879 7893 "src/oUnitConf.ml" 269 7879 7906
+type(
+  string
+)
+"src/oUnitConf.ml" 270 7910 7918 "src/oUnitConf.ml" 270 7910 7920
+type(
+  string
+)
+ident(
+  def bn "src/oUnitConf.ml" 271 7951 7957 "src/oUnitConf.ml" 276 8095 8107
+)
+"src/oUnitConf.ml" 270 7910 7923 "src/oUnitConf.ml" 270 7910 7938
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"src/oUnitConf.ml" 270 7910 7939 "src/oUnitConf.ml" 270 7910 7942
+type(
+  string
+)
+ident(
+  int_ref pwd "src/oUnitConf.ml" 269 7879 7887 "src/oUnitConf.ml" 269 7879 7890
+)
+"src/oUnitConf.ml" 270 7910 7943 "src/oUnitConf.ml" 270 7910 7947
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 267 7842 7856 "src/oUnitConf.ml" 267 7842 7860
+)
+"src/oUnitConf.ml" 270 7910 7923 "src/oUnitConf.ml" 270 7910 7947
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 271 7951 7960 "src/oUnitConf.ml" 271 7951 7975
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"src/oUnitConf.ml" 271 7951 7977 "src/oUnitConf.ml" 271 7951 7979
+type(
+  string
+)
+ident(
+  int_ref bn "src/oUnitConf.ml" 270 7910 7918 "src/oUnitConf.ml" 270 7910 7920
+)
+"src/oUnitConf.ml" 271 7951 7979 "src/oUnitConf.ml" 271 7951 7980
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 271 7951 7980 "src/oUnitConf.ml" 271 7951 7989
+type(
+  string
+)
+"src/oUnitConf.ml" 271 7951 7976 "src/oUnitConf.ml" 271 7951 7990
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 271 7951 7960 "src/oUnitConf.ml" 271 7951 7990
+type(
+  bool
+)
+"src/oUnitConf.ml" 272 7996 8004 "src/oUnitConf.ml" 272 7996 8006
+type(
+  string
+)
+ident(
+  int_ref bn "src/oUnitConf.ml" 270 7910 7918 "src/oUnitConf.ml" 270 7910 7920
+)
+"src/oUnitConf.ml" 272 7996 8006 "src/oUnitConf.ml" 272 7996 8007
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 272 7996 8007 "src/oUnitConf.ml" 272 7996 8016
+type(
+  string
+)
+"src/oUnitConf.ml" 272 7996 8004 "src/oUnitConf.ml" 272 7996 8016
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 273 8017 8031 "src/oUnitConf.ml" 273 8017 8046
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"src/oUnitConf.ml" 273 8017 8048 "src/oUnitConf.ml" 273 8017 8050
+type(
+  string
+)
+ident(
+  int_ref bn "src/oUnitConf.ml" 270 7910 7918 "src/oUnitConf.ml" 270 7910 7920
+)
+"src/oUnitConf.ml" 273 8017 8050 "src/oUnitConf.ml" 273 8017 8051
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 273 8017 8051 "src/oUnitConf.ml" 273 8017 8058
+type(
+  string
+)
+"src/oUnitConf.ml" 273 8017 8047 "src/oUnitConf.ml" 273 8017 8059
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 273 8017 8031 "src/oUnitConf.ml" 273 8017 8059
+type(
+  bool
+)
+"src/oUnitConf.ml" 274 8065 8073 "src/oUnitConf.ml" 274 8065 8075
+type(
+  string
+)
+ident(
+  int_ref bn "src/oUnitConf.ml" 270 7910 7918 "src/oUnitConf.ml" 270 7910 7920
+)
+"src/oUnitConf.ml" 274 8065 8075 "src/oUnitConf.ml" 274 8065 8076
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 274 8065 8076 "src/oUnitConf.ml" 274 8065 8083
+type(
+  string
+)
+"src/oUnitConf.ml" 274 8065 8073 "src/oUnitConf.ml" 274 8065 8083
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 276 8095 8103 "src/oUnitConf.ml" 276 8095 8107
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 267 7842 7856 "src/oUnitConf.ml" 267 7842 7860
+)
+"src/oUnitConf.ml" 273 8017 8028 "src/oUnitConf.ml" 276 8095 8107
+type(
+  string
+)
+"src/oUnitConf.ml" 271 7951 7957 "src/oUnitConf.ml" 276 8095 8107
+type(
+  string
+)
+"src/oUnitConf.ml" 270 7910 7914 "src/oUnitConf.ml" 276 8095 8107
+type(
+  string
+)
+"src/oUnitConf.ml" 269 7879 7883 "src/oUnitConf.ml" 276 8095 8107
+type(
+  string
+)
+"src/oUnitConf.ml" 278 8113 8117 "src/oUnitConf.ml" 278 8113 8128
+type(
+  string -> string -> string -> (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  int_ref make_string "src/oUnitConf.ml" 122 4744 4748 "src/oUnitConf.ml" 122 4744 4759
+)
+"src/oUnitConf.ml" 278 8113 8129 "src/oUnitConf.ml" 278 8113 8133
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 267 7842 7856 "src/oUnitConf.ml" 267 7842 7860
+)
+"src/oUnitConf.ml" 278 8113 8134 "src/oUnitConf.ml" 278 8113 8141
+type(
+  string
+)
+ident(
+  int_ref default "src/oUnitConf.ml" 268 7863 7869 "src/oUnitConf.ml" 268 7863 7876
+)
+"src/oUnitConf.ml" 278 8113 8143 "src/oUnitConf.ml" 278 8113 8157
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitConf.ml" 278 8113 8158 "src/oUnitConf.ml" 278 8113 8174
+type(
+  (string -> string, unit, string) format
+)
+"src/oUnitConf.ml" 278 8113 8175 "src/oUnitConf.ml" 278 8113 8179
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 267 7842 7856 "src/oUnitConf.ml" 267 7842 7860
+)
+"src/oUnitConf.ml" 278 8113 8142 "src/oUnitConf.ml" 278 8113 8180
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 278 8113 8117 "src/oUnitConf.ml" 278 8113 8180
+call(
+  tail
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+"src/oUnitConf.ml" 268 7863 7865 "src/oUnitConf.ml" 278 8113 8180
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+"src/oUnitConf.ml" 280 8182 8186 "src/oUnitConf.ml" 280 8182 8189
+type(
+  origin:string -> conf -> string -> string -> unit
+)
+ident(
+  def set "src/oUnitConf.ml" 290 8460 8460 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 280 8182 8191 "src/oUnitConf.ml" 280 8182 8197
+type(
+  string
+)
+ident(
+  def origin "src/oUnitConf.ml" 280 8182 8198 "src/oUnitConf.ml" 288 8420 8458
+)
+"src/oUnitConf.ml" 280 8182 8198 "src/oUnitConf.ml" 280 8182 8202
+type(
+  conf
+)
+ident(
+  def conf "src/oUnitConf.ml" 280 8182 8203 "src/oUnitConf.ml" 288 8420 8458
+)
+"src/oUnitConf.ml" 280 8182 8203 "src/oUnitConf.ml" 280 8182 8207
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 280 8182 8208 "src/oUnitConf.ml" 288 8420 8458
+)
+"src/oUnitConf.ml" 280 8182 8208 "src/oUnitConf.ml" 280 8182 8213
+type(
+  string
+)
+ident(
+  def value "src/oUnitConf.ml" 281 8216 8218 "src/oUnitConf.ml" 288 8420 8458
+)
+"src/oUnitConf.ml" 282 8222 8227 "src/oUnitConf.ml" 282 8222 8239
+type(
+  (string, metadata) Hashtbl.t -> string -> metadata
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/oUnitConf.ml" 282 8222 8240 "src/oUnitConf.ml" 282 8222 8248
+type(
+  (string, metadata) Hashtbl.t
+)
+ident(
+  int_ref metaconf "src/oUnitConf.ml" 47 2644 2648 "src/oUnitConf.ml" 47 2644 2656
+)
+"src/oUnitConf.ml" 282 8222 8249 "src/oUnitConf.ml" 282 8222 8253
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 280 8182 8203 "src/oUnitConf.ml" 280 8182 8207
+)
+"src/oUnitConf.ml" 282 8222 8226 "src/oUnitConf.ml" 282 8222 8254
+call(
+  stack
+)
+type(
+  metadata
+)
+"src/oUnitConf.ml" 282 8222 8226 "src/oUnitConf.ml" 282 8222 8264
+type(
+  string -> conf -> unit
+)
+"src/oUnitConf.ml" 282 8222 8265 "src/oUnitConf.ml" 282 8222 8270
+type(
+  string
+)
+ident(
+  int_ref value "src/oUnitConf.ml" 280 8182 8208 "src/oUnitConf.ml" 280 8182 8213
+)
+"src/oUnitConf.ml" 282 8222 8271 "src/oUnitConf.ml" 282 8222 8275
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 280 8182 8198 "src/oUnitConf.ml" 280 8182 8202
+)
+"src/oUnitConf.ml" 282 8222 8226 "src/oUnitConf.ml" 282 8222 8275
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 284 8283 8289 "src/oUnitConf.ml" 284 8283 8298
+type(
+  exn
+)
+"src/oUnitConf.ml" 285 8302 8310 "src/oUnitConf.ml" 285 8302 8319
+type(
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref OUnitUtils.failwithf
+)
+"src/oUnitConf.ml" 286 8320 8330 "src/oUnitConf.ml" 286 8320 8382
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"src/oUnitConf.ml" 286 8320 8383 "src/oUnitConf.ml" 286 8320 8387
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 280 8182 8203 "src/oUnitConf.ml" 280 8182 8207
+)
+"src/oUnitConf.ml" 286 8320 8388 "src/oUnitConf.ml" 286 8320 8394
+type(
+  string
+)
+ident(
+  int_ref origin "src/oUnitConf.ml" 280 8182 8191 "src/oUnitConf.ml" 280 8182 8197
+)
+"src/oUnitConf.ml" 285 8302 8310 "src/oUnitConf.ml" 286 8320 8394
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 287 8395 8413 "src/oUnitConf.ml" 287 8395 8416
+type(
+  string
+)
+ident(
+  def str "src/oUnitConf.ml" 288 8420 8428 "src/oUnitConf.ml" 288 8420 8458
+)
+"src/oUnitConf.ml" 287 8395 8401 "src/oUnitConf.ml" 287 8395 8416
+type(
+  exn
+)
+"src/oUnitConf.ml" 288 8420 8428 "src/oUnitConf.ml" 288 8420 8436
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/oUnitConf.ml" 288 8420 8438 "src/oUnitConf.ml" 288 8420 8441
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 287 8395 8413 "src/oUnitConf.ml" 287 8395 8416
+)
+"src/oUnitConf.ml" 288 8420 8442 "src/oUnitConf.ml" 288 8420 8443
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 288 8420 8444 "src/oUnitConf.ml" 288 8420 8448
+type(
+  string
+)
+"src/oUnitConf.ml" 288 8420 8449 "src/oUnitConf.ml" 288 8420 8450
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 288 8420 8451 "src/oUnitConf.ml" 288 8420 8457
+type(
+  string
+)
+ident(
+  int_ref origin "src/oUnitConf.ml" 280 8182 8191 "src/oUnitConf.ml" 280 8182 8197
+)
+"src/oUnitConf.ml" 288 8420 8444 "src/oUnitConf.ml" 288 8420 8457
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 288 8420 8437 "src/oUnitConf.ml" 288 8420 8458
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 288 8420 8428 "src/oUnitConf.ml" 288 8420 8458
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 281 8216 8218 "src/oUnitConf.ml" 288 8420 8458
+type(
+  unit
+)
+"src/oUnitConf.ml" 290 8460 8464 "src/oUnitConf.ml" 290 8460 8474
+type(
+  conf -> string -> unit
+)
+ident(
+  def file_parse "src/oUnitConf.ml" 332 9504 9504 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 290 8460 8475 "src/oUnitConf.ml" 290 8460 8479
+type(
+  conf
+)
+ident(
+  def conf "src/oUnitConf.ml" 290 8460 8480 "src/oUnitConf.ml" 330 9485 9502
+)
+"src/oUnitConf.ml" 290 8460 8480 "src/oUnitConf.ml" 290 8460 8482
+type(
+  string
+)
+ident(
+  def fn "src/oUnitConf.ml" 291 8485 8487 "src/oUnitConf.ml" 330 9485 9502
+)
+"src/oUnitConf.ml" 291 8485 8491 "src/oUnitConf.ml" 291 8485 8496
+type(
+  int -> string -> unit
+)
+ident(
+  def parse "src/oUnitConf.ml" 316 9205 9207 "src/oUnitConf.ml" 330 9485 9502
+)
+"src/oUnitConf.ml" 291 8485 8497 "src/oUnitConf.ml" 291 8485 8503
+type(
+  int
+)
+ident(
+  def lineno "src/oUnitConf.ml" 291 8485 8504 "src/oUnitConf.ml" 314 9186 9199
+)
+"src/oUnitConf.ml" 291 8485 8504 "src/oUnitConf.ml" 291 8485 8508
+type(
+  string
+)
+ident(
+  def line "src/oUnitConf.ml" 292 8511 8515 "src/oUnitConf.ml" 314 9186 9199
+)
+"src/oUnitConf.ml" 292 8511 8519 "src/oUnitConf.ml" 292 8511 8525
+type(
+  string
+)
+ident(
+  def origin "src/oUnitConf.ml" 297 8606 8610 "src/oUnitConf.ml" 314 9186 9199
+)
+"src/oUnitConf.ml" 293 8528 8534 "src/oUnitConf.ml" 293 8528 8548
+type(
+  (string -> int -> string, unit, string) format -> string -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitConf.ml" 294 8549 8557 "src/oUnitConf.ml" 294 8549 8580
+type(
+  (string -> int -> string, unit, string) format
+)
+"src/oUnitConf.ml" 295 8581 8589 "src/oUnitConf.ml" 295 8581 8591
+type(
+  string
+)
+ident(
+  int_ref fn "src/oUnitConf.ml" 290 8460 8480 "src/oUnitConf.ml" 290 8460 8482
+)
+"src/oUnitConf.ml" 295 8581 8592 "src/oUnitConf.ml" 295 8581 8598
+type(
+  int
+)
+ident(
+  int_ref lineno "src/oUnitConf.ml" 291 8485 8497 "src/oUnitConf.ml" 291 8485 8503
+)
+"src/oUnitConf.ml" 293 8528 8534 "src/oUnitConf.ml" 295 8581 8598
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 297 8606 8616 "src/oUnitConf.ml" 297 8606 8620
+type(
+  string -> string
+)
+ident(
+  ext_ref OUnitUtils.trim
+)
+"src/oUnitConf.ml" 297 8606 8622 "src/oUnitConf.ml" 297 8606 8634
+type(
+  string -> string
+)
+ident(
+  ext_ref OUnitUtils.trim_comment
+)
+"src/oUnitConf.ml" 297 8606 8635 "src/oUnitConf.ml" 297 8606 8639
+type(
+  string
+)
+ident(
+  int_ref line "src/oUnitConf.ml" 291 8485 8504 "src/oUnitConf.ml" 291 8485 8508
+)
+"src/oUnitConf.ml" 297 8606 8621 "src/oUnitConf.ml" 297 8606 8640
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 297 8606 8616 "src/oUnitConf.ml" 297 8606 8640
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 298 8646 8654 "src/oUnitConf.ml" 298 8646 8656
+type(
+  string
+)
+"src/oUnitConf.ml" 299 8660 8670 "src/oUnitConf.ml" 299 8660 8672
+type(
+  unit
+)
+"src/oUnitConf.ml" 300 8673 8681 "src/oUnitConf.ml" 300 8673 8684
+type(
+  string
+)
+ident(
+  def str "src/oUnitConf.ml" 301 8688 8698 "src/oUnitConf.ml" 314 9186 9199
+)
+"src/oUnitConf.ml" 302 8704 8720 "src/oUnitConf.ml" 302 8704 8724
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 313 9144 9158 "src/oUnitConf.ml" 313 9144 9185
+)
+"src/oUnitConf.ml" 302 8704 8726 "src/oUnitConf.ml" 302 8704 8731
+type(
+  string
+)
+ident(
+  def value "src/oUnitConf.ml" 313 9144 9158 "src/oUnitConf.ml" 313 9144 9185
+)
+"src/oUnitConf.ml" 302 8704 8720 "src/oUnitConf.ml" 302 8704 8731
+type(
+  string * string
+)
+"src/oUnitConf.ml" 304 8752 8768 "src/oUnitConf.ml" 304 8752 8780
+type(
+  string ->
+  (string -> string -> string * string, '_a,
+   (string -> string -> string * string) -> string * string, string * string)
+  Scanf.scanner
+)
+ident(
+  ext_ref Scanf.sscanf
+)
+"src/oUnitConf.ml" 304 8752 8781 "src/oUnitConf.ml" 304 8752 8784
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 300 8673 8681 "src/oUnitConf.ml" 300 8673 8684
+)
+"src/oUnitConf.ml" 304 8752 8785 "src/oUnitConf.ml" 304 8752 8794
+type(
+  (string -> string -> string * string, Scanf.Scanning.in_channel, '_a,
+   (string -> string -> string * string) -> string * string,
+   (string -> string -> string * string) -> string * string, string * string)
+  format6
+)
+"src/oUnitConf.ml" 304 8752 8800 "src/oUnitConf.ml" 304 8752 8804
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 304 8752 8805 "src/oUnitConf.ml" 304 8752 8825
+)
+"src/oUnitConf.ml" 304 8752 8805 "src/oUnitConf.ml" 304 8752 8810
+type(
+  string
+)
+ident(
+  def value "src/oUnitConf.ml" 304 8752 8814 "src/oUnitConf.ml" 304 8752 8825
+)
+"src/oUnitConf.ml" 304 8752 8814 "src/oUnitConf.ml" 304 8752 8818
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 304 8752 8800 "src/oUnitConf.ml" 304 8752 8804
+)
+"src/oUnitConf.ml" 304 8752 8820 "src/oUnitConf.ml" 304 8752 8825
+type(
+  string
+)
+ident(
+  int_ref value "src/oUnitConf.ml" 304 8752 8805 "src/oUnitConf.ml" 304 8752 8810
+)
+"src/oUnitConf.ml" 304 8752 8814 "src/oUnitConf.ml" 304 8752 8825
+type(
+  string * string
+)
+"src/oUnitConf.ml" 304 8752 8795 "src/oUnitConf.ml" 304 8752 8826
+type(
+  string -> string -> string * string
+)
+"src/oUnitConf.ml" 304 8752 8768 "src/oUnitConf.ml" 304 8752 8826
+call(
+  stack
+)
+type(
+  string * string
+)
+"src/oUnitConf.ml" 305 8827 8865 "src/oUnitConf.ml" 305 8827 8866
+type(
+  string
+)
+"src/oUnitConf.ml" 305 8827 8846 "src/oUnitConf.ml" 305 8827 8866
+type(
+  exn
+)
+"src/oUnitConf.ml" 308 8914 8934 "src/oUnitConf.ml" 308 8914 8946
+type(
+  string ->
+  (string -> string -> string * string, '_b,
+   (string -> string -> string * string) -> string * string, string * string)
+  Scanf.scanner
+)
+ident(
+  ext_ref Scanf.sscanf
+)
+"src/oUnitConf.ml" 308 8914 8947 "src/oUnitConf.ml" 308 8914 8950
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitConf.ml" 300 8673 8681 "src/oUnitConf.ml" 300 8673 8684
+)
+"src/oUnitConf.ml" 308 8914 8951 "src/oUnitConf.ml" 308 8914 8960
+type(
+  (string -> string -> string * string, Scanf.Scanning.in_channel, '_b,
+   (string -> string -> string * string) -> string * string,
+   (string -> string -> string * string) -> string * string, string * string)
+  format6
+)
+"src/oUnitConf.ml" 308 8914 8966 "src/oUnitConf.ml" 308 8914 8970
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 308 8914 8971 "src/oUnitConf.ml" 308 8914 8991
+)
+"src/oUnitConf.ml" 308 8914 8971 "src/oUnitConf.ml" 308 8914 8976
+type(
+  string
+)
+ident(
+  def value "src/oUnitConf.ml" 308 8914 8980 "src/oUnitConf.ml" 308 8914 8991
+)
+"src/oUnitConf.ml" 308 8914 8980 "src/oUnitConf.ml" 308 8914 8984
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 308 8914 8966 "src/oUnitConf.ml" 308 8914 8970
+)
+"src/oUnitConf.ml" 308 8914 8986 "src/oUnitConf.ml" 308 8914 8991
+type(
+  string
+)
+ident(
+  int_ref value "src/oUnitConf.ml" 308 8914 8971 "src/oUnitConf.ml" 308 8914 8976
+)
+"src/oUnitConf.ml" 308 8914 8980 "src/oUnitConf.ml" 308 8914 8991
+type(
+  string * string
+)
+"src/oUnitConf.ml" 308 8914 8961 "src/oUnitConf.ml" 308 8914 8992
+type(
+  string -> string -> string * string
+)
+"src/oUnitConf.ml" 308 8914 8934 "src/oUnitConf.ml" 308 8914 8992
+call(
+  stack
+)
+type(
+  string * string
+)
+"src/oUnitConf.ml" 309 8993 9035 "src/oUnitConf.ml" 309 8993 9036
+type(
+  string
+)
+"src/oUnitConf.ml" 309 8993 9016 "src/oUnitConf.ml" 309 8993 9036
+type(
+  exn
+)
+"src/oUnitConf.ml" 310 9040 9060 "src/oUnitConf.ml" 310 9040 9069
+type(
+  (string -> string -> string * string, unit, string, string * string)
+  format4 -> string -> string -> string * string
+)
+ident(
+  ext_ref OUnitUtils.failwithf
+)
+"src/oUnitConf.ml" 310 9040 9070 "src/oUnitConf.ml" 310 9040 9096
+type(
+  (string -> string -> string * string, unit, string, string * string)
+  format4
+)
+"src/oUnitConf.ml" 310 9040 9097 "src/oUnitConf.ml" 310 9040 9101
+type(
+  string
+)
+ident(
+  int_ref line "src/oUnitConf.ml" 291 8485 8504 "src/oUnitConf.ml" 291 8485 8508
+)
+"src/oUnitConf.ml" 310 9040 9102 "src/oUnitConf.ml" 310 9040 9108
+type(
+  string
+)
+ident(
+  int_ref origin "src/oUnitConf.ml" 292 8511 8519 "src/oUnitConf.ml" 292 8511 8525
+)
+"src/oUnitConf.ml" 310 9040 9060 "src/oUnitConf.ml" 310 9040 9108
+call(
+  stack
+)
+type(
+  string * string
+)
+"src/oUnitConf.ml" 306 8870 8886 "src/oUnitConf.ml" 311 9109 9128
+type(
+  string * string
+)
+"src/oUnitConf.ml" 303 8734 8748 "src/oUnitConf.ml" 311 9109 9128
+type(
+  string * string
+)
+"src/oUnitConf.ml" 313 9144 9158 "src/oUnitConf.ml" 313 9144 9161
+type(
+  origin:string -> conf -> string -> string -> unit
+)
+ident(
+  int_ref set "src/oUnitConf.ml" 280 8182 8186 "src/oUnitConf.ml" 280 8182 8189
+)
+"src/oUnitConf.ml" 313 9144 9163 "src/oUnitConf.ml" 313 9144 9169
+type(
+  string
+)
+ident(
+  int_ref origin "src/oUnitConf.ml" 292 8511 8519 "src/oUnitConf.ml" 292 8511 8525
+)
+"src/oUnitConf.ml" 313 9144 9170 "src/oUnitConf.ml" 313 9144 9174
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 290 8460 8475 "src/oUnitConf.ml" 290 8460 8479
+)
+"src/oUnitConf.ml" 313 9144 9175 "src/oUnitConf.ml" 313 9144 9179
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 302 8704 8720 "src/oUnitConf.ml" 302 8704 8724
+)
+"src/oUnitConf.ml" 313 9144 9180 "src/oUnitConf.ml" 313 9144 9185
+type(
+  string
+)
+ident(
+  int_ref value "src/oUnitConf.ml" 302 8704 8726 "src/oUnitConf.ml" 302 8704 8731
+)
+"src/oUnitConf.ml" 313 9144 9158 "src/oUnitConf.ml" 313 9144 9185
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 301 8688 8698 "src/oUnitConf.ml" 314 9186 9199
+type(
+  unit
+)
+"src/oUnitConf.ml" 297 8606 8610 "src/oUnitConf.ml" 314 9186 9199
+type(
+  unit
+)
+"src/oUnitConf.ml" 292 8511 8515 "src/oUnitConf.ml" 314 9186 9199
+type(
+  unit
+)
+"src/oUnitConf.ml" 316 9205 9211 "src/oUnitConf.ml" 316 9205 9214
+type(
+  in_channel
+)
+ident(
+  def chn "src/oUnitConf.ml" 317 9231 9233 "src/oUnitConf.ml" 330 9485 9502
+)
+"src/oUnitConf.ml" 316 9205 9217 "src/oUnitConf.ml" 316 9205 9224
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/oUnitConf.ml" 316 9205 9225 "src/oUnitConf.ml" 316 9205 9227
+type(
+  string
+)
+ident(
+  int_ref fn "src/oUnitConf.ml" 290 8460 8480 "src/oUnitConf.ml" 290 8460 8482
+)
+"src/oUnitConf.ml" 316 9205 9217 "src/oUnitConf.ml" 316 9205 9227
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/oUnitConf.ml" 317 9231 9237 "src/oUnitConf.ml" 317 9231 9243
+type(
+  int ref
+)
+ident(
+  def lineno "src/oUnitConf.ml" 318 9255 9259 "src/oUnitConf.ml" 330 9485 9502
+)
+"src/oUnitConf.ml" 317 9231 9246 "src/oUnitConf.ml" 317 9231 9249
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitConf.ml" 317 9231 9250 "src/oUnitConf.ml" 317 9231 9251
+type(
+  int
+)
+"src/oUnitConf.ml" 317 9231 9246 "src/oUnitConf.ml" 317 9231 9251
+type(
+  int ref
+)
+"src/oUnitConf.ml" 319 9263 9275 "src/oUnitConf.ml" 319 9263 9279
+type(
+  bool
+)
+"src/oUnitConf.ml" 320 9283 9295 "src/oUnitConf.ml" 320 9283 9299
+type(
+  string
+)
+ident(
+  def line "src/oUnitConf.ml" 321 9320 9330 "src/oUnitConf.ml" 322 9343 9371
+)
+"src/oUnitConf.ml" 320 9283 9302 "src/oUnitConf.ml" 320 9283 9312
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"src/oUnitConf.ml" 320 9283 9313 "src/oUnitConf.ml" 320 9283 9316
+type(
+  in_channel
+)
+ident(
+  int_ref chn "src/oUnitConf.ml" 316 9205 9211 "src/oUnitConf.ml" 316 9205 9214
+)
+"src/oUnitConf.ml" 320 9283 9302 "src/oUnitConf.ml" 320 9283 9316
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 321 9320 9330 "src/oUnitConf.ml" 321 9320 9334
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/oUnitConf.ml" 321 9320 9335 "src/oUnitConf.ml" 321 9320 9341
+type(
+  int ref
+)
+ident(
+  int_ref lineno "src/oUnitConf.ml" 317 9231 9237 "src/oUnitConf.ml" 317 9231 9243
+)
+"src/oUnitConf.ml" 321 9320 9330 "src/oUnitConf.ml" 321 9320 9341
+type(
+  unit
+)
+"src/oUnitConf.ml" 322 9343 9353 "src/oUnitConf.ml" 322 9343 9358
+type(
+  int -> string -> unit
+)
+ident(
+  int_ref parse "src/oUnitConf.ml" 291 8485 8491 "src/oUnitConf.ml" 291 8485 8496
+)
+"src/oUnitConf.ml" 322 9343 9359 "src/oUnitConf.ml" 322 9343 9360
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitConf.ml" 322 9343 9360 "src/oUnitConf.ml" 322 9343 9366
+type(
+  int ref
+)
+ident(
+  int_ref lineno "src/oUnitConf.ml" 317 9231 9237 "src/oUnitConf.ml" 317 9231 9243
+)
+"src/oUnitConf.ml" 322 9343 9359 "src/oUnitConf.ml" 322 9343 9366
+type(
+  int
+)
+"src/oUnitConf.ml" 322 9343 9367 "src/oUnitConf.ml" 322 9343 9371
+type(
+  string
+)
+ident(
+  int_ref line "src/oUnitConf.ml" 320 9283 9295 "src/oUnitConf.ml" 320 9283 9299
+)
+"src/oUnitConf.ml" 322 9343 9353 "src/oUnitConf.ml" 322 9343 9371
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 321 9320 9330 "src/oUnitConf.ml" 322 9343 9371
+type(
+  unit
+)
+"src/oUnitConf.ml" 320 9283 9291 "src/oUnitConf.ml" 322 9343 9371
+type(
+  unit
+)
+"src/oUnitConf.ml" 319 9263 9269 "src/oUnitConf.ml" 323 9372 9382
+type(
+  unit
+)
+"src/oUnitConf.ml" 324 9384 9390 "src/oUnitConf.ml" 324 9384 9392
+type(
+  unit
+)
+"src/oUnitConf.ml" 319 9263 9269 "src/oUnitConf.ml" 324 9384 9392
+type(
+  unit
+)
+"src/oUnitConf.ml" 326 9402 9410 "src/oUnitConf.ml" 326 9402 9421
+type(
+  exn
+)
+"src/oUnitConf.ml" 327 9425 9435 "src/oUnitConf.ml" 327 9425 9443
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"src/oUnitConf.ml" 327 9425 9444 "src/oUnitConf.ml" 327 9425 9447
+type(
+  in_channel
+)
+ident(
+  int_ref chn "src/oUnitConf.ml" 316 9205 9211 "src/oUnitConf.ml" 316 9205 9214
+)
+"src/oUnitConf.ml" 327 9425 9435 "src/oUnitConf.ml" 327 9425 9447
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 328 9448 9456 "src/oUnitConf.ml" 328 9448 9457
+type(
+  exn
+)
+ident(
+  def e "src/oUnitConf.ml" 329 9461 9471 "src/oUnitConf.ml" 330 9485 9502
+)
+"src/oUnitConf.ml" 329 9461 9471 "src/oUnitConf.ml" 329 9461 9479
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"src/oUnitConf.ml" 329 9461 9480 "src/oUnitConf.ml" 329 9461 9483
+type(
+  in_channel
+)
+ident(
+  int_ref chn "src/oUnitConf.ml" 316 9205 9211 "src/oUnitConf.ml" 316 9205 9214
+)
+"src/oUnitConf.ml" 329 9461 9471 "src/oUnitConf.ml" 329 9461 9483
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 330 9485 9495 "src/oUnitConf.ml" 330 9485 9500
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/oUnitConf.ml" 330 9485 9501 "src/oUnitConf.ml" 330 9485 9502
+type(
+  exn
+)
+ident(
+  int_ref e "src/oUnitConf.ml" 328 9448 9456 "src/oUnitConf.ml" 328 9448 9457
+)
+"src/oUnitConf.ml" 330 9485 9495 "src/oUnitConf.ml" 330 9485 9502
+type(
+  unit
+)
+"src/oUnitConf.ml" 329 9461 9471 "src/oUnitConf.ml" 330 9485 9502
+type(
+  unit
+)
+"src/oUnitConf.ml" 318 9255 9259 "src/oUnitConf.ml" 330 9485 9502
+type(
+  unit
+)
+"src/oUnitConf.ml" 317 9231 9233 "src/oUnitConf.ml" 330 9485 9502
+type(
+  unit
+)
+"src/oUnitConf.ml" 316 9205 9207 "src/oUnitConf.ml" 330 9485 9502
+type(
+  unit
+)
+"src/oUnitConf.ml" 291 8485 8487 "src/oUnitConf.ml" 330 9485 9502
+type(
+  unit
+)
+"src/oUnitConf.ml" 332 9504 9508 "src/oUnitConf.ml" 332 9504 9517
+type(
+  conf -> unit
+)
+ident(
+  def env_parse "src/oUnitConf.ml" 363 10347 10347 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 332 9504 9518 "src/oUnitConf.ml" 332 9504 9522
+type(
+  conf
+)
+ident(
+  def conf "src/oUnitConf.ml" 333 9525 9527 "src/oUnitConf.ml" 361 10293 10345
+)
+"src/oUnitConf.ml" 333 9525 9531 "src/oUnitConf.ml" 333 9525 9536
+type(
+  string -> unit
+)
+ident(
+  def parse "src/oUnitConf.ml" 361 10293 10297 "src/oUnitConf.ml" 361 10293 10345
+)
+"src/oUnitConf.ml" 333 9525 9537 "src/oUnitConf.ml" 333 9525 9541
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 334 9544 9548 "src/oUnitConf.ml" 359 10279 10287
+)
+"src/oUnitConf.ml" 334 9544 9552 "src/oUnitConf.ml" 334 9544 9566
+type(
+  string
+)
+ident(
+  def uppercase_name "src/oUnitConf.ml" 344 9833 9837 "src/oUnitConf.ml" 359 10279 10287
+)
+"src/oUnitConf.ml" 335 9569 9579 "src/oUnitConf.ml" 335 9569 9580
+type(
+  Buffer.t
+)
+ident(
+  def b "src/oUnitConf.ml" 336 9621 9627 "src/oUnitConf.ml" 342 9802 9825
+)
+"src/oUnitConf.ml" 335 9569 9583 "src/oUnitConf.ml" 335 9569 9596
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"src/oUnitConf.ml" 335 9569 9598 "src/oUnitConf.ml" 335 9569 9611
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/oUnitConf.ml" 335 9569 9612 "src/oUnitConf.ml" 335 9569 9616
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 333 9525 9537 "src/oUnitConf.ml" 333 9525 9541
+)
+"src/oUnitConf.ml" 335 9569 9597 "src/oUnitConf.ml" 335 9569 9617
+type(
+  int
+)
+"src/oUnitConf.ml" 335 9569 9583 "src/oUnitConf.ml" 335 9569 9617
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"src/oUnitConf.ml" 336 9621 9627 "src/oUnitConf.ml" 336 9621 9638
+type(
+  (char -> unit) -> string -> unit
+)
+ident(
+  ext_ref String.iter
+)
+"src/oUnitConf.ml" 338 9657 9669 "src/oUnitConf.ml" 338 9657 9679
+type(
+  char
+)
+"src/oUnitConf.ml" 338 9657 9683 "src/oUnitConf.ml" 338 9657 9684
+ident(
+  def c "src/oUnitConf.ml" 339 9688 9700 "src/oUnitConf.ml" 339 9688 9749
+)
+"src/oUnitConf.ml" 338 9657 9669 "src/oUnitConf.ml" 338 9657 9684
+type(
+  char
+)
+"src/oUnitConf.ml" 339 9688 9700 "src/oUnitConf.ml" 339 9688 9715
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/oUnitConf.ml" 339 9688 9716 "src/oUnitConf.ml" 339 9688 9717
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "src/oUnitConf.ml" 335 9569 9579 "src/oUnitConf.ml" 335 9569 9580
+)
+"src/oUnitConf.ml" 339 9688 9719 "src/oUnitConf.ml" 339 9688 9727
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"src/oUnitConf.ml" 339 9688 9730 "src/oUnitConf.ml" 339 9688 9739
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/oUnitConf.ml" 339 9688 9740 "src/oUnitConf.ml" 339 9688 9741
+type(
+  char
+)
+ident(
+  int_ref c "src/oUnitConf.ml" 338 9657 9669 "src/oUnitConf.ml" 338 9657 9684
+)
+"src/oUnitConf.ml" 339 9688 9729 "src/oUnitConf.ml" 339 9688 9742
+type(
+  int
+)
+"src/oUnitConf.ml" 339 9688 9743 "src/oUnitConf.ml" 339 9688 9744
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/oUnitConf.ml" 339 9688 9745 "src/oUnitConf.ml" 339 9688 9747
+type(
+  int
+)
+"src/oUnitConf.ml" 339 9688 9728 "src/oUnitConf.ml" 339 9688 9748
+type(
+  int
+)
+"src/oUnitConf.ml" 339 9688 9718 "src/oUnitConf.ml" 339 9688 9749
+call(
+  stack
+)
+type(
+  char
+)
+"src/oUnitConf.ml" 339 9688 9700 "src/oUnitConf.ml" 339 9688 9749
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 340 9750 9762 "src/oUnitConf.ml" 340 9750 9763
+type(
+  char
+)
+ident(
+  def c "src/oUnitConf.ml" 340 9750 9767 "src/oUnitConf.ml" 340 9750 9786
+)
+"src/oUnitConf.ml" 340 9750 9767 "src/oUnitConf.ml" 340 9750 9782
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/oUnitConf.ml" 340 9750 9783 "src/oUnitConf.ml" 340 9750 9784
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "src/oUnitConf.ml" 335 9569 9579 "src/oUnitConf.ml" 335 9569 9580
+)
+"src/oUnitConf.ml" 340 9750 9785 "src/oUnitConf.ml" 340 9750 9786
+type(
+  char
+)
+ident(
+  int_ref c "src/oUnitConf.ml" 340 9750 9762 "src/oUnitConf.ml" 340 9750 9763
+)
+"src/oUnitConf.ml" 340 9750 9767 "src/oUnitConf.ml" 340 9750 9786
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 337 9639 9647 "src/oUnitConf.ml" 340 9750 9787
+type(
+  char -> unit
+)
+"src/oUnitConf.ml" 341 9788 9796 "src/oUnitConf.ml" 341 9788 9800
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 333 9525 9537 "src/oUnitConf.ml" 333 9525 9541
+)
+"src/oUnitConf.ml" 336 9621 9627 "src/oUnitConf.ml" 341 9788 9800
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 342 9802 9808 "src/oUnitConf.ml" 342 9802 9823
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/oUnitConf.ml" 342 9802 9824 "src/oUnitConf.ml" 342 9802 9825
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "src/oUnitConf.ml" 335 9569 9579 "src/oUnitConf.ml" 335 9569 9580
+)
+"src/oUnitConf.ml" 342 9802 9808 "src/oUnitConf.ml" 342 9802 9825
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 336 9621 9627 "src/oUnitConf.ml" 342 9802 9825
+type(
+  string
+)
+"src/oUnitConf.ml" 335 9569 9575 "src/oUnitConf.ml" 342 9802 9825
+type(
+  string
+)
+"src/oUnitConf.ml" 344 9833 9841 "src/oUnitConf.ml" 344 9833 9849
+type(
+  string
+)
+ident(
+  def env_name "src/oUnitConf.ml" 345 9881 9885 "src/oUnitConf.ml" 359 10279 10287
+)
+"src/oUnitConf.ml" 344 9833 9852 "src/oUnitConf.ml" 344 9833 9860
+type(
+  string
+)
+"src/oUnitConf.ml" 344 9833 9861 "src/oUnitConf.ml" 344 9833 9862
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 344 9833 9863 "src/oUnitConf.ml" 344 9833 9877
+type(
+  string
+)
+ident(
+  int_ref uppercase_name "src/oUnitConf.ml" 334 9544 9552 "src/oUnitConf.ml" 334 9544 9566
+)
+"src/oUnitConf.ml" 344 9833 9852 "src/oUnitConf.ml" 344 9833 9877
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 346 9889 9899 "src/oUnitConf.ml" 346 9889 9904
+type(
+  string
+)
+ident(
+  def value "src/oUnitConf.ml" 348 9986 9992 "src/oUnitConf.ml" 357 10221 10256
+)
+"src/oUnitConf.ml" 346 9889 9907 "src/oUnitConf.ml" 346 9889 9917
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"src/oUnitConf.ml" 346 9889 9918 "src/oUnitConf.ml" 346 9889 9926
+type(
+  string
+)
+ident(
+  int_ref env_name "src/oUnitConf.ml" 344 9833 9841 "src/oUnitConf.ml" 344 9833 9849
+)
+"src/oUnitConf.ml" 346 9889 9907 "src/oUnitConf.ml" 346 9889 9926
+type(
+  string
+)
+"src/oUnitConf.ml" 348 9986 9996 "src/oUnitConf.ml" 348 9986 10001
+type(
+  string
+)
+ident(
+  def value "src/oUnitConf.ml" 354 10125 10131 "src/oUnitConf.ml" 357 10221 10256
+)
+"src/oUnitConf.ml" 350 10016 10026 "src/oUnitConf.ml" 350 10016 10038
+type(
+  string ->
+  (string -> string, '_a, (string -> string) -> string, string) Scanf.scanner
+)
+ident(
+  ext_ref Scanf.sscanf
+)
+"src/oUnitConf.ml" 350 10016 10039 "src/oUnitConf.ml" 350 10016 10044
+type(
+  string
+)
+ident(
+  int_ref value "src/oUnitConf.ml" 346 9889 9899 "src/oUnitConf.ml" 346 9889 9904
+)
+"src/oUnitConf.ml" 350 10016 10045 "src/oUnitConf.ml" 350 10016 10049
+type(
+  (string -> string, Scanf.Scanning.in_channel, '_a,
+   (string -> string) -> string, (string -> string) -> string, string)
+  format6
+)
+"src/oUnitConf.ml" 350 10016 10055 "src/oUnitConf.ml" 350 10016 10056
+type(
+  string
+)
+ident(
+  def s "src/oUnitConf.ml" 350 10016 10060 "src/oUnitConf.ml" 350 10016 10061
+)
+"src/oUnitConf.ml" 350 10016 10060 "src/oUnitConf.ml" 350 10016 10061
+type(
+  string
+)
+ident(
+  int_ref s "src/oUnitConf.ml" 350 10016 10055 "src/oUnitConf.ml" 350 10016 10056
+)
+"src/oUnitConf.ml" 350 10016 10050 "src/oUnitConf.ml" 350 10016 10062
+type(
+  string -> string
+)
+"src/oUnitConf.ml" 350 10016 10026 "src/oUnitConf.ml" 350 10016 10062
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 351 10063 10095 "src/oUnitConf.ml" 351 10063 10096
+type(
+  string
+)
+"src/oUnitConf.ml" 351 10063 10076 "src/oUnitConf.ml" 351 10063 10096
+type(
+  exn
+)
+"src/oUnitConf.ml" 352 10100 10110 "src/oUnitConf.ml" 352 10100 10115
+type(
+  string
+)
+ident(
+  int_ref value "src/oUnitConf.ml" 346 9889 9899 "src/oUnitConf.ml" 346 9889 9904
+)
+"src/oUnitConf.ml" 349 10004 10012 "src/oUnitConf.ml" 352 10100 10115
+type(
+  string
+)
+"src/oUnitConf.ml" 354 10125 10135 "src/oUnitConf.ml" 354 10125 10141
+type(
+  string
+)
+ident(
+  def origin "src/oUnitConf.ml" 357 10221 10229 "src/oUnitConf.ml" 357 10221 10256
+)
+"src/oUnitConf.ml" 355 10144 10152 "src/oUnitConf.ml" 355 10144 10166
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitConf.ml" 355 10144 10167 "src/oUnitConf.ml" 355 10144 10196
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/oUnitConf.ml" 355 10144 10197 "src/oUnitConf.ml" 355 10144 10205
+type(
+  string
+)
+ident(
+  int_ref env_name "src/oUnitConf.ml" 344 9833 9841 "src/oUnitConf.ml" 344 9833 9849
+)
+"src/oUnitConf.ml" 355 10144 10206 "src/oUnitConf.ml" 355 10144 10211
+type(
+  string
+)
+ident(
+  int_ref value "src/oUnitConf.ml" 348 9986 9996 "src/oUnitConf.ml" 348 9986 10001
+)
+"src/oUnitConf.ml" 355 10144 10152 "src/oUnitConf.ml" 355 10144 10211
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 357 10221 10229 "src/oUnitConf.ml" 357 10221 10232
+type(
+  origin:string -> conf -> string -> string -> unit
+)
+ident(
+  int_ref set "src/oUnitConf.ml" 280 8182 8186 "src/oUnitConf.ml" 280 8182 8189
+)
+"src/oUnitConf.ml" 357 10221 10234 "src/oUnitConf.ml" 357 10221 10240
+type(
+  string
+)
+ident(
+  int_ref origin "src/oUnitConf.ml" 354 10125 10135 "src/oUnitConf.ml" 354 10125 10141
+)
+"src/oUnitConf.ml" 357 10221 10241 "src/oUnitConf.ml" 357 10221 10245
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 332 9504 9518 "src/oUnitConf.ml" 332 9504 9522
+)
+"src/oUnitConf.ml" 357 10221 10246 "src/oUnitConf.ml" 357 10221 10250
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 333 9525 9537 "src/oUnitConf.ml" 333 9525 9541
+)
+"src/oUnitConf.ml" 357 10221 10251 "src/oUnitConf.ml" 357 10221 10256
+type(
+  string
+)
+ident(
+  int_ref value "src/oUnitConf.ml" 348 9986 9996 "src/oUnitConf.ml" 348 9986 10001
+)
+"src/oUnitConf.ml" 357 10221 10229 "src/oUnitConf.ml" 357 10221 10256
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 354 10125 10131 "src/oUnitConf.ml" 357 10221 10256
+type(
+  unit
+)
+"src/oUnitConf.ml" 348 9986 9992 "src/oUnitConf.ml" 357 10221 10256
+type(
+  unit
+)
+"src/oUnitConf.ml" 346 9889 9895 "src/oUnitConf.ml" 357 10221 10256
+type(
+  unit
+)
+"src/oUnitConf.ml" 358 10257 10266 "src/oUnitConf.ml" 358 10257 10275
+type(
+  exn
+)
+"src/oUnitConf.ml" 359 10279 10285 "src/oUnitConf.ml" 359 10279 10287
+type(
+  unit
+)
+"src/oUnitConf.ml" 345 9881 9885 "src/oUnitConf.ml" 359 10279 10287
+type(
+  unit
+)
+"src/oUnitConf.ml" 344 9833 9837 "src/oUnitConf.ml" 359 10279 10287
+type(
+  unit
+)
+"src/oUnitConf.ml" 334 9544 9548 "src/oUnitConf.ml" 359 10279 10287
+type(
+  unit
+)
+"src/oUnitConf.ml" 361 10293 10297 "src/oUnitConf.ml" 361 10293 10309
+type(
+  (string -> metadata -> unit) -> (string, metadata) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"src/oUnitConf.ml" 361 10293 10315 "src/oUnitConf.ml" 361 10293 10319
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 361 10293 10320 "src/oUnitConf.ml" 361 10293 10335
+)
+"src/oUnitConf.ml" 361 10293 10320 "src/oUnitConf.ml" 361 10293 10321
+type(
+  metadata
+)
+"src/oUnitConf.ml" 361 10293 10325 "src/oUnitConf.ml" 361 10293 10330
+type(
+  string -> unit
+)
+ident(
+  int_ref parse "src/oUnitConf.ml" 333 9525 9531 "src/oUnitConf.ml" 333 9525 9536
+)
+"src/oUnitConf.ml" 361 10293 10331 "src/oUnitConf.ml" 361 10293 10335
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 361 10293 10315 "src/oUnitConf.ml" 361 10293 10319
+)
+"src/oUnitConf.ml" 361 10293 10325 "src/oUnitConf.ml" 361 10293 10335
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 361 10293 10310 "src/oUnitConf.ml" 361 10293 10336
+type(
+  string -> metadata -> unit
+)
+"src/oUnitConf.ml" 361 10293 10337 "src/oUnitConf.ml" 361 10293 10345
+type(
+  (string, metadata) Hashtbl.t
+)
+ident(
+  int_ref metaconf "src/oUnitConf.ml" 47 2644 2648 "src/oUnitConf.ml" 47 2644 2656
+)
+"src/oUnitConf.ml" 361 10293 10297 "src/oUnitConf.ml" 361 10293 10345
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 333 9525 9527 "src/oUnitConf.ml" 361 10293 10345
+type(
+  unit
+)
+"src/oUnitConf.ml" 363 10347 10351 "src/oUnitConf.ml" 363 10347 10360
+type(
+  ?argv:string array -> (Arg.key * Arg.spec * Arg.doc) list -> conf -> unit
+)
+ident(
+  def cli_parse "src/oUnitConf.ml" 402 11301 11301 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 363 10347 10362 "src/oUnitConf.ml" 363 10347 10366
+type(
+  string array option
+)
+ident(
+  def argv "src/oUnitConf.ml" 363 10347 10367 "src/oUnitConf.ml" 400 11253 11299
+)
+"src/oUnitConf.ml" 363 10347 10367 "src/oUnitConf.ml" 363 10347 10378
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  def extra_specs "src/oUnitConf.ml" 363 10347 10379 "src/oUnitConf.ml" 400 11253 11299
+)
+"src/oUnitConf.ml" 363 10347 10379 "src/oUnitConf.ml" 363 10347 10383
+type(
+  conf
+)
+ident(
+  def conf "src/oUnitConf.ml" 364 10386 10388 "src/oUnitConf.ml" 400 11253 11299
+)
+"src/oUnitConf.ml" 364 10386 10392 "src/oUnitConf.ml" 364 10386 10397
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def specs "src/oUnitConf.ml" 380 10802 10804 "src/oUnitConf.ml" 400 11253 11299
+)
+"src/oUnitConf.ml" 365 10400 10404 "src/oUnitConf.ml" 365 10400 10416
+type(
+  (string ->
+   metadata ->
+   (string * Arg.spec * string) list -> (string * Arg.spec * string) list) ->
+  (string, metadata) Hashtbl.t ->
+  (string * Arg.spec * string) list -> (string * Arg.spec * string) list
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"src/oUnitConf.ml" 366 10417 10428 "src/oUnitConf.ml" 366 10417 10432
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 366 10417 10433 "src/oUnitConf.ml" 376 10747 10771
+)
+"src/oUnitConf.ml" 366 10417 10433 "src/oUnitConf.ml" 366 10417 10441
+type(
+  metadata
+)
+ident(
+  def metadata "src/oUnitConf.ml" 366 10417 10442 "src/oUnitConf.ml" 376 10747 10771
+)
+"src/oUnitConf.ml" 366 10417 10442 "src/oUnitConf.ml" 366 10417 10445
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def lst "src/oUnitConf.ml" 367 10449 10458 "src/oUnitConf.ml" 376 10747 10771
+)
+"src/oUnitConf.ml" 367 10449 10462 "src/oUnitConf.ml" 367 10449 10469
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def cli_lst "src/oUnitConf.ml" 376 10747 10758 "src/oUnitConf.ml" 376 10747 10771
+)
+"src/oUnitConf.ml" 368 10472 10489 "src/oUnitConf.ml" 368 10472 10497
+type(
+  metadata
+)
+ident(
+  int_ref metadata "src/oUnitConf.ml" 366 10417 10433 "src/oUnitConf.ml" 366 10417 10441
+)
+"src/oUnitConf.ml" 368 10472 10489 "src/oUnitConf.ml" 368 10472 10501
+type(
+  conf -> (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 368 10472 10502 "src/oUnitConf.ml" 368 10472 10506
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 363 10347 10379 "src/oUnitConf.ml" 363 10347 10383
+)
+"src/oUnitConf.ml" 368 10472 10489 "src/oUnitConf.ml" 368 10472 10506
+call(
+  stack
+)
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 369 10512 10528 "src/oUnitConf.ml" 369 10512 10531
+type(
+  string
+)
+ident(
+  def key "src/oUnitConf.ml" 370 10553 10570 "src/oUnitConf.ml" 373 10688 10710
+)
+"src/oUnitConf.ml" 369 10512 10533 "src/oUnitConf.ml" 369 10512 10537
+type(
+  Arg.spec
+)
+ident(
+  def spec "src/oUnitConf.ml" 370 10553 10570 "src/oUnitConf.ml" 373 10688 10710
+)
+"src/oUnitConf.ml" 369 10512 10539 "src/oUnitConf.ml" 369 10512 10542
+type(
+  string
+)
+ident(
+  def doc "src/oUnitConf.ml" 370 10553 10570 "src/oUnitConf.ml" 373 10688 10710
+)
+"src/oUnitConf.ml" 369 10512 10527 "src/oUnitConf.ml" 369 10512 10543
+type(
+  string * Arg.spec * string
+)
+"src/oUnitConf.ml" 369 10512 10547 "src/oUnitConf.ml" 369 10512 10549
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def tl "src/oUnitConf.ml" 370 10553 10570 "src/oUnitConf.ml" 373 10688 10710
+)
+"src/oUnitConf.ml" 369 10512 10527 "src/oUnitConf.ml" 369 10512 10549
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 370 10553 10571 "src/oUnitConf.ml" 370 10553 10574
+type(
+  string
+)
+ident(
+  int_ref key "src/oUnitConf.ml" 369 10512 10528 "src/oUnitConf.ml" 369 10512 10531
+)
+"src/oUnitConf.ml" 370 10553 10576 "src/oUnitConf.ml" 370 10553 10580
+type(
+  Arg.spec
+)
+ident(
+  int_ref spec "src/oUnitConf.ml" 369 10512 10533 "src/oUnitConf.ml" 369 10512 10537
+)
+"src/oUnitConf.ml" 370 10553 10582 "src/oUnitConf.ml" 370 10553 10585
+type(
+  string
+)
+ident(
+  int_ref doc "src/oUnitConf.ml" 369 10512 10539 "src/oUnitConf.ml" 369 10512 10542
+)
+"src/oUnitConf.ml" 370 10553 10586 "src/oUnitConf.ml" 370 10553 10587
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 371 10588 10607 "src/oUnitConf.ml" 371 10588 10621
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitConf.ml" 371 10588 10622 "src/oUnitConf.ml" 371 10588 10638
+type(
+  (string -> string, unit, string) format
+)
+"src/oUnitConf.ml" 372 10639 10661 "src/oUnitConf.ml" 372 10639 10669
+type(
+  metadata
+)
+ident(
+  int_ref metadata "src/oUnitConf.ml" 366 10417 10433 "src/oUnitConf.ml" 366 10417 10441
+)
+"src/oUnitConf.ml" 372 10639 10661 "src/oUnitConf.ml" 372 10639 10679
+type(
+  conf -> string
+)
+"src/oUnitConf.ml" 372 10639 10680 "src/oUnitConf.ml" 372 10639 10684
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 363 10347 10379 "src/oUnitConf.ml" 363 10347 10383
+)
+"src/oUnitConf.ml" 372 10639 10660 "src/oUnitConf.ml" 372 10639 10685
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 371 10588 10606 "src/oUnitConf.ml" 372 10639 10686
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 370 10553 10582 "src/oUnitConf.ml" 372 10639 10686
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 370 10553 10570 "src/oUnitConf.ml" 372 10639 10687
+type(
+  string * Arg.spec * string
+)
+"src/oUnitConf.ml" 373 10688 10708 "src/oUnitConf.ml" 373 10688 10710
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  int_ref tl "src/oUnitConf.ml" 369 10512 10547 "src/oUnitConf.ml" 369 10512 10549
+)
+"src/oUnitConf.ml" 370 10553 10570 "src/oUnitConf.ml" 373 10688 10710
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 374 10711 10726 "src/oUnitConf.ml" 374 10711 10728
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 374 10711 10732 "src/oUnitConf.ml" 374 10711 10734
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 368 10472 10483 "src/oUnitConf.ml" 374 10711 10734
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 376 10747 10758 "src/oUnitConf.ml" 376 10747 10765
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  int_ref cli_lst "src/oUnitConf.ml" 367 10449 10462 "src/oUnitConf.ml" 367 10449 10469
+)
+"src/oUnitConf.ml" 376 10747 10766 "src/oUnitConf.ml" 376 10747 10767
+type(
+  (string * Arg.spec * string) list ->
+  (string * Arg.spec * string) list -> (string * Arg.spec * string) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/oUnitConf.ml" 376 10747 10768 "src/oUnitConf.ml" 376 10747 10771
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  int_ref lst "src/oUnitConf.ml" 366 10417 10442 "src/oUnitConf.ml" 366 10417 10445
+)
+"src/oUnitConf.ml" 376 10747 10758 "src/oUnitConf.ml" 376 10747 10771
+call(
+  tail
+)
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 367 10449 10458 "src/oUnitConf.ml" 376 10747 10771
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 366 10417 10423 "src/oUnitConf.ml" 376 10747 10772
+type(
+  string ->
+  metadata ->
+  (string * Arg.spec * string) list -> (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 377 10773 10779 "src/oUnitConf.ml" 377 10773 10787
+type(
+  (string, metadata) Hashtbl.t
+)
+ident(
+  int_ref metaconf "src/oUnitConf.ml" 47 2644 2648 "src/oUnitConf.ml" 47 2644 2656
+)
+"src/oUnitConf.ml" 378 10788 10794 "src/oUnitConf.ml" 378 10788 10796
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 365 10400 10404 "src/oUnitConf.ml" 378 10788 10796
+call(
+  stack
+)
+type(
+  (string * Arg.spec * string) list
+)
+"src/oUnitConf.ml" 380 10802 10808 "src/oUnitConf.ml" 380 10802 10817
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  def all_specs "src/oUnitConf.ml" 390 11015 11017 "src/oUnitConf.ml" 400 11253 11299
+)
+"src/oUnitConf.ml" 381 10820 10824 "src/oUnitConf.ml" 381 10820 10833
+type(
+  ?limit:int ->
+  (Arg.key * Arg.spec * Arg.doc) list -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Arg.align
+)
+"src/oUnitConf.ml" 383 10843 10851 "src/oUnitConf.ml" 383 10843 10858
+type(
+  Arg.key
+)
+"src/oUnitConf.ml" 384 10860 10880 "src/oUnitConf.ml" 384 10860 10890
+type(
+  conf -> string -> unit
+)
+ident(
+  int_ref file_parse "src/oUnitConf.ml" 290 8460 8464 "src/oUnitConf.ml" 290 8460 8474
+)
+"src/oUnitConf.ml" 384 10860 10891 "src/oUnitConf.ml" 384 10860 10895
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 363 10347 10379 "src/oUnitConf.ml" 363 10347 10383
+)
+"src/oUnitConf.ml" 384 10860 10879 "src/oUnitConf.ml" 384 10860 10896
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"src/oUnitConf.ml" 384 10860 10868 "src/oUnitConf.ml" 384 10860 10896
+type(
+  Arg.spec
+)
+"src/oUnitConf.ml" 385 10898 10906 "src/oUnitConf.ml" 385 10898 10935
+type(
+  Arg.doc
+)
+"src/oUnitConf.ml" 383 10843 10851 "src/oUnitConf.ml" 385 10898 10935
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"src/oUnitConf.ml" 382 10834 10841 "src/oUnitConf.ml" 386 10936 10943
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/oUnitConf.ml" 387 10944 10950 "src/oUnitConf.ml" 387 10944 10951
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  (Arg.key * Arg.spec * Arg.doc) list -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/oUnitConf.ml" 387 10944 10953 "src/oUnitConf.ml" 387 10944 10962
+type(
+  (Arg.key * Arg.spec * Arg.doc -> Arg.key * Arg.spec * Arg.doc -> int) ->
+  (Arg.key * Arg.spec * Arg.doc) list -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref List.sort
+)
+"src/oUnitConf.ml" 387 10944 10963 "src/oUnitConf.ml" 387 10944 10981
+type(
+  Arg.key * Arg.spec * Arg.doc -> Arg.key * Arg.spec * Arg.doc -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/oUnitConf.ml" 387 10944 10982 "src/oUnitConf.ml" 387 10944 10987
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref specs "src/oUnitConf.ml" 364 10386 10392 "src/oUnitConf.ml" 364 10386 10397
+)
+"src/oUnitConf.ml" 387 10944 10952 "src/oUnitConf.ml" 387 10944 10988
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/oUnitConf.ml" 388 10989 10995 "src/oUnitConf.ml" 388 10989 10996
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  (Arg.key * Arg.spec * Arg.doc) list -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/oUnitConf.ml" 388 10989 10997 "src/oUnitConf.ml" 388 10989 11008
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref extra_specs "src/oUnitConf.ml" 363 10347 10367 "src/oUnitConf.ml" 363 10347 10378
+)
+"src/oUnitConf.ml" 387 10944 10952 "src/oUnitConf.ml" 388 10989 11008
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/oUnitConf.ml" 382 10834 10840 "src/oUnitConf.ml" 388 10989 11009
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/oUnitConf.ml" 381 10820 10824 "src/oUnitConf.ml" 388 10989 11009
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/oUnitConf.ml" 390 11015 11021 "src/oUnitConf.ml" 390 11015 11030
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  def arg_parse "src/oUnitConf.ml" 397 11160 11164 "src/oUnitConf.ml" 400 11253 11299
+)
+"src/oUnitConf.ml" 391 11033 11043 "src/oUnitConf.ml" 391 11033 11047
+type(
+  string array option
+)
+ident(
+  int_ref argv "src/oUnitConf.ml" 363 10347 10362 "src/oUnitConf.ml" 363 10347 10366
+)
+"src/oUnitConf.ml" 392 11053 11066 "src/oUnitConf.ml" 392 11053 11069
+type(
+  string array
+)
+ident(
+  def arr "src/oUnitConf.ml" 393 11073 11083 "src/oUnitConf.ml" 393 11073 11118
+)
+"src/oUnitConf.ml" 392 11053 11061 "src/oUnitConf.ml" 392 11053 11069
+type(
+  string array option
+)
+"src/oUnitConf.ml" 393 11073 11083 "src/oUnitConf.ml" 393 11073 11097
+type(
+  ?current:int ref ->
+  string array ->
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse_argv
+)
+"src/oUnitConf.ml" 393 11073 11108 "src/oUnitConf.ml" 393 11073 11111
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitConf.ml" 393 11073 11112 "src/oUnitConf.ml" 393 11073 11113
+type(
+  int
+)
+"src/oUnitConf.ml" 393 11073 11107 "src/oUnitConf.ml" 393 11073 11114
+type(
+  int ref
+)
+"src/oUnitConf.ml" 393 11073 11115 "src/oUnitConf.ml" 393 11073 11118
+type(
+  string array
+)
+ident(
+  int_ref arr "src/oUnitConf.ml" 392 11053 11066 "src/oUnitConf.ml" 392 11053 11069
+)
+"src/oUnitConf.ml" 393 11073 11083 "src/oUnitConf.ml" 393 11073 11118
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+"src/oUnitConf.ml" 394 11119 11127 "src/oUnitConf.ml" 394 11119 11131
+type(
+  string array option
+)
+"src/oUnitConf.ml" 395 11135 11145 "src/oUnitConf.ml" 395 11135 11154
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"src/oUnitConf.ml" 391 11033 11037 "src/oUnitConf.ml" 395 11135 11154
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+"src/oUnitConf.ml" 397 11160 11164 "src/oUnitConf.ml" 397 11160 11173
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  int_ref arg_parse "src/oUnitConf.ml" 390 11015 11021 "src/oUnitConf.ml" 390 11015 11030
+)
+"src/oUnitConf.ml" 398 11174 11180 "src/oUnitConf.ml" 398 11174 11189
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref all_specs "src/oUnitConf.ml" 380 10802 10808 "src/oUnitConf.ml" 380 10802 10817
+)
+"src/oUnitConf.ml" 399 11190 11201 "src/oUnitConf.ml" 399 11190 11202
+type(
+  string
+)
+ident(
+  def x "src/oUnitConf.ml" 399 11190 11206 "src/oUnitConf.ml" 399 11190 11251
+)
+"src/oUnitConf.ml" 399 11190 11206 "src/oUnitConf.ml" 399 11190 11211
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/oUnitConf.ml" 399 11190 11222 "src/oUnitConf.ml" 399 11190 11245
+type(
+  string
+)
+"src/oUnitConf.ml" 399 11190 11246 "src/oUnitConf.ml" 399 11190 11247
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 399 11190 11248 "src/oUnitConf.ml" 399 11190 11249
+type(
+  string
+)
+ident(
+  int_ref x "src/oUnitConf.ml" 399 11190 11201 "src/oUnitConf.ml" 399 11190 11202
+)
+"src/oUnitConf.ml" 399 11190 11221 "src/oUnitConf.ml" 399 11190 11250
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 399 11190 11212 "src/oUnitConf.ml" 399 11190 11251
+type(
+  exn
+)
+"src/oUnitConf.ml" 399 11190 11206 "src/oUnitConf.ml" 399 11190 11251
+type(
+  unit
+)
+"src/oUnitConf.ml" 399 11190 11196 "src/oUnitConf.ml" 399 11190 11252
+type(
+  Arg.anon_fun
+)
+"src/oUnitConf.ml" 400 11253 11260 "src/oUnitConf.ml" 400 11253 11269
+type(
+  string
+)
+"src/oUnitConf.ml" 400 11253 11270 "src/oUnitConf.ml" 400 11253 11271
+type(
+  string -> string -> Arg.usage_msg
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 400 11253 11272 "src/oUnitConf.ml" 400 11253 11280
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"src/oUnitConf.ml" 400 11253 11282 "src/oUnitConf.ml" 400 11253 11283
+type(
+  int
+)
+"src/oUnitConf.ml" 400 11253 11272 "src/oUnitConf.ml" 400 11253 11284
+type(
+  string
+)
+"src/oUnitConf.ml" 400 11253 11285 "src/oUnitConf.ml" 400 11253 11286
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitConf.ml" 400 11253 11287 "src/oUnitConf.ml" 400 11253 11298
+type(
+  string
+)
+"src/oUnitConf.ml" 400 11253 11272 "src/oUnitConf.ml" 400 11253 11298
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 400 11253 11259 "src/oUnitConf.ml" 400 11253 11299
+call(
+  stack
+)
+type(
+  Arg.usage_msg
+)
+"src/oUnitConf.ml" 397 11160 11164 "src/oUnitConf.ml" 400 11253 11299
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 390 11015 11017 "src/oUnitConf.ml" 400 11253 11299
+type(
+  unit
+)
+"src/oUnitConf.ml" 380 10802 10804 "src/oUnitConf.ml" 400 11253 11299
+type(
+  unit
+)
+"src/oUnitConf.ml" 364 10386 10388 "src/oUnitConf.ml" 400 11253 11299
+type(
+  unit
+)
+"src/oUnitConf.ml" 402 11301 11305 "src/oUnitConf.ml" 402 11301 11312
+type(
+  ?preset:(string * string) list -> unit -> (int, unit -> unit) Hashtbl.t
+)
+ident(
+  def default "src/oUnitConf.ml" 414 11693 11693 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 402 11301 11315 "src/oUnitConf.ml" 402 11301 11321
+type(
+  (string * string) list
+)
+"src/oUnitConf.ml" 402 11301 11322 "src/oUnitConf.ml" 402 11301 11324
+type(
+  (string * string) list
+)
+type(
+  (string * string) list
+)
+ident(
+  int_ref *sth* "src/oUnitConf.ml" 402 11301 11322 "src/oUnitConf.ml" 402 11301 11324
+)
+type(
+  (string * string) list option
+)
+type(
+  (string * string) list option
+)
+type(
+  (string * string) list
+)
+"src/oUnitConf.ml" 402 11301 11326 "src/oUnitConf.ml" 402 11301 11328
+type(
+  unit
+)
+"src/oUnitConf.ml" 403 11331 11337 "src/oUnitConf.ml" 403 11331 11341
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  def conf "src/oUnitConf.ml" 404 11372 11376 "src/oUnitConf.ml" 408 11487 11495
+)
+"src/oUnitConf.ml" 403 11331 11345 "src/oUnitConf.ml" 403 11331 11365
+type(
+  unit -> (int, unit -> unit) Hashtbl.t
+)
+ident(
+  ext_ref OUnitPropList.create
+)
+"src/oUnitConf.ml" 403 11331 11366 "src/oUnitConf.ml" 403 11331 11368
+type(
+  unit
+)
+"src/oUnitConf.ml" 403 11331 11345 "src/oUnitConf.ml" 403 11331 11368
+call(
+  stack
+)
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+"src/oUnitConf.ml" 404 11372 11376 "src/oUnitConf.ml" 404 11372 11385
+type(
+  (string * string -> unit) -> (string * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitConf.ml" 405 11386 11398 "src/oUnitConf.ml" 405 11386 11402
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 406 11414 11423 "src/oUnitConf.ml" 406 11414 11471
+)
+"src/oUnitConf.ml" 405 11386 11404 "src/oUnitConf.ml" 405 11386 11409
+type(
+  string
+)
+ident(
+  def value "src/oUnitConf.ml" 406 11414 11423 "src/oUnitConf.ml" 406 11414 11471
+)
+"src/oUnitConf.ml" 405 11386 11397 "src/oUnitConf.ml" 405 11386 11410
+type(
+  string * string
+)
+"src/oUnitConf.ml" 406 11414 11423 "src/oUnitConf.ml" 406 11414 11426
+type(
+  origin:string -> conf -> string -> string -> unit
+)
+ident(
+  int_ref set "src/oUnitConf.ml" 280 8182 8186 "src/oUnitConf.ml" 280 8182 8189
+)
+"src/oUnitConf.ml" 406 11414 11435 "src/oUnitConf.ml" 406 11414 11455
+type(
+  string
+)
+"src/oUnitConf.ml" 406 11414 11456 "src/oUnitConf.ml" 406 11414 11460
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 403 11331 11337 "src/oUnitConf.ml" 403 11331 11341
+)
+"src/oUnitConf.ml" 406 11414 11461 "src/oUnitConf.ml" 406 11414 11465
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 405 11386 11398 "src/oUnitConf.ml" 405 11386 11402
+)
+"src/oUnitConf.ml" 406 11414 11466 "src/oUnitConf.ml" 406 11414 11471
+type(
+  string
+)
+ident(
+  int_ref value "src/oUnitConf.ml" 405 11386 11404 "src/oUnitConf.ml" 405 11386 11409
+)
+"src/oUnitConf.ml" 406 11414 11423 "src/oUnitConf.ml" 406 11414 11471
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 405 11386 11392 "src/oUnitConf.ml" 406 11414 11472
+type(
+  string * string -> unit
+)
+"src/oUnitConf.ml" 407 11473 11479 "src/oUnitConf.ml" 407 11473 11485
+type(
+  (string * string) list
+)
+ident(
+  int_ref preset "src/oUnitConf.ml" 402 11301 11315 "src/oUnitConf.ml" 402 11301 11321
+)
+"src/oUnitConf.ml" 404 11372 11376 "src/oUnitConf.ml" 407 11473 11485
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 408 11487 11491 "src/oUnitConf.ml" 408 11487 11495
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 403 11331 11337 "src/oUnitConf.ml" 403 11331 11341
+)
+"src/oUnitConf.ml" 404 11372 11376 "src/oUnitConf.ml" 408 11487 11495
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+"src/oUnitConf.ml" 403 11331 11333 "src/oUnitConf.ml" 408 11487 11495
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+"src/oUnitConf.ml" 414 11693 11697 "src/oUnitConf.ml" 414 11693 11701
+type(
+  ?preset:(string * string) list ->
+  ?argv:string array ->
+  (Arg.key * Arg.spec * Arg.doc) list -> (int, unit -> unit) Hashtbl.t
+)
+ident(
+  def load "src/oUnitConf.ml" 422 11910 11910 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 414 11693 11703 "src/oUnitConf.ml" 414 11693 11709
+type(
+  (string * string) list option
+)
+ident(
+  def preset "src/oUnitConf.ml" 414 11693 11710 "src/oUnitConf.ml" 420 11900 11908
+)
+"src/oUnitConf.ml" 414 11693 11711 "src/oUnitConf.ml" 414 11693 11715
+type(
+  string array option
+)
+ident(
+  def argv "src/oUnitConf.ml" 414 11693 11716 "src/oUnitConf.ml" 420 11900 11908
+)
+"src/oUnitConf.ml" 414 11693 11716 "src/oUnitConf.ml" 414 11693 11727
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  def extra_specs "src/oUnitConf.ml" 415 11730 11732 "src/oUnitConf.ml" 420 11900 11908
+)
+"src/oUnitConf.ml" 415 11730 11736 "src/oUnitConf.ml" 415 11730 11740
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  def conf "src/oUnitConf.ml" 416 11765 11769 "src/oUnitConf.ml" 420 11900 11908
+)
+"src/oUnitConf.ml" 415 11730 11743 "src/oUnitConf.ml" 415 11730 11750
+type(
+  ?preset:(string * string) list -> unit -> (int, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref default "src/oUnitConf.ml" 402 11301 11305 "src/oUnitConf.ml" 402 11301 11312
+)
+"src/oUnitConf.ml" 415 11730 11752 "src/oUnitConf.ml" 415 11730 11758
+type(
+  (string * string) list option
+)
+ident(
+  int_ref preset "src/oUnitConf.ml" 414 11693 11703 "src/oUnitConf.ml" 414 11693 11709
+)
+"src/oUnitConf.ml" 415 11730 11759 "src/oUnitConf.ml" 415 11730 11761
+type(
+  unit
+)
+"src/oUnitConf.ml" 415 11730 11743 "src/oUnitConf.ml" 415 11730 11761
+call(
+  stack
+)
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+"src/oUnitConf.ml" 416 11765 11772 "src/oUnitConf.ml" 416 11765 11787
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"src/oUnitConf.ml" 416 11765 11788 "src/oUnitConf.ml" 416 11765 11800
+type(
+  string
+)
+"src/oUnitConf.ml" 416 11765 11772 "src/oUnitConf.ml" 416 11765 11800
+type(
+  bool
+)
+"src/oUnitConf.ml" 417 11806 11812 "src/oUnitConf.ml" 417 11806 11822
+type(
+  conf -> string -> unit
+)
+ident(
+  int_ref file_parse "src/oUnitConf.ml" 290 8460 8464 "src/oUnitConf.ml" 290 8460 8474
+)
+"src/oUnitConf.ml" 417 11806 11823 "src/oUnitConf.ml" 417 11806 11827
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 415 11730 11736 "src/oUnitConf.ml" 415 11730 11740
+)
+"src/oUnitConf.ml" 417 11806 11828 "src/oUnitConf.ml" 417 11806 11840
+type(
+  string
+)
+"src/oUnitConf.ml" 417 11806 11812 "src/oUnitConf.ml" 417 11806 11840
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 416 11765 11769 "src/oUnitConf.ml" 417 11806 11840
+type(
+  unit
+)
+"src/oUnitConf.ml" 418 11842 11846 "src/oUnitConf.ml" 418 11842 11855
+type(
+  conf -> unit
+)
+ident(
+  int_ref env_parse "src/oUnitConf.ml" 332 9504 9508 "src/oUnitConf.ml" 332 9504 9517
+)
+"src/oUnitConf.ml" 418 11842 11856 "src/oUnitConf.ml" 418 11842 11860
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 415 11730 11736 "src/oUnitConf.ml" 415 11730 11740
+)
+"src/oUnitConf.ml" 418 11842 11846 "src/oUnitConf.ml" 418 11842 11860
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 419 11862 11866 "src/oUnitConf.ml" 419 11862 11875
+type(
+  ?argv:string array -> (Arg.key * Arg.spec * Arg.doc) list -> conf -> unit
+)
+ident(
+  int_ref cli_parse "src/oUnitConf.ml" 363 10347 10351 "src/oUnitConf.ml" 363 10347 10360
+)
+"src/oUnitConf.ml" 419 11862 11877 "src/oUnitConf.ml" 419 11862 11881
+type(
+  string array option
+)
+ident(
+  int_ref argv "src/oUnitConf.ml" 414 11693 11711 "src/oUnitConf.ml" 414 11693 11715
+)
+"src/oUnitConf.ml" 419 11862 11882 "src/oUnitConf.ml" 419 11862 11893
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref extra_specs "src/oUnitConf.ml" 414 11693 11716 "src/oUnitConf.ml" 414 11693 11727
+)
+"src/oUnitConf.ml" 419 11862 11894 "src/oUnitConf.ml" 419 11862 11898
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 415 11730 11736 "src/oUnitConf.ml" 415 11730 11740
+)
+"src/oUnitConf.ml" 419 11862 11866 "src/oUnitConf.ml" 419 11862 11898
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitConf.ml" 420 11900 11904 "src/oUnitConf.ml" 420 11900 11908
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 415 11730 11736 "src/oUnitConf.ml" 415 11730 11740
+)
+"src/oUnitConf.ml" 419 11862 11866 "src/oUnitConf.ml" 420 11900 11908
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+"src/oUnitConf.ml" 418 11842 11846 "src/oUnitConf.ml" 420 11900 11908
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+"src/oUnitConf.ml" 416 11765 11769 "src/oUnitConf.ml" 420 11900 11908
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+"src/oUnitConf.ml" 415 11730 11732 "src/oUnitConf.ml" 420 11900 11908
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+"src/oUnitConf.ml" 422 11910 11914 "src/oUnitConf.ml" 422 11910 11918
+type(
+  conf -> (string * string) list
+)
+ident(
+  def dump "src/oUnitConf.ml" 427 12031 12037 "src/oUnitConf.ml" 1 0 -1
+)
+"src/oUnitConf.ml" 422 11910 11919 "src/oUnitConf.ml" 422 11910 11923
+type(
+  conf
+)
+ident(
+  def conf "src/oUnitConf.ml" 423 11926 11928 "src/oUnitConf.ml" 427 12031 12037
+)
+"src/oUnitConf.ml" 423 11926 11928 "src/oUnitConf.ml" 423 11926 11940
+type(
+  (string -> metadata -> (string * string) list -> (string * string) list) ->
+  (string, metadata) Hashtbl.t ->
+  (string * string) list -> (string * string) list
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"src/oUnitConf.ml" 424 11941 11950 "src/oUnitConf.ml" 424 11941 11954
+type(
+  string
+)
+ident(
+  def name "src/oUnitConf.ml" 424 11941 11955 "src/oUnitConf.ml" 425 11971 12016
+)
+"src/oUnitConf.ml" 424 11941 11955 "src/oUnitConf.ml" 424 11941 11963
+type(
+  metadata
+)
+ident(
+  def metadata "src/oUnitConf.ml" 424 11941 11964 "src/oUnitConf.ml" 425 11971 12016
+)
+"src/oUnitConf.ml" 424 11941 11964 "src/oUnitConf.ml" 424 11941 11967
+type(
+  (string * string) list
+)
+ident(
+  def lst "src/oUnitConf.ml" 425 11971 11978 "src/oUnitConf.ml" 425 11971 12016
+)
+"src/oUnitConf.ml" 425 11971 11979 "src/oUnitConf.ml" 425 11971 11983
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnitConf.ml" 424 11941 11950 "src/oUnitConf.ml" 424 11941 11954
+)
+"src/oUnitConf.ml" 425 11971 11985 "src/oUnitConf.ml" 425 11971 11993
+type(
+  metadata
+)
+ident(
+  int_ref metadata "src/oUnitConf.ml" 424 11941 11955 "src/oUnitConf.ml" 424 11941 11963
+)
+"src/oUnitConf.ml" 425 11971 11985 "src/oUnitConf.ml" 425 11971 12003
+type(
+  conf -> string
+)
+"src/oUnitConf.ml" 425 11971 12004 "src/oUnitConf.ml" 425 11971 12008
+type(
+  conf
+)
+ident(
+  int_ref conf "src/oUnitConf.ml" 422 11910 11919 "src/oUnitConf.ml" 422 11910 11923
+)
+"src/oUnitConf.ml" 425 11971 11985 "src/oUnitConf.ml" 425 11971 12008
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitConf.ml" 425 11971 11978 "src/oUnitConf.ml" 425 11971 12009
+type(
+  string * string
+)
+"src/oUnitConf.ml" 425 11971 12013 "src/oUnitConf.ml" 425 11971 12016
+type(
+  (string * string) list
+)
+ident(
+  int_ref lst "src/oUnitConf.ml" 424 11941 11964 "src/oUnitConf.ml" 424 11941 11967
+)
+"src/oUnitConf.ml" 425 11971 11978 "src/oUnitConf.ml" 425 11971 12016
+type(
+  (string * string) list
+)
+"src/oUnitConf.ml" 424 11941 11945 "src/oUnitConf.ml" 425 11971 12017
+type(
+  string -> metadata -> (string * string) list -> (string * string) list
+)
+"src/oUnitConf.ml" 426 12018 12022 "src/oUnitConf.ml" 426 12018 12030
+type(
+  (string, metadata) Hashtbl.t
+)
+ident(
+  int_ref metaconf "src/oUnitConf.ml" 47 2644 2648 "src/oUnitConf.ml" 47 2644 2656
+)
+"src/oUnitConf.ml" 427 12031 12035 "src/oUnitConf.ml" 427 12031 12037
+type(
+  (string * string) list
+)
+"src/oUnitConf.ml" 423 11926 11928 "src/oUnitConf.ml" 427 12031 12037
+call(
+  tail
+)
+type(
+  (string * string) list
+)

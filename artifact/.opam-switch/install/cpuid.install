@@ -1,0 +1,22 @@
+lib: [
+  "_build/install/default/lib/cpuid/META"
+  "_build/install/default/lib/cpuid/cpuid.a"
+  "_build/install/default/lib/cpuid/cpuid.cma"
+  "_build/install/default/lib/cpuid/cpuid.cmi"
+  "_build/install/default/lib/cpuid/cpuid.cmt"
+  "_build/install/default/lib/cpuid/cpuid.cmti"
+  "_build/install/default/lib/cpuid/cpuid.cmx"
+  "_build/install/default/lib/cpuid/cpuid.cmxa"
+  "_build/install/default/lib/cpuid/cpuid.cmxs"
+  "_build/install/default/lib/cpuid/cpuid.ml"
+  "_build/install/default/lib/cpuid/cpuid.mli"
+  "_build/install/default/lib/cpuid/dune-package"
+  "_build/install/default/lib/cpuid/libcpuid_stubs.a"
+  "_build/install/default/lib/cpuid/opam"
+]
+stublibs: "_build/install/default/lib/stublibs/dllcpuid_stubs.so"
+doc: [
+  "_build/install/default/doc/cpuid/CHANGES.md"
+  "_build/install/default/doc/cpuid/LICENSE.md"
+  "_build/install/default/doc/cpuid/README.md"
+]

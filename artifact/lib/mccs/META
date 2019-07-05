@@ -1,0 +1,20 @@
+version = "1.1+9"
+description = ""
+requires = "cudf mccs.glpk.internal"
+archive(byte) = "mccs.cma"
+archive(native) = "mccs.cmxa"
+plugin(byte) = "mccs.cma"
+plugin(native) = "mccs.cmxs"
+package "glpk" (
+  directory = "glpk"
+  package "internal" (
+    directory = "internal"
+    version = "1.1+9"
+    description = ""
+    requires = ""
+    archive(byte) = "mccs_glpk.cma"
+    archive(native) = "mccs_glpk.cmxa"
+    plugin(byte) = "mccs_glpk.cma"
+    plugin(native) = "mccs_glpk.cmxs"
+  )
+)

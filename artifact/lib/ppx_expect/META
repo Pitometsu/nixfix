@@ -1,0 +1,104 @@
+version = "v0.11.1"
+description = ""
+requires(ppx_driver) = "base
+                        ppx_expect.common
+                        ppx_expect.payload
+                        ppx_here.expander
+                        ppx_inline_test
+                        ppx_inline_test.libname
+                        ppxlib
+                        ppxlib.metaquot_lifters"
+archive(ppx_driver,byte) = "ppx_expect.cma"
+archive(ppx_driver,native) = "ppx_expect.cmxa"
+plugin(ppx_driver,byte) = "ppx_expect.cma"
+plugin(ppx_driver,native) = "ppx_expect.cmxs"
+# This is what dune uses to find out the runtime dependencies of
+# a preprocessor
+ppx_runtime_deps = "ppx_expect.collector"
+# This line makes things transparent for people mixing preprocessors
+# and normal dependencies
+requires(-ppx_driver) = "ppx_expect.collector ppx_inline_test.runtime-lib"
+ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"
+package "collector" (
+  directory = "collector"
+  version = "v0.11.1"
+  description = "Runtime library for ppx_expect"
+  requires = "fieldslib
+              ppx_expect.common
+              ppx_expect.config
+              ppx_inline_test.runtime-lib
+              ppx_sexp_conv.runtime-lib"
+  archive(byte) = "expect_test_collector.cma"
+  archive(native) = "expect_test_collector.cmxa"
+  plugin(byte) = "expect_test_collector.cma"
+  plugin(native) = "expect_test_collector.cmxs"
+  linkopts(javascript) = "+ppx_expect/runtime.js"
+  jsoo_runtime = "runtime.js"
+)
+package "common" (
+  directory = "common"
+  version = "v0.11.1"
+  description = "Shared parts for ppx_expect"
+  requires = "base ppx_compare.runtime-lib ppx_sexp_conv.runtime-lib"
+  archive(byte) = "expect_test_common.cma"
+  archive(native) = "expect_test_common.cmxa"
+  plugin(byte) = "expect_test_common.cma"
+  plugin(native) = "expect_test_common.cmxs"
+)
+package "config" (
+  directory = "config"
+  version = "v0.11.1"
+  description = "Runtime configuration for ppx_expect"
+  requires = ""
+  archive(byte) = "expect_test_config.cma"
+  archive(native) = "expect_test_config.cmxa"
+  plugin(byte) = "expect_test_config.cma"
+  plugin(native) = "expect_test_config.cmxs"
+)
+package "evaluator" (
+  directory = "evaluator"
+  version = "v0.11.1"
+  description = ""
+  requires = "base
+              ppx_expect.collector
+              ppx_expect.common
+              ppx_expect.matcher
+              ppx_sexp_conv.runtime-lib
+              ppxlib.print_diff
+              stdio"
+  archive(byte) = "ppx_expect_evaluator.cma"
+  archive(native) = "ppx_expect_evaluator.cmxa"
+  plugin(byte) = "ppx_expect_evaluator.cma"
+  plugin(native) = "ppx_expect_evaluator.cmxs"
+)
+package "matcher" (
+  directory = "matcher"
+  version = "v0.11.1"
+  description = ""
+  requires = "base
+              ppx_assert.runtime-lib
+              ppx_compare.runtime-lib
+              ppx_expect.common
+              ppx_expect.config
+              ppx_inline_test.runtime-lib
+              ppx_sexp_conv.runtime-lib
+              re
+              re.emacs
+              re.glob
+              stdio
+              variantslib"
+  archive(byte) = "expect_test_matcher.cma"
+  archive(native) = "expect_test_matcher.cmxa"
+  plugin(byte) = "expect_test_matcher.cma"
+  plugin(native) = "expect_test_matcher.cmxs"
+)
+package "payload" (
+  directory = "payload"
+  version = "v0.11.1"
+  description = ""
+  requires = "ppx_expect.common ppxlib"
+  archive(byte) = "ppx_expect_payload.cma"
+  archive(native) = "ppx_expect_payload.cmxa"
+  plugin(byte) = "ppx_expect_payload.cma"
+  plugin(native) = "ppx_expect_payload.cmxs"
+)

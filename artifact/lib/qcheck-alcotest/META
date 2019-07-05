@@ -1,0 +1,7 @@
+version = "0.9"
+description = ""
+requires = "alcotest bytes qcheck-core qcheck-core.runner unix"
+archive(byte) = "qcheck_alcotest.cma"
+archive(native) = "qcheck_alcotest.cmxa"
+plugin(byte) = "qcheck_alcotest.cma"
+plugin(native) = "qcheck_alcotest.cmxs"

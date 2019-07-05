@@ -1,0 +1,18 @@
+added: [
+  "bin/uuidtrip" {"F:S1419264T1560961214.68"}
+  "doc/uuidm" {"D"}
+  "doc/uuidm/CHANGES.md" {"F:S1762T1560961214.96"}
+  "doc/uuidm/LICENSE.md" {"F:S735T1560961214.98"}
+  "doc/uuidm/README.md" {"F:S1422T1560961215.01"}
+  "lib/uuidm" {"D"}
+  "lib/uuidm/META" {"F:S209T1560961214.74"}
+  "lib/uuidm/opam" {"F:S1061T1560961214.7"}
+  "lib/uuidm/uuidm.a" {"F:S46666T1560961214.76"}
+  "lib/uuidm/uuidm.cma" {"F:S50515T1560961214.79"}
+  "lib/uuidm/uuidm.cmi" {"F:S2538T1560961214.81"}
+  "lib/uuidm/uuidm.cmti" {"F:S23973T1560961214.84"}
+  "lib/uuidm/uuidm.cmx" {"F:S2729T1560961214.87"}
+  "lib/uuidm/uuidm.cmxa" {"F:S713T1560961214.9"}
+  "lib/uuidm/uuidm.cmxs" {"F:S53496T1560961214.92"}
+  "lib/uuidm/uuidm.mli" {"F:S6170T1560961214.94"}
+]

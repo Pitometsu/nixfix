@@ -1,0 +1,218 @@
+"unembed.ml" 8 118 122 "unembed.ml" 8 118 128
+type(
+  Ast_mapper.mapper -> Ast_mapper.mapper
+)
+ident(
+  def extend "unembed.ml" 15 322 322 "unembed.ml" 1 0 -1
+)
+"unembed.ml" 8 118 129 "unembed.ml" 8 118 134
+type(
+  Ast_mapper.mapper
+)
+ident(
+  def super "unembed.ml" 9 138 140 "unembed.ml" 13 299 320
+)
+"unembed.ml" 9 138 144 "unembed.ml" 9 138 148
+type(
+  Ast_mapper.mapper -> Parsetree.expression -> Parsetree.expression
+)
+ident(
+  def expr "unembed.ml" 13 299 301 "unembed.ml" 13 299 320
+)
+"unembed.ml" 9 138 149 "unembed.ml" 9 138 153
+type(
+  Ast_mapper.mapper
+)
+ident(
+  def self "unembed.ml" 9 138 154 "unembed.ml" 11 265 293
+)
+"unembed.ml" 9 138 154 "unembed.ml" 9 138 155
+type(
+  Parsetree.expression
+)
+ident(
+  def e "unembed.ml" 9 138 158 "unembed.ml" 11 265 293
+)
+"unembed.ml" 9 138 164 "unembed.ml" 9 138 165
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "unembed.ml" 9 138 154 "unembed.ml" 9 138 155
+)
+"unembed.ml" 9 138 164 "unembed.ml" 9 138 181
+type(
+  Parsetree.attributes
+)
+"unembed.ml" 10 187 200 "unembed.ml" 10 187 213
+type(
+  string
+)
+"unembed.ml" 10 187 195 "unembed.ml" 10 187 214
+type(
+  string Asttypes.loc
+)
+"unembed.ml" 10 187 247 "unembed.ml" 10 187 248
+type(
+  Parsetree.expression
+)
+ident(
+  def e "unembed.ml" 10 187 263 "unembed.ml" 10 187 264
+)
+"unembed.ml" 10 187 250 "unembed.ml" 10 187 252
+type(
+  Parsetree.attributes
+)
+"unembed.ml" 10 187 236 "unembed.ml" 10 187 253
+type(
+  Parsetree.structure_item_desc
+)
+"unembed.ml" 10 187 223 "unembed.ml" 10 187 255
+type(
+  Parsetree.structure_item
+)
+"unembed.ml" 10 187 221 "unembed.ml" 10 187 257
+type(
+  Parsetree.structure
+)
+"unembed.ml" 10 187 216 "unembed.ml" 10 187 257
+type(
+  Parsetree.payload
+)
+"unembed.ml" 10 187 195 "unembed.ml" 10 187 257
+type(
+  Parsetree.attribute
+)
+"unembed.ml" 10 187 193 "unembed.ml" 10 187 259
+type(
+  Parsetree.attributes
+)
+"unembed.ml" 10 187 263 "unembed.ml" 10 187 264
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "unembed.ml" 10 187 247 "unembed.ml" 10 187 248
+)
+"unembed.ml" 11 265 271 "unembed.ml" 11 265 272
+type(
+  Parsetree.attributes
+)
+"unembed.ml" 11 265 276 "unembed.ml" 11 265 281
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref super "unembed.ml" 8 118 129 "unembed.ml" 8 118 134
+)
+"unembed.ml" 11 265 276 "unembed.ml" 11 265 286
+type(
+  Ast_mapper.mapper -> Parsetree.expression -> Parsetree.expression
+)
+"unembed.ml" 11 265 287 "unembed.ml" 11 265 291
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref self "unembed.ml" 9 138 149 "unembed.ml" 9 138 153
+)
+"unembed.ml" 11 265 292 "unembed.ml" 11 265 293
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "unembed.ml" 9 138 154 "unembed.ml" 9 138 155
+)
+"unembed.ml" 11 265 276 "unembed.ml" 11 265 293
+call(
+  tail
+)
+type(
+  Parsetree.expression
+)
+"unembed.ml" 9 138 158 "unembed.ml" 11 265 293
+type(
+  Parsetree.expression
+)
+"unembed.ml" 13 299 303 "unembed.ml" 13 299 308
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref super "unembed.ml" 8 118 129 "unembed.ml" 8 118 134
+)
+"unembed.ml" 13 299 314 "unembed.ml" 13 299 318
+type(
+  Ast_mapper.mapper -> Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref expr "unembed.ml" 9 138 144 "unembed.ml" 9 138 148
+)
+"unembed.ml" 13 299 301 "unembed.ml" 13 299 320
+type(
+  Ast_mapper.mapper
+)
+"unembed.ml" 9 138 140 "unembed.ml" 13 299 320
+type(
+  Ast_mapper.mapper
+)
+"unembed.ml" 15 322 326 "unembed.ml" 15 322 332
+type(
+  Ast_mapper.mapper
+)
+ident(
+  def mapper "unembed.ml" 17 369 369 "unembed.ml" 1 0 -1
+)
+"unembed.ml" 15 322 335 "unembed.ml" 15 322 341
+type(
+  Ast_mapper.mapper -> Ast_mapper.mapper
+)
+ident(
+  int_ref extend "unembed.ml" 8 118 122 "unembed.ml" 8 118 128
+)
+"unembed.ml" 15 322 342 "unembed.ml" 15 322 367
+type(
+  Ast_mapper.mapper
+)
+ident(
+  ext_ref Ast_mapper.default_mapper
+)
+"unembed.ml" 15 322 335 "unembed.ml" 15 322 367
+call(
+  stack
+)
+type(
+  Ast_mapper.mapper
+)
+"unembed.ml" 17 369 373 "unembed.ml" 17 369 380
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  def unembed "unembed.ml" 17 369 401 "unembed.ml" 1 0 -1
+)
+"unembed.ml" 17 369 383 "unembed.ml" 17 369 389
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref mapper "unembed.ml" 15 322 326 "unembed.ml" 15 322 332
+)
+"unembed.ml" 17 369 383 "unembed.ml" 17 369 394
+type(
+  Ast_mapper.mapper -> Parsetree.expression -> Parsetree.expression
+)
+"unembed.ml" 17 369 395 "unembed.ml" 17 369 401
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref mapper "unembed.ml" 15 322 326 "unembed.ml" 15 322 332
+)
+"unembed.ml" 17 369 383 "unembed.ml" 17 369 401
+call(
+  stack
+)
+type(
+  Parsetree.expression -> Parsetree.expression
+)

@@ -1,0 +1,37 @@
+lib: [
+  "_build/opam" {"opam"}
+  "_build/pkg/META" {"META"}
+  "_build/src/integers.a" {"integers.a"}
+  "_build/src/integers.cma" {"integers.cma"}
+  "_build/src/integers.cmxa" {"integers.cmxa"}
+  "_build/src/integers.cmxs" {"integers.cmxs"}
+  "_build/src/libintegers.a" {"libintegers.a"}
+  "_build/src/ocaml_integers.h" {"ocaml_integers.h"}
+  "_build/src/signed.cmi" {"signed.cmi"}
+  "?_build/src/signed.cmti" {"signed.cmti"}
+  "_build/src/signed.cmx" {"signed.cmx"}
+  "_build/src/signed.mli" {"signed.mli"}
+  "_build/src/unsigned.cmi" {"unsigned.cmi"}
+  "?_build/src/unsigned.cmti" {"unsigned.cmti"}
+  "_build/src/unsigned.cmx" {"unsigned.cmx"}
+  "_build/src/unsigned.mli" {"unsigned.mli"}
+  "_build/top/install_integer_printers.cmi" {"install_integer_printers.cmi"}
+  "?_build/top/install_integer_printers.cmti"
+    {"install_integer_printers.cmti"}
+  "_build/top/install_integer_printers.cmx" {"install_integer_printers.cmx"}
+  "_build/top/install_integer_printers.mli" {"install_integer_printers.mli"}
+  "_build/top/integer_printers.a" {"integer_printers.a"}
+  "_build/top/integer_printers.cma" {"integer_printers.cma"}
+  "_build/top/integer_printers.cmi" {"integer_printers.cmi"}
+  "?_build/top/integer_printers.cmti" {"integer_printers.cmti"}
+  "_build/top/integer_printers.cmx" {"integer_printers.cmx"}
+  "_build/top/integer_printers.cmxa" {"integer_printers.cmxa"}
+  "_build/top/integer_printers.cmxs" {"integer_printers.cmxs"}
+  "_build/top/integer_printers.mli" {"integer_printers.mli"}
+]
+stublibs: "_build/src/dllintegers.so" {"dllintegers.so"}
+doc: [
+  "_build/CHANGES.md" {"CHANGES.md"}
+  "_build/LICENSE.md" {"LICENSE.md"}
+  "_build/README.md" {"README.md"}
+]

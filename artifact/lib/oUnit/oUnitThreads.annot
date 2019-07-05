@@ -1,0 +1,180 @@
+"src/oUnitThreads.ml" 34 2389 2393 "src/oUnitThreads.ml" 34 2389 2397
+type(
+  unit -> unit
+)
+ident(
+  def init "src/oUnitThreads.ml" 44 2662 2690 "src/oUnitThreads.ml" 1 0 -1
+)
+"src/oUnitThreads.ml" 34 2389 2398 "src/oUnitThreads.ml" 34 2389 2400
+type(
+  unit
+)
+"src/oUnitThreads.ml" 35 2403 2405 "src/oUnitThreads.ml" 35 2403 2429
+type(
+  (unit -> unit OUnitShared.shared_noscope) ref
+)
+ident(
+  ext_ref OUnitShared.mutex_create
+)
+"src/oUnitThreads.ml" 35 2403 2430 "src/oUnitThreads.ml" 35 2403 2432
+type(
+  (unit -> unit OUnitShared.shared_noscope) ref ->
+  (unit -> unit OUnitShared.shared_noscope) -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitThreads.ml" 36 2433 2440 "src/oUnitThreads.ml" 36 2433 2442
+type(
+  unit
+)
+"src/oUnitThreads.ml" 37 2446 2455 "src/oUnitThreads.ml" 37 2446 2460
+type(
+  Mutex.t
+)
+ident(
+  def mutex "src/oUnitThreads.ml" 38 2482 2487 "src/oUnitThreads.ml" 43 2653 2659
+)
+"src/oUnitThreads.ml" 37 2446 2463 "src/oUnitThreads.ml" 37 2446 2475
+type(
+  unit -> Mutex.t
+)
+ident(
+  ext_ref Mutex.create
+)
+"src/oUnitThreads.ml" 37 2446 2476 "src/oUnitThreads.ml" 37 2446 2478
+type(
+  unit
+)
+"src/oUnitThreads.ml" 37 2446 2463 "src/oUnitThreads.ml" 37 2446 2478
+call(
+  stack
+)
+type(
+  Mutex.t
+)
+"src/oUnitThreads.ml" 40 2509 2528 "src/oUnitThreads.ml" 40 2509 2530
+type(
+  unit
+)
+"src/oUnitThreads.ml" 40 2509 2534 "src/oUnitThreads.ml" 40 2509 2544
+type(
+  Mutex.t -> unit
+)
+ident(
+  ext_ref Mutex.lock
+)
+"src/oUnitThreads.ml" 40 2509 2545 "src/oUnitThreads.ml" 40 2509 2550
+type(
+  Mutex.t
+)
+ident(
+  int_ref mutex "src/oUnitThreads.ml" 37 2446 2455 "src/oUnitThreads.ml" 37 2446 2460
+)
+"src/oUnitThreads.ml" 40 2509 2534 "src/oUnitThreads.ml" 40 2509 2550
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitThreads.ml" 40 2509 2523 "src/oUnitThreads.ml" 40 2509 2551
+type(
+  unit -> unit
+)
+"src/oUnitThreads.ml" 41 2553 2576 "src/oUnitThreads.ml" 41 2553 2578
+type(
+  unit
+)
+"src/oUnitThreads.ml" 41 2553 2582 "src/oUnitThreads.ml" 41 2553 2596
+type(
+  Mutex.t -> bool
+)
+ident(
+  ext_ref Mutex.try_lock
+)
+"src/oUnitThreads.ml" 41 2553 2597 "src/oUnitThreads.ml" 41 2553 2602
+type(
+  Mutex.t
+)
+ident(
+  int_ref mutex "src/oUnitThreads.ml" 37 2446 2455 "src/oUnitThreads.ml" 37 2446 2460
+)
+"src/oUnitThreads.ml" 41 2553 2582 "src/oUnitThreads.ml" 41 2553 2602
+call(
+  tail
+)
+type(
+  bool
+)
+"src/oUnitThreads.ml" 41 2553 2571 "src/oUnitThreads.ml" 41 2553 2603
+type(
+  unit -> bool
+)
+"src/oUnitThreads.ml" 42 2605 2626 "src/oUnitThreads.ml" 42 2605 2628
+type(
+  unit
+)
+"src/oUnitThreads.ml" 42 2605 2632 "src/oUnitThreads.ml" 42 2605 2644
+type(
+  Mutex.t -> unit
+)
+ident(
+  ext_ref Mutex.unlock
+)
+"src/oUnitThreads.ml" 42 2605 2645 "src/oUnitThreads.ml" 42 2605 2650
+type(
+  Mutex.t
+)
+ident(
+  int_ref mutex "src/oUnitThreads.ml" 37 2446 2455 "src/oUnitThreads.ml" 37 2446 2460
+)
+"src/oUnitThreads.ml" 42 2605 2632 "src/oUnitThreads.ml" 42 2605 2650
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitThreads.ml" 42 2605 2621 "src/oUnitThreads.ml" 42 2605 2651
+type(
+  unit -> unit
+)
+"src/oUnitThreads.ml" 38 2482 2487 "src/oUnitThreads.ml" 43 2653 2659
+type(
+  unit OUnitShared.shared_noscope
+)
+"src/oUnitThreads.ml" 37 2446 2451 "src/oUnitThreads.ml" 43 2653 2659
+type(
+  unit OUnitShared.shared_noscope
+)
+"src/oUnitThreads.ml" 36 2433 2435 "src/oUnitThreads.ml" 43 2653 2660
+type(
+  unit -> unit OUnitShared.shared_noscope
+)
+"src/oUnitThreads.ml" 35 2403 2405 "src/oUnitThreads.ml" 43 2653 2660
+type(
+  unit
+)
+"src/oUnitThreads.ml" 44 2662 2664 "src/oUnitThreads.ml" 44 2662 2687
+type(
+  unit -> unit
+)
+ident(
+  ext_ref OUnitRunnerThreads.init
+)
+"src/oUnitThreads.ml" 44 2662 2688 "src/oUnitThreads.ml" 44 2662 2690
+type(
+  unit
+)
+"src/oUnitThreads.ml" 44 2662 2664 "src/oUnitThreads.ml" 44 2662 2690
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitThreads.ml" 35 2403 2405 "src/oUnitThreads.ml" 44 2662 2690
+type(
+  unit
+)

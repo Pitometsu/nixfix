@@ -1,0 +1,41 @@
+.\" Pipe this output to groff -Tutf8 | less
+.\"
+.mso an.tmac
+.TH "OCP-GREP" 1 "" "Ocp-grep 1.1.5" "Ocp-grep Manual"
+.\" Disable hyphenation and ragged-right
+.nh
+.ad l
+.SH NAME
+.P
+ocp\N'45'grep \N'45' Locates instances of a given OCaml ident in source files, handling (local) opens, module, etc\N'46'
+.SH SYNOPSIS
+.P
+\fBocp\N'45'grep\fR [\fIOPTION\fR]\N'46'\N'46'\N'46' \fIID\fR [\fIFILES\fR]\N'46'\N'46'\N'46'
+.SH ARGUMENTS
+.TP 4
+\fIFILES\fR
+Files or directories to search into\N'46' By default, searches for project root
+.TP 4
+\fIID\fR (required)
+Fully qualified ident to search for (eg\N'46' `List\N'46'map\N'39', `Set\N'46'Make\N'46'add\N'39', \N'46'\N'46'\N'46'), or string with option `\N'45's\N'39'\N'46'
+.SH OPTIONS
+.TP 4
+\fB\N'45'c\fR \fIWHEN\fR, \fB\N'45'\N'45'color\fR=\fIWHEN\fR
+Colorize the output\N'46' \fIWHEN\fR is either `always\N'39', `never\N'39' or `auto\N'39'\N'46'
+.TP 4
+\fB\N'45'e\fR, \fB\N'45'\N'45'regexp\N'45'strings\fR
+Like `\N'45'\N'45'strings\N'39', but search a POSIX regular expression\N'46'
+.TP 4
+\fB\N'45'\N'45'help\fR[=\fIFMT\fR] (default=auto)
+Show this help in format \fIFMT\fR\N'46' The value \fIFMT\fR must be one of `auto\N'39', `pager\N'39', `groff\N'39' or `plain\N'39'\N'46' With `auto\N'39', the format is `pager` or `plain\N'39' whenever the \fBTERM\fR env var is `dumb\N'39' or undefined\N'46'
+.TP 4
+\fB\N'45's\fR, \fB\N'45'\N'45'strings\fR
+Search strings within strings in the source, instead of searching code
+.TP 4
+\fB\N'45'\N'45'version\fR
+Show version information\N'46'
+.SH BUGS
+.P
+Current version doesn\N'39't handle shadowing and different kinds of idents, therefore you can get false positive if a type and a value have the name\N'46'
+.P
+Field records don\N'39't currently respect the distributive `{Module\N'46'\N'39' syntax\N'46' Also, if you use record disambiguation, you\N'39're on your own for field names since this program doesn\N'39't know about typing\N'46'

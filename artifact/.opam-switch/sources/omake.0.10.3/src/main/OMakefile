@@ -1,0 +1,69 @@
+#
+# Config
+#
+OCAMLINCLUDES[] +=
+    ../libmojave
+    ../front
+    ../magic
+    ../ast
+    ../ir
+    ../env
+    ../exec
+    ../eval
+    ../shell
+    ../build
+    ../builtin
+
+#
+# Main programs
+#
+FILES[] =
+    omake_main_util
+    omake_shell
+    omake_main
+
+OCAML_LIBS[] =
+    ../libmojave/lm
+    ../front/frt	
+    ../magic/magic
+    ../ast/ast
+    ../ir/ir
+    ../env/env
+    ../exec/exec
+    ../eval/eval
+    ../shell/shell
+    ../build/build
+    ../builtin/builtin
+
+OCAML_CLIBS[] =
+    ../clib/clib
+
+MakeOCamlProgram(omake, $(FILES))
+
+osh$(EXE): omake$(EXE)
+    ln-or-cp $< $@
+
+.DEFAULT:  omake$(EXE) osh$(EXE)
+all:  omake$(EXE) osh$(EXE)
+
+#
+# Install into the binaries
+#
+install:  omake$(EXE) osh$(EXE)
+    mkdir -p $(INSTALL_BINDIR)
+    cp -f -m 555  omake$(EXE) $(INSTALL_BINDIR)/
+    ln-or-cp $(INSTALL_BINDIR)/omake$(EXE) $(INSTALL_BINDIR)/osh$(EXE)
+
+clean:
+    $(CLEAN) $(addsuffixes $(array $(EXE), $(string $(EMPTY)), .opt, .run), omake osh)
+
+#
+# Generate a Makefile
+#
+MakeOCamlDepend($(FILES), magic.cma)
+MakeMakefile()
+
+#
+# For the initial boot, just make omake
+#
+main: omake$(EXE)

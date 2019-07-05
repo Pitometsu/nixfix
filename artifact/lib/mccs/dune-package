@@ -1,0 +1,127 @@
+(lang dune 1.10)
+(name mccs)
+(version 1.1+9)
+(library
+ (name mccs)
+ (kind normal)
+ (archives (byte mccs.cma) (native mccs.cmxa))
+ (plugins (byte mccs.cma) (native mccs.cmxs))
+ (foreign_objects
+  changed_criteria.o
+  constraint_generation.o
+  count_criteria.o
+  cudf_reductions.o
+  cudf_tools.o
+  glpk_solver.o
+  lexagregate_combiner.o
+  lp_solver.o
+  mccs_stubs.o
+  mccscudf.o
+  new_criteria.o
+  notuptodate_criteria.o
+  removed_criteria.o)
+ (foreign_archives (byte libmccs_stubs.a) (native mccs.a libmccs_stubs.a))
+ (requires cudf mccs.glpk.internal)
+ (modes byte native)
+ (modules
+  (modules ((name Mccs) (obj_name mccs) (visibility public) (impl) (intf)))
+  (wrapped false)))
+(library
+ (name mccs.glpk.internal)
+ (kind normal)
+ (archives
+  (byte glpk/internal/mccs_glpk.cma)
+  (native glpk/internal/mccs_glpk.cmxa))
+ (plugins
+  (byte glpk/internal/mccs_glpk.cma)
+  (native glpk/internal/mccs_glpk.cmxs))
+ (foreign_objects
+  glpk/internal/advbas.o
+  glpk/internal/alloc.o
+  glpk/internal/avl.o
+  glpk/internal/bfd.o
+  glpk/internal/btf.o
+  glpk/internal/btfint.o
+  glpk/internal/cfg.o
+  glpk/internal/cfg1.o
+  glpk/internal/cfg2.o
+  glpk/internal/clqcut.o
+  glpk/internal/cpxbas.o
+  glpk/internal/dlsup.o
+  glpk/internal/dmp.o
+  glpk/internal/env.o
+  glpk/internal/error.o
+  glpk/internal/fhv.o
+  glpk/internal/fhvint.o
+  glpk/internal/fvs.o
+  glpk/internal/gcd.o
+  glpk/internal/glpapi06.o
+  glpk/internal/glpapi09.o
+  glpk/internal/glpapi10.o
+  glpk/internal/glpapi12.o
+  glpk/internal/glpapi13.o
+  glpk/internal/glpios01.o
+  glpk/internal/glpios02.o
+  glpk/internal/glpios03.o
+  glpk/internal/glpios07.o
+  glpk/internal/glpios09.o
+  glpk/internal/glpios10.o
+  glpk/internal/glpios11.o
+  glpk/internal/glpios12.o
+  glpk/internal/glpnpp01.o
+  glpk/internal/glpnpp02.o
+  glpk/internal/glpnpp03.o
+  glpk/internal/glpnpp04.o
+  glpk/internal/glpnpp05.o
+  glpk/internal/glpscl.o
+  glpk/internal/gmicut.o
+  glpk/internal/gmigen.o
+  glpk/internal/ifu.o
+  glpk/internal/jd.o
+  glpk/internal/luf.o
+  glpk/internal/lufint.o
+  glpk/internal/mc13d.o
+  glpk/internal/mc21a.o
+  glpk/internal/mirgen.o
+  glpk/internal/prob1.o
+  glpk/internal/prob2.o
+  glpk/internal/prob4.o
+  glpk/internal/prob5.o
+  glpk/internal/proxy.o
+  glpk/internal/proxy1.o
+  glpk/internal/rng.o
+  glpk/internal/rng1.o
+  glpk/internal/round2n.o
+  glpk/internal/scf.o
+  glpk/internal/scfint.o
+  glpk/internal/sgf.o
+  glpk/internal/spv.o
+  glpk/internal/spxat.o
+  glpk/internal/spxchuzc.o
+  glpk/internal/spxchuzr.o
+  glpk/internal/spxlp.o
+  glpk/internal/spxnt.o
+  glpk/internal/spxprim.o
+  glpk/internal/spxprob.o
+  glpk/internal/spychuzc.o
+  glpk/internal/spychuzr.o
+  glpk/internal/spydual.o
+  glpk/internal/stdc.o
+  glpk/internal/stdout.o
+  glpk/internal/sva.o
+  glpk/internal/time.o
+  glpk/internal/tls.o
+  glpk/internal/triang.o
+  glpk/internal/wclique.o
+  glpk/internal/wclique1.o)
+ (foreign_archives
+  (byte glpk/internal/libmccs_glpk_stubs.a)
+  (native glpk/internal/mccs_glpk.a glpk/internal/libmccs_glpk_stubs.a))
+ (modes byte native)
+ (modules
+  (modules
+   ((name Ocaml_mccs_glpk)
+    (obj_name ocaml_mccs_glpk)
+    (visibility public)
+    (impl)))
+  (wrapped false)))

@@ -1,0 +1,31 @@
+added: [
+  "doc/qcheck-core" {"D"}
+  "doc/qcheck-core/CHANGELOG.md" {"F:S4520T1560960966.45"}
+  "doc/qcheck-core/LICENSE" {"F:S1337T1560960966.76"}
+  "doc/qcheck-core/README.adoc" {"F:S10328T1560960966.87"}
+  "lib/qcheck-core" {"D"}
+  "lib/qcheck-core/META" {"F:S461T1560960964.55"}
+  "lib/qcheck-core/QCheck.cmi" {"F:S31438T1560960964.66"}
+  "lib/qcheck-core/QCheck.cmt" {"F:S736933T1560960964.79"}
+  "lib/qcheck-core/QCheck.cmti" {"F:S227607T1560960964.94"}
+  "lib/qcheck-core/QCheck.cmx" {"F:S19412T1560960965.03"}
+  "lib/qcheck-core/QCheck.ml" {"F:S47427T1560960965.09"}
+  "lib/qcheck-core/QCheck.mli" {"F:S38588T1560960965.13"}
+  "lib/qcheck-core/dune-package" {"F:S873T1560960965.2"}
+  "lib/qcheck-core/opam" {"F:S672T1560960965.25"}
+  "lib/qcheck-core/qcheck_core.a" {"F:S310968T1560960965.31"}
+  "lib/qcheck-core/qcheck_core.cma" {"F:S310276T1560960965.37"}
+  "lib/qcheck-core/qcheck_core.cmxa" {"F:S1166T1560960965.47"}
+  "lib/qcheck-core/qcheck_core.cmxs" {"F:S298872T1560960965.51"}
+  "lib/qcheck-core/runner" {"D"}
+  "lib/qcheck-core/runner/QCheck_base_runner.cmi" {"F:S3135T1560960965.6"}
+  "lib/qcheck-core/runner/QCheck_base_runner.cmt" {"F:S164845T1560960965.78"}
+  "lib/qcheck-core/runner/QCheck_base_runner.cmti" {"F:S23210T1560960965.88"}
+  "lib/qcheck-core/runner/QCheck_base_runner.cmx" {"F:S4337T1560960965.98"}
+  "lib/qcheck-core/runner/QCheck_base_runner.ml" {"F:S11608T1560960966.03"}
+  "lib/qcheck-core/runner/QCheck_base_runner.mli" {"F:S4998T1560960966.05"}
+  "lib/qcheck-core/runner/qcheck_runner.a" {"F:S80920T1560960966.16"}
+  "lib/qcheck-core/runner/qcheck_runner.cma" {"F:S58291T1560960966.19"}
+  "lib/qcheck-core/runner/qcheck_runner.cmxa" {"F:S843T1560960966.22"}
+  "lib/qcheck-core/runner/qcheck_runner.cmxs" {"F:S95528T1560960966.35"}
+]

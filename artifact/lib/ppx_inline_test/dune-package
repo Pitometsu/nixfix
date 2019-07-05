@@ -1,0 +1,171 @@
+(lang dune 1.10)
+(name ppx_inline_test)
+(version v0.11.0)
+(library
+ (name ppx_inline_test)
+ (kind ppx_rewriter)
+ (archives (byte ppx_inline_test.cma) (native ppx_inline_test.cmxa))
+ (plugins (byte ppx_inline_test.cma) (native ppx_inline_test.cmxs))
+ (foreign_archives (native ppx_inline_test.a))
+ (requires base ppxlib ppx_inline_test.libname)
+ (ppx_runtime_deps ppx_inline_test.runtime-lib)
+ (main_module_name Ppx_inline_test)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_inline_test)
+  (modules
+   ((name Ppx_inline_test)
+    (obj_name ppx_inline_test)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true))
+ (inline_tests.backend
+  (runner_libraries ppx_inline_test.runner.lib)
+  (flags
+   inline-test-runner
+   %{library-name}
+   -source-tree-root
+   %{workspace_root}
+   -diff-cmd
+   -)
+  (generate_runner (echo "let () = Ppx_inline_test_lib.Runtime.exit ();;"))))
+(library
+ (name ppx_inline_test.libname)
+ (kind normal)
+ (archives
+  (byte libname/ppx_inline_test_libname.cma)
+  (native libname/ppx_inline_test_libname.cmxa))
+ (plugins
+  (byte libname/ppx_inline_test_libname.cma)
+  (native libname/ppx_inline_test_libname.cmxs))
+ (foreign_archives (native libname/ppx_inline_test_libname.a))
+ (requires ppxlib)
+ (main_module_name Ppx_inline_test_libname)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_inline_test_libname)
+  (modules
+   ((name Ppx_inline_test_libname)
+    (obj_name ppx_inline_test_libname)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name ppx_inline_test.runtime-lib)
+ (kind normal)
+ (archives
+  (byte runtime-lib/ppx_inline_test_lib.cma)
+  (native runtime-lib/ppx_inline_test_lib.cmxa))
+ (plugins
+  (byte runtime-lib/ppx_inline_test_lib.cma)
+  (native runtime-lib/ppx_inline_test_lib.cmxs))
+ (foreign_archives (native runtime-lib/ppx_inline_test_lib.a))
+ (requires base ppx_inline_test.config)
+ (main_module_name Ppx_inline_test_lib)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Ppx_inline_test_lib)
+   (obj_name ppx_inline_test_lib)
+   (visibility public)
+   (impl))
+  (main_module_name Ppx_inline_test_lib)
+  (modules
+   ((name Runtime)
+    (obj_name ppx_inline_test_lib__Runtime)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name ppx_inline_test.config)
+ (kind normal)
+ (archives
+  (byte config/inline_test_config.cma)
+  (native config/inline_test_config.cmxa))
+ (plugins
+  (byte config/inline_test_config.cma)
+  (native config/inline_test_config.cmxs))
+ (foreign_archives (native config/inline_test_config.a))
+ (main_module_name Inline_test_config)
+ (modes byte native)
+ (modules
+  (main_module_name Inline_test_config)
+  (modules
+   ((name Inline_test_config)
+    (obj_name inline_test_config)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name ppx_inline_test.drop)
+ (kind normal)
+ (archives
+  (byte drop/ppx_inline_test_drop.cma)
+  (native drop/ppx_inline_test_drop.cmxa))
+ (plugins
+  (byte drop/ppx_inline_test_drop.cma)
+  (native drop/ppx_inline_test_drop.cmxs))
+ (foreign_archives (native drop/ppx_inline_test_drop.a))
+ (requires ppx_inline_test)
+ (main_module_name Ppx_inline_test_drop)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_inline_test_drop)
+  (modules
+   ((name Ppx_inline_test_drop)
+    (obj_name ppx_inline_test_drop)
+    (visibility public)
+    (impl)))
+  (wrapped true)))
+(library
+ (name ppx_inline_test.runner)
+ (kind normal)
+ (archives
+  (byte runner/ppx_inline_test_runner.cma)
+  (native runner/ppx_inline_test_runner.cmxa))
+ (plugins
+  (byte runner/ppx_inline_test_runner.cma)
+  (native runner/ppx_inline_test_runner.cmxs))
+ (foreign_archives (native runner/ppx_inline_test_runner.a))
+ (requires ppx_inline_test.runtime-lib ppx_inline_test.runner.lib)
+ (main_module_name Ppx_inline_test_runner)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_inline_test_runner)
+  (modules
+   ((name Ppx_inline_test_runner)
+    (obj_name ppx_inline_test_runner)
+    (visibility public)
+    (impl)))
+  (wrapped true)))
+(library
+ (name ppx_inline_test.runner.lib)
+ (kind normal)
+ (archives
+  (byte runner/lib/ppx_inline_test_runner_lib.cma)
+  (native runner/lib/ppx_inline_test_runner_lib.cmxa))
+ (plugins
+  (byte runner/lib/ppx_inline_test_runner_lib.cma)
+  (native runner/lib/ppx_inline_test_runner_lib.cmxs))
+ (foreign_objects runner/lib/am_testing.o)
+ (foreign_archives
+  (byte runner/lib/libppx_inline_test_runner_lib_stubs.a)
+  (native
+   runner/lib/ppx_inline_test_runner_lib.a
+   runner/lib/libppx_inline_test_runner_lib_stubs.a))
+ (jsoo_runtime runner/lib/runtime.js)
+ (requires base)
+ (main_module_name Ppx_inline_test_runner_lib)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Ppx_inline_test_runner_lib)
+   (obj_name ppx_inline_test_runner_lib)
+   (visibility public)
+   (impl))
+  (main_module_name Ppx_inline_test_runner_lib)
+  (wrapped true)))

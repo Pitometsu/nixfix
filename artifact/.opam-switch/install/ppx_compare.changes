@@ -1,0 +1,53 @@
+added: [
+  "doc/ppx_compare" {"D"}
+  "doc/ppx_compare/CHANGES.md" {"F:S607T1560961160.18"}
+  "doc/ppx_compare/LICENSE.txt" {"F:S11358T1560961160.22"}
+  "doc/ppx_compare/README.md" {"F:S3214T1560961160.24"}
+  "lib/ppx_compare" {"D"}
+  "lib/ppx_compare/META" {"F:S1307T1560961159.4"}
+  "lib/ppx_compare/dune-package" {"F:S1728T1560961159.42"}
+  "lib/ppx_compare/expander" {"D"}
+  "lib/ppx_compare/expander/ppx_compare_expander.a"
+    {"F:S100988T1560961159.45"}
+  "lib/ppx_compare/expander/ppx_compare_expander.cma"
+    {"F:S82688T1560961159.47"}
+  "lib/ppx_compare/expander/ppx_compare_expander.cmi"
+    {"F:S7886T1560961159.49"}
+  "lib/ppx_compare/expander/ppx_compare_expander.cmt"
+    {"F:S214014T1560961159.52"}
+  "lib/ppx_compare/expander/ppx_compare_expander.cmti"
+    {"F:S22658T1560961159.54"}
+  "lib/ppx_compare/expander/ppx_compare_expander.cmx"
+    {"F:S10527T1560961159.58"}
+  "lib/ppx_compare/expander/ppx_compare_expander.cmxa"
+    {"F:S7275T1560961159.6"}
+  "lib/ppx_compare/expander/ppx_compare_expander.cmxs"
+    {"F:S109912T1560961159.62"}
+  "lib/ppx_compare/expander/ppx_compare_expander.ml"
+    {"F:S12786T1560961159.64"}
+  "lib/ppx_compare/expander/ppx_compare_expander.mli"
+    {"F:S871T1560961159.66"}
+  "lib/ppx_compare/opam" {"F:S752T1560961159.68"}
+  "lib/ppx_compare/ppx_compare.a" {"F:S24798T1560961159.7"}
+  "lib/ppx_compare/ppx_compare.cma" {"F:S32192T1560961159.73"}
+  "lib/ppx_compare/ppx_compare.cmi" {"F:S6913T1560961159.75"}
+  "lib/ppx_compare/ppx_compare.cmt" {"F:S56927T1560961159.77"}
+  "lib/ppx_compare/ppx_compare.cmti" {"F:S16619T1560961159.8"}
+  "lib/ppx_compare/ppx_compare.cmx" {"F:S7477T1560961159.82"}
+  "lib/ppx_compare/ppx_compare.cmxa" {"F:S7310T1560961159.85"}
+  "lib/ppx_compare/ppx_compare.cmxs" {"F:S40488T1560961159.87"}
+  "lib/ppx_compare/ppx_compare.ml" {"F:S1969T1560961159.89"}
+  "lib/ppx_compare/ppx_compare.mli" {"F:S38T1560961159.91"}
+  "lib/ppx_compare/runtime-lib" {"D"}
+  "lib/ppx_compare/runtime-lib/ppx_compare_lib.a" {"F:S3862T1560961159.94"}
+  "lib/ppx_compare/runtime-lib/ppx_compare_lib.cma" {"F:S6571T1560961159.97"}
+  "lib/ppx_compare/runtime-lib/ppx_compare_lib.cmi" {"F:S4962T1560961159.99"}
+  "lib/ppx_compare/runtime-lib/ppx_compare_lib.cmt"
+    {"F:S13275T1560961160.02"}
+  "lib/ppx_compare/runtime-lib/ppx_compare_lib.cmx" {"F:S6698T1560961160.05"}
+  "lib/ppx_compare/runtime-lib/ppx_compare_lib.cmxa"
+    {"F:S4546T1560961160.07"}
+  "lib/ppx_compare/runtime-lib/ppx_compare_lib.cmxs"
+    {"F:S13832T1560961160.1"}
+  "lib/ppx_compare/runtime-lib/ppx_compare_lib.ml" {"F:S56T1560961160.15"}
+]

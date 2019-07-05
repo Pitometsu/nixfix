@@ -1,0 +1,20 @@
+added: [
+  "doc/alcotest" {"D"}
+  "doc/alcotest/CHANGES.md" {"F:S6208T1560961217.43"}
+  "doc/alcotest/LICENSE.md" {"F:S761T1560961217.49"}
+  "doc/alcotest/README.md" {"F:S7049T1560961217.57"}
+  "lib/alcotest" {"D"}
+  "lib/alcotest/META" {"F:S226T1560961216.77"}
+  "lib/alcotest/alcotest.a" {"F:S155750T1560961216.87"}
+  "lib/alcotest/alcotest.cma" {"F:S129538T1560961216.96"}
+  "lib/alcotest/alcotest.cmi" {"F:S4241T1560961217.02"}
+  "lib/alcotest/alcotest.cmt" {"F:S299702T1560961217.07"}
+  "lib/alcotest/alcotest.cmti" {"F:S33050T1560961217.12"}
+  "lib/alcotest/alcotest.cmx" {"F:S6661T1560961217.17"}
+  "lib/alcotest/alcotest.cmxa" {"F:S1399T1560961217.21"}
+  "lib/alcotest/alcotest.cmxs" {"F:S160144T1560961217.25"}
+  "lib/alcotest/alcotest.ml" {"F:S20368T1560961217.28"}
+  "lib/alcotest/alcotest.mli" {"F:S6360T1560961217.3"}
+  "lib/alcotest/dune-package" {"F:S497T1560961217.35"}
+  "lib/alcotest/opam" {"F:S1138T1560961217.39"}
+]

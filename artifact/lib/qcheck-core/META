@@ -1,0 +1,17 @@
+version = "0.9"
+description = ""
+requires = "bytes unix"
+archive(byte) = "qcheck_core.cma"
+archive(native) = "qcheck_core.cmxa"
+plugin(byte) = "qcheck_core.cma"
+plugin(native) = "qcheck_core.cmxs"
+package "runner" (
+  directory = "runner"
+  version = "0.9"
+  description = ""
+  requires = "qcheck-core"
+  archive(byte) = "qcheck_runner.cma"
+  archive(native) = "qcheck_runner.cmxa"
+  plugin(byte) = "qcheck_runner.cma"
+  plugin(native) = "qcheck_runner.cmxs"
+)

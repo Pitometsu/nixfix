@@ -1,0 +1,83 @@
+"ppx_implicits.ml" 5 49 53 "ppx_implicits.ml" 5 49 62
+type(
+  'a option -> 'a
+)
+ident(
+  def from_Some "ppx_implicits.ml" 9 128 128 "ppx_implicits.ml" 1 0 -1
+)
+"ppx_implicits.ml" 6 74 83 "ppx_implicits.ml" 6 74 84
+type(
+  'a
+)
+ident(
+  def x "ppx_implicits.ml" 6 74 88 "ppx_implicits.ml" 6 74 89
+)
+"ppx_implicits.ml" 6 74 78 "ppx_implicits.ml" 6 74 84
+type(
+  'a option
+)
+"ppx_implicits.ml" 6 74 88 "ppx_implicits.ml" 6 74 89
+type(
+  'a
+)
+ident(
+  int_ref x "ppx_implicits.ml" 6 74 83 "ppx_implicits.ml" 6 74 84
+)
+"ppx_implicits.ml" 7 90 94 "ppx_implicits.ml" 7 90 98
+type(
+  'a option
+)
+"ppx_implicits.ml" 7 90 102 "ppx_implicits.ml" 7 90 107
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ppx_implicits.ml" 7 90 108 "ppx_implicits.ml" 7 90 120
+type(
+  exn
+)
+"ppx_implicits.ml" 7 90 102 "ppx_implicits.ml" 7 90 120
+type(
+  'a
+)
+"ppx_implicits.ml" 5 49 65 "ppx_implicits.ml" 7 90 120
+type(
+  'a option -> 'a
+)
+"ppx_implicits.ml" 11 178 182 "ppx_implicits.ml" 11 178 185
+type(
+  ?d:'a -> 'a
+)
+ident(
+  def imp "ppx_implicits.ml" 13 204 204 "ppx_implicits.ml" 1 0 -1
+)
+"ppx_implicits.ml" 11 178 187 "ppx_implicits.ml" 11 178 188
+type(
+  'a option
+)
+ident(
+  def d "ppx_implicits.ml" 11 178 191 "ppx_implicits.ml" 11 178 202
+)
+"ppx_implicits.ml" 11 178 191 "ppx_implicits.ml" 11 178 200
+type(
+  'a option -> 'a
+)
+ident(
+  int_ref from_Some "ppx_implicits.ml" 5 49 53 "ppx_implicits.ml" 5 49 62
+)
+"ppx_implicits.ml" 11 178 201 "ppx_implicits.ml" 11 178 202
+type(
+  'a option
+)
+ident(
+  int_ref d "ppx_implicits.ml" 11 178 187 "ppx_implicits.ml" 11 178 188
+)
+"ppx_implicits.ml" 11 178 191 "ppx_implicits.ml" 11 178 202
+call(
+  tail
+)
+type(
+  'a
+)

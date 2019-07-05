@@ -1,0 +1,21 @@
+OCAMLPACKS[]= ocaml-compiler-libs.common ocaml-migrate-parsetree ppxx ppx_tools_versioned.metaquot_404
+
+OCAMLWARNING_NON_ERROR[] += 27 32 41
+
+OCAMLDEPFLAGS=
+OCAMLPPFLAGS=  
+
+FILES[] =
+    debug
+    options
+    s
+    default
+    compile
+    make
+    forge
+    compilerlib
+
+MyOCamlPackage(typpx, $(FILES))
+MyOCamlfindInstall(typpx, $(EMPTY))
+
+WithMerlin()

@@ -1,0 +1,33 @@
+# 0.3.1
+
+- Ported to OCaml 4.05.0, AST_405 and typpx.1.4.1
+
+# 0.3.0
+
+- Fixed Tysize.size for polymorphic variants
+* Ported to typpx.1.4.0 and OCaml 4.04.2
+
+# 0.2.0
+
+- Added -debug-resolve and -debug-unif options. PPX_IMPLICITS_DEBUG_RESOLVE and PPX_IMPLICITS_DEBUG_UNIF env vars are also usable.
+- Removed unused debug option Options.debug_pre
+- Spec failures are reported with locations
+- Use of typpx
+- Made "aggressive" spec more aggressive, possible to take more function arguments as constraints
+- Internal: added "type" spec to handle [%imp] in a cleaner way
+- Added and fixed tests and examples
+
+# 0.1.0
+
+- policy is now called "spec"
+- Added related spec
+- Added name spec
+- Added aggressive spec
+- Added [@@typeclass] and [@@instance] attributes for type class
+- ppx_implicits now understands byte-compiler options at its standalone execution
+
+# 0.0.1
+
+* Initial release
+
+

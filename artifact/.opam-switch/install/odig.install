@@ -1,0 +1,194 @@
+lib: [
+  "_build/opam" {"opam"}
+  "_build/pkg/META" {"META"}
+  "_build/src/odig_odoc.cmi" {"odig_odoc.cmi"}
+  "?_build/src/odig_odoc.cmti" {"odig_odoc.cmti"}
+  "_build/src/odig_odoc.cmx" {"odig_odoc.cmx"}
+  "_build/src/odig_odoc.mli" {"odig_odoc.mli"}
+  "_build/src/odig_odoc_page.cmi" {"odig_odoc_page.cmi"}
+  "?_build/src/odig_odoc_page.cmti" {"odig_odoc_page.cmti"}
+  "_build/src/odig_odoc_page.cmx" {"odig_odoc_page.cmx"}
+  "_build/src/odig_odoc_page.mli" {"odig_odoc_page.mli"}
+  "_build/src/odig_support.a" {"odig_support.a"}
+  "_build/src/odig_support.cma" {"odig_support.cma"}
+  "_build/src/odig_support.cmi" {"odig_support.cmi"}
+  "?_build/src/odig_support.cmti" {"odig_support.cmti"}
+  "_build/src/odig_support.cmx" {"odig_support.cmx"}
+  "_build/src/odig_support.cmxa" {"odig_support.cmxa"}
+  "_build/src/odig_support.cmxs" {"odig_support.cmxs"}
+  "_build/src/odig_support.mli" {"odig_support.mli"}
+]
+bin: [
+  "_build/src/gh_pages_amend.native" {"gh-pages-amend"}
+  "_build/src/odig_bin.native" {"odig"}
+]
+share: [
+  "_build/themes/dark/fonts/DejaVuSansMono-Bold.woff2"
+    {"odoc-theme/dark/fonts/DejaVuSansMono-Bold.woff2"}
+  "_build/themes/dark/fonts/DejaVuSansMono-BoldOblique.woff2"
+    {"odoc-theme/dark/fonts/DejaVuSansMono-BoldOblique.woff2"}
+  "_build/themes/dark/fonts/DejaVuSansMono-Oblique.woff2"
+    {"odoc-theme/dark/fonts/DejaVuSansMono-Oblique.woff2"}
+  "_build/themes/dark/fonts/DejaVuSansMono.woff2"
+    {"odoc-theme/dark/fonts/DejaVuSansMono.woff2"}
+  "_build/themes/dark/fonts/PTC55F.woff2"
+    {"odoc-theme/dark/fonts/PTC55F.woff2"}
+  "_build/themes/dark/fonts/PTC75F.woff2"
+    {"odoc-theme/dark/fonts/PTC75F.woff2"}
+  "_build/themes/dark/fonts/PTS55F.woff2"
+    {"odoc-theme/dark/fonts/PTS55F.woff2"}
+  "_build/themes/dark/fonts/PTS56F.woff2"
+    {"odoc-theme/dark/fonts/PTS56F.woff2"}
+  "_build/themes/dark/fonts/PTS75F.woff2"
+    {"odoc-theme/dark/fonts/PTS75F.woff2"}
+  "_build/themes/dark/fonts/PTS76F.woff2"
+    {"odoc-theme/dark/fonts/PTS76F.woff2"}
+  "_build/themes/dark/fonts/fonts.css" {"odoc-theme/dark/fonts/fonts.css"}
+  "_build/themes/dark/manual.css" {"odoc-theme/dark/manual.css"}
+  "_build/themes/dark/odoc.css" {"odoc-theme/dark/odoc.css"}
+  "_build/themes/dark/theme.css" {"odoc-theme/dark/theme.css"}
+  "_build/themes/gruvbox.dark/fonts/DejaVuSansMono-Bold.woff2"
+    {"odoc-theme/gruvbox.dark/fonts/DejaVuSansMono-Bold.woff2"}
+  "_build/themes/gruvbox.dark/fonts/DejaVuSansMono-BoldOblique.woff2"
+    {"odoc-theme/gruvbox.dark/fonts/DejaVuSansMono-BoldOblique.woff2"}
+  "_build/themes/gruvbox.dark/fonts/DejaVuSansMono-Oblique.woff2"
+    {"odoc-theme/gruvbox.dark/fonts/DejaVuSansMono-Oblique.woff2"}
+  "_build/themes/gruvbox.dark/fonts/DejaVuSansMono.woff2"
+    {"odoc-theme/gruvbox.dark/fonts/DejaVuSansMono.woff2"}
+  "_build/themes/gruvbox.dark/fonts/PTC55F.woff2"
+    {"odoc-theme/gruvbox.dark/fonts/PTC55F.woff2"}
+  "_build/themes/gruvbox.dark/fonts/PTC75F.woff2"
+    {"odoc-theme/gruvbox.dark/fonts/PTC75F.woff2"}
+  "_build/themes/gruvbox.dark/fonts/PTS55F.woff2"
+    {"odoc-theme/gruvbox.dark/fonts/PTS55F.woff2"}
+  "_build/themes/gruvbox.dark/fonts/PTS56F.woff2"
+    {"odoc-theme/gruvbox.dark/fonts/PTS56F.woff2"}
+  "_build/themes/gruvbox.dark/fonts/PTS75F.woff2"
+    {"odoc-theme/gruvbox.dark/fonts/PTS75F.woff2"}
+  "_build/themes/gruvbox.dark/fonts/PTS76F.woff2"
+    {"odoc-theme/gruvbox.dark/fonts/PTS76F.woff2"}
+  "_build/themes/gruvbox.dark/fonts/fonts.css"
+    {"odoc-theme/gruvbox.dark/fonts/fonts.css"}
+  "_build/themes/gruvbox.dark/manual.css"
+    {"odoc-theme/gruvbox.dark/manual.css"}
+  "_build/themes/gruvbox.dark/odoc.css" {"odoc-theme/gruvbox.dark/odoc.css"}
+  "_build/themes/gruvbox.dark/theme.css"
+    {"odoc-theme/gruvbox.dark/theme.css"}
+  "_build/themes/gruvbox.light/fonts/DejaVuSansMono-Bold.woff2"
+    {"odoc-theme/gruvbox.light/fonts/DejaVuSansMono-Bold.woff2"}
+  "_build/themes/gruvbox.light/fonts/DejaVuSansMono-BoldOblique.woff2"
+    {"odoc-theme/gruvbox.light/fonts/DejaVuSansMono-BoldOblique.woff2"}
+  "_build/themes/gruvbox.light/fonts/DejaVuSansMono-Oblique.woff2"
+    {"odoc-theme/gruvbox.light/fonts/DejaVuSansMono-Oblique.woff2"}
+  "_build/themes/gruvbox.light/fonts/DejaVuSansMono.woff2"
+    {"odoc-theme/gruvbox.light/fonts/DejaVuSansMono.woff2"}
+  "_build/themes/gruvbox.light/fonts/PTC55F.woff2"
+    {"odoc-theme/gruvbox.light/fonts/PTC55F.woff2"}
+  "_build/themes/gruvbox.light/fonts/PTC75F.woff2"
+    {"odoc-theme/gruvbox.light/fonts/PTC75F.woff2"}
+  "_build/themes/gruvbox.light/fonts/PTS55F.woff2"
+    {"odoc-theme/gruvbox.light/fonts/PTS55F.woff2"}
+  "_build/themes/gruvbox.light/fonts/PTS56F.woff2"
+    {"odoc-theme/gruvbox.light/fonts/PTS56F.woff2"}
+  "_build/themes/gruvbox.light/fonts/PTS75F.woff2"
+    {"odoc-theme/gruvbox.light/fonts/PTS75F.woff2"}
+  "_build/themes/gruvbox.light/fonts/PTS76F.woff2"
+    {"odoc-theme/gruvbox.light/fonts/PTS76F.woff2"}
+  "_build/themes/gruvbox.light/fonts/fonts.css"
+    {"odoc-theme/gruvbox.light/fonts/fonts.css"}
+  "_build/themes/gruvbox.light/manual.css"
+    {"odoc-theme/gruvbox.light/manual.css"}
+  "_build/themes/gruvbox.light/odoc.css"
+    {"odoc-theme/gruvbox.light/odoc.css"}
+  "_build/themes/gruvbox.light/theme.css"
+    {"odoc-theme/gruvbox.light/theme.css"}
+  "_build/themes/light/fonts/DejaVuSansMono-Bold.woff2"
+    {"odoc-theme/light/fonts/DejaVuSansMono-Bold.woff2"}
+  "_build/themes/light/fonts/DejaVuSansMono-BoldOblique.woff2"
+    {"odoc-theme/light/fonts/DejaVuSansMono-BoldOblique.woff2"}
+  "_build/themes/light/fonts/DejaVuSansMono-Oblique.woff2"
+    {"odoc-theme/light/fonts/DejaVuSansMono-Oblique.woff2"}
+  "_build/themes/light/fonts/DejaVuSansMono.woff2"
+    {"odoc-theme/light/fonts/DejaVuSansMono.woff2"}
+  "_build/themes/light/fonts/PTC55F.woff2"
+    {"odoc-theme/light/fonts/PTC55F.woff2"}
+  "_build/themes/light/fonts/PTC75F.woff2"
+    {"odoc-theme/light/fonts/PTC75F.woff2"}
+  "_build/themes/light/fonts/PTS55F.woff2"
+    {"odoc-theme/light/fonts/PTS55F.woff2"}
+  "_build/themes/light/fonts/PTS56F.woff2"
+    {"odoc-theme/light/fonts/PTS56F.woff2"}
+  "_build/themes/light/fonts/PTS75F.woff2"
+    {"odoc-theme/light/fonts/PTS75F.woff2"}
+  "_build/themes/light/fonts/PTS76F.woff2"
+    {"odoc-theme/light/fonts/PTS76F.woff2"}
+  "_build/themes/light/fonts/fonts.css" {"odoc-theme/light/fonts/fonts.css"}
+  "_build/themes/light/manual.css" {"odoc-theme/light/manual.css"}
+  "_build/themes/light/odoc.css" {"odoc-theme/light/odoc.css"}
+  "_build/themes/light/theme.css" {"odoc-theme/light/theme.css"}
+  "_build/themes/solarized.dark/fonts/DejaVuSansMono-Bold.woff2"
+    {"odoc-theme/solarized.dark/fonts/DejaVuSansMono-Bold.woff2"}
+  "_build/themes/solarized.dark/fonts/DejaVuSansMono-BoldOblique.woff2"
+    {"odoc-theme/solarized.dark/fonts/DejaVuSansMono-BoldOblique.woff2"}
+  "_build/themes/solarized.dark/fonts/DejaVuSansMono-Oblique.woff2"
+    {"odoc-theme/solarized.dark/fonts/DejaVuSansMono-Oblique.woff2"}
+  "_build/themes/solarized.dark/fonts/DejaVuSansMono.woff2"
+    {"odoc-theme/solarized.dark/fonts/DejaVuSansMono.woff2"}
+  "_build/themes/solarized.dark/fonts/PTC55F.woff2"
+    {"odoc-theme/solarized.dark/fonts/PTC55F.woff2"}
+  "_build/themes/solarized.dark/fonts/PTC75F.woff2"
+    {"odoc-theme/solarized.dark/fonts/PTC75F.woff2"}
+  "_build/themes/solarized.dark/fonts/PTS55F.woff2"
+    {"odoc-theme/solarized.dark/fonts/PTS55F.woff2"}
+  "_build/themes/solarized.dark/fonts/PTS56F.woff2"
+    {"odoc-theme/solarized.dark/fonts/PTS56F.woff2"}
+  "_build/themes/solarized.dark/fonts/PTS75F.woff2"
+    {"odoc-theme/solarized.dark/fonts/PTS75F.woff2"}
+  "_build/themes/solarized.dark/fonts/PTS76F.woff2"
+    {"odoc-theme/solarized.dark/fonts/PTS76F.woff2"}
+  "_build/themes/solarized.dark/fonts/fonts.css"
+    {"odoc-theme/solarized.dark/fonts/fonts.css"}
+  "_build/themes/solarized.dark/manual.css"
+    {"odoc-theme/solarized.dark/manual.css"}
+  "_build/themes/solarized.dark/odoc.css"
+    {"odoc-theme/solarized.dark/odoc.css"}
+  "_build/themes/solarized.dark/theme.css"
+    {"odoc-theme/solarized.dark/theme.css"}
+  "_build/themes/solarized.light/fonts/DejaVuSansMono-Bold.woff2"
+    {"odoc-theme/solarized.light/fonts/DejaVuSansMono-Bold.woff2"}
+  "_build/themes/solarized.light/fonts/DejaVuSansMono-BoldOblique.woff2"
+    {"odoc-theme/solarized.light/fonts/DejaVuSansMono-BoldOblique.woff2"}
+  "_build/themes/solarized.light/fonts/DejaVuSansMono-Oblique.woff2"
+    {"odoc-theme/solarized.light/fonts/DejaVuSansMono-Oblique.woff2"}
+  "_build/themes/solarized.light/fonts/DejaVuSansMono.woff2"
+    {"odoc-theme/solarized.light/fonts/DejaVuSansMono.woff2"}
+  "_build/themes/solarized.light/fonts/PTC55F.woff2"
+    {"odoc-theme/solarized.light/fonts/PTC55F.woff2"}
+  "_build/themes/solarized.light/fonts/PTC75F.woff2"
+    {"odoc-theme/solarized.light/fonts/PTC75F.woff2"}
+  "_build/themes/solarized.light/fonts/PTS55F.woff2"
+    {"odoc-theme/solarized.light/fonts/PTS55F.woff2"}
+  "_build/themes/solarized.light/fonts/PTS56F.woff2"
+    {"odoc-theme/solarized.light/fonts/PTS56F.woff2"}
+  "_build/themes/solarized.light/fonts/PTS75F.woff2"
+    {"odoc-theme/solarized.light/fonts/PTS75F.woff2"}
+  "_build/themes/solarized.light/fonts/PTS76F.woff2"
+    {"odoc-theme/solarized.light/fonts/PTS76F.woff2"}
+  "_build/themes/solarized.light/fonts/fonts.css"
+    {"odoc-theme/solarized.light/fonts/fonts.css"}
+  "_build/themes/solarized.light/manual.css"
+    {"odoc-theme/solarized.light/manual.css"}
+  "_build/themes/solarized.light/odoc.css"
+    {"odoc-theme/solarized.light/odoc.css"}
+  "_build/themes/solarized.light/theme.css"
+    {"odoc-theme/solarized.light/theme.css"}
+]
+etc: "_build/themes/ocamldoc.css" {"ocamldoc.css"}
+doc: [
+  "_build/CHANGES.md" {"CHANGES.md"}
+  "_build/LICENSE.md" {"LICENSE.md"}
+  "_build/README.md" {"README.md"}
+  "_build/doc/index.mld" {"odoc-pages/index.mld"}
+  "_build/doc/manual.mld" {"odoc-pages/manual.mld"}
+  "_build/doc/packaging.mld" {"odoc-pages/packaging.mld"}
+]

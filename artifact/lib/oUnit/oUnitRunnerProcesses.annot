@@ -1,0 +1,2891 @@
+"src/oUnitRunnerProcesses.ml" 50 2914 2918 "src/oUnitRunnerProcesses.ml" 50 2914 2930
+type(
+  string ->
+  ('a -> string) ->
+  ('b -> string) ->
+  Unix.file_descr ->
+  Unix.file_descr -> ('b, 'a) OUnitRunner.GenericWorker.channel
+)
+ident(
+  def make_channel "src/oUnitRunnerProcesses.ml" 115 4487 4487 "src/oUnitRunnerProcesses.ml" 1 0 -1
+)
+"src/oUnitRunnerProcesses.ml" 51 2931 2937 "src/oUnitRunnerProcesses.ml" 51 2931 2945
+type(
+  string
+)
+ident(
+  def shard_id "src/oUnitRunnerProcesses.ml" 52 2946 2952 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+)
+"src/oUnitRunnerProcesses.ml" 52 2946 2952 "src/oUnitRunnerProcesses.ml" 52 2946 2974
+type(
+  'a -> string
+)
+ident(
+  def string_of_read_message "src/oUnitRunnerProcesses.ml" 53 2975 2981 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+)
+"src/oUnitRunnerProcesses.ml" 53 2975 2981 "src/oUnitRunnerProcesses.ml" 53 2975 3006
+type(
+  'b -> string
+)
+ident(
+  def string_of_written_message "src/oUnitRunnerProcesses.ml" 54 3007 3013 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+)
+"src/oUnitRunnerProcesses.ml" 54 3007 3013 "src/oUnitRunnerProcesses.ml" 54 3007 3020
+type(
+  Unix.file_descr
+)
+ident(
+  def fd_read "src/oUnitRunnerProcesses.ml" 55 3021 3027 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+)
+"src/oUnitRunnerProcesses.ml" 55 3021 3027 "src/oUnitRunnerProcesses.ml" 55 3021 3035
+type(
+  Unix.file_descr
+)
+ident(
+  def fd_write "src/oUnitRunnerProcesses.ml" 56 3038 3040 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+)
+"src/oUnitRunnerProcesses.ml" 56 3038 3044 "src/oUnitRunnerProcesses.ml" 56 3038 3046
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 57 3049 3053 "src/oUnitRunnerProcesses.ml" 57 3049 3065
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.set_nonblock
+)
+"src/oUnitRunnerProcesses.ml" 57 3049 3066 "src/oUnitRunnerProcesses.ml" 57 3049 3073
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd_read "src/oUnitRunnerProcesses.ml" 54 3007 3013 "src/oUnitRunnerProcesses.ml" 54 3007 3020
+)
+"src/oUnitRunnerProcesses.ml" 57 3049 3053 "src/oUnitRunnerProcesses.ml" 57 3049 3073
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 58 3075 3079 "src/oUnitRunnerProcesses.ml" 58 3075 3096
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.set_close_on_exec
+)
+"src/oUnitRunnerProcesses.ml" 58 3075 3097 "src/oUnitRunnerProcesses.ml" 58 3075 3104
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd_read "src/oUnitRunnerProcesses.ml" 54 3007 3013 "src/oUnitRunnerProcesses.ml" 54 3007 3020
+)
+"src/oUnitRunnerProcesses.ml" 58 3075 3079 "src/oUnitRunnerProcesses.ml" 58 3075 3104
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 59 3106 3110 "src/oUnitRunnerProcesses.ml" 59 3106 3127
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.set_close_on_exec
+)
+"src/oUnitRunnerProcesses.ml" 59 3106 3128 "src/oUnitRunnerProcesses.ml" 59 3106 3136
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd_write "src/oUnitRunnerProcesses.ml" 55 3021 3027 "src/oUnitRunnerProcesses.ml" 55 3021 3035
+)
+"src/oUnitRunnerProcesses.ml" 59 3106 3110 "src/oUnitRunnerProcesses.ml" 59 3106 3136
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 58 3075 3079 "src/oUnitRunnerProcesses.ml" 59 3106 3136
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 57 3049 3053 "src/oUnitRunnerProcesses.ml" 59 3106 3136
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 62 3143 3149 "src/oUnitRunnerProcesses.ml" 62 3143 3158
+type(
+  out_channel
+)
+ident(
+  def chn_write "src/oUnitRunnerProcesses.ml" 64 3195 3197 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+)
+"src/oUnitRunnerProcesses.ml" 62 3143 3161 "src/oUnitRunnerProcesses.ml" 62 3143 3181
+type(
+  Unix.file_descr -> out_channel
+)
+ident(
+  ext_ref Unix.out_channel_of_descr
+)
+"src/oUnitRunnerProcesses.ml" 62 3143 3182 "src/oUnitRunnerProcesses.ml" 62 3143 3190
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd_write "src/oUnitRunnerProcesses.ml" 55 3021 3027 "src/oUnitRunnerProcesses.ml" 55 3021 3035
+)
+"src/oUnitRunnerProcesses.ml" 62 3143 3161 "src/oUnitRunnerProcesses.ml" 62 3143 3190
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/oUnitRunnerProcesses.ml" 64 3195 3201 "src/oUnitRunnerProcesses.ml" 64 3195 3212
+type(
+  Unix.file_descr -> bytes -> bytes
+)
+ident(
+  def really_read "src/oUnitRunnerProcesses.ml" 80 3574 3576 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+)
+"src/oUnitRunnerProcesses.ml" 64 3195 3213 "src/oUnitRunnerProcesses.ml" 64 3195 3215
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/oUnitRunnerProcesses.ml" 64 3195 3216 "src/oUnitRunnerProcesses.ml" 77 3558 3567
+)
+"src/oUnitRunnerProcesses.ml" 64 3195 3216 "src/oUnitRunnerProcesses.ml" 64 3195 3219
+type(
+  bytes
+)
+ident(
+  def str "src/oUnitRunnerProcesses.ml" 65 3222 3226 "src/oUnitRunnerProcesses.ml" 77 3558 3567
+)
+"src/oUnitRunnerProcesses.ml" 65 3222 3230 "src/oUnitRunnerProcesses.ml" 65 3222 3233
+type(
+  int ref
+)
+ident(
+  def off "src/oUnitRunnerProcesses.ml" 66 3245 3249 "src/oUnitRunnerProcesses.ml" 77 3558 3567
+)
+"src/oUnitRunnerProcesses.ml" 65 3222 3236 "src/oUnitRunnerProcesses.ml" 65 3222 3239
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitRunnerProcesses.ml" 65 3222 3240 "src/oUnitRunnerProcesses.ml" 65 3222 3241
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 65 3222 3236 "src/oUnitRunnerProcesses.ml" 65 3222 3241
+type(
+  int ref
+)
+"src/oUnitRunnerProcesses.ml" 66 3245 3253 "src/oUnitRunnerProcesses.ml" 66 3245 3257
+type(
+  int ref
+)
+ident(
+  def read "src/oUnitRunnerProcesses.ml" 67 3269 3275 "src/oUnitRunnerProcesses.ml" 77 3558 3567
+)
+"src/oUnitRunnerProcesses.ml" 66 3245 3260 "src/oUnitRunnerProcesses.ml" 66 3245 3263
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitRunnerProcesses.ml" 66 3245 3264 "src/oUnitRunnerProcesses.ml" 66 3245 3265
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 66 3245 3260 "src/oUnitRunnerProcesses.ml" 66 3245 3265
+type(
+  int ref
+)
+"src/oUnitRunnerProcesses.ml" 67 3269 3281 "src/oUnitRunnerProcesses.ml" 67 3269 3282
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitRunnerProcesses.ml" 67 3269 3282 "src/oUnitRunnerProcesses.ml" 67 3269 3286
+type(
+  int ref
+)
+ident(
+  int_ref read "src/oUnitRunnerProcesses.ml" 66 3245 3253 "src/oUnitRunnerProcesses.ml" 66 3245 3257
+)
+"src/oUnitRunnerProcesses.ml" 67 3269 3281 "src/oUnitRunnerProcesses.ml" 67 3269 3286
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 67 3269 3287 "src/oUnitRunnerProcesses.ml" 67 3269 3288
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/oUnitRunnerProcesses.ml" 67 3269 3289 "src/oUnitRunnerProcesses.ml" 67 3269 3301
+type(
+  bytes -> int
+)
+ident(
+  ext_ref Bytes.length
+)
+"src/oUnitRunnerProcesses.ml" 67 3269 3302 "src/oUnitRunnerProcesses.ml" 67 3269 3305
+type(
+  bytes
+)
+ident(
+  int_ref str "src/oUnitRunnerProcesses.ml" 64 3195 3216 "src/oUnitRunnerProcesses.ml" 64 3195 3219
+)
+"src/oUnitRunnerProcesses.ml" 67 3269 3289 "src/oUnitRunnerProcesses.ml" 67 3269 3305
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 67 3269 3281 "src/oUnitRunnerProcesses.ml" 67 3269 3305
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 69 3321 3335 "src/oUnitRunnerProcesses.ml" 69 3321 3343
+type(
+  int
+)
+ident(
+  def one_read "src/oUnitRunnerProcesses.ml" 72 3419 3431 "src/oUnitRunnerProcesses.ml" 73 3457 3491
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3358 "src/oUnitRunnerProcesses.ml" 70 3346 3367
+type(
+  Unix.file_descr -> bytes -> int -> int -> int
+)
+ident(
+  ext_ref Unix.read
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3368 "src/oUnitRunnerProcesses.ml" 70 3346 3370
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/oUnitRunnerProcesses.ml" 64 3195 3213 "src/oUnitRunnerProcesses.ml" 64 3195 3215
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3371 "src/oUnitRunnerProcesses.ml" 70 3346 3374
+type(
+  bytes
+)
+ident(
+  int_ref str "src/oUnitRunnerProcesses.ml" 64 3195 3216 "src/oUnitRunnerProcesses.ml" 64 3195 3219
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3375 "src/oUnitRunnerProcesses.ml" 70 3346 3376
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3376 "src/oUnitRunnerProcesses.ml" 70 3346 3379
+type(
+  int ref
+)
+ident(
+  int_ref off "src/oUnitRunnerProcesses.ml" 65 3222 3230 "src/oUnitRunnerProcesses.ml" 65 3222 3233
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3375 "src/oUnitRunnerProcesses.ml" 70 3346 3379
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3381 "src/oUnitRunnerProcesses.ml" 70 3346 3393
+type(
+  bytes -> int
+)
+ident(
+  ext_ref Bytes.length
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3394 "src/oUnitRunnerProcesses.ml" 70 3346 3397
+type(
+  bytes
+)
+ident(
+  int_ref str "src/oUnitRunnerProcesses.ml" 64 3195 3216 "src/oUnitRunnerProcesses.ml" 64 3195 3219
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3381 "src/oUnitRunnerProcesses.ml" 70 3346 3397
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3398 "src/oUnitRunnerProcesses.ml" 70 3346 3399
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3400 "src/oUnitRunnerProcesses.ml" 70 3346 3401
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3401 "src/oUnitRunnerProcesses.ml" 70 3346 3404
+type(
+  int ref
+)
+ident(
+  int_ref off "src/oUnitRunnerProcesses.ml" 65 3222 3230 "src/oUnitRunnerProcesses.ml" 65 3222 3233
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3400 "src/oUnitRunnerProcesses.ml" 70 3346 3404
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3380 "src/oUnitRunnerProcesses.ml" 70 3346 3405
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 70 3346 3358 "src/oUnitRunnerProcesses.ml" 70 3346 3405
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 72 3419 3431 "src/oUnitRunnerProcesses.ml" 72 3419 3435
+type(
+  int ref
+)
+ident(
+  int_ref read "src/oUnitRunnerProcesses.ml" 66 3245 3253 "src/oUnitRunnerProcesses.ml" 66 3245 3257
+)
+"src/oUnitRunnerProcesses.ml" 72 3419 3436 "src/oUnitRunnerProcesses.ml" 72 3419 3438
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitRunnerProcesses.ml" 72 3419 3439 "src/oUnitRunnerProcesses.ml" 72 3419 3440
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitRunnerProcesses.ml" 72 3419 3440 "src/oUnitRunnerProcesses.ml" 72 3419 3444
+type(
+  int ref
+)
+ident(
+  int_ref read "src/oUnitRunnerProcesses.ml" 66 3245 3253 "src/oUnitRunnerProcesses.ml" 66 3245 3257
+)
+"src/oUnitRunnerProcesses.ml" 72 3419 3439 "src/oUnitRunnerProcesses.ml" 72 3419 3444
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 72 3419 3445 "src/oUnitRunnerProcesses.ml" 72 3419 3446
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/oUnitRunnerProcesses.ml" 72 3419 3447 "src/oUnitRunnerProcesses.ml" 72 3419 3455
+type(
+  int
+)
+ident(
+  int_ref one_read "src/oUnitRunnerProcesses.ml" 69 3321 3335 "src/oUnitRunnerProcesses.ml" 69 3321 3343
+)
+"src/oUnitRunnerProcesses.ml" 72 3419 3439 "src/oUnitRunnerProcesses.ml" 72 3419 3455
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 72 3419 3431 "src/oUnitRunnerProcesses.ml" 72 3419 3455
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 73 3457 3469 "src/oUnitRunnerProcesses.ml" 73 3457 3472
+type(
+  int ref
+)
+ident(
+  int_ref off "src/oUnitRunnerProcesses.ml" 65 3222 3230 "src/oUnitRunnerProcesses.ml" 65 3222 3233
+)
+"src/oUnitRunnerProcesses.ml" 73 3457 3473 "src/oUnitRunnerProcesses.ml" 73 3457 3475
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitRunnerProcesses.ml" 73 3457 3476 "src/oUnitRunnerProcesses.ml" 73 3457 3477
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitRunnerProcesses.ml" 73 3457 3477 "src/oUnitRunnerProcesses.ml" 73 3457 3480
+type(
+  int ref
+)
+ident(
+  int_ref off "src/oUnitRunnerProcesses.ml" 65 3222 3230 "src/oUnitRunnerProcesses.ml" 65 3222 3233
+)
+"src/oUnitRunnerProcesses.ml" 73 3457 3476 "src/oUnitRunnerProcesses.ml" 73 3457 3480
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 73 3457 3481 "src/oUnitRunnerProcesses.ml" 73 3457 3482
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/oUnitRunnerProcesses.ml" 73 3457 3483 "src/oUnitRunnerProcesses.ml" 73 3457 3491
+type(
+  int
+)
+ident(
+  int_ref one_read "src/oUnitRunnerProcesses.ml" 69 3321 3335 "src/oUnitRunnerProcesses.ml" 69 3321 3343
+)
+"src/oUnitRunnerProcesses.ml" 73 3457 3476 "src/oUnitRunnerProcesses.ml" 73 3457 3491
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 73 3457 3469 "src/oUnitRunnerProcesses.ml" 73 3457 3491
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 72 3419 3431 "src/oUnitRunnerProcesses.ml" 73 3457 3491
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 69 3321 3331 "src/oUnitRunnerProcesses.ml" 73 3457 3491
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 74 3492 3516 "src/oUnitRunnerProcesses.ml" 74 3492 3522
+type(
+  Unix.error
+)
+"src/oUnitRunnerProcesses.ml" 74 3492 3524 "src/oUnitRunnerProcesses.ml" 74 3492 3525
+type(
+  string
+)
+"src/oUnitRunnerProcesses.ml" 74 3492 3527 "src/oUnitRunnerProcesses.ml" 74 3492 3528
+type(
+  string
+)
+"src/oUnitRunnerProcesses.ml" 74 3492 3505 "src/oUnitRunnerProcesses.ml" 74 3492 3529
+type(
+  exn
+)
+"src/oUnitRunnerProcesses.ml" 75 3533 3543 "src/oUnitRunnerProcesses.ml" 75 3533 3545
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 68 3309 3317 "src/oUnitRunnerProcesses.ml" 75 3533 3545
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 67 3269 3275 "src/oUnitRunnerProcesses.ml" 76 3546 3556
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 77 3558 3564 "src/oUnitRunnerProcesses.ml" 77 3558 3567
+type(
+  bytes
+)
+ident(
+  int_ref str "src/oUnitRunnerProcesses.ml" 64 3195 3216 "src/oUnitRunnerProcesses.ml" 64 3195 3219
+)
+"src/oUnitRunnerProcesses.ml" 67 3269 3275 "src/oUnitRunnerProcesses.ml" 77 3558 3567
+type(
+  bytes
+)
+"src/oUnitRunnerProcesses.ml" 66 3245 3249 "src/oUnitRunnerProcesses.ml" 77 3558 3567
+type(
+  bytes
+)
+"src/oUnitRunnerProcesses.ml" 65 3222 3226 "src/oUnitRunnerProcesses.ml" 77 3558 3567
+type(
+  bytes
+)
+"src/oUnitRunnerProcesses.ml" 80 3574 3580 "src/oUnitRunnerProcesses.ml" 80 3574 3590
+type(
+  bytes
+)
+ident(
+  def header_str "src/oUnitRunnerProcesses.ml" 82 3630 3632 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+)
+"src/oUnitRunnerProcesses.ml" 80 3574 3593 "src/oUnitRunnerProcesses.ml" 80 3574 3605
+type(
+  int -> bytes
+)
+ident(
+  ext_ref Bytes.create
+)
+"src/oUnitRunnerProcesses.ml" 80 3574 3606 "src/oUnitRunnerProcesses.ml" 80 3574 3625
+type(
+  int
+)
+ident(
+  ext_ref Marshal.header_size
+)
+"src/oUnitRunnerProcesses.ml" 80 3574 3593 "src/oUnitRunnerProcesses.ml" 80 3574 3625
+type(
+  bytes
+)
+"src/oUnitRunnerProcesses.ml" 82 3630 3636 "src/oUnitRunnerProcesses.ml" 82 3630 3645
+type(
+  'c -> unit
+)
+ident(
+  def send_data "src/oUnitRunnerProcesses.ml" 87 3730 3732 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+)
+"src/oUnitRunnerProcesses.ml" 82 3630 3646 "src/oUnitRunnerProcesses.ml" 82 3630 3649
+type(
+  'c
+)
+ident(
+  def msg "src/oUnitRunnerProcesses.ml" 83 3652 3656 "src/oUnitRunnerProcesses.ml" 84 3693 3723
+)
+"src/oUnitRunnerProcesses.ml" 83 3652 3656 "src/oUnitRunnerProcesses.ml" 83 3652 3674
+type(
+  out_channel -> 'c -> Marshal.extern_flags list -> unit
+)
+ident(
+  ext_ref Marshal.to_channel
+)
+"src/oUnitRunnerProcesses.ml" 83 3652 3675 "src/oUnitRunnerProcesses.ml" 83 3652 3684
+type(
+  out_channel
+)
+ident(
+  int_ref chn_write "src/oUnitRunnerProcesses.ml" 62 3143 3149 "src/oUnitRunnerProcesses.ml" 62 3143 3158
+)
+"src/oUnitRunnerProcesses.ml" 83 3652 3685 "src/oUnitRunnerProcesses.ml" 83 3652 3688
+type(
+  'c
+)
+ident(
+  int_ref msg "src/oUnitRunnerProcesses.ml" 82 3630 3646 "src/oUnitRunnerProcesses.ml" 82 3630 3649
+)
+"src/oUnitRunnerProcesses.ml" 83 3652 3689 "src/oUnitRunnerProcesses.ml" 83 3652 3691
+type(
+  Marshal.extern_flags list
+)
+"src/oUnitRunnerProcesses.ml" 83 3652 3656 "src/oUnitRunnerProcesses.ml" 83 3652 3691
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 84 3693 3697 "src/oUnitRunnerProcesses.ml" 84 3693 3713
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"src/oUnitRunnerProcesses.ml" 84 3693 3714 "src/oUnitRunnerProcesses.ml" 84 3693 3723
+type(
+  out_channel
+)
+ident(
+  int_ref chn_write "src/oUnitRunnerProcesses.ml" 62 3143 3149 "src/oUnitRunnerProcesses.ml" 62 3143 3158
+)
+"src/oUnitRunnerProcesses.ml" 84 3693 3697 "src/oUnitRunnerProcesses.ml" 84 3693 3723
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 83 3652 3656 "src/oUnitRunnerProcesses.ml" 84 3693 3723
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 87 3730 3736 "src/oUnitRunnerProcesses.ml" 87 3730 3748
+type(
+  unit -> 'd
+)
+ident(
+  def receive_data "src/oUnitRunnerProcesses.ml" 102 4240 4242 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+)
+"src/oUnitRunnerProcesses.ml" 87 3730 3749 "src/oUnitRunnerProcesses.ml" 87 3730 3751
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 89 3762 3772 "src/oUnitRunnerProcesses.ml" 89 3762 3781
+type(
+  int
+)
+ident(
+  def data_size "src/oUnitRunnerProcesses.ml" 90 3840 3846 "src/oUnitRunnerProcesses.ml" 97 4118 4129
+)
+"src/oUnitRunnerProcesses.ml" 89 3762 3784 "src/oUnitRunnerProcesses.ml" 89 3762 3801
+type(
+  bytes -> int -> int
+)
+ident(
+  ext_ref Marshal.data_size
+)
+"src/oUnitRunnerProcesses.ml" 89 3762 3803 "src/oUnitRunnerProcesses.ml" 89 3762 3814
+type(
+  Unix.file_descr -> bytes -> bytes
+)
+ident(
+  int_ref really_read "src/oUnitRunnerProcesses.ml" 64 3195 3201 "src/oUnitRunnerProcesses.ml" 64 3195 3212
+)
+"src/oUnitRunnerProcesses.ml" 89 3762 3815 "src/oUnitRunnerProcesses.ml" 89 3762 3822
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd_read "src/oUnitRunnerProcesses.ml" 54 3007 3013 "src/oUnitRunnerProcesses.ml" 54 3007 3020
+)
+"src/oUnitRunnerProcesses.ml" 89 3762 3823 "src/oUnitRunnerProcesses.ml" 89 3762 3833
+type(
+  bytes
+)
+ident(
+  int_ref header_str "src/oUnitRunnerProcesses.ml" 80 3574 3580 "src/oUnitRunnerProcesses.ml" 80 3574 3590
+)
+"src/oUnitRunnerProcesses.ml" 89 3762 3802 "src/oUnitRunnerProcesses.ml" 89 3762 3834
+call(
+  stack
+)
+type(
+  bytes
+)
+"src/oUnitRunnerProcesses.ml" 89 3762 3835 "src/oUnitRunnerProcesses.ml" 89 3762 3836
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 89 3762 3784 "src/oUnitRunnerProcesses.ml" 89 3762 3836
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 90 3840 3850 "src/oUnitRunnerProcesses.ml" 90 3840 3858
+type(
+  bytes
+)
+ident(
+  def data_str "src/oUnitRunnerProcesses.ml" 91 3909 3915 "src/oUnitRunnerProcesses.ml" 97 4118 4129
+)
+"src/oUnitRunnerProcesses.ml" 90 3840 3861 "src/oUnitRunnerProcesses.ml" 90 3840 3872
+type(
+  Unix.file_descr -> bytes -> bytes
+)
+ident(
+  int_ref really_read "src/oUnitRunnerProcesses.ml" 64 3195 3201 "src/oUnitRunnerProcesses.ml" 64 3195 3212
+)
+"src/oUnitRunnerProcesses.ml" 90 3840 3873 "src/oUnitRunnerProcesses.ml" 90 3840 3880
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd_read "src/oUnitRunnerProcesses.ml" 54 3007 3013 "src/oUnitRunnerProcesses.ml" 54 3007 3020
+)
+"src/oUnitRunnerProcesses.ml" 90 3840 3882 "src/oUnitRunnerProcesses.ml" 90 3840 3894
+type(
+  int -> bytes
+)
+ident(
+  ext_ref Bytes.create
+)
+"src/oUnitRunnerProcesses.ml" 90 3840 3895 "src/oUnitRunnerProcesses.ml" 90 3840 3904
+type(
+  int
+)
+ident(
+  int_ref data_size "src/oUnitRunnerProcesses.ml" 89 3762 3772 "src/oUnitRunnerProcesses.ml" 89 3762 3781
+)
+"src/oUnitRunnerProcesses.ml" 90 3840 3881 "src/oUnitRunnerProcesses.ml" 90 3840 3905
+type(
+  bytes
+)
+"src/oUnitRunnerProcesses.ml" 90 3840 3861 "src/oUnitRunnerProcesses.ml" 90 3840 3905
+call(
+  stack
+)
+type(
+  bytes
+)
+"src/oUnitRunnerProcesses.ml" 91 3909 3919 "src/oUnitRunnerProcesses.ml" 91 3909 3922
+type(
+  'e
+)
+ident(
+  def msg "src/oUnitRunnerProcesses.ml" 97 4118 4126 "src/oUnitRunnerProcesses.ml" 97 4118 4129
+)
+"src/oUnitRunnerProcesses.ml" 93 4002 4010 "src/oUnitRunnerProcesses.ml" 93 4002 4029
+type(
+  string -> int -> 'e
+)
+ident(
+  ext_ref Marshal.from_string
+)
+"src/oUnitRunnerProcesses.ml" 94 4030 4041 "src/oUnitRunnerProcesses.ml" 94 4030 4063
+type(
+  bytes -> string
+)
+ident(
+  ext_ref Bytes.unsafe_to_string
+)
+"src/oUnitRunnerProcesses.ml" 94 4030 4065 "src/oUnitRunnerProcesses.ml" 94 4030 4074
+type(
+  bytes -> bytes -> bytes
+)
+ident(
+  ext_ref Bytes.cat
+)
+"src/oUnitRunnerProcesses.ml" 94 4030 4075 "src/oUnitRunnerProcesses.ml" 94 4030 4085
+type(
+  bytes
+)
+ident(
+  int_ref header_str "src/oUnitRunnerProcesses.ml" 80 3574 3580 "src/oUnitRunnerProcesses.ml" 80 3574 3590
+)
+"src/oUnitRunnerProcesses.ml" 94 4030 4086 "src/oUnitRunnerProcesses.ml" 94 4030 4094
+type(
+  bytes
+)
+ident(
+  int_ref data_str "src/oUnitRunnerProcesses.ml" 90 3840 3850 "src/oUnitRunnerProcesses.ml" 90 3840 3858
+)
+"src/oUnitRunnerProcesses.ml" 94 4030 4064 "src/oUnitRunnerProcesses.ml" 94 4030 4095
+call(
+  stack
+)
+type(
+  bytes
+)
+"src/oUnitRunnerProcesses.ml" 94 4030 4040 "src/oUnitRunnerProcesses.ml" 94 4030 4096
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunnerProcesses.ml" 95 4097 4107 "src/oUnitRunnerProcesses.ml" 95 4097 4108
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 93 4002 4010 "src/oUnitRunnerProcesses.ml" 95 4097 4108
+call(
+  stack
+)
+type(
+  'e
+)
+"src/oUnitRunnerProcesses.ml" 97 4118 4126 "src/oUnitRunnerProcesses.ml" 97 4118 4129
+type(
+  'd
+)
+ident(
+  int_ref msg "src/oUnitRunnerProcesses.ml" 91 3909 3919 "src/oUnitRunnerProcesses.ml" 91 3909 3922
+)
+"src/oUnitRunnerProcesses.ml" 91 3909 3915 "src/oUnitRunnerProcesses.ml" 97 4118 4129
+type(
+  'd
+)
+"src/oUnitRunnerProcesses.ml" 90 3840 3846 "src/oUnitRunnerProcesses.ml" 97 4118 4129
+type(
+  'd
+)
+"src/oUnitRunnerProcesses.ml" 89 3762 3768 "src/oUnitRunnerProcesses.ml" 97 4118 4129
+type(
+  'd
+)
+"src/oUnitRunnerProcesses.ml" 98 4130 4147 "src/oUnitRunnerProcesses.ml" 98 4130 4150
+ident(
+  def msg "src/oUnitRunnerProcesses.ml" 99 4155 4161 "src/oUnitRunnerProcesses.ml" 99 4155 4233
+)
+"src/oUnitRunnerProcesses.ml" 98 4130 4146 "src/oUnitRunnerProcesses.ml" 98 4130 4151
+type(
+  string
+)
+"src/oUnitRunnerProcesses.ml" 98 4130 4139 "src/oUnitRunnerProcesses.ml" 98 4130 4151
+type(
+  exn
+)
+"src/oUnitRunnerProcesses.ml" 99 4155 4161 "src/oUnitRunnerProcesses.ml" 99 4155 4181
+type(
+  (string -> 'd, unit, string, 'd) format4 -> string -> 'd
+)
+ident(
+  ext_ref OUnitUtils.failwithf
+)
+"src/oUnitRunnerProcesses.ml" 99 4155 4182 "src/oUnitRunnerProcesses.ml" 99 4155 4229
+type(
+  (string -> 'd, unit, string, 'd) format4
+)
+"src/oUnitRunnerProcesses.ml" 99 4155 4230 "src/oUnitRunnerProcesses.ml" 99 4155 4233
+type(
+  string
+)
+ident(
+  int_ref msg "src/oUnitRunnerProcesses.ml" 98 4130 4146 "src/oUnitRunnerProcesses.ml" 98 4130 4151
+)
+"src/oUnitRunnerProcesses.ml" 99 4155 4161 "src/oUnitRunnerProcesses.ml" 99 4155 4233
+call(
+  tail
+)
+type(
+  'd
+)
+"src/oUnitRunnerProcesses.ml" 88 3754 3758 "src/oUnitRunnerProcesses.ml" 99 4155 4233
+type(
+  'd
+)
+"src/oUnitRunnerProcesses.ml" 102 4240 4246 "src/oUnitRunnerProcesses.ml" 102 4240 4251
+type(
+  unit -> unit
+)
+ident(
+  def close "src/oUnitRunnerProcesses.ml" 105 4287 4291 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+)
+"src/oUnitRunnerProcesses.ml" 102 4240 4252 "src/oUnitRunnerProcesses.ml" 102 4240 4254
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 103 4257 4261 "src/oUnitRunnerProcesses.ml" 103 4257 4270
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/oUnitRunnerProcesses.ml" 103 4257 4271 "src/oUnitRunnerProcesses.ml" 103 4257 4280
+type(
+  out_channel
+)
+ident(
+  int_ref chn_write "src/oUnitRunnerProcesses.ml" 62 3143 3149 "src/oUnitRunnerProcesses.ml" 62 3143 3158
+)
+"src/oUnitRunnerProcesses.ml" 103 4257 4261 "src/oUnitRunnerProcesses.ml" 103 4257 4281
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 105 4287 4291 "src/oUnitRunnerProcesses.ml" 105 4287 4303
+type(
+  string ->
+  ('a -> string) ->
+  ('b -> string) ->
+  ('b, 'a) OUnitRunner.GenericWorker.channel ->
+  ('b, 'a) OUnitRunner.GenericWorker.channel
+)
+ident(
+  ext_ref OUnitRunner.GenericWorker.wrap_channel
+)
+"src/oUnitRunnerProcesses.ml" 106 4304 4310 "src/oUnitRunnerProcesses.ml" 106 4304 4318
+type(
+  string
+)
+ident(
+  int_ref shard_id "src/oUnitRunnerProcesses.ml" 51 2931 2937 "src/oUnitRunnerProcesses.ml" 51 2931 2945
+)
+"src/oUnitRunnerProcesses.ml" 107 4319 4325 "src/oUnitRunnerProcesses.ml" 107 4319 4347
+type(
+  'a -> string
+)
+ident(
+  int_ref string_of_read_message "src/oUnitRunnerProcesses.ml" 52 2946 2952 "src/oUnitRunnerProcesses.ml" 52 2946 2974
+)
+"src/oUnitRunnerProcesses.ml" 108 4348 4354 "src/oUnitRunnerProcesses.ml" 108 4348 4379
+type(
+  'b -> string
+)
+ident(
+  int_ref string_of_written_message "src/oUnitRunnerProcesses.ml" 53 2975 2981 "src/oUnitRunnerProcesses.ml" 53 2975 3006
+)
+"src/oUnitRunnerProcesses.ml" 110 4388 4408 "src/oUnitRunnerProcesses.ml" 110 4388 4417
+type(
+  'b -> unit
+)
+ident(
+  int_ref send_data "src/oUnitRunnerProcesses.ml" 82 3630 3636 "src/oUnitRunnerProcesses.ml" 82 3630 3645
+)
+"src/oUnitRunnerProcesses.ml" 111 4419 4442 "src/oUnitRunnerProcesses.ml" 111 4419 4454
+type(
+  unit -> 'a
+)
+ident(
+  int_ref receive_data "src/oUnitRunnerProcesses.ml" 87 3730 3736 "src/oUnitRunnerProcesses.ml" 87 3730 3748
+)
+"src/oUnitRunnerProcesses.ml" 112 4456 4472 "src/oUnitRunnerProcesses.ml" 112 4456 4477
+type(
+  unit -> unit
+)
+ident(
+  int_ref close "src/oUnitRunnerProcesses.ml" 102 4240 4246 "src/oUnitRunnerProcesses.ml" 102 4240 4251
+)
+"src/oUnitRunnerProcesses.ml" 109 4380 4386 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+type(
+  ('b, 'a) OUnitRunner.GenericWorker.channel
+)
+"src/oUnitRunnerProcesses.ml" 105 4287 4291 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+call(
+  tail
+)
+type(
+  ('b, 'a) OUnitRunner.GenericWorker.channel
+)
+"src/oUnitRunnerProcesses.ml" 102 4240 4242 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+type(
+  ('b, 'a) OUnitRunner.GenericWorker.channel
+)
+"src/oUnitRunnerProcesses.ml" 87 3730 3732 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+type(
+  ('b, 'a) OUnitRunner.GenericWorker.channel
+)
+"src/oUnitRunnerProcesses.ml" 82 3630 3632 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+type(
+  ('b, 'a) OUnitRunner.GenericWorker.channel
+)
+"src/oUnitRunnerProcesses.ml" 80 3574 3576 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+type(
+  ('b, 'a) OUnitRunner.GenericWorker.channel
+)
+"src/oUnitRunnerProcesses.ml" 64 3195 3197 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+type(
+  ('b, 'a) OUnitRunner.GenericWorker.channel
+)
+"src/oUnitRunnerProcesses.ml" 62 3143 3145 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+type(
+  ('b, 'a) OUnitRunner.GenericWorker.channel
+)
+"src/oUnitRunnerProcesses.ml" 56 3038 3040 "src/oUnitRunnerProcesses.ml" 113 4478 4485
+type(
+  ('b, 'a) OUnitRunner.GenericWorker.channel
+)
+"src/oUnitRunnerProcesses.ml" 115 4487 4491 "src/oUnitRunnerProcesses.ml" 115 4487 4513
+type(
+  (int, unit -> unit) Hashtbl.t -> float
+)
+ident(
+  def processes_grace_period "src/oUnitRunnerProcesses.ml" 121 4620 4620 "src/oUnitRunnerProcesses.ml" 1 0 -1
+)
+"src/oUnitRunnerProcesses.ml" 116 4516 4518 "src/oUnitRunnerProcesses.ml" 116 4516 4538
+type(
+  string -> float -> string -> (int, unit -> unit) Hashtbl.t -> float
+)
+ident(
+  ext_ref OUnitConf.make_float
+)
+"src/oUnitRunnerProcesses.ml" 117 4539 4543 "src/oUnitRunnerProcesses.ml" 117 4539 4567
+type(
+  string
+)
+"src/oUnitRunnerProcesses.ml" 118 4568 4572 "src/oUnitRunnerProcesses.ml" 118 4568 4575
+type(
+  float
+)
+"src/oUnitRunnerProcesses.ml" 119 4576 4580 "src/oUnitRunnerProcesses.ml" 119 4576 4618
+type(
+  string
+)
+"src/oUnitRunnerProcesses.ml" 116 4516 4518 "src/oUnitRunnerProcesses.ml" 119 4576 4618
+call(
+  stack
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> float
+)
+"src/oUnitRunnerProcesses.ml" 121 4620 4624 "src/oUnitRunnerProcesses.ml" 121 4620 4645
+type(
+  (int, unit -> unit) Hashtbl.t -> float
+)
+ident(
+  def processes_kill_period "src/oUnitRunnerProcesses.ml" 127 4768 4768 "src/oUnitRunnerProcesses.ml" 1 0 -1
+)
+"src/oUnitRunnerProcesses.ml" 122 4648 4650 "src/oUnitRunnerProcesses.ml" 122 4648 4670
+type(
+  string -> float -> string -> (int, unit -> unit) Hashtbl.t -> float
+)
+ident(
+  ext_ref OUnitConf.make_float
+)
+"src/oUnitRunnerProcesses.ml" 123 4671 4675 "src/oUnitRunnerProcesses.ml" 123 4671 4698
+type(
+  string
+)
+"src/oUnitRunnerProcesses.ml" 124 4699 4703 "src/oUnitRunnerProcesses.ml" 124 4699 4706
+type(
+  float
+)
+"src/oUnitRunnerProcesses.ml" 125 4707 4711 "src/oUnitRunnerProcesses.ml" 125 4707 4766
+type(
+  string
+)
+"src/oUnitRunnerProcesses.ml" 122 4648 4650 "src/oUnitRunnerProcesses.ml" 125 4707 4766
+call(
+  stack
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> float
+)
+"src/oUnitRunnerProcesses.ml" 127 4768 4772 "src/oUnitRunnerProcesses.ml" 127 4768 4785
+type(
+  OUnitConf.conf ->
+  (OUnitTest.path * 'a * (OUnitTest.ctxt -> 'b))
+  OUnitRunner.GenericWorker.MapPath.t ->
+  string ->
+  string -> bool -> Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+ident(
+  def create_worker "src/oUnitRunnerProcesses.ml" 239 8339 8339 "src/oUnitRunnerProcesses.ml" 1 0 -1
+)
+"src/oUnitRunnerProcesses.ml" 127 4768 4786 "src/oUnitRunnerProcesses.ml" 127 4768 4790
+type(
+  OUnitConf.conf
+)
+ident(
+  def conf "src/oUnitRunnerProcesses.ml" 127 4768 4791 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 127 4768 4791 "src/oUnitRunnerProcesses.ml" 127 4768 4805
+type(
+  (OUnitTest.path * 'a * (OUnitTest.ctxt -> 'b))
+  OUnitRunner.GenericWorker.MapPath.t
+)
+ident(
+  def map_test_cases "src/oUnitRunnerProcesses.ml" 127 4768 4806 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 127 4768 4806 "src/oUnitRunnerProcesses.ml" 127 4768 4814
+type(
+  string
+)
+ident(
+  def shard_id "src/oUnitRunnerProcesses.ml" 127 4768 4815 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 127 4768 4815 "src/oUnitRunnerProcesses.ml" 127 4768 4824
+type(
+  string
+)
+ident(
+  def master_id "src/oUnitRunnerProcesses.ml" 127 4768 4825 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 127 4768 4825 "src/oUnitRunnerProcesses.ml" 127 4768 4840
+type(
+  bool
+)
+ident(
+  def worker_log_file "src/oUnitRunnerProcesses.ml" 128 4843 4845 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 128 4843 4849 "src/oUnitRunnerProcesses.ml" 128 4843 4859
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  def safe_close "src/oUnitRunnerProcesses.ml" 129 4905 4907 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 128 4843 4860 "src/oUnitRunnerProcesses.ml" 128 4843 4862
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/oUnitRunnerProcesses.ml" 128 4843 4865 "src/oUnitRunnerProcesses.ml" 128 4843 4901
+)
+"src/oUnitRunnerProcesses.ml" 128 4843 4869 "src/oUnitRunnerProcesses.ml" 128 4843 4874
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"src/oUnitRunnerProcesses.ml" 128 4843 4875 "src/oUnitRunnerProcesses.ml" 128 4843 4877
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/oUnitRunnerProcesses.ml" 128 4843 4860 "src/oUnitRunnerProcesses.ml" 128 4843 4862
+)
+"src/oUnitRunnerProcesses.ml" 128 4843 4869 "src/oUnitRunnerProcesses.ml" 128 4843 4877
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 128 4843 4894 "src/oUnitRunnerProcesses.ml" 128 4843 4895
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Unix.error
+)
+"src/oUnitRunnerProcesses.ml" 128 4843 4883 "src/oUnitRunnerProcesses.ml" 128 4843 4895
+type(
+  exn
+)
+"src/oUnitRunnerProcesses.ml" 128 4843 4899 "src/oUnitRunnerProcesses.ml" 128 4843 4901
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 128 4843 4865 "src/oUnitRunnerProcesses.ml" 128 4843 4901
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 129 4905 4911 "src/oUnitRunnerProcesses.ml" 129 4905 4932
+type(
+  Unix.file_descr
+)
+ident(
+  def pipe_read_from_worker "src/oUnitRunnerProcesses.ml" 130 4973 4975 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 129 4905 4934 "src/oUnitRunnerProcesses.ml" 129 4905 4954
+type(
+  Unix.file_descr
+)
+ident(
+  def pipe_write_to_master "src/oUnitRunnerProcesses.ml" 130 4973 4975 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 129 4905 4911 "src/oUnitRunnerProcesses.ml" 129 4905 4954
+type(
+  Unix.file_descr * Unix.file_descr
+)
+"src/oUnitRunnerProcesses.ml" 129 4905 4957 "src/oUnitRunnerProcesses.ml" 129 4905 4966
+type(
+  ?cloexec:bool -> unit -> Unix.file_descr * Unix.file_descr
+)
+ident(
+  ext_ref Unix.pipe
+)
+"src/oUnitRunnerProcesses.ml" 129 4905 4967 "src/oUnitRunnerProcesses.ml" 129 4905 4969
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 129 4905 4957 "src/oUnitRunnerProcesses.ml" 129 4905 4969
+call(
+  stack
+)
+type(
+  Unix.file_descr * Unix.file_descr
+)
+"src/oUnitRunnerProcesses.ml" 130 4973 4979 "src/oUnitRunnerProcesses.ml" 130 4973 5000
+type(
+  Unix.file_descr
+)
+ident(
+  def pipe_read_from_master "src/oUnitRunnerProcesses.ml" 131 5042 5044 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 130 4973 5002 "src/oUnitRunnerProcesses.ml" 130 4973 5022
+type(
+  Unix.file_descr
+)
+ident(
+  def pipe_write_to_worker "src/oUnitRunnerProcesses.ml" 131 5042 5044 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 130 4973 4979 "src/oUnitRunnerProcesses.ml" 130 4973 5022
+type(
+  Unix.file_descr * Unix.file_descr
+)
+"src/oUnitRunnerProcesses.ml" 130 4973 5026 "src/oUnitRunnerProcesses.ml" 130 4973 5035
+type(
+  ?cloexec:bool -> unit -> Unix.file_descr * Unix.file_descr
+)
+ident(
+  ext_ref Unix.pipe
+)
+"src/oUnitRunnerProcesses.ml" 130 4973 5036 "src/oUnitRunnerProcesses.ml" 130 4973 5038
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 130 4973 5026 "src/oUnitRunnerProcesses.ml" 130 4973 5038
+call(
+  stack
+)
+type(
+  Unix.file_descr * Unix.file_descr
+)
+"src/oUnitRunnerProcesses.ml" 131 5042 5050 "src/oUnitRunnerProcesses.ml" 131 5042 5059
+type(
+  unit -> int
+)
+ident(
+  ext_ref Unix.fork
+)
+"src/oUnitRunnerProcesses.ml" 131 5042 5060 "src/oUnitRunnerProcesses.ml" 131 5042 5062
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 131 5042 5050 "src/oUnitRunnerProcesses.ml" 131 5042 5062
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 132 5068 5074 "src/oUnitRunnerProcesses.ml" 132 5068 5075
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 134 5108 5120 "src/oUnitRunnerProcesses.ml" 134 5108 5122
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 135 5125 5135 "src/oUnitRunnerProcesses.ml" 135 5125 5145
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  int_ref safe_close "src/oUnitRunnerProcesses.ml" 128 4843 4849 "src/oUnitRunnerProcesses.ml" 128 4843 4859
+)
+"src/oUnitRunnerProcesses.ml" 135 5125 5146 "src/oUnitRunnerProcesses.ml" 135 5125 5167
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref pipe_read_from_worker "src/oUnitRunnerProcesses.ml" 129 4905 4911 "src/oUnitRunnerProcesses.ml" 129 4905 4932
+)
+"src/oUnitRunnerProcesses.ml" 135 5125 5135 "src/oUnitRunnerProcesses.ml" 135 5125 5167
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 136 5169 5179 "src/oUnitRunnerProcesses.ml" 136 5169 5189
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  int_ref safe_close "src/oUnitRunnerProcesses.ml" 128 4843 4849 "src/oUnitRunnerProcesses.ml" 128 4843 4859
+)
+"src/oUnitRunnerProcesses.ml" 136 5169 5190 "src/oUnitRunnerProcesses.ml" 136 5169 5210
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref pipe_write_to_worker "src/oUnitRunnerProcesses.ml" 130 4973 5002 "src/oUnitRunnerProcesses.ml" 130 4973 5022
+)
+"src/oUnitRunnerProcesses.ml" 136 5169 5179 "src/oUnitRunnerProcesses.ml" 136 5169 5210
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 138 5284 5294 "src/oUnitRunnerProcesses.ml" 138 5284 5296
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 136 5169 5179 "src/oUnitRunnerProcesses.ml" 138 5284 5296
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 135 5125 5135 "src/oUnitRunnerProcesses.ml" 138 5284 5296
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 140 5308 5320 "src/oUnitRunnerProcesses.ml" 140 5308 5327
+type(
+  (OUnitRunner.GenericWorker.message_from_worker,
+   OUnitRunner.GenericWorker.message_to_worker)
+  OUnitRunner.GenericWorker.channel
+)
+ident(
+  def channel "src/oUnitRunnerProcesses.ml" 148 5534 5544 "src/oUnitRunnerProcesses.ml" 153 5749 5765
+)
+"src/oUnitRunnerProcesses.ml" 141 5330 5340 "src/oUnitRunnerProcesses.ml" 141 5330 5352
+type(
+  string ->
+  (OUnitRunner.GenericWorker.message_to_worker -> string) ->
+  (OUnitRunner.GenericWorker.message_from_worker -> string) ->
+  Unix.file_descr ->
+  Unix.file_descr ->
+  (OUnitRunner.GenericWorker.message_from_worker,
+   OUnitRunner.GenericWorker.message_to_worker)
+  OUnitRunner.GenericWorker.channel
+)
+ident(
+  int_ref make_channel "src/oUnitRunnerProcesses.ml" 50 2914 2918 "src/oUnitRunnerProcesses.ml" 50 2914 2930
+)
+"src/oUnitRunnerProcesses.ml" 142 5353 5365 "src/oUnitRunnerProcesses.ml" 142 5353 5373
+type(
+  string
+)
+ident(
+  int_ref shard_id "src/oUnitRunnerProcesses.ml" 127 4768 4806 "src/oUnitRunnerProcesses.ml" 127 4768 4814
+)
+"src/oUnitRunnerProcesses.ml" 143 5374 5386 "src/oUnitRunnerProcesses.ml" 143 5374 5413
+type(
+  OUnitRunner.GenericWorker.message_to_worker -> string
+)
+ident(
+  ext_ref OUnitRunner.GenericWorker.string_of_message_to_worker
+)
+"src/oUnitRunnerProcesses.ml" 144 5414 5426 "src/oUnitRunnerProcesses.ml" 144 5414 5455
+type(
+  OUnitRunner.GenericWorker.message_from_worker -> string
+)
+ident(
+  ext_ref OUnitRunner.GenericWorker.string_of_message_from_worker
+)
+"src/oUnitRunnerProcesses.ml" 145 5456 5468 "src/oUnitRunnerProcesses.ml" 145 5456 5489
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref pipe_read_from_master "src/oUnitRunnerProcesses.ml" 130 4973 4979 "src/oUnitRunnerProcesses.ml" 130 4973 5000
+)
+"src/oUnitRunnerProcesses.ml" 146 5490 5502 "src/oUnitRunnerProcesses.ml" 146 5490 5522
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref pipe_write_to_master "src/oUnitRunnerProcesses.ml" 129 4905 4934 "src/oUnitRunnerProcesses.ml" 129 4905 4954
+)
+"src/oUnitRunnerProcesses.ml" 141 5330 5340 "src/oUnitRunnerProcesses.ml" 146 5490 5522
+call(
+  stack
+)
+type(
+  (OUnitRunner.GenericWorker.message_from_worker,
+   OUnitRunner.GenericWorker.message_to_worker)
+  OUnitRunner.GenericWorker.channel
+)
+"src/oUnitRunnerProcesses.ml" 148 5534 5544 "src/oUnitRunnerProcesses.ml" 148 5534 5560
+type(
+  OUnitConf.conf ->
+  (unit -> unit) ->
+  (OUnitRunner.GenericWorker.message_from_worker,
+   OUnitRunner.GenericWorker.message_to_worker)
+  OUnitRunner.GenericWorker.channel ->
+  string ->
+  (OUnitTest.path * 'a * (OUnitTest.ctxt -> 'b))
+  OUnitRunner.GenericWorker.MapPath.t -> bool -> unit
+)
+ident(
+  ext_ref OUnitRunner.GenericWorker.main_worker_loop
+)
+"src/oUnitRunnerProcesses.ml" 149 5561 5573 "src/oUnitRunnerProcesses.ml" 149 5561 5577
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunnerProcesses.ml" 127 4768 4786 "src/oUnitRunnerProcesses.ml" 127 4768 4790
+)
+"src/oUnitRunnerProcesses.ml" 149 5561 5578 "src/oUnitRunnerProcesses.ml" 149 5561 5584
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/oUnitRunnerProcesses.ml" 149 5561 5585 "src/oUnitRunnerProcesses.ml" 149 5561 5592
+type(
+  (OUnitRunner.GenericWorker.message_from_worker,
+   OUnitRunner.GenericWorker.message_to_worker)
+  OUnitRunner.GenericWorker.channel
+)
+ident(
+  int_ref channel "src/oUnitRunnerProcesses.ml" 140 5308 5320 "src/oUnitRunnerProcesses.ml" 140 5308 5327
+)
+"src/oUnitRunnerProcesses.ml" 149 5561 5593 "src/oUnitRunnerProcesses.ml" 149 5561 5601
+type(
+  string
+)
+ident(
+  int_ref shard_id "src/oUnitRunnerProcesses.ml" 127 4768 4806 "src/oUnitRunnerProcesses.ml" 127 4768 4814
+)
+"src/oUnitRunnerProcesses.ml" 149 5561 5602 "src/oUnitRunnerProcesses.ml" 149 5561 5616
+type(
+  (OUnitTest.path * 'a * (OUnitTest.ctxt -> 'b))
+  OUnitRunner.GenericWorker.MapPath.t
+)
+ident(
+  int_ref map_test_cases "src/oUnitRunnerProcesses.ml" 127 4768 4791 "src/oUnitRunnerProcesses.ml" 127 4768 4805
+)
+"src/oUnitRunnerProcesses.ml" 149 5561 5617 "src/oUnitRunnerProcesses.ml" 149 5561 5632
+type(
+  bool
+)
+ident(
+  int_ref worker_log_file "src/oUnitRunnerProcesses.ml" 127 4768 4825 "src/oUnitRunnerProcesses.ml" 127 4768 4840
+)
+"src/oUnitRunnerProcesses.ml" 148 5534 5544 "src/oUnitRunnerProcesses.ml" 149 5561 5632
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 150 5634 5644 "src/oUnitRunnerProcesses.ml" 150 5634 5651
+type(
+  (OUnitRunner.GenericWorker.message_from_worker,
+   OUnitRunner.GenericWorker.message_to_worker)
+  OUnitRunner.GenericWorker.channel
+)
+ident(
+  int_ref channel "src/oUnitRunnerProcesses.ml" 140 5308 5320 "src/oUnitRunnerProcesses.ml" 140 5308 5327
+)
+"src/oUnitRunnerProcesses.ml" 150 5634 5644 "src/oUnitRunnerProcesses.ml" 150 5634 5657
+type(
+  unit -> unit
+)
+"src/oUnitRunnerProcesses.ml" 150 5634 5658 "src/oUnitRunnerProcesses.ml" 150 5634 5660
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 150 5634 5644 "src/oUnitRunnerProcesses.ml" 150 5634 5660
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 151 5662 5672 "src/oUnitRunnerProcesses.ml" 151 5662 5682
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  int_ref safe_close "src/oUnitRunnerProcesses.ml" 128 4843 4849 "src/oUnitRunnerProcesses.ml" 128 4843 4859
+)
+"src/oUnitRunnerProcesses.ml" 151 5662 5683 "src/oUnitRunnerProcesses.ml" 151 5662 5704
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref pipe_read_from_master "src/oUnitRunnerProcesses.ml" 130 4973 4979 "src/oUnitRunnerProcesses.ml" 130 4973 5000
+)
+"src/oUnitRunnerProcesses.ml" 151 5662 5672 "src/oUnitRunnerProcesses.ml" 151 5662 5704
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 152 5706 5716 "src/oUnitRunnerProcesses.ml" 152 5706 5726
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  int_ref safe_close "src/oUnitRunnerProcesses.ml" 128 4843 4849 "src/oUnitRunnerProcesses.ml" 128 4843 4859
+)
+"src/oUnitRunnerProcesses.ml" 152 5706 5727 "src/oUnitRunnerProcesses.ml" 152 5706 5747
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref pipe_write_to_master "src/oUnitRunnerProcesses.ml" 129 4905 4934 "src/oUnitRunnerProcesses.ml" 129 4905 4954
+)
+"src/oUnitRunnerProcesses.ml" 152 5706 5716 "src/oUnitRunnerProcesses.ml" 152 5706 5747
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 153 5749 5759 "src/oUnitRunnerProcesses.ml" 153 5749 5763
+type(
+  int -> Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"src/oUnitRunnerProcesses.ml" 153 5749 5764 "src/oUnitRunnerProcesses.ml" 153 5749 5765
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 153 5749 5759 "src/oUnitRunnerProcesses.ml" 153 5749 5765
+call(
+  tail
+)
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 152 5706 5716 "src/oUnitRunnerProcesses.ml" 153 5749 5765
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 151 5662 5672 "src/oUnitRunnerProcesses.ml" 153 5749 5765
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 150 5634 5644 "src/oUnitRunnerProcesses.ml" 153 5749 5765
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 148 5534 5544 "src/oUnitRunnerProcesses.ml" 153 5749 5765
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 140 5308 5316 "src/oUnitRunnerProcesses.ml" 153 5749 5765
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 134 5108 5116 "src/oUnitRunnerProcesses.ml" 153 5749 5765
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 155 5767 5773 "src/oUnitRunnerProcesses.ml" 155 5767 5776
+type(
+  int
+)
+ident(
+  def pid "src/oUnitRunnerProcesses.ml" 156 5780 5788 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 156 5780 5792 "src/oUnitRunnerProcesses.ml" 156 5780 5799
+type(
+  (OUnitRunner.GenericWorker.message_to_worker,
+   OUnitRunner.GenericWorker.message_from_worker)
+  OUnitRunner.GenericWorker.channel
+)
+ident(
+  def channel "src/oUnitRunnerProcesses.ml" 165 6008 6016 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 157 5802 5812 "src/oUnitRunnerProcesses.ml" 157 5802 5824
+type(
+  string ->
+  (OUnitRunner.GenericWorker.message_from_worker -> string) ->
+  (OUnitRunner.GenericWorker.message_to_worker -> string) ->
+  Unix.file_descr ->
+  Unix.file_descr ->
+  (OUnitRunner.GenericWorker.message_to_worker,
+   OUnitRunner.GenericWorker.message_from_worker)
+  OUnitRunner.GenericWorker.channel
+)
+ident(
+  int_ref make_channel "src/oUnitRunnerProcesses.ml" 50 2914 2918 "src/oUnitRunnerProcesses.ml" 50 2914 2930
+)
+"src/oUnitRunnerProcesses.ml" 158 5825 5837 "src/oUnitRunnerProcesses.ml" 158 5825 5846
+type(
+  string
+)
+ident(
+  int_ref master_id "src/oUnitRunnerProcesses.ml" 127 4768 4815 "src/oUnitRunnerProcesses.ml" 127 4768 4824
+)
+"src/oUnitRunnerProcesses.ml" 159 5847 5859 "src/oUnitRunnerProcesses.ml" 159 5847 5888
+type(
+  OUnitRunner.GenericWorker.message_from_worker -> string
+)
+ident(
+  ext_ref OUnitRunner.GenericWorker.string_of_message_from_worker
+)
+"src/oUnitRunnerProcesses.ml" 160 5889 5901 "src/oUnitRunnerProcesses.ml" 160 5889 5928
+type(
+  OUnitRunner.GenericWorker.message_to_worker -> string
+)
+ident(
+  ext_ref OUnitRunner.GenericWorker.string_of_message_to_worker
+)
+"src/oUnitRunnerProcesses.ml" 161 5929 5941 "src/oUnitRunnerProcesses.ml" 161 5929 5962
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref pipe_read_from_worker "src/oUnitRunnerProcesses.ml" 129 4905 4911 "src/oUnitRunnerProcesses.ml" 129 4905 4932
+)
+"src/oUnitRunnerProcesses.ml" 162 5963 5975 "src/oUnitRunnerProcesses.ml" 162 5963 5995
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref pipe_write_to_worker "src/oUnitRunnerProcesses.ml" 130 4973 5002 "src/oUnitRunnerProcesses.ml" 130 4973 5022
+)
+"src/oUnitRunnerProcesses.ml" 157 5802 5812 "src/oUnitRunnerProcesses.ml" 162 5963 5995
+call(
+  stack
+)
+type(
+  (OUnitRunner.GenericWorker.message_to_worker,
+   OUnitRunner.GenericWorker.message_from_worker)
+  OUnitRunner.GenericWorker.channel
+)
+"src/oUnitRunnerProcesses.ml" 165 6008 6020 "src/oUnitRunnerProcesses.ml" 165 6008 6027
+type(
+  Unix.process_status option ref
+)
+ident(
+  def rstatus "src/oUnitRunnerProcesses.ml" 167 6043 6051 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 165 6008 6030 "src/oUnitRunnerProcesses.ml" 165 6008 6033
+type(
+  Unix.process_status option -> Unix.process_status option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitRunnerProcesses.ml" 165 6008 6034 "src/oUnitRunnerProcesses.ml" 165 6008 6038
+type(
+  Unix.process_status option
+)
+"src/oUnitRunnerProcesses.ml" 165 6008 6030 "src/oUnitRunnerProcesses.ml" 165 6008 6038
+type(
+  Unix.process_status option ref
+)
+"src/oUnitRunnerProcesses.ml" 167 6043 6055 "src/oUnitRunnerProcesses.ml" 167 6043 6076
+type(
+  Unix.process_status -> string option
+)
+ident(
+  def msg_of_process_status "src/oUnitRunnerProcesses.ml" 174 6229 6237 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 167 6043 6077 "src/oUnitRunnerProcesses.ml" 167 6043 6083
+type(
+  Unix.process_status
+)
+ident(
+  def status "src/oUnitRunnerProcesses.ml" 168 6086 6096 "src/oUnitRunnerProcesses.ml" 171 6155 6216
+)
+"src/oUnitRunnerProcesses.ml" 168 6086 6099 "src/oUnitRunnerProcesses.ml" 168 6086 6105
+type(
+  Unix.process_status
+)
+ident(
+  int_ref status "src/oUnitRunnerProcesses.ml" 167 6043 6077 "src/oUnitRunnerProcesses.ml" 167 6043 6083
+)
+"src/oUnitRunnerProcesses.ml" 168 6086 6106 "src/oUnitRunnerProcesses.ml" 168 6086 6107
+type(
+  Unix.process_status -> Unix.process_status -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/oUnitRunnerProcesses.ml" 168 6086 6116 "src/oUnitRunnerProcesses.ml" 168 6086 6117
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 168 6086 6108 "src/oUnitRunnerProcesses.ml" 168 6086 6117
+type(
+  Unix.process_status
+)
+"src/oUnitRunnerProcesses.ml" 168 6086 6099 "src/oUnitRunnerProcesses.ml" 168 6086 6117
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 169 6123 6135 "src/oUnitRunnerProcesses.ml" 169 6123 6139
+type(
+  string option
+)
+"src/oUnitRunnerProcesses.ml" 171 6155 6173 "src/oUnitRunnerProcesses.ml" 171 6155 6208
+type(
+  Unix.process_status -> string
+)
+ident(
+  ext_ref OUnitUtils.string_of_process_status
+)
+"src/oUnitRunnerProcesses.ml" 171 6155 6209 "src/oUnitRunnerProcesses.ml" 171 6155 6215
+type(
+  Unix.process_status
+)
+ident(
+  int_ref status "src/oUnitRunnerProcesses.ml" 167 6043 6077 "src/oUnitRunnerProcesses.ml" 167 6043 6083
+)
+"src/oUnitRunnerProcesses.ml" 171 6155 6172 "src/oUnitRunnerProcesses.ml" 171 6155 6216
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunnerProcesses.ml" 171 6155 6167 "src/oUnitRunnerProcesses.ml" 171 6155 6216
+type(
+  string option
+)
+"src/oUnitRunnerProcesses.ml" 168 6086 6096 "src/oUnitRunnerProcesses.ml" 171 6155 6216
+type(
+  string option
+)
+"src/oUnitRunnerProcesses.ml" 174 6229 6241 "src/oUnitRunnerProcesses.ml" 174 6229 6251
+type(
+  unit -> bool
+)
+ident(
+  def is_running "src/oUnitRunnerProcesses.ml" 188 6617 6625 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 174 6229 6252 "src/oUnitRunnerProcesses.ml" 174 6229 6254
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 175 6257 6273 "src/oUnitRunnerProcesses.ml" 175 6257 6274
+type(
+  Unix.process_status option ref -> Unix.process_status option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitRunnerProcesses.ml" 175 6257 6274 "src/oUnitRunnerProcesses.ml" 175 6257 6281
+type(
+  Unix.process_status option ref
+)
+ident(
+  int_ref rstatus "src/oUnitRunnerProcesses.ml" 165 6008 6020 "src/oUnitRunnerProcesses.ml" 165 6008 6027
+)
+"src/oUnitRunnerProcesses.ml" 175 6257 6273 "src/oUnitRunnerProcesses.ml" 175 6257 6281
+type(
+  Unix.process_status option
+)
+"src/oUnitRunnerProcesses.ml" 176 6287 6301 "src/oUnitRunnerProcesses.ml" 176 6287 6305
+type(
+  Unix.process_status option
+)
+"src/oUnitRunnerProcesses.ml" 177 6309 6329 "src/oUnitRunnerProcesses.ml" 177 6309 6332
+type(
+  int
+)
+ident(
+  def pid "src/oUnitRunnerProcesses.ml" 178 6368 6386 "src/oUnitRunnerProcesses.ml" 183 6537 6558
+)
+"src/oUnitRunnerProcesses.ml" 177 6309 6334 "src/oUnitRunnerProcesses.ml" 177 6309 6340
+type(
+  Unix.process_status
+)
+ident(
+  def status "src/oUnitRunnerProcesses.ml" 178 6368 6386 "src/oUnitRunnerProcesses.ml" 183 6537 6558
+)
+"src/oUnitRunnerProcesses.ml" 177 6309 6329 "src/oUnitRunnerProcesses.ml" 177 6309 6340
+type(
+  int * Unix.process_status
+)
+"src/oUnitRunnerProcesses.ml" 177 6309 6343 "src/oUnitRunnerProcesses.ml" 177 6309 6350
+type(
+  Unix.wait_flag list -> int -> int * Unix.process_status
+)
+ident(
+  ext_ref Unix.waitpid
+)
+"src/oUnitRunnerProcesses.ml" 177 6309 6352 "src/oUnitRunnerProcesses.ml" 177 6309 6359
+type(
+  Unix.wait_flag
+)
+"src/oUnitRunnerProcesses.ml" 177 6309 6351 "src/oUnitRunnerProcesses.ml" 177 6309 6360
+type(
+  Unix.wait_flag list
+)
+"src/oUnitRunnerProcesses.ml" 177 6309 6361 "src/oUnitRunnerProcesses.ml" 177 6309 6364
+type(
+  int
+)
+ident(
+  int_ref pid "src/oUnitRunnerProcesses.ml" 155 5767 5773 "src/oUnitRunnerProcesses.ml" 155 5767 5776
+)
+"src/oUnitRunnerProcesses.ml" 177 6309 6343 "src/oUnitRunnerProcesses.ml" 177 6309 6364
+call(
+  stack
+)
+type(
+  int * Unix.process_status
+)
+"src/oUnitRunnerProcesses.ml" 178 6368 6389 "src/oUnitRunnerProcesses.ml" 178 6368 6392
+type(
+  int
+)
+ident(
+  int_ref pid "src/oUnitRunnerProcesses.ml" 177 6309 6329 "src/oUnitRunnerProcesses.ml" 177 6309 6332
+)
+"src/oUnitRunnerProcesses.ml" 178 6368 6393 "src/oUnitRunnerProcesses.ml" 178 6368 6395
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/oUnitRunnerProcesses.ml" 178 6368 6396 "src/oUnitRunnerProcesses.ml" 178 6368 6397
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 178 6368 6389 "src/oUnitRunnerProcesses.ml" 178 6368 6397
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 179 6409 6429 "src/oUnitRunnerProcesses.ml" 179 6409 6436
+type(
+  Unix.process_status option ref
+)
+ident(
+  int_ref rstatus "src/oUnitRunnerProcesses.ml" 165 6008 6020 "src/oUnitRunnerProcesses.ml" 165 6008 6027
+)
+"src/oUnitRunnerProcesses.ml" 179 6409 6437 "src/oUnitRunnerProcesses.ml" 179 6409 6439
+type(
+  Unix.process_status option ref -> Unix.process_status option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitRunnerProcesses.ml" 179 6409 6445 "src/oUnitRunnerProcesses.ml" 179 6409 6451
+type(
+  Unix.process_status
+)
+ident(
+  int_ref status "src/oUnitRunnerProcesses.ml" 177 6309 6334 "src/oUnitRunnerProcesses.ml" 177 6309 6340
+)
+"src/oUnitRunnerProcesses.ml" 179 6409 6440 "src/oUnitRunnerProcesses.ml" 179 6409 6451
+type(
+  Unix.process_status option
+)
+"src/oUnitRunnerProcesses.ml" 179 6409 6429 "src/oUnitRunnerProcesses.ml" 179 6409 6451
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 180 6453 6473 "src/oUnitRunnerProcesses.ml" 180 6453 6478
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 178 6368 6403 "src/oUnitRunnerProcesses.ml" 181 6479 6500
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 181 6479 6506 "src/oUnitRunnerProcesses.ml" 183 6537 6558
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 178 6368 6386 "src/oUnitRunnerProcesses.ml" 183 6537 6558
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 177 6309 6325 "src/oUnitRunnerProcesses.ml" 183 6537 6558
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 184 6559 6578 "src/oUnitRunnerProcesses.ml" 184 6559 6579
+type(
+  Unix.process_status
+)
+"src/oUnitRunnerProcesses.ml" 184 6559 6573 "src/oUnitRunnerProcesses.ml" 184 6559 6579
+type(
+  Unix.process_status option
+)
+"src/oUnitRunnerProcesses.ml" 185 6583 6599 "src/oUnitRunnerProcesses.ml" 185 6583 6604
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 175 6257 6267 "src/oUnitRunnerProcesses.ml" 185 6583 6604
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 188 6617 6629 "src/oUnitRunnerProcesses.ml" 188 6617 6641
+type(
+  unit -> string option
+)
+ident(
+  def close_worker "src/oUnitRunnerProcesses.ml" 230 8082 8092 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+)
+"src/oUnitRunnerProcesses.ml" 188 6617 6642 "src/oUnitRunnerProcesses.ml" 188 6617 6644
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 189 6647 6665 "src/oUnitRunnerProcesses.ml" 189 6647 6673
+type(
+  float -> bool * string option
+)
+ident(
+  def wait_end "src/oUnitRunnerProcesses.ml" 189 6647 6657 "src/oUnitRunnerProcesses.ml" 228 8003 8070
+)
+"src/oUnitRunnerProcesses.ml" 189 6647 6674 "src/oUnitRunnerProcesses.ml" 189 6647 6681
+type(
+  float
+)
+ident(
+  def timeout "src/oUnitRunnerProcesses.ml" 190 6684 6696 "src/oUnitRunnerProcesses.ml" 206 7283 7298
+)
+"src/oUnitRunnerProcesses.ml" 190 6684 6699 "src/oUnitRunnerProcesses.ml" 190 6684 6706
+type(
+  float
+)
+ident(
+  int_ref timeout "src/oUnitRunnerProcesses.ml" 189 6647 6674 "src/oUnitRunnerProcesses.ml" 189 6647 6681
+)
+"src/oUnitRunnerProcesses.ml" 190 6684 6707 "src/oUnitRunnerProcesses.ml" 190 6684 6708
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/oUnitRunnerProcesses.ml" 190 6684 6709 "src/oUnitRunnerProcesses.ml" 190 6684 6712
+type(
+  float
+)
+"src/oUnitRunnerProcesses.ml" 190 6684 6699 "src/oUnitRunnerProcesses.ml" 190 6684 6712
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 191 6724 6738 "src/oUnitRunnerProcesses.ml" 191 6724 6743
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 191 6724 6745 "src/oUnitRunnerProcesses.ml" 191 6724 6749
+type(
+  string option
+)
+"src/oUnitRunnerProcesses.ml" 190 6684 6718 "src/oUnitRunnerProcesses.ml" 192 6750 6765
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 193 6777 6795 "src/oUnitRunnerProcesses.ml" 193 6777 6802
+type(
+  bool
+)
+ident(
+  def running "src/oUnitRunnerProcesses.ml" 194 6822 6836 "src/oUnitRunnerProcesses.ml" 205 7244 7282
+)
+"src/oUnitRunnerProcesses.ml" 193 6777 6805 "src/oUnitRunnerProcesses.ml" 193 6777 6815
+type(
+  unit -> bool
+)
+ident(
+  int_ref is_running "src/oUnitRunnerProcesses.ml" 174 6229 6241 "src/oUnitRunnerProcesses.ml" 174 6229 6251
+)
+"src/oUnitRunnerProcesses.ml" 193 6777 6816 "src/oUnitRunnerProcesses.ml" 193 6777 6818
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 193 6777 6805 "src/oUnitRunnerProcesses.ml" 193 6777 6818
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 194 6822 6839 "src/oUnitRunnerProcesses.ml" 194 6822 6846
+type(
+  bool
+)
+ident(
+  int_ref running "src/oUnitRunnerProcesses.ml" 193 6777 6795 "src/oUnitRunnerProcesses.ml" 193 6777 6802
+)
+"src/oUnitRunnerProcesses.ml" 197 6898 6922 "src/oUnitRunnerProcesses.ml" 197 6898 6928
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/oUnitRunnerProcesses.ml" 197 6898 6930 "src/oUnitRunnerProcesses.ml" 197 6898 6941
+type(
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  float -> Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+ident(
+  ext_ref Unix.select
+)
+"src/oUnitRunnerProcesses.ml" 197 6898 6942 "src/oUnitRunnerProcesses.ml" 197 6898 6944
+type(
+  Unix.file_descr list
+)
+"src/oUnitRunnerProcesses.ml" 197 6898 6945 "src/oUnitRunnerProcesses.ml" 197 6898 6947
+type(
+  Unix.file_descr list
+)
+"src/oUnitRunnerProcesses.ml" 197 6898 6948 "src/oUnitRunnerProcesses.ml" 197 6898 6950
+type(
+  Unix.file_descr list
+)
+"src/oUnitRunnerProcesses.ml" 197 6898 6951 "src/oUnitRunnerProcesses.ml" 197 6898 6954
+type(
+  float
+)
+"src/oUnitRunnerProcesses.ml" 197 6898 6929 "src/oUnitRunnerProcesses.ml" 197 6898 6955
+call(
+  stack
+)
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"src/oUnitRunnerProcesses.ml" 197 6898 6922 "src/oUnitRunnerProcesses.ml" 197 6898 6955
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 198 6956 6998 "src/oUnitRunnerProcesses.ml" 198 6956 7008
+type(
+  Unix.error
+)
+"src/oUnitRunnerProcesses.ml" 198 6956 7010 "src/oUnitRunnerProcesses.ml" 198 6956 7018
+type(
+  string
+)
+"src/oUnitRunnerProcesses.ml" 198 6956 7020 "src/oUnitRunnerProcesses.ml" 198 6956 7022
+type(
+  string
+)
+"src/oUnitRunnerProcesses.ml" 198 6956 6981 "src/oUnitRunnerProcesses.ml" 198 6956 7023
+type(
+  exn
+)
+"src/oUnitRunnerProcesses.ml" 198 6956 7027 "src/oUnitRunnerProcesses.ml" 198 6956 7029
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 196 6874 6892 "src/oUnitRunnerProcesses.ml" 199 7030 7051
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 200 7053 7071 "src/oUnitRunnerProcesses.ml" 200 7053 7079
+type(
+  float -> bool * string option
+)
+ident(
+  int_ref wait_end "src/oUnitRunnerProcesses.ml" 189 6647 6665 "src/oUnitRunnerProcesses.ml" 189 6647 6673
+)
+"src/oUnitRunnerProcesses.ml" 200 7053 7081 "src/oUnitRunnerProcesses.ml" 200 7053 7088
+type(
+  float
+)
+ident(
+  int_ref timeout "src/oUnitRunnerProcesses.ml" 189 6647 6674 "src/oUnitRunnerProcesses.ml" 189 6647 6681
+)
+"src/oUnitRunnerProcesses.ml" 200 7053 7089 "src/oUnitRunnerProcesses.ml" 200 7053 7091
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/oUnitRunnerProcesses.ml" 200 7053 7092 "src/oUnitRunnerProcesses.ml" 200 7053 7095
+type(
+  float
+)
+"src/oUnitRunnerProcesses.ml" 200 7053 7080 "src/oUnitRunnerProcesses.ml" 200 7053 7096
+type(
+  float
+)
+"src/oUnitRunnerProcesses.ml" 200 7053 7071 "src/oUnitRunnerProcesses.ml" 200 7053 7096
+call(
+  tail
+)
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 195 6852 6868 "src/oUnitRunnerProcesses.ml" 201 7097 7116
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 203 7136 7160 "src/oUnitRunnerProcesses.ml" 203 7136 7161
+type(
+  Unix.process_status option ref -> Unix.process_status option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitRunnerProcesses.ml" 203 7136 7161 "src/oUnitRunnerProcesses.ml" 203 7136 7168
+type(
+  Unix.process_status option ref
+)
+ident(
+  int_ref rstatus "src/oUnitRunnerProcesses.ml" 165 6008 6020 "src/oUnitRunnerProcesses.ml" 165 6008 6027
+)
+"src/oUnitRunnerProcesses.ml" 203 7136 7160 "src/oUnitRunnerProcesses.ml" 203 7136 7168
+type(
+  Unix.process_status option
+)
+"src/oUnitRunnerProcesses.ml" 204 7174 7199 "src/oUnitRunnerProcesses.ml" 204 7174 7205
+type(
+  Unix.process_status
+)
+ident(
+  def status "src/oUnitRunnerProcesses.ml" 204 7174 7209 "src/oUnitRunnerProcesses.ml" 204 7174 7243
+)
+"src/oUnitRunnerProcesses.ml" 204 7174 7194 "src/oUnitRunnerProcesses.ml" 204 7174 7205
+type(
+  Unix.process_status option
+)
+"src/oUnitRunnerProcesses.ml" 204 7174 7209 "src/oUnitRunnerProcesses.ml" 204 7174 7213
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 204 7174 7215 "src/oUnitRunnerProcesses.ml" 204 7174 7236
+type(
+  Unix.process_status -> string option
+)
+ident(
+  int_ref msg_of_process_status "src/oUnitRunnerProcesses.ml" 167 6043 6055 "src/oUnitRunnerProcesses.ml" 167 6043 6076
+)
+"src/oUnitRunnerProcesses.ml" 204 7174 7237 "src/oUnitRunnerProcesses.ml" 204 7174 7243
+type(
+  Unix.process_status
+)
+ident(
+  int_ref status "src/oUnitRunnerProcesses.ml" 204 7174 7199 "src/oUnitRunnerProcesses.ml" 204 7174 7205
+)
+"src/oUnitRunnerProcesses.ml" 204 7174 7215 "src/oUnitRunnerProcesses.ml" 204 7174 7243
+call(
+  stack
+)
+type(
+  string option
+)
+"src/oUnitRunnerProcesses.ml" 204 7174 7209 "src/oUnitRunnerProcesses.ml" 204 7174 7243
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 205 7244 7264 "src/oUnitRunnerProcesses.ml" 205 7244 7268
+type(
+  Unix.process_status option
+)
+"src/oUnitRunnerProcesses.ml" 205 7244 7272 "src/oUnitRunnerProcesses.ml" 205 7244 7276
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 205 7244 7278 "src/oUnitRunnerProcesses.ml" 205 7244 7282
+type(
+  string option
+)
+"src/oUnitRunnerProcesses.ml" 205 7244 7272 "src/oUnitRunnerProcesses.ml" 205 7244 7282
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 203 7136 7154 "src/oUnitRunnerProcesses.ml" 205 7244 7282
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 194 6822 6836 "src/oUnitRunnerProcesses.ml" 205 7244 7282
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 192 6750 6771 "src/oUnitRunnerProcesses.ml" 206 7283 7298
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 190 6684 6696 "src/oUnitRunnerProcesses.ml" 206 7283 7298
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 209 7313 7327 "src/oUnitRunnerProcesses.ml" 209 7313 7332
+type(
+  bool
+)
+ident(
+  def ended "src/oUnitRunnerProcesses.ml" 225 7938 7950 "src/oUnitRunnerProcesses.ml" 228 8003 8070
+)
+"src/oUnitRunnerProcesses.ml" 209 7313 7334 "src/oUnitRunnerProcesses.ml" 209 7313 7341
+type(
+  string option
+)
+ident(
+  def msg_opt "src/oUnitRunnerProcesses.ml" 225 7938 7950 "src/oUnitRunnerProcesses.ml" 228 8003 8070
+)
+"src/oUnitRunnerProcesses.ml" 209 7313 7327 "src/oUnitRunnerProcesses.ml" 209 7313 7341
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 210 7344 7356 "src/oUnitRunnerProcesses.ml" 210 7344 7363
+type(
+  (OUnitRunner.GenericWorker.message_to_worker,
+   OUnitRunner.GenericWorker.message_from_worker)
+  OUnitRunner.GenericWorker.channel
+)
+ident(
+  int_ref channel "src/oUnitRunnerProcesses.ml" 156 5780 5792 "src/oUnitRunnerProcesses.ml" 156 5780 5799
+)
+"src/oUnitRunnerProcesses.ml" 210 7344 7356 "src/oUnitRunnerProcesses.ml" 210 7344 7369
+type(
+  unit -> unit
+)
+"src/oUnitRunnerProcesses.ml" 210 7344 7370 "src/oUnitRunnerProcesses.ml" 210 7344 7372
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 210 7344 7356 "src/oUnitRunnerProcesses.ml" 210 7344 7372
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 211 7374 7386 "src/oUnitRunnerProcesses.ml" 211 7374 7396
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  int_ref safe_close "src/oUnitRunnerProcesses.ml" 128 4843 4849 "src/oUnitRunnerProcesses.ml" 128 4843 4859
+)
+"src/oUnitRunnerProcesses.ml" 211 7374 7397 "src/oUnitRunnerProcesses.ml" 211 7374 7418
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref pipe_read_from_worker "src/oUnitRunnerProcesses.ml" 129 4905 4911 "src/oUnitRunnerProcesses.ml" 129 4905 4932
+)
+"src/oUnitRunnerProcesses.ml" 211 7374 7386 "src/oUnitRunnerProcesses.ml" 211 7374 7418
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 212 7420 7432 "src/oUnitRunnerProcesses.ml" 212 7420 7442
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  int_ref safe_close "src/oUnitRunnerProcesses.ml" 128 4843 4849 "src/oUnitRunnerProcesses.ml" 128 4843 4859
+)
+"src/oUnitRunnerProcesses.ml" 212 7420 7443 "src/oUnitRunnerProcesses.ml" 212 7420 7463
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref pipe_write_to_worker "src/oUnitRunnerProcesses.ml" 130 4973 5002 "src/oUnitRunnerProcesses.ml" 130 4973 5022
+)
+"src/oUnitRunnerProcesses.ml" 212 7420 7432 "src/oUnitRunnerProcesses.ml" 212 7420 7463
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 214 7529 7541 "src/oUnitRunnerProcesses.ml" 214 7529 7555
+type(
+  (bool * string option -> int -> bool * string option) ->
+  bool * string option -> int list -> bool * string option
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/oUnitRunnerProcesses.ml" 215 7556 7576 "src/oUnitRunnerProcesses.ml" 215 7556 7581
+type(
+  bool
+)
+ident(
+  def ended "src/oUnitRunnerProcesses.ml" 215 7556 7592 "src/oUnitRunnerProcesses.ml" 221 7798 7818
+)
+"src/oUnitRunnerProcesses.ml" 215 7556 7583 "src/oUnitRunnerProcesses.ml" 215 7556 7590
+type(
+  string option
+)
+ident(
+  def msg_opt "src/oUnitRunnerProcesses.ml" 215 7556 7592 "src/oUnitRunnerProcesses.ml" 221 7798 7818
+)
+"src/oUnitRunnerProcesses.ml" 215 7556 7575 "src/oUnitRunnerProcesses.ml" 215 7556 7591
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 215 7556 7592 "src/oUnitRunnerProcesses.ml" 215 7556 7598
+type(
+  int
+)
+ident(
+  def signal "src/oUnitRunnerProcesses.ml" 216 7602 7619 "src/oUnitRunnerProcesses.ml" 221 7798 7818
+)
+"src/oUnitRunnerProcesses.ml" 216 7602 7622 "src/oUnitRunnerProcesses.ml" 216 7602 7627
+type(
+  bool
+)
+ident(
+  int_ref ended "src/oUnitRunnerProcesses.ml" 215 7556 7576 "src/oUnitRunnerProcesses.ml" 215 7556 7581
+)
+"src/oUnitRunnerProcesses.ml" 217 7639 7658 "src/oUnitRunnerProcesses.ml" 217 7639 7663
+type(
+  bool
+)
+ident(
+  int_ref ended "src/oUnitRunnerProcesses.ml" 215 7556 7576 "src/oUnitRunnerProcesses.ml" 215 7556 7581
+)
+"src/oUnitRunnerProcesses.ml" 217 7639 7665 "src/oUnitRunnerProcesses.ml" 217 7639 7672
+type(
+  string option
+)
+ident(
+  int_ref msg_opt "src/oUnitRunnerProcesses.ml" 215 7556 7583 "src/oUnitRunnerProcesses.ml" 215 7556 7590
+)
+"src/oUnitRunnerProcesses.ml" 216 7602 7633 "src/oUnitRunnerProcesses.ml" 218 7673 7693
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 219 7705 7724 "src/oUnitRunnerProcesses.ml" 219 7705 7728
+type(
+  int -> int -> unit
+)
+ident(
+  ext_ref Unix.kill
+)
+"src/oUnitRunnerProcesses.ml" 219 7705 7729 "src/oUnitRunnerProcesses.ml" 219 7705 7732
+type(
+  int
+)
+ident(
+  int_ref pid "src/oUnitRunnerProcesses.ml" 155 5767 5773 "src/oUnitRunnerProcesses.ml" 155 5767 5776
+)
+"src/oUnitRunnerProcesses.ml" 219 7705 7733 "src/oUnitRunnerProcesses.ml" 219 7705 7739
+type(
+  int
+)
+ident(
+  int_ref signal "src/oUnitRunnerProcesses.ml" 215 7556 7592 "src/oUnitRunnerProcesses.ml" 215 7556 7598
+)
+"src/oUnitRunnerProcesses.ml" 219 7705 7724 "src/oUnitRunnerProcesses.ml" 219 7705 7739
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 220 7741 7760 "src/oUnitRunnerProcesses.ml" 220 7741 7768
+type(
+  float -> bool * string option
+)
+ident(
+  int_ref wait_end "src/oUnitRunnerProcesses.ml" 189 6647 6665 "src/oUnitRunnerProcesses.ml" 189 6647 6673
+)
+"src/oUnitRunnerProcesses.ml" 220 7741 7770 "src/oUnitRunnerProcesses.ml" 220 7741 7791
+type(
+  OUnitConf.conf -> float
+)
+ident(
+  int_ref processes_kill_period "src/oUnitRunnerProcesses.ml" 121 4620 4624 "src/oUnitRunnerProcesses.ml" 121 4620 4645
+)
+"src/oUnitRunnerProcesses.ml" 220 7741 7792 "src/oUnitRunnerProcesses.ml" 220 7741 7796
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunnerProcesses.ml" 127 4768 4786 "src/oUnitRunnerProcesses.ml" 127 4768 4790
+)
+"src/oUnitRunnerProcesses.ml" 220 7741 7769 "src/oUnitRunnerProcesses.ml" 220 7741 7797
+call(
+  stack
+)
+type(
+  float
+)
+"src/oUnitRunnerProcesses.ml" 220 7741 7760 "src/oUnitRunnerProcesses.ml" 220 7741 7797
+call(
+  tail
+)
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 218 7673 7699 "src/oUnitRunnerProcesses.ml" 221 7798 7818
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 216 7602 7619 "src/oUnitRunnerProcesses.ml" 221 7798 7818
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 215 7556 7570 "src/oUnitRunnerProcesses.ml" 221 7798 7819
+type(
+  bool * string option -> int -> bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 222 7820 7835 "src/oUnitRunnerProcesses.ml" 222 7820 7843
+type(
+  float -> bool * string option
+)
+ident(
+  int_ref wait_end "src/oUnitRunnerProcesses.ml" 189 6647 6665 "src/oUnitRunnerProcesses.ml" 189 6647 6673
+)
+"src/oUnitRunnerProcesses.ml" 222 7820 7845 "src/oUnitRunnerProcesses.ml" 222 7820 7867
+type(
+  OUnitConf.conf -> float
+)
+ident(
+  int_ref processes_grace_period "src/oUnitRunnerProcesses.ml" 115 4487 4491 "src/oUnitRunnerProcesses.ml" 115 4487 4513
+)
+"src/oUnitRunnerProcesses.ml" 222 7820 7868 "src/oUnitRunnerProcesses.ml" 222 7820 7872
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitRunnerProcesses.ml" 127 4768 4786 "src/oUnitRunnerProcesses.ml" 127 4768 4790
+)
+"src/oUnitRunnerProcesses.ml" 222 7820 7844 "src/oUnitRunnerProcesses.ml" 222 7820 7873
+call(
+  stack
+)
+type(
+  float
+)
+"src/oUnitRunnerProcesses.ml" 222 7820 7834 "src/oUnitRunnerProcesses.ml" 222 7820 7874
+call(
+  stack
+)
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 223 7875 7890 "src/oUnitRunnerProcesses.ml" 223 7875 7892
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 223 7875 7908 "src/oUnitRunnerProcesses.ml" 223 7875 7909
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 223 7875 7889 "src/oUnitRunnerProcesses.ml" 223 7875 7924
+type(
+  int list
+)
+"src/oUnitRunnerProcesses.ml" 214 7529 7541 "src/oUnitRunnerProcesses.ml" 223 7875 7924
+call(
+  stack
+)
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 212 7420 7432 "src/oUnitRunnerProcesses.ml" 223 7875 7924
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 211 7374 7386 "src/oUnitRunnerProcesses.ml" 223 7875 7924
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 210 7344 7356 "src/oUnitRunnerProcesses.ml" 223 7875 7924
+type(
+  bool * string option
+)
+"src/oUnitRunnerProcesses.ml" 225 7938 7953 "src/oUnitRunnerProcesses.ml" 225 7938 7958
+type(
+  bool
+)
+ident(
+  int_ref ended "src/oUnitRunnerProcesses.ml" 209 7313 7327 "src/oUnitRunnerProcesses.ml" 209 7313 7332
+)
+"src/oUnitRunnerProcesses.ml" 226 7964 7978 "src/oUnitRunnerProcesses.ml" 226 7964 7985
+type(
+  string option
+)
+ident(
+  int_ref msg_opt "src/oUnitRunnerProcesses.ml" 209 7313 7334 "src/oUnitRunnerProcesses.ml" 209 7313 7341
+)
+"src/oUnitRunnerProcesses.ml" 228 8003 8023 "src/oUnitRunnerProcesses.ml" 228 8003 8037
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitRunnerProcesses.ml" 228 8003 8038 "src/oUnitRunnerProcesses.ml" 228 8003 8065
+type(
+  (int -> string, unit, string) format
+)
+"src/oUnitRunnerProcesses.ml" 228 8003 8066 "src/oUnitRunnerProcesses.ml" 228 8003 8069
+type(
+  int
+)
+ident(
+  int_ref pid "src/oUnitRunnerProcesses.ml" 155 5767 5773 "src/oUnitRunnerProcesses.ml" 155 5767 5776
+)
+"src/oUnitRunnerProcesses.ml" 228 8003 8022 "src/oUnitRunnerProcesses.ml" 228 8003 8070
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitRunnerProcesses.ml" 228 8003 8017 "src/oUnitRunnerProcesses.ml" 228 8003 8070
+type(
+  string option
+)
+"src/oUnitRunnerProcesses.ml" 225 7938 7950 "src/oUnitRunnerProcesses.ml" 228 8003 8070
+type(
+  string option
+)
+"src/oUnitRunnerProcesses.ml" 209 7313 7323 "src/oUnitRunnerProcesses.ml" 228 8003 8070
+type(
+  string option
+)
+"src/oUnitRunnerProcesses.ml" 189 6647 6657 "src/oUnitRunnerProcesses.ml" 228 8003 8070
+type(
+  string option
+)
+"src/oUnitRunnerProcesses.ml" 231 8094 8116 "src/oUnitRunnerProcesses.ml" 231 8094 8123
+type(
+  (OUnitRunner.GenericWorker.message_to_worker,
+   OUnitRunner.GenericWorker.message_from_worker)
+  OUnitRunner.GenericWorker.channel
+)
+ident(
+  int_ref channel "src/oUnitRunnerProcesses.ml" 156 5780 5792 "src/oUnitRunnerProcesses.ml" 156 5780 5799
+)
+"src/oUnitRunnerProcesses.ml" 232 8125 8152 "src/oUnitRunnerProcesses.ml" 232 8125 8164
+type(
+  unit -> string option
+)
+ident(
+  int_ref close_worker "src/oUnitRunnerProcesses.ml" 188 6617 6629 "src/oUnitRunnerProcesses.ml" 188 6617 6641
+)
+"src/oUnitRunnerProcesses.ml" 233 8166 8190 "src/oUnitRunnerProcesses.ml" 233 8166 8211
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref pipe_read_from_worker "src/oUnitRunnerProcesses.ml" 129 4905 4911 "src/oUnitRunnerProcesses.ml" 129 4905 4932
+)
+"src/oUnitRunnerProcesses.ml" 234 8213 8236 "src/oUnitRunnerProcesses.ml" 234 8213 8244
+type(
+  string
+)
+ident(
+  int_ref shard_id "src/oUnitRunnerProcesses.ml" 127 4768 4806 "src/oUnitRunnerProcesses.ml" 127 4768 4814
+)
+"src/oUnitRunnerProcesses.ml" 235 8246 8271 "src/oUnitRunnerProcesses.ml" 235 8246 8281
+type(
+  unit -> bool
+)
+ident(
+  int_ref is_running "src/oUnitRunnerProcesses.ml" 174 6229 6241 "src/oUnitRunnerProcesses.ml" 174 6229 6251
+)
+"src/oUnitRunnerProcesses.ml" 230 8082 8092 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 188 6617 6625 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 174 6229 6237 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 167 6043 6051 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 165 6008 6016 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 156 5780 5788 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 131 5042 5044 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 130 4973 4975 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 129 4905 4907 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 128 4843 4845 "src/oUnitRunnerProcesses.ml" 236 8283 8294
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+"src/oUnitRunnerProcesses.ml" 239 8339 8343 "src/oUnitRunnerProcesses.ml" 239 8339 8358
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker list ->
+  float -> Unix.file_descr OUnitRunner.GenericWorker.worker list
+)
+ident(
+  def workers_waiting "src/oUnitRunnerProcesses.ml" 250 8655 8655 "src/oUnitRunnerProcesses.ml" 1 0 -1
+)
+"src/oUnitRunnerProcesses.ml" 239 8339 8359 "src/oUnitRunnerProcesses.ml" 239 8339 8366
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker list
+)
+ident(
+  def workers "src/oUnitRunnerProcesses.ml" 239 8339 8367 "src/oUnitRunnerProcesses.ml" 248 8640 8653
+)
+"src/oUnitRunnerProcesses.ml" 239 8339 8367 "src/oUnitRunnerProcesses.ml" 239 8339 8374
+type(
+  float
+)
+ident(
+  def timeout "src/oUnitRunnerProcesses.ml" 240 8377 8379 "src/oUnitRunnerProcesses.ml" 248 8640 8653
+)
+"src/oUnitRunnerProcesses.ml" 240 8377 8383 "src/oUnitRunnerProcesses.ml" 240 8377 8397
+type(
+  Unix.file_descr list
+)
+ident(
+  def workers_fd_lst "src/oUnitRunnerProcesses.ml" 243 8463 8465 "src/oUnitRunnerProcesses.ml" 248 8640 8653
+)
+"src/oUnitRunnerProcesses.ml" 241 8400 8404 "src/oUnitRunnerProcesses.ml" 241 8400 8416
+type(
+  (Unix.file_descr OUnitRunner.GenericWorker.worker -> Unix.file_descr) ->
+  Unix.file_descr OUnitRunner.GenericWorker.worker list ->
+  Unix.file_descr list
+)
+ident(
+  ext_ref List.rev_map
+)
+"src/oUnitRunnerProcesses.ml" 241 8400 8422 "src/oUnitRunnerProcesses.ml" 241 8400 8428
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+ident(
+  def worker "src/oUnitRunnerProcesses.ml" 241 8400 8432 "src/oUnitRunnerProcesses.ml" 241 8400 8448
+)
+"src/oUnitRunnerProcesses.ml" 241 8400 8432 "src/oUnitRunnerProcesses.ml" 241 8400 8438
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+ident(
+  int_ref worker "src/oUnitRunnerProcesses.ml" 241 8400 8422 "src/oUnitRunnerProcesses.ml" 241 8400 8428
+)
+"src/oUnitRunnerProcesses.ml" 241 8400 8432 "src/oUnitRunnerProcesses.ml" 241 8400 8448
+type(
+  Unix.file_descr
+)
+"src/oUnitRunnerProcesses.ml" 241 8400 8417 "src/oUnitRunnerProcesses.ml" 241 8400 8449
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker -> Unix.file_descr
+)
+"src/oUnitRunnerProcesses.ml" 241 8400 8450 "src/oUnitRunnerProcesses.ml" 241 8400 8457
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker list
+)
+ident(
+  int_ref workers "src/oUnitRunnerProcesses.ml" 239 8339 8359 "src/oUnitRunnerProcesses.ml" 239 8339 8366
+)
+"src/oUnitRunnerProcesses.ml" 241 8400 8404 "src/oUnitRunnerProcesses.ml" 241 8400 8457
+call(
+  stack
+)
+type(
+  Unix.file_descr list
+)
+"src/oUnitRunnerProcesses.ml" 243 8463 8469 "src/oUnitRunnerProcesses.ml" 243 8463 8491
+type(
+  Unix.file_descr list
+)
+ident(
+  def workers_fd_waiting_lst "src/oUnitRunnerProcesses.ml" 246 8550 8554 "src/oUnitRunnerProcesses.ml" 248 8640 8653
+)
+"src/oUnitRunnerProcesses.ml" 243 8463 8493 "src/oUnitRunnerProcesses.ml" 243 8463 8494
+type(
+  Unix.file_descr list
+)
+"src/oUnitRunnerProcesses.ml" 243 8463 8496 "src/oUnitRunnerProcesses.ml" 243 8463 8497
+type(
+  Unix.file_descr list
+)
+"src/oUnitRunnerProcesses.ml" 243 8463 8469 "src/oUnitRunnerProcesses.ml" 243 8463 8497
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"src/oUnitRunnerProcesses.ml" 244 8500 8504 "src/oUnitRunnerProcesses.ml" 244 8500 8515
+type(
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  float -> Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+ident(
+  ext_ref Unix.select
+)
+"src/oUnitRunnerProcesses.ml" 244 8500 8516 "src/oUnitRunnerProcesses.ml" 244 8500 8530
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref workers_fd_lst "src/oUnitRunnerProcesses.ml" 240 8377 8383 "src/oUnitRunnerProcesses.ml" 240 8377 8397
+)
+"src/oUnitRunnerProcesses.ml" 244 8500 8531 "src/oUnitRunnerProcesses.ml" 244 8500 8533
+type(
+  Unix.file_descr list
+)
+"src/oUnitRunnerProcesses.ml" 244 8500 8534 "src/oUnitRunnerProcesses.ml" 244 8500 8536
+type(
+  Unix.file_descr list
+)
+"src/oUnitRunnerProcesses.ml" 244 8500 8537 "src/oUnitRunnerProcesses.ml" 244 8500 8544
+type(
+  float
+)
+ident(
+  int_ref timeout "src/oUnitRunnerProcesses.ml" 239 8339 8367 "src/oUnitRunnerProcesses.ml" 239 8339 8374
+)
+"src/oUnitRunnerProcesses.ml" 244 8500 8504 "src/oUnitRunnerProcesses.ml" 244 8500 8544
+call(
+  stack
+)
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"src/oUnitRunnerProcesses.ml" 246 8550 8554 "src/oUnitRunnerProcesses.ml" 246 8550 8565
+type(
+  (Unix.file_descr OUnitRunner.GenericWorker.worker -> bool) ->
+  Unix.file_descr OUnitRunner.GenericWorker.worker list ->
+  Unix.file_descr OUnitRunner.GenericWorker.worker list
+)
+ident(
+  ext_ref List.filter
+)
+"src/oUnitRunnerProcesses.ml" 247 8566 8577 "src/oUnitRunnerProcesses.ml" 247 8566 8584
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+ident(
+  def workers "src/oUnitRunnerProcesses.ml" 247 8566 8588 "src/oUnitRunnerProcesses.ml" 247 8566 8638
+)
+"src/oUnitRunnerProcesses.ml" 247 8566 8588 "src/oUnitRunnerProcesses.ml" 247 8566 8597
+type(
+  Unix.file_descr -> Unix.file_descr list -> bool
+)
+ident(
+  ext_ref List.memq
+)
+"src/oUnitRunnerProcesses.ml" 247 8566 8598 "src/oUnitRunnerProcesses.ml" 247 8566 8605
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+ident(
+  int_ref workers "src/oUnitRunnerProcesses.ml" 247 8566 8577 "src/oUnitRunnerProcesses.ml" 247 8566 8584
+)
+"src/oUnitRunnerProcesses.ml" 247 8566 8598 "src/oUnitRunnerProcesses.ml" 247 8566 8615
+type(
+  Unix.file_descr
+)
+"src/oUnitRunnerProcesses.ml" 247 8566 8616 "src/oUnitRunnerProcesses.ml" 247 8566 8638
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref workers_fd_waiting_lst "src/oUnitRunnerProcesses.ml" 243 8463 8469 "src/oUnitRunnerProcesses.ml" 243 8463 8491
+)
+"src/oUnitRunnerProcesses.ml" 247 8566 8588 "src/oUnitRunnerProcesses.ml" 247 8566 8638
+call(
+  tail
+)
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 247 8566 8572 "src/oUnitRunnerProcesses.ml" 247 8566 8639
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker -> bool
+)
+"src/oUnitRunnerProcesses.ml" 248 8640 8646 "src/oUnitRunnerProcesses.ml" 248 8640 8653
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker list
+)
+ident(
+  int_ref workers "src/oUnitRunnerProcesses.ml" 239 8339 8359 "src/oUnitRunnerProcesses.ml" 239 8339 8366
+)
+"src/oUnitRunnerProcesses.ml" 246 8550 8554 "src/oUnitRunnerProcesses.ml" 248 8640 8653
+call(
+  tail
+)
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker list
+)
+"src/oUnitRunnerProcesses.ml" 243 8463 8465 "src/oUnitRunnerProcesses.ml" 248 8640 8653
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker list
+)
+"src/oUnitRunnerProcesses.ml" 240 8377 8379 "src/oUnitRunnerProcesses.ml" 248 8640 8653
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker list
+)
+"src/oUnitRunnerProcesses.ml" 250 8655 8659 "src/oUnitRunnerProcesses.ml" 250 8655 8663
+type(
+  unit -> unit
+)
+ident(
+  def init "src/oUnitRunnerProcesses.ml" 253 8741 8785 "src/oUnitRunnerProcesses.ml" 1 0 -1
+)
+"src/oUnitRunnerProcesses.ml" 250 8655 8664 "src/oUnitRunnerProcesses.ml" 250 8655 8666
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 251 8669 8674 "src/oUnitRunnerProcesses.ml" 251 8669 8685
+type(
+  string
+)
+ident(
+  ext_ref Sys.os_type
+)
+"src/oUnitRunnerProcesses.ml" 251 8669 8686 "src/oUnitRunnerProcesses.ml" 251 8669 8687
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/oUnitRunnerProcesses.ml" 251 8669 8688 "src/oUnitRunnerProcesses.ml" 251 8669 8694
+type(
+  string
+)
+"src/oUnitRunnerProcesses.ml" 251 8669 8674 "src/oUnitRunnerProcesses.ml" 251 8669 8694
+type(
+  bool
+)
+"src/oUnitRunnerProcesses.ml" 252 8700 8704 "src/oUnitRunnerProcesses.ml" 252 8700 8724
+type(
+  string -> int -> OUnitRunner.runner -> unit
+)
+ident(
+  ext_ref OUnitRunner.register
+)
+"src/oUnitRunnerProcesses.ml" 252 8700 8725 "src/oUnitRunnerProcesses.ml" 252 8700 8736
+type(
+  string
+)
+"src/oUnitRunnerProcesses.ml" 252 8700 8737 "src/oUnitRunnerProcesses.ml" 252 8700 8740
+type(
+  int
+)
+"src/oUnitRunnerProcesses.ml" 253 8741 8748 "src/oUnitRunnerProcesses.ml" 253 8741 8754
+type(
+  (OUnitConf.conf ->
+   (OUnitRunner.GenericWorker.MapPath.key * OUnitTest.test_length *
+    OUnitTest.test_fun)
+   OUnitRunner.GenericWorker.MapPath.t ->
+   string ->
+   string -> bool -> Unix.file_descr OUnitRunner.GenericWorker.worker) ->
+  (Unix.file_descr OUnitRunner.GenericWorker.worker list ->
+   float -> Unix.file_descr OUnitRunner.GenericWorker.worker list) ->
+  OUnitRunner.runner
+)
+ident(
+  ext_ref OUnitRunner.GenericWorker.runner
+)
+"src/oUnitRunnerProcesses.ml" 253 8741 8755 "src/oUnitRunnerProcesses.ml" 253 8741 8768
+type(
+  OUnitConf.conf ->
+  (OUnitRunner.GenericWorker.MapPath.key * OUnitTest.test_length *
+   OUnitTest.test_fun)
+  OUnitRunner.GenericWorker.MapPath.t ->
+  string ->
+  string -> bool -> Unix.file_descr OUnitRunner.GenericWorker.worker
+)
+ident(
+  int_ref create_worker "src/oUnitRunnerProcesses.ml" 127 4768 4772 "src/oUnitRunnerProcesses.ml" 127 4768 4785
+)
+"src/oUnitRunnerProcesses.ml" 253 8741 8769 "src/oUnitRunnerProcesses.ml" 253 8741 8784
+type(
+  Unix.file_descr OUnitRunner.GenericWorker.worker list ->
+  float -> Unix.file_descr OUnitRunner.GenericWorker.worker list
+)
+ident(
+  int_ref workers_waiting "src/oUnitRunnerProcesses.ml" 239 8339 8343 "src/oUnitRunnerProcesses.ml" 239 8339 8358
+)
+"src/oUnitRunnerProcesses.ml" 253 8741 8747 "src/oUnitRunnerProcesses.ml" 253 8741 8785
+call(
+  stack
+)
+type(
+  OUnitRunner.runner
+)
+"src/oUnitRunnerProcesses.ml" 252 8700 8704 "src/oUnitRunnerProcesses.ml" 253 8741 8785
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitRunnerProcesses.ml" 251 8669 8671 "src/oUnitRunnerProcesses.ml" 253 8741 8785
+type(
+  unit
+)

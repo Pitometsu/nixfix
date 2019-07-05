@@ -1,0 +1,19 @@
+(lang dune 1.10)
+(name qcheck-alcotest)
+(version 0.9)
+(library
+ (name qcheck-alcotest)
+ (kind normal)
+ (archives (byte qcheck_alcotest.cma) (native qcheck_alcotest.cmxa))
+ (plugins (byte qcheck_alcotest.cma) (native qcheck_alcotest.cmxs))
+ (foreign_archives (native qcheck_alcotest.a))
+ (requires unix bytes qcheck-core qcheck-core.runner alcotest)
+ (modes byte native)
+ (modules
+  (modules
+   ((name QCheck_alcotest)
+    (obj_name QCheck_alcotest)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped false)))

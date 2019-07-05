@@ -1,0 +1,21 @@
+(lang dune 1.10)
+(name cmdtui-lambda-term)
+(version 0.4.3)
+(library
+ (name cmdtui-lambda-term)
+ (kind normal)
+ (archives (byte cmdtui_lambda_term.cma) (native cmdtui_lambda_term.cmxa))
+ (plugins (byte cmdtui_lambda_term.cma) (native cmdtui_lambda_term.cmxs))
+ (foreign_archives (native cmdtui_lambda_term.a))
+ (requires lambda-term logs.fmt fmt.tty logs.lwt cmdliner cmdtui)
+ (main_module_name Cmdtui_lambda_term)
+ (modes byte native)
+ (modules
+  (main_module_name Cmdtui_lambda_term)
+  (modules
+   ((name Cmdtui_lambda_term)
+    (obj_name cmdtui_lambda_term)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

@@ -1,0 +1,16 @@
+(lang dune 1.10)
+(name fieldslib)
+(version v0.11.0)
+(library
+ (name fieldslib)
+ (kind normal)
+ (archives (byte fieldslib.cma) (native fieldslib.cmxa))
+ (plugins (byte fieldslib.cma) (native fieldslib.cmxs))
+ (foreign_archives (native fieldslib.a))
+ (requires base)
+ (main_module_name Fieldslib)
+ (modes byte native)
+ (modules
+  (main_module_name Fieldslib)
+  (modules ((name Fieldslib) (obj_name fieldslib) (visibility public) (impl)))
+  (wrapped true)))

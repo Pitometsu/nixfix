@@ -1,0 +1,6 @@
+name="ppx_type_of"
+version="1.4.1"
+description="PPX to add Ppx_type_of.type_of : 'a -> string, which returns the string of the type of the argument"
+requires=""
+ppx="./ppx_type_of"
+linkopts = ""

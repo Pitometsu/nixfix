@@ -1,0 +1,31 @@
+(lang dune 1.10)
+(name qcheck-core)
+(version 0.9)
+(library
+ (name qcheck-core)
+ (kind normal)
+ (archives (byte qcheck_core.cma) (native qcheck_core.cmxa))
+ (plugins (byte qcheck_core.cma) (native qcheck_core.cmxs))
+ (foreign_archives (native qcheck_core.a))
+ (requires unix bytes)
+ (modes byte native)
+ (modules
+  (modules
+   ((name QCheck) (obj_name QCheck) (visibility public) (impl) (intf)))
+  (wrapped false)))
+(library
+ (name qcheck-core.runner)
+ (kind normal)
+ (archives (byte runner/qcheck_runner.cma) (native runner/qcheck_runner.cmxa))
+ (plugins (byte runner/qcheck_runner.cma) (native runner/qcheck_runner.cmxs))
+ (foreign_archives (native runner/qcheck_runner.a))
+ (requires qcheck-core)
+ (modes byte native)
+ (modules
+  (modules
+   ((name QCheck_base_runner)
+    (obj_name QCheck_base_runner)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped false)))

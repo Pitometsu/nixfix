@@ -1,0 +1,79 @@
+version = "5.0.1"
+description = "Dose3 libraries"
+archive(byte) = "common.cma algo.cma versioning.cma pef.cma debian.cma csw.cma opam.cma npm.cma"
+archive(native) = "common.cmxa algo.cmxa versioning.cmxa pef.cmxa debian.cmxa csw.cmxa opam.cmxa npm.cmxa"
+requires = "extlib, re.pcre, cudf, ocamlgraph, unix, , "
+
+package "common" (
+version = "5.0.1"
+archive(byte) = "common.cma"
+archive(native) = "common.cmxa"
+requires = "extlib, re.pcre, cudf, unix, , "
+)
+
+package "algo" (
+version = "5.0.1"
+archive(byte) = "algo.cma"
+archive(native) = "algo.cmxa"
+requires = "ocamlgraph, dose3.common"
+)
+
+package "versioning" (
+version = "5.0.1"
+archive(byte) = "versioning.cma"
+archive(native) = "versioning.cmxa"
+requires = "dose3.common"
+)
+
+package "debian" (
+version = "5.0.1"
+archive(byte) = "debian.cma"
+archive(native) = "debian.cmxa"
+requires = "dose3.common dose3.versioning"
+)
+
+package "opam" (
+version = "5.0.1"
+archive(byte) = "opam.cma"
+archive(native) = "opam.cmxa"
+requires = "dose3.common dose3.pef"
+)
+
+package "pef" (
+version = "5.0.1"
+archive(byte) = "pef.cma"
+archive(native) = "pef.cmxa"
+requires = "dose3.common"
+)
+
+package "csw" (
+version = "5.0.1"
+archive(byte) = "csw.cma"
+archive(native) = "csw.cmxa"
+requires = "dose3.common, dose3.debian"
+)
+
+package "rpm" (
+version = "5.0.1"
+archive(byte) = "rpm.cma"
+archive(native) = "rpm.cmxa"
+requires = "dose3.common"
+)
+
+package "doseparse" (
+version = "5.0.1"
+archive(byte) = "rpm.cma doseparse.cma"
+archive(native) = "rpm.cmxa doseparse.cmxa"
+)
+
+package "doseparseNoRpm" (
+version = "5.0.1"
+archive(byte) = "doseparseNoRpm.cma"
+archive(native) = "doseparseNoRpm.cmxa"
+)
+
+package "npm" (
+version = "5.0.1"
+archive(byte) = "npm.cma"
+archive(native) = "npm.cmxa"
+)

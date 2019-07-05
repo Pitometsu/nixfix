@@ -1,0 +1,22 @@
+"migrate.ml" 1 0 4 "migrate.ml" 1 0 6
+type(
+  unit
+)
+"migrate.ml" 1 0 9 "migrate.ml" 1 0 42
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Migrate_parsetree.Driver.run_main
+)
+"migrate.ml" 1 0 43 "migrate.ml" 1 0 45
+type(
+  unit
+)
+"migrate.ml" 1 0 9 "migrate.ml" 1 0 45
+call(
+  stack
+)
+type(
+  unit
+)

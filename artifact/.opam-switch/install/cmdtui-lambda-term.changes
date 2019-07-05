@@ -1,0 +1,22 @@
+added: [
+  "doc/cmdtui-lambda-term" {"D"}
+  "doc/cmdtui-lambda-term/CHANGES.md" {"F:S297T1560961293.23"}
+  "doc/cmdtui-lambda-term/LICENSE.md" {"F:S761T1560961293.26"}
+  "doc/cmdtui-lambda-term/README.md" {"F:S1288T1560961293.28"}
+  "doc/cmdtui-lambda-term/example.ml" {"F:S1709T1560961293.3"}
+  "lib/cmdtui-lambda-term" {"D"}
+  "lib/cmdtui-lambda-term/META" {"F:S270T1560961292.8"}
+  "lib/cmdtui-lambda-term/cmdtui_lambda_term.a" {"F:S89280T1560961292.83"}
+  "lib/cmdtui-lambda-term/cmdtui_lambda_term.cma" {"F:S74286T1560961292.85"}
+  "lib/cmdtui-lambda-term/cmdtui_lambda_term.cmi" {"F:S1478T1560961292.87"}
+  "lib/cmdtui-lambda-term/cmdtui_lambda_term.cmt" {"F:S163845T1560961292.9"}
+  "lib/cmdtui-lambda-term/cmdtui_lambda_term.cmti" {"F:S14667T1560961292.95"}
+  "lib/cmdtui-lambda-term/cmdtui_lambda_term.cmx" {"F:S6989T1560961292.98"}
+  "lib/cmdtui-lambda-term/cmdtui_lambda_term.cmxa" {"F:S4585T1560961293.02"}
+  "lib/cmdtui-lambda-term/cmdtui_lambda_term.cmxs"
+    {"F:S105512T1560961293.07"}
+  "lib/cmdtui-lambda-term/cmdtui_lambda_term.ml" {"F:S9866T1560961293.11"}
+  "lib/cmdtui-lambda-term/cmdtui_lambda_term.mli" {"F:S4058T1560961293.16"}
+  "lib/cmdtui-lambda-term/dune-package" {"F:S627T1560961293.19"}
+  "lib/cmdtui-lambda-term/opam" {"F:S689T1560961293.21"}
+]

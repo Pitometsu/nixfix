@@ -1,0 +1,22 @@
+"legacy.ml" 1 0 4 "legacy.ml" 1 0 6
+type(
+  unit
+)
+"legacy.ml" 1 0 9 "legacy.ml" 1 0 24
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Ppx.legacy_main
+)
+"legacy.ml" 1 0 25 "legacy.ml" 1 0 27
+type(
+  unit
+)
+"legacy.ml" 1 0 9 "legacy.ml" 1 0 27
+call(
+  stack
+)
+type(
+  unit
+)

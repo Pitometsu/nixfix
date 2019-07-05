@@ -1,0 +1,6 @@
+name="ppx_overload"
+version="@version@"
+description="PPX for SML style overloading"
+requires=""
+ppx="./ppx_overload"
+linkopts = ""

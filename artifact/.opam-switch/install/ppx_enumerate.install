@@ -1,0 +1,20 @@
+lib: [
+  "_build/install/default/lib/ppx_enumerate/META"
+  "_build/install/default/lib/ppx_enumerate/dune-package"
+  "_build/install/default/lib/ppx_enumerate/opam"
+  "_build/install/default/lib/ppx_enumerate/ppx_enumerate.a"
+  "_build/install/default/lib/ppx_enumerate/ppx_enumerate.cma"
+  "_build/install/default/lib/ppx_enumerate/ppx_enumerate.cmi"
+  "_build/install/default/lib/ppx_enumerate/ppx_enumerate.cmt"
+  "_build/install/default/lib/ppx_enumerate/ppx_enumerate.cmti"
+  "_build/install/default/lib/ppx_enumerate/ppx_enumerate.cmx"
+  "_build/install/default/lib/ppx_enumerate/ppx_enumerate.cmxa"
+  "_build/install/default/lib/ppx_enumerate/ppx_enumerate.cmxs"
+  "_build/install/default/lib/ppx_enumerate/ppx_enumerate.ml"
+  "_build/install/default/lib/ppx_enumerate/ppx_enumerate.mli"
+]
+doc: [
+  "_build/install/default/doc/ppx_enumerate/CHANGES.md"
+  "_build/install/default/doc/ppx_enumerate/LICENSE.txt"
+  "_build/install/default/doc/ppx_enumerate/README.md"
+]

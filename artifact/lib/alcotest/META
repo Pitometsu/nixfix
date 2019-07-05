@@ -1,0 +1,7 @@
+version = "0.8.5"
+description = ""
+requires = "astring cmdliner fmt fmt.cli fmt.tty result uuidm"
+archive(byte) = "alcotest.cma"
+archive(native) = "alcotest.cmxa"
+plugin(byte) = "alcotest.cma"
+plugin(native) = "alcotest.cmxs"

@@ -1,0 +1,737 @@
+"crelated.ml" 10 79 83 "crelated.ml" 10 79 93
+type(
+  Env.t -> Types.type_expr -> Path.t list
+)
+ident(
+  def data_types "crelated.ml" 27 491 491 "crelated.ml" 1 0 -1
+)
+"crelated.ml" 10 79 94 "crelated.ml" 10 79 97
+type(
+  Env.t
+)
+ident(
+  def env "crelated.ml" 10 79 98 "crelated.ml" 25 465 489
+)
+"crelated.ml" 10 79 98 "crelated.ml" 10 79 100
+type(
+  Types.type_expr
+)
+ident(
+  def ty "crelated.ml" 11 103 105 "crelated.ml" 25 465 489
+)
+"crelated.ml" 13 143 149 "crelated.ml" 13 143 152
+type(
+  Path.t list ref
+)
+ident(
+  def res "crelated.ml" 15 209 211 "crelated.ml" 25 465 489
+)
+"crelated.ml" 13 143 155 "crelated.ml" 13 143 158
+type(
+  Path.t list -> Path.t list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"crelated.ml" 13 143 159 "crelated.ml" 13 143 161
+type(
+  Path.t list
+)
+"crelated.ml" 13 143 155 "crelated.ml" 13 143 161
+type(
+  Path.t list ref
+)
+"crelated.ml" 15 209 215 "crelated.ml" 15 209 231
+type(
+  Env.t -> Types.type_expr -> Typpx.Compilerlib.Types.type_desc
+)
+ident(
+  def expand_repr_desc "crelated.ml" 16 277 279 "crelated.ml" 25 465 489
+)
+"crelated.ml" 15 209 232 "crelated.ml" 15 209 235
+type(
+  Env.t
+)
+ident(
+  def env "crelated.ml" 15 209 236 "crelated.ml" 15 209 273
+)
+"crelated.ml" 15 209 236 "crelated.ml" 15 209 238
+type(
+  Types.type_expr
+)
+ident(
+  def ty "crelated.ml" 15 209 241 "crelated.ml" 15 209 273
+)
+"crelated.ml" 15 209 242 "crelated.ml" 15 209 246
+type(
+  Types.type_expr -> Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.repr
+)
+"crelated.ml" 15 209 247 "crelated.ml" 15 209 248
+type(
+  (Types.type_expr -> Typpx.Compilerlib.Types.type_expr) ->
+  Types.type_expr -> Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"crelated.ml" 15 209 249 "crelated.ml" 15 209 260
+type(
+  Env.t -> Types.type_expr -> Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.expand_head
+)
+"crelated.ml" 15 209 261 "crelated.ml" 15 209 264
+type(
+  Env.t
+)
+ident(
+  int_ref env "crelated.ml" 15 209 232 "crelated.ml" 15 209 235
+)
+"crelated.ml" 15 209 265 "crelated.ml" 15 209 267
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "crelated.ml" 15 209 236 "crelated.ml" 15 209 238
+)
+"crelated.ml" 15 209 249 "crelated.ml" 15 209 267
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"crelated.ml" 15 209 241 "crelated.ml" 15 209 268
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"crelated.ml" 15 209 241 "crelated.ml" 15 209 273
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"crelated.ml" 16 277 287 "crelated.ml" 16 277 291
+type(
+  Types.type_expr -> unit
+)
+ident(
+  def loop "crelated.ml" 16 277 279 "crelated.ml" 25 465 489
+)
+"crelated.ml" 16 277 292 "crelated.ml" 16 277 294
+type(
+  Types.type_expr
+)
+ident(
+  def ty "crelated.ml" 17 298 302 "crelated.ml" 22 422 448
+)
+"crelated.ml" 17 298 314 "crelated.ml" 17 298 330
+type(
+  Env.t -> Types.type_expr -> Typpx.Compilerlib.Types.type_desc
+)
+ident(
+  int_ref expand_repr_desc "crelated.ml" 15 209 215 "crelated.ml" 15 209 231
+)
+"crelated.ml" 17 298 331 "crelated.ml" 17 298 334
+type(
+  Env.t
+)
+ident(
+  int_ref env "crelated.ml" 10 79 94 "crelated.ml" 10 79 97
+)
+"crelated.ml" 17 298 335 "crelated.ml" 17 298 337
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "crelated.ml" 16 277 292 "crelated.ml" 16 277 294
+)
+"crelated.ml" 17 298 314 "crelated.ml" 17 298 337
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"crelated.ml" 18 343 358 "crelated.ml" 18 343 359
+type(
+  Path.t
+)
+ident(
+  def p "crelated.ml" 19 373 381 "crelated.ml" 19 373 398
+)
+"crelated.ml" 18 343 361 "crelated.ml" 18 343 365
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+ident(
+  def _tys "crelated.ml" 19 373 381 "crelated.ml" 19 373 398
+)
+"crelated.ml" 18 343 367 "crelated.ml" 18 343 368
+type(
+  Typpx.Compilerlib.Types.abbrev_memo ref
+)
+"crelated.ml" 18 343 349 "crelated.ml" 18 343 369
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"crelated.ml" 19 373 381 "crelated.ml" 19 373 384
+type(
+  Path.t list ref
+)
+ident(
+  int_ref res "crelated.ml" 13 143 149 "crelated.ml" 13 143 152
+)
+"crelated.ml" 19 373 385 "crelated.ml" 19 373 387
+type(
+  Path.t list ref -> Path.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"crelated.ml" 19 373 388 "crelated.ml" 19 373 389
+type(
+  Path.t
+)
+ident(
+  int_ref p "crelated.ml" 18 343 358 "crelated.ml" 18 343 359
+)
+"crelated.ml" 19 373 393 "crelated.ml" 19 373 394
+type(
+  Path.t list ref -> Path.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"crelated.ml" 19 373 394 "crelated.ml" 19 373 397
+type(
+  Path.t list ref
+)
+ident(
+  int_ref res "crelated.ml" 13 143 149 "crelated.ml" 13 143 152
+)
+"crelated.ml" 19 373 393 "crelated.ml" 19 373 397
+type(
+  Path.t list
+)
+"crelated.ml" 19 373 388 "crelated.ml" 19 373 397
+type(
+  Path.t list
+)
+"crelated.ml" 19 373 381 "crelated.ml" 19 373 398
+type(
+  unit
+)
+"crelated.ml" 20 399 405 "crelated.ml" 20 399 406
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"crelated.ml" 20 399 410 "crelated.ml" 20 399 412
+type(
+  unit
+)
+"crelated.ml" 17 298 302 "crelated.ml" 21 413 420
+type(
+  unit
+)
+"crelated.ml" 22 422 426 "crelated.ml" 22 422 440
+type(
+  (Types.type_expr -> unit) -> Types.type_expr -> unit
+)
+ident(
+  ext_ref Btype.iter_type_expr
+)
+"crelated.ml" 22 422 441 "crelated.ml" 22 422 445
+type(
+  Types.type_expr -> unit
+)
+ident(
+  int_ref loop "crelated.ml" 16 277 287 "crelated.ml" 16 277 291
+)
+"crelated.ml" 22 422 446 "crelated.ml" 22 422 448
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "crelated.ml" 16 277 292 "crelated.ml" 16 277 294
+)
+"crelated.ml" 22 422 426 "crelated.ml" 22 422 448
+call(
+  tail
+)
+type(
+  unit
+)
+"crelated.ml" 17 298 302 "crelated.ml" 22 422 448
+type(
+  unit
+)
+"crelated.ml" 24 454 456 "crelated.ml" 24 454 460
+type(
+  Types.type_expr -> unit
+)
+ident(
+  int_ref loop "crelated.ml" 16 277 287 "crelated.ml" 16 277 291
+)
+"crelated.ml" 24 454 461 "crelated.ml" 24 454 463
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "crelated.ml" 10 79 98 "crelated.ml" 10 79 100
+)
+"crelated.ml" 24 454 456 "crelated.ml" 24 454 463
+call(
+  stack
+)
+type(
+  unit
+)
+"crelated.ml" 25 465 467 "crelated.ml" 25 465 476
+type(
+  (Path.t -> Path.t -> int) -> Path.t list -> Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.sort_uniq
+)
+"crelated.ml" 25 465 477 "crelated.ml" 25 465 484
+type(
+  Path.t -> Path.t -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"crelated.ml" 25 465 485 "crelated.ml" 25 465 486
+type(
+  Path.t list ref -> Path.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"crelated.ml" 25 465 486 "crelated.ml" 25 465 489
+type(
+  Path.t list ref
+)
+ident(
+  int_ref res "crelated.ml" 13 143 149 "crelated.ml" 13 143 152
+)
+"crelated.ml" 25 465 485 "crelated.ml" 25 465 489
+type(
+  Path.t list
+)
+"crelated.ml" 25 465 467 "crelated.ml" 25 465 489
+call(
+  tail
+)
+type(
+  Path.t list
+)
+"crelated.ml" 24 454 456 "crelated.ml" 25 465 489
+type(
+  Path.t list
+)
+"crelated.ml" 16 277 279 "crelated.ml" 25 465 489
+type(
+  Path.t list
+)
+"crelated.ml" 15 209 211 "crelated.ml" 25 465 489
+type(
+  Path.t list
+)
+"crelated.ml" 13 143 145 "crelated.ml" 25 465 489
+type(
+  Path.t list
+)
+"crelated.ml" 27 491 495 "crelated.ml" 27 491 510
+type(
+  Env.t -> Types.type_expr -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  def related_modules "crelated.ml" 37 767 767 "crelated.ml" 1 0 -1
+)
+"crelated.ml" 27 491 511 "crelated.ml" 27 491 514
+type(
+  Env.t
+)
+ident(
+  def env "crelated.ml" 27 491 515 "crelated.ml" 34 705 727
+)
+"crelated.ml" 27 491 515 "crelated.ml" 27 491 517
+type(
+  Types.type_expr
+)
+ident(
+  def ty "crelated.ml" 28 520 522 "crelated.ml" 34 705 727
+)
+"crelated.ml" 29 539 541 "crelated.ml" 29 539 551
+type(
+  Env.t -> Types.type_expr -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref data_types "crelated.ml" 10 79 83 "crelated.ml" 10 79 93
+)
+"crelated.ml" 29 539 552 "crelated.ml" 29 539 555
+type(
+  Env.t
+)
+ident(
+  int_ref env "crelated.ml" 27 491 511 "crelated.ml" 27 491 514
+)
+"crelated.ml" 29 539 556 "crelated.ml" 29 539 558
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "crelated.ml" 27 491 515 "crelated.ml" 27 491 517
+)
+"crelated.ml" 29 539 541 "crelated.ml" 29 539 558
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"crelated.ml" 30 559 561 "crelated.ml" 30 559 563
+type(
+  Typpx.Compilerlib.Path.t list ->
+  (Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list) ->
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"crelated.ml" 30 559 564 "crelated.ml" 30 559 574
+type(
+  (Typpx.Compilerlib.Path.t -> Typpx.Compilerlib.Path.t option) ->
+  Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.filter_map
+)
+"crelated.ml" 31 585 599 "crelated.ml" 31 585 600
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def p "crelated.ml" 31 585 611 "crelated.ml" 31 585 617
+)
+"crelated.ml" 31 585 602 "crelated.ml" 31 585 603
+type(
+  string
+)
+"crelated.ml" 31 585 605 "crelated.ml" 31 585 606
+type(
+  int
+)
+"crelated.ml" 31 585 593 "crelated.ml" 31 585 607
+type(
+  Typpx.Compilerlib.Path.t
+)
+"crelated.ml" 31 585 616 "crelated.ml" 31 585 617
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref p "crelated.ml" 31 585 599 "crelated.ml" 31 585 600
+)
+"crelated.ml" 31 585 611 "crelated.ml" 31 585 617
+type(
+  Typpx.Compilerlib.Path.t option
+)
+"crelated.ml" 32 618 633 "crelated.ml" 32 618 634
+type(
+  Ident.t
+)
+"crelated.ml" 32 618 626 "crelated.ml" 32 618 634
+type(
+  Typpx.Compilerlib.Path.t
+)
+"crelated.ml" 32 618 638 "crelated.ml" 32 618 642
+type(
+  Typpx.Compilerlib.Path.t option
+)
+"crelated.ml" 33 643 658 "crelated.ml" 33 643 659
+type(
+  Typpx.Compilerlib.Path.t
+)
+type(
+  Typpx.Compilerlib.Path.t
+)
+"crelated.ml" 33 643 651 "crelated.ml" 33 643 659
+type(
+  Typpx.Compilerlib.Path.t
+)
+"crelated.ml" 33 643 663 "crelated.ml" 33 643 667
+type(
+  Typpx.Compilerlib.Path.t option
+)
+"crelated.ml" 30 559 575 "crelated.ml" 33 643 704
+type(
+  Typpx.Compilerlib.Path.t -> Typpx.Compilerlib.Path.t option
+)
+"crelated.ml" 30 559 564 "crelated.ml" 33 643 704
+type(
+  Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list
+)
+"crelated.ml" 29 539 541 "crelated.ml" 33 643 704
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"crelated.ml" 34 705 707 "crelated.ml" 34 705 709
+type(
+  Typpx.Compilerlib.Path.t list ->
+  (Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list) ->
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"crelated.ml" 34 705 710 "crelated.ml" 34 705 719
+type(
+  (Typpx.Compilerlib.Path.t -> Typpx.Compilerlib.Path.t -> int) ->
+  Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.sort_uniq
+)
+"crelated.ml" 34 705 720 "crelated.ml" 34 705 727
+type(
+  Typpx.Compilerlib.Path.t -> Typpx.Compilerlib.Path.t -> int
+)
+ident(
+  ext_ref Typpx.Compilerlib.Path.compare
+)
+"crelated.ml" 34 705 710 "crelated.ml" 34 705 727
+type(
+  Typpx.Compilerlib.Path.t list -> Typpx.Compilerlib.Path.t list
+)
+"crelated.ml" 29 539 541 "crelated.ml" 34 705 727
+call(
+  tail
+)
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"crelated.ml" 37 767 771 "crelated.ml" 37 767 783
+type(
+  Env.t -> Ast_405.Location.t -> Types.type_expr -> Candidate.t list
+)
+ident(
+  def cand_related "crelated.ml" 43 1044 1057 "crelated.ml" 1 0 -1
+)
+"crelated.ml" 37 767 784 "crelated.ml" 37 767 787
+type(
+  Env.t
+)
+ident(
+  def env "crelated.ml" 37 767 788 "crelated.ml" 43 1044 1057
+)
+"crelated.ml" 37 767 788 "crelated.ml" 37 767 791
+type(
+  Ast_405.Location.t
+)
+ident(
+  def loc "crelated.ml" 37 767 792 "crelated.ml" 43 1044 1057
+)
+"crelated.ml" 37 767 792 "crelated.ml" 37 767 794
+type(
+  Types.type_expr
+)
+ident(
+  def ty "crelated.ml" 38 798 800 "crelated.ml" 43 1044 1057
+)
+"crelated.ml" 38 798 804 "crelated.ml" 38 798 813
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  def mod_paths "crelated.ml" 40 898 900 "crelated.ml" 43 1044 1057
+)
+"crelated.ml" 38 798 816 "crelated.ml" 38 798 831
+type(
+  Env.t -> Types.type_expr -> Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref related_modules "crelated.ml" 27 491 495 "crelated.ml" 27 491 510
+)
+"crelated.ml" 38 798 832 "crelated.ml" 38 798 835
+type(
+  Env.t
+)
+ident(
+  int_ref env "crelated.ml" 37 767 784 "crelated.ml" 37 767 787
+)
+"crelated.ml" 38 798 836 "crelated.ml" 38 798 838
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "crelated.ml" 37 767 792 "crelated.ml" 37 767 794
+)
+"crelated.ml" 38 798 816 "crelated.ml" 38 798 838
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Path.t list
+)
+"crelated.ml" 40 898 900 "crelated.ml" 40 898 906
+type(
+  Candidate.t list list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.concat
+)
+"crelated.ml" 40 898 907 "crelated.ml" 40 898 908
+type(
+  (Candidate.t list list -> Candidate.t list) ->
+  Candidate.t list list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"crelated.ml" 40 898 909 "crelated.ml" 40 898 912
+type(
+  (Typpx.Compilerlib.Path.t -> Candidate.t list) ->
+  Typpx.Compilerlib.Path.t list -> Candidate.t list list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"crelated.ml" 40 898 918 "crelated.ml" 40 898 922
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  def path "crelated.ml" 41 926 930 "crelated.ml" 42 998 1043
+)
+"crelated.ml" 41 926 934 "crelated.ml" 41 926 939
+type(
+  Path.t list
+)
+ident(
+  def paths "crelated.ml" 42 998 1002 "crelated.ml" 42 998 1043
+)
+"crelated.ml" 41 926 942 "crelated.ml" 41 926 964
+type(
+  recursive:bool ->
+  Env.t -> Ast_405.Location.t -> Typpx.Compilerlib.Path.t -> Path.t list
+)
+ident(
+  ext_ref Utils.values_of_module
+)
+"crelated.ml" 41 926 976 "crelated.ml" 41 926 981
+type(
+  bool
+)
+"crelated.ml" 41 926 982 "crelated.ml" 41 926 985
+type(
+  Env.t
+)
+ident(
+  int_ref env "crelated.ml" 37 767 784 "crelated.ml" 37 767 787
+)
+"crelated.ml" 41 926 986 "crelated.ml" 41 926 989
+type(
+  Ast_405.Location.t
+)
+ident(
+  int_ref loc "crelated.ml" 37 767 788 "crelated.ml" 37 767 791
+)
+"crelated.ml" 41 926 990 "crelated.ml" 41 926 994
+type(
+  Typpx.Compilerlib.Path.t
+)
+ident(
+  int_ref path "crelated.ml" 40 898 918 "crelated.ml" 40 898 922
+)
+"crelated.ml" 41 926 942 "crelated.ml" 41 926 994
+call(
+  stack
+)
+type(
+  Path.t list
+)
+"crelated.ml" 42 998 1002 "crelated.ml" 42 998 1005
+type(
+  (Path.t -> Candidate.t) -> Path.t list -> Candidate.t list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"crelated.ml" 42 998 1007 "crelated.ml" 42 998 1032
+type(
+  Env.t -> Path.t -> Candidate.t
+)
+ident(
+  ext_ref Candidate.default_candidate_of_path
+)
+"crelated.ml" 42 998 1033 "crelated.ml" 42 998 1036
+type(
+  Env.t
+)
+ident(
+  int_ref env "crelated.ml" 37 767 784 "crelated.ml" 37 767 787
+)
+"crelated.ml" 42 998 1006 "crelated.ml" 42 998 1037
+call(
+  stack
+)
+type(
+  Path.t -> Candidate.t
+)
+"crelated.ml" 42 998 1038 "crelated.ml" 42 998 1043
+type(
+  Path.t list
+)
+ident(
+  int_ref paths "crelated.ml" 41 926 934 "crelated.ml" 41 926 939
+)
+"crelated.ml" 42 998 1002 "crelated.ml" 42 998 1043
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"crelated.ml" 41 926 930 "crelated.ml" 42 998 1043
+type(
+  Candidate.t list
+)
+"crelated.ml" 40 898 913 "crelated.ml" 43 1044 1047
+type(
+  Typpx.Compilerlib.Path.t -> Candidate.t list
+)
+"crelated.ml" 43 1044 1048 "crelated.ml" 43 1044 1057
+type(
+  Typpx.Compilerlib.Path.t list
+)
+ident(
+  int_ref mod_paths "crelated.ml" 38 798 804 "crelated.ml" 38 798 813
+)
+"crelated.ml" 40 898 909 "crelated.ml" 43 1044 1057
+call(
+  stack
+)
+type(
+  Candidate.t list list
+)
+"crelated.ml" 40 898 900 "crelated.ml" 43 1044 1057
+call(
+  tail
+)
+type(
+  Candidate.t list
+)
+"crelated.ml" 38 798 800 "crelated.ml" 43 1044 1057
+type(
+  Candidate.t list
+)

@@ -1,0 +1,17 @@
+(lang dune 1.10)
+(name cmdtui)
+(version 0.4.3)
+(library
+ (name cmdtui)
+ (kind normal)
+ (archives (byte cmdtui.cma) (native cmdtui.cmxa))
+ (plugins (byte cmdtui.cma) (native cmdtui.cmxs))
+ (foreign_archives (native cmdtui.a))
+ (requires astring)
+ (main_module_name Cmdtui)
+ (modes byte native)
+ (modules
+  (main_module_name Cmdtui)
+  (modules
+   ((name Cmdtui) (obj_name cmdtui) (visibility public) (impl) (intf)))
+  (wrapped true)))

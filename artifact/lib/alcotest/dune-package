@@ -1,0 +1,17 @@
+(lang dune 1.10)
+(name alcotest)
+(version 0.8.5)
+(library
+ (name alcotest)
+ (kind normal)
+ (archives (byte alcotest.cma) (native alcotest.cmxa))
+ (plugins (byte alcotest.cma) (native alcotest.cmxs))
+ (foreign_archives (native alcotest.a))
+ (requires fmt astring result cmdliner fmt.cli fmt.tty uuidm)
+ (main_module_name Alcotest)
+ (modes byte native)
+ (modules
+  (main_module_name Alcotest)
+  (modules
+   ((name Alcotest) (obj_name alcotest) (visibility public) (impl) (intf)))
+  (wrapped true)))

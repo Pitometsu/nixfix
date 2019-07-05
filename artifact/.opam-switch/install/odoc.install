@@ -1,0 +1,704 @@
+lib: [
+  "_build/install/default/lib/odoc/META"
+  "_build/install/default/lib/odoc/alias/odoc__alias.a"
+    {"alias/odoc__alias.a"}
+  "_build/install/default/lib/odoc/alias/odoc__alias.cma"
+    {"alias/odoc__alias.cma"}
+  "_build/install/default/lib/odoc/alias/odoc__alias.cmi"
+    {"alias/odoc__alias.cmi"}
+  "_build/install/default/lib/odoc/alias/odoc__alias.cmt"
+    {"alias/odoc__alias.cmt"}
+  "_build/install/default/lib/odoc/alias/odoc__alias.cmx"
+    {"alias/odoc__alias.cmx"}
+  "_build/install/default/lib/odoc/alias/odoc__alias.cmxa"
+    {"alias/odoc__alias.cmxa"}
+  "_build/install/default/lib/odoc/alias/odoc__alias.cmxs"
+    {"alias/odoc__alias.cmxs"}
+  "_build/install/default/lib/odoc/alias/odoc__alias.ml"
+    {"alias/odoc__alias.ml"}
+  "_build/install/default/lib/odoc/compat/odoc__compat.a"
+    {"compat/odoc__compat.a"}
+  "_build/install/default/lib/odoc/compat/odoc__compat.cma"
+    {"compat/odoc__compat.cma"}
+  "_build/install/default/lib/odoc/compat/odoc__compat.cmi"
+    {"compat/odoc__compat.cmi"}
+  "_build/install/default/lib/odoc/compat/odoc__compat.cmt"
+    {"compat/odoc__compat.cmt"}
+  "_build/install/default/lib/odoc/compat/odoc__compat.cmx"
+    {"compat/odoc__compat.cmx"}
+  "_build/install/default/lib/odoc/compat/odoc__compat.cmxa"
+    {"compat/odoc__compat.cmxa"}
+  "_build/install/default/lib/odoc/compat/odoc__compat.cmxs"
+    {"compat/odoc__compat.cmxs"}
+  "_build/install/default/lib/odoc/compat/odoc__compat.ml"
+    {"compat/odoc__compat.ml"}
+  "_build/install/default/lib/odoc/dune-package"
+  "_build/install/default/lib/odoc/html/ML.ml" {"html/ML.ml"}
+  "_build/install/default/lib/odoc/html/ML.mli" {"html/ML.mli"}
+  "_build/install/default/lib/odoc/html/comment.ml" {"html/comment.ml"}
+  "_build/install/default/lib/odoc/html/comment.mli" {"html/comment.mli"}
+  "_build/install/default/lib/odoc/html/generator.ml" {"html/generator.ml"}
+  "_build/install/default/lib/odoc/html/generator.mli" {"html/generator.mli"}
+  "_build/install/default/lib/odoc/html/generator_signatures.ml"
+    {"html/generator_signatures.ml"}
+  "_build/install/default/lib/odoc/html/odoc__html.a" {"html/odoc__html.a"}
+  "_build/install/default/lib/odoc/html/odoc__html.cma"
+    {"html/odoc__html.cma"}
+  "_build/install/default/lib/odoc/html/odoc__html.cmi"
+    {"html/odoc__html.cmi"}
+  "_build/install/default/lib/odoc/html/odoc__html.cmt"
+    {"html/odoc__html.cmt"}
+  "_build/install/default/lib/odoc/html/odoc__html.cmx"
+    {"html/odoc__html.cmx"}
+  "_build/install/default/lib/odoc/html/odoc__html.cmxa"
+    {"html/odoc__html.cmxa"}
+  "_build/install/default/lib/odoc/html/odoc__html.cmxs"
+    {"html/odoc__html.cmxs"}
+  "_build/install/default/lib/odoc/html/odoc__html.ml" {"html/odoc__html.ml"}
+  "_build/install/default/lib/odoc/html/odoc__html__.cmi"
+    {"html/odoc__html__.cmi"}
+  "_build/install/default/lib/odoc/html/odoc__html__.cmt"
+    {"html/odoc__html__.cmt"}
+  "_build/install/default/lib/odoc/html/odoc__html__.cmx"
+    {"html/odoc__html__.cmx"}
+  "_build/install/default/lib/odoc/html/odoc__html__.ml"
+    {"html/odoc__html__.ml"}
+  "_build/install/default/lib/odoc/html/odoc__html__Comment.cmi"
+    {"html/odoc__html__Comment.cmi"}
+  "_build/install/default/lib/odoc/html/odoc__html__Comment.cmt"
+    {"html/odoc__html__Comment.cmt"}
+  "_build/install/default/lib/odoc/html/odoc__html__Comment.cmti"
+    {"html/odoc__html__Comment.cmti"}
+  "_build/install/default/lib/odoc/html/odoc__html__Comment.cmx"
+    {"html/odoc__html__Comment.cmx"}
+  "_build/install/default/lib/odoc/html/odoc__html__Generator.cmi"
+    {"html/odoc__html__Generator.cmi"}
+  "_build/install/default/lib/odoc/html/odoc__html__Generator.cmt"
+    {"html/odoc__html__Generator.cmt"}
+  "_build/install/default/lib/odoc/html/odoc__html__Generator.cmti"
+    {"html/odoc__html__Generator.cmti"}
+  "_build/install/default/lib/odoc/html/odoc__html__Generator.cmx"
+    {"html/odoc__html__Generator.cmx"}
+  "_build/install/default/lib/odoc/html/odoc__html__Generator_signatures.cmi"
+    {"html/odoc__html__Generator_signatures.cmi"}
+  "_build/install/default/lib/odoc/html/odoc__html__Generator_signatures.cmt"
+    {"html/odoc__html__Generator_signatures.cmt"}
+  "_build/install/default/lib/odoc/html/odoc__html__Generator_signatures.cmx"
+    {"html/odoc__html__Generator_signatures.cmx"}
+  "_build/install/default/lib/odoc/html/odoc__html__ML.cmi"
+    {"html/odoc__html__ML.cmi"}
+  "_build/install/default/lib/odoc/html/odoc__html__ML.cmt"
+    {"html/odoc__html__ML.cmt"}
+  "_build/install/default/lib/odoc/html/odoc__html__ML.cmti"
+    {"html/odoc__html__ML.cmti"}
+  "_build/install/default/lib/odoc/html/odoc__html__ML.cmx"
+    {"html/odoc__html__ML.cmx"}
+  "_build/install/default/lib/odoc/html/odoc__html__Reason.cmi"
+    {"html/odoc__html__Reason.cmi"}
+  "_build/install/default/lib/odoc/html/odoc__html__Reason.cmt"
+    {"html/odoc__html__Reason.cmt"}
+  "_build/install/default/lib/odoc/html/odoc__html__Reason.cmti"
+    {"html/odoc__html__Reason.cmti"}
+  "_build/install/default/lib/odoc/html/odoc__html__Reason.cmx"
+    {"html/odoc__html__Reason.cmx"}
+  "_build/install/default/lib/odoc/html/odoc__html__Targets.cmi"
+    {"html/odoc__html__Targets.cmi"}
+  "_build/install/default/lib/odoc/html/odoc__html__Targets.cmt"
+    {"html/odoc__html__Targets.cmt"}
+  "_build/install/default/lib/odoc/html/odoc__html__Targets.cmti"
+    {"html/odoc__html__Targets.cmti"}
+  "_build/install/default/lib/odoc/html/odoc__html__Targets.cmx"
+    {"html/odoc__html__Targets.cmx"}
+  "_build/install/default/lib/odoc/html/odoc__html__Tree.cmi"
+    {"html/odoc__html__Tree.cmi"}
+  "_build/install/default/lib/odoc/html/odoc__html__Tree.cmt"
+    {"html/odoc__html__Tree.cmt"}
+  "_build/install/default/lib/odoc/html/odoc__html__Tree.cmti"
+    {"html/odoc__html__Tree.cmti"}
+  "_build/install/default/lib/odoc/html/odoc__html__Tree.cmx"
+    {"html/odoc__html__Tree.cmx"}
+  "_build/install/default/lib/odoc/html/odoc__html__Url.cmi"
+    {"html/odoc__html__Url.cmi"}
+  "_build/install/default/lib/odoc/html/odoc__html__Url.cmt"
+    {"html/odoc__html__Url.cmt"}
+  "_build/install/default/lib/odoc/html/odoc__html__Url.cmti"
+    {"html/odoc__html__Url.cmti"}
+  "_build/install/default/lib/odoc/html/odoc__html__Url.cmx"
+    {"html/odoc__html__Url.cmx"}
+  "_build/install/default/lib/odoc/html/odoc__html__Utils.cmi"
+    {"html/odoc__html__Utils.cmi"}
+  "_build/install/default/lib/odoc/html/odoc__html__Utils.cmt"
+    {"html/odoc__html__Utils.cmt"}
+  "_build/install/default/lib/odoc/html/odoc__html__Utils.cmx"
+    {"html/odoc__html__Utils.cmx"}
+  "_build/install/default/lib/odoc/html/reason.ml" {"html/reason.ml"}
+  "_build/install/default/lib/odoc/html/reason.mli" {"html/reason.mli"}
+  "_build/install/default/lib/odoc/html/targets.ml" {"html/targets.ml"}
+  "_build/install/default/lib/odoc/html/targets.mli" {"html/targets.mli"}
+  "_build/install/default/lib/odoc/html/tree.ml" {"html/tree.ml"}
+  "_build/install/default/lib/odoc/html/tree.mli" {"html/tree.mli"}
+  "_build/install/default/lib/odoc/html/url.ml" {"html/url.ml"}
+  "_build/install/default/lib/odoc/html/url.mli" {"html/url.mli"}
+  "_build/install/default/lib/odoc/html/utils.ml" {"html/utils.ml"}
+  "_build/install/default/lib/odoc/loader/cmi.ml" {"loader/cmi.ml"}
+  "_build/install/default/lib/odoc/loader/cmi.mli" {"loader/cmi.mli"}
+  "_build/install/default/lib/odoc/loader/cmt.ml" {"loader/cmt.ml"}
+  "_build/install/default/lib/odoc/loader/cmt.mli" {"loader/cmt.mli"}
+  "_build/install/default/lib/odoc/loader/cmti.ml" {"loader/cmti.ml"}
+  "_build/install/default/lib/odoc/loader/cmti.mli" {"loader/cmti.mli"}
+  "_build/install/default/lib/odoc/loader/doc_attr.ml" {"loader/doc_attr.ml"}
+  "_build/install/default/lib/odoc/loader/doc_attr.mli"
+    {"loader/doc_attr.mli"}
+  "_build/install/default/lib/odoc/loader/odoc__loader.a"
+    {"loader/odoc__loader.a"}
+  "_build/install/default/lib/odoc/loader/odoc__loader.cma"
+    {"loader/odoc__loader.cma"}
+  "_build/install/default/lib/odoc/loader/odoc__loader.cmi"
+    {"loader/odoc__loader.cmi"}
+  "_build/install/default/lib/odoc/loader/odoc__loader.cmt"
+    {"loader/odoc__loader.cmt"}
+  "_build/install/default/lib/odoc/loader/odoc__loader.cmti"
+    {"loader/odoc__loader.cmti"}
+  "_build/install/default/lib/odoc/loader/odoc__loader.cmx"
+    {"loader/odoc__loader.cmx"}
+  "_build/install/default/lib/odoc/loader/odoc__loader.cmxa"
+    {"loader/odoc__loader.cmxa"}
+  "_build/install/default/lib/odoc/loader/odoc__loader.cmxs"
+    {"loader/odoc__loader.cmxs"}
+  "_build/install/default/lib/odoc/loader/odoc__loader.ml"
+    {"loader/odoc__loader.ml"}
+  "_build/install/default/lib/odoc/loader/odoc__loader.mli"
+    {"loader/odoc__loader.mli"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__.cmi"
+    {"loader/odoc__loader__.cmi"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__.cmt"
+    {"loader/odoc__loader__.cmt"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__.cmx"
+    {"loader/odoc__loader__.cmx"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__.ml"
+    {"loader/odoc__loader__.ml"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Cmi.cmi"
+    {"loader/odoc__loader__Cmi.cmi"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Cmi.cmt"
+    {"loader/odoc__loader__Cmi.cmt"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Cmi.cmti"
+    {"loader/odoc__loader__Cmi.cmti"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Cmi.cmx"
+    {"loader/odoc__loader__Cmi.cmx"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Cmt.cmi"
+    {"loader/odoc__loader__Cmt.cmi"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Cmt.cmt"
+    {"loader/odoc__loader__Cmt.cmt"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Cmt.cmti"
+    {"loader/odoc__loader__Cmt.cmti"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Cmt.cmx"
+    {"loader/odoc__loader__Cmt.cmx"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Cmti.cmi"
+    {"loader/odoc__loader__Cmti.cmi"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Cmti.cmt"
+    {"loader/odoc__loader__Cmti.cmt"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Cmti.cmti"
+    {"loader/odoc__loader__Cmti.cmti"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Cmti.cmx"
+    {"loader/odoc__loader__Cmti.cmx"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Doc_attr.cmi"
+    {"loader/odoc__loader__Doc_attr.cmi"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Doc_attr.cmt"
+    {"loader/odoc__loader__Doc_attr.cmt"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Doc_attr.cmti"
+    {"loader/odoc__loader__Doc_attr.cmti"}
+  "_build/install/default/lib/odoc/loader/odoc__loader__Doc_attr.cmx"
+    {"loader/odoc__loader__Doc_attr.cmx"}
+  "_build/install/default/lib/odoc/model/comment.ml" {"model/comment.ml"}
+  "_build/install/default/lib/odoc/model/compat.ml" {"model/compat.ml"}
+  "_build/install/default/lib/odoc/model/error.ml" {"model/error.ml"}
+  "_build/install/default/lib/odoc/model/error.mli" {"model/error.mli"}
+  "_build/install/default/lib/odoc/model/ident_env.ml" {"model/ident_env.ml"}
+  "_build/install/default/lib/odoc/model/ident_env.mli"
+    {"model/ident_env.mli"}
+  "_build/install/default/lib/odoc/model/lang.ml" {"model/lang.ml"}
+  "_build/install/default/lib/odoc/model/location_.ml" {"model/location_.ml"}
+  "_build/install/default/lib/odoc/model/location_.mli"
+    {"model/location_.mli"}
+  "_build/install/default/lib/odoc/model/maps.ml" {"model/maps.ml"}
+  "_build/install/default/lib/odoc/model/maps.mli" {"model/maps.mli"}
+  "_build/install/default/lib/odoc/model/names.ml" {"model/names.ml"}
+  "_build/install/default/lib/odoc/model/names.mli" {"model/names.mli"}
+  "_build/install/default/lib/odoc/model/odoc__model.a"
+    {"model/odoc__model.a"}
+  "_build/install/default/lib/odoc/model/odoc__model.cma"
+    {"model/odoc__model.cma"}
+  "_build/install/default/lib/odoc/model/odoc__model.cmi"
+    {"model/odoc__model.cmi"}
+  "_build/install/default/lib/odoc/model/odoc__model.cmt"
+    {"model/odoc__model.cmt"}
+  "_build/install/default/lib/odoc/model/odoc__model.cmx"
+    {"model/odoc__model.cmx"}
+  "_build/install/default/lib/odoc/model/odoc__model.cmxa"
+    {"model/odoc__model.cmxa"}
+  "_build/install/default/lib/odoc/model/odoc__model.cmxs"
+    {"model/odoc__model.cmxs"}
+  "_build/install/default/lib/odoc/model/odoc__model.ml"
+    {"model/odoc__model.ml"}
+  "_build/install/default/lib/odoc/model/odoc__model__Comment.cmi"
+    {"model/odoc__model__Comment.cmi"}
+  "_build/install/default/lib/odoc/model/odoc__model__Comment.cmt"
+    {"model/odoc__model__Comment.cmt"}
+  "_build/install/default/lib/odoc/model/odoc__model__Comment.cmx"
+    {"model/odoc__model__Comment.cmx"}
+  "_build/install/default/lib/odoc/model/odoc__model__Compat.cmi"
+    {"model/odoc__model__Compat.cmi"}
+  "_build/install/default/lib/odoc/model/odoc__model__Compat.cmt"
+    {"model/odoc__model__Compat.cmt"}
+  "_build/install/default/lib/odoc/model/odoc__model__Compat.cmx"
+    {"model/odoc__model__Compat.cmx"}
+  "_build/install/default/lib/odoc/model/odoc__model__Error.cmi"
+    {"model/odoc__model__Error.cmi"}
+  "_build/install/default/lib/odoc/model/odoc__model__Error.cmt"
+    {"model/odoc__model__Error.cmt"}
+  "_build/install/default/lib/odoc/model/odoc__model__Error.cmti"
+    {"model/odoc__model__Error.cmti"}
+  "_build/install/default/lib/odoc/model/odoc__model__Error.cmx"
+    {"model/odoc__model__Error.cmx"}
+  "_build/install/default/lib/odoc/model/odoc__model__Ident_env.cmi"
+    {"model/odoc__model__Ident_env.cmi"}
+  "_build/install/default/lib/odoc/model/odoc__model__Ident_env.cmt"
+    {"model/odoc__model__Ident_env.cmt"}
+  "_build/install/default/lib/odoc/model/odoc__model__Ident_env.cmti"
+    {"model/odoc__model__Ident_env.cmti"}
+  "_build/install/default/lib/odoc/model/odoc__model__Ident_env.cmx"
+    {"model/odoc__model__Ident_env.cmx"}
+  "_build/install/default/lib/odoc/model/odoc__model__Lang.cmi"
+    {"model/odoc__model__Lang.cmi"}
+  "_build/install/default/lib/odoc/model/odoc__model__Lang.cmt"
+    {"model/odoc__model__Lang.cmt"}
+  "_build/install/default/lib/odoc/model/odoc__model__Lang.cmx"
+    {"model/odoc__model__Lang.cmx"}
+  "_build/install/default/lib/odoc/model/odoc__model__Location_.cmi"
+    {"model/odoc__model__Location_.cmi"}
+  "_build/install/default/lib/odoc/model/odoc__model__Location_.cmt"
+    {"model/odoc__model__Location_.cmt"}
+  "_build/install/default/lib/odoc/model/odoc__model__Location_.cmti"
+    {"model/odoc__model__Location_.cmti"}
+  "_build/install/default/lib/odoc/model/odoc__model__Location_.cmx"
+    {"model/odoc__model__Location_.cmx"}
+  "_build/install/default/lib/odoc/model/odoc__model__Maps.cmi"
+    {"model/odoc__model__Maps.cmi"}
+  "_build/install/default/lib/odoc/model/odoc__model__Maps.cmt"
+    {"model/odoc__model__Maps.cmt"}
+  "_build/install/default/lib/odoc/model/odoc__model__Maps.cmti"
+    {"model/odoc__model__Maps.cmti"}
+  "_build/install/default/lib/odoc/model/odoc__model__Maps.cmx"
+    {"model/odoc__model__Maps.cmx"}
+  "_build/install/default/lib/odoc/model/odoc__model__Names.cmi"
+    {"model/odoc__model__Names.cmi"}
+  "_build/install/default/lib/odoc/model/odoc__model__Names.cmt"
+    {"model/odoc__model__Names.cmt"}
+  "_build/install/default/lib/odoc/model/odoc__model__Names.cmti"
+    {"model/odoc__model__Names.cmti"}
+  "_build/install/default/lib/odoc/model/odoc__model__Names.cmx"
+    {"model/odoc__model__Names.cmx"}
+  "_build/install/default/lib/odoc/model/odoc__model__Paths.cmi"
+    {"model/odoc__model__Paths.cmi"}
+  "_build/install/default/lib/odoc/model/odoc__model__Paths.cmt"
+    {"model/odoc__model__Paths.cmt"}
+  "_build/install/default/lib/odoc/model/odoc__model__Paths.cmti"
+    {"model/odoc__model__Paths.cmti"}
+  "_build/install/default/lib/odoc/model/odoc__model__Paths.cmx"
+    {"model/odoc__model__Paths.cmx"}
+  "_build/install/default/lib/odoc/model/odoc__model__Paths_types.cmi"
+    {"model/odoc__model__Paths_types.cmi"}
+  "_build/install/default/lib/odoc/model/odoc__model__Paths_types.cmt"
+    {"model/odoc__model__Paths_types.cmt"}
+  "_build/install/default/lib/odoc/model/odoc__model__Paths_types.cmx"
+    {"model/odoc__model__Paths_types.cmx"}
+  "_build/install/default/lib/odoc/model/odoc__model__Predefined.cmi"
+    {"model/odoc__model__Predefined.cmi"}
+  "_build/install/default/lib/odoc/model/odoc__model__Predefined.cmt"
+    {"model/odoc__model__Predefined.cmt"}
+  "_build/install/default/lib/odoc/model/odoc__model__Predefined.cmti"
+    {"model/odoc__model__Predefined.cmti"}
+  "_build/install/default/lib/odoc/model/odoc__model__Predefined.cmx"
+    {"model/odoc__model__Predefined.cmx"}
+  "_build/install/default/lib/odoc/model/odoc__model__Root.cmi"
+    {"model/odoc__model__Root.cmi"}
+  "_build/install/default/lib/odoc/model/odoc__model__Root.cmt"
+    {"model/odoc__model__Root.cmt"}
+  "_build/install/default/lib/odoc/model/odoc__model__Root.cmti"
+    {"model/odoc__model__Root.cmti"}
+  "_build/install/default/lib/odoc/model/odoc__model__Root.cmx"
+    {"model/odoc__model__Root.cmx"}
+  "_build/install/default/lib/odoc/model/paths.ml" {"model/paths.ml"}
+  "_build/install/default/lib/odoc/model/paths.mli" {"model/paths.mli"}
+  "_build/install/default/lib/odoc/model/paths_types.ml"
+    {"model/paths_types.ml"}
+  "_build/install/default/lib/odoc/model/predefined.ml"
+    {"model/predefined.ml"}
+  "_build/install/default/lib/odoc/model/predefined.mli"
+    {"model/predefined.mli"}
+  "_build/install/default/lib/odoc/model/root.ml" {"model/root.ml"}
+  "_build/install/default/lib/odoc/model/root.mli" {"model/root.mli"}
+  "_build/install/default/lib/odoc/odoc/compilation_unit.ml"
+    {"odoc/compilation_unit.ml"}
+  "_build/install/default/lib/odoc/odoc/compilation_unit.mli"
+    {"odoc/compilation_unit.mli"}
+  "_build/install/default/lib/odoc/odoc/compile.ml" {"odoc/compile.ml"}
+  "_build/install/default/lib/odoc/odoc/compile.mli" {"odoc/compile.mli"}
+  "_build/install/default/lib/odoc/odoc/css_file.ml" {"odoc/css_file.ml"}
+  "_build/install/default/lib/odoc/odoc/depends.ml" {"odoc/depends.ml"}
+  "_build/install/default/lib/odoc/odoc/depends.mli" {"odoc/depends.mli"}
+  "_build/install/default/lib/odoc/odoc/env.ml" {"odoc/env.ml"}
+  "_build/install/default/lib/odoc/odoc/env.mli" {"odoc/env.mli"}
+  "_build/install/default/lib/odoc/odoc/fs.ml" {"odoc/fs.ml"}
+  "_build/install/default/lib/odoc/odoc/fs.mli" {"odoc/fs.mli"}
+  "_build/install/default/lib/odoc/odoc/highlight_js.ml"
+    {"odoc/highlight_js.ml"}
+  "_build/install/default/lib/odoc/odoc/html_fragment.ml"
+    {"odoc/html_fragment.ml"}
+  "_build/install/default/lib/odoc/odoc/html_fragment.mli"
+    {"odoc/html_fragment.mli"}
+  "_build/install/default/lib/odoc/odoc/html_page.ml" {"odoc/html_page.ml"}
+  "_build/install/default/lib/odoc/odoc/html_page.mli" {"odoc/html_page.mli"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc.a" {"odoc/odoc__odoc.a"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc.cma"
+    {"odoc/odoc__odoc.cma"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc.cmi"
+    {"odoc/odoc__odoc.cmi"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc.cmt"
+    {"odoc/odoc__odoc.cmt"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc.cmx"
+    {"odoc/odoc__odoc.cmx"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc.cmxa"
+    {"odoc/odoc__odoc.cmxa"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc.cmxs"
+    {"odoc/odoc__odoc.cmxs"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc.ml" {"odoc/odoc__odoc.ml"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Compilation_unit.cmi"
+    {"odoc/odoc__odoc__Compilation_unit.cmi"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Compilation_unit.cmt"
+    {"odoc/odoc__odoc__Compilation_unit.cmt"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Compilation_unit.cmti"
+    {"odoc/odoc__odoc__Compilation_unit.cmti"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Compilation_unit.cmx"
+    {"odoc/odoc__odoc__Compilation_unit.cmx"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Compile.cmi"
+    {"odoc/odoc__odoc__Compile.cmi"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Compile.cmt"
+    {"odoc/odoc__odoc__Compile.cmt"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Compile.cmti"
+    {"odoc/odoc__odoc__Compile.cmti"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Compile.cmx"
+    {"odoc/odoc__odoc__Compile.cmx"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Css_file.cmi"
+    {"odoc/odoc__odoc__Css_file.cmi"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Css_file.cmt"
+    {"odoc/odoc__odoc__Css_file.cmt"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Css_file.cmx"
+    {"odoc/odoc__odoc__Css_file.cmx"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Depends.cmi"
+    {"odoc/odoc__odoc__Depends.cmi"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Depends.cmt"
+    {"odoc/odoc__odoc__Depends.cmt"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Depends.cmti"
+    {"odoc/odoc__odoc__Depends.cmti"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Depends.cmx"
+    {"odoc/odoc__odoc__Depends.cmx"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Env.cmi"
+    {"odoc/odoc__odoc__Env.cmi"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Env.cmt"
+    {"odoc/odoc__odoc__Env.cmt"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Env.cmti"
+    {"odoc/odoc__odoc__Env.cmti"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Env.cmx"
+    {"odoc/odoc__odoc__Env.cmx"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Fs.cmi"
+    {"odoc/odoc__odoc__Fs.cmi"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Fs.cmt"
+    {"odoc/odoc__odoc__Fs.cmt"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Fs.cmti"
+    {"odoc/odoc__odoc__Fs.cmti"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Fs.cmx"
+    {"odoc/odoc__odoc__Fs.cmx"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Highlight_js.cmi"
+    {"odoc/odoc__odoc__Highlight_js.cmi"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Highlight_js.cmt"
+    {"odoc/odoc__odoc__Highlight_js.cmt"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Highlight_js.cmx"
+    {"odoc/odoc__odoc__Highlight_js.cmx"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Html_fragment.cmi"
+    {"odoc/odoc__odoc__Html_fragment.cmi"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Html_fragment.cmt"
+    {"odoc/odoc__odoc__Html_fragment.cmt"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Html_fragment.cmti"
+    {"odoc/odoc__odoc__Html_fragment.cmti"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Html_fragment.cmx"
+    {"odoc/odoc__odoc__Html_fragment.cmx"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Html_page.cmi"
+    {"odoc/odoc__odoc__Html_page.cmi"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Html_page.cmt"
+    {"odoc/odoc__odoc__Html_page.cmt"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Html_page.cmti"
+    {"odoc/odoc__odoc__Html_page.cmti"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Html_page.cmx"
+    {"odoc/odoc__odoc__Html_page.cmx"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Page.cmi"
+    {"odoc/odoc__odoc__Page.cmi"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Page.cmt"
+    {"odoc/odoc__odoc__Page.cmt"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Page.cmti"
+    {"odoc/odoc__odoc__Page.cmti"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Page.cmx"
+    {"odoc/odoc__odoc__Page.cmx"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Root.cmi"
+    {"odoc/odoc__odoc__Root.cmi"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Root.cmt"
+    {"odoc/odoc__odoc__Root.cmt"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Root.cmti"
+    {"odoc/odoc__odoc__Root.cmti"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Root.cmx"
+    {"odoc/odoc__odoc__Root.cmx"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Support_files.cmi"
+    {"odoc/odoc__odoc__Support_files.cmi"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Support_files.cmt"
+    {"odoc/odoc__odoc__Support_files.cmt"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Support_files.cmti"
+    {"odoc/odoc__odoc__Support_files.cmti"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Support_files.cmx"
+    {"odoc/odoc__odoc__Support_files.cmx"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Targets.cmi"
+    {"odoc/odoc__odoc__Targets.cmi"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Targets.cmt"
+    {"odoc/odoc__odoc__Targets.cmt"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Targets.cmti"
+    {"odoc/odoc__odoc__Targets.cmti"}
+  "_build/install/default/lib/odoc/odoc/odoc__odoc__Targets.cmx"
+    {"odoc/odoc__odoc__Targets.cmx"}
+  "_build/install/default/lib/odoc/odoc/page.ml" {"odoc/page.ml"}
+  "_build/install/default/lib/odoc/odoc/page.mli" {"odoc/page.mli"}
+  "_build/install/default/lib/odoc/odoc/root.ml" {"odoc/root.ml"}
+  "_build/install/default/lib/odoc/odoc/root.mli" {"odoc/root.mli"}
+  "_build/install/default/lib/odoc/odoc/support_files.ml"
+    {"odoc/support_files.ml"}
+  "_build/install/default/lib/odoc/odoc/support_files.mli"
+    {"odoc/support_files.mli"}
+  "_build/install/default/lib/odoc/odoc/targets.ml" {"odoc/targets.ml"}
+  "_build/install/default/lib/odoc/odoc/targets.mli" {"odoc/targets.mli"}
+  "_build/install/default/lib/odoc/opam"
+  "_build/install/default/lib/odoc/parser/ast.ml" {"parser/ast.ml"}
+  "_build/install/default/lib/odoc/parser/lexer.ml" {"parser/lexer.ml"}
+  "_build/install/default/lib/odoc/parser/lexer.mli" {"parser/lexer.mli"}
+  "_build/install/default/lib/odoc/parser/odoc__parser.a"
+    {"parser/odoc__parser.a"}
+  "_build/install/default/lib/odoc/parser/odoc__parser.cma"
+    {"parser/odoc__parser.cma"}
+  "_build/install/default/lib/odoc/parser/odoc__parser.cmi"
+    {"parser/odoc__parser.cmi"}
+  "_build/install/default/lib/odoc/parser/odoc__parser.cmt"
+    {"parser/odoc__parser.cmt"}
+  "_build/install/default/lib/odoc/parser/odoc__parser.cmti"
+    {"parser/odoc__parser.cmti"}
+  "_build/install/default/lib/odoc/parser/odoc__parser.cmx"
+    {"parser/odoc__parser.cmx"}
+  "_build/install/default/lib/odoc/parser/odoc__parser.cmxa"
+    {"parser/odoc__parser.cmxa"}
+  "_build/install/default/lib/odoc/parser/odoc__parser.cmxs"
+    {"parser/odoc__parser.cmxs"}
+  "_build/install/default/lib/odoc/parser/odoc__parser.ml"
+    {"parser/odoc__parser.ml"}
+  "_build/install/default/lib/odoc/parser/odoc__parser.mli"
+    {"parser/odoc__parser.mli"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__.cmi"
+    {"parser/odoc__parser__.cmi"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__.cmt"
+    {"parser/odoc__parser__.cmt"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__.cmx"
+    {"parser/odoc__parser__.cmx"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__.ml"
+    {"parser/odoc__parser__.ml"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Ast.cmi"
+    {"parser/odoc__parser__Ast.cmi"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Ast.cmt"
+    {"parser/odoc__parser__Ast.cmt"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Ast.cmx"
+    {"parser/odoc__parser__Ast.cmx"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Lexer.cmi"
+    {"parser/odoc__parser__Lexer.cmi"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Lexer.cmt"
+    {"parser/odoc__parser__Lexer.cmt"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Lexer.cmti"
+    {"parser/odoc__parser__Lexer.cmti"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Lexer.cmx"
+    {"parser/odoc__parser__Lexer.cmx"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Parse_error.cmi"
+    {"parser/odoc__parser__Parse_error.cmi"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Parse_error.cmt"
+    {"parser/odoc__parser__Parse_error.cmt"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Parse_error.cmx"
+    {"parser/odoc__parser__Parse_error.cmx"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Reference.cmi"
+    {"parser/odoc__parser__Reference.cmi"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Reference.cmt"
+    {"parser/odoc__parser__Reference.cmt"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Reference.cmti"
+    {"parser/odoc__parser__Reference.cmti"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Reference.cmx"
+    {"parser/odoc__parser__Reference.cmx"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Semantics.cmi"
+    {"parser/odoc__parser__Semantics.cmi"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Semantics.cmt"
+    {"parser/odoc__parser__Semantics.cmt"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Semantics.cmti"
+    {"parser/odoc__parser__Semantics.cmti"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Semantics.cmx"
+    {"parser/odoc__parser__Semantics.cmx"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Syntax.cmi"
+    {"parser/odoc__parser__Syntax.cmi"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Syntax.cmt"
+    {"parser/odoc__parser__Syntax.cmt"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Syntax.cmti"
+    {"parser/odoc__parser__Syntax.cmti"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Syntax.cmx"
+    {"parser/odoc__parser__Syntax.cmx"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Token.cmi"
+    {"parser/odoc__parser__Token.cmi"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Token.cmt"
+    {"parser/odoc__parser__Token.cmt"}
+  "_build/install/default/lib/odoc/parser/odoc__parser__Token.cmx"
+    {"parser/odoc__parser__Token.cmx"}
+  "_build/install/default/lib/odoc/parser/parse_error.ml"
+    {"parser/parse_error.ml"}
+  "_build/install/default/lib/odoc/parser/reference.ml"
+    {"parser/reference.ml"}
+  "_build/install/default/lib/odoc/parser/reference.mli"
+    {"parser/reference.mli"}
+  "_build/install/default/lib/odoc/parser/semantics.ml"
+    {"parser/semantics.ml"}
+  "_build/install/default/lib/odoc/parser/semantics.mli"
+    {"parser/semantics.mli"}
+  "_build/install/default/lib/odoc/parser/syntax.ml" {"parser/syntax.ml"}
+  "_build/install/default/lib/odoc/parser/syntax.mli" {"parser/syntax.mli"}
+  "_build/install/default/lib/odoc/parser/token.ml" {"parser/token.ml"}
+  "_build/install/default/lib/odoc/xref/component_table.ml"
+    {"xref/component_table.ml"}
+  "_build/install/default/lib/odoc/xref/component_table.mli"
+    {"xref/component_table.mli"}
+  "_build/install/default/lib/odoc/xref/components.ml" {"xref/components.ml"}
+  "_build/install/default/lib/odoc/xref/components.mli"
+    {"xref/components.mli"}
+  "_build/install/default/lib/odoc/xref/expand.ml" {"xref/expand.ml"}
+  "_build/install/default/lib/odoc/xref/expand.mli" {"xref/expand.mli"}
+  "_build/install/default/lib/odoc/xref/lookup.ml" {"xref/lookup.ml"}
+  "_build/install/default/lib/odoc/xref/lookup.mli" {"xref/lookup.mli"}
+  "_build/install/default/lib/odoc/xref/name_env.ml" {"xref/name_env.ml"}
+  "_build/install/default/lib/odoc/xref/name_env.mli" {"xref/name_env.mli"}
+  "_build/install/default/lib/odoc/xref/odoc__xref.a" {"xref/odoc__xref.a"}
+  "_build/install/default/lib/odoc/xref/odoc__xref.cma"
+    {"xref/odoc__xref.cma"}
+  "_build/install/default/lib/odoc/xref/odoc__xref.cmi"
+    {"xref/odoc__xref.cmi"}
+  "_build/install/default/lib/odoc/xref/odoc__xref.cmt"
+    {"xref/odoc__xref.cmt"}
+  "_build/install/default/lib/odoc/xref/odoc__xref.cmti"
+    {"xref/odoc__xref.cmti"}
+  "_build/install/default/lib/odoc/xref/odoc__xref.cmx"
+    {"xref/odoc__xref.cmx"}
+  "_build/install/default/lib/odoc/xref/odoc__xref.cmxa"
+    {"xref/odoc__xref.cmxa"}
+  "_build/install/default/lib/odoc/xref/odoc__xref.cmxs"
+    {"xref/odoc__xref.cmxs"}
+  "_build/install/default/lib/odoc/xref/odoc__xref.ml" {"xref/odoc__xref.ml"}
+  "_build/install/default/lib/odoc/xref/odoc__xref.mli"
+    {"xref/odoc__xref.mli"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__.cmi"
+    {"xref/odoc__xref__.cmi"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__.cmt"
+    {"xref/odoc__xref__.cmt"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__.cmx"
+    {"xref/odoc__xref__.cmx"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__.ml"
+    {"xref/odoc__xref__.ml"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Component_table.cmi"
+    {"xref/odoc__xref__Component_table.cmi"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Component_table.cmt"
+    {"xref/odoc__xref__Component_table.cmt"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Component_table.cmti"
+    {"xref/odoc__xref__Component_table.cmti"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Component_table.cmx"
+    {"xref/odoc__xref__Component_table.cmx"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Components.cmi"
+    {"xref/odoc__xref__Components.cmi"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Components.cmt"
+    {"xref/odoc__xref__Components.cmt"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Components.cmti"
+    {"xref/odoc__xref__Components.cmti"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Components.cmx"
+    {"xref/odoc__xref__Components.cmx"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Expand.cmi"
+    {"xref/odoc__xref__Expand.cmi"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Expand.cmt"
+    {"xref/odoc__xref__Expand.cmt"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Expand.cmti"
+    {"xref/odoc__xref__Expand.cmti"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Expand.cmx"
+    {"xref/odoc__xref__Expand.cmx"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Lookup.cmi"
+    {"xref/odoc__xref__Lookup.cmi"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Lookup.cmt"
+    {"xref/odoc__xref__Lookup.cmt"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Lookup.cmti"
+    {"xref/odoc__xref__Lookup.cmti"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Lookup.cmx"
+    {"xref/odoc__xref__Lookup.cmx"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Name_env.cmi"
+    {"xref/odoc__xref__Name_env.cmi"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Name_env.cmt"
+    {"xref/odoc__xref__Name_env.cmt"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Name_env.cmti"
+    {"xref/odoc__xref__Name_env.cmti"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Name_env.cmx"
+    {"xref/odoc__xref__Name_env.cmx"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Resolve.cmi"
+    {"xref/odoc__xref__Resolve.cmi"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Resolve.cmt"
+    {"xref/odoc__xref__Resolve.cmt"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Resolve.cmti"
+    {"xref/odoc__xref__Resolve.cmti"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Resolve.cmx"
+    {"xref/odoc__xref__Resolve.cmx"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Subst.cmi"
+    {"xref/odoc__xref__Subst.cmi"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Subst.cmt"
+    {"xref/odoc__xref__Subst.cmt"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Subst.cmti"
+    {"xref/odoc__xref__Subst.cmti"}
+  "_build/install/default/lib/odoc/xref/odoc__xref__Subst.cmx"
+    {"xref/odoc__xref__Subst.cmx"}
+  "_build/install/default/lib/odoc/xref/resolve.ml" {"xref/resolve.ml"}
+  "_build/install/default/lib/odoc/xref/resolve.mli" {"xref/resolve.mli"}
+  "_build/install/default/lib/odoc/xref/subst.ml" {"xref/subst.ml"}
+  "_build/install/default/lib/odoc/xref/subst.mli" {"xref/subst.mli"}
+]
+bin: "_build/install/default/bin/odoc"
+share: [
+  "_build/install/default/share/odoc/odoc-theme/default/highlight.pack.js"
+    {"odoc-theme/default/highlight.pack.js"}
+  "_build/install/default/share/odoc/odoc-theme/default/odoc.css"
+    {"odoc-theme/default/odoc.css"}
+]
+doc: [
+  "_build/install/default/doc/odoc/CHANGES.md"
+  "_build/install/default/doc/odoc/LICENSE.md"
+  "_build/install/default/doc/odoc/README.md"
+  "_build/install/default/doc/odoc/odoc-pages/contributing.mld"
+    {"odoc-pages/contributing.mld"}
+  "_build/install/default/doc/odoc/odoc-pages/high-level-flow.mld"
+    {"odoc-pages/high-level-flow.mld"}
+  "_build/install/default/doc/odoc/odoc-pages/index.mld"
+    {"odoc-pages/index.mld"}
+  "_build/install/default/doc/odoc/odoc-pages/odoc-internals.mld"
+    {"odoc-pages/odoc-internals.mld"}
+  "_build/install/default/doc/odoc/odoc-pages/system-integrations.mld"
+    {"odoc-pages/system-integrations.mld"}
+  "_build/install/default/doc/odoc/odoc-pages/using-odoc.mld"
+    {"odoc-pages/using-odoc.mld"}
+]

@@ -1,0 +1,6 @@
+description = ""
+requires = "cohttp-lwt ezjsonm fieldslib hmap ppx_sexp_conv.runtime-lib"
+archive(byte) = "opium_kernel.cma"
+archive(native) = "opium_kernel.cmxa"
+plugin(byte) = "opium_kernel.cma"
+plugin(native) = "opium_kernel.cmxs"

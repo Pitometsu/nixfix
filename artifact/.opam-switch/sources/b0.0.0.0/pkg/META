@@ -1,0 +1,33 @@
+description = "Software construction care"
+version = "0.0.0"
+requires = ""
+
+package "std" (
+  description = "B0's std library"
+  version = "0.0.0"
+  requires = "unix"
+  archive(byte) = "b0_std.cma"
+  archive(native) = "b0_std.cmxa"
+  plugin(byte) = "b0_std.cma"
+  plugin(native) = "b0_std.cmxs"
+)
+
+package "b00" (
+ description = "B0's build kernel"
+ version = "0.0.0"
+ requires = "b0.std"
+ archive(byte) = "b00.cma"
+ archive(native) = "b00.cmxa"
+ plugin(byte) = "b00.cma"
+ plugin(native) = "b00.cmxs"
+)
+
+package "care" (
+  description = "B0's system library"
+  version = "0.0.0"
+  requires = "unix cmdliner b0.std b0.b00"
+  archive(byte) = "b0_care.cma"
+  archive(native) = "b0_care.cmxa"
+  plugin(byte) = "b0_care.cma"
+  plugin(native) = "b0_care.cmxs"
+)

@@ -1,0 +1,114 @@
+"ppx.ml" 6 57 63 "ppx.ml" 6 57 72
+type(
+  string
+)
+ident(
+  def tool_name "ppx.ml" 7 90 92 "ppx.ml" 14 498 501
+)
+"ppx.ml" 6 57 75 "ppx.ml" 6 57 89
+type(
+  string
+)
+"ppx.ml" 7 90 96 "ppx.ml" 7 90 100
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def args "ppx.ml" 10 292 294 "ppx.ml" 14 498 501
+)
+"ppx.ml" 7 90 105 "ppx.ml" 7 90 121
+type(
+  string
+)
+"ppx.ml" 7 90 131 "ppx.ml" 7 90 150
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_resolve
+)
+"ppx.ml" 7 90 123 "ppx.ml" 7 90 150
+type(
+  Arg.spec
+)
+"ppx.ml" 7 90 152 "ppx.ml" 7 90 185
+type(
+  string
+)
+"ppx.ml" 7 90 105 "ppx.ml" 7 90 185
+type(
+  string * Arg.spec * string
+)
+"ppx.ml" 8 186 201 "ppx.ml" 8 186 214
+type(
+  string
+)
+"ppx.ml" 8 186 224 "ppx.ml" 8 186 240
+type(
+  bool ref
+)
+ident(
+  ext_ref Debug.debug_unif
+)
+"ppx.ml" 8 186 216 "ppx.ml" 8 186 240
+type(
+  Arg.spec
+)
+"ppx.ml" 8 186 242 "ppx.ml" 8 186 276
+type(
+  string
+)
+"ppx.ml" 8 186 201 "ppx.ml" 8 186 276
+type(
+  string * Arg.spec * string
+)
+"ppx.ml" 7 90 103 "ppx.ml" 9 277 291
+type(
+  (string * Arg.spec * string) list
+)
+"ppx.ml" 10 292 298 "ppx.ml" 10 292 324
+type(
+  Ast_mapper.mapper
+)
+ident(
+  def firstUntypedTransformation "ppx.ml" 11 353 355 "ppx.ml" 14 498 501
+)
+"ppx.ml" 10 292 327 "ppx.ml" 10 292 337
+type(
+  Ast_mapper.mapper -> Ast_mapper.mapper
+)
+ident(
+  ext_ref Pre.extend
+)
+"ppx.ml" 10 292 338 "ppx.ml" 10 292 352
+type(
+  Ast_mapper.mapper
+)
+ident(
+  ext_ref Ast_mapper.default_mapper
+)
+"ppx.ml" 10 292 327 "ppx.ml" 10 292 352
+call(
+  stack
+)
+type(
+  Ast_mapper.mapper
+)
+"ppx.ml" 13 433 439 "ppx.ml" 13 433 464
+type(
+  Ast_mapper.mapper
+)
+ident(
+  def lastUntypedTransformation "ppx.ml" 13 433 497 "ppx.ml" 14 498 501
+)
+"ppx.ml" 13 433 467 "ppx.ml" 13 433 497
+type(
+  Ast_mapper.mapper
+)
+ident(
+  ext_ref Typpx.Default.untyped_identity
+)
+"ppx.ml" 5 29 37 "ppx.ml" 14 498 502
+call(
+  stack
+)

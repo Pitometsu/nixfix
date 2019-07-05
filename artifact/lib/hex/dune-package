@@ -1,0 +1,16 @@
+(lang dune 1.10)
+(name hex)
+(version 1.4.0)
+(library
+ (name hex)
+ (kind normal)
+ (archives (byte hex.cma) (native hex.cmxa))
+ (plugins (byte hex.cma) (native hex.cmxs))
+ (foreign_archives (native hex.a))
+ (requires cstruct bigarray-compat)
+ (main_module_name Hex)
+ (modes byte native)
+ (modules
+  (main_module_name Hex)
+  (modules ((name Hex) (obj_name hex) (visibility public) (impl) (intf)))
+  (wrapped true)))

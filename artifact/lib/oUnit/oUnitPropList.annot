@@ -1,0 +1,347 @@
+"src/oUnitPropList.ml" 40 2523 2527 "src/oUnitPropList.ml" 40 2523 2533
+type(
+  unit -> ('a, 'b) Hashtbl.t
+)
+ident(
+  def create "src/oUnitPropList.ml" 42 2558 2558 "src/oUnitPropList.ml" 1 0 -1
+)
+"src/oUnitPropList.ml" 40 2523 2534 "src/oUnitPropList.ml" 40 2523 2536
+type(
+  unit
+)
+"src/oUnitPropList.ml" 40 2523 2539 "src/oUnitPropList.ml" 40 2523 2553
+type(
+  ?random:bool -> int -> ('a, 'b) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/oUnitPropList.ml" 40 2523 2554 "src/oUnitPropList.ml" 40 2523 2556
+type(
+  int
+)
+"src/oUnitPropList.ml" 40 2523 2539 "src/oUnitPropList.ml" 40 2523 2556
+call(
+  tail
+)
+type(
+  ('a, 'b) Hashtbl.t
+)
+"src/oUnitPropList.ml" 42 2558 2562 "src/oUnitPropList.ml" 42 2558 2574
+type(
+  'a ->
+  ((int, unit -> unit) Hashtbl.t -> 'a -> unit) *
+  ((int, unit -> 'b) Hashtbl.t -> 'a)
+)
+ident(
+  def new_property "src/oUnitPropList.ml" 59 2869 2883 "src/oUnitPropList.ml" 1 0 -1
+)
+"src/oUnitPropList.ml" 42 2558 2575 "src/oUnitPropList.ml" 42 2558 2582
+type(
+  'a
+)
+ident(
+  def default "src/oUnitPropList.ml" 43 2585 2587 "src/oUnitPropList.ml" 59 2869 2883
+)
+"src/oUnitPropList.ml" 43 2585 2591 "src/oUnitPropList.ml" 43 2585 2593
+type(
+  int
+)
+ident(
+  def id "src/oUnitPropList.ml" 44 2618 2620 "src/oUnitPropList.ml" 59 2869 2883
+)
+"src/oUnitPropList.ml" 43 2585 2596 "src/oUnitPropList.ml" 43 2585 2601
+type(
+  <  > -> int
+)
+ident(
+  ext_ref Oo.id
+)
+"src/oUnitPropList.ml" 43 2585 2602 "src/oUnitPropList.ml" 43 2585 2614
+type(
+  <  >
+)
+"src/oUnitPropList.ml" 43 2585 2596 "src/oUnitPropList.ml" 43 2585 2614
+type(
+  int
+)
+"src/oUnitPropList.ml" 44 2618 2624 "src/oUnitPropList.ml" 44 2618 2625
+type(
+  'a ref
+)
+ident(
+  def v "src/oUnitPropList.ml" 45 2643 2645 "src/oUnitPropList.ml" 59 2869 2883
+)
+"src/oUnitPropList.ml" 44 2618 2628 "src/oUnitPropList.ml" 44 2618 2631
+type(
+  'a -> 'a ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/oUnitPropList.ml" 44 2618 2632 "src/oUnitPropList.ml" 44 2618 2639
+type(
+  'a
+)
+ident(
+  int_ref default "src/oUnitPropList.ml" 42 2558 2575 "src/oUnitPropList.ml" 42 2558 2582
+)
+"src/oUnitPropList.ml" 44 2618 2628 "src/oUnitPropList.ml" 44 2618 2639
+type(
+  'a ref
+)
+"src/oUnitPropList.ml" 45 2643 2649 "src/oUnitPropList.ml" 45 2643 2652
+type(
+  (int, unit -> unit) Hashtbl.t -> 'a -> unit
+)
+ident(
+  def set "src/oUnitPropList.ml" 48 2708 2710 "src/oUnitPropList.ml" 59 2869 2883
+)
+"src/oUnitPropList.ml" 45 2643 2653 "src/oUnitPropList.ml" 45 2643 2654
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  def t "src/oUnitPropList.ml" 45 2643 2655 "src/oUnitPropList.ml" 46 2659 2702
+)
+"src/oUnitPropList.ml" 45 2643 2655 "src/oUnitPropList.ml" 45 2643 2656
+type(
+  'a
+)
+ident(
+  def x "src/oUnitPropList.ml" 46 2659 2663 "src/oUnitPropList.ml" 46 2659 2702
+)
+"src/oUnitPropList.ml" 46 2659 2663 "src/oUnitPropList.ml" 46 2659 2678
+type(
+  (int, unit -> unit) Hashtbl.t -> int -> (unit -> unit) -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"src/oUnitPropList.ml" 46 2659 2679 "src/oUnitPropList.ml" 46 2659 2680
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref t "src/oUnitPropList.ml" 45 2643 2653 "src/oUnitPropList.ml" 45 2643 2654
+)
+"src/oUnitPropList.ml" 46 2659 2681 "src/oUnitPropList.ml" 46 2659 2683
+type(
+  int
+)
+ident(
+  int_ref id "src/oUnitPropList.ml" 43 2585 2591 "src/oUnitPropList.ml" 43 2585 2593
+)
+"src/oUnitPropList.ml" 46 2659 2689 "src/oUnitPropList.ml" 46 2659 2691
+type(
+  unit
+)
+"src/oUnitPropList.ml" 46 2659 2695 "src/oUnitPropList.ml" 46 2659 2696
+type(
+  'a ref
+)
+ident(
+  int_ref v "src/oUnitPropList.ml" 44 2618 2624 "src/oUnitPropList.ml" 44 2618 2625
+)
+"src/oUnitPropList.ml" 46 2659 2697 "src/oUnitPropList.ml" 46 2659 2699
+type(
+  'a ref -> 'a -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitPropList.ml" 46 2659 2700 "src/oUnitPropList.ml" 46 2659 2701
+type(
+  'a
+)
+ident(
+  int_ref x "src/oUnitPropList.ml" 45 2643 2655 "src/oUnitPropList.ml" 45 2643 2656
+)
+"src/oUnitPropList.ml" 46 2659 2695 "src/oUnitPropList.ml" 46 2659 2701
+type(
+  unit
+)
+"src/oUnitPropList.ml" 46 2659 2684 "src/oUnitPropList.ml" 46 2659 2702
+type(
+  unit -> unit
+)
+"src/oUnitPropList.ml" 46 2659 2663 "src/oUnitPropList.ml" 46 2659 2702
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitPropList.ml" 48 2708 2714 "src/oUnitPropList.ml" 48 2708 2717
+type(
+  (int, unit -> 'c) Hashtbl.t -> 'a
+)
+ident(
+  def get "src/oUnitPropList.ml" 59 2869 2873 "src/oUnitPropList.ml" 59 2869 2883
+)
+"src/oUnitPropList.ml" 48 2708 2718 "src/oUnitPropList.ml" 48 2708 2719
+type(
+  (int, unit -> 'c) Hashtbl.t
+)
+ident(
+  def t "src/oUnitPropList.ml" 49 2722 2726 "src/oUnitPropList.ml" 57 2850 2863
+)
+"src/oUnitPropList.ml" 50 2730 2740 "src/oUnitPropList.ml" 50 2730 2741
+type(
+  'a
+)
+ident(
+  def x "src/oUnitPropList.ml" 54 2796 2804 "src/oUnitPropList.ml" 55 2818 2827
+)
+"src/oUnitPropList.ml" 51 2744 2753 "src/oUnitPropList.ml" 51 2744 2765
+type(
+  (int, unit -> 'c) Hashtbl.t -> int -> unit -> 'c
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/oUnitPropList.ml" 51 2744 2766 "src/oUnitPropList.ml" 51 2744 2767
+type(
+  (int, unit -> 'c) Hashtbl.t
+)
+ident(
+  int_ref t "src/oUnitPropList.ml" 48 2708 2718 "src/oUnitPropList.ml" 48 2708 2719
+)
+"src/oUnitPropList.ml" 51 2744 2768 "src/oUnitPropList.ml" 51 2744 2770
+type(
+  int
+)
+ident(
+  int_ref id "src/oUnitPropList.ml" 43 2585 2591 "src/oUnitPropList.ml" 43 2585 2593
+)
+"src/oUnitPropList.ml" 51 2744 2752 "src/oUnitPropList.ml" 51 2744 2771
+type(
+  unit -> 'c
+)
+"src/oUnitPropList.ml" 51 2744 2772 "src/oUnitPropList.ml" 51 2744 2774
+type(
+  unit
+)
+"src/oUnitPropList.ml" 51 2744 2752 "src/oUnitPropList.ml" 51 2744 2774
+call(
+  stack
+)
+type(
+  'c
+)
+"src/oUnitPropList.ml" 52 2776 2784 "src/oUnitPropList.ml" 52 2776 2785
+type(
+  'a ref -> 'a
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/oUnitPropList.ml" 52 2776 2785 "src/oUnitPropList.ml" 52 2776 2786
+type(
+  'a ref
+)
+ident(
+  int_ref v "src/oUnitPropList.ml" 44 2618 2624 "src/oUnitPropList.ml" 44 2618 2625
+)
+"src/oUnitPropList.ml" 52 2776 2784 "src/oUnitPropList.ml" 52 2776 2786
+type(
+  'a
+)
+"src/oUnitPropList.ml" 51 2744 2752 "src/oUnitPropList.ml" 52 2776 2786
+type(
+  'a
+)
+"src/oUnitPropList.ml" 54 2796 2804 "src/oUnitPropList.ml" 54 2796 2805
+type(
+  'a ref
+)
+ident(
+  int_ref v "src/oUnitPropList.ml" 44 2618 2624 "src/oUnitPropList.ml" 44 2618 2625
+)
+"src/oUnitPropList.ml" 54 2796 2806 "src/oUnitPropList.ml" 54 2796 2808
+type(
+  'a ref -> 'a -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/oUnitPropList.ml" 54 2796 2809 "src/oUnitPropList.ml" 54 2796 2816
+type(
+  'a
+)
+ident(
+  int_ref default "src/oUnitPropList.ml" 42 2558 2575 "src/oUnitPropList.ml" 42 2558 2582
+)
+"src/oUnitPropList.ml" 54 2796 2804 "src/oUnitPropList.ml" 54 2796 2816
+type(
+  unit
+)
+"src/oUnitPropList.ml" 55 2818 2826 "src/oUnitPropList.ml" 55 2818 2827
+type(
+  'a
+)
+ident(
+  int_ref x "src/oUnitPropList.ml" 50 2730 2740 "src/oUnitPropList.ml" 50 2730 2741
+)
+"src/oUnitPropList.ml" 54 2796 2804 "src/oUnitPropList.ml" 55 2818 2827
+type(
+  'a
+)
+"src/oUnitPropList.ml" 50 2730 2736 "src/oUnitPropList.ml" 55 2818 2827
+type(
+  'a
+)
+"src/oUnitPropList.ml" 56 2828 2837 "src/oUnitPropList.ml" 56 2828 2846
+type(
+  exn
+)
+"src/oUnitPropList.ml" 57 2850 2856 "src/oUnitPropList.ml" 57 2850 2863
+type(
+  'a
+)
+ident(
+  int_ref default "src/oUnitPropList.ml" 42 2558 2575 "src/oUnitPropList.ml" 42 2558 2582
+)
+"src/oUnitPropList.ml" 49 2722 2726 "src/oUnitPropList.ml" 57 2850 2863
+type(
+  'a
+)
+"src/oUnitPropList.ml" 59 2869 2874 "src/oUnitPropList.ml" 59 2869 2877
+type(
+  (int, unit -> unit) Hashtbl.t -> 'a -> unit
+)
+ident(
+  int_ref set "src/oUnitPropList.ml" 45 2643 2649 "src/oUnitPropList.ml" 45 2643 2652
+)
+"src/oUnitPropList.ml" 59 2869 2879 "src/oUnitPropList.ml" 59 2869 2882
+type(
+  (int, unit -> 'b) Hashtbl.t -> 'a
+)
+ident(
+  int_ref get "src/oUnitPropList.ml" 48 2708 2714 "src/oUnitPropList.ml" 48 2708 2717
+)
+"src/oUnitPropList.ml" 59 2869 2873 "src/oUnitPropList.ml" 59 2869 2883
+type(
+  ((int, unit -> unit) Hashtbl.t -> 'a -> unit) *
+  ((int, unit -> 'b) Hashtbl.t -> 'a)
+)
+"src/oUnitPropList.ml" 48 2708 2710 "src/oUnitPropList.ml" 59 2869 2883
+type(
+  ((int, unit -> unit) Hashtbl.t -> 'a -> unit) *
+  ((int, unit -> 'b) Hashtbl.t -> 'a)
+)
+"src/oUnitPropList.ml" 45 2643 2645 "src/oUnitPropList.ml" 59 2869 2883
+type(
+  ((int, unit -> unit) Hashtbl.t -> 'a -> unit) *
+  ((int, unit -> 'b) Hashtbl.t -> 'a)
+)
+"src/oUnitPropList.ml" 44 2618 2620 "src/oUnitPropList.ml" 59 2869 2883
+type(
+  ((int, unit -> unit) Hashtbl.t -> 'a -> unit) *
+  ((int, unit -> 'b) Hashtbl.t -> 'a)
+)
+"src/oUnitPropList.ml" 43 2585 2587 "src/oUnitPropList.ml" 59 2869 2883
+type(
+  ((int, unit -> unit) Hashtbl.t -> 'a -> unit) *
+  ((int, unit -> 'b) Hashtbl.t -> 'a)
+)

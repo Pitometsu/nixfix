@@ -1,0 +1,66 @@
+PPX=$(file ../ppx/ppx_implicits$(EXE))
+PPX_MIGRATE=$(file ../ppx/ppx_implicits_migrate$(EXE))
+
+EXE2=.exe
+
+# We need PPX for ocamldep
+OCAMLDEPFLAGS= -I ../lib -ppx $(PPX)
+
+OCAMLINCLUDES += ../lib
+
+OCamlRequire($(PPX) ../lib/ppx_implicits.cmi ../lib/ppx_implicits.cmo)
+
+# Seems to be the following is the correct one, instead of OCamlRequre
+.SCANNER: %.cmx %.cmo %.cmi %.cmt %.cmti : $(PPX)
+
+Test(name, ?deps=$(EMPTY), ?skip=false) =
+  CMOS=$(addsuffix .cmo, $(deps))
+  $(name)$(EXE2) $(name).cmo $(name).cmi: $(name).ml $(PPX) $(CMOS)
+    mkdir_if_not_exists(out)
+    $(PPX_MIGRATE) -I ../lib $(name).ml > out/$(name).ml 
+    ocamlc -I ../lib -ppx $(PPX) -i $(name).ml > out/$(name).mli
+    ocamlc -bin-annot -I ../lib -ppx $(PPX) ppx_implicits.cmo $(CMOS) -o $(name)$(EXE2) $(name).ml
+  out/$(name).out: $(name)$(EXE2)
+    stdout = $(fopen out/$(name).out, w)
+    stderr = stdout
+    ./$(name)$(EXE2)
+  if $(not $(skip))
+    test: out/$(name).out
+  clean:
+    rm -f $(name).cmi $(name).cmo $(name).cmt $(name)$(EXE2)
+  export
+
+Test(add)
+Test(double)
+Test(imp3)
+Test(imp32)
+Test(imp4)
+Test(unshadow)
+Test(just)
+Test(aggressive)
+Test(adm) # must fail to execute
+Test(typeclass_expanded)
+Test(typeclass)
+Test(multiparam_expanded)
+Test(multiparam)
+Test(numc)
+Test(fvar)
+Test(numuse, ~deps=numc)
+Test(length)
+Test(sum, ~deps=numc)
+Test(length_class)
+Test(prelude)
+Test(pvariant)
+Test(implicit_polyvar)
+
+# Test(xformat)
+# Test(double_use)
+# Test(kgap)
+# Test(monad_hk)
+# # Test(highk)
+# Test(deriving)
+
+clean::
+    rm -rf out
+
+Subdirs()

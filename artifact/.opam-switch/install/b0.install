@@ -1,0 +1,65 @@
+lib: [
+  "_build/opam" {"opam"}
+  "_build/pkg/META" {"META"}
+  "_build/src-b00/b00.a" {"b00.a"}
+  "_build/src-b00/b00.cma" {"b00.cma"}
+  "_build/src-b00/b00.cmi" {"b00.cmi"}
+  "?_build/src-b00/b00.cmti" {"b00.cmti"}
+  "_build/src-b00/b00.cmx" {"b00.cmx"}
+  "_build/src-b00/b00.cmxa" {"b00.cmxa"}
+  "_build/src-b00/b00.cmxs" {"b00.cmxs"}
+  "_build/src-b00/b00.mli" {"b00.mli"}
+  "_build/src-care/b0_care.a" {"b0_care.a"}
+  "_build/src-care/b0_care.cma" {"b0_care.cma"}
+  "_build/src-care/b0_care.cmxa" {"b0_care.cmxa"}
+  "_build/src-care/b0_care.cmxs" {"b0_care.cmxs"}
+  "_build/src-care/b0_github.cmi" {"b0_github.cmi"}
+  "?_build/src-care/b0_github.cmti" {"b0_github.cmti"}
+  "_build/src-care/b0_github.cmx" {"b0_github.cmx"}
+  "_build/src-care/b0_github.mli" {"b0_github.mli"}
+  "_build/src-care/b0_machine.cmi" {"b0_machine.cmi"}
+  "?_build/src-care/b0_machine.cmti" {"b0_machine.cmti"}
+  "_build/src-care/b0_machine.cmx" {"b0_machine.cmx"}
+  "_build/src-care/b0_machine.mli" {"b0_machine.mli"}
+  "_build/src-care/b0_odoc.cmi" {"b0_odoc.cmi"}
+  "?_build/src-care/b0_odoc.cmti" {"b0_odoc.cmti"}
+  "_build/src-care/b0_odoc.cmx" {"b0_odoc.cmx"}
+  "_build/src-care/b0_odoc.mli" {"b0_odoc.mli"}
+  "_build/src-care/b0_trace.cmi" {"b0_trace.cmi"}
+  "?_build/src-care/b0_trace.cmti" {"b0_trace.cmti"}
+  "_build/src-care/b0_trace.cmx" {"b0_trace.cmx"}
+  "_build/src-care/b0_trace.mli" {"b0_trace.mli"}
+  "_build/src-care/b0_ui.cmi" {"b0_ui.cmi"}
+  "?_build/src-care/b0_ui.cmti" {"b0_ui.cmti"}
+  "_build/src-care/b0_ui.cmx" {"b0_ui.cmx"}
+  "_build/src-care/b0_ui.mli" {"b0_ui.mli"}
+  "_build/src-care/b0_vcs.cmi" {"b0_vcs.cmi"}
+  "?_build/src-care/b0_vcs.cmti" {"b0_vcs.cmti"}
+  "_build/src-care/b0_vcs.cmx" {"b0_vcs.cmx"}
+  "_build/src-care/b0_vcs.mli" {"b0_vcs.mli"}
+  "_build/src-care/b0_web.cmi" {"b0_web.cmi"}
+  "?_build/src-care/b0_web.cmti" {"b0_web.cmti"}
+  "_build/src-care/b0_web.cmx" {"b0_web.cmx"}
+  "_build/src-care/b0_web.mli" {"b0_web.mli"}
+  "_build/src-std/b0_std.a" {"b0_std.a"}
+  "_build/src-std/b0_std.cma" {"b0_std.cma"}
+  "_build/src-std/b0_std.cmi" {"b0_std.cmi"}
+  "?_build/src-std/b0_std.cmti" {"b0_std.cmti"}
+  "_build/src-std/b0_std.cmx" {"b0_std.cmx"}
+  "_build/src-std/b0_std.cmxa" {"b0_std.cmxa"}
+  "_build/src-std/b0_std.cmxs" {"b0_std.cmxs"}
+  "_build/src-std/b0_std.mli" {"b0_std.mli"}
+  "_build/src-std/b0_std_top_init.ml" {"b0_std_top_init.ml"}
+  "_build/src-std/libb0_stubs.a" {"libb0_stubs.a"}
+]
+bin: [
+  "_build/tools/b00_cache.native" {"b00-cache"}
+  "_build/tools/show_uri.native" {"show-uri"}
+]
+stublibs: "_build/src-std/dllb0_stubs.so" {"dllb0_stubs.so"}
+doc: [
+  "_build/CHANGES.md" {"CHANGES.md"}
+  "_build/LICENSE.md" {"LICENSE.md"}
+  "_build/README.md" {"README.md"}
+  "_build/doc/index.mld" {"odoc-pages/index.mld"}
+]

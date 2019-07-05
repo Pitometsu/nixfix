@@ -1,0 +1,3728 @@
+"src/oUnitResultSummary.ml" 74 3346 3350 "src/oUnitResultSummary.ml" 74 3346 3360
+type(
+  OUnitTest.result -> bool
+)
+ident(
+  def is_success "src/oUnitResultSummary.ml" 79 3469 3469 "src/oUnitResultSummary.ml" 1 0 -1
+)
+"src/oUnitResultSummary.ml" 76 3374 3380 "src/oUnitResultSummary.ml" 76 3374 3388
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 76 3374 3392 "src/oUnitResultSummary.ml" 76 3374 3396
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 77 3397 3412 "src/oUnitResultSummary.ml" 77 3397 3413
+type(
+  OUnitTest.backtrace
+)
+type(
+  OUnitLogger.position option
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 77 3397 3403 "src/oUnitResultSummary.ml" 77 3397 3413
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 77 3397 3423 "src/oUnitResultSummary.ml" 77 3397 3424
+type(
+  OUnitTest.backtrace
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 77 3397 3416 "src/oUnitResultSummary.ml" 77 3397 3424
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 77 3397 3403 "src/oUnitResultSummary.ml" 77 3397 3424
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 77 3397 3434 "src/oUnitResultSummary.ml" 77 3397 3435
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 77 3397 3428 "src/oUnitResultSummary.ml" 77 3397 3435
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 77 3397 3403 "src/oUnitResultSummary.ml" 77 3397 3435
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 77 3397 3444 "src/oUnitResultSummary.ml" 77 3397 3445
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 77 3397 3438 "src/oUnitResultSummary.ml" 77 3397 3445
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 77 3397 3403 "src/oUnitResultSummary.ml" 77 3397 3445
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 77 3397 3457 "src/oUnitResultSummary.ml" 77 3397 3458
+type(
+  OUnitTest.test_length
+)
+"src/oUnitResultSummary.ml" 77 3397 3448 "src/oUnitResultSummary.ml" 77 3397 3458
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 77 3397 3403 "src/oUnitResultSummary.ml" 77 3397 3458
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 77 3397 3462 "src/oUnitResultSummary.ml" 77 3397 3467
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 75 3363 3365 "src/oUnitResultSummary.ml" 77 3397 3467
+type(
+  OUnitTest.result -> bool
+)
+"src/oUnitResultSummary.ml" 79 3469 3473 "src/oUnitResultSummary.ml" 79 3469 3483
+type(
+  OUnitTest.result -> bool
+)
+ident(
+  def is_failure "src/oUnitResultSummary.ml" 84 3592 3592 "src/oUnitResultSummary.ml" 1 0 -1
+)
+"src/oUnitResultSummary.ml" 81 3497 3512 "src/oUnitResultSummary.ml" 81 3497 3513
+type(
+  OUnitTest.backtrace
+)
+type(
+  OUnitLogger.position option
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 81 3497 3503 "src/oUnitResultSummary.ml" 81 3497 3513
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 81 3497 3517 "src/oUnitResultSummary.ml" 81 3497 3521
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 82 3522 3528 "src/oUnitResultSummary.ml" 82 3522 3536
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 82 3522 3546 "src/oUnitResultSummary.ml" 82 3522 3547
+type(
+  OUnitTest.backtrace
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 82 3522 3539 "src/oUnitResultSummary.ml" 82 3522 3547
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 82 3522 3528 "src/oUnitResultSummary.ml" 82 3522 3547
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 82 3522 3557 "src/oUnitResultSummary.ml" 82 3522 3558
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 82 3522 3551 "src/oUnitResultSummary.ml" 82 3522 3558
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 82 3522 3528 "src/oUnitResultSummary.ml" 82 3522 3558
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 82 3522 3567 "src/oUnitResultSummary.ml" 82 3522 3568
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 82 3522 3561 "src/oUnitResultSummary.ml" 82 3522 3568
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 82 3522 3528 "src/oUnitResultSummary.ml" 82 3522 3568
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 82 3522 3580 "src/oUnitResultSummary.ml" 82 3522 3581
+type(
+  OUnitTest.test_length
+)
+"src/oUnitResultSummary.ml" 82 3522 3571 "src/oUnitResultSummary.ml" 82 3522 3581
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 82 3522 3528 "src/oUnitResultSummary.ml" 82 3522 3581
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 82 3522 3585 "src/oUnitResultSummary.ml" 82 3522 3590
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 80 3486 3488 "src/oUnitResultSummary.ml" 82 3522 3590
+type(
+  OUnitTest.result -> bool
+)
+"src/oUnitResultSummary.ml" 84 3592 3596 "src/oUnitResultSummary.ml" 84 3592 3604
+type(
+  OUnitTest.result -> bool
+)
+ident(
+  def is_error "src/oUnitResultSummary.ml" 89 3712 3712 "src/oUnitResultSummary.ml" 1 0 -1
+)
+"src/oUnitResultSummary.ml" 86 3618 3631 "src/oUnitResultSummary.ml" 86 3618 3632
+type(
+  OUnitTest.backtrace
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 86 3618 3624 "src/oUnitResultSummary.ml" 86 3618 3632
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 86 3618 3636 "src/oUnitResultSummary.ml" 86 3618 3640
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 87 3641 3647 "src/oUnitResultSummary.ml" 87 3641 3655
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 87 3641 3667 "src/oUnitResultSummary.ml" 87 3641 3668
+type(
+  OUnitTest.backtrace
+)
+type(
+  OUnitLogger.position option
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 87 3641 3658 "src/oUnitResultSummary.ml" 87 3641 3668
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 87 3641 3647 "src/oUnitResultSummary.ml" 87 3641 3668
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 87 3641 3677 "src/oUnitResultSummary.ml" 87 3641 3678
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 87 3641 3671 "src/oUnitResultSummary.ml" 87 3641 3678
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 87 3641 3647 "src/oUnitResultSummary.ml" 87 3641 3678
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 87 3641 3687 "src/oUnitResultSummary.ml" 87 3641 3688
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 87 3641 3681 "src/oUnitResultSummary.ml" 87 3641 3688
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 87 3641 3647 "src/oUnitResultSummary.ml" 87 3641 3688
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 87 3641 3700 "src/oUnitResultSummary.ml" 87 3641 3701
+type(
+  OUnitTest.test_length
+)
+"src/oUnitResultSummary.ml" 87 3641 3691 "src/oUnitResultSummary.ml" 87 3641 3701
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 87 3641 3647 "src/oUnitResultSummary.ml" 87 3641 3701
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 87 3641 3705 "src/oUnitResultSummary.ml" 87 3641 3710
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 85 3607 3609 "src/oUnitResultSummary.ml" 87 3641 3710
+type(
+  OUnitTest.result -> bool
+)
+"src/oUnitResultSummary.ml" 89 3712 3716 "src/oUnitResultSummary.ml" 89 3712 3723
+type(
+  OUnitTest.result -> bool
+)
+ident(
+  def is_skip "src/oUnitResultSummary.ml" 94 3832 3832 "src/oUnitResultSummary.ml" 1 0 -1
+)
+"src/oUnitResultSummary.ml" 91 3737 3749 "src/oUnitResultSummary.ml" 91 3737 3750
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 91 3737 3743 "src/oUnitResultSummary.ml" 91 3737 3750
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 91 3737 3754 "src/oUnitResultSummary.ml" 91 3737 3758
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 92 3759 3765 "src/oUnitResultSummary.ml" 92 3759 3773
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 92 3759 3785 "src/oUnitResultSummary.ml" 92 3759 3786
+type(
+  OUnitTest.backtrace
+)
+type(
+  OUnitLogger.position option
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 92 3759 3776 "src/oUnitResultSummary.ml" 92 3759 3786
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 92 3759 3765 "src/oUnitResultSummary.ml" 92 3759 3786
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 92 3759 3796 "src/oUnitResultSummary.ml" 92 3759 3797
+type(
+  OUnitTest.backtrace
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 92 3759 3789 "src/oUnitResultSummary.ml" 92 3759 3797
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 92 3759 3765 "src/oUnitResultSummary.ml" 92 3759 3797
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 92 3759 3807 "src/oUnitResultSummary.ml" 92 3759 3808
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 92 3759 3801 "src/oUnitResultSummary.ml" 92 3759 3808
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 92 3759 3765 "src/oUnitResultSummary.ml" 92 3759 3808
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 92 3759 3820 "src/oUnitResultSummary.ml" 92 3759 3821
+type(
+  OUnitTest.test_length
+)
+"src/oUnitResultSummary.ml" 92 3759 3811 "src/oUnitResultSummary.ml" 92 3759 3821
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 92 3759 3765 "src/oUnitResultSummary.ml" 92 3759 3821
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 92 3759 3825 "src/oUnitResultSummary.ml" 92 3759 3830
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 90 3726 3728 "src/oUnitResultSummary.ml" 92 3759 3830
+type(
+  OUnitTest.result -> bool
+)
+"src/oUnitResultSummary.ml" 94 3832 3836 "src/oUnitResultSummary.ml" 94 3832 3843
+type(
+  OUnitTest.result -> bool
+)
+ident(
+  def is_todo "src/oUnitResultSummary.ml" 99 3952 3952 "src/oUnitResultSummary.ml" 1 0 -1
+)
+"src/oUnitResultSummary.ml" 96 3857 3869 "src/oUnitResultSummary.ml" 96 3857 3870
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 96 3857 3863 "src/oUnitResultSummary.ml" 96 3857 3870
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 96 3857 3874 "src/oUnitResultSummary.ml" 96 3857 3878
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 97 3879 3885 "src/oUnitResultSummary.ml" 97 3879 3893
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 97 3879 3905 "src/oUnitResultSummary.ml" 97 3879 3906
+type(
+  OUnitTest.backtrace
+)
+type(
+  OUnitLogger.position option
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 97 3879 3896 "src/oUnitResultSummary.ml" 97 3879 3906
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 97 3879 3885 "src/oUnitResultSummary.ml" 97 3879 3906
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 97 3879 3916 "src/oUnitResultSummary.ml" 97 3879 3917
+type(
+  OUnitTest.backtrace
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 97 3879 3909 "src/oUnitResultSummary.ml" 97 3879 3917
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 97 3879 3885 "src/oUnitResultSummary.ml" 97 3879 3917
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 97 3879 3927 "src/oUnitResultSummary.ml" 97 3879 3928
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 97 3879 3921 "src/oUnitResultSummary.ml" 97 3879 3928
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 97 3879 3885 "src/oUnitResultSummary.ml" 97 3879 3928
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 97 3879 3940 "src/oUnitResultSummary.ml" 97 3879 3941
+type(
+  OUnitTest.test_length
+)
+"src/oUnitResultSummary.ml" 97 3879 3931 "src/oUnitResultSummary.ml" 97 3879 3941
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 97 3879 3885 "src/oUnitResultSummary.ml" 97 3879 3941
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 97 3879 3945 "src/oUnitResultSummary.ml" 97 3879 3950
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 95 3846 3848 "src/oUnitResultSummary.ml" 97 3879 3950
+type(
+  OUnitTest.result -> bool
+)
+"src/oUnitResultSummary.ml" 99 3952 3956 "src/oUnitResultSummary.ml" 99 3952 3966
+type(
+  OUnitTest.result -> bool
+)
+ident(
+  def is_timeout "src/oUnitResultSummary.ml" 104 4075 4075 "src/oUnitResultSummary.ml" 1 0 -1
+)
+"src/oUnitResultSummary.ml" 101 3980 3995 "src/oUnitResultSummary.ml" 101 3980 3996
+type(
+  OUnitTest.test_length
+)
+"src/oUnitResultSummary.ml" 101 3980 3986 "src/oUnitResultSummary.ml" 101 3980 3996
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 101 3980 4000 "src/oUnitResultSummary.ml" 101 3980 4004
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 102 4005 4011 "src/oUnitResultSummary.ml" 102 4005 4019
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 102 4005 4031 "src/oUnitResultSummary.ml" 102 4005 4032
+type(
+  OUnitTest.backtrace
+)
+type(
+  OUnitLogger.position option
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 102 4005 4022 "src/oUnitResultSummary.ml" 102 4005 4032
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 102 4005 4011 "src/oUnitResultSummary.ml" 102 4005 4032
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 102 4005 4042 "src/oUnitResultSummary.ml" 102 4005 4043
+type(
+  OUnitTest.backtrace
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 102 4005 4035 "src/oUnitResultSummary.ml" 102 4005 4043
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 102 4005 4011 "src/oUnitResultSummary.ml" 102 4005 4043
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 102 4005 4053 "src/oUnitResultSummary.ml" 102 4005 4054
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 102 4005 4047 "src/oUnitResultSummary.ml" 102 4005 4054
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 102 4005 4011 "src/oUnitResultSummary.ml" 102 4005 4054
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 102 4005 4063 "src/oUnitResultSummary.ml" 102 4005 4064
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 102 4005 4057 "src/oUnitResultSummary.ml" 102 4005 4064
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 102 4005 4011 "src/oUnitResultSummary.ml" 102 4005 4064
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 102 4005 4068 "src/oUnitResultSummary.ml" 102 4005 4073
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 100 3969 3971 "src/oUnitResultSummary.ml" 102 4005 4073
+type(
+  OUnitTest.result -> bool
+)
+"src/oUnitResultSummary.ml" 104 4075 4079 "src/oUnitResultSummary.ml" 104 4075 4093
+type(
+  OUnitTest.result -> string
+)
+ident(
+  def result_flavour "src/oUnitResultSummary.ml" 113 4270 4270 "src/oUnitResultSummary.ml" 1 0 -1
+)
+"src/oUnitResultSummary.ml" 106 4107 4120 "src/oUnitResultSummary.ml" 106 4107 4121
+type(
+  OUnitTest.backtrace
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 106 4107 4113 "src/oUnitResultSummary.ml" 106 4107 4121
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 106 4107 4125 "src/oUnitResultSummary.ml" 106 4107 4132
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 107 4133 4148 "src/oUnitResultSummary.ml" 107 4133 4149
+type(
+  OUnitTest.backtrace
+)
+type(
+  OUnitLogger.position option
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 107 4133 4139 "src/oUnitResultSummary.ml" 107 4133 4149
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 107 4133 4153 "src/oUnitResultSummary.ml" 107 4133 4162
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 108 4163 4169 "src/oUnitResultSummary.ml" 108 4163 4177
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 108 4163 4181 "src/oUnitResultSummary.ml" 108 4163 4190
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 109 4191 4203 "src/oUnitResultSummary.ml" 109 4191 4204
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 109 4191 4197 "src/oUnitResultSummary.ml" 109 4191 4204
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 109 4191 4208 "src/oUnitResultSummary.ml" 109 4191 4214
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 110 4215 4227 "src/oUnitResultSummary.ml" 110 4215 4228
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 110 4215 4221 "src/oUnitResultSummary.ml" 110 4215 4228
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 110 4215 4232 "src/oUnitResultSummary.ml" 110 4215 4238
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 111 4239 4254 "src/oUnitResultSummary.ml" 111 4239 4255
+type(
+  OUnitTest.test_length
+)
+"src/oUnitResultSummary.ml" 111 4239 4245 "src/oUnitResultSummary.ml" 111 4239 4255
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 111 4239 4259 "src/oUnitResultSummary.ml" 111 4239 4268
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 105 4096 4098 "src/oUnitResultSummary.ml" 111 4239 4268
+type(
+  OUnitTest.result -> string
+)
+"src/oUnitResultSummary.ml" 113 4270 4274 "src/oUnitResultSummary.ml" 113 4270 4284
+type(
+  OUnitTest.result -> string
+)
+ident(
+  def result_msg "src/oUnitResultSummary.ml" 123 4520 4520 "src/oUnitResultSummary.ml" 1 0 -1
+)
+"src/oUnitResultSummary.ml" 115 4298 4304 "src/oUnitResultSummary.ml" 115 4298 4312
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 115 4298 4316 "src/oUnitResultSummary.ml" 115 4298 4325
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 116 4326 4340 "src/oUnitResultSummary.ml" 116 4326 4343
+type(
+  string
+)
+ident(
+  def msg "src/oUnitResultSummary.ml" 119 4391 4410 "src/oUnitResultSummary.ml" 119 4391 4413
+)
+"src/oUnitResultSummary.ml" 116 4326 4345 "src/oUnitResultSummary.ml" 116 4326 4346
+type(
+  OUnitTest.backtrace
+)
+"src/oUnitResultSummary.ml" 116 4326 4332 "src/oUnitResultSummary.ml" 116 4326 4347
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 117 4348 4364 "src/oUnitResultSummary.ml" 117 4348 4367
+type(
+  string
+)
+ident(
+  def msg "src/oUnitResultSummary.ml" 119 4391 4410 "src/oUnitResultSummary.ml" 119 4391 4413
+)
+"src/oUnitResultSummary.ml" 117 4348 4369 "src/oUnitResultSummary.ml" 117 4348 4370
+type(
+  OUnitLogger.position option
+)
+"src/oUnitResultSummary.ml" 117 4348 4372 "src/oUnitResultSummary.ml" 117 4348 4373
+type(
+  OUnitTest.backtrace
+)
+"src/oUnitResultSummary.ml" 117 4348 4354 "src/oUnitResultSummary.ml" 117 4348 4374
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 116 4326 4332 "src/oUnitResultSummary.ml" 117 4348 4374
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 118 4375 4387 "src/oUnitResultSummary.ml" 118 4375 4390
+type(
+  string
+)
+ident(
+  def msg "src/oUnitResultSummary.ml" 119 4391 4410 "src/oUnitResultSummary.ml" 119 4391 4413
+)
+"src/oUnitResultSummary.ml" 118 4375 4381 "src/oUnitResultSummary.ml" 118 4375 4390
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 116 4326 4332 "src/oUnitResultSummary.ml" 118 4375 4390
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 119 4391 4403 "src/oUnitResultSummary.ml" 119 4391 4406
+type(
+  string
+)
+ident(
+  def msg "src/oUnitResultSummary.ml" 119 4391 4410 "src/oUnitResultSummary.ml" 119 4391 4413
+)
+"src/oUnitResultSummary.ml" 119 4391 4397 "src/oUnitResultSummary.ml" 119 4391 4406
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 116 4326 4332 "src/oUnitResultSummary.ml" 119 4391 4406
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 119 4391 4410 "src/oUnitResultSummary.ml" 119 4391 4413
+type(
+  string
+)
+ident(
+  int_ref msg "src/oUnitResultSummary.ml" 116 4326 4340 "src/oUnitResultSummary.ml" 116 4326 4343
+)
+"src/oUnitResultSummary.ml" 120 4414 4429 "src/oUnitResultSummary.ml" 120 4414 4440
+type(
+  OUnitTest.test_length
+)
+ident(
+  def test_length "src/oUnitResultSummary.ml" 121 4444 4452 "src/oUnitResultSummary.ml" 121 4444 4518
+)
+"src/oUnitResultSummary.ml" 120 4414 4420 "src/oUnitResultSummary.ml" 120 4414 4440
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 121 4444 4452 "src/oUnitResultSummary.ml" 121 4444 4466
+type(
+  (float -> string, unit, string) format -> float -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/oUnitResultSummary.ml" 121 4444 4467 "src/oUnitResultSummary.ml" 121 4444 4488
+type(
+  (float -> string, unit, string) format
+)
+"src/oUnitResultSummary.ml" 121 4444 4490 "src/oUnitResultSummary.ml" 121 4444 4505
+type(
+  OUnitTest.test_length -> float
+)
+ident(
+  ext_ref OUnitTest.delay_of_length
+)
+"src/oUnitResultSummary.ml" 121 4444 4506 "src/oUnitResultSummary.ml" 121 4444 4517
+type(
+  OUnitTest.test_length
+)
+ident(
+  int_ref test_length "src/oUnitResultSummary.ml" 120 4414 4429 "src/oUnitResultSummary.ml" 120 4414 4440
+)
+"src/oUnitResultSummary.ml" 121 4444 4489 "src/oUnitResultSummary.ml" 121 4444 4518
+call(
+  stack
+)
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 121 4444 4452 "src/oUnitResultSummary.ml" 121 4444 4518
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 114 4287 4289 "src/oUnitResultSummary.ml" 121 4444 4518
+type(
+  OUnitTest.result -> string
+)
+"src/oUnitResultSummary.ml" 123 4520 4524 "src/oUnitResultSummary.ml" 123 4520 4533
+type(
+  OUnitTest.result -> OUnitTest.result -> int
+)
+ident(
+  def worst_cmp "src/oUnitResultSummary.ml" 135 4754 4754 "src/oUnitResultSummary.ml" 1 0 -1
+)
+"src/oUnitResultSummary.ml" 123 4520 4534 "src/oUnitResultSummary.ml" 123 4520 4541
+type(
+  OUnitTest.result
+)
+ident(
+  def result1 "src/oUnitResultSummary.ml" 123 4520 4542 "src/oUnitResultSummary.ml" 133 4717 4752
+)
+"src/oUnitResultSummary.ml" 123 4520 4542 "src/oUnitResultSummary.ml" 123 4520 4549
+type(
+  OUnitTest.result
+)
+ident(
+  def result2 "src/oUnitResultSummary.ml" 124 4552 4554 "src/oUnitResultSummary.ml" 133 4717 4752
+)
+"src/oUnitResultSummary.ml" 124 4552 4558 "src/oUnitResultSummary.ml" 124 4552 4562
+type(
+  OUnitTest.result -> int
+)
+ident(
+  def rank "src/oUnitResultSummary.ml" 133 4717 4721 "src/oUnitResultSummary.ml" 133 4717 4752
+)
+"src/oUnitResultSummary.ml" 126 4578 4586 "src/oUnitResultSummary.ml" 126 4578 4594
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 126 4578 4598 "src/oUnitResultSummary.ml" 126 4578 4599
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 127 4600 4614 "src/oUnitResultSummary.ml" 127 4600 4615
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 127 4600 4608 "src/oUnitResultSummary.ml" 127 4600 4615
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 127 4600 4619 "src/oUnitResultSummary.ml" 127 4600 4620
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 128 4621 4635 "src/oUnitResultSummary.ml" 128 4621 4636
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 128 4621 4629 "src/oUnitResultSummary.ml" 128 4621 4636
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 128 4621 4640 "src/oUnitResultSummary.ml" 128 4621 4641
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 129 4642 4659 "src/oUnitResultSummary.ml" 129 4642 4660
+type(
+  OUnitTest.backtrace
+)
+type(
+  OUnitLogger.position option
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 129 4642 4650 "src/oUnitResultSummary.ml" 129 4642 4660
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 129 4642 4664 "src/oUnitResultSummary.ml" 129 4642 4665
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 130 4666 4681 "src/oUnitResultSummary.ml" 130 4666 4682
+type(
+  OUnitTest.backtrace
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 130 4666 4674 "src/oUnitResultSummary.ml" 130 4666 4682
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 130 4666 4686 "src/oUnitResultSummary.ml" 130 4666 4687
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 131 4688 4705 "src/oUnitResultSummary.ml" 131 4688 4706
+type(
+  OUnitTest.test_length
+)
+"src/oUnitResultSummary.ml" 131 4688 4696 "src/oUnitResultSummary.ml" 131 4688 4706
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 131 4688 4710 "src/oUnitResultSummary.ml" 131 4688 4711
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 125 4565 4569 "src/oUnitResultSummary.ml" 131 4688 4711
+type(
+  OUnitTest.result -> int
+)
+"src/oUnitResultSummary.ml" 133 4717 4722 "src/oUnitResultSummary.ml" 133 4717 4726
+type(
+  OUnitTest.result -> int
+)
+ident(
+  int_ref rank "src/oUnitResultSummary.ml" 124 4552 4558 "src/oUnitResultSummary.ml" 124 4552 4562
+)
+"src/oUnitResultSummary.ml" 133 4717 4727 "src/oUnitResultSummary.ml" 133 4717 4734
+type(
+  OUnitTest.result
+)
+ident(
+  int_ref result1 "src/oUnitResultSummary.ml" 123 4520 4534 "src/oUnitResultSummary.ml" 123 4520 4541
+)
+"src/oUnitResultSummary.ml" 133 4717 4721 "src/oUnitResultSummary.ml" 133 4717 4735
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 133 4717 4736 "src/oUnitResultSummary.ml" 133 4717 4737
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/oUnitResultSummary.ml" 133 4717 4739 "src/oUnitResultSummary.ml" 133 4717 4743
+type(
+  OUnitTest.result -> int
+)
+ident(
+  int_ref rank "src/oUnitResultSummary.ml" 124 4552 4558 "src/oUnitResultSummary.ml" 124 4552 4562
+)
+"src/oUnitResultSummary.ml" 133 4717 4744 "src/oUnitResultSummary.ml" 133 4717 4751
+type(
+  OUnitTest.result
+)
+ident(
+  int_ref result2 "src/oUnitResultSummary.ml" 123 4520 4542 "src/oUnitResultSummary.ml" 123 4520 4549
+)
+"src/oUnitResultSummary.ml" 133 4717 4738 "src/oUnitResultSummary.ml" 133 4717 4752
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 133 4717 4721 "src/oUnitResultSummary.ml" 133 4717 4752
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 124 4552 4554 "src/oUnitResultSummary.ml" 133 4717 4752
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 135 4754 4758 "src/oUnitResultSummary.ml" 135 4754 4775
+type(
+  'a * OUnitTest.result * 'b ->
+  ('a * OUnitTest.result * 'b) list ->
+  ('a * OUnitTest.result * 'b) * ('a * OUnitTest.result * 'b) list
+)
+ident(
+  def worst_result_full "src/oUnitResultSummary.ml" 151 5166 5166 "src/oUnitResultSummary.ml" 1 0 -1
+)
+"src/oUnitResultSummary.ml" 135 4754 4776 "src/oUnitResultSummary.ml" 135 4754 4787
+type(
+  'a * OUnitTest.result * 'b
+)
+ident(
+  def result_full "src/oUnitResultSummary.ml" 135 4754 4788 "src/oUnitResultSummary.ml" 149 5138 5164
+)
+"src/oUnitResultSummary.ml" 135 4754 4788 "src/oUnitResultSummary.ml" 135 4754 4791
+type(
+  ('a * OUnitTest.result * 'b) list
+)
+ident(
+  def lst "src/oUnitResultSummary.ml" 136 4794 4796 "src/oUnitResultSummary.ml" 149 5138 5164
+)
+"src/oUnitResultSummary.ml" 136 4794 4800 "src/oUnitResultSummary.ml" 136 4794 4805
+type(
+  'a * OUnitTest.result * 'b
+)
+ident(
+  def worst "src/oUnitResultSummary.ml" 146 5057 5061 "src/oUnitResultSummary.ml" 149 5138 5164
+)
+"src/oUnitResultSummary.ml" 137 4808 4812 "src/oUnitResultSummary.ml" 137 4808 4826
+type(
+  ('a * OUnitTest.result * 'b ->
+   'a * OUnitTest.result * 'b -> 'a * OUnitTest.result * 'b) ->
+  'a * OUnitTest.result * 'b ->
+  ('a * OUnitTest.result * 'b) list -> 'a * OUnitTest.result * 'b
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/oUnitResultSummary.ml" 138 4827 4840 "src/oUnitResultSummary.ml" 138 4827 4841
+type(
+  'a
+)
+"src/oUnitResultSummary.ml" 138 4827 4843 "src/oUnitResultSummary.ml" 138 4827 4850
+type(
+  OUnitTest.result
+)
+ident(
+  def result1 "src/oUnitResultSummary.ml" 139 4872 4885 "src/oUnitResultSummary.ml" 143 5005 5028
+)
+"src/oUnitResultSummary.ml" 138 4827 4852 "src/oUnitResultSummary.ml" 138 4827 4853
+type(
+  'b
+)
+"src/oUnitResultSummary.ml" 138 4827 4839 "src/oUnitResultSummary.ml" 138 4827 4854
+type(
+  'a * OUnitTest.result * 'b
+)
+"src/oUnitResultSummary.ml" 138 4827 4858 "src/oUnitResultSummary.ml" 138 4827 4870
+ident(
+  def result_full1 "src/oUnitResultSummary.ml" 139 4872 4885 "src/oUnitResultSummary.ml" 143 5005 5028
+)
+"src/oUnitResultSummary.ml" 138 4827 4838 "src/oUnitResultSummary.ml" 138 4827 4871
+type(
+  'a * OUnitTest.result * 'b
+)
+"src/oUnitResultSummary.ml" 139 4872 4887 "src/oUnitResultSummary.ml" 139 4872 4888
+type(
+  'a
+)
+"src/oUnitResultSummary.ml" 139 4872 4890 "src/oUnitResultSummary.ml" 139 4872 4897
+type(
+  OUnitTest.result
+)
+ident(
+  def result2 "src/oUnitResultSummary.ml" 140 4922 4929 "src/oUnitResultSummary.ml" 143 5005 5028
+)
+"src/oUnitResultSummary.ml" 139 4872 4899 "src/oUnitResultSummary.ml" 139 4872 4900
+type(
+  'b
+)
+"src/oUnitResultSummary.ml" 139 4872 4886 "src/oUnitResultSummary.ml" 139 4872 4901
+type(
+  'a * OUnitTest.result * 'b
+)
+"src/oUnitResultSummary.ml" 139 4872 4905 "src/oUnitResultSummary.ml" 139 4872 4917
+ident(
+  def result_full2 "src/oUnitResultSummary.ml" 140 4922 4929 "src/oUnitResultSummary.ml" 143 5005 5028
+)
+"src/oUnitResultSummary.ml" 139 4872 4885 "src/oUnitResultSummary.ml" 139 4872 4918
+type(
+  'a * OUnitTest.result * 'b
+)
+"src/oUnitResultSummary.ml" 140 4922 4932 "src/oUnitResultSummary.ml" 140 4922 4941
+type(
+  OUnitTest.result -> OUnitTest.result -> int
+)
+ident(
+  int_ref worst_cmp "src/oUnitResultSummary.ml" 123 4520 4524 "src/oUnitResultSummary.ml" 123 4520 4533
+)
+"src/oUnitResultSummary.ml" 140 4922 4942 "src/oUnitResultSummary.ml" 140 4922 4949
+type(
+  OUnitTest.result
+)
+ident(
+  int_ref result1 "src/oUnitResultSummary.ml" 138 4827 4843 "src/oUnitResultSummary.ml" 138 4827 4850
+)
+"src/oUnitResultSummary.ml" 140 4922 4950 "src/oUnitResultSummary.ml" 140 4922 4957
+type(
+  OUnitTest.result
+)
+ident(
+  int_ref result2 "src/oUnitResultSummary.ml" 139 4872 4890 "src/oUnitResultSummary.ml" 139 4872 4897
+)
+"src/oUnitResultSummary.ml" 140 4922 4932 "src/oUnitResultSummary.ml" 140 4922 4957
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 140 4922 4958 "src/oUnitResultSummary.ml" 140 4922 4959
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/oUnitResultSummary.ml" 140 4922 4960 "src/oUnitResultSummary.ml" 140 4922 4961
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 140 4922 4932 "src/oUnitResultSummary.ml" 140 4922 4961
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 141 4967 4978 "src/oUnitResultSummary.ml" 141 4967 4990
+type(
+  'a * OUnitTest.result * 'b
+)
+ident(
+  int_ref result_full2 "src/oUnitResultSummary.ml" 139 4872 4885 "src/oUnitResultSummary.ml" 139 4872 4918
+)
+"src/oUnitResultSummary.ml" 143 5005 5016 "src/oUnitResultSummary.ml" 143 5005 5028
+type(
+  'a * OUnitTest.result * 'b
+)
+ident(
+  int_ref result_full1 "src/oUnitResultSummary.ml" 138 4827 4838 "src/oUnitResultSummary.ml" 138 4827 4871
+)
+"src/oUnitResultSummary.ml" 140 4922 4929 "src/oUnitResultSummary.ml" 143 5005 5028
+type(
+  'a * OUnitTest.result * 'b
+)
+"src/oUnitResultSummary.ml" 138 4827 4833 "src/oUnitResultSummary.ml" 143 5005 5029
+type(
+  'a * OUnitTest.result * 'b ->
+  'a * OUnitTest.result * 'b -> 'a * OUnitTest.result * 'b
+)
+"src/oUnitResultSummary.ml" 144 5030 5036 "src/oUnitResultSummary.ml" 144 5030 5047
+type(
+  'a * OUnitTest.result * 'b
+)
+ident(
+  int_ref result_full "src/oUnitResultSummary.ml" 135 4754 4776 "src/oUnitResultSummary.ml" 135 4754 4787
+)
+"src/oUnitResultSummary.ml" 144 5030 5048 "src/oUnitResultSummary.ml" 144 5030 5051
+type(
+  ('a * OUnitTest.result * 'b) list
+)
+ident(
+  int_ref lst "src/oUnitResultSummary.ml" 135 4754 4788 "src/oUnitResultSummary.ml" 135 4754 4791
+)
+"src/oUnitResultSummary.ml" 137 4808 4812 "src/oUnitResultSummary.ml" 144 5030 5051
+call(
+  stack
+)
+type(
+  'a * OUnitTest.result * 'b
+)
+"src/oUnitResultSummary.ml" 146 5057 5061 "src/oUnitResultSummary.ml" 146 5057 5066
+type(
+  'a * OUnitTest.result * 'b
+)
+ident(
+  int_ref worst "src/oUnitResultSummary.ml" 136 4794 4800 "src/oUnitResultSummary.ml" 136 4794 4805
+)
+"src/oUnitResultSummary.ml" 147 5068 5072 "src/oUnitResultSummary.ml" 147 5068 5083
+type(
+  ('a * OUnitTest.result * 'b -> bool) ->
+  ('a * OUnitTest.result * 'b) list -> ('a * OUnitTest.result * 'b) list
+)
+ident(
+  ext_ref List.filter
+)
+"src/oUnitResultSummary.ml" 148 5084 5095 "src/oUnitResultSummary.ml" 148 5084 5106
+type(
+  'a * OUnitTest.result * 'b
+)
+ident(
+  def result_full "src/oUnitResultSummary.ml" 148 5084 5110 "src/oUnitResultSummary.ml" 148 5084 5136
+)
+"src/oUnitResultSummary.ml" 148 5084 5110 "src/oUnitResultSummary.ml" 148 5084 5113
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/oUnitResultSummary.ml" 148 5084 5115 "src/oUnitResultSummary.ml" 148 5084 5126
+type(
+  'a * OUnitTest.result * 'b
+)
+ident(
+  int_ref result_full "src/oUnitResultSummary.ml" 148 5084 5095 "src/oUnitResultSummary.ml" 148 5084 5106
+)
+"src/oUnitResultSummary.ml" 148 5084 5127 "src/oUnitResultSummary.ml" 148 5084 5129
+type(
+  'a * OUnitTest.result * 'b -> 'a * OUnitTest.result * 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/oUnitResultSummary.ml" 148 5084 5130 "src/oUnitResultSummary.ml" 148 5084 5135
+type(
+  'a * OUnitTest.result * 'b
+)
+ident(
+  int_ref worst "src/oUnitResultSummary.ml" 136 4794 4800 "src/oUnitResultSummary.ml" 136 4794 4805
+)
+"src/oUnitResultSummary.ml" 148 5084 5114 "src/oUnitResultSummary.ml" 148 5084 5136
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 148 5084 5110 "src/oUnitResultSummary.ml" 148 5084 5136
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 148 5084 5090 "src/oUnitResultSummary.ml" 148 5084 5137
+type(
+  'a * OUnitTest.result * 'b -> bool
+)
+"src/oUnitResultSummary.ml" 149 5138 5145 "src/oUnitResultSummary.ml" 149 5138 5156
+type(
+  'a * OUnitTest.result * 'b
+)
+ident(
+  int_ref result_full "src/oUnitResultSummary.ml" 135 4754 4776 "src/oUnitResultSummary.ml" 135 4754 4787
+)
+"src/oUnitResultSummary.ml" 149 5138 5160 "src/oUnitResultSummary.ml" 149 5138 5163
+type(
+  ('a * OUnitTest.result * 'b) list
+)
+ident(
+  int_ref lst "src/oUnitResultSummary.ml" 135 4754 4788 "src/oUnitResultSummary.ml" 135 4754 4791
+)
+"src/oUnitResultSummary.ml" 149 5138 5144 "src/oUnitResultSummary.ml" 149 5138 5164
+type(
+  ('a * OUnitTest.result * 'b) list
+)
+"src/oUnitResultSummary.ml" 147 5068 5072 "src/oUnitResultSummary.ml" 149 5138 5164
+call(
+  stack
+)
+type(
+  ('a * OUnitTest.result * 'b) list
+)
+"src/oUnitResultSummary.ml" 146 5057 5061 "src/oUnitResultSummary.ml" 149 5138 5164
+type(
+  ('a * OUnitTest.result * 'b) * ('a * OUnitTest.result * 'b) list
+)
+"src/oUnitResultSummary.ml" 136 4794 4796 "src/oUnitResultSummary.ml" 149 5138 5164
+type(
+  ('a * OUnitTest.result * 'b) * ('a * OUnitTest.result * 'b) list
+)
+"src/oUnitResultSummary.ml" 151 5166 5170 "src/oUnitResultSummary.ml" 151 5166 5184
+type(
+  ('a * OUnitTest.result * 'b) list -> bool
+)
+ident(
+  def was_successful "src/oUnitResultSummary.ml" 159 5324 5324 "src/oUnitResultSummary.ml" 1 0 -1
+)
+"src/oUnitResultSummary.ml" 151 5166 5185 "src/oUnitResultSummary.ml" 151 5166 5188
+type(
+  ('a * OUnitTest.result * 'b) list
+)
+ident(
+  def lst "src/oUnitResultSummary.ml" 152 5191 5193 "src/oUnitResultSummary.ml" 157 5315 5322
+)
+"src/oUnitResultSummary.ml" 152 5191 5193 "src/oUnitResultSummary.ml" 152 5191 5205
+type(
+  ('a * OUnitTest.result * 'b -> bool) ->
+  ('a * OUnitTest.result * 'b) list -> bool
+)
+ident(
+  ext_ref List.for_all
+)
+"src/oUnitResultSummary.ml" 153 5206 5216 "src/oUnitResultSummary.ml" 153 5206 5217
+type(
+  'a
+)
+"src/oUnitResultSummary.ml" 153 5206 5219 "src/oUnitResultSummary.ml" 153 5206 5223
+type(
+  OUnitTest.result
+)
+ident(
+  def rslt "src/oUnitResultSummary.ml" 154 5231 5238 "src/oUnitResultSummary.ml" 156 5292 5313
+)
+"src/oUnitResultSummary.ml" 153 5206 5225 "src/oUnitResultSummary.ml" 153 5206 5226
+type(
+  'b
+)
+"src/oUnitResultSummary.ml" 153 5206 5215 "src/oUnitResultSummary.ml" 153 5206 5227
+type(
+  'a * OUnitTest.result * 'b
+)
+"src/oUnitResultSummary.ml" 154 5231 5244 "src/oUnitResultSummary.ml" 154 5231 5248
+type(
+  OUnitTest.result
+)
+ident(
+  int_ref rslt "src/oUnitResultSummary.ml" 153 5206 5219 "src/oUnitResultSummary.ml" 153 5206 5223
+)
+"src/oUnitResultSummary.ml" 155 5254 5265 "src/oUnitResultSummary.ml" 155 5254 5273
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 155 5254 5282 "src/oUnitResultSummary.ml" 155 5254 5283
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 155 5254 5276 "src/oUnitResultSummary.ml" 155 5254 5283
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 155 5254 5265 "src/oUnitResultSummary.ml" 155 5254 5283
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 155 5254 5287 "src/oUnitResultSummary.ml" 155 5254 5291
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 156 5292 5303 "src/oUnitResultSummary.ml" 156 5292 5304
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 156 5292 5308 "src/oUnitResultSummary.ml" 156 5292 5313
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 154 5231 5238 "src/oUnitResultSummary.ml" 156 5292 5313
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 153 5206 5210 "src/oUnitResultSummary.ml" 156 5292 5314
+type(
+  'a * OUnitTest.result * 'b -> bool
+)
+"src/oUnitResultSummary.ml" 157 5315 5319 "src/oUnitResultSummary.ml" 157 5315 5322
+type(
+  ('a * OUnitTest.result * 'b) list
+)
+ident(
+  int_ref lst "src/oUnitResultSummary.ml" 151 5166 5185 "src/oUnitResultSummary.ml" 151 5166 5188
+)
+"src/oUnitResultSummary.ml" 152 5191 5193 "src/oUnitResultSummary.ml" 157 5315 5322
+call(
+  tail
+)
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 159 5324 5328 "src/oUnitResultSummary.ml" 159 5324 5336
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  def encoding "src/oUnitResultSummary.ml" 165 5422 5422 "src/oUnitResultSummary.ml" 1 0 -1
+)
+"src/oUnitResultSummary.ml" 160 5339 5341 "src/oUnitResultSummary.ml" 160 5339 5362
+type(
+  string -> string -> string -> (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  ext_ref OUnitConf.make_string
+)
+"src/oUnitResultSummary.ml" 161 5363 5367 "src/oUnitResultSummary.ml" 161 5363 5381
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 162 5382 5386 "src/oUnitResultSummary.ml" 162 5382 5393
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 163 5394 5398 "src/oUnitResultSummary.ml" 163 5394 5420
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 160 5339 5341 "src/oUnitResultSummary.ml" 163 5394 5420
+call(
+  stack
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+"src/oUnitResultSummary.ml" 165 5422 5426 "src/oUnitResultSummary.ml" 165 5422 5439
+type(
+  (int, unit -> unit) Hashtbl.t ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list -> t
+)
+ident(
+  def of_log_events "src/oUnitResultSummary.ml" 322 10304 10309 "src/oUnitResultSummary.ml" 1 0 -1
+)
+"src/oUnitResultSummary.ml" 165 5422 5440 "src/oUnitResultSummary.ml" 165 5422 5444
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  def conf "src/oUnitResultSummary.ml" 165 5422 5445 "src/oUnitResultSummary.ml" 322 10304 10309
+)
+"src/oUnitResultSummary.ml" 165 5422 5445 "src/oUnitResultSummary.ml" 165 5422 5451
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+ident(
+  def events "src/oUnitResultSummary.ml" 166 5454 5456 "src/oUnitResultSummary.ml" 322 10304 10309
+)
+"src/oUnitResultSummary.ml" 166 5454 5460 "src/oUnitResultSummary.ml" 166 5454 5471
+type(
+  (string * string) list
+)
+ident(
+  def global_conf "src/oUnitResultSummary.ml" 175 5669 5671 "src/oUnitResultSummary.ml" 322 10304 10309
+)
+"src/oUnitResultSummary.ml" 167 5474 5478 "src/oUnitResultSummary.ml" 167 5474 5492
+type(
+  ((string * string) list ->
+   (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event ->
+   (string * string) list) ->
+  (string * string) list ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  (string * string) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/oUnitResultSummary.ml" 168 5493 5504 "src/oUnitResultSummary.ml" 168 5493 5507
+type(
+  (string * string) list
+)
+ident(
+  def acc "src/oUnitResultSummary.ml" 168 5493 5508 "src/oUnitResultSummary.ml" 171 5608 5629
+)
+"src/oUnitResultSummary.ml" 168 5493 5508 "src/oUnitResultSummary.ml" 168 5493 5514
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event
+)
+ident(
+  def log_ev "src/oUnitResultSummary.ml" 169 5518 5527 "src/oUnitResultSummary.ml" 171 5608 5629
+)
+"src/oUnitResultSummary.ml" 169 5518 5533 "src/oUnitResultSummary.ml" 169 5518 5539
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event
+)
+ident(
+  int_ref log_ev "src/oUnitResultSummary.ml" 168 5493 5508 "src/oUnitResultSummary.ml" 168 5493 5514
+)
+"src/oUnitResultSummary.ml" 169 5518 5533 "src/oUnitResultSummary.ml" 169 5518 5545
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event_t
+)
+"src/oUnitResultSummary.ml" 170 5551 5584 "src/oUnitResultSummary.ml" 170 5551 5585
+type(
+  string
+)
+ident(
+  def k "src/oUnitResultSummary.ml" 170 5551 5594 "src/oUnitResultSummary.ml" 170 5551 5607
+)
+"src/oUnitResultSummary.ml" 170 5551 5587 "src/oUnitResultSummary.ml" 170 5551 5588
+type(
+  string
+)
+ident(
+  def v "src/oUnitResultSummary.ml" 170 5551 5594 "src/oUnitResultSummary.ml" 170 5551 5607
+)
+"src/oUnitResultSummary.ml" 170 5551 5576 "src/oUnitResultSummary.ml" 170 5551 5590
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.global_event
+)
+"src/oUnitResultSummary.ml" 170 5551 5564 "src/oUnitResultSummary.ml" 170 5551 5590
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event_t
+)
+"src/oUnitResultSummary.ml" 170 5551 5595 "src/oUnitResultSummary.ml" 170 5551 5596
+type(
+  string
+)
+ident(
+  int_ref k "src/oUnitResultSummary.ml" 170 5551 5584 "src/oUnitResultSummary.ml" 170 5551 5585
+)
+"src/oUnitResultSummary.ml" 170 5551 5598 "src/oUnitResultSummary.ml" 170 5551 5599
+type(
+  string
+)
+ident(
+  int_ref v "src/oUnitResultSummary.ml" 170 5551 5587 "src/oUnitResultSummary.ml" 170 5551 5588
+)
+"src/oUnitResultSummary.ml" 170 5551 5594 "src/oUnitResultSummary.ml" 170 5551 5600
+type(
+  string * string
+)
+"src/oUnitResultSummary.ml" 170 5551 5604 "src/oUnitResultSummary.ml" 170 5551 5607
+type(
+  (string * string) list
+)
+ident(
+  int_ref acc "src/oUnitResultSummary.ml" 168 5493 5504 "src/oUnitResultSummary.ml" 168 5493 5507
+)
+"src/oUnitResultSummary.ml" 170 5551 5594 "src/oUnitResultSummary.ml" 170 5551 5607
+type(
+  (string * string) list
+)
+"src/oUnitResultSummary.ml" 171 5608 5621 "src/oUnitResultSummary.ml" 171 5608 5622
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event_t
+)
+"src/oUnitResultSummary.ml" 171 5608 5626 "src/oUnitResultSummary.ml" 171 5608 5629
+type(
+  (string * string) list
+)
+ident(
+  int_ref acc "src/oUnitResultSummary.ml" 168 5493 5504 "src/oUnitResultSummary.ml" 168 5493 5507
+)
+"src/oUnitResultSummary.ml" 169 5518 5527 "src/oUnitResultSummary.ml" 171 5608 5629
+type(
+  (string * string) list
+)
+"src/oUnitResultSummary.ml" 168 5493 5499 "src/oUnitResultSummary.ml" 171 5608 5630
+type(
+  (string * string) list ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event ->
+  (string * string) list
+)
+"src/oUnitResultSummary.ml" 172 5631 5637 "src/oUnitResultSummary.ml" 172 5631 5639
+type(
+  (string * string) list
+)
+"src/oUnitResultSummary.ml" 173 5640 5647 "src/oUnitResultSummary.ml" 173 5640 5655
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+ident(
+  ext_ref List.rev
+)
+"src/oUnitResultSummary.ml" 173 5640 5656 "src/oUnitResultSummary.ml" 173 5640 5662
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+ident(
+  int_ref events "src/oUnitResultSummary.ml" 165 5422 5445 "src/oUnitResultSummary.ml" 165 5422 5451
+)
+"src/oUnitResultSummary.ml" 173 5640 5646 "src/oUnitResultSummary.ml" 173 5640 5663
+call(
+  stack
+)
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+"src/oUnitResultSummary.ml" 167 5474 5478 "src/oUnitResultSummary.ml" 173 5640 5663
+call(
+  stack
+)
+type(
+  (string * string) list
+)
+"src/oUnitResultSummary.ml" 175 5669 5675 "src/oUnitResultSummary.ml" 175 5669 5687
+type(
+  float
+)
+ident(
+  def running_time "src/oUnitResultSummary.ml" 189 6112 6114 "src/oUnitResultSummary.ml" 322 10304 10309
+)
+"src/oUnitResultSummary.ml" 175 5669 5689 "src/oUnitResultSummary.ml" 175 5669 5703
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full list
+)
+ident(
+  def global_results "src/oUnitResultSummary.ml" 189 6112 6114 "src/oUnitResultSummary.ml" 322 10304 10309
+)
+"src/oUnitResultSummary.ml" 175 5669 5705 "src/oUnitResultSummary.ml" 175 5669 5720
+type(
+  int
+)
+ident(
+  def test_case_count "src/oUnitResultSummary.ml" 189 6112 6114 "src/oUnitResultSummary.ml" 322 10304 10309
+)
+"src/oUnitResultSummary.ml" 175 5669 5675 "src/oUnitResultSummary.ml" 175 5669 5720
+type(
+  float *
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full list *
+  int
+)
+"src/oUnitResultSummary.ml" 176 5723 5735 "src/oUnitResultSummary.ml" 176 5723 5747
+type(
+  ('a, 'b) OUnitLogger.log_event list ->
+  float * ('a, 'b) OUnitLogger.result_full list * int
+)
+ident(
+  def find_results "src/oUnitResultSummary.ml" 176 5723 5727 "src/oUnitResultSummary.ml" 187 6081 6106
+)
+"src/oUnitResultSummary.ml" 180 5809 5835 "src/oUnitResultSummary.ml" 180 5809 5847
+type(
+  float
+)
+ident(
+  def running_time "src/oUnitResultSummary.ml" 181 5885 5897 "src/oUnitResultSummary.ml" 181 5885 5935
+)
+"src/oUnitResultSummary.ml" 180 5809 5849 "src/oUnitResultSummary.ml" 180 5809 5856
+type(
+  ('a, 'b) OUnitLogger.result_full list
+)
+ident(
+  def results "src/oUnitResultSummary.ml" 181 5885 5897 "src/oUnitResultSummary.ml" 181 5885 5935
+)
+"src/oUnitResultSummary.ml" 180 5809 5858 "src/oUnitResultSummary.ml" 180 5809 5873
+type(
+  int
+)
+ident(
+  def test_case_count "src/oUnitResultSummary.ml" 181 5885 5897 "src/oUnitResultSummary.ml" 181 5885 5935
+)
+"src/oUnitResultSummary.ml" 180 5809 5834 "src/oUnitResultSummary.ml" 180 5809 5874
+type(
+  float * ('a, 'b) OUnitLogger.result_full list * int
+)
+"src/oUnitResultSummary.ml" 180 5809 5824 "src/oUnitResultSummary.ml" 180 5809 5875
+type(
+  ('a, 'b) OUnitLogger.global_event
+)
+"src/oUnitResultSummary.ml" 179 5784 5797 "src/oUnitResultSummary.ml" 180 5809 5875
+type(
+  ('a, 'b) OUnitLogger.log_event_t
+)
+"src/oUnitResultSummary.ml" 178 5765 5775 "src/oUnitResultSummary.ml" 180 5809 5876
+type(
+  ('a, 'b) OUnitLogger.log_event
+)
+"src/oUnitResultSummary.ml" 180 5809 5880 "src/oUnitResultSummary.ml" 180 5809 5881
+type(
+  ('a, 'b) OUnitLogger.log_event list
+)
+"src/oUnitResultSummary.ml" 178 5765 5775 "src/oUnitResultSummary.ml" 180 5809 5881
+type(
+  ('a, 'b) OUnitLogger.log_event list
+)
+"src/oUnitResultSummary.ml" 181 5885 5897 "src/oUnitResultSummary.ml" 181 5885 5909
+type(
+  float
+)
+ident(
+  int_ref running_time "src/oUnitResultSummary.ml" 180 5809 5835 "src/oUnitResultSummary.ml" 180 5809 5847
+)
+"src/oUnitResultSummary.ml" 181 5885 5911 "src/oUnitResultSummary.ml" 181 5885 5918
+type(
+  ('a, 'b) OUnitLogger.result_full list
+)
+ident(
+  int_ref results "src/oUnitResultSummary.ml" 180 5809 5849 "src/oUnitResultSummary.ml" 180 5809 5856
+)
+"src/oUnitResultSummary.ml" 181 5885 5920 "src/oUnitResultSummary.ml" 181 5885 5935
+type(
+  int
+)
+ident(
+  int_ref test_case_count "src/oUnitResultSummary.ml" 180 5809 5858 "src/oUnitResultSummary.ml" 180 5809 5873
+)
+"src/oUnitResultSummary.ml" 181 5885 5897 "src/oUnitResultSummary.ml" 181 5885 5935
+type(
+  float * ('a, 'b) OUnitLogger.result_full list * int
+)
+"src/oUnitResultSummary.ml" 182 5936 5946 "src/oUnitResultSummary.ml" 182 5936 5947
+type(
+  ('a, 'b) OUnitLogger.log_event
+)
+"src/oUnitResultSummary.ml" 182 5936 5951 "src/oUnitResultSummary.ml" 182 5936 5953
+type(
+  ('a, 'b) OUnitLogger.log_event list
+)
+ident(
+  def tl "src/oUnitResultSummary.ml" 183 5957 5969 "src/oUnitResultSummary.ml" 183 5957 5984
+)
+"src/oUnitResultSummary.ml" 182 5936 5946 "src/oUnitResultSummary.ml" 182 5936 5953
+type(
+  ('a, 'b) OUnitLogger.log_event list
+)
+"src/oUnitResultSummary.ml" 183 5957 5969 "src/oUnitResultSummary.ml" 183 5957 5981
+type(
+  ('a, 'b) OUnitLogger.log_event list ->
+  float * ('a, 'b) OUnitLogger.result_full list * int
+)
+ident(
+  int_ref find_results "src/oUnitResultSummary.ml" 176 5723 5735 "src/oUnitResultSummary.ml" 176 5723 5747
+)
+"src/oUnitResultSummary.ml" 183 5957 5982 "src/oUnitResultSummary.ml" 183 5957 5984
+type(
+  ('a, 'b) OUnitLogger.log_event list
+)
+ident(
+  int_ref tl "src/oUnitResultSummary.ml" 182 5936 5951 "src/oUnitResultSummary.ml" 182 5936 5953
+)
+"src/oUnitResultSummary.ml" 183 5957 5969 "src/oUnitResultSummary.ml" 183 5957 5984
+call(
+  tail
+)
+type(
+  float * ('a, 'b) OUnitLogger.result_full list * int
+)
+"src/oUnitResultSummary.ml" 184 5985 5995 "src/oUnitResultSummary.ml" 184 5985 5997
+type(
+  ('a, 'b) OUnitLogger.log_event list
+)
+"src/oUnitResultSummary.ml" 185 6001 6013 "src/oUnitResultSummary.ml" 185 6001 6021
+type(
+  string -> float * ('a, 'b) OUnitLogger.result_full list * int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/oUnitResultSummary.ml" 185 6001 6022 "src/oUnitResultSummary.ml" 185 6001 6073
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 185 6001 6013 "src/oUnitResultSummary.ml" 185 6001 6073
+call(
+  tail
+)
+type(
+  float * ('a, 'b) OUnitLogger.result_full list * int
+)
+"src/oUnitResultSummary.ml" 177 5750 5756 "src/oUnitResultSummary.ml" 185 6001 6073
+type(
+  ('a, 'b) OUnitLogger.log_event list ->
+  float * ('a, 'b) OUnitLogger.result_full list * int
+)
+"src/oUnitResultSummary.ml" 187 6081 6087 "src/oUnitResultSummary.ml" 187 6081 6099
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  float *
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full list *
+  int
+)
+ident(
+  int_ref find_results "src/oUnitResultSummary.ml" 176 5723 5735 "src/oUnitResultSummary.ml" 176 5723 5747
+)
+"src/oUnitResultSummary.ml" 187 6081 6100 "src/oUnitResultSummary.ml" 187 6081 6106
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+ident(
+  int_ref events "src/oUnitResultSummary.ml" 165 5422 5445 "src/oUnitResultSummary.ml" 165 5422 5451
+)
+"src/oUnitResultSummary.ml" 187 6081 6087 "src/oUnitResultSummary.ml" 187 6081 6106
+call(
+  stack
+)
+type(
+  float *
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full list *
+  int
+)
+"src/oUnitResultSummary.ml" 176 5723 5727 "src/oUnitResultSummary.ml" 187 6081 6106
+type(
+  float *
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full list *
+  int
+)
+"src/oUnitResultSummary.ml" 189 6112 6118 "src/oUnitResultSummary.ml" 189 6112 6123
+type(
+  test_data list
+)
+ident(
+  def tests "src/oUnitResultSummary.ml" 281 9159 9161 "src/oUnitResultSummary.ml" 322 10304 10309
+)
+"src/oUnitResultSummary.ml" 190 6126 6138 "src/oUnitResultSummary.ml" 190 6126 6147
+type(
+  'c ->
+  string -> ('c * 'd option * string) list -> ('c * 'd option * string) list
+)
+ident(
+  def split_raw "src/oUnitResultSummary.ml" 190 6126 6130 "src/oUnitResultSummary.ml" 279 9116 9153
+)
+"src/oUnitResultSummary.ml" 190 6126 6148 "src/oUnitResultSummary.ml" 190 6126 6153
+type(
+  'c
+)
+ident(
+  def tmstp "src/oUnitResultSummary.ml" 190 6126 6154 "src/oUnitResultSummary.ml" 197 6393 6426
+)
+"src/oUnitResultSummary.ml" 190 6126 6154 "src/oUnitResultSummary.ml" 190 6126 6157
+type(
+  string
+)
+ident(
+  def str "src/oUnitResultSummary.ml" 190 6126 6158 "src/oUnitResultSummary.ml" 197 6393 6426
+)
+"src/oUnitResultSummary.ml" 190 6126 6158 "src/oUnitResultSummary.ml" 190 6126 6161
+type(
+  ('c * 'd option * string) list
+)
+ident(
+  def lst "src/oUnitResultSummary.ml" 191 6164 6170 "src/oUnitResultSummary.ml" 197 6393 6426
+)
+"src/oUnitResultSummary.ml" 192 6174 6186 "src/oUnitResultSummary.ml" 192 6174 6189
+type(
+  int
+)
+ident(
+  def idx "src/oUnitResultSummary.ml" 193 6217 6227 "src/oUnitResultSummary.ml" 195 6312 6368
+)
+"src/oUnitResultSummary.ml" 192 6174 6192 "src/oUnitResultSummary.ml" 192 6174 6204
+type(
+  string -> char -> int
+)
+ident(
+  ext_ref String.index
+)
+"src/oUnitResultSummary.ml" 192 6174 6205 "src/oUnitResultSummary.ml" 192 6174 6208
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitResultSummary.ml" 190 6126 6154 "src/oUnitResultSummary.ml" 190 6126 6157
+)
+"src/oUnitResultSummary.ml" 192 6174 6209 "src/oUnitResultSummary.ml" 192 6174 6213
+type(
+  char
+)
+"src/oUnitResultSummary.ml" 192 6174 6192 "src/oUnitResultSummary.ml" 192 6174 6213
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 193 6217 6227 "src/oUnitResultSummary.ml" 193 6217 6236
+type(
+  'c ->
+  string -> ('c * 'd option * string) list -> ('c * 'd option * string) list
+)
+ident(
+  int_ref split_raw "src/oUnitResultSummary.ml" 190 6126 6138 "src/oUnitResultSummary.ml" 190 6126 6147
+)
+"src/oUnitResultSummary.ml" 193 6217 6237 "src/oUnitResultSummary.ml" 193 6217 6242
+type(
+  'c
+)
+ident(
+  int_ref tmstp "src/oUnitResultSummary.ml" 190 6126 6148 "src/oUnitResultSummary.ml" 190 6126 6153
+)
+"src/oUnitResultSummary.ml" 194 6243 6256 "src/oUnitResultSummary.ml" 194 6243 6266
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/oUnitResultSummary.ml" 194 6243 6267 "src/oUnitResultSummary.ml" 194 6243 6270
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitResultSummary.ml" 190 6126 6154 "src/oUnitResultSummary.ml" 190 6126 6157
+)
+"src/oUnitResultSummary.ml" 194 6243 6272 "src/oUnitResultSummary.ml" 194 6243 6275
+type(
+  int
+)
+ident(
+  int_ref idx "src/oUnitResultSummary.ml" 192 6174 6186 "src/oUnitResultSummary.ml" 192 6174 6189
+)
+"src/oUnitResultSummary.ml" 194 6243 6276 "src/oUnitResultSummary.ml" 194 6243 6277
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/oUnitResultSummary.ml" 194 6243 6278 "src/oUnitResultSummary.ml" 194 6243 6279
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 194 6243 6271 "src/oUnitResultSummary.ml" 194 6243 6280
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 194 6243 6282 "src/oUnitResultSummary.ml" 194 6243 6295
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/oUnitResultSummary.ml" 194 6243 6296 "src/oUnitResultSummary.ml" 194 6243 6299
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitResultSummary.ml" 190 6126 6154 "src/oUnitResultSummary.ml" 190 6126 6157
+)
+"src/oUnitResultSummary.ml" 194 6243 6282 "src/oUnitResultSummary.ml" 194 6243 6299
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 194 6243 6300 "src/oUnitResultSummary.ml" 194 6243 6301
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/oUnitResultSummary.ml" 194 6243 6302 "src/oUnitResultSummary.ml" 194 6243 6305
+type(
+  int
+)
+ident(
+  int_ref idx "src/oUnitResultSummary.ml" 192 6174 6186 "src/oUnitResultSummary.ml" 192 6174 6189
+)
+"src/oUnitResultSummary.ml" 194 6243 6282 "src/oUnitResultSummary.ml" 194 6243 6305
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 194 6243 6306 "src/oUnitResultSummary.ml" 194 6243 6307
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/oUnitResultSummary.ml" 194 6243 6308 "src/oUnitResultSummary.ml" 194 6243 6309
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 194 6243 6281 "src/oUnitResultSummary.ml" 194 6243 6310
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 194 6243 6255 "src/oUnitResultSummary.ml" 194 6243 6311
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 195 6312 6326 "src/oUnitResultSummary.ml" 195 6312 6331
+type(
+  'c
+)
+ident(
+  int_ref tmstp "src/oUnitResultSummary.ml" 190 6126 6148 "src/oUnitResultSummary.ml" 190 6126 6153
+)
+"src/oUnitResultSummary.ml" 195 6312 6333 "src/oUnitResultSummary.ml" 195 6312 6337
+type(
+  'd option
+)
+"src/oUnitResultSummary.ml" 195 6312 6339 "src/oUnitResultSummary.ml" 195 6312 6349
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/oUnitResultSummary.ml" 195 6312 6350 "src/oUnitResultSummary.ml" 195 6312 6353
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitResultSummary.ml" 190 6126 6154 "src/oUnitResultSummary.ml" 190 6126 6157
+)
+"src/oUnitResultSummary.ml" 195 6312 6354 "src/oUnitResultSummary.ml" 195 6312 6355
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 195 6312 6356 "src/oUnitResultSummary.ml" 195 6312 6359
+type(
+  int
+)
+ident(
+  int_ref idx "src/oUnitResultSummary.ml" 192 6174 6186 "src/oUnitResultSummary.ml" 192 6174 6189
+)
+"src/oUnitResultSummary.ml" 195 6312 6339 "src/oUnitResultSummary.ml" 195 6312 6359
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 195 6312 6325 "src/oUnitResultSummary.ml" 195 6312 6360
+type(
+  'c * 'd option * string
+)
+"src/oUnitResultSummary.ml" 195 6312 6364 "src/oUnitResultSummary.ml" 195 6312 6367
+type(
+  ('c * 'd option * string) list
+)
+ident(
+  int_ref lst "src/oUnitResultSummary.ml" 190 6126 6158 "src/oUnitResultSummary.ml" 190 6126 6161
+)
+"src/oUnitResultSummary.ml" 195 6312 6324 "src/oUnitResultSummary.ml" 195 6312 6368
+type(
+  ('c * 'd option * string) list
+)
+"src/oUnitResultSummary.ml" 193 6217 6227 "src/oUnitResultSummary.ml" 195 6312 6368
+call(
+  stack
+)
+type(
+  ('c * 'd option * string) list
+)
+"src/oUnitResultSummary.ml" 192 6174 6182 "src/oUnitResultSummary.ml" 195 6312 6368
+type(
+  ('c * 'd option * string) list
+)
+"src/oUnitResultSummary.ml" 196 6369 6380 "src/oUnitResultSummary.ml" 196 6369 6389
+type(
+  exn
+)
+"src/oUnitResultSummary.ml" 197 6393 6402 "src/oUnitResultSummary.ml" 197 6393 6407
+type(
+  'c
+)
+ident(
+  int_ref tmstp "src/oUnitResultSummary.ml" 190 6126 6148 "src/oUnitResultSummary.ml" 190 6126 6153
+)
+"src/oUnitResultSummary.ml" 197 6393 6409 "src/oUnitResultSummary.ml" 197 6393 6413
+type(
+  'd option
+)
+"src/oUnitResultSummary.ml" 197 6393 6415 "src/oUnitResultSummary.ml" 197 6393 6418
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitResultSummary.ml" 190 6126 6154 "src/oUnitResultSummary.ml" 190 6126 6157
+)
+"src/oUnitResultSummary.ml" 197 6393 6401 "src/oUnitResultSummary.ml" 197 6393 6419
+type(
+  'c * 'd option * string
+)
+"src/oUnitResultSummary.ml" 197 6393 6423 "src/oUnitResultSummary.ml" 197 6393 6426
+type(
+  ('c * 'd option * string) list
+)
+ident(
+  int_ref lst "src/oUnitResultSummary.ml" 190 6126 6158 "src/oUnitResultSummary.ml" 190 6126 6161
+)
+"src/oUnitResultSummary.ml" 197 6393 6401 "src/oUnitResultSummary.ml" 197 6393 6426
+type(
+  ('c * 'd option * string) list
+)
+"src/oUnitResultSummary.ml" 191 6164 6170 "src/oUnitResultSummary.ml" 197 6393 6426
+type(
+  ('c * 'd option * string) list
+)
+"src/oUnitResultSummary.ml" 200 6435 6443 "src/oUnitResultSummary.ml" 200 6435 6451
+type(
+  test_data -> test_data
+)
+ident(
+  def finalize "src/oUnitResultSummary.ml" 214 6782 6786 "src/oUnitResultSummary.ml" 279 9116 9153
+)
+"src/oUnitResultSummary.ml" 200 6435 6452 "src/oUnitResultSummary.ml" 200 6435 6453
+type(
+  test_data
+)
+ident(
+  def t "src/oUnitResultSummary.ml" 201 6456 6462 "src/oUnitResultSummary.ml" 211 6731 6773
+)
+"src/oUnitResultSummary.ml" 201 6456 6466 "src/oUnitResultSummary.ml" 201 6456 6477
+type(
+  log_entry list
+)
+ident(
+  def log_entries "src/oUnitResultSummary.ml" 206 6597 6603 "src/oUnitResultSummary.ml" 211 6731 6773
+)
+"src/oUnitResultSummary.ml" 202 6480 6488 "src/oUnitResultSummary.ml" 202 6480 6497
+type(
+  (log_entry -> log_entry -> int) -> log_entry list -> log_entry list
+)
+ident(
+  ext_ref List.sort
+)
+"src/oUnitResultSummary.ml" 203 6498 6514 "src/oUnitResultSummary.ml" 203 6498 6516
+type(
+  float
+)
+ident(
+  def f1 "src/oUnitResultSummary.ml" 203 6498 6524 "src/oUnitResultSummary.ml" 203 6498 6562
+)
+"src/oUnitResultSummary.ml" 203 6498 6518 "src/oUnitResultSummary.ml" 203 6498 6519
+type(
+  OUnitLogger.log_severity option
+)
+"src/oUnitResultSummary.ml" 203 6498 6521 "src/oUnitResultSummary.ml" 203 6498 6522
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 203 6498 6513 "src/oUnitResultSummary.ml" 203 6498 6523
+type(
+  log_entry
+)
+"src/oUnitResultSummary.ml" 203 6498 6525 "src/oUnitResultSummary.ml" 203 6498 6527
+type(
+  float
+)
+ident(
+  def f2 "src/oUnitResultSummary.ml" 203 6498 6538 "src/oUnitResultSummary.ml" 203 6498 6562
+)
+"src/oUnitResultSummary.ml" 203 6498 6529 "src/oUnitResultSummary.ml" 203 6498 6530
+type(
+  OUnitLogger.log_severity option
+)
+"src/oUnitResultSummary.ml" 203 6498 6532 "src/oUnitResultSummary.ml" 203 6498 6533
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 203 6498 6524 "src/oUnitResultSummary.ml" 203 6498 6534
+type(
+  log_entry
+)
+"src/oUnitResultSummary.ml" 203 6498 6538 "src/oUnitResultSummary.ml" 203 6498 6556
+type(
+  float -> float -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/oUnitResultSummary.ml" 203 6498 6557 "src/oUnitResultSummary.ml" 203 6498 6559
+type(
+  float
+)
+ident(
+  int_ref f2 "src/oUnitResultSummary.ml" 203 6498 6525 "src/oUnitResultSummary.ml" 203 6498 6527
+)
+"src/oUnitResultSummary.ml" 203 6498 6560 "src/oUnitResultSummary.ml" 203 6498 6562
+type(
+  float
+)
+ident(
+  int_ref f1 "src/oUnitResultSummary.ml" 203 6498 6514 "src/oUnitResultSummary.ml" 203 6498 6516
+)
+"src/oUnitResultSummary.ml" 203 6498 6538 "src/oUnitResultSummary.ml" 203 6498 6562
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 203 6498 6508 "src/oUnitResultSummary.ml" 203 6498 6563
+type(
+  log_entry -> log_entry -> int
+)
+"src/oUnitResultSummary.ml" 204 6564 6574 "src/oUnitResultSummary.ml" 204 6564 6575
+type(
+  test_data
+)
+ident(
+  int_ref t "src/oUnitResultSummary.ml" 200 6435 6452 "src/oUnitResultSummary.ml" 200 6435 6453
+)
+"src/oUnitResultSummary.ml" 204 6564 6574 "src/oUnitResultSummary.ml" 204 6564 6587
+type(
+  log_entry list
+)
+"src/oUnitResultSummary.ml" 202 6480 6488 "src/oUnitResultSummary.ml" 204 6564 6587
+call(
+  stack
+)
+type(
+  log_entry list
+)
+"src/oUnitResultSummary.ml" 206 6597 6607 "src/oUnitResultSummary.ml" 206 6597 6618
+type(
+  (float * OUnitLogger.log_severity option * string) list
+)
+ident(
+  def log_entries "src/oUnitResultSummary.ml" 211 6731 6739 "src/oUnitResultSummary.ml" 211 6731 6773
+)
+"src/oUnitResultSummary.ml" 207 6621 6629 "src/oUnitResultSummary.ml" 207 6621 6641
+type(
+  (log_entry -> float * OUnitLogger.log_severity option * string) ->
+  log_entry list -> (float * OUnitLogger.log_severity option * string) list
+)
+ident(
+  ext_ref List.rev_map
+)
+"src/oUnitResultSummary.ml" 208 6642 6658 "src/oUnitResultSummary.ml" 208 6642 6659
+type(
+  float
+)
+ident(
+  def f "src/oUnitResultSummary.ml" 208 6642 6670 "src/oUnitResultSummary.ml" 208 6642 6698
+)
+"src/oUnitResultSummary.ml" 208 6642 6661 "src/oUnitResultSummary.ml" 208 6642 6662
+type(
+  OUnitLogger.log_severity option
+)
+ident(
+  def a "src/oUnitResultSummary.ml" 208 6642 6670 "src/oUnitResultSummary.ml" 208 6642 6698
+)
+"src/oUnitResultSummary.ml" 208 6642 6664 "src/oUnitResultSummary.ml" 208 6642 6665
+type(
+  string
+)
+ident(
+  def b "src/oUnitResultSummary.ml" 208 6642 6670 "src/oUnitResultSummary.ml" 208 6642 6698
+)
+"src/oUnitResultSummary.ml" 208 6642 6657 "src/oUnitResultSummary.ml" 208 6642 6666
+type(
+  log_entry
+)
+"src/oUnitResultSummary.ml" 208 6642 6670 "src/oUnitResultSummary.ml" 208 6642 6671
+type(
+  float
+)
+ident(
+  int_ref f "src/oUnitResultSummary.ml" 208 6642 6658 "src/oUnitResultSummary.ml" 208 6642 6659
+)
+"src/oUnitResultSummary.ml" 208 6642 6672 "src/oUnitResultSummary.ml" 208 6642 6674
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/oUnitResultSummary.ml" 208 6642 6675 "src/oUnitResultSummary.ml" 208 6642 6676
+type(
+  test_data
+)
+ident(
+  int_ref t "src/oUnitResultSummary.ml" 200 6435 6452 "src/oUnitResultSummary.ml" 200 6435 6453
+)
+"src/oUnitResultSummary.ml" 208 6642 6675 "src/oUnitResultSummary.ml" 208 6642 6692
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 208 6642 6670 "src/oUnitResultSummary.ml" 208 6642 6692
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 208 6642 6694 "src/oUnitResultSummary.ml" 208 6642 6695
+type(
+  OUnitLogger.log_severity option
+)
+ident(
+  int_ref a "src/oUnitResultSummary.ml" 208 6642 6661 "src/oUnitResultSummary.ml" 208 6642 6662
+)
+"src/oUnitResultSummary.ml" 208 6642 6697 "src/oUnitResultSummary.ml" 208 6642 6698
+type(
+  string
+)
+ident(
+  int_ref b "src/oUnitResultSummary.ml" 208 6642 6664 "src/oUnitResultSummary.ml" 208 6642 6665
+)
+"src/oUnitResultSummary.ml" 208 6642 6670 "src/oUnitResultSummary.ml" 208 6642 6698
+type(
+  float * OUnitLogger.log_severity option * string
+)
+"src/oUnitResultSummary.ml" 208 6642 6652 "src/oUnitResultSummary.ml" 208 6642 6699
+type(
+  log_entry -> float * OUnitLogger.log_severity option * string
+)
+"src/oUnitResultSummary.ml" 209 6700 6710 "src/oUnitResultSummary.ml" 209 6700 6721
+type(
+  log_entry list
+)
+ident(
+  int_ref log_entries "src/oUnitResultSummary.ml" 201 6456 6466 "src/oUnitResultSummary.ml" 201 6456 6477
+)
+"src/oUnitResultSummary.ml" 207 6621 6629 "src/oUnitResultSummary.ml" 209 6700 6721
+call(
+  stack
+)
+type(
+  (float * OUnitLogger.log_severity option * string) list
+)
+"src/oUnitResultSummary.ml" 211 6731 6740 "src/oUnitResultSummary.ml" 211 6731 6741
+type(
+  test_data
+)
+ident(
+  int_ref t "src/oUnitResultSummary.ml" 200 6435 6452 "src/oUnitResultSummary.ml" 200 6435 6453
+)
+"src/oUnitResultSummary.ml" 211 6731 6761 "src/oUnitResultSummary.ml" 211 6731 6772
+type(
+  log_entry list
+)
+ident(
+  int_ref log_entries "src/oUnitResultSummary.ml" 206 6597 6607 "src/oUnitResultSummary.ml" 206 6597 6618
+)
+"src/oUnitResultSummary.ml" 211 6731 6739 "src/oUnitResultSummary.ml" 211 6731 6773
+type(
+  test_data
+)
+"src/oUnitResultSummary.ml" 206 6597 6603 "src/oUnitResultSummary.ml" 211 6731 6773
+type(
+  test_data
+)
+"src/oUnitResultSummary.ml" 201 6456 6462 "src/oUnitResultSummary.ml" 211 6731 6773
+type(
+  test_data
+)
+"src/oUnitResultSummary.ml" 214 6782 6790 "src/oUnitResultSummary.ml" 214 6782 6807
+type(
+  float
+)
+ident(
+  def default_timestamp "src/oUnitResultSummary.ml" 215 6817 6821 "src/oUnitResultSummary.ml" 279 9116 9153
+)
+"src/oUnitResultSummary.ml" 214 6782 6810 "src/oUnitResultSummary.ml" 214 6782 6813
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 215 6817 6829 "src/oUnitResultSummary.ml" 215 6817 6846
+type(
+  test_data OUnitTest.MapPath.t ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event ->
+  test_data OUnitTest.MapPath.t
+)
+ident(
+  def process_log_event "src/oUnitResultSummary.ml" 215 6817 6821 "src/oUnitResultSummary.ml" 279 9116 9153
+)
+"src/oUnitResultSummary.ml" 215 6817 6847 "src/oUnitResultSummary.ml" 215 6817 6852
+type(
+  test_data OUnitTest.MapPath.t
+)
+ident(
+  def tests "src/oUnitResultSummary.ml" 215 6817 6853 "src/oUnitResultSummary.ml" 260 8612 8629
+)
+"src/oUnitResultSummary.ml" 215 6817 6853 "src/oUnitResultSummary.ml" 215 6817 6862
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event
+)
+ident(
+  def log_event "src/oUnitResultSummary.ml" 216 6865 6871 "src/oUnitResultSummary.ml" 260 8612 8629
+)
+"src/oUnitResultSummary.ml" 216 6865 6875 "src/oUnitResultSummary.ml" 216 6865 6884
+type(
+  float
+)
+ident(
+  def timestamp "src/oUnitResultSummary.ml" 217 6910 6918 "src/oUnitResultSummary.ml" 260 8612 8629
+)
+"src/oUnitResultSummary.ml" 216 6865 6887 "src/oUnitResultSummary.ml" 216 6865 6896
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event
+)
+ident(
+  int_ref log_event "src/oUnitResultSummary.ml" 215 6817 6853 "src/oUnitResultSummary.ml" 215 6817 6862
+)
+"src/oUnitResultSummary.ml" 216 6865 6887 "src/oUnitResultSummary.ml" 216 6865 6906
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 217 6910 6924 "src/oUnitResultSummary.ml" 217 6910 6933
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event
+)
+ident(
+  int_ref log_event "src/oUnitResultSummary.ml" 215 6817 6853 "src/oUnitResultSummary.ml" 215 6817 6862
+)
+"src/oUnitResultSummary.ml" 217 6910 6924 "src/oUnitResultSummary.ml" 217 6910 6939
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event_t
+)
+"src/oUnitResultSummary.ml" 218 6945 6969 "src/oUnitResultSummary.ml" 218 6945 6970
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.global_event
+)
+"src/oUnitResultSummary.ml" 218 6945 6957 "src/oUnitResultSummary.ml" 218 6945 6970
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event_t
+)
+"src/oUnitResultSummary.ml" 219 6974 6988 "src/oUnitResultSummary.ml" 219 6974 6993
+type(
+  test_data OUnitTest.MapPath.t
+)
+ident(
+  int_ref tests "src/oUnitResultSummary.ml" 215 6817 6847 "src/oUnitResultSummary.ml" 215 6817 6852
+)
+"src/oUnitResultSummary.ml" 220 6994 7017 "src/oUnitResultSummary.ml" 220 6994 7021
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  def path "src/oUnitResultSummary.ml" 221 7031 7045 "src/oUnitResultSummary.ml" 260 8612 8629
+)
+"src/oUnitResultSummary.ml" 220 6994 7023 "src/oUnitResultSummary.ml" 220 6994 7025
+type(
+  OUnitTest.result OUnitLogger.test_event
+)
+ident(
+  def ev "src/oUnitResultSummary.ml" 221 7031 7045 "src/oUnitResultSummary.ml" 260 8612 8629
+)
+"src/oUnitResultSummary.ml" 220 6994 7006 "src/oUnitResultSummary.ml" 220 6994 7026
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event_t
+)
+"src/oUnitResultSummary.ml" 222 7051 7071 "src/oUnitResultSummary.ml" 222 7051 7072
+type(
+  test_data
+)
+ident(
+  def t "src/oUnitResultSummary.ml" 234 7526 7542 "src/oUnitResultSummary.ml" 259 8568 8611
+)
+"src/oUnitResultSummary.ml" 224 7097 7117 "src/oUnitResultSummary.ml" 224 7097 7129
+type(
+  OUnitTest.MapPath.key -> test_data OUnitTest.MapPath.t -> test_data
+)
+ident(
+  ext_ref OUnitTest.MapPath.find
+)
+"src/oUnitResultSummary.ml" 224 7097 7130 "src/oUnitResultSummary.ml" 224 7097 7134
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  int_ref path "src/oUnitResultSummary.ml" 220 6994 7017 "src/oUnitResultSummary.ml" 220 6994 7021
+)
+"src/oUnitResultSummary.ml" 224 7097 7135 "src/oUnitResultSummary.ml" 224 7097 7140
+type(
+  test_data OUnitTest.MapPath.t
+)
+ident(
+  int_ref tests "src/oUnitResultSummary.ml" 215 6817 6847 "src/oUnitResultSummary.ml" 215 6817 6852
+)
+"src/oUnitResultSummary.ml" 224 7097 7117 "src/oUnitResultSummary.ml" 224 7097 7140
+call(
+  stack
+)
+type(
+  test_data
+)
+"src/oUnitResultSummary.ml" 225 7141 7164 "src/oUnitResultSummary.ml" 225 7141 7173
+type(
+  exn
+)
+"src/oUnitResultSummary.ml" 227 7199 7233 "src/oUnitResultSummary.ml" 227 7199 7247
+type(
+  OUnitTest.MapPath.key -> string
+)
+ident(
+  ext_ref OUnitTest.string_of_path
+)
+"src/oUnitResultSummary.ml" 227 7199 7248 "src/oUnitResultSummary.ml" 227 7199 7252
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  int_ref path "src/oUnitResultSummary.ml" 220 6994 7017 "src/oUnitResultSummary.ml" 220 6994 7021
+)
+"src/oUnitResultSummary.ml" 227 7199 7233 "src/oUnitResultSummary.ml" 227 7199 7252
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 228 7254 7294 "src/oUnitResultSummary.ml" 228 7254 7311
+type(
+  float
+)
+ident(
+  int_ref default_timestamp "src/oUnitResultSummary.ml" 214 6782 6790 "src/oUnitResultSummary.ml" 214 6782 6807
+)
+"src/oUnitResultSummary.ml" 229 7313 7351 "src/oUnitResultSummary.ml" 229 7313 7368
+type(
+  float
+)
+ident(
+  int_ref default_timestamp "src/oUnitResultSummary.ml" 214 6782 6790 "src/oUnitResultSummary.ml" 214 6782 6807
+)
+"src/oUnitResultSummary.ml" 230 7370 7406 "src/oUnitResultSummary.ml" 230 7370 7408
+type(
+  log_entry list
+)
+"src/oUnitResultSummary.ml" 231 7410 7456 "src/oUnitResultSummary.ml" 231 7410 7470
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 231 7410 7472 "src/oUnitResultSummary.ml" 231 7410 7476
+type(
+  OUnitLogger.position option
+)
+"src/oUnitResultSummary.ml" 231 7410 7478 "src/oUnitResultSummary.ml" 231 7410 7482
+type(
+  OUnitTest.backtrace
+)
+"src/oUnitResultSummary.ml" 231 7410 7446 "src/oUnitResultSummary.ml" 231 7410 7483
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 226 7177 7197 "src/oUnitResultSummary.ml" 232 7485 7506
+type(
+  test_data
+)
+"src/oUnitResultSummary.ml" 223 7075 7093 "src/oUnitResultSummary.ml" 232 7485 7506
+type(
+  test_data
+)
+"src/oUnitResultSummary.ml" 234 7526 7546 "src/oUnitResultSummary.ml" 234 7526 7550
+type(
+  float -> float -> float
+)
+ident(
+  def alt0 "src/oUnitResultSummary.ml" 240 7696 7712 "src/oUnitResultSummary.ml" 259 8568 8611
+)
+"src/oUnitResultSummary.ml" 234 7526 7551 "src/oUnitResultSummary.ml" 234 7526 7553
+type(
+  float
+)
+ident(
+  def t1 "src/oUnitResultSummary.ml" 234 7526 7554 "src/oUnitResultSummary.ml" 238 7654 7676
+)
+"src/oUnitResultSummary.ml" 234 7526 7554 "src/oUnitResultSummary.ml" 234 7526 7556
+type(
+  float
+)
+ident(
+  def t2 "src/oUnitResultSummary.ml" 235 7559 7577 "src/oUnitResultSummary.ml" 238 7654 7676
+)
+"src/oUnitResultSummary.ml" 235 7559 7580 "src/oUnitResultSummary.ml" 235 7559 7582
+type(
+  float
+)
+ident(
+  int_ref t1 "src/oUnitResultSummary.ml" 234 7526 7551 "src/oUnitResultSummary.ml" 234 7526 7553
+)
+"src/oUnitResultSummary.ml" 235 7559 7583 "src/oUnitResultSummary.ml" 235 7559 7584
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/oUnitResultSummary.ml" 235 7559 7585 "src/oUnitResultSummary.ml" 235 7559 7602
+type(
+  float
+)
+ident(
+  int_ref default_timestamp "src/oUnitResultSummary.ml" 214 6782 6790 "src/oUnitResultSummary.ml" 214 6782 6807
+)
+"src/oUnitResultSummary.ml" 235 7559 7580 "src/oUnitResultSummary.ml" 235 7559 7602
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 236 7608 7628 "src/oUnitResultSummary.ml" 236 7608 7630
+type(
+  float
+)
+ident(
+  int_ref t2 "src/oUnitResultSummary.ml" 234 7526 7554 "src/oUnitResultSummary.ml" 234 7526 7556
+)
+"src/oUnitResultSummary.ml" 238 7654 7674 "src/oUnitResultSummary.ml" 238 7654 7676
+type(
+  float
+)
+ident(
+  int_ref t1 "src/oUnitResultSummary.ml" 234 7526 7551 "src/oUnitResultSummary.ml" 234 7526 7553
+)
+"src/oUnitResultSummary.ml" 235 7559 7577 "src/oUnitResultSummary.ml" 238 7654 7676
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 240 7696 7716 "src/oUnitResultSummary.ml" 240 7696 7718
+type(
+  test_data
+)
+ident(
+  def t' "src/oUnitResultSummary.ml" 259 8568 8586 "src/oUnitResultSummary.ml" 259 8568 8611
+)
+"src/oUnitResultSummary.ml" 241 7721 7745 "src/oUnitResultSummary.ml" 241 7721 7747
+type(
+  OUnitTest.result OUnitLogger.test_event
+)
+ident(
+  int_ref ev "src/oUnitResultSummary.ml" 220 6994 7023 "src/oUnitResultSummary.ml" 220 6994 7025
+)
+"src/oUnitResultSummary.ml" 242 7753 7775 "src/oUnitResultSummary.ml" 242 7753 7781
+type(
+  OUnitTest.result OUnitLogger.test_event
+)
+"src/oUnitResultSummary.ml" 243 7785 7810 "src/oUnitResultSummary.ml" 243 7785 7811
+type(
+  test_data
+)
+ident(
+  int_ref t "src/oUnitResultSummary.ml" 222 7051 7071 "src/oUnitResultSummary.ml" 222 7051 7072
+)
+"src/oUnitResultSummary.ml" 244 7817 7864 "src/oUnitResultSummary.ml" 244 7817 7873
+type(
+  float
+)
+ident(
+  int_ref timestamp "src/oUnitResultSummary.ml" 216 6865 6875 "src/oUnitResultSummary.ml" 216 6865 6884
+)
+"src/oUnitResultSummary.ml" 245 7875 7920 "src/oUnitResultSummary.ml" 245 7875 7924
+type(
+  float -> float -> float
+)
+ident(
+  int_ref alt0 "src/oUnitResultSummary.ml" 234 7526 7546 "src/oUnitResultSummary.ml" 234 7526 7550
+)
+"src/oUnitResultSummary.ml" 245 7875 7925 "src/oUnitResultSummary.ml" 245 7875 7926
+type(
+  test_data
+)
+ident(
+  int_ref t "src/oUnitResultSummary.ml" 222 7051 7071 "src/oUnitResultSummary.ml" 222 7051 7072
+)
+"src/oUnitResultSummary.ml" 245 7875 7925 "src/oUnitResultSummary.ml" 245 7875 7940
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 245 7875 7941 "src/oUnitResultSummary.ml" 245 7875 7950
+type(
+  float
+)
+ident(
+  int_ref timestamp "src/oUnitResultSummary.ml" 216 6865 6875 "src/oUnitResultSummary.ml" 216 6865 6884
+)
+"src/oUnitResultSummary.ml" 245 7875 7920 "src/oUnitResultSummary.ml" 245 7875 7950
+call(
+  stack
+)
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 243 7785 7809 "src/oUnitResultSummary.ml" 245 7875 7951
+type(
+  test_data
+)
+"src/oUnitResultSummary.ml" 246 7952 7974 "src/oUnitResultSummary.ml" 246 7952 7978
+type(
+  OUnitTest.result OUnitLogger.test_event
+)
+"src/oUnitResultSummary.ml" 247 7982 8007 "src/oUnitResultSummary.ml" 247 7982 8008
+type(
+  test_data
+)
+ident(
+  int_ref t "src/oUnitResultSummary.ml" 222 7051 7071 "src/oUnitResultSummary.ml" 222 7051 7072
+)
+"src/oUnitResultSummary.ml" 248 8014 8059 "src/oUnitResultSummary.ml" 248 8014 8068
+type(
+  float
+)
+ident(
+  int_ref timestamp "src/oUnitResultSummary.ml" 216 6865 6875 "src/oUnitResultSummary.ml" 216 6865 6884
+)
+"src/oUnitResultSummary.ml" 249 8070 8117 "src/oUnitResultSummary.ml" 249 8070 8121
+type(
+  float -> float -> float
+)
+ident(
+  int_ref alt0 "src/oUnitResultSummary.ml" 234 7526 7546 "src/oUnitResultSummary.ml" 234 7526 7550
+)
+"src/oUnitResultSummary.ml" 249 8070 8122 "src/oUnitResultSummary.ml" 249 8070 8123
+type(
+  test_data
+)
+ident(
+  int_ref t "src/oUnitResultSummary.ml" 222 7051 7071 "src/oUnitResultSummary.ml" 222 7051 7072
+)
+"src/oUnitResultSummary.ml" 249 8070 8122 "src/oUnitResultSummary.ml" 249 8070 8139
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 249 8070 8140 "src/oUnitResultSummary.ml" 249 8070 8149
+type(
+  float
+)
+ident(
+  int_ref timestamp "src/oUnitResultSummary.ml" 216 6865 6875 "src/oUnitResultSummary.ml" 216 6865 6884
+)
+"src/oUnitResultSummary.ml" 249 8070 8117 "src/oUnitResultSummary.ml" 249 8070 8149
+call(
+  stack
+)
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 247 7982 8006 "src/oUnitResultSummary.ml" 249 8070 8150
+type(
+  test_data
+)
+"src/oUnitResultSummary.ml" 250 8151 8181 "src/oUnitResultSummary.ml" 250 8151 8185
+type(
+  OUnitTest.result
+)
+ident(
+  def rslt "src/oUnitResultSummary.ml" 251 8189 8213 "src/oUnitResultSummary.ml" 251 8189 8240
+)
+"src/oUnitResultSummary.ml" 250 8151 8173 "src/oUnitResultSummary.ml" 250 8151 8185
+type(
+  OUnitTest.result OUnitLogger.test_event
+)
+"src/oUnitResultSummary.ml" 251 8189 8214 "src/oUnitResultSummary.ml" 251 8189 8215
+type(
+  test_data
+)
+ident(
+  int_ref t "src/oUnitResultSummary.ml" 222 7051 7071 "src/oUnitResultSummary.ml" 222 7051 7072
+)
+"src/oUnitResultSummary.ml" 251 8189 8235 "src/oUnitResultSummary.ml" 251 8189 8239
+type(
+  OUnitTest.result
+)
+ident(
+  int_ref rslt "src/oUnitResultSummary.ml" 250 8151 8181 "src/oUnitResultSummary.ml" 250 8151 8185
+)
+"src/oUnitResultSummary.ml" 251 8189 8213 "src/oUnitResultSummary.ml" 251 8189 8240
+type(
+  test_data
+)
+"src/oUnitResultSummary.ml" 252 8241 8269 "src/oUnitResultSummary.ml" 252 8241 8273
+type(
+  OUnitLogger.log_severity
+)
+ident(
+  def svrt "src/oUnitResultSummary.ml" 253 8283 8307 "src/oUnitResultSummary.ml" 254 8357 8399
+)
+"src/oUnitResultSummary.ml" 252 8241 8275 "src/oUnitResultSummary.ml" 252 8241 8278
+type(
+  string
+)
+ident(
+  def str "src/oUnitResultSummary.ml" 253 8283 8307 "src/oUnitResultSummary.ml" 254 8357 8399
+)
+"src/oUnitResultSummary.ml" 252 8241 8263 "src/oUnitResultSummary.ml" 252 8241 8279
+type(
+  OUnitTest.result OUnitLogger.test_event
+)
+"src/oUnitResultSummary.ml" 253 8283 8308 "src/oUnitResultSummary.ml" 253 8283 8309
+type(
+  test_data
+)
+ident(
+  int_ref t "src/oUnitResultSummary.ml" 222 7051 7071 "src/oUnitResultSummary.ml" 222 7051 7072
+)
+"src/oUnitResultSummary.ml" 253 8283 8330 "src/oUnitResultSummary.ml" 253 8283 8339
+type(
+  float
+)
+ident(
+  int_ref timestamp "src/oUnitResultSummary.ml" 216 6865 6875 "src/oUnitResultSummary.ml" 216 6865 6884
+)
+"src/oUnitResultSummary.ml" 253 8283 8346 "src/oUnitResultSummary.ml" 253 8283 8350
+type(
+  OUnitLogger.log_severity
+)
+ident(
+  int_ref svrt "src/oUnitResultSummary.ml" 252 8241 8269 "src/oUnitResultSummary.ml" 252 8241 8273
+)
+"src/oUnitResultSummary.ml" 253 8283 8341 "src/oUnitResultSummary.ml" 253 8283 8350
+type(
+  OUnitLogger.log_severity option
+)
+"src/oUnitResultSummary.ml" 253 8283 8352 "src/oUnitResultSummary.ml" 253 8283 8355
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitResultSummary.ml" 252 8241 8275 "src/oUnitResultSummary.ml" 252 8241 8278
+)
+"src/oUnitResultSummary.ml" 253 8283 8329 "src/oUnitResultSummary.ml" 253 8283 8356
+type(
+  log_entry
+)
+"src/oUnitResultSummary.ml" 254 8357 8385 "src/oUnitResultSummary.ml" 254 8357 8386
+type(
+  test_data
+)
+ident(
+  int_ref t "src/oUnitResultSummary.ml" 222 7051 7071 "src/oUnitResultSummary.ml" 222 7051 7072
+)
+"src/oUnitResultSummary.ml" 254 8357 8385 "src/oUnitResultSummary.ml" 254 8357 8398
+type(
+  log_entry list
+)
+"src/oUnitResultSummary.ml" 253 8283 8329 "src/oUnitResultSummary.ml" 254 8357 8398
+type(
+  log_entry list
+)
+"src/oUnitResultSummary.ml" 253 8283 8307 "src/oUnitResultSummary.ml" 254 8357 8399
+type(
+  test_data
+)
+"src/oUnitResultSummary.ml" 255 8400 8430 "src/oUnitResultSummary.ml" 255 8400 8433
+type(
+  string
+)
+ident(
+  def str "src/oUnitResultSummary.ml" 256 8437 8461 "src/oUnitResultSummary.ml" 257 8483 8548
+)
+"src/oUnitResultSummary.ml" 255 8400 8422 "src/oUnitResultSummary.ml" 255 8400 8433
+type(
+  OUnitTest.result OUnitLogger.test_event
+)
+"src/oUnitResultSummary.ml" 256 8437 8462 "src/oUnitResultSummary.ml" 256 8437 8463
+type(
+  test_data
+)
+ident(
+  int_ref t "src/oUnitResultSummary.ml" 222 7051 7071 "src/oUnitResultSummary.ml" 222 7051 7072
+)
+"src/oUnitResultSummary.ml" 257 8483 8510 "src/oUnitResultSummary.ml" 257 8483 8519
+type(
+  float -> string -> log_entry list -> log_entry list
+)
+ident(
+  int_ref split_raw "src/oUnitResultSummary.ml" 190 6126 6138 "src/oUnitResultSummary.ml" 190 6126 6147
+)
+"src/oUnitResultSummary.ml" 257 8483 8520 "src/oUnitResultSummary.ml" 257 8483 8529
+type(
+  float
+)
+ident(
+  int_ref timestamp "src/oUnitResultSummary.ml" 216 6865 6875 "src/oUnitResultSummary.ml" 216 6865 6884
+)
+"src/oUnitResultSummary.ml" 257 8483 8530 "src/oUnitResultSummary.ml" 257 8483 8533
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitResultSummary.ml" 255 8400 8430 "src/oUnitResultSummary.ml" 255 8400 8433
+)
+"src/oUnitResultSummary.ml" 257 8483 8534 "src/oUnitResultSummary.ml" 257 8483 8535
+type(
+  test_data
+)
+ident(
+  int_ref t "src/oUnitResultSummary.ml" 222 7051 7071 "src/oUnitResultSummary.ml" 222 7051 7072
+)
+"src/oUnitResultSummary.ml" 257 8483 8534 "src/oUnitResultSummary.ml" 257 8483 8547
+type(
+  log_entry list
+)
+"src/oUnitResultSummary.ml" 257 8483 8510 "src/oUnitResultSummary.ml" 257 8483 8547
+call(
+  stack
+)
+type(
+  log_entry list
+)
+"src/oUnitResultSummary.ml" 256 8437 8461 "src/oUnitResultSummary.ml" 257 8483 8548
+type(
+  test_data
+)
+"src/oUnitResultSummary.ml" 241 7721 7739 "src/oUnitResultSummary.ml" 257 8483 8548
+type(
+  test_data
+)
+"src/oUnitResultSummary.ml" 259 8568 8586 "src/oUnitResultSummary.ml" 259 8568 8597
+type(
+  OUnitTest.MapPath.key ->
+  test_data -> test_data OUnitTest.MapPath.t -> test_data OUnitTest.MapPath.t
+)
+ident(
+  ext_ref OUnitTest.MapPath.add
+)
+"src/oUnitResultSummary.ml" 259 8568 8598 "src/oUnitResultSummary.ml" 259 8568 8602
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  int_ref path "src/oUnitResultSummary.ml" 220 6994 7017 "src/oUnitResultSummary.ml" 220 6994 7021
+)
+"src/oUnitResultSummary.ml" 259 8568 8603 "src/oUnitResultSummary.ml" 259 8568 8605
+type(
+  test_data
+)
+ident(
+  int_ref t' "src/oUnitResultSummary.ml" 240 7696 7716 "src/oUnitResultSummary.ml" 240 7696 7718
+)
+"src/oUnitResultSummary.ml" 259 8568 8606 "src/oUnitResultSummary.ml" 259 8568 8611
+type(
+  test_data OUnitTest.MapPath.t
+)
+ident(
+  int_ref tests "src/oUnitResultSummary.ml" 215 6817 6847 "src/oUnitResultSummary.ml" 215 6817 6852
+)
+"src/oUnitResultSummary.ml" 259 8568 8586 "src/oUnitResultSummary.ml" 259 8568 8611
+call(
+  tail
+)
+type(
+  test_data OUnitTest.MapPath.t
+)
+"src/oUnitResultSummary.ml" 240 7696 7712 "src/oUnitResultSummary.ml" 259 8568 8611
+type(
+  test_data OUnitTest.MapPath.t
+)
+"src/oUnitResultSummary.ml" 234 7526 7542 "src/oUnitResultSummary.ml" 259 8568 8611
+type(
+  test_data OUnitTest.MapPath.t
+)
+"src/oUnitResultSummary.ml" 221 7031 7045 "src/oUnitResultSummary.ml" 260 8612 8629
+type(
+  test_data OUnitTest.MapPath.t
+)
+"src/oUnitResultSummary.ml" 217 6910 6918 "src/oUnitResultSummary.ml" 260 8612 8629
+type(
+  test_data OUnitTest.MapPath.t
+)
+"src/oUnitResultSummary.ml" 216 6865 6871 "src/oUnitResultSummary.ml" 260 8612 8629
+type(
+  test_data OUnitTest.MapPath.t
+)
+"src/oUnitResultSummary.ml" 261 8630 8638 "src/oUnitResultSummary.ml" 261 8630 8648
+type(
+  test_data OUnitTest.MapPath.t ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  test_data list
+)
+ident(
+  def group_test "src/oUnitResultSummary.ml" 215 6817 6821 "src/oUnitResultSummary.ml" 279 9116 9153
+)
+"src/oUnitResultSummary.ml" 261 8630 8649 "src/oUnitResultSummary.ml" 261 8630 8654
+type(
+  test_data OUnitTest.MapPath.t
+)
+ident(
+  def tests "src/oUnitResultSummary.ml" 262 8657 8663 "src/oUnitResultSummary.ml" 277 9089 9108
+)
+"src/oUnitResultSummary.ml" 263 8672 8682 "src/oUnitResultSummary.ml" 263 8672 8684
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event
+)
+ident(
+  def hd "src/oUnitResultSummary.ml" 264 8694 8706 "src/oUnitResultSummary.ml" 266 8760 8776
+)
+"src/oUnitResultSummary.ml" 263 8672 8688 "src/oUnitResultSummary.ml" 263 8672 8690
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+ident(
+  def tl "src/oUnitResultSummary.ml" 264 8694 8706 "src/oUnitResultSummary.ml" 266 8760 8776
+)
+"src/oUnitResultSummary.ml" 263 8672 8682 "src/oUnitResultSummary.ml" 263 8672 8690
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+"src/oUnitResultSummary.ml" 264 8694 8706 "src/oUnitResultSummary.ml" 264 8694 8716
+type(
+  test_data OUnitTest.MapPath.t ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  test_data list
+)
+ident(
+  int_ref group_test "src/oUnitResultSummary.ml" 261 8630 8638 "src/oUnitResultSummary.ml" 261 8630 8648
+)
+"src/oUnitResultSummary.ml" 265 8717 8732 "src/oUnitResultSummary.ml" 265 8717 8749
+type(
+  test_data OUnitTest.MapPath.t ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event ->
+  test_data OUnitTest.MapPath.t
+)
+ident(
+  int_ref process_log_event "src/oUnitResultSummary.ml" 215 6817 6829 "src/oUnitResultSummary.ml" 215 6817 6846
+)
+"src/oUnitResultSummary.ml" 265 8717 8750 "src/oUnitResultSummary.ml" 265 8717 8755
+type(
+  test_data OUnitTest.MapPath.t
+)
+ident(
+  int_ref tests "src/oUnitResultSummary.ml" 261 8630 8649 "src/oUnitResultSummary.ml" 261 8630 8654
+)
+"src/oUnitResultSummary.ml" 265 8717 8756 "src/oUnitResultSummary.ml" 265 8717 8758
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event
+)
+ident(
+  int_ref hd "src/oUnitResultSummary.ml" 263 8672 8682 "src/oUnitResultSummary.ml" 263 8672 8684
+)
+"src/oUnitResultSummary.ml" 265 8717 8731 "src/oUnitResultSummary.ml" 265 8717 8759
+call(
+  stack
+)
+type(
+  test_data OUnitTest.MapPath.t
+)
+"src/oUnitResultSummary.ml" 266 8760 8774 "src/oUnitResultSummary.ml" 266 8760 8776
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+ident(
+  int_ref tl "src/oUnitResultSummary.ml" 263 8672 8688 "src/oUnitResultSummary.ml" 263 8672 8690
+)
+"src/oUnitResultSummary.ml" 264 8694 8706 "src/oUnitResultSummary.ml" 266 8760 8776
+call(
+  tail
+)
+type(
+  test_data list
+)
+"src/oUnitResultSummary.ml" 267 8777 8787 "src/oUnitResultSummary.ml" 267 8777 8789
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+"src/oUnitResultSummary.ml" 268 8793 8809 "src/oUnitResultSummary.ml" 268 8793 8812
+type(
+  test_data list
+)
+ident(
+  def lst "src/oUnitResultSummary.ml" 274 8958 8972 "src/oUnitResultSummary.ml" 277 9089 9108
+)
+"src/oUnitResultSummary.ml" 269 8815 8829 "src/oUnitResultSummary.ml" 269 8815 8841
+type(
+  (OUnitTest.MapPath.key -> test_data -> test_data list -> test_data list) ->
+  test_data OUnitTest.MapPath.t -> test_data list -> test_data list
+)
+ident(
+  ext_ref OUnitTest.MapPath.fold
+)
+"src/oUnitResultSummary.ml" 270 8842 8863 "src/oUnitResultSummary.ml" 270 8842 8864
+type(
+  OUnitTest.MapPath.key
+)
+"src/oUnitResultSummary.ml" 270 8842 8865 "src/oUnitResultSummary.ml" 270 8842 8869
+type(
+  test_data
+)
+ident(
+  def test "src/oUnitResultSummary.ml" 270 8842 8870 "src/oUnitResultSummary.ml" 271 8877 8916
+)
+"src/oUnitResultSummary.ml" 270 8842 8870 "src/oUnitResultSummary.ml" 270 8842 8873
+type(
+  test_data list
+)
+ident(
+  def lst "src/oUnitResultSummary.ml" 271 8877 8896 "src/oUnitResultSummary.ml" 271 8877 8916
+)
+"src/oUnitResultSummary.ml" 271 8877 8896 "src/oUnitResultSummary.ml" 271 8877 8904
+type(
+  test_data -> test_data
+)
+ident(
+  int_ref finalize "src/oUnitResultSummary.ml" 200 6435 6443 "src/oUnitResultSummary.ml" 200 6435 6451
+)
+"src/oUnitResultSummary.ml" 271 8877 8905 "src/oUnitResultSummary.ml" 271 8877 8909
+type(
+  test_data
+)
+ident(
+  int_ref test "src/oUnitResultSummary.ml" 270 8842 8865 "src/oUnitResultSummary.ml" 270 8842 8869
+)
+"src/oUnitResultSummary.ml" 271 8877 8896 "src/oUnitResultSummary.ml" 271 8877 8909
+call(
+  stack
+)
+type(
+  test_data
+)
+"src/oUnitResultSummary.ml" 271 8877 8913 "src/oUnitResultSummary.ml" 271 8877 8916
+type(
+  test_data list
+)
+ident(
+  int_ref lst "src/oUnitResultSummary.ml" 270 8842 8870 "src/oUnitResultSummary.ml" 270 8842 8873
+)
+"src/oUnitResultSummary.ml" 271 8877 8896 "src/oUnitResultSummary.ml" 271 8877 8916
+type(
+  test_data list
+)
+"src/oUnitResultSummary.ml" 270 8842 8858 "src/oUnitResultSummary.ml" 271 8877 8917
+type(
+  OUnitTest.MapPath.key -> test_data -> test_data list -> test_data list
+)
+"src/oUnitResultSummary.ml" 272 8918 8934 "src/oUnitResultSummary.ml" 272 8918 8939
+type(
+  test_data OUnitTest.MapPath.t
+)
+ident(
+  int_ref tests "src/oUnitResultSummary.ml" 261 8630 8649 "src/oUnitResultSummary.ml" 261 8630 8654
+)
+"src/oUnitResultSummary.ml" 272 8918 8940 "src/oUnitResultSummary.ml" 272 8918 8942
+type(
+  test_data list
+)
+"src/oUnitResultSummary.ml" 269 8815 8829 "src/oUnitResultSummary.ml" 272 8918 8942
+call(
+  stack
+)
+type(
+  test_data list
+)
+"src/oUnitResultSummary.ml" 274 8958 8972 "src/oUnitResultSummary.ml" 274 8958 8981
+type(
+  (test_data -> test_data -> int) -> test_data list -> test_data list
+)
+ident(
+  ext_ref List.sort
+)
+"src/oUnitResultSummary.ml" 275 8982 9003 "src/oUnitResultSummary.ml" 275 8982 9005
+type(
+  test_data
+)
+ident(
+  def t1 "src/oUnitResultSummary.ml" 275 8982 9006 "src/oUnitResultSummary.ml" 276 9012 9087
+)
+"src/oUnitResultSummary.ml" 275 8982 9006 "src/oUnitResultSummary.ml" 275 8982 9008
+type(
+  test_data
+)
+ident(
+  def t2 "src/oUnitResultSummary.ml" 276 9012 9031 "src/oUnitResultSummary.ml" 276 9012 9087
+)
+"src/oUnitResultSummary.ml" 276 9012 9031 "src/oUnitResultSummary.ml" 276 9012 9049
+type(
+  float -> float -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/oUnitResultSummary.ml" 276 9012 9050 "src/oUnitResultSummary.ml" 276 9012 9052
+type(
+  test_data
+)
+ident(
+  int_ref t1 "src/oUnitResultSummary.ml" 275 8982 9003 "src/oUnitResultSummary.ml" 275 8982 9005
+)
+"src/oUnitResultSummary.ml" 276 9012 9050 "src/oUnitResultSummary.ml" 276 9012 9068
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 276 9012 9069 "src/oUnitResultSummary.ml" 276 9012 9071
+type(
+  test_data
+)
+ident(
+  int_ref t2 "src/oUnitResultSummary.ml" 275 8982 9006 "src/oUnitResultSummary.ml" 275 8982 9008
+)
+"src/oUnitResultSummary.ml" 276 9012 9069 "src/oUnitResultSummary.ml" 276 9012 9087
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 276 9012 9031 "src/oUnitResultSummary.ml" 276 9012 9087
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 275 8982 8998 "src/oUnitResultSummary.ml" 276 9012 9088
+type(
+  test_data -> test_data -> int
+)
+"src/oUnitResultSummary.ml" 277 9089 9105 "src/oUnitResultSummary.ml" 277 9089 9108
+type(
+  test_data list
+)
+ident(
+  int_ref lst "src/oUnitResultSummary.ml" 268 8793 8809 "src/oUnitResultSummary.ml" 268 8793 8812
+)
+"src/oUnitResultSummary.ml" 274 8958 8972 "src/oUnitResultSummary.ml" 277 9089 9108
+call(
+  tail
+)
+type(
+  test_data list
+)
+"src/oUnitResultSummary.ml" 268 8793 8805 "src/oUnitResultSummary.ml" 277 9089 9108
+type(
+  test_data list
+)
+"src/oUnitResultSummary.ml" 262 8657 8663 "src/oUnitResultSummary.ml" 277 9089 9108
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  test_data list
+)
+"src/oUnitResultSummary.ml" 279 9116 9122 "src/oUnitResultSummary.ml" 279 9116 9132
+type(
+  test_data OUnitTest.MapPath.t ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  test_data list
+)
+ident(
+  int_ref group_test "src/oUnitResultSummary.ml" 261 8630 8638 "src/oUnitResultSummary.ml" 261 8630 8648
+)
+"src/oUnitResultSummary.ml" 279 9116 9133 "src/oUnitResultSummary.ml" 279 9116 9146
+type(
+  test_data OUnitTest.MapPath.t
+)
+ident(
+  ext_ref OUnitTest.MapPath.empty
+)
+"src/oUnitResultSummary.ml" 279 9116 9147 "src/oUnitResultSummary.ml" 279 9116 9153
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+ident(
+  int_ref events "src/oUnitResultSummary.ml" 165 5422 5445 "src/oUnitResultSummary.ml" 165 5422 5451
+)
+"src/oUnitResultSummary.ml" 279 9116 9122 "src/oUnitResultSummary.ml" 279 9116 9153
+call(
+  stack
+)
+type(
+  test_data list
+)
+"src/oUnitResultSummary.ml" 215 6817 6821 "src/oUnitResultSummary.ml" 279 9116 9153
+type(
+  test_data list
+)
+"src/oUnitResultSummary.ml" 214 6782 6786 "src/oUnitResultSummary.ml" 279 9116 9153
+type(
+  test_data list
+)
+"src/oUnitResultSummary.ml" 200 6435 6439 "src/oUnitResultSummary.ml" 279 9116 9153
+type(
+  test_data list
+)
+"src/oUnitResultSummary.ml" 190 6126 6130 "src/oUnitResultSummary.ml" 279 9116 9153
+type(
+  test_data list
+)
+"src/oUnitResultSummary.ml" 281 9159 9165 "src/oUnitResultSummary.ml" 281 9159 9173
+type(
+  float
+)
+ident(
+  def start_at "src/oUnitResultSummary.ml" 288 9298 9300 "src/oUnitResultSummary.ml" 322 10304 10309
+)
+"src/oUnitResultSummary.ml" 282 9176 9180 "src/oUnitResultSummary.ml" 282 9176 9194
+type(
+  (float ->
+   (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event -> float) ->
+  float ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  float
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/oUnitResultSummary.ml" 283 9195 9206 "src/oUnitResultSummary.ml" 283 9195 9214
+type(
+  float
+)
+ident(
+  def start_at "src/oUnitResultSummary.ml" 283 9195 9215 "src/oUnitResultSummary.ml" 284 9225 9263
+)
+"src/oUnitResultSummary.ml" 283 9195 9215 "src/oUnitResultSummary.ml" 283 9195 9221
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event
+)
+ident(
+  def log_ev "src/oUnitResultSummary.ml" 284 9225 9234 "src/oUnitResultSummary.ml" 284 9225 9263
+)
+"src/oUnitResultSummary.ml" 284 9225 9234 "src/oUnitResultSummary.ml" 284 9225 9237
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.min
+)
+"src/oUnitResultSummary.ml" 284 9225 9238 "src/oUnitResultSummary.ml" 284 9225 9246
+type(
+  float
+)
+ident(
+  int_ref start_at "src/oUnitResultSummary.ml" 283 9195 9206 "src/oUnitResultSummary.ml" 283 9195 9214
+)
+"src/oUnitResultSummary.ml" 284 9225 9247 "src/oUnitResultSummary.ml" 284 9225 9253
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event
+)
+ident(
+  int_ref log_ev "src/oUnitResultSummary.ml" 283 9195 9215 "src/oUnitResultSummary.ml" 283 9195 9221
+)
+"src/oUnitResultSummary.ml" 284 9225 9247 "src/oUnitResultSummary.ml" 284 9225 9263
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 284 9225 9234 "src/oUnitResultSummary.ml" 284 9225 9263
+call(
+  tail
+)
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 283 9195 9201 "src/oUnitResultSummary.ml" 284 9225 9264
+type(
+  float ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event -> float
+)
+"src/oUnitResultSummary.ml" 285 9265 9272 "src/oUnitResultSummary.ml" 285 9265 9275
+type(
+  unit -> float
+)
+ident(
+  ext_ref OUnitUtils.now
+)
+"src/oUnitResultSummary.ml" 285 9265 9276 "src/oUnitResultSummary.ml" 285 9265 9278
+type(
+  unit
+)
+"src/oUnitResultSummary.ml" 285 9265 9271 "src/oUnitResultSummary.ml" 285 9265 9279
+call(
+  stack
+)
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 286 9280 9286 "src/oUnitResultSummary.ml" 286 9280 9292
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+ident(
+  int_ref events "src/oUnitResultSummary.ml" 165 5422 5445 "src/oUnitResultSummary.ml" 165 5422 5451
+)
+"src/oUnitResultSummary.ml" 282 9176 9180 "src/oUnitResultSummary.ml" 286 9280 9292
+call(
+  stack
+)
+type(
+  float
+)
+"src/oUnitResultSummary.ml" 288 9298 9304 "src/oUnitResultSummary.ml" 288 9298 9314
+type(
+  string
+)
+ident(
+  def suite_name "src/oUnitResultSummary.ml" 301 9607 9609 "src/oUnitResultSummary.ml" 322 10304 10309
+)
+"src/oUnitResultSummary.ml" 289 9317 9327 "src/oUnitResultSummary.ml" 289 9317 9341
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full list
+)
+ident(
+  int_ref global_results "src/oUnitResultSummary.ml" 175 5669 5689 "src/oUnitResultSummary.ml" 175 5669 5703
+)
+"src/oUnitResultSummary.ml" 290 9347 9356 "src/oUnitResultSummary.ml" 290 9347 9360
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  def path "src/oUnitResultSummary.ml" 291 9376 9386 "src/oUnitResultSummary.ml" 297 9552 9568
+)
+"src/oUnitResultSummary.ml" 290 9347 9362 "src/oUnitResultSummary.ml" 290 9347 9363
+type(
+  OUnitTest.result
+)
+"src/oUnitResultSummary.ml" 290 9347 9365 "src/oUnitResultSummary.ml" 290 9347 9366
+type(
+  OUnitLogger.position option
+)
+"src/oUnitResultSummary.ml" 290 9347 9355 "src/oUnitResultSummary.ml" 290 9347 9367
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full
+)
+"src/oUnitResultSummary.ml" 290 9347 9371 "src/oUnitResultSummary.ml" 290 9347 9372
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full list
+)
+"src/oUnitResultSummary.ml" 290 9347 9355 "src/oUnitResultSummary.ml" 290 9347 9372
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full list
+)
+"src/oUnitResultSummary.ml" 291 9376 9386 "src/oUnitResultSummary.ml" 291 9376 9400
+type(
+  (string -> OUnitTest.node -> string) ->
+  string -> OUnitTest.MapPath.key -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/oUnitResultSummary.ml" 292 9401 9418 "src/oUnitResultSummary.ml" 292 9401 9421
+type(
+  string
+)
+ident(
+  def acc "src/oUnitResultSummary.ml" 292 9401 9422 "src/oUnitResultSummary.ml" 295 9494 9529
+)
+"src/oUnitResultSummary.ml" 292 9401 9422 "src/oUnitResultSummary.ml" 292 9401 9424
+type(
+  OUnitTest.node
+)
+ident(
+  def nd "src/oUnitResultSummary.ml" 293 9428 9443 "src/oUnitResultSummary.ml" 295 9494 9529
+)
+"src/oUnitResultSummary.ml" 293 9428 9449 "src/oUnitResultSummary.ml" 293 9428 9451
+type(
+  OUnitTest.node
+)
+ident(
+  int_ref nd "src/oUnitResultSummary.ml" 292 9401 9422 "src/oUnitResultSummary.ml" 292 9401 9424
+)
+"src/oUnitResultSummary.ml" 294 9457 9485 "src/oUnitResultSummary.ml" 294 9457 9486
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 294 9457 9476 "src/oUnitResultSummary.ml" 294 9457 9486
+type(
+  OUnitTest.node
+)
+"src/oUnitResultSummary.ml" 294 9457 9490 "src/oUnitResultSummary.ml" 294 9457 9493
+type(
+  string
+)
+ident(
+  int_ref acc "src/oUnitResultSummary.ml" 292 9401 9418 "src/oUnitResultSummary.ml" 292 9401 9421
+)
+"src/oUnitResultSummary.ml" 295 9494 9519 "src/oUnitResultSummary.ml" 295 9494 9522
+type(
+  string
+)
+ident(
+  def str "src/oUnitResultSummary.ml" 295 9494 9526 "src/oUnitResultSummary.ml" 295 9494 9529
+)
+"src/oUnitResultSummary.ml" 295 9494 9513 "src/oUnitResultSummary.ml" 295 9494 9522
+type(
+  OUnitTest.node
+)
+"src/oUnitResultSummary.ml" 295 9494 9526 "src/oUnitResultSummary.ml" 295 9494 9529
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitResultSummary.ml" 295 9494 9519 "src/oUnitResultSummary.ml" 295 9494 9522
+)
+"src/oUnitResultSummary.ml" 293 9428 9443 "src/oUnitResultSummary.ml" 295 9494 9529
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 292 9401 9413 "src/oUnitResultSummary.ml" 295 9494 9530
+type(
+  string -> OUnitTest.node -> string
+)
+"src/oUnitResultSummary.ml" 296 9531 9543 "src/oUnitResultSummary.ml" 296 9531 9551
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 297 9552 9564 "src/oUnitResultSummary.ml" 297 9552 9568
+type(
+  OUnitTest.MapPath.key
+)
+ident(
+  int_ref path "src/oUnitResultSummary.ml" 290 9347 9356 "src/oUnitResultSummary.ml" 290 9347 9360
+)
+"src/oUnitResultSummary.ml" 291 9376 9386 "src/oUnitResultSummary.ml" 297 9552 9568
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 298 9569 9577 "src/oUnitResultSummary.ml" 298 9569 9579
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full list
+)
+"src/oUnitResultSummary.ml" 299 9583 9593 "src/oUnitResultSummary.ml" 299 9583 9601
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 289 9317 9321 "src/oUnitResultSummary.ml" 299 9583 9601
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 301 9607 9613 "src/oUnitResultSummary.ml" 301 9607 9618
+type(
+  (OUnitTest.result -> bool) -> int
+)
+ident(
+  def count "src/oUnitResultSummary.ml" 306 9731 9733 "src/oUnitResultSummary.ml" 322 10304 10309
+)
+"src/oUnitResultSummary.ml" 301 9607 9619 "src/oUnitResultSummary.ml" 301 9607 9620
+type(
+  OUnitTest.result -> bool
+)
+ident(
+  def f "src/oUnitResultSummary.ml" 302 9623 9627 "src/oUnitResultSummary.ml" 304 9701 9725
+)
+"src/oUnitResultSummary.ml" 302 9623 9627 "src/oUnitResultSummary.ml" 302 9623 9638
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full list ->
+  int
+)
+ident(
+  ext_ref List.length
+)
+"src/oUnitResultSummary.ml" 303 9639 9646 "src/oUnitResultSummary.ml" 303 9639 9657
+type(
+  ((OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full -> bool) ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full list ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full list
+)
+ident(
+  ext_ref List.filter
+)
+"src/oUnitResultSummary.ml" 303 9639 9664 "src/oUnitResultSummary.ml" 303 9639 9665
+type(
+  OUnitTest.MapPath.key
+)
+"src/oUnitResultSummary.ml" 303 9639 9667 "src/oUnitResultSummary.ml" 303 9639 9678
+type(
+  OUnitTest.result
+)
+ident(
+  def test_result "src/oUnitResultSummary.ml" 303 9639 9686 "src/oUnitResultSummary.ml" 303 9639 9699
+)
+"src/oUnitResultSummary.ml" 303 9639 9680 "src/oUnitResultSummary.ml" 303 9639 9681
+type(
+  OUnitLogger.position option
+)
+"src/oUnitResultSummary.ml" 303 9639 9663 "src/oUnitResultSummary.ml" 303 9639 9682
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full
+)
+"src/oUnitResultSummary.ml" 303 9639 9686 "src/oUnitResultSummary.ml" 303 9639 9687
+type(
+  OUnitTest.result -> bool
+)
+ident(
+  int_ref f "src/oUnitResultSummary.ml" 301 9607 9619 "src/oUnitResultSummary.ml" 301 9607 9620
+)
+"src/oUnitResultSummary.ml" 303 9639 9688 "src/oUnitResultSummary.ml" 303 9639 9699
+type(
+  OUnitTest.result
+)
+ident(
+  int_ref test_result "src/oUnitResultSummary.ml" 303 9639 9667 "src/oUnitResultSummary.ml" 303 9639 9678
+)
+"src/oUnitResultSummary.ml" 303 9639 9686 "src/oUnitResultSummary.ml" 303 9639 9699
+call(
+  tail
+)
+type(
+  bool
+)
+"src/oUnitResultSummary.ml" 303 9639 9658 "src/oUnitResultSummary.ml" 303 9639 9700
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full -> bool
+)
+"src/oUnitResultSummary.ml" 304 9701 9710 "src/oUnitResultSummary.ml" 304 9701 9724
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full list
+)
+ident(
+  int_ref global_results "src/oUnitResultSummary.ml" 175 5669 5689 "src/oUnitResultSummary.ml" 175 5669 5703
+)
+"src/oUnitResultSummary.ml" 303 9639 9645 "src/oUnitResultSummary.ml" 304 9701 9725
+call(
+  stack
+)
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.result_full list
+)
+"src/oUnitResultSummary.ml" 302 9623 9627 "src/oUnitResultSummary.ml" 304 9701 9725
+call(
+  tail
+)
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 306 9731 9737 "src/oUnitResultSummary.ml" 306 9731 9744
+type(
+  string
+)
+ident(
+  def charset "src/oUnitResultSummary.ml" 307 9764 9768 "src/oUnitResultSummary.ml" 322 10304 10309
+)
+"src/oUnitResultSummary.ml" 306 9731 9747 "src/oUnitResultSummary.ml" 306 9731 9755
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  int_ref encoding "src/oUnitResultSummary.ml" 159 5324 5328 "src/oUnitResultSummary.ml" 159 5324 5336
+)
+"src/oUnitResultSummary.ml" 306 9731 9756 "src/oUnitResultSummary.ml" 306 9731 9760
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref conf "src/oUnitResultSummary.ml" 165 5422 5440 "src/oUnitResultSummary.ml" 165 5422 5444
+)
+"src/oUnitResultSummary.ml" 306 9731 9747 "src/oUnitResultSummary.ml" 306 9731 9760
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitResultSummary.ml" 308 9770 9794 "src/oUnitResultSummary.ml" 308 9770 9804
+type(
+  string
+)
+ident(
+  int_ref suite_name "src/oUnitResultSummary.ml" 288 9298 9304 "src/oUnitResultSummary.ml" 288 9298 9314
+)
+"src/oUnitResultSummary.ml" 309 9806 9830 "src/oUnitResultSummary.ml" 309 9806 9838
+type(
+  float
+)
+ident(
+  int_ref start_at "src/oUnitResultSummary.ml" 281 9159 9165 "src/oUnitResultSummary.ml" 281 9159 9173
+)
+"src/oUnitResultSummary.ml" 310 9840 9864 "src/oUnitResultSummary.ml" 310 9840 9871
+type(
+  string
+)
+ident(
+  int_ref charset "src/oUnitResultSummary.ml" 306 9731 9737 "src/oUnitResultSummary.ml" 306 9731 9744
+)
+"src/oUnitResultSummary.ml" 311 9873 9897 "src/oUnitResultSummary.ml" 311 9873 9908
+type(
+  (string * string) list
+)
+ident(
+  int_ref global_conf "src/oUnitResultSummary.ml" 166 5454 5460 "src/oUnitResultSummary.ml" 166 5454 5471
+)
+"src/oUnitResultSummary.ml" 312 9910 9934 "src/oUnitResultSummary.ml" 312 9910 9946
+type(
+  float
+)
+ident(
+  int_ref running_time "src/oUnitResultSummary.ml" 175 5669 5675 "src/oUnitResultSummary.ml" 175 5669 5687
+)
+"src/oUnitResultSummary.ml" 313 9948 9972 "src/oUnitResultSummary.ml" 313 9948 9986
+type(
+  OUnitTest.result_list
+)
+ident(
+  int_ref global_results "src/oUnitResultSummary.ml" 175 5669 5689 "src/oUnitResultSummary.ml" 175 5669 5703
+)
+"src/oUnitResultSummary.ml" 314 9988 10012 "src/oUnitResultSummary.ml" 314 9988 10027
+type(
+  int
+)
+ident(
+  int_ref test_case_count "src/oUnitResultSummary.ml" 175 5669 5705 "src/oUnitResultSummary.ml" 175 5669 5720
+)
+"src/oUnitResultSummary.ml" 315 10029 10053 "src/oUnitResultSummary.ml" 315 10029 10058
+type(
+  test_data list
+)
+ident(
+  int_ref tests "src/oUnitResultSummary.ml" 189 6112 6118 "src/oUnitResultSummary.ml" 189 6112 6123
+)
+"src/oUnitResultSummary.ml" 316 10060 10084 "src/oUnitResultSummary.ml" 316 10060 10089
+type(
+  (OUnitTest.result -> bool) -> int
+)
+ident(
+  int_ref count "src/oUnitResultSummary.ml" 301 9607 9613 "src/oUnitResultSummary.ml" 301 9607 9618
+)
+"src/oUnitResultSummary.ml" 316 10060 10090 "src/oUnitResultSummary.ml" 316 10060 10098
+type(
+  OUnitTest.result -> bool
+)
+ident(
+  int_ref is_error "src/oUnitResultSummary.ml" 84 3592 3596 "src/oUnitResultSummary.ml" 84 3592 3604
+)
+"src/oUnitResultSummary.ml" 316 10060 10084 "src/oUnitResultSummary.ml" 316 10060 10098
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 317 10100 10124 "src/oUnitResultSummary.ml" 317 10100 10129
+type(
+  (OUnitTest.result -> bool) -> int
+)
+ident(
+  int_ref count "src/oUnitResultSummary.ml" 301 9607 9613 "src/oUnitResultSummary.ml" 301 9607 9618
+)
+"src/oUnitResultSummary.ml" 317 10100 10130 "src/oUnitResultSummary.ml" 317 10100 10140
+type(
+  OUnitTest.result -> bool
+)
+ident(
+  int_ref is_failure "src/oUnitResultSummary.ml" 79 3469 3473 "src/oUnitResultSummary.ml" 79 3469 3483
+)
+"src/oUnitResultSummary.ml" 317 10100 10124 "src/oUnitResultSummary.ml" 317 10100 10140
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 318 10142 10166 "src/oUnitResultSummary.ml" 318 10142 10171
+type(
+  (OUnitTest.result -> bool) -> int
+)
+ident(
+  int_ref count "src/oUnitResultSummary.ml" 301 9607 9613 "src/oUnitResultSummary.ml" 301 9607 9618
+)
+"src/oUnitResultSummary.ml" 318 10142 10172 "src/oUnitResultSummary.ml" 318 10142 10179
+type(
+  OUnitTest.result -> bool
+)
+ident(
+  int_ref is_skip "src/oUnitResultSummary.ml" 89 3712 3716 "src/oUnitResultSummary.ml" 89 3712 3723
+)
+"src/oUnitResultSummary.ml" 318 10142 10166 "src/oUnitResultSummary.ml" 318 10142 10179
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 319 10181 10205 "src/oUnitResultSummary.ml" 319 10181 10210
+type(
+  (OUnitTest.result -> bool) -> int
+)
+ident(
+  int_ref count "src/oUnitResultSummary.ml" 301 9607 9613 "src/oUnitResultSummary.ml" 301 9607 9618
+)
+"src/oUnitResultSummary.ml" 319 10181 10211 "src/oUnitResultSummary.ml" 319 10181 10218
+type(
+  OUnitTest.result -> bool
+)
+ident(
+  int_ref is_todo "src/oUnitResultSummary.ml" 94 3832 3836 "src/oUnitResultSummary.ml" 94 3832 3843
+)
+"src/oUnitResultSummary.ml" 319 10181 10205 "src/oUnitResultSummary.ml" 319 10181 10218
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 320 10220 10244 "src/oUnitResultSummary.ml" 320 10220 10249
+type(
+  (OUnitTest.result -> bool) -> int
+)
+ident(
+  int_ref count "src/oUnitResultSummary.ml" 301 9607 9613 "src/oUnitResultSummary.ml" 301 9607 9618
+)
+"src/oUnitResultSummary.ml" 320 10220 10250 "src/oUnitResultSummary.ml" 320 10220 10260
+type(
+  OUnitTest.result -> bool
+)
+ident(
+  int_ref is_timeout "src/oUnitResultSummary.ml" 99 3952 3956 "src/oUnitResultSummary.ml" 99 3952 3966
+)
+"src/oUnitResultSummary.ml" 320 10220 10244 "src/oUnitResultSummary.ml" 320 10220 10260
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 321 10262 10286 "src/oUnitResultSummary.ml" 321 10262 10291
+type(
+  (OUnitTest.result -> bool) -> int
+)
+ident(
+  int_ref count "src/oUnitResultSummary.ml" 301 9607 9613 "src/oUnitResultSummary.ml" 301 9607 9618
+)
+"src/oUnitResultSummary.ml" 321 10262 10292 "src/oUnitResultSummary.ml" 321 10262 10302
+type(
+  OUnitTest.result -> bool
+)
+ident(
+  int_ref is_success "src/oUnitResultSummary.ml" 74 3346 3350 "src/oUnitResultSummary.ml" 74 3346 3360
+)
+"src/oUnitResultSummary.ml" 321 10262 10286 "src/oUnitResultSummary.ml" 321 10262 10302
+call(
+  stack
+)
+type(
+  int
+)
+"src/oUnitResultSummary.ml" 307 9764 9768 "src/oUnitResultSummary.ml" 322 10304 10309
+type(
+  t
+)
+"src/oUnitResultSummary.ml" 306 9731 9733 "src/oUnitResultSummary.ml" 322 10304 10309
+type(
+  t
+)
+"src/oUnitResultSummary.ml" 301 9607 9609 "src/oUnitResultSummary.ml" 322 10304 10309
+type(
+  t
+)
+"src/oUnitResultSummary.ml" 288 9298 9300 "src/oUnitResultSummary.ml" 322 10304 10309
+type(
+  t
+)
+"src/oUnitResultSummary.ml" 281 9159 9161 "src/oUnitResultSummary.ml" 322 10304 10309
+type(
+  t
+)
+"src/oUnitResultSummary.ml" 189 6112 6114 "src/oUnitResultSummary.ml" 322 10304 10309
+type(
+  t
+)
+"src/oUnitResultSummary.ml" 175 5669 5671 "src/oUnitResultSummary.ml" 322 10304 10309
+type(
+  t
+)
+"src/oUnitResultSummary.ml" 166 5454 5456 "src/oUnitResultSummary.ml" 322 10304 10309
+type(
+  t
+)

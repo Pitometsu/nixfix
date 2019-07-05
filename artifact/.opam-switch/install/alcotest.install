@@ -1,0 +1,20 @@
+lib: [
+  "_build/install/default/lib/alcotest/META"
+  "_build/install/default/lib/alcotest/alcotest.a"
+  "_build/install/default/lib/alcotest/alcotest.cma"
+  "_build/install/default/lib/alcotest/alcotest.cmi"
+  "_build/install/default/lib/alcotest/alcotest.cmt"
+  "_build/install/default/lib/alcotest/alcotest.cmti"
+  "_build/install/default/lib/alcotest/alcotest.cmx"
+  "_build/install/default/lib/alcotest/alcotest.cmxa"
+  "_build/install/default/lib/alcotest/alcotest.cmxs"
+  "_build/install/default/lib/alcotest/alcotest.ml"
+  "_build/install/default/lib/alcotest/alcotest.mli"
+  "_build/install/default/lib/alcotest/dune-package"
+  "_build/install/default/lib/alcotest/opam"
+]
+doc: [
+  "_build/install/default/doc/alcotest/CHANGES.md"
+  "_build/install/default/doc/alcotest/LICENSE.md"
+  "_build/install/default/doc/alcotest/README.md"
+]

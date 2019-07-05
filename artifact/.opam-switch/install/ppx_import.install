@@ -1,0 +1,28 @@
+lib: [
+  "_build/install/default/lib/ppx_import/META"
+  "_build/install/default/lib/ppx_import/dune-package"
+  "_build/install/default/lib/ppx_import/opam"
+  "_build/install/default/lib/ppx_import/ppx_import.a"
+  "_build/install/default/lib/ppx_import/ppx_import.cma"
+  "_build/install/default/lib/ppx_import/ppx_import.cmi"
+  "_build/install/default/lib/ppx_import/ppx_import.cmt"
+  "_build/install/default/lib/ppx_import/ppx_import.cmx"
+  "_build/install/default/lib/ppx_import/ppx_import.cmxa"
+  "_build/install/default/lib/ppx_import/ppx_import.cmxs"
+  "_build/install/default/lib/ppx_import/ppx_import.ml"
+  "_build/install/default/lib/ppx_import/ppx_import__.cmi"
+  "_build/install/default/lib/ppx_import/ppx_import__.cmt"
+  "_build/install/default/lib/ppx_import/ppx_import__.cmx"
+  "_build/install/default/lib/ppx_import/ppx_import__.ml"
+  "_build/install/default/lib/ppx_import/ppx_import__Ppx_types_migrate.cmi"
+  "_build/install/default/lib/ppx_import/ppx_import__Ppx_types_migrate.cmt"
+  "_build/install/default/lib/ppx_import/ppx_import__Ppx_types_migrate.cmx"
+  "_build/install/default/lib/ppx_import/ppx_types_migrate.ml"
+]
+doc: [
+  "_build/install/default/doc/ppx_import/CHANGES.md"
+  "_build/install/default/doc/ppx_import/LICENSE.md"
+  "_build/install/default/doc/ppx_import/README.dev.md"
+  "_build/install/default/doc/ppx_import/README.md"
+]
+libexec: "_build/install/default/lib/ppx_import/ppx.exe"

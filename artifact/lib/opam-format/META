@@ -1,0 +1,7 @@
+version = "2.0.4"
+description = "OCaml Package Manager file format handling library"
+requires = "opam-core opam-file-format re"
+archive(byte) = "opam_format.cma"
+archive(native) = "opam_format.cmxa"
+plugin(byte) = "opam_format.cma"
+plugin(native) = "opam_format.cmxs"

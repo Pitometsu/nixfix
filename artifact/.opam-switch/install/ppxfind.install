@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/ppxfind/META"
+  "_build/install/default/lib/ppxfind/dune-package"
+  "_build/install/default/lib/ppxfind/opam"
+]
+bin: "_build/install/default/bin/ppxfind"
+doc: [
+  "_build/install/default/doc/ppxfind/CHANGES.md"
+  "_build/install/default/doc/ppxfind/LICENSE.md"
+  "_build/install/default/doc/ppxfind/README.md"
+]

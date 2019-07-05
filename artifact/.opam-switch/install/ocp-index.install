@@ -1,0 +1,118 @@
+lib: [
+  "_build/install/default/lib/ocp-index/META"
+  "_build/install/default/lib/ocp-index/dune-package"
+  "_build/install/default/lib/ocp-index/lib/indexBuild.cmi"
+    {"lib/indexBuild.cmi"}
+  "_build/install/default/lib/ocp-index/lib/indexBuild.cmt"
+    {"lib/indexBuild.cmt"}
+  "_build/install/default/lib/ocp-index/lib/indexBuild.cmti"
+    {"lib/indexBuild.cmti"}
+  "_build/install/default/lib/ocp-index/lib/indexBuild.cmx"
+    {"lib/indexBuild.cmx"}
+  "_build/install/default/lib/ocp-index/lib/indexBuild.ml"
+    {"lib/indexBuild.ml"}
+  "_build/install/default/lib/ocp-index/lib/indexBuild.mli"
+    {"lib/indexBuild.mli"}
+  "_build/install/default/lib/ocp-index/lib/indexLib.a" {"lib/indexLib.a"}
+  "_build/install/default/lib/ocp-index/lib/indexLib.cma"
+    {"lib/indexLib.cma"}
+  "_build/install/default/lib/ocp-index/lib/indexLib.cmxa"
+    {"lib/indexLib.cmxa"}
+  "_build/install/default/lib/ocp-index/lib/indexLib.cmxs"
+    {"lib/indexLib.cmxs"}
+  "_build/install/default/lib/ocp-index/lib/indexMisc.cmi"
+    {"lib/indexMisc.cmi"}
+  "_build/install/default/lib/ocp-index/lib/indexMisc.cmt"
+    {"lib/indexMisc.cmt"}
+  "_build/install/default/lib/ocp-index/lib/indexMisc.cmti"
+    {"lib/indexMisc.cmti"}
+  "_build/install/default/lib/ocp-index/lib/indexMisc.cmx"
+    {"lib/indexMisc.cmx"}
+  "_build/install/default/lib/ocp-index/lib/indexMisc.ml"
+    {"lib/indexMisc.ml"}
+  "_build/install/default/lib/ocp-index/lib/indexMisc.mli"
+    {"lib/indexMisc.mli"}
+  "_build/install/default/lib/ocp-index/lib/indexOut.cmi"
+    {"lib/indexOut.cmi"}
+  "_build/install/default/lib/ocp-index/lib/indexOut.cmt"
+    {"lib/indexOut.cmt"}
+  "_build/install/default/lib/ocp-index/lib/indexOut.cmti"
+    {"lib/indexOut.cmti"}
+  "_build/install/default/lib/ocp-index/lib/indexOut.cmx"
+    {"lib/indexOut.cmx"}
+  "_build/install/default/lib/ocp-index/lib/indexOut.ml" {"lib/indexOut.ml"}
+  "_build/install/default/lib/ocp-index/lib/indexOut.mli"
+    {"lib/indexOut.mli"}
+  "_build/install/default/lib/ocp-index/lib/indexPredefined.cmi"
+    {"lib/indexPredefined.cmi"}
+  "_build/install/default/lib/ocp-index/lib/indexPredefined.cmt"
+    {"lib/indexPredefined.cmt"}
+  "_build/install/default/lib/ocp-index/lib/indexPredefined.cmti"
+    {"lib/indexPredefined.cmti"}
+  "_build/install/default/lib/ocp-index/lib/indexPredefined.cmx"
+    {"lib/indexPredefined.cmx"}
+  "_build/install/default/lib/ocp-index/lib/indexPredefined.ml"
+    {"lib/indexPredefined.ml"}
+  "_build/install/default/lib/ocp-index/lib/indexPredefined.mli"
+    {"lib/indexPredefined.mli"}
+  "_build/install/default/lib/ocp-index/lib/indexScope.cmi"
+    {"lib/indexScope.cmi"}
+  "_build/install/default/lib/ocp-index/lib/indexScope.cmt"
+    {"lib/indexScope.cmt"}
+  "_build/install/default/lib/ocp-index/lib/indexScope.cmti"
+    {"lib/indexScope.cmti"}
+  "_build/install/default/lib/ocp-index/lib/indexScope.cmx"
+    {"lib/indexScope.cmx"}
+  "_build/install/default/lib/ocp-index/lib/indexScope.ml"
+    {"lib/indexScope.ml"}
+  "_build/install/default/lib/ocp-index/lib/indexScope.mli"
+    {"lib/indexScope.mli"}
+  "_build/install/default/lib/ocp-index/lib/indexTypes.cmi"
+    {"lib/indexTypes.cmi"}
+  "_build/install/default/lib/ocp-index/lib/indexTypes.cmt"
+    {"lib/indexTypes.cmt"}
+  "_build/install/default/lib/ocp-index/lib/indexTypes.cmx"
+    {"lib/indexTypes.cmx"}
+  "_build/install/default/lib/ocp-index/lib/indexTypes.ml"
+    {"lib/indexTypes.ml"}
+  "_build/install/default/lib/ocp-index/lib/libIndex.cmi"
+    {"lib/libIndex.cmi"}
+  "_build/install/default/lib/ocp-index/lib/libIndex.cmt"
+    {"lib/libIndex.cmt"}
+  "_build/install/default/lib/ocp-index/lib/libIndex.cmti"
+    {"lib/libIndex.cmti"}
+  "_build/install/default/lib/ocp-index/lib/libIndex.cmx"
+    {"lib/libIndex.cmx"}
+  "_build/install/default/lib/ocp-index/lib/libIndex.ml" {"lib/libIndex.ml"}
+  "_build/install/default/lib/ocp-index/lib/libIndex.mli"
+    {"lib/libIndex.mli"}
+  "_build/install/default/lib/ocp-index/lib/trie.cmi" {"lib/trie.cmi"}
+  "_build/install/default/lib/ocp-index/lib/trie.cmt" {"lib/trie.cmt"}
+  "_build/install/default/lib/ocp-index/lib/trie.cmti" {"lib/trie.cmti"}
+  "_build/install/default/lib/ocp-index/lib/trie.cmx" {"lib/trie.cmx"}
+  "_build/install/default/lib/ocp-index/lib/trie.ml" {"lib/trie.ml"}
+  "_build/install/default/lib/ocp-index/lib/trie.mli" {"lib/trie.mli"}
+  "_build/install/default/lib/ocp-index/opam"
+]
+bin: [
+  "_build/install/default/bin/ocp-grep"
+  "_build/install/default/bin/ocp-index"
+]
+share: [
+  "_build/install/default/share/ocp-index/vim/autoload/ocpindex.vim"
+    {"vim/autoload/ocpindex.vim"}
+  "_build/install/default/share/ocp-index/vim/ftplugin/ocaml.vim"
+    {"vim/ftplugin/ocaml.vim"}
+]
+share_root:
+  "_build/install/default/share/emacs/site-lisp/ocp-index.el"
+    {"emacs/site-lisp/ocp-index.el"}
+doc: [
+  "_build/install/default/doc/ocp-index/CHANGES.md"
+  "_build/install/default/doc/ocp-index/LICENSE"
+  "_build/install/default/doc/ocp-index/README.md"
+]
+man: [
+  "_build/install/default/man/man1/ocp-grep.1"
+  "_build/install/default/man/man1/ocp-index.1"
+]

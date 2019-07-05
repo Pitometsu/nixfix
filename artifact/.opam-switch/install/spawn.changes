@@ -1,0 +1,22 @@
+added: [
+  "doc/spawn" {"D"}
+  "doc/spawn/CHANGES.md" {"F:S438T1560961111.55"}
+  "doc/spawn/LICENSE.md" {"F:S1116T1560961111.6"}
+  "doc/spawn/README.md" {"F:S1237T1560961111.65"}
+  "lib/spawn" {"D"}
+  "lib/spawn/META" {"F:S178T1560961110.64"}
+  "lib/spawn/dune-package" {"F:S499T1560961110.72"}
+  "lib/spawn/libspawn_stubs.a" {"F:S56432T1560961110.8"}
+  "lib/spawn/opam" {"F:S1377T1560961110.88"}
+  "lib/spawn/spawn.a" {"F:S15106T1560961110.93"}
+  "lib/spawn/spawn.cma" {"F:S16942T1560961110.98"}
+  "lib/spawn/spawn.cmi" {"F:S1297T1560961111.05"}
+  "lib/spawn/spawn.cmt" {"F:S35304T1560961111.1"}
+  "lib/spawn/spawn.cmti" {"F:S13811T1560961111.15"}
+  "lib/spawn/spawn.cmx" {"F:S1436T1560961111.21"}
+  "lib/spawn/spawn.cmxa" {"F:S690T1560961111.24"}
+  "lib/spawn/spawn.cmxs" {"F:S58160T1560961111.33"}
+  "lib/spawn/spawn.ml" {"F:S3416T1560961111.4"}
+  "lib/spawn/spawn.mli" {"F:S4267T1560961111.47"}
+  "lib/stublibs/dllspawn_stubs.so" {"F:S37392T1560961111.51"}
+]

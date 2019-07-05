@@ -1,0 +1,20 @@
+added: [
+  "doc/hex" {"D"}
+  "doc/hex/CHANGES.md" {"F:S1823T1560960948.99"}
+  "doc/hex/LICENSE.md" {"F:S874T1560960949.02"}
+  "doc/hex/README.md" {"F:S601T1560960949.05"}
+  "lib/hex" {"D"}
+  "lib/hex/META" {"F:S180T1560960948.48"}
+  "lib/hex/dune-package" {"F:S413T1560960948.51"}
+  "lib/hex/hex.a" {"F:S30888T1560960948.55"}
+  "lib/hex/hex.cma" {"F:S27350T1560960948.57"}
+  "lib/hex/hex.cmi" {"F:S2043T1560960948.62"}
+  "lib/hex/hex.cmt" {"F:S68611T1560960948.67"}
+  "lib/hex/hex.cmti" {"F:S16116T1560960948.73"}
+  "lib/hex/hex.cmx" {"F:S2562T1560960948.77"}
+  "lib/hex/hex.cmxa" {"F:S769T1560960948.8"}
+  "lib/hex/hex.cmxs" {"F:S38248T1560960948.84"}
+  "lib/hex/hex.ml" {"F:S6337T1560960948.89"}
+  "lib/hex/hex.mli" {"F:S3805T1560960948.93"}
+  "lib/hex/opam" {"F:S954T1560960948.95"}
+]

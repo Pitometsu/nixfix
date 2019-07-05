@@ -1,0 +1,1298 @@
+"tysize.ml" 13 209 213 "tysize.ml" 13 209 222
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t -> string
+)
+ident(
+  def to_string "tysize.ml" 25 496 496 "tysize.ml" 1 0 -1
+)
+"tysize.ml" 13 209 223 "tysize.ml" 13 209 224
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  def t "tysize.ml" 14 227 229 "tysize.ml" 23 473 490
+)
+"tysize.ml" 15 248 250 "tysize.ml" 15 248 263
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref Ppxx.Utils.String.concat
+)
+"tysize.ml" 15 248 264 "tysize.ml" 15 248 269
+type(
+  string
+)
+"tysize.ml" 15 248 250 "tysize.ml" 15 248 269
+type(
+  string list -> string
+)
+"tysize.ml" 16 270 272 "tysize.ml" 16 270 273
+type(
+  (string list -> string) -> string list -> string
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"tysize.ml" 16 270 274 "tysize.ml" 16 270 286
+type(
+  (int option -> int -> string list -> string list) ->
+  (int option, int) Ppxx.Utils.Hashtbl.t -> string list -> string list
+)
+ident(
+  ext_ref Ppxx.Utils.Hashtbl.fold
+)
+"tysize.ml" 16 270 292 "tysize.ml" 16 270 293
+type(
+  int option
+)
+ident(
+  def k "tysize.ml" 16 270 294 "tysize.ml" 23 473 484
+)
+"tysize.ml" 16 270 294 "tysize.ml" 16 270 295
+type(
+  int
+)
+ident(
+  def v "tysize.ml" 16 270 296 "tysize.ml" 23 473 484
+)
+"tysize.ml" 16 270 296 "tysize.ml" 16 270 298
+type(
+  string list
+)
+ident(
+  def st "tysize.ml" 17 302 306 "tysize.ml" 23 473 484
+)
+"tysize.ml" 17 302 310 "tysize.ml" 17 302 311
+type(
+  string
+)
+ident(
+  def s "tysize.ml" 23 473 477 "tysize.ml" 23 473 484
+)
+"tysize.ml" 17 302 320 "tysize.ml" 17 302 321
+type(
+  int option
+)
+ident(
+  int_ref k "tysize.ml" 16 270 292 "tysize.ml" 16 270 293
+)
+"tysize.ml" 17 302 322 "tysize.ml" 17 302 323
+type(
+  int
+)
+ident(
+  int_ref v "tysize.ml" 16 270 294 "tysize.ml" 16 270 295
+)
+"tysize.ml" 17 302 320 "tysize.ml" 17 302 323
+type(
+  int option * int
+)
+"tysize.ml" 18 329 337 "tysize.ml" 18 329 341
+type(
+  int option
+)
+"tysize.ml" 18 329 343 "tysize.ml" 18 329 344
+type(
+  int
+)
+"tysize.ml" 18 329 337 "tysize.ml" 18 329 344
+type(
+  int option * int
+)
+"tysize.ml" 18 329 348 "tysize.ml" 18 329 355
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"tysize.ml" 18 329 356 "tysize.ml" 18 329 360
+type(
+  (int -> string, unit, string) format
+)
+"tysize.ml" 18 329 361 "tysize.ml" 18 329 362
+type(
+  int
+)
+ident(
+  int_ref v "tysize.ml" 16 270 294 "tysize.ml" 16 270 295
+)
+"tysize.ml" 18 329 348 "tysize.ml" 18 329 362
+call(
+  stack
+)
+type(
+  string
+)
+"tysize.ml" 19 363 376 "tysize.ml" 19 363 377
+type(
+  int
+)
+"tysize.ml" 19 363 371 "tysize.ml" 19 363 377
+type(
+  int option
+)
+"tysize.ml" 19 363 379 "tysize.ml" 19 363 380
+type(
+  int
+)
+"tysize.ml" 19 363 371 "tysize.ml" 19 363 380
+type(
+  int option * int
+)
+"tysize.ml" 19 363 384 "tysize.ml" 19 363 386
+type(
+  string
+)
+"tysize.ml" 20 387 400 "tysize.ml" 20 387 401
+type(
+  int
+)
+ident(
+  def k "tysize.ml" 20 387 408 "tysize.ml" 20 387 423
+)
+"tysize.ml" 20 387 395 "tysize.ml" 20 387 401
+type(
+  int option
+)
+"tysize.ml" 20 387 403 "tysize.ml" 20 387 404
+type(
+  int
+)
+"tysize.ml" 20 387 395 "tysize.ml" 20 387 404
+type(
+  int option * int
+)
+"tysize.ml" 20 387 408 "tysize.ml" 20 387 415
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"tysize.ml" 20 387 416 "tysize.ml" 20 387 421
+type(
+  (int -> string, unit, string) format
+)
+"tysize.ml" 20 387 422 "tysize.ml" 20 387 423
+type(
+  int
+)
+ident(
+  int_ref k "tysize.ml" 20 387 400 "tysize.ml" 20 387 401
+)
+"tysize.ml" 20 387 408 "tysize.ml" 20 387 423
+call(
+  stack
+)
+type(
+  string
+)
+"tysize.ml" 21 424 437 "tysize.ml" 21 424 438
+type(
+  int
+)
+ident(
+  def k "tysize.ml" 21 424 445 "tysize.ml" 21 424 465
+)
+"tysize.ml" 21 424 432 "tysize.ml" 21 424 438
+type(
+  int option
+)
+"tysize.ml" 21 424 440 "tysize.ml" 21 424 441
+type(
+  int
+)
+"tysize.ml" 21 424 432 "tysize.ml" 21 424 441
+type(
+  int option * int
+)
+"tysize.ml" 21 424 445 "tysize.ml" 21 424 452
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"tysize.ml" 21 424 453 "tysize.ml" 21 424 461
+type(
+  (int -> int -> string, unit, string) format
+)
+"tysize.ml" 21 424 462 "tysize.ml" 21 424 463
+type(
+  int
+)
+ident(
+  int_ref v "tysize.ml" 16 270 294 "tysize.ml" 16 270 295
+)
+"tysize.ml" 21 424 464 "tysize.ml" 21 424 465
+type(
+  int
+)
+ident(
+  int_ref k "tysize.ml" 21 424 437 "tysize.ml" 21 424 438
+)
+"tysize.ml" 21 424 445 "tysize.ml" 21 424 465
+call(
+  stack
+)
+type(
+  string
+)
+"tysize.ml" 17 302 314 "tysize.ml" 21 424 465
+type(
+  string
+)
+"tysize.ml" 23 473 477 "tysize.ml" 23 473 478
+type(
+  string
+)
+ident(
+  int_ref s "tysize.ml" 17 302 310 "tysize.ml" 17 302 311
+)
+"tysize.ml" 23 473 482 "tysize.ml" 23 473 484
+type(
+  string list
+)
+ident(
+  int_ref st "tysize.ml" 16 270 296 "tysize.ml" 16 270 298
+)
+"tysize.ml" 23 473 477 "tysize.ml" 23 473 484
+type(
+  string list
+)
+"tysize.ml" 17 302 306 "tysize.ml" 23 473 484
+type(
+  string list
+)
+"tysize.ml" 16 270 287 "tysize.ml" 23 473 485
+type(
+  int option -> int -> string list -> string list
+)
+"tysize.ml" 23 473 486 "tysize.ml" 23 473 487
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  int_ref t "tysize.ml" 13 209 223 "tysize.ml" 13 209 224
+)
+"tysize.ml" 23 473 488 "tysize.ml" 23 473 490
+type(
+  string list
+)
+"tysize.ml" 16 270 274 "tysize.ml" 23 473 490
+call(
+  stack
+)
+type(
+  string list
+)
+"tysize.ml" 15 248 250 "tysize.ml" 23 473 490
+call(
+  tail
+)
+type(
+  string
+)
+"tysize.ml" 25 496 500 "tysize.ml" 25 496 506
+type(
+  Ppxx.Utils.Format.formatter ->
+  (int option, int) Ppxx.Utils.Hashtbl.t -> unit
+)
+ident(
+  def format "tysize.ml" 27 558 558 "tysize.ml" 1 0 -1
+)
+"tysize.ml" 25 496 507 "tysize.ml" 25 496 510
+type(
+  Ppxx.Utils.Format.formatter
+)
+ident(
+  def ppf "tysize.ml" 25 496 511 "tysize.ml" 25 496 552
+)
+"tysize.ml" 25 496 511 "tysize.ml" 25 496 512
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  def t "tysize.ml" 25 496 515 "tysize.ml" 25 496 552
+)
+"tysize.ml" 25 496 515 "tysize.ml" 25 496 529
+type(
+  Ppxx.Utils.Format.formatter ->
+  (string -> unit, Ppxx.Utils.Format.formatter, unit) format ->
+  string -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.Format.fprintf
+)
+"tysize.ml" 25 496 530 "tysize.ml" 25 496 533
+type(
+  Ppxx.Utils.Format.formatter
+)
+ident(
+  int_ref ppf "tysize.ml" 25 496 507 "tysize.ml" 25 496 510
+)
+"tysize.ml" 25 496 534 "tysize.ml" 25 496 538
+type(
+  (string -> unit, Ppxx.Utils.Format.formatter, unit) format
+)
+"tysize.ml" 25 496 540 "tysize.ml" 25 496 549
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t -> string
+)
+ident(
+  int_ref to_string "tysize.ml" 13 209 213 "tysize.ml" 13 209 222
+)
+"tysize.ml" 25 496 550 "tysize.ml" 25 496 551
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  int_ref t "tysize.ml" 25 496 511 "tysize.ml" 25 496 512
+)
+"tysize.ml" 25 496 539 "tysize.ml" 25 496 552
+call(
+  stack
+)
+type(
+  string
+)
+"tysize.ml" 25 496 515 "tysize.ml" 25 496 552
+call(
+  tail
+)
+type(
+  unit
+)
+"tysize.ml" 27 558 562 "tysize.ml" 27 558 566
+type(
+  Types.type_expr -> (int option, int) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  def size "tysize.ml" 57 1358 1358 "tysize.ml" 1 0 -1
+)
+"tysize.ml" 27 558 567 "tysize.ml" 27 558 569
+type(
+  Types.type_expr
+)
+ident(
+  def ty "tysize.ml" 28 572 574 "tysize.ml" 55 1351 1356
+)
+"tysize.ml" 29 594 600 "tysize.ml" 29 594 603
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  def tbl "tysize.ml" 30 618 620 "tysize.ml" 55 1351 1356
+)
+"tysize.ml" 29 594 606 "tysize.ml" 29 594 612
+type(
+  ?random:bool -> int -> (int option, int) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  ext_ref Ppxx.Utils.Hashtbl.create
+)
+"tysize.ml" 29 594 613 "tysize.ml" 29 594 614
+type(
+  int
+)
+"tysize.ml" 29 594 606 "tysize.ml" 29 594 614
+call(
+  stack
+)
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+"tysize.ml" 30 618 624 "tysize.ml" 30 618 628
+type(
+  int option -> unit
+)
+ident(
+  def incr "tysize.ml" 36 723 725 "tysize.ml" 55 1351 1356
+)
+"tysize.ml" 30 618 629 "tysize.ml" 30 618 630
+type(
+  int option
+)
+ident(
+  def k "tysize.ml" 31 633 637 "tysize.ml" 34 687 717
+)
+"tysize.ml" 32 641 647 "tysize.ml" 32 641 654
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t -> int option -> int -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.Hashtbl.replace
+)
+"tysize.ml" 32 641 655 "tysize.ml" 32 641 658
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  int_ref tbl "tysize.ml" 29 594 600 "tysize.ml" 29 594 603
+)
+"tysize.ml" 32 641 659 "tysize.ml" 32 641 660
+type(
+  int option
+)
+ident(
+  int_ref k "tysize.ml" 30 618 629 "tysize.ml" 30 618 630
+)
+"tysize.ml" 32 641 662 "tysize.ml" 32 641 666
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t -> int option -> int
+)
+ident(
+  ext_ref Ppxx.Utils.Hashtbl.find
+)
+"tysize.ml" 32 641 667 "tysize.ml" 32 641 670
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  int_ref tbl "tysize.ml" 29 594 600 "tysize.ml" 29 594 603
+)
+"tysize.ml" 32 641 671 "tysize.ml" 32 641 672
+type(
+  int option
+)
+ident(
+  int_ref k "tysize.ml" 30 618 629 "tysize.ml" 30 618 630
+)
+"tysize.ml" 32 641 662 "tysize.ml" 32 641 672
+call(
+  stack
+)
+type(
+  int
+)
+"tysize.ml" 32 641 673 "tysize.ml" 32 641 674
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"tysize.ml" 32 641 675 "tysize.ml" 32 641 676
+type(
+  int
+)
+"tysize.ml" 32 641 661 "tysize.ml" 32 641 677
+type(
+  int
+)
+"tysize.ml" 32 641 647 "tysize.ml" 32 641 677
+call(
+  stack
+)
+type(
+  unit
+)
+"tysize.ml" 34 687 693 "tysize.ml" 34 687 702
+type(
+  exn
+)
+"tysize.ml" 34 687 706 "tysize.ml" 34 687 709
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t -> int option -> int -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.Hashtbl.add
+)
+"tysize.ml" 34 687 710 "tysize.ml" 34 687 713
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  int_ref tbl "tysize.ml" 29 594 600 "tysize.ml" 29 594 603
+)
+"tysize.ml" 34 687 714 "tysize.ml" 34 687 715
+type(
+  int option
+)
+ident(
+  int_ref k "tysize.ml" 30 618 629 "tysize.ml" 30 618 630
+)
+"tysize.ml" 34 687 716 "tysize.ml" 34 687 717
+type(
+  int
+)
+"tysize.ml" 34 687 706 "tysize.ml" 34 687 717
+call(
+  tail
+)
+type(
+  unit
+)
+"tysize.ml" 31 633 637 "tysize.ml" 34 687 717
+type(
+  unit
+)
+"tysize.ml" 36 723 729 "tysize.ml" 36 723 731
+type(
+  Btype.type_iterators
+)
+ident(
+  def it "tysize.ml" 53 1273 1275 "tysize.ml" 55 1351 1356
+)
+"tysize.ml" 37 735 741 "tysize.ml" 37 735 755
+type(
+  Btype.type_iterators
+)
+ident(
+  ext_ref Btype.type_iterators
+)
+"tysize.ml" 38 761 790 "tysize.ml" 38 761 792
+type(
+  Btype.type_iterators
+)
+ident(
+  def it "tysize.ml" 38 761 793 "tysize.ml" 50 1249 1260
+)
+"tysize.ml" 38 761 793 "tysize.ml" 38 761 795
+type(
+  Types.type_expr
+)
+ident(
+  def ty "tysize.ml" 39 799 807 "tysize.ml" 50 1249 1260
+)
+"tysize.ml" 39 799 811 "tysize.ml" 39 799 813
+type(
+  Types.type_expr
+)
+ident(
+  def ty "tysize.ml" 40 833 841 "tysize.ml" 50 1249 1260
+)
+"tysize.ml" 39 799 816 "tysize.ml" 39 799 826
+type(
+  Types.type_expr -> Types.type_expr
+)
+ident(
+  ext_ref Ctype.repr
+)
+"tysize.ml" 39 799 827 "tysize.ml" 39 799 829
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "tysize.ml" 38 761 793 "tysize.ml" 38 761 795
+)
+"tysize.ml" 39 799 816 "tysize.ml" 39 799 829
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"tysize.ml" 40 833 853 "tysize.ml" 40 833 855
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "tysize.ml" 39 799 811 "tysize.ml" 39 799 813
+)
+"tysize.ml" 40 833 853 "tysize.ml" 40 833 860
+type(
+  Types.type_desc
+)
+"tysize.ml" 41 866 881 "tysize.ml" 41 866 882
+type(
+  string option
+)
+"tysize.ml" 41 866 876 "tysize.ml" 41 866 882
+type(
+  Types.type_desc
+)
+"tysize.ml" 41 866 886 "tysize.ml" 41 866 890
+type(
+  int option -> unit
+)
+ident(
+  int_ref incr "tysize.ml" 30 618 624 "tysize.ml" 30 618 628
+)
+"tysize.ml" 41 866 897 "tysize.ml" 41 866 899
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "tysize.ml" 39 799 811 "tysize.ml" 39 799 813
+)
+"tysize.ml" 41 866 897 "tysize.ml" 41 866 902
+type(
+  int
+)
+"tysize.ml" 41 866 891 "tysize.ml" 41 866 903
+type(
+  int option
+)
+"tysize.ml" 41 866 886 "tysize.ml" 41 866 903
+call(
+  stack
+)
+type(
+  unit
+)
+"tysize.ml" 42 904 914 "tysize.ml" 42 904 915
+type(
+  Types.type_desc
+)
+"tysize.ml" 42 904 919 "tysize.ml" 42 904 923
+type(
+  int option -> unit
+)
+ident(
+  int_ref incr "tysize.ml" 30 618 624 "tysize.ml" 30 618 628
+)
+"tysize.ml" 42 904 924 "tysize.ml" 42 904 928
+type(
+  int option
+)
+"tysize.ml" 42 904 919 "tysize.ml" 42 904 928
+call(
+  stack
+)
+type(
+  unit
+)
+"tysize.ml" 40 833 841 "tysize.ml" 43 929 940
+type(
+  unit
+)
+"tysize.ml" 44 942 962 "tysize.ml" 44 942 964
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "tysize.ml" 39 799 811 "tysize.ml" 39 799 813
+)
+"tysize.ml" 44 942 962 "tysize.ml" 44 942 969
+type(
+  Types.type_desc
+)
+"tysize.ml" 45 975 994 "tysize.ml" 45 975 997
+type(
+  Types.row_desc
+)
+ident(
+  def row "tysize.ml" 47 1083 1094 "tysize.ml" 48 1120 1196
+)
+"tysize.ml" 45 975 985 "tysize.ml" 45 975 997
+type(
+  Types.type_desc
+)
+"tysize.ml" 47 1083 1098 "tysize.ml" 47 1083 1101
+type(
+  Types.row_desc
+)
+ident(
+  def row "tysize.ml" 48 1120 1131 "tysize.ml" 48 1120 1196
+)
+"tysize.ml" 47 1083 1104 "tysize.ml" 47 1083 1112
+type(
+  Types.row_desc -> Types.row_desc
+)
+ident(
+  ext_ref Btype.row_repr
+)
+"tysize.ml" 47 1083 1113 "tysize.ml" 47 1083 1116
+type(
+  Types.row_desc
+)
+ident(
+  int_ref row "tysize.ml" 45 975 994 "tysize.ml" 45 975 997
+)
+"tysize.ml" 47 1083 1104 "tysize.ml" 47 1083 1116
+call(
+  stack
+)
+type(
+  Types.row_desc
+)
+"tysize.ml" 48 1120 1134 "tysize.ml" 48 1120 1137
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"tysize.ml" 48 1120 1138 "tysize.ml" 48 1120 1139
+type(
+  (bool -> bool) -> bool -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"tysize.ml" 48 1120 1140 "tysize.ml" 48 1120 1150
+type(
+  Types.row_desc -> bool
+)
+ident(
+  ext_ref Btype.static_row
+)
+"tysize.ml" 48 1120 1151 "tysize.ml" 48 1120 1154
+type(
+  Types.row_desc
+)
+ident(
+  int_ref row "tysize.ml" 47 1083 1098 "tysize.ml" 47 1083 1101
+)
+"tysize.ml" 48 1120 1140 "tysize.ml" 48 1120 1154
+call(
+  stack
+)
+type(
+  bool
+)
+"tysize.ml" 48 1120 1134 "tysize.ml" 48 1120 1154
+type(
+  bool
+)
+"tysize.ml" 48 1120 1160 "tysize.ml" 48 1120 1174
+type(
+  Btype.type_iterators
+)
+ident(
+  ext_ref Btype.type_iterators
+)
+"tysize.ml" 48 1120 1160 "tysize.ml" 48 1120 1190
+type(
+  Btype.type_iterators -> Types.type_expr -> unit
+)
+"tysize.ml" 48 1120 1191 "tysize.ml" 48 1120 1193
+type(
+  Btype.type_iterators
+)
+ident(
+  int_ref it "tysize.ml" 38 761 790 "tysize.ml" 38 761 792
+)
+"tysize.ml" 48 1120 1194 "tysize.ml" 48 1120 1196
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "tysize.ml" 39 799 811 "tysize.ml" 39 799 813
+)
+"tysize.ml" 48 1120 1160 "tysize.ml" 48 1120 1196
+call(
+  tail
+)
+type(
+  unit
+)
+"tysize.ml" 48 1120 1131 "tysize.ml" 48 1120 1196
+type(
+  unit
+)
+"tysize.ml" 47 1083 1094 "tysize.ml" 48 1120 1196
+type(
+  unit
+)
+"tysize.ml" 49 1197 1207 "tysize.ml" 49 1197 1208
+type(
+  Types.type_desc
+)
+"tysize.ml" 49 1197 1212 "tysize.ml" 49 1197 1226
+type(
+  Btype.type_iterators
+)
+ident(
+  ext_ref Btype.type_iterators
+)
+"tysize.ml" 49 1197 1212 "tysize.ml" 49 1197 1242
+type(
+  Btype.type_iterators -> Types.type_expr -> unit
+)
+"tysize.ml" 49 1197 1243 "tysize.ml" 49 1197 1245
+type(
+  Btype.type_iterators
+)
+ident(
+  int_ref it "tysize.ml" 38 761 790 "tysize.ml" 38 761 792
+)
+"tysize.ml" 49 1197 1246 "tysize.ml" 49 1197 1248
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "tysize.ml" 39 799 811 "tysize.ml" 39 799 813
+)
+"tysize.ml" 49 1197 1212 "tysize.ml" 49 1197 1248
+call(
+  tail
+)
+type(
+  unit
+)
+"tysize.ml" 44 942 950 "tysize.ml" 50 1249 1260
+type(
+  unit
+)
+"tysize.ml" 40 833 841 "tysize.ml" 50 1249 1260
+type(
+  unit
+)
+"tysize.ml" 39 799 807 "tysize.ml" 50 1249 1260
+type(
+  unit
+)
+"tysize.ml" 38 761 785 "tysize.ml" 50 1249 1261
+type(
+  Btype.type_iterators -> Types.type_expr -> unit
+)
+"tysize.ml" 37 735 739 "tysize.ml" 51 1262 1267
+type(
+  Btype.type_iterators
+)
+"tysize.ml" 53 1273 1275 "tysize.ml" 53 1273 1277
+type(
+  Btype.type_iterators
+)
+ident(
+  int_ref it "tysize.ml" 36 723 729 "tysize.ml" 36 723 731
+)
+"tysize.ml" 53 1273 1275 "tysize.ml" 53 1273 1290
+type(
+  Btype.type_iterators -> Types.type_expr -> unit
+)
+"tysize.ml" 53 1273 1291 "tysize.ml" 53 1273 1293
+type(
+  Btype.type_iterators
+)
+ident(
+  int_ref it "tysize.ml" 36 723 729 "tysize.ml" 36 723 731
+)
+"tysize.ml" 53 1273 1294 "tysize.ml" 53 1273 1296
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "tysize.ml" 27 558 567 "tysize.ml" 27 558 569
+)
+"tysize.ml" 53 1273 1275 "tysize.ml" 53 1273 1296
+call(
+  stack
+)
+type(
+  unit
+)
+"tysize.ml" 54 1298 1300 "tysize.ml" 54 1298 1316
+type(
+  Btype.type_iterators
+)
+ident(
+  ext_ref Btype.unmark_iterators
+)
+"tysize.ml" 54 1298 1300 "tysize.ml" 54 1298 1329
+type(
+  Btype.type_iterators -> Types.type_expr -> unit
+)
+"tysize.ml" 54 1298 1330 "tysize.ml" 54 1298 1346
+type(
+  Btype.type_iterators
+)
+ident(
+  ext_ref Btype.unmark_iterators
+)
+"tysize.ml" 54 1298 1347 "tysize.ml" 54 1298 1349
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "tysize.ml" 27 558 567 "tysize.ml" 27 558 569
+)
+"tysize.ml" 54 1298 1300 "tysize.ml" 54 1298 1349
+call(
+  stack
+)
+type(
+  unit
+)
+"tysize.ml" 55 1351 1353 "tysize.ml" 55 1351 1356
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  int_ref tbl "tysize.ml" 29 594 600 "tysize.ml" 29 594 603
+)
+"tysize.ml" 54 1298 1300 "tysize.ml" 55 1351 1356
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+"tysize.ml" 53 1273 1275 "tysize.ml" 55 1351 1356
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+"tysize.ml" 36 723 725 "tysize.ml" 55 1351 1356
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+"tysize.ml" 30 618 620 "tysize.ml" 55 1351 1356
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+"tysize.ml" 29 594 596 "tysize.ml" 55 1351 1356
+type(
+  (int option, int) Ppxx.Utils.Hashtbl.t
+)
+"tysize.ml" 57 1358 1362 "tysize.ml" 57 1358 1364
+type(
+  ('a, 'b) Ppxx.Utils.Hashtbl.t -> ('a, 'b) Ppxx.Utils.Hashtbl.t -> bool
+)
+ident(
+  def lt "tysize.ml" 73 1779 1779 "tysize.ml" 1 0 -1
+)
+"tysize.ml" 57 1358 1365 "tysize.ml" 57 1358 1367
+type(
+  ('a, 'b) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  def t1 "tysize.ml" 57 1358 1368 "tysize.ml" 71 1748 1777
+)
+"tysize.ml" 57 1358 1368 "tysize.ml" 57 1358 1370
+type(
+  ('a, 'b) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  def t2 "tysize.ml" 62 1550 1552 "tysize.ml" 71 1748 1777
+)
+"tysize.ml" 64 1578 1582 "tysize.ml" 64 1578 1586
+type(
+  ('a -> 'b -> bool -> bool) -> ('a, 'b) Ppxx.Utils.Hashtbl.t -> bool -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.Hashtbl.fold
+)
+"tysize.ml" 64 1578 1592 "tysize.ml" 64 1578 1594
+type(
+  'a
+)
+ident(
+  def k1 "tysize.ml" 64 1578 1595 "tysize.ml" 68 1702 1723
+)
+"tysize.ml" 64 1578 1595 "tysize.ml" 64 1578 1597
+type(
+  'b
+)
+ident(
+  def v1 "tysize.ml" 64 1578 1598 "tysize.ml" 68 1702 1723
+)
+"tysize.ml" 64 1578 1598 "tysize.ml" 64 1578 1606
+type(
+  bool
+)
+ident(
+  def found_gt "tysize.ml" 65 1610 1616 "tysize.ml" 68 1702 1723
+)
+"tysize.ml" 65 1610 1620 "tysize.ml" 65 1610 1622
+type(
+  'b
+)
+ident(
+  def v2 "tysize.ml" 66 1639 1645 "tysize.ml" 68 1702 1723
+)
+"tysize.ml" 65 1610 1625 "tysize.ml" 65 1610 1629
+type(
+  ('a, 'b) Ppxx.Utils.Hashtbl.t -> 'a -> 'b
+)
+ident(
+  ext_ref Ppxx.Utils.Hashtbl.find
+)
+"tysize.ml" 65 1610 1630 "tysize.ml" 65 1610 1632
+type(
+  ('a, 'b) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  int_ref t2 "tysize.ml" 57 1358 1368 "tysize.ml" 57 1358 1370
+)
+"tysize.ml" 65 1610 1633 "tysize.ml" 65 1610 1635
+type(
+  'a
+)
+ident(
+  int_ref k1 "tysize.ml" 64 1578 1592 "tysize.ml" 64 1578 1594
+)
+"tysize.ml" 65 1610 1625 "tysize.ml" 65 1610 1635
+call(
+  stack
+)
+type(
+  'b
+)
+"tysize.ml" 66 1639 1648 "tysize.ml" 66 1639 1650
+type(
+  'b
+)
+ident(
+  int_ref v1 "tysize.ml" 64 1578 1595 "tysize.ml" 64 1578 1597
+)
+"tysize.ml" 66 1639 1651 "tysize.ml" 66 1639 1652
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"tysize.ml" 66 1639 1653 "tysize.ml" 66 1639 1655
+type(
+  'b
+)
+ident(
+  int_ref v2 "tysize.ml" 65 1610 1620 "tysize.ml" 65 1610 1622
+)
+"tysize.ml" 66 1639 1648 "tysize.ml" 66 1639 1655
+type(
+  bool
+)
+"tysize.ml" 66 1639 1661 "tysize.ml" 66 1639 1665
+type(
+  bool
+)
+"tysize.ml" 67 1666 1680 "tysize.ml" 67 1666 1682
+type(
+  'b
+)
+ident(
+  int_ref v1 "tysize.ml" 64 1578 1595 "tysize.ml" 64 1578 1597
+)
+"tysize.ml" 67 1666 1683 "tysize.ml" 67 1666 1684
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"tysize.ml" 67 1666 1685 "tysize.ml" 67 1666 1687
+type(
+  'b
+)
+ident(
+  int_ref v2 "tysize.ml" 65 1610 1620 "tysize.ml" 65 1610 1622
+)
+"tysize.ml" 67 1666 1680 "tysize.ml" 67 1666 1687
+type(
+  bool
+)
+"tysize.ml" 67 1666 1693 "tysize.ml" 67 1666 1701
+type(
+  bool
+)
+ident(
+  int_ref found_gt "tysize.ml" 64 1578 1598 "tysize.ml" 64 1578 1606
+)
+"tysize.ml" 68 1702 1713 "tysize.ml" 68 1702 1718
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"tysize.ml" 68 1702 1719 "tysize.ml" 68 1702 1723
+type(
+  exn
+)
+"tysize.ml" 68 1702 1713 "tysize.ml" 68 1702 1723
+type(
+  bool
+)
+"tysize.ml" 67 1666 1677 "tysize.ml" 68 1702 1723
+type(
+  bool
+)
+"tysize.ml" 66 1639 1645 "tysize.ml" 68 1702 1723
+type(
+  bool
+)
+"tysize.ml" 65 1610 1616 "tysize.ml" 68 1702 1723
+type(
+  bool
+)
+"tysize.ml" 64 1578 1587 "tysize.ml" 69 1724 1731
+type(
+  'a -> 'b -> bool -> bool
+)
+"tysize.ml" 69 1724 1732 "tysize.ml" 69 1724 1734
+type(
+  ('a, 'b) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  int_ref t1 "tysize.ml" 57 1358 1365 "tysize.ml" 57 1358 1367
+)
+"tysize.ml" 69 1724 1735 "tysize.ml" 69 1724 1740
+type(
+  bool
+)
+"tysize.ml" 64 1578 1582 "tysize.ml" 69 1724 1740
+call(
+  stack
+)
+type(
+  bool
+)
+"tysize.ml" 71 1748 1752 "tysize.ml" 71 1748 1756
+type(
+  exn
+)
+"tysize.ml" 71 1748 1759 "tysize.ml" 71 1748 1768
+type(
+  exn
+)
+"tysize.ml" 71 1748 1752 "tysize.ml" 71 1748 1768
+type(
+  exn
+)
+"tysize.ml" 71 1748 1772 "tysize.ml" 71 1748 1777
+type(
+  bool
+)
+"tysize.ml" 63 1572 1574 "tysize.ml" 71 1748 1777
+type(
+  bool
+)
+"tysize.ml" 73 1779 1783 "tysize.ml" 73 1779 1790
+type(
+  ('a option, int) Ppxx.Utils.Hashtbl.t -> bool
+)
+ident(
+  def has_var "tysize.ml" 78 1889 1905 "tysize.ml" 1 0 -1
+)
+"tysize.ml" 73 1779 1791 "tysize.ml" 73 1779 1792
+type(
+  ('a option, int) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  def t "tysize.ml" 74 1795 1797 "tysize.ml" 78 1889 1905
+)
+"tysize.ml" 75 1801 1805 "tysize.ml" 75 1801 1817
+type(
+  ('a option -> int -> unit) -> ('a option, int) Ppxx.Utils.Hashtbl.t -> unit
+)
+ident(
+  ext_ref Ppxx.Utils.Hashtbl.iter
+)
+"tysize.ml" 75 1801 1823 "tysize.ml" 75 1801 1824
+type(
+  'a option
+)
+ident(
+  def k "tysize.ml" 75 1801 1825 "tysize.ml" 75 1801 1867
+)
+"tysize.ml" 75 1801 1825 "tysize.ml" 75 1801 1826
+type(
+  int
+)
+ident(
+  def v "tysize.ml" 75 1801 1830 "tysize.ml" 75 1801 1867
+)
+"tysize.ml" 75 1801 1833 "tysize.ml" 75 1801 1834
+type(
+  'a option
+)
+ident(
+  int_ref k "tysize.ml" 75 1801 1823 "tysize.ml" 75 1801 1824
+)
+"tysize.ml" 75 1801 1835 "tysize.ml" 75 1801 1837
+type(
+  'a option -> 'a option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"tysize.ml" 75 1801 1838 "tysize.ml" 75 1801 1842
+type(
+  'a option
+)
+"tysize.ml" 75 1801 1833 "tysize.ml" 75 1801 1842
+type(
+  bool
+)
+"tysize.ml" 75 1801 1843 "tysize.ml" 75 1801 1845
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"tysize.ml" 75 1801 1846 "tysize.ml" 75 1801 1847
+type(
+  int
+)
+ident(
+  int_ref v "tysize.ml" 75 1801 1825 "tysize.ml" 75 1801 1826
+)
+"tysize.ml" 75 1801 1848 "tysize.ml" 75 1801 1849
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"tysize.ml" 75 1801 1850 "tysize.ml" 75 1801 1851
+type(
+  int
+)
+"tysize.ml" 75 1801 1846 "tysize.ml" 75 1801 1851
+type(
+  bool
+)
+"tysize.ml" 75 1801 1833 "tysize.ml" 75 1801 1851
+type(
+  bool
+)
+"tysize.ml" 75 1801 1857 "tysize.ml" 75 1801 1862
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"tysize.ml" 75 1801 1863 "tysize.ml" 75 1801 1867
+type(
+  exn
+)
+"tysize.ml" 75 1801 1857 "tysize.ml" 75 1801 1867
+type(
+  unit
+)
+"tysize.ml" 75 1801 1830 "tysize.ml" 75 1801 1867
+type(
+  unit
+)
+"tysize.ml" 75 1801 1818 "tysize.ml" 75 1801 1868
+type(
+  'a option -> int -> unit
+)
+"tysize.ml" 75 1801 1869 "tysize.ml" 75 1801 1870
+type(
+  ('a option, int) Ppxx.Utils.Hashtbl.t
+)
+ident(
+  int_ref t "tysize.ml" 73 1779 1791 "tysize.ml" 73 1779 1792
+)
+"tysize.ml" 75 1801 1805 "tysize.ml" 75 1801 1870
+call(
+  stack
+)
+type(
+  unit
+)
+"tysize.ml" 76 1872 1876 "tysize.ml" 76 1872 1881
+type(
+  bool
+)
+"tysize.ml" 75 1801 1805 "tysize.ml" 76 1872 1881
+type(
+  bool
+)
+"tysize.ml" 78 1889 1893 "tysize.ml" 78 1889 1897
+type(
+  exn
+)
+"tysize.ml" 78 1889 1901 "tysize.ml" 78 1889 1905
+type(
+  bool
+)
+"tysize.ml" 74 1795 1797 "tysize.ml" 78 1889 1905
+type(
+  bool
+)

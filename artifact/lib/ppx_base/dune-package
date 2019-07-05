@@ -1,0 +1,26 @@
+(lang dune 1.10)
+(name ppx_base)
+(version v0.11.0)
+(library
+ (name ppx_base)
+ (kind ppx_rewriter)
+ (archives (byte ppx_base.cma) (native ppx_base.cmxa))
+ (plugins (byte ppx_base.cma) (native ppx_base.cmxs))
+ (foreign_archives (native ppx_base.a))
+ (requires
+  ppxlib
+  ppx_sexp_conv
+  ppx_compare
+  ppx_enumerate
+  ppx_hash
+  ppx_js_style)
+ (main_module_name Ppx_base)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Ppx_base)
+   (obj_name ppx_base)
+   (visibility public)
+   (impl))
+  (main_module_name Ppx_base)
+  (wrapped true)))

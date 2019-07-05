@@ -1,0 +1,7 @@
+version = "2.0.4"
+description = "OCaml Package Manager solver interaction library"
+requires = "cudf dose3.algo mccs opam-format"
+archive(byte) = "opam_solver.cma"
+archive(native) = "opam_solver.cmxa"
+plugin(byte) = "opam_solver.cma"
+plugin(native) = "opam_solver.cmxs"

@@ -1,0 +1,4881 @@
+"specconv.ml" 18 269 273 "specconv.ml" 18 269 279
+type(
+  string
+)
+ident(
+  def prefix "specconv.ml" 19 290 290 "specconv.ml" 1 0 -1
+)
+"specconv.ml" 18 269 282 "specconv.ml" 18 269 289
+type(
+  string
+)
+"specconv.ml" 19 290 294 "specconv.ml" 19 290 304
+type(
+  int
+)
+ident(
+  def prefix_len "specconv.ml" 24 435 435 "specconv.ml" 1 0 -1
+)
+"specconv.ml" 19 290 307 "specconv.ml" 19 290 320
+type(
+  string -> int
+)
+ident(
+  ext_ref Ppxx.Utils.String.length
+)
+"specconv.ml" 19 290 321 "specconv.ml" 19 290 327
+type(
+  string
+)
+ident(
+  int_ref prefix "specconv.ml" 18 269 273 "specconv.ml" 18 269 279
+)
+"specconv.ml" 19 290 307 "specconv.ml" 19 290 327
+type(
+  int
+)
+"specconv.ml" 24 435 439 "specconv.ml" 24 435 458
+type(
+  Spec.t2 list -> Parsetree.core_type list
+)
+ident(
+  def get_type_components "specconv.ml" 42 908 908 "specconv.ml" 1 0 -1
+)
+"specconv.ml" 25 462 472 "specconv.ml" 25 462 473
+type(
+  Spec.t2 list -> Parsetree.core_type list
+)
+ident(
+  def t "specconv.ml" 25 462 464 "specconv.ml" 39 841 844
+)
+"specconv.ml" 26 485 491 "specconv.ml" 26 485 493
+type(
+  Spec.t2 list
+)
+ident(
+  def xs "specconv.ml" 26 485 497 "specconv.ml" 26 485 513
+)
+"specconv.ml" 26 485 497 "specconv.ml" 26 485 507
+type(
+  (Spec.t2 -> Parsetree.core_type list) ->
+  Spec.t2 list -> Parsetree.core_type list
+)
+ident(
+  ext_ref Ppxx.Utils.List.concat_map
+)
+"specconv.ml" 26 485 508 "specconv.ml" 26 485 510
+type(
+  Spec.t2 -> Parsetree.core_type list
+)
+ident(
+  int_ref t2 "specconv.ml" 27 514 520 "specconv.ml" 27 514 522
+)
+"specconv.ml" 26 485 511 "specconv.ml" 26 485 513
+type(
+  Spec.t2 list
+)
+ident(
+  int_ref xs "specconv.ml" 26 485 491 "specconv.ml" 26 485 493
+)
+"specconv.ml" 26 485 497 "specconv.ml" 26 485 513
+call(
+  tail
+)
+type(
+  Parsetree.core_type list
+)
+"specconv.ml" 25 462 476 "specconv.ml" 26 485 513
+type(
+  Spec.t2 list -> Parsetree.core_type list
+)
+"specconv.ml" 27 514 520 "specconv.ml" 27 514 522
+type(
+  Spec.t2 -> Parsetree.core_type list
+)
+ident(
+  def t2 "specconv.ml" 25 462 464 "specconv.ml" 39 841 844
+)
+"specconv.ml" 28 534 548 "specconv.ml" 28 534 551
+type(
+  [ `In | `Just ]
+)
+"specconv.ml" 28 534 553 "specconv.ml" 28 534 555
+type(
+  Longident.t
+)
+ident(
+  def _l "specconv.ml" 28 534 563 "specconv.ml" 28 534 565
+)
+"specconv.ml" 28 534 557 "specconv.ml" 28 534 558
+type(
+  Path.t option
+)
+"specconv.ml" 28 534 540 "specconv.ml" 28 534 559
+type(
+  Spec.t2
+)
+"specconv.ml" 28 534 563 "specconv.ml" 28 534 565
+type(
+  Parsetree.core_type list
+)
+"specconv.ml" 29 566 580 "specconv.ml" 29 566 585
+type(
+  [ `In | `Just ]
+)
+"specconv.ml" 29 566 587 "specconv.ml" 29 566 589
+type(
+  Longident.t
+)
+ident(
+  def _l "specconv.ml" 29 566 597 "specconv.ml" 29 566 599
+)
+"specconv.ml" 29 566 591 "specconv.ml" 29 566 592
+type(
+  Path.t option
+)
+"specconv.ml" 29 566 572 "specconv.ml" 29 566 593
+type(
+  Spec.t2
+)
+"specconv.ml" 29 566 597 "specconv.ml" 29 566 599
+type(
+  Parsetree.core_type list
+)
+"specconv.ml" 30 600 614 "specconv.ml" 30 600 617
+type(
+  [ `In | `Just ]
+)
+"specconv.ml" 30 600 619 "specconv.ml" 30 600 621
+type(
+  Longident.t
+)
+ident(
+  def _l "specconv.ml" 30 600 626 "specconv.ml" 30 600 628
+)
+"specconv.ml" 30 600 606 "specconv.ml" 30 600 622
+type(
+  Spec.t2
+)
+"specconv.ml" 30 600 626 "specconv.ml" 30 600 628
+type(
+  Parsetree.core_type list
+)
+"specconv.ml" 31 629 643 "specconv.ml" 31 629 648
+type(
+  [ `In | `Just ]
+)
+"specconv.ml" 31 629 650 "specconv.ml" 31 629 652
+type(
+  Longident.t
+)
+ident(
+  def _l "specconv.ml" 31 629 657 "specconv.ml" 31 629 659
+)
+"specconv.ml" 31 629 635 "specconv.ml" 31 629 653
+type(
+  Spec.t2
+)
+"specconv.ml" 31 629 657 "specconv.ml" 31 629 659
+type(
+  Parsetree.core_type list
+)
+"specconv.ml" 32 660 666 "specconv.ml" 32 660 673
+type(
+  Spec.t2
+)
+"specconv.ml" 32 660 677 "specconv.ml" 32 660 679
+type(
+  Parsetree.core_type list
+)
+"specconv.ml" 33 680 697 "specconv.ml" 33 680 698
+type(
+  Spec.t2
+)
+ident(
+  def x "specconv.ml" 33 680 702 "specconv.ml" 33 680 706
+)
+"specconv.ml" 33 680 686 "specconv.ml" 33 680 698
+type(
+  Spec.t2
+)
+"specconv.ml" 33 680 702 "specconv.ml" 33 680 704
+type(
+  Spec.t2 -> Parsetree.core_type list
+)
+ident(
+  int_ref t2 "specconv.ml" 27 514 520 "specconv.ml" 27 514 522
+)
+"specconv.ml" 33 680 705 "specconv.ml" 33 680 706
+type(
+  Spec.t2
+)
+ident(
+  int_ref x "specconv.ml" 33 680 697 "specconv.ml" 33 680 698
+)
+"specconv.ml" 33 680 702 "specconv.ml" 33 680 706
+call(
+  tail
+)
+type(
+  Parsetree.core_type list
+)
+"specconv.ml" 34 707 719 "specconv.ml" 34 707 721
+type(
+  string
+)
+ident(
+  def _s "specconv.ml" 34 707 734 "specconv.ml" 34 707 738
+)
+"specconv.ml" 34 707 723 "specconv.ml" 34 707 726
+type(
+  Re.re
+)
+ident(
+  def _re "specconv.ml" 34 707 734 "specconv.ml" 34 707 738
+)
+"specconv.ml" 34 707 728 "specconv.ml" 34 707 729
+type(
+  Spec.t2
+)
+ident(
+  def x "specconv.ml" 34 707 734 "specconv.ml" 34 707 738
+)
+"specconv.ml" 34 707 713 "specconv.ml" 34 707 730
+type(
+  Spec.t2
+)
+"specconv.ml" 34 707 734 "specconv.ml" 34 707 736
+type(
+  Spec.t2 -> Parsetree.core_type list
+)
+ident(
+  int_ref t2 "specconv.ml" 27 514 520 "specconv.ml" 27 514 522
+)
+"specconv.ml" 34 707 737 "specconv.ml" 34 707 738
+type(
+  Spec.t2
+)
+ident(
+  int_ref x "specconv.ml" 34 707 728 "specconv.ml" 34 707 729
+)
+"specconv.ml" 34 707 734 "specconv.ml" 34 707 738
+call(
+  tail
+)
+type(
+  Parsetree.core_type list
+)
+"specconv.ml" 35 739 755 "specconv.ml" 35 739 758
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "specconv.ml" 35 739 768 "specconv.ml" 35 739 773
+)
+"specconv.ml" 35 739 760 "specconv.ml" 35 739 763
+type(
+  Types.type_expr option
+)
+ident(
+  def _ty "specconv.ml" 35 739 768 "specconv.ml" 35 739 773
+)
+"specconv.ml" 35 739 745 "specconv.ml" 35 739 764
+type(
+  Spec.t2
+)
+"specconv.ml" 35 739 769 "specconv.ml" 35 739 772
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "specconv.ml" 35 739 755 "specconv.ml" 35 739 758
+)
+"specconv.ml" 35 739 768 "specconv.ml" 35 739 773
+type(
+  Parsetree.core_type list
+)
+"specconv.ml" 36 774 789 "specconv.ml" 36 774 791
+type(
+  Longident.t
+)
+ident(
+  def _p "specconv.ml" 36 774 795 "specconv.ml" 36 774 797
+)
+"specconv.ml" 36 774 780 "specconv.ml" 36 774 791
+type(
+  Spec.t2
+)
+"specconv.ml" 36 774 795 "specconv.ml" 36 774 797
+type(
+  Parsetree.core_type list
+)
+"specconv.ml" 37 798 815 "specconv.ml" 37 798 817
+type(
+  Parsetree.expression
+)
+ident(
+  def _e "specconv.ml" 37 798 830 "specconv.ml" 37 798 835
+)
+"specconv.ml" 37 798 819 "specconv.ml" 37 798 822
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "specconv.ml" 37 798 830 "specconv.ml" 37 798 835
+)
+"specconv.ml" 37 798 824 "specconv.ml" 37 798 825
+type(
+  Types.type_expr option
+)
+"specconv.ml" 37 798 804 "specconv.ml" 37 798 826
+type(
+  Spec.t2
+)
+"specconv.ml" 37 798 831 "specconv.ml" 37 798 834
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "specconv.ml" 37 798 819 "specconv.ml" 37 798 822
+)
+"specconv.ml" 37 798 830 "specconv.ml" 37 798 835
+type(
+  Parsetree.core_type list
+)
+"specconv.ml" 27 514 525 "specconv.ml" 37 798 835
+type(
+  Spec.t2 -> Parsetree.core_type list
+)
+"specconv.ml" 39 841 843 "specconv.ml" 39 841 844
+type(
+  Spec.t2 list -> Parsetree.core_type list
+)
+ident(
+  int_ref t "specconv.ml" 25 462 472 "specconv.ml" 25 462 473
+)
+"specconv.ml" 25 462 464 "specconv.ml" 39 841 844
+type(
+  Spec.t2 list -> Parsetree.core_type list
+)
+"specconv.ml" 42 908 912 "specconv.ml" 42 908 934
+type(
+  Types.type_expr list -> Spec.t2 list -> Spec.t2 list
+)
+ident(
+  def assign_type_components "specconv.ml" 80 1997 1997 "specconv.ml" 1 0 -1
+)
+"specconv.ml" 42 908 935 "specconv.ml" 42 908 938
+type(
+  Types.type_expr list
+)
+ident(
+  def tys "specconv.ml" 42 908 939 "specconv.ml" 78 1962 1983
+)
+"specconv.ml" 42 908 939 "specconv.ml" 42 908 941
+type(
+  Spec.t2 list
+)
+ident(
+  def t0 "specconv.ml" 43 945 947 "specconv.ml" 78 1962 1983
+)
+"specconv.ml" 43 945 955 "specconv.ml" 43 945 956
+type(
+  Types.type_expr list -> Spec.t2 list -> Types.type_expr list * Spec.t2 list
+)
+ident(
+  def t "specconv.ml" 43 945 947 "specconv.ml" 78 1962 1983
+)
+"specconv.ml" 43 945 957 "specconv.ml" 43 945 960
+type(
+  Types.type_expr list
+)
+ident(
+  def tys "specconv.ml" 43 945 963 "specconv.ml" 50 1144 1169
+)
+"specconv.ml" 44 972 978 "specconv.ml" 44 972 980
+type(
+  Spec.t2 list
+)
+ident(
+  def xs "specconv.ml" 45 984 992 "specconv.ml" 50 1144 1169
+)
+"specconv.ml" 45 984 996 "specconv.ml" 45 984 999
+type(
+  Types.type_expr list
+)
+ident(
+  def tys "specconv.ml" 50 1144 1152 "specconv.ml" 50 1144 1169
+)
+"specconv.ml" 45 984 1001 "specconv.ml" 45 984 1007
+type(
+  Spec.t2 list
+)
+ident(
+  def rev_xs "specconv.ml" 50 1144 1152 "specconv.ml" 50 1144 1169
+)
+"specconv.ml" 45 984 996 "specconv.ml" 45 984 1007
+type(
+  Types.type_expr list * Spec.t2 list
+)
+"specconv.ml" 46 1011 1021 "specconv.ml" 46 1011 1030
+type(
+  (Types.type_expr list * Spec.t2 list ->
+   Spec.t2 -> Types.type_expr list * Spec.t2 list) ->
+  Types.type_expr list * Spec.t2 list ->
+  Spec.t2 list -> Types.type_expr list * Spec.t2 list
+)
+ident(
+  ext_ref Ppxx.Utils.List.fold_left
+)
+"specconv.ml" 46 1011 1037 "specconv.ml" 46 1011 1040
+type(
+  Types.type_expr list
+)
+ident(
+  def tys "specconv.ml" 46 1011 1049 "specconv.ml" 48 1091 1119
+)
+"specconv.ml" 46 1011 1041 "specconv.ml" 46 1011 1047
+type(
+  Spec.t2 list
+)
+ident(
+  def rev_xs "specconv.ml" 46 1011 1049 "specconv.ml" 48 1091 1119
+)
+"specconv.ml" 46 1011 1036 "specconv.ml" 46 1011 1048
+type(
+  Types.type_expr list * Spec.t2 list
+)
+"specconv.ml" 46 1011 1049 "specconv.ml" 46 1011 1050
+type(
+  Spec.t2
+)
+ident(
+  def x "specconv.ml" 47 1054 1066 "specconv.ml" 48 1091 1119
+)
+"specconv.ml" 47 1054 1070 "specconv.ml" 47 1054 1073
+type(
+  Types.type_expr list
+)
+ident(
+  def tys "specconv.ml" 48 1091 1103 "specconv.ml" 48 1091 1119
+)
+"specconv.ml" 47 1054 1075 "specconv.ml" 47 1054 1076
+type(
+  Spec.t2
+)
+ident(
+  def x "specconv.ml" 48 1091 1103 "specconv.ml" 48 1091 1119
+)
+"specconv.ml" 47 1054 1070 "specconv.ml" 47 1054 1076
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 47 1054 1079 "specconv.ml" 47 1054 1081
+type(
+  Types.type_expr list -> Spec.t2 -> Types.type_expr list * Spec.t2
+)
+ident(
+  int_ref t2 "specconv.ml" 52 1181 1187 "specconv.ml" 52 1181 1189
+)
+"specconv.ml" 47 1054 1082 "specconv.ml" 47 1054 1085
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 46 1011 1037 "specconv.ml" 46 1011 1040
+)
+"specconv.ml" 47 1054 1086 "specconv.ml" 47 1054 1087
+type(
+  Spec.t2
+)
+ident(
+  int_ref x "specconv.ml" 46 1011 1049 "specconv.ml" 46 1011 1050
+)
+"specconv.ml" 47 1054 1079 "specconv.ml" 47 1054 1087
+call(
+  stack
+)
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 48 1091 1103 "specconv.ml" 48 1091 1106
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 47 1054 1070 "specconv.ml" 47 1054 1073
+)
+"specconv.ml" 48 1091 1108 "specconv.ml" 48 1091 1109
+type(
+  Spec.t2
+)
+ident(
+  int_ref x "specconv.ml" 47 1054 1075 "specconv.ml" 47 1054 1076
+)
+"specconv.ml" 48 1091 1113 "specconv.ml" 48 1091 1119
+type(
+  Spec.t2 list
+)
+ident(
+  int_ref rev_xs "specconv.ml" 46 1011 1041 "specconv.ml" 46 1011 1047
+)
+"specconv.ml" 48 1091 1108 "specconv.ml" 48 1091 1119
+type(
+  Spec.t2 list
+)
+"specconv.ml" 48 1091 1103 "specconv.ml" 48 1091 1119
+type(
+  Types.type_expr list * Spec.t2 list
+)
+"specconv.ml" 47 1054 1066 "specconv.ml" 48 1091 1119
+type(
+  Types.type_expr list * Spec.t2 list
+)
+"specconv.ml" 46 1011 1031 "specconv.ml" 48 1091 1120
+type(
+  Types.type_expr list * Spec.t2 list ->
+  Spec.t2 -> Types.type_expr list * Spec.t2 list
+)
+"specconv.ml" 48 1091 1122 "specconv.ml" 48 1091 1125
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 43 945 957 "specconv.ml" 43 945 960
+)
+"specconv.ml" 48 1091 1126 "specconv.ml" 48 1091 1128
+type(
+  Spec.t2 list
+)
+"specconv.ml" 48 1091 1121 "specconv.ml" 48 1091 1129
+type(
+  Types.type_expr list * Spec.t2 list
+)
+"specconv.ml" 48 1091 1130 "specconv.ml" 48 1091 1132
+type(
+  Spec.t2 list
+)
+ident(
+  int_ref xs "specconv.ml" 44 972 978 "specconv.ml" 44 972 980
+)
+"specconv.ml" 46 1011 1021 "specconv.ml" 48 1091 1132
+call(
+  stack
+)
+type(
+  Types.type_expr list * Spec.t2 list
+)
+"specconv.ml" 50 1144 1152 "specconv.ml" 50 1144 1155
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 45 984 996 "specconv.ml" 45 984 999
+)
+"specconv.ml" 50 1144 1158 "specconv.ml" 50 1144 1161
+type(
+  Spec.t2 list -> Spec.t2 list
+)
+ident(
+  ext_ref Ppxx.Utils.List.rev
+)
+"specconv.ml" 50 1144 1162 "specconv.ml" 50 1144 1168
+type(
+  Spec.t2 list
+)
+ident(
+  int_ref rev_xs "specconv.ml" 45 984 1001 "specconv.ml" 45 984 1007
+)
+"specconv.ml" 50 1144 1157 "specconv.ml" 50 1144 1169
+call(
+  stack
+)
+type(
+  Spec.t2 list
+)
+"specconv.ml" 50 1144 1152 "specconv.ml" 50 1144 1169
+type(
+  Types.type_expr list * Spec.t2 list
+)
+"specconv.ml" 45 984 992 "specconv.ml" 50 1144 1169
+type(
+  Types.type_expr list * Spec.t2 list
+)
+"specconv.ml" 43 945 963 "specconv.ml" 50 1144 1169
+type(
+  Spec.t2 list -> Types.type_expr list * Spec.t2 list
+)
+"specconv.ml" 52 1181 1187 "specconv.ml" 52 1181 1189
+type(
+  Types.type_expr list -> Spec.t2 -> Types.type_expr list * Spec.t2
+)
+ident(
+  def t2 "specconv.ml" 43 945 947 "specconv.ml" 78 1962 1983
+)
+"specconv.ml" 52 1181 1190 "specconv.ml" 52 1181 1193
+type(
+  Types.type_expr list
+)
+ident(
+  def tys "specconv.ml" 52 1181 1194 "specconv.ml" 74 1855 1905
+)
+"specconv.ml" 52 1181 1194 "specconv.ml" 52 1181 1195
+type(
+  Spec.t2
+)
+ident(
+  def x "specconv.ml" 52 1181 1198 "specconv.ml" 74 1855 1905
+)
+"specconv.ml" 52 1181 1204 "specconv.ml" 52 1181 1205
+type(
+  Spec.t2
+)
+ident(
+  int_ref x "specconv.ml" 52 1181 1194 "specconv.ml" 52 1181 1195
+)
+"specconv.ml" 53 1211 1224 "specconv.ml" 53 1211 1225
+type(
+  Path.t option
+)
+type(
+  Longident.t
+)
+type(
+  [ `In | `Just ]
+)
+"specconv.ml" 53 1211 1217 "specconv.ml" 53 1211 1225
+type(
+  Spec.t2
+)
+"specconv.ml" 53 1211 1229 "specconv.ml" 53 1211 1232
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 52 1181 1190 "specconv.ml" 52 1181 1193
+)
+"specconv.ml" 53 1211 1234 "specconv.ml" 53 1211 1235
+type(
+  Spec.t2
+)
+ident(
+  int_ref x "specconv.ml" 52 1181 1194 "specconv.ml" 52 1181 1195
+)
+"specconv.ml" 53 1211 1229 "specconv.ml" 53 1211 1235
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 54 1236 1249 "specconv.ml" 54 1236 1250
+type(
+  Longident.t
+)
+type(
+  [ `In | `Just ]
+)
+"specconv.ml" 54 1236 1242 "specconv.ml" 54 1236 1250
+type(
+  Spec.t2
+)
+"specconv.ml" 54 1236 1254 "specconv.ml" 54 1236 1257
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 52 1181 1190 "specconv.ml" 52 1181 1193
+)
+"specconv.ml" 54 1236 1259 "specconv.ml" 54 1236 1260
+type(
+  Spec.t2
+)
+ident(
+  int_ref x "specconv.ml" 52 1181 1194 "specconv.ml" 52 1181 1195
+)
+"specconv.ml" 54 1236 1254 "specconv.ml" 54 1236 1260
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 55 1261 1267 "specconv.ml" 55 1261 1274
+type(
+  Spec.t2
+)
+"specconv.ml" 55 1261 1278 "specconv.ml" 55 1261 1281
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 52 1181 1190 "specconv.ml" 52 1181 1193
+)
+"specconv.ml" 55 1261 1283 "specconv.ml" 55 1261 1284
+type(
+  Spec.t2
+)
+ident(
+  int_ref x "specconv.ml" 52 1181 1194 "specconv.ml" 52 1181 1195
+)
+"specconv.ml" 55 1261 1278 "specconv.ml" 55 1261 1284
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 56 1285 1302 "specconv.ml" 56 1285 1303
+type(
+  Spec.t2
+)
+ident(
+  def x "specconv.ml" 57 1307 1315 "specconv.ml" 58 1340 1365
+)
+"specconv.ml" 56 1285 1291 "specconv.ml" 56 1285 1303
+type(
+  Spec.t2
+)
+"specconv.ml" 57 1307 1319 "specconv.ml" 57 1307 1322
+type(
+  Types.type_expr list
+)
+ident(
+  def tys "specconv.ml" 58 1340 1348 "specconv.ml" 58 1340 1365
+)
+"specconv.ml" 57 1307 1324 "specconv.ml" 57 1307 1325
+type(
+  Spec.t2
+)
+ident(
+  def x "specconv.ml" 58 1340 1348 "specconv.ml" 58 1340 1365
+)
+"specconv.ml" 57 1307 1319 "specconv.ml" 57 1307 1325
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 57 1307 1328 "specconv.ml" 57 1307 1330
+type(
+  Types.type_expr list -> Spec.t2 -> Types.type_expr list * Spec.t2
+)
+ident(
+  int_ref t2 "specconv.ml" 52 1181 1187 "specconv.ml" 52 1181 1189
+)
+"specconv.ml" 57 1307 1331 "specconv.ml" 57 1307 1334
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 52 1181 1190 "specconv.ml" 52 1181 1193
+)
+"specconv.ml" 57 1307 1335 "specconv.ml" 57 1307 1336
+type(
+  Spec.t2
+)
+ident(
+  int_ref x "specconv.ml" 56 1285 1302 "specconv.ml" 56 1285 1303
+)
+"specconv.ml" 57 1307 1328 "specconv.ml" 57 1307 1336
+call(
+  stack
+)
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 58 1340 1348 "specconv.ml" 58 1340 1351
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 57 1307 1319 "specconv.ml" 57 1307 1322
+)
+"specconv.ml" 58 1340 1364 "specconv.ml" 58 1340 1365
+type(
+  Spec.t2
+)
+ident(
+  int_ref x "specconv.ml" 57 1307 1324 "specconv.ml" 57 1307 1325
+)
+"specconv.ml" 58 1340 1353 "specconv.ml" 58 1340 1365
+type(
+  Spec.t2
+)
+"specconv.ml" 58 1340 1348 "specconv.ml" 58 1340 1365
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 57 1307 1315 "specconv.ml" 58 1340 1365
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 59 1366 1378 "specconv.ml" 59 1366 1379
+type(
+  string
+)
+ident(
+  def s "specconv.ml" 60 1391 1399 "specconv.ml" 61 1424 1452
+)
+"specconv.ml" 59 1366 1381 "specconv.ml" 59 1366 1383
+type(
+  Re.re
+)
+ident(
+  def re "specconv.ml" 60 1391 1399 "specconv.ml" 61 1424 1452
+)
+"specconv.ml" 59 1366 1385 "specconv.ml" 59 1366 1386
+type(
+  Spec.t2
+)
+ident(
+  def x "specconv.ml" 60 1391 1399 "specconv.ml" 61 1424 1452
+)
+"specconv.ml" 59 1366 1372 "specconv.ml" 59 1366 1387
+type(
+  Spec.t2
+)
+"specconv.ml" 60 1391 1403 "specconv.ml" 60 1391 1406
+type(
+  Types.type_expr list
+)
+ident(
+  def tys "specconv.ml" 61 1424 1432 "specconv.ml" 61 1424 1452
+)
+"specconv.ml" 60 1391 1408 "specconv.ml" 60 1391 1409
+type(
+  Spec.t2
+)
+ident(
+  def x "specconv.ml" 61 1424 1432 "specconv.ml" 61 1424 1452
+)
+"specconv.ml" 60 1391 1403 "specconv.ml" 60 1391 1409
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 60 1391 1412 "specconv.ml" 60 1391 1414
+type(
+  Types.type_expr list -> Spec.t2 -> Types.type_expr list * Spec.t2
+)
+ident(
+  int_ref t2 "specconv.ml" 52 1181 1187 "specconv.ml" 52 1181 1189
+)
+"specconv.ml" 60 1391 1415 "specconv.ml" 60 1391 1418
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 52 1181 1190 "specconv.ml" 52 1181 1193
+)
+"specconv.ml" 60 1391 1419 "specconv.ml" 60 1391 1420
+type(
+  Spec.t2
+)
+ident(
+  int_ref x "specconv.ml" 59 1366 1385 "specconv.ml" 59 1366 1386
+)
+"specconv.ml" 60 1391 1412 "specconv.ml" 60 1391 1420
+call(
+  stack
+)
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 61 1424 1432 "specconv.ml" 61 1424 1435
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 60 1391 1403 "specconv.ml" 60 1391 1406
+)
+"specconv.ml" 61 1424 1443 "specconv.ml" 61 1424 1444
+type(
+  string
+)
+ident(
+  int_ref s "specconv.ml" 59 1366 1378 "specconv.ml" 59 1366 1379
+)
+"specconv.ml" 61 1424 1446 "specconv.ml" 61 1424 1448
+type(
+  Re.re
+)
+ident(
+  int_ref re "specconv.ml" 59 1366 1381 "specconv.ml" 59 1366 1383
+)
+"specconv.ml" 61 1424 1450 "specconv.ml" 61 1424 1451
+type(
+  Spec.t2
+)
+ident(
+  int_ref x "specconv.ml" 60 1391 1408 "specconv.ml" 60 1391 1409
+)
+"specconv.ml" 61 1424 1437 "specconv.ml" 61 1424 1452
+type(
+  Spec.t2
+)
+"specconv.ml" 61 1424 1432 "specconv.ml" 61 1424 1452
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 60 1391 1399 "specconv.ml" 61 1424 1452
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 62 1453 1469 "specconv.ml" 62 1453 1472
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "specconv.ml" 63 1483 1491 "specconv.ml" 66 1602 1613
+)
+"specconv.ml" 62 1453 1474 "specconv.ml" 62 1453 1478
+type(
+  Types.type_expr option
+)
+"specconv.ml" 62 1453 1459 "specconv.ml" 62 1453 1479
+type(
+  Spec.t2
+)
+"specconv.ml" 63 1483 1503 "specconv.ml" 63 1483 1506
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 52 1181 1190 "specconv.ml" 52 1181 1193
+)
+"specconv.ml" 64 1512 1522 "specconv.ml" 64 1512 1524
+type(
+  Types.type_expr
+)
+ident(
+  def ty "specconv.ml" 64 1512 1533 "specconv.ml" 64 1512 1561
+)
+"specconv.ml" 64 1512 1526 "specconv.ml" 64 1512 1529
+type(
+  Types.type_expr list
+)
+ident(
+  def tys "specconv.ml" 64 1512 1533 "specconv.ml" 64 1512 1561
+)
+"specconv.ml" 64 1512 1522 "specconv.ml" 64 1512 1529
+type(
+  Types.type_expr list
+)
+"specconv.ml" 64 1512 1533 "specconv.ml" 64 1512 1536
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 64 1512 1526 "specconv.ml" 64 1512 1529
+)
+"specconv.ml" 64 1512 1548 "specconv.ml" 64 1512 1551
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "specconv.ml" 62 1453 1469 "specconv.ml" 62 1453 1472
+)
+"specconv.ml" 64 1512 1558 "specconv.ml" 64 1512 1560
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "specconv.ml" 64 1512 1522 "specconv.ml" 64 1512 1524
+)
+"specconv.ml" 64 1512 1553 "specconv.ml" 64 1512 1560
+type(
+  Types.type_expr option
+)
+"specconv.ml" 64 1512 1538 "specconv.ml" 64 1512 1561
+type(
+  Spec.t2
+)
+"specconv.ml" 64 1512 1533 "specconv.ml" 64 1512 1561
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 65 1562 1572 "specconv.ml" 65 1562 1573
+type(
+  Types.type_expr list
+)
+"specconv.ml" 65 1562 1584 "specconv.ml" 65 1562 1589
+type(
+  bool
+)
+"specconv.ml" 65 1562 1577 "specconv.ml" 65 1562 1589
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 63 1483 1491 "specconv.ml" 66 1602 1613
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 67 1614 1629 "specconv.ml" 67 1614 1630
+type(
+  Types.type_expr option
+)
+type(
+  Parsetree.core_type
+)
+"specconv.ml" 67 1614 1620 "specconv.ml" 67 1614 1630
+type(
+  Spec.t2
+)
+"specconv.ml" 67 1614 1641 "specconv.ml" 67 1614 1646
+type(
+  bool
+)
+"specconv.ml" 67 1614 1634 "specconv.ml" 67 1614 1646
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 68 1659 1674 "specconv.ml" 68 1659 1675
+type(
+  Longident.t
+)
+"specconv.ml" 68 1659 1665 "specconv.ml" 68 1659 1675
+type(
+  Spec.t2
+)
+"specconv.ml" 68 1659 1679 "specconv.ml" 68 1659 1682
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 52 1181 1190 "specconv.ml" 52 1181 1193
+)
+"specconv.ml" 68 1659 1684 "specconv.ml" 68 1659 1685
+type(
+  Spec.t2
+)
+ident(
+  int_ref x "specconv.ml" 52 1181 1194 "specconv.ml" 52 1181 1195
+)
+"specconv.ml" 68 1659 1679 "specconv.ml" 68 1659 1685
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 69 1686 1703 "specconv.ml" 69 1686 1704
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 70 1720 1728 "specconv.ml" 73 1843 1854
+)
+"specconv.ml" 69 1686 1706 "specconv.ml" 69 1686 1709
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "specconv.ml" 70 1720 1728 "specconv.ml" 73 1843 1854
+)
+"specconv.ml" 69 1686 1711 "specconv.ml" 69 1686 1715
+type(
+  Types.type_expr option
+)
+"specconv.ml" 69 1686 1692 "specconv.ml" 69 1686 1716
+type(
+  Spec.t2
+)
+"specconv.ml" 70 1720 1740 "specconv.ml" 70 1720 1743
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 52 1181 1190 "specconv.ml" 52 1181 1193
+)
+"specconv.ml" 71 1749 1759 "specconv.ml" 71 1749 1761
+type(
+  Types.type_expr
+)
+ident(
+  def ty "specconv.ml" 71 1749 1770 "specconv.ml" 71 1749 1802
+)
+"specconv.ml" 71 1749 1763 "specconv.ml" 71 1749 1766
+type(
+  Types.type_expr list
+)
+ident(
+  def tys "specconv.ml" 71 1749 1770 "specconv.ml" 71 1749 1802
+)
+"specconv.ml" 71 1749 1759 "specconv.ml" 71 1749 1766
+type(
+  Types.type_expr list
+)
+"specconv.ml" 71 1749 1770 "specconv.ml" 71 1749 1773
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 71 1749 1763 "specconv.ml" 71 1749 1766
+)
+"specconv.ml" 71 1749 1786 "specconv.ml" 71 1749 1787
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 69 1686 1703 "specconv.ml" 69 1686 1704
+)
+"specconv.ml" 71 1749 1789 "specconv.ml" 71 1749 1792
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "specconv.ml" 69 1686 1706 "specconv.ml" 69 1686 1709
+)
+"specconv.ml" 71 1749 1799 "specconv.ml" 71 1749 1801
+type(
+  Types.type_expr
+)
+ident(
+  int_ref ty "specconv.ml" 71 1749 1759 "specconv.ml" 71 1749 1761
+)
+"specconv.ml" 71 1749 1794 "specconv.ml" 71 1749 1801
+type(
+  Types.type_expr option
+)
+"specconv.ml" 71 1749 1775 "specconv.ml" 71 1749 1802
+type(
+  Spec.t2
+)
+"specconv.ml" 71 1749 1770 "specconv.ml" 71 1749 1802
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 72 1803 1813 "specconv.ml" 72 1803 1814
+type(
+  Types.type_expr list
+)
+"specconv.ml" 72 1803 1825 "specconv.ml" 72 1803 1830
+type(
+  bool
+)
+"specconv.ml" 72 1803 1818 "specconv.ml" 72 1803 1830
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 70 1720 1728 "specconv.ml" 73 1843 1854
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 74 1855 1872 "specconv.ml" 74 1855 1874
+type(
+  Parsetree.expression
+)
+ident(
+  def _e "specconv.ml" 74 1855 1893 "specconv.ml" 74 1855 1905
+)
+"specconv.ml" 74 1855 1876 "specconv.ml" 74 1855 1880
+type(
+  Parsetree.core_type
+)
+ident(
+  def _cty "specconv.ml" 74 1855 1893 "specconv.ml" 74 1855 1905
+)
+"specconv.ml" 74 1855 1887 "specconv.ml" 74 1855 1888
+type(
+  Types.type_expr
+)
+"specconv.ml" 74 1855 1882 "specconv.ml" 74 1855 1888
+type(
+  Types.type_expr option
+)
+"specconv.ml" 74 1855 1861 "specconv.ml" 74 1855 1889
+type(
+  Spec.t2
+)
+"specconv.ml" 74 1855 1900 "specconv.ml" 74 1855 1905
+type(
+  bool
+)
+"specconv.ml" 74 1855 1893 "specconv.ml" 74 1855 1905
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 52 1181 1198 "specconv.ml" 74 1855 1905
+type(
+  Types.type_expr list * Spec.t2
+)
+"specconv.ml" 76 1923 1931 "specconv.ml" 76 1923 1932
+type(
+  Types.type_expr list -> Spec.t2 list -> Types.type_expr list * Spec.t2 list
+)
+ident(
+  int_ref t "specconv.ml" 43 945 955 "specconv.ml" 43 945 956
+)
+"specconv.ml" 76 1923 1933 "specconv.ml" 76 1923 1936
+type(
+  Types.type_expr list
+)
+ident(
+  int_ref tys "specconv.ml" 42 908 935 "specconv.ml" 42 908 938
+)
+"specconv.ml" 76 1923 1937 "specconv.ml" 76 1923 1939
+type(
+  Spec.t2 list
+)
+ident(
+  int_ref t0 "specconv.ml" 42 908 939 "specconv.ml" 42 908 941
+)
+"specconv.ml" 76 1923 1931 "specconv.ml" 76 1923 1939
+call(
+  stack
+)
+type(
+  Types.type_expr list * Spec.t2 list
+)
+"specconv.ml" 77 1945 1949 "specconv.ml" 77 1945 1951
+type(
+  Types.type_expr list
+)
+"specconv.ml" 77 1945 1953 "specconv.ml" 77 1945 1955
+type(
+  Spec.t2 list
+)
+ident(
+  def t0 "specconv.ml" 77 1945 1959 "specconv.ml" 77 1945 1961
+)
+"specconv.ml" 77 1945 1949 "specconv.ml" 77 1945 1955
+type(
+  Types.type_expr list * Spec.t2 list
+)
+"specconv.ml" 77 1945 1959 "specconv.ml" 77 1945 1961
+type(
+  Spec.t2 list
+)
+ident(
+  int_ref t0 "specconv.ml" 77 1945 1953 "specconv.ml" 77 1945 1955
+)
+"specconv.ml" 78 1962 1966 "specconv.ml" 78 1962 1967
+type(
+  Types.type_expr list * Spec.t2 list
+)
+"specconv.ml" 78 1962 1978 "specconv.ml" 78 1962 1983
+type(
+  bool
+)
+"specconv.ml" 78 1962 1971 "specconv.ml" 78 1962 1983
+type(
+  Spec.t2 list
+)
+"specconv.ml" 76 1923 1925 "specconv.ml" 78 1962 1983
+type(
+  Spec.t2 list
+)
+"specconv.ml" 43 945 947 "specconv.ml" 78 1962 1983
+type(
+  Spec.t2 list
+)
+"specconv.ml" 80 1997 2001 "specconv.ml" 80 1997 2007
+type(
+  Spec.t -> string * Parsetree.core_type list
+)
+ident(
+  def mangle "specconv.ml" 85 2108 2108 "specconv.ml" 1 0 -1
+)
+"specconv.ml" 80 1997 2008 "specconv.ml" 80 1997 2009
+type(
+  Spec.t
+)
+ident(
+  def x "specconv.ml" 81 2012 2014 "specconv.ml" 82 2052 2077
+)
+"specconv.ml" 81 2012 2015 "specconv.ml" 81 2012 2021
+type(
+  string
+)
+ident(
+  int_ref prefix "specconv.ml" 18 269 273 "specconv.ml" 18 269 279
+)
+"specconv.ml" 81 2012 2022 "specconv.ml" 81 2012 2023
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"specconv.ml" 81 2012 2024 "specconv.ml" 81 2012 2036
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.mangle
+)
+"specconv.ml" 81 2012 2038 "specconv.ml" 81 2012 2047
+type(
+  Spec.t -> string
+)
+ident(
+  ext_ref Spec.to_string
+)
+"specconv.ml" 81 2012 2048 "specconv.ml" 81 2012 2049
+type(
+  Spec.t
+)
+ident(
+  int_ref x "specconv.ml" 80 1997 2008 "specconv.ml" 80 1997 2009
+)
+"specconv.ml" 81 2012 2037 "specconv.ml" 81 2012 2050
+call(
+  stack
+)
+type(
+  string
+)
+"specconv.ml" 81 2012 2024 "specconv.ml" 81 2012 2050
+call(
+  stack
+)
+type(
+  string
+)
+"specconv.ml" 81 2012 2015 "specconv.ml" 81 2012 2050
+call(
+  stack
+)
+type(
+  string
+)
+"specconv.ml" 82 2052 2055 "specconv.ml" 82 2052 2074
+type(
+  Spec.t -> Parsetree.core_type list
+)
+ident(
+  int_ref get_type_components "specconv.ml" 24 435 439 "specconv.ml" 24 435 458
+)
+"specconv.ml" 82 2052 2075 "specconv.ml" 82 2052 2076
+type(
+  Spec.t
+)
+ident(
+  int_ref x "specconv.ml" 80 1997 2008 "specconv.ml" 80 1997 2009
+)
+"specconv.ml" 82 2052 2055 "specconv.ml" 82 2052 2076
+call(
+  stack
+)
+type(
+  Parsetree.core_type list
+)
+"specconv.ml" 81 2012 2014 "specconv.ml" 82 2052 2077
+type(
+  string * Parsetree.core_type list
+)
+"specconv.ml" 85 2108 2112 "specconv.ml" 85 2108 2132
+type(
+  Ppxx.Utils.String.t ->
+  (string, [> `Failed_unmangle of string ]) Utils.Result.t
+)
+ident(
+  def unmangle_spec_string "specconv.ml" 90 2340 2340 "specconv.ml" 1 0 -1
+)
+"specconv.ml" 85 2108 2133 "specconv.ml" 85 2108 2134
+type(
+  Ppxx.Utils.String.t
+)
+ident(
+  def s "specconv.ml" 86 2138 2140 "specconv.ml" 88 2320 2338
+)
+"specconv.ml" 86 2138 2143 "specconv.ml" 86 2138 2146
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"specconv.ml" 86 2138 2147 "specconv.ml" 86 2138 2148
+type(
+  (bool -> bool) -> bool -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"specconv.ml" 86 2138 2149 "specconv.ml" 86 2138 2165
+type(
+  Ppxx.Utils.String.t -> Ppxx.Utils.String.t -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.String.is_prefix
+)
+"specconv.ml" 86 2138 2166 "specconv.ml" 86 2138 2172
+type(
+  Ppxx.Utils.String.t
+)
+ident(
+  int_ref prefix "specconv.ml" 18 269 273 "specconv.ml" 18 269 279
+)
+"specconv.ml" 86 2138 2173 "specconv.ml" 86 2138 2174
+type(
+  Ppxx.Utils.String.t
+)
+ident(
+  int_ref s "specconv.ml" 85 2108 2133 "specconv.ml" 85 2108 2134
+)
+"specconv.ml" 86 2138 2149 "specconv.ml" 86 2138 2174
+call(
+  stack
+)
+type(
+  bool
+)
+"specconv.ml" 86 2138 2143 "specconv.ml" 86 2138 2174
+type(
+  bool
+)
+"specconv.ml" 86 2138 2180 "specconv.ml" 86 2138 2192
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  (Ppxx.Utils.String.t -> unit, Ppxx.Utils.Format.formatter, unit, unit)
+  format4 -> Ppxx.Utils.String.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 86 2138 2193 "specconv.ml" 86 2138 2248
+type(
+  (Ppxx.Utils.String.t -> unit, Ppxx.Utils.Format.formatter, unit, unit)
+  format4
+)
+"specconv.ml" 86 2138 2249 "specconv.ml" 86 2138 2250
+type(
+  Ppxx.Utils.String.t
+)
+ident(
+  int_ref s "specconv.ml" 85 2108 2133 "specconv.ml" 85 2108 2134
+)
+"specconv.ml" 86 2138 2180 "specconv.ml" 86 2138 2250
+call(
+  stack
+)
+type(
+  unit
+)
+"specconv.ml" 86 2138 2140 "specconv.ml" 86 2138 2250
+type(
+  unit
+)
+"specconv.ml" 87 2252 2258 "specconv.ml" 87 2252 2259
+type(
+  string
+)
+ident(
+  def s "specconv.ml" 88 2320 2322 "specconv.ml" 88 2320 2338
+)
+"specconv.ml" 87 2252 2262 "specconv.ml" 87 2252 2272
+type(
+  Ppxx.Utils.String.t -> int -> int -> string
+)
+ident(
+  ext_ref Ppxx.Utils.String.sub
+)
+"specconv.ml" 87 2252 2273 "specconv.ml" 87 2252 2274
+type(
+  Ppxx.Utils.String.t
+)
+ident(
+  int_ref s "specconv.ml" 85 2108 2133 "specconv.ml" 85 2108 2134
+)
+"specconv.ml" 87 2252 2275 "specconv.ml" 87 2252 2285
+type(
+  int
+)
+ident(
+  int_ref prefix_len "specconv.ml" 19 290 294 "specconv.ml" 19 290 304
+)
+"specconv.ml" 87 2252 2287 "specconv.ml" 87 2252 2300
+type(
+  Ppxx.Utils.String.t -> int
+)
+ident(
+  ext_ref Ppxx.Utils.String.length
+)
+"specconv.ml" 87 2252 2301 "specconv.ml" 87 2252 2302
+type(
+  Ppxx.Utils.String.t
+)
+ident(
+  int_ref s "specconv.ml" 85 2108 2133 "specconv.ml" 85 2108 2134
+)
+"specconv.ml" 87 2252 2287 "specconv.ml" 87 2252 2302
+type(
+  int
+)
+"specconv.ml" 87 2252 2303 "specconv.ml" 87 2252 2304
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"specconv.ml" 87 2252 2305 "specconv.ml" 87 2252 2315
+type(
+  int
+)
+ident(
+  int_ref prefix_len "specconv.ml" 19 290 294 "specconv.ml" 19 290 304
+)
+"specconv.ml" 87 2252 2286 "specconv.ml" 87 2252 2316
+type(
+  int
+)
+"specconv.ml" 87 2252 2262 "specconv.ml" 87 2252 2316
+call(
+  stack
+)
+type(
+  string
+)
+"specconv.ml" 88 2320 2322 "specconv.ml" 88 2320 2336
+type(
+  string -> (string, [> `Failed_unmangle of string ] as 'a) Utils.Result.t
+)
+ident(
+  ext_ref Utils.unmangle
+)
+"specconv.ml" 88 2320 2337 "specconv.ml" 88 2320 2338
+type(
+  string
+)
+ident(
+  int_ref s "specconv.ml" 87 2252 2258 "specconv.ml" 87 2252 2259
+)
+"specconv.ml" 88 2320 2322 "specconv.ml" 88 2320 2338
+call(
+  tail
+)
+type(
+  (string, 'a) Utils.Result.t
+)
+"specconv.ml" 87 2252 2254 "specconv.ml" 88 2320 2338
+type(
+  (string, 'a) Utils.Result.t
+)
+"specconv.ml" 86 2138 2140 "specconv.ml" 88 2320 2338
+type(
+  (string, 'a) Utils.Result.t
+)
+"specconv.ml" 90 2340 2344 "specconv.ml" 90 2340 2355
+type(
+  string ->
+  (Ast_405.Parsetree.expression, [> `Parse of string ]) Utils.Result.t
+)
+ident(
+  def from_string "specconv.ml" 92 2388 2388 "specconv.ml" 1 0 -1
+)
+"specconv.ml" 90 2340 2358 "specconv.ml" 90 2340 2386
+type(
+  string ->
+  (Ast_405.Parsetree.expression, [> `Parse of string ] as 'a) Utils.Result.t
+)
+ident(
+  ext_ref Utils.expression_from_string
+)
+"specconv.ml" 92 2388 2392 "specconv.ml" 92 2388 2407
+type(
+  'a ->
+  Parsetree.expression ->
+  (Spec.t2 list, [> `ParseExp of Parsetree.expression * string ]) result
+)
+ident(
+  def from_expression "specconv.ml" 161 5237 5237 "specconv.ml" 1 0 -1
+)
+"specconv.ml" 92 2388 2408 "specconv.ml" 92 2388 2412
+type(
+  'a
+)
+ident(
+  def _env "specconv.ml" 92 2388 2413 "specconv.ml" 159 5194 5235
+)
+"specconv.ml" 92 2388 2413 "specconv.ml" 92 2388 2414
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 93 2417 2419 "specconv.ml" 159 5194 5235
+)
+"specconv.ml" 94 2423 2431 "specconv.ml" 94 2423 2438
+type(
+  Parsetree.expression -> Longident.t option
+)
+ident(
+  def get_lid "specconv.ml" 98 2544 2548 "specconv.ml" 157 5174 5186
+)
+"specconv.ml" 94 2423 2439 "specconv.ml" 94 2423 2440
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 94 2423 2443 "specconv.ml" 96 2519 2536
+)
+"specconv.ml" 94 2423 2449 "specconv.ml" 94 2423 2450
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 94 2423 2439 "specconv.ml" 94 2423 2440
+)
+"specconv.ml" 94 2423 2449 "specconv.ml" 94 2423 2460
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 95 2466 2495 "specconv.ml" 95 2466 2498
+type(
+  Longident.t
+)
+ident(
+  def lid "specconv.ml" 95 2466 2510 "specconv.ml" 95 2466 2518
+)
+"specconv.ml" 95 2466 2490 "specconv.ml" 95 2466 2499
+type(
+  Longident.t Asttypes.loc
+)
+"specconv.ml" 95 2466 2501 "specconv.ml" 95 2466 2505
+type(
+  Parsetree.expression option
+)
+"specconv.ml" 95 2466 2474 "specconv.ml" 95 2466 2506
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 95 2466 2515 "specconv.ml" 95 2466 2518
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "specconv.ml" 95 2466 2495 "specconv.ml" 95 2466 2498
+)
+"specconv.ml" 95 2466 2510 "specconv.ml" 95 2466 2518
+type(
+  Longident.t option
+)
+"specconv.ml" 96 2519 2527 "specconv.ml" 96 2519 2528
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 96 2519 2532 "specconv.ml" 96 2519 2536
+type(
+  Longident.t option
+)
+"specconv.ml" 94 2423 2443 "specconv.ml" 96 2519 2536
+type(
+  Longident.t option
+)
+"specconv.ml" 98 2544 2556 "specconv.ml" 98 2544 2557
+type(
+  Parsetree.expression -> Spec.t2 list
+)
+ident(
+  def t "specconv.ml" 98 2544 2548 "specconv.ml" 157 5174 5186
+)
+"specconv.ml" 98 2544 2558 "specconv.ml" 98 2544 2559
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 98 2544 2562 "specconv.ml" 100 2620 2639
+)
+"specconv.ml" 98 2544 2568 "specconv.ml" 98 2544 2569
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 98 2544 2558 "specconv.ml" 98 2544 2559
+)
+"specconv.ml" 98 2544 2568 "specconv.ml" 98 2544 2579
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 99 2585 2604 "specconv.ml" 99 2585 2606
+type(
+  Parsetree.expression list
+)
+ident(
+  def xs "specconv.ml" 99 2585 2610 "specconv.ml" 99 2585 2619
+)
+"specconv.ml" 99 2585 2593 "specconv.ml" 99 2585 2606
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 99 2585 2610 "specconv.ml" 99 2585 2613
+type(
+  (Parsetree.expression -> Spec.t2) ->
+  Parsetree.expression list -> Spec.t2 list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"specconv.ml" 99 2585 2614 "specconv.ml" 99 2585 2616
+type(
+  Parsetree.expression -> Spec.t2
+)
+ident(
+  int_ref t2 "specconv.ml" 101 2640 2648 "specconv.ml" 101 2640 2650
+)
+"specconv.ml" 99 2585 2617 "specconv.ml" 99 2585 2619
+type(
+  Parsetree.expression list
+)
+ident(
+  int_ref xs "specconv.ml" 99 2585 2604 "specconv.ml" 99 2585 2606
+)
+"specconv.ml" 99 2585 2610 "specconv.ml" 99 2585 2619
+call(
+  tail
+)
+type(
+  Spec.t2 list
+)
+"specconv.ml" 100 2620 2628 "specconv.ml" 100 2620 2629
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 100 2620 2634 "specconv.ml" 100 2620 2636
+type(
+  Parsetree.expression -> Spec.t2
+)
+ident(
+  int_ref t2 "specconv.ml" 101 2640 2648 "specconv.ml" 101 2640 2650
+)
+"specconv.ml" 100 2620 2637 "specconv.ml" 100 2620 2638
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 98 2544 2558 "specconv.ml" 98 2544 2559
+)
+"specconv.ml" 100 2620 2634 "specconv.ml" 100 2620 2638
+call(
+  stack
+)
+type(
+  Spec.t2
+)
+"specconv.ml" 100 2620 2633 "specconv.ml" 100 2620 2639
+type(
+  Spec.t2 list
+)
+"specconv.ml" 98 2544 2562 "specconv.ml" 100 2620 2639
+type(
+  Spec.t2 list
+)
+"specconv.ml" 101 2640 2648 "specconv.ml" 101 2640 2650
+type(
+  Parsetree.expression -> Spec.t2
+)
+ident(
+  def t2 "specconv.ml" 98 2544 2548 "specconv.ml" 157 5174 5186
+)
+"specconv.ml" 101 2640 2651 "specconv.ml" 101 2640 2652
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 101 2640 2655 "specconv.ml" 142 4596 4627
+)
+"specconv.ml" 101 2640 2661 "specconv.ml" 101 2640 2662
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 101 2640 2651 "specconv.ml" 101 2640 2652
+)
+"specconv.ml" 101 2640 2661 "specconv.ml" 101 2640 2672
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 102 2678 2734 "specconv.ml" 102 2678 2746
+type(
+  string
+)
+"specconv.ml" 102 2678 2727 "specconv.ml" 102 2678 2746
+type(
+  Longident.t
+)
+"specconv.ml" 102 2678 2722 "specconv.ml" 102 2678 2747
+type(
+  Longident.t Asttypes.loc
+)
+"specconv.ml" 102 2678 2711 "specconv.ml" 102 2678 2747
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 102 2678 2698 "specconv.ml" 102 2678 2749
+type(
+  Parsetree.expression
+)
+"specconv.ml" 103 2751 2772 "specconv.ml" 103 2751 2779
+type(
+  Asttypes.arg_label
+)
+"specconv.ml" 103 2751 2781 "specconv.ml" 103 2751 2782
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 103 2751 2789 "specconv.ml" 103 2751 2806
+)
+"specconv.ml" 103 2751 2772 "specconv.ml" 103 2751 2782
+type(
+  Asttypes.arg_label * Parsetree.expression
+)
+"specconv.ml" 103 2751 2771 "specconv.ml" 103 2751 2783
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+"specconv.ml" 102 2678 2686 "specconv.ml" 103 2751 2785
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 103 2751 2801 "specconv.ml" 103 2751 2803
+type(
+  Parsetree.expression -> Spec.t2
+)
+ident(
+  int_ref t2 "specconv.ml" 101 2640 2648 "specconv.ml" 101 2640 2650
+)
+"specconv.ml" 103 2751 2804 "specconv.ml" 103 2751 2805
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 103 2751 2781 "specconv.ml" 103 2751 2782
+)
+"specconv.ml" 103 2751 2800 "specconv.ml" 103 2751 2806
+call(
+  stack
+)
+type(
+  Spec.t2
+)
+"specconv.ml" 103 2751 2789 "specconv.ml" 103 2751 2806
+type(
+  Spec.t2
+)
+"specconv.ml" 104 2807 2863 "specconv.ml" 104 2807 2871
+type(
+  string
+)
+"specconv.ml" 104 2807 2856 "specconv.ml" 104 2807 2871
+type(
+  Longident.t
+)
+"specconv.ml" 104 2807 2851 "specconv.ml" 104 2807 2872
+type(
+  Longident.t Asttypes.loc
+)
+"specconv.ml" 104 2807 2840 "specconv.ml" 104 2807 2872
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 104 2807 2827 "specconv.ml" 104 2807 2874
+type(
+  Parsetree.expression
+)
+"specconv.ml" 105 2876 2897 "specconv.ml" 105 2876 2904
+type(
+  Asttypes.arg_label
+)
+"specconv.ml" 105 2876 2906 "specconv.ml" 105 2876 2907
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 106 2914 2924 "specconv.ml" 106 2914 2960
+)
+"specconv.ml" 105 2876 2897 "specconv.ml" 105 2876 2907
+type(
+  Asttypes.arg_label * Parsetree.expression
+)
+"specconv.ml" 105 2876 2896 "specconv.ml" 105 2876 2908
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+"specconv.ml" 104 2807 2815 "specconv.ml" 105 2876 2910
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 106 2914 2928 "specconv.ml" 106 2914 2929
+type(
+  [ `In | `Just ]
+)
+ident(
+  def f "specconv.ml" 106 2914 2948 "specconv.ml" 106 2914 2960
+)
+"specconv.ml" 106 2914 2930 "specconv.ml" 106 2914 2931
+type(
+  Longident.t
+)
+ident(
+  def l "specconv.ml" 106 2914 2948 "specconv.ml" 106 2914 2960
+)
+"specconv.ml" 106 2914 2928 "specconv.ml" 106 2914 2931
+type(
+  [ `In | `Just ] * Longident.t
+)
+"specconv.ml" 106 2914 2934 "specconv.ml" 106 2914 2942
+type(
+  Parsetree.expression -> [ `In | `Just ] * Longident.t
+)
+ident(
+  int_ref flag_lid "specconv.ml" 143 4628 4636 "specconv.ml" 143 4628 4644
+)
+"specconv.ml" 106 2914 2943 "specconv.ml" 106 2914 2944
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 105 2876 2906 "specconv.ml" 105 2876 2907
+)
+"specconv.ml" 106 2914 2934 "specconv.ml" 106 2914 2944
+call(
+  stack
+)
+type(
+  [ `In | `Just ] * Longident.t
+)
+"specconv.ml" 106 2914 2956 "specconv.ml" 106 2914 2957
+type(
+  [ `In | `Just ]
+)
+ident(
+  int_ref f "specconv.ml" 106 2914 2928 "specconv.ml" 106 2914 2929
+)
+"specconv.ml" 106 2914 2958 "specconv.ml" 106 2914 2959
+type(
+  Longident.t
+)
+ident(
+  int_ref l "specconv.ml" 106 2914 2930 "specconv.ml" 106 2914 2931
+)
+"specconv.ml" 106 2914 2948 "specconv.ml" 106 2914 2960
+type(
+  Spec.t2
+)
+"specconv.ml" 106 2914 2924 "specconv.ml" 106 2914 2960
+type(
+  Spec.t2
+)
+"specconv.ml" 107 2961 3017 "specconv.ml" 107 2961 3023
+type(
+  string
+)
+"specconv.ml" 107 2961 3010 "specconv.ml" 107 2961 3023
+type(
+  Longident.t
+)
+"specconv.ml" 107 2961 3005 "specconv.ml" 107 2961 3024
+type(
+  Longident.t Asttypes.loc
+)
+"specconv.ml" 107 2961 2994 "specconv.ml" 107 2961 3024
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 107 2961 2981 "specconv.ml" 107 2961 3026
+type(
+  Parsetree.expression
+)
+"specconv.ml" 108 3028 3050 "specconv.ml" 108 3028 3057
+type(
+  Asttypes.arg_label
+)
+"specconv.ml" 108 3028 3103 "specconv.ml" 108 3028 3104
+type(
+  string
+)
+ident(
+  def s "specconv.ml" 109 3112 3152 "specconv.ml" 109 3112 3184
+)
+"specconv.ml" 108 3028 3106 "specconv.ml" 108 3028 3107
+type(
+  string option
+)
+"specconv.ml" 108 3028 3087 "specconv.ml" 108 3028 3109
+type(
+  Parsetree.constant
+)
+"specconv.ml" 108 3028 3073 "specconv.ml" 108 3028 3109
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 108 3028 3059 "specconv.ml" 108 3028 3111
+type(
+  Parsetree.expression
+)
+"specconv.ml" 108 3028 3050 "specconv.ml" 108 3028 3111
+type(
+  Asttypes.arg_label * Parsetree.expression
+)
+"specconv.ml" 109 3112 3134 "specconv.ml" 109 3112 3141
+type(
+  Asttypes.arg_label
+)
+"specconv.ml" 109 3112 3143 "specconv.ml" 109 3112 3144
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 109 3112 3152 "specconv.ml" 109 3112 3184
+)
+"specconv.ml" 109 3112 3134 "specconv.ml" 109 3112 3144
+type(
+  Asttypes.arg_label * Parsetree.expression
+)
+"specconv.ml" 108 3028 3048 "specconv.ml" 109 3112 3146
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+"specconv.ml" 107 2961 2969 "specconv.ml" 109 3112 3148
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 109 3112 3158 "specconv.ml" 109 3112 3159
+type(
+  string
+)
+ident(
+  int_ref s "specconv.ml" 108 3028 3103 "specconv.ml" 108 3028 3104
+)
+"specconv.ml" 109 3112 3161 "specconv.ml" 109 3112 3175
+type(
+  ?flags:Re_pcre.flag list -> string -> Re_pcre.regexp
+)
+ident(
+  ext_ref Re_pcre.regexp
+)
+"specconv.ml" 109 3112 3176 "specconv.ml" 109 3112 3177
+type(
+  string
+)
+ident(
+  int_ref s "specconv.ml" 108 3028 3103 "specconv.ml" 108 3028 3104
+)
+"specconv.ml" 109 3112 3161 "specconv.ml" 109 3112 3177
+call(
+  stack
+)
+type(
+  Re_pcre.regexp
+)
+"specconv.ml" 109 3112 3179 "specconv.ml" 109 3112 3181
+type(
+  Parsetree.expression -> Spec.t2
+)
+ident(
+  int_ref t2 "specconv.ml" 101 2640 2648 "specconv.ml" 101 2640 2650
+)
+"specconv.ml" 109 3112 3182 "specconv.ml" 109 3112 3183
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 109 3112 3143 "specconv.ml" 109 3112 3144
+)
+"specconv.ml" 109 3112 3179 "specconv.ml" 109 3112 3183
+call(
+  stack
+)
+type(
+  Spec.t2
+)
+"specconv.ml" 109 3112 3152 "specconv.ml" 109 3112 3184
+type(
+  Spec.t2
+)
+"specconv.ml" 110 3185 3216 "specconv.ml" 110 3185 3225
+type(
+  string
+)
+"specconv.ml" 110 3185 3209 "specconv.ml" 110 3185 3225
+type(
+  Longident.t
+)
+"specconv.ml" 110 3185 3204 "specconv.ml" 110 3185 3226
+type(
+  Longident.t Asttypes.loc
+)
+"specconv.ml" 110 3185 3193 "specconv.ml" 110 3185 3226
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 110 3185 3230 "specconv.ml" 110 3185 3237
+type(
+  Spec.t2
+)
+"specconv.ml" 111 3238 3294 "specconv.ml" 111 3238 3304
+type(
+  string
+)
+"specconv.ml" 111 3238 3287 "specconv.ml" 111 3238 3304
+type(
+  Longident.t
+)
+"specconv.ml" 111 3238 3282 "specconv.ml" 111 3238 3305
+type(
+  Longident.t Asttypes.loc
+)
+"specconv.ml" 111 3238 3271 "specconv.ml" 111 3238 3305
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 111 3238 3258 "specconv.ml" 111 3238 3307
+type(
+  Parsetree.expression
+)
+"specconv.ml" 111 3238 3309 "specconv.ml" 111 3238 3313
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+ident(
+  def args "specconv.ml" 112 3319 3330 "specconv.ml" 120 3676 3689
+)
+"specconv.ml" 111 3238 3246 "specconv.ml" 111 3238 3315
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 112 3319 3342 "specconv.ml" 112 3319 3346
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+ident(
+  int_ref args "specconv.ml" 111 3238 3309 "specconv.ml" 111 3238 3313
+)
+"specconv.ml" 113 3352 3365 "specconv.ml" 113 3352 3372
+type(
+  Asttypes.arg_label
+)
+"specconv.ml" 113 3352 3374 "specconv.ml" 113 3352 3375
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 114 3380 3394 "specconv.ml" 118 3589 3606
+)
+"specconv.ml" 113 3352 3365 "specconv.ml" 113 3352 3375
+type(
+  Asttypes.arg_label * Parsetree.expression
+)
+"specconv.ml" 113 3352 3364 "specconv.ml" 113 3352 3376
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+"specconv.ml" 114 3380 3406 "specconv.ml" 114 3380 3407
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 113 3352 3374 "specconv.ml" 113 3352 3375
+)
+"specconv.ml" 114 3380 3406 "specconv.ml" 114 3380 3417
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 115 3423 3450 "specconv.ml" 115 3423 3453
+type(
+  Longident.t Asttypes.loc
+)
+ident(
+  def lid "specconv.ml" 116 3457 3475 "specconv.ml" 116 3457 3521
+)
+"specconv.ml" 115 3423 3439 "specconv.ml" 115 3423 3453
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 116 3457 3485 "specconv.ml" 116 3457 3507
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.lid ->
+  Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.constr
+)
+"specconv.ml" 116 3457 3508 "specconv.ml" 116 3457 3511
+type(
+  Migrate_parsetree__Ast_405.Longident.t Asttypes.loc
+)
+ident(
+  int_ref lid "specconv.ml" 115 3423 3450 "specconv.ml" 115 3423 3453
+)
+"specconv.ml" 116 3457 3512 "specconv.ml" 116 3457 3514
+type(
+  Ast_405.Parsetree.core_type list
+)
+"specconv.ml" 116 3457 3485 "specconv.ml" 116 3457 3514
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"specconv.ml" 116 3457 3516 "specconv.ml" 116 3457 3520
+type(
+  Types.type_expr option
+)
+"specconv.ml" 116 3457 3475 "specconv.ml" 116 3457 3521
+type(
+  Spec.t2
+)
+"specconv.ml" 117 3522 3538 "specconv.ml" 117 3522 3539
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 117 3522 3543 "specconv.ml" 117 3522 3555
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  (Spec.t2, Ppxx.Utils.Format.formatter, unit, Spec.t2) format4 -> Spec.t2
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 117 3522 3556 "specconv.ml" 117 3522 3588
+type(
+  (Spec.t2, Ppxx.Utils.Format.formatter, unit, Spec.t2) format4
+)
+"specconv.ml" 117 3522 3543 "specconv.ml" 117 3522 3588
+call(
+  tail
+)
+type(
+  Spec.t2
+)
+"specconv.ml" 114 3380 3394 "specconv.ml" 118 3589 3606
+type(
+  Spec.t2
+)
+"specconv.ml" 119 3607 3619 "specconv.ml" 119 3607 3620
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+"specconv.ml" 119 3607 3624 "specconv.ml" 119 3607 3636
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  (Spec.t2, Ppxx.Utils.Format.formatter, unit, Spec.t2) format4 -> Spec.t2
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 119 3607 3637 "specconv.ml" 119 3607 3675
+type(
+  (Spec.t2, Ppxx.Utils.Format.formatter, unit, Spec.t2) format4
+)
+"specconv.ml" 119 3607 3624 "specconv.ml" 119 3607 3675
+call(
+  tail
+)
+type(
+  Spec.t2
+)
+"specconv.ml" 112 3319 3330 "specconv.ml" 120 3676 3689
+type(
+  Spec.t2
+)
+"specconv.ml" 122 3701 3757 "specconv.ml" 122 3701 3767
+type(
+  string
+)
+"specconv.ml" 122 3701 3750 "specconv.ml" 122 3701 3767
+type(
+  Longident.t
+)
+"specconv.ml" 122 3701 3745 "specconv.ml" 122 3701 3768
+type(
+  Longident.t Asttypes.loc
+)
+"specconv.ml" 122 3701 3734 "specconv.ml" 122 3701 3768
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 122 3701 3721 "specconv.ml" 122 3701 3770
+type(
+  Parsetree.expression
+)
+"specconv.ml" 122 3701 3772 "specconv.ml" 122 3701 3776
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+ident(
+  def args "specconv.ml" 123 3782 3792 "specconv.ml" 130 4112 4125
+)
+"specconv.ml" 122 3701 3709 "specconv.ml" 122 3701 3778
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 123 3782 3804 "specconv.ml" 123 3782 3808
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+ident(
+  int_ref args "specconv.ml" 122 3701 3772 "specconv.ml" 122 3701 3776
+)
+"specconv.ml" 124 3814 3827 "specconv.ml" 124 3814 3834
+type(
+  Asttypes.arg_label
+)
+"specconv.ml" 124 3814 3836 "specconv.ml" 124 3814 3837
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 125 3843 3857 "specconv.ml" 128 4025 4042
+)
+"specconv.ml" 124 3814 3827 "specconv.ml" 124 3814 3837
+type(
+  Asttypes.arg_label * Parsetree.expression
+)
+"specconv.ml" 124 3814 3826 "specconv.ml" 124 3814 3838
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+"specconv.ml" 125 3843 3869 "specconv.ml" 125 3843 3876
+type(
+  Parsetree.expression -> Longident.t option
+)
+ident(
+  int_ref get_lid "specconv.ml" 94 2423 2431 "specconv.ml" 94 2423 2438
+)
+"specconv.ml" 125 3843 3877 "specconv.ml" 125 3843 3878
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 124 3814 3836 "specconv.ml" 124 3814 3837
+)
+"specconv.ml" 125 3843 3869 "specconv.ml" 125 3843 3878
+call(
+  stack
+)
+type(
+  Longident.t option
+)
+"specconv.ml" 126 3884 3905 "specconv.ml" 126 3884 3908
+type(
+  Longident.t
+)
+ident(
+  def lid "specconv.ml" 126 3884 3912 "specconv.ml" 126 3884 3924
+)
+"specconv.ml" 126 3884 3900 "specconv.ml" 126 3884 3908
+type(
+  Longident.t option
+)
+"specconv.ml" 126 3884 3921 "specconv.ml" 126 3884 3924
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "specconv.ml" 126 3884 3905 "specconv.ml" 126 3884 3908
+)
+"specconv.ml" 126 3884 3912 "specconv.ml" 126 3884 3924
+type(
+  Spec.t2
+)
+"specconv.ml" 127 3925 3941 "specconv.ml" 127 3925 3945
+type(
+  Longident.t option
+)
+"specconv.ml" 127 3925 3949 "specconv.ml" 127 3925 3961
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Location.t -> Spec.t2, Ppxx.Utils.Format.formatter, unit,
+   (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Location.t -> Spec.t2)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Location.t -> Spec.t2
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 127 3925 3962 "specconv.ml" 127 3925 3997
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Location.t -> Spec.t2, Ppxx.Utils.Format.formatter, unit,
+   (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Location.t -> Spec.t2)
+  format4
+)
+"specconv.ml" 127 3925 3998 "specconv.ml" 127 3925 4013
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"specconv.ml" 127 3925 4014 "specconv.ml" 127 3925 4015
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 124 3814 3836 "specconv.ml" 124 3814 3837
+)
+"specconv.ml" 127 3925 4014 "specconv.ml" 127 3925 4024
+type(
+  Location.t
+)
+"specconv.ml" 127 3925 3949 "specconv.ml" 127 3925 4024
+call(
+  tail
+)
+type(
+  Spec.t2
+)
+"specconv.ml" 125 3843 3857 "specconv.ml" 128 4025 4042
+type(
+  Spec.t2
+)
+"specconv.ml" 129 4043 4055 "specconv.ml" 129 4043 4056
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+"specconv.ml" 129 4043 4060 "specconv.ml" 129 4043 4072
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  (Spec.t2, Ppxx.Utils.Format.formatter, unit, Spec.t2) format4 -> Spec.t2
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 129 4043 4073 "specconv.ml" 129 4043 4111
+type(
+  (Spec.t2, Ppxx.Utils.Format.formatter, unit, Spec.t2) format4
+)
+"specconv.ml" 129 4043 4060 "specconv.ml" 129 4043 4111
+call(
+  tail
+)
+type(
+  Spec.t2
+)
+"specconv.ml" 123 3782 3792 "specconv.ml" 130 4112 4125
+type(
+  Spec.t2
+)
+"specconv.ml" 131 4126 4182 "specconv.ml" 131 4126 4193
+type(
+  string
+)
+"specconv.ml" 131 4126 4175 "specconv.ml" 131 4126 4193
+type(
+  Longident.t
+)
+"specconv.ml" 131 4126 4170 "specconv.ml" 131 4126 4194
+type(
+  Longident.t Asttypes.loc
+)
+"specconv.ml" 131 4126 4159 "specconv.ml" 131 4126 4194
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 131 4126 4146 "specconv.ml" 131 4126 4196
+type(
+  Parsetree.expression
+)
+"specconv.ml" 131 4126 4198 "specconv.ml" 131 4126 4202
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+ident(
+  def args "specconv.ml" 132 4208 4218 "specconv.ml" 139 4532 4545
+)
+"specconv.ml" 131 4126 4134 "specconv.ml" 131 4126 4204
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 132 4208 4230 "specconv.ml" 132 4208 4234
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+ident(
+  int_ref args "specconv.ml" 131 4126 4198 "specconv.ml" 131 4126 4202
+)
+"specconv.ml" 133 4240 4253 "specconv.ml" 133 4240 4260
+type(
+  Asttypes.arg_label
+)
+"specconv.ml" 133 4240 4262 "specconv.ml" 133 4240 4263
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 134 4268 4282 "specconv.ml" 137 4444 4461
+)
+"specconv.ml" 133 4240 4253 "specconv.ml" 133 4240 4263
+type(
+  Asttypes.arg_label * Parsetree.expression
+)
+"specconv.ml" 133 4240 4252 "specconv.ml" 133 4240 4264
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+"specconv.ml" 134 4268 4294 "specconv.ml" 134 4268 4295
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 133 4240 4262 "specconv.ml" 133 4240 4263
+)
+"specconv.ml" 134 4268 4294 "specconv.ml" 134 4268 4305
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 135 4311 4344 "specconv.ml" 135 4311 4345
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 135 4311 4355 "specconv.ml" 135 4311 4379
+)
+"specconv.ml" 135 4311 4347 "specconv.ml" 135 4311 4350
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "specconv.ml" 135 4311 4355 "specconv.ml" 135 4311 4379
+)
+"specconv.ml" 135 4311 4327 "specconv.ml" 135 4311 4351
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 135 4311 4366 "specconv.ml" 135 4311 4367
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 135 4311 4344 "specconv.ml" 135 4311 4345
+)
+"specconv.ml" 135 4311 4369 "specconv.ml" 135 4311 4372
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "specconv.ml" 135 4311 4347 "specconv.ml" 135 4311 4350
+)
+"specconv.ml" 135 4311 4374 "specconv.ml" 135 4311 4378
+type(
+  Types.type_expr option
+)
+"specconv.ml" 135 4311 4355 "specconv.ml" 135 4311 4379
+type(
+  Spec.t2
+)
+"specconv.ml" 136 4380 4396 "specconv.ml" 136 4380 4397
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 136 4380 4401 "specconv.ml" 136 4380 4413
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  (Spec.t2, Ppxx.Utils.Format.formatter, unit, Spec.t2) format4 -> Spec.t2
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 136 4380 4414 "specconv.ml" 136 4380 4443
+type(
+  (Spec.t2, Ppxx.Utils.Format.formatter, unit, Spec.t2) format4
+)
+"specconv.ml" 136 4380 4401 "specconv.ml" 136 4380 4443
+call(
+  tail
+)
+type(
+  Spec.t2
+)
+"specconv.ml" 134 4268 4282 "specconv.ml" 137 4444 4461
+type(
+  Spec.t2
+)
+"specconv.ml" 138 4462 4474 "specconv.ml" 138 4462 4475
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+"specconv.ml" 138 4462 4479 "specconv.ml" 138 4462 4491
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  (Spec.t2, Ppxx.Utils.Format.formatter, unit, Spec.t2) format4 -> Spec.t2
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 138 4462 4492 "specconv.ml" 138 4462 4531
+type(
+  (Spec.t2, Ppxx.Utils.Format.formatter, unit, Spec.t2) format4
+)
+"specconv.ml" 138 4462 4479 "specconv.ml" 138 4462 4531
+call(
+  tail
+)
+type(
+  Spec.t2
+)
+"specconv.ml" 132 4208 4218 "specconv.ml" 139 4532 4545
+type(
+  Spec.t2
+)
+"specconv.ml" 140 4546 4554 "specconv.ml" 140 4546 4555
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 141 4560 4574 "specconv.ml" 141 4560 4575
+type(
+  [ `In | `Just ]
+)
+ident(
+  def f "specconv.ml" 142 4596 4606 "specconv.ml" 142 4596 4627
+)
+"specconv.ml" 141 4560 4576 "specconv.ml" 141 4560 4579
+type(
+  Longident.t
+)
+ident(
+  def lid "specconv.ml" 142 4596 4606 "specconv.ml" 142 4596 4627
+)
+"specconv.ml" 141 4560 4574 "specconv.ml" 141 4560 4579
+type(
+  [ `In | `Just ] * Longident.t
+)
+"specconv.ml" 141 4560 4582 "specconv.ml" 141 4560 4590
+type(
+  Parsetree.expression -> [ `In | `Just ] * Longident.t
+)
+ident(
+  int_ref flag_lid "specconv.ml" 143 4628 4636 "specconv.ml" 143 4628 4644
+)
+"specconv.ml" 141 4560 4591 "specconv.ml" 141 4560 4592
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 101 2640 2651 "specconv.ml" 101 2640 2652
+)
+"specconv.ml" 141 4560 4582 "specconv.ml" 141 4560 4592
+call(
+  stack
+)
+type(
+  [ `In | `Just ] * Longident.t
+)
+"specconv.ml" 142 4596 4614 "specconv.ml" 142 4596 4615
+type(
+  [ `In | `Just ]
+)
+ident(
+  int_ref f "specconv.ml" 141 4560 4574 "specconv.ml" 141 4560 4575
+)
+"specconv.ml" 142 4596 4617 "specconv.ml" 142 4596 4620
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "specconv.ml" 141 4560 4576 "specconv.ml" 141 4560 4579
+)
+"specconv.ml" 142 4596 4622 "specconv.ml" 142 4596 4626
+type(
+  Path.t option
+)
+"specconv.ml" 142 4596 4606 "specconv.ml" 142 4596 4627
+type(
+  Spec.t2
+)
+"specconv.ml" 141 4560 4570 "specconv.ml" 142 4596 4627
+type(
+  Spec.t2
+)
+"specconv.ml" 101 2640 2655 "specconv.ml" 142 4596 4627
+type(
+  Spec.t2
+)
+"specconv.ml" 143 4628 4636 "specconv.ml" 143 4628 4644
+type(
+  Parsetree.expression -> [ `In | `Just ] * Longident.t
+)
+ident(
+  def flag_lid "specconv.ml" 98 2544 2548 "specconv.ml" 157 5174 5186
+)
+"specconv.ml" 143 4628 4645 "specconv.ml" 143 4628 4646
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 143 4628 4649 "specconv.ml" 154 5119 5153
+)
+"specconv.ml" 143 4628 4655 "specconv.ml" 143 4628 4656
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 143 4628 4645 "specconv.ml" 143 4628 4646
+)
+"specconv.ml" 143 4628 4655 "specconv.ml" 143 4628 4666
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 144 4672 4728 "specconv.ml" 144 4672 4734
+type(
+  string
+)
+"specconv.ml" 144 4672 4721 "specconv.ml" 144 4672 4734
+type(
+  Longident.t
+)
+"specconv.ml" 144 4672 4716 "specconv.ml" 144 4672 4735
+type(
+  Longident.t Asttypes.loc
+)
+"specconv.ml" 144 4672 4705 "specconv.ml" 144 4672 4735
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 144 4672 4692 "specconv.ml" 144 4672 4737
+type(
+  Parsetree.expression
+)
+"specconv.ml" 145 4739 4760 "specconv.ml" 145 4739 4767
+type(
+  Asttypes.arg_label
+)
+"specconv.ml" 145 4739 4769 "specconv.ml" 145 4739 4770
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 146 4778 4788 "specconv.ml" 149 4942 4955
+)
+"specconv.ml" 145 4739 4760 "specconv.ml" 145 4739 4770
+type(
+  Asttypes.arg_label * Parsetree.expression
+)
+"specconv.ml" 145 4739 4759 "specconv.ml" 145 4739 4771
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+"specconv.ml" 144 4672 4680 "specconv.ml" 145 4739 4773
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 146 4778 4800 "specconv.ml" 146 4778 4807
+type(
+  Parsetree.expression -> Longident.t option
+)
+ident(
+  int_ref get_lid "specconv.ml" 94 2423 2431 "specconv.ml" 94 2423 2438
+)
+"specconv.ml" 146 4778 4808 "specconv.ml" 146 4778 4809
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 145 4739 4769 "specconv.ml" 145 4739 4770
+)
+"specconv.ml" 146 4778 4800 "specconv.ml" 146 4778 4809
+call(
+  stack
+)
+type(
+  Longident.t option
+)
+"specconv.ml" 147 4815 4832 "specconv.ml" 147 4815 4835
+type(
+  Longident.t
+)
+ident(
+  def lid "specconv.ml" 147 4815 4839 "specconv.ml" 147 4815 4849
+)
+"specconv.ml" 147 4815 4827 "specconv.ml" 147 4815 4835
+type(
+  Longident.t option
+)
+"specconv.ml" 147 4815 4839 "specconv.ml" 147 4815 4844
+type(
+  [ `In | `Just ]
+)
+"specconv.ml" 147 4815 4846 "specconv.ml" 147 4815 4849
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "specconv.ml" 147 4815 4832 "specconv.ml" 147 4815 4835
+)
+"specconv.ml" 147 4815 4839 "specconv.ml" 147 4815 4849
+type(
+  [ `In | `Just ] * Longident.t
+)
+"specconv.ml" 148 4850 4862 "specconv.ml" 148 4850 4866
+type(
+  Longident.t option
+)
+"specconv.ml" 148 4850 4870 "specconv.ml" 148 4850 4882
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> [ `In | `Just ] * Longident.t,
+   Ppxx.Utils.Format.formatter, unit, [ `In | `Just ] * Longident.t)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> [ `In | `Just ] * Longident.t
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 148 4850 4883 "specconv.ml" 148 4850 4914
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> [ `In | `Just ] * Longident.t,
+   Ppxx.Utils.Format.formatter, unit, [ `In | `Just ] * Longident.t)
+  format4
+)
+"specconv.ml" 148 4850 4915 "specconv.ml" 148 4850 4930
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"specconv.ml" 148 4850 4931 "specconv.ml" 148 4850 4932
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 145 4739 4769 "specconv.ml" 145 4739 4770
+)
+"specconv.ml" 148 4850 4931 "specconv.ml" 148 4850 4941
+type(
+  Ppxx.Compilerlib.Location.t
+)
+"specconv.ml" 148 4850 4870 "specconv.ml" 148 4850 4941
+call(
+  tail
+)
+type(
+  [ `In | `Just ] * Longident.t
+)
+"specconv.ml" 146 4778 4788 "specconv.ml" 149 4942 4955
+type(
+  [ `In | `Just ] * Longident.t
+)
+"specconv.ml" 150 4956 4985 "specconv.ml" 150 4956 4988
+type(
+  Longident.t
+)
+ident(
+  def lid "specconv.ml" 150 4956 5000 "specconv.ml" 150 4956 5008
+)
+"specconv.ml" 150 4956 4980 "specconv.ml" 150 4956 4989
+type(
+  Longident.t Asttypes.loc
+)
+"specconv.ml" 150 4956 4991 "specconv.ml" 150 4956 4995
+type(
+  Parsetree.expression option
+)
+"specconv.ml" 150 4956 4964 "specconv.ml" 150 4956 4996
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 150 4956 5000 "specconv.ml" 150 4956 5003
+type(
+  [ `In | `Just ]
+)
+"specconv.ml" 150 4956 5005 "specconv.ml" 150 4956 5008
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "specconv.ml" 150 4956 4985 "specconv.ml" 150 4956 4988
+)
+"specconv.ml" 150 4956 5000 "specconv.ml" 150 4956 5008
+type(
+  [ `In | `Just ] * Longident.t
+)
+"specconv.ml" 151 5009 5017 "specconv.ml" 151 5009 5018
+type(
+  Parsetree.expression_desc
+)
+"specconv.ml" 152 5022 5032 "specconv.ml" 152 5022 5044
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Parsetree.expression -> unit) ->
+   Parsetree.expression -> [ `In | `Just ] * Longident.t,
+   Ppxx.Utils.Format.formatter, unit, [ `In | `Just ] * Longident.t)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  (Ppxx.Utils.Format.formatter -> Parsetree.expression -> unit) ->
+  Parsetree.expression -> [ `In | `Just ] * Longident.t
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 152 5022 5045 "specconv.ml" 152 5022 5078
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Parsetree.expression -> unit) ->
+   Parsetree.expression -> [ `In | `Just ] * Longident.t,
+   Ppxx.Utils.Format.formatter, unit, [ `In | `Just ] * Longident.t)
+  format4
+)
+"specconv.ml" 153 5080 5092 "specconv.ml" 153 5080 5107
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"specconv.ml" 153 5080 5108 "specconv.ml" 153 5080 5109
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 143 4628 4645 "specconv.ml" 143 4628 4646
+)
+"specconv.ml" 153 5080 5108 "specconv.ml" 153 5080 5118
+type(
+  Ppxx.Compilerlib.Location.t
+)
+"specconv.ml" 154 5119 5131 "specconv.ml" 154 5119 5151
+type(
+  Ppxx.Utils.Format.formatter -> Parsetree.expression -> unit
+)
+ident(
+  ext_ref Pprintast.expression
+)
+"specconv.ml" 154 5119 5152 "specconv.ml" 154 5119 5153
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 143 4628 4645 "specconv.ml" 143 4628 4646
+)
+"specconv.ml" 152 5022 5032 "specconv.ml" 154 5119 5153
+call(
+  tail
+)
+type(
+  [ `In | `Just ] * Longident.t
+)
+"specconv.ml" 143 4628 4649 "specconv.ml" 154 5119 5153
+type(
+  [ `In | `Just ] * Longident.t
+)
+"specconv.ml" 157 5174 5182 "specconv.ml" 157 5174 5183
+type(
+  Parsetree.expression -> Spec.t2 list
+)
+ident(
+  int_ref t "specconv.ml" 98 2544 2556 "specconv.ml" 98 2544 2557
+)
+"specconv.ml" 157 5174 5184 "specconv.ml" 157 5174 5185
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 92 2388 2413 "specconv.ml" 92 2388 2414
+)
+"specconv.ml" 157 5174 5181 "specconv.ml" 157 5174 5186
+call(
+  stack
+)
+type(
+  Spec.t2 list
+)
+"specconv.ml" 157 5174 5178 "specconv.ml" 157 5174 5186
+type(
+  (Spec.t2 list, [> `ParseExp of Parsetree.expression * string ] as 'b)
+  result
+)
+"specconv.ml" 98 2544 2548 "specconv.ml" 157 5174 5186
+type(
+  (Spec.t2 list, 'b) result
+)
+"specconv.ml" 94 2423 2427 "specconv.ml" 157 5174 5186
+type(
+  (Spec.t2 list, 'b) result
+)
+"specconv.ml" 159 5194 5206 "specconv.ml" 159 5194 5207
+type(
+  string
+)
+ident(
+  def s "specconv.ml" 159 5194 5211 "specconv.ml" 159 5194 5235
+)
+"specconv.ml" 159 5194 5198 "specconv.ml" 159 5194 5207
+type(
+  exn
+)
+"specconv.ml" 159 5194 5229 "specconv.ml" 159 5194 5230
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 92 2388 2413 "specconv.ml" 92 2388 2414
+)
+"specconv.ml" 159 5194 5232 "specconv.ml" 159 5194 5233
+type(
+  string
+)
+ident(
+  int_ref s "specconv.ml" 159 5194 5206 "specconv.ml" 159 5194 5207
+)
+"specconv.ml" 159 5194 5228 "specconv.ml" 159 5194 5234
+type(
+  Parsetree.expression * string
+)
+"specconv.ml" 159 5194 5217 "specconv.ml" 159 5194 5235
+type(
+  'b
+)
+"specconv.ml" 159 5194 5211 "specconv.ml" 159 5194 5235
+type(
+  (Spec.t2 list, 'b) result
+)
+"specconv.ml" 93 2417 2419 "specconv.ml" 159 5194 5235
+type(
+  (Spec.t2 list, 'b) result
+)
+"specconv.ml" 161 5237 5241 "specconv.ml" 161 5237 5255
+type(
+  'a ->
+  Parsetree.structure_item list ->
+  (Spec.t2 list,
+   [> `ParseExp of Parsetree.expression * string | `String of string ])
+  result
+)
+ident(
+  def from_structure "specconv.ml" 173 5604 5604 "specconv.ml" 1 0 -1
+)
+"specconv.ml" 161 5237 5256 "specconv.ml" 161 5237 5259
+type(
+  'a
+)
+ident(
+  def env "specconv.ml" 161 5237 5260 "specconv.ml" 171 5542 5602
+)
+"specconv.ml" 161 5237 5260 "specconv.ml" 161 5237 5263
+type(
+  Parsetree.structure_item list
+)
+ident(
+  def str "specconv.ml" 162 5266 5268 "specconv.ml" 171 5542 5602
+)
+"specconv.ml" 162 5266 5274 "specconv.ml" 162 5266 5277
+type(
+  Parsetree.structure_item list
+)
+ident(
+  int_ref str "specconv.ml" 161 5237 5260 "specconv.ml" 161 5237 5263
+)
+"specconv.ml" 163 5283 5287 "specconv.ml" 163 5283 5289
+type(
+  Parsetree.structure_item list
+)
+"specconv.ml" 163 5283 5308 "specconv.ml" 163 5283 5336
+type(
+  string
+)
+"specconv.ml" 163 5283 5299 "specconv.ml" 163 5283 5337
+type(
+  [> `ParseExp of Parsetree.expression * string | `String of string ] as 'b
+)
+"specconv.ml" 163 5283 5293 "specconv.ml" 163 5283 5337
+type(
+  (Spec.t2 list, 'b) result
+)
+"specconv.ml" 164 5338 5342 "specconv.ml" 164 5338 5343
+type(
+  Parsetree.structure_item
+)
+"specconv.ml" 164 5338 5345 "specconv.ml" 164 5338 5346
+type(
+  Parsetree.structure_item
+)
+"specconv.ml" 164 5338 5348 "specconv.ml" 164 5338 5349
+type(
+  Parsetree.structure_item list
+)
+"specconv.ml" 164 5338 5345 "specconv.ml" 164 5338 5349
+type(
+  Parsetree.structure_item list
+)
+"specconv.ml" 164 5338 5342 "specconv.ml" 164 5338 5349
+type(
+  Parsetree.structure_item list
+)
+"specconv.ml" 165 5354 5375 "specconv.ml" 165 5354 5419
+type(
+  string
+)
+"specconv.ml" 165 5354 5366 "specconv.ml" 165 5354 5420
+type(
+  'b
+)
+"specconv.ml" 165 5354 5360 "specconv.ml" 165 5354 5420
+type(
+  (Spec.t2 list, 'b) result
+)
+"specconv.ml" 166 5421 5426 "specconv.ml" 166 5421 5431
+type(
+  Parsetree.structure_item
+)
+ident(
+  def sitem "specconv.ml" 167 5436 5442 "specconv.ml" 171 5542 5602
+)
+"specconv.ml" 166 5421 5425 "specconv.ml" 166 5421 5432
+type(
+  Parsetree.structure_item list
+)
+"specconv.ml" 167 5436 5448 "specconv.ml" 167 5436 5453
+type(
+  Parsetree.structure_item
+)
+ident(
+  int_ref sitem "specconv.ml" 166 5421 5426 "specconv.ml" 166 5421 5431
+)
+"specconv.ml" 167 5436 5448 "specconv.ml" 167 5436 5463
+type(
+  Parsetree.structure_item_desc
+)
+"specconv.ml" 168 5469 5488 "specconv.ml" 168 5469 5489
+type(
+  Parsetree.expression
+)
+ident(
+  def e "specconv.ml" 169 5497 5507 "specconv.ml" 169 5497 5528
+)
+"specconv.ml" 168 5469 5491 "specconv.ml" 168 5469 5492
+type(
+  Parsetree.attributes
+)
+"specconv.ml" 168 5469 5477 "specconv.ml" 168 5469 5493
+type(
+  Parsetree.structure_item_desc
+)
+"specconv.ml" 169 5497 5507 "specconv.ml" 169 5497 5522
+type(
+  'a -> Parsetree.expression -> (Spec.t2 list, 'b) result
+)
+ident(
+  int_ref from_expression "specconv.ml" 92 2388 2392 "specconv.ml" 92 2388 2407
+)
+"specconv.ml" 169 5497 5523 "specconv.ml" 169 5497 5526
+type(
+  'a
+)
+ident(
+  int_ref env "specconv.ml" 161 5237 5256 "specconv.ml" 161 5237 5259
+)
+"specconv.ml" 169 5497 5527 "specconv.ml" 169 5497 5528
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "specconv.ml" 168 5469 5488 "specconv.ml" 168 5469 5489
+)
+"specconv.ml" 169 5497 5507 "specconv.ml" 169 5497 5528
+call(
+  tail
+)
+type(
+  (Spec.t2 list, 'b) result
+)
+"specconv.ml" 170 5529 5537 "specconv.ml" 170 5529 5538
+type(
+  Parsetree.structure_item_desc
+)
+"specconv.ml" 171 5542 5567 "specconv.ml" 171 5542 5601
+type(
+  string
+)
+"specconv.ml" 171 5542 5558 "specconv.ml" 171 5542 5602
+type(
+  'b
+)
+"specconv.ml" 171 5542 5552 "specconv.ml" 171 5542 5602
+type(
+  (Spec.t2 list, 'b) result
+)
+"specconv.ml" 167 5436 5442 "specconv.ml" 171 5542 5602
+type(
+  (Spec.t2 list, 'b) result
+)
+"specconv.ml" 162 5266 5268 "specconv.ml" 171 5542 5602
+type(
+  (Spec.t2 list, 'b) result
+)
+"specconv.ml" 173 5604 5608 "specconv.ml" 173 5604 5613
+type(
+  Ppxx.Compilerlib.Location.t ->
+  [< `Failed_unmangle of string
+   | `Parse of string
+   | `ParseExp of 'a * string
+   | `String of string ] ->
+  'b
+)
+ident(
+  def error "specconv.ml" 182 5969 5969 "specconv.ml" 1 0 -1
+)
+"specconv.ml" 173 5604 5614 "specconv.ml" 173 5604 5617
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "specconv.ml" 173 5604 5620 "specconv.ml" 180 5899 5967
+)
+"specconv.ml" 174 5629 5641 "specconv.ml" 174 5629 5642
+type(
+  string
+)
+ident(
+  def s "specconv.ml" 174 5629 5646 "specconv.ml" 174 5629 5689
+)
+"specconv.ml" 174 5629 5633 "specconv.ml" 174 5629 5642
+type(
+  [< `Failed_unmangle of string
+   | `Parse of string
+   | `ParseExp of 'a * string
+   | `String of string ]
+  as 'c
+)
+"specconv.ml" 174 5629 5646 "specconv.ml" 174 5629 5658
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> string -> 'b, Ppxx.Utils.Format.formatter,
+   unit, 'b)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> string -> 'b
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 174 5629 5659 "specconv.ml" 174 5629 5667
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> string -> 'b, Ppxx.Utils.Format.formatter,
+   unit, 'b)
+  format4
+)
+"specconv.ml" 174 5629 5668 "specconv.ml" 174 5629 5683
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"specconv.ml" 174 5629 5684 "specconv.ml" 174 5629 5687
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "specconv.ml" 173 5604 5614 "specconv.ml" 173 5604 5617
+)
+"specconv.ml" 174 5629 5688 "specconv.ml" 174 5629 5689
+type(
+  string
+)
+ident(
+  int_ref s "specconv.ml" 174 5629 5641 "specconv.ml" 174 5629 5642
+)
+"specconv.ml" 174 5629 5646 "specconv.ml" 174 5629 5689
+call(
+  tail
+)
+type(
+  'b
+)
+"specconv.ml" 175 5690 5711 "specconv.ml" 175 5690 5712
+type(
+  string
+)
+ident(
+  def s "specconv.ml" 176 5717 5723 "specconv.ml" 176 5717 5789
+)
+"specconv.ml" 175 5690 5694 "specconv.ml" 175 5690 5712
+type(
+  'c
+)
+"specconv.ml" 176 5717 5723 "specconv.ml" 176 5717 5735
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> string -> 'b, Ppxx.Utils.Format.formatter,
+   unit, 'b)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> string -> 'b
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 176 5717 5736 "specconv.ml" 176 5717 5767
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> string -> 'b, Ppxx.Utils.Format.formatter,
+   unit, 'b)
+  format4
+)
+"specconv.ml" 176 5717 5768 "specconv.ml" 176 5717 5783
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"specconv.ml" 176 5717 5784 "specconv.ml" 176 5717 5787
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "specconv.ml" 173 5604 5614 "specconv.ml" 173 5604 5617
+)
+"specconv.ml" 176 5717 5788 "specconv.ml" 176 5717 5789
+type(
+  string
+)
+ident(
+  int_ref s "specconv.ml" 175 5690 5711 "specconv.ml" 175 5690 5712
+)
+"specconv.ml" 176 5717 5723 "specconv.ml" 176 5717 5789
+call(
+  tail
+)
+type(
+  'b
+)
+"specconv.ml" 177 5790 5801 "specconv.ml" 177 5790 5802
+type(
+  string
+)
+ident(
+  def s "specconv.ml" 178 5806 5812 "specconv.ml" 178 5806 5874
+)
+"specconv.ml" 177 5790 5794 "specconv.ml" 177 5790 5802
+type(
+  'c
+)
+"specconv.ml" 178 5806 5812 "specconv.ml" 178 5806 5824
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> string -> 'b, Ppxx.Utils.Format.formatter,
+   unit, 'b)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> string -> 'b
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 178 5806 5825 "specconv.ml" 178 5806 5852
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> string -> 'b, Ppxx.Utils.Format.formatter,
+   unit, 'b)
+  format4
+)
+"specconv.ml" 178 5806 5853 "specconv.ml" 178 5806 5868
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"specconv.ml" 178 5806 5869 "specconv.ml" 178 5806 5872
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "specconv.ml" 173 5604 5614 "specconv.ml" 173 5604 5617
+)
+"specconv.ml" 178 5806 5873 "specconv.ml" 178 5806 5874
+type(
+  string
+)
+ident(
+  int_ref s "specconv.ml" 177 5790 5801 "specconv.ml" 177 5790 5802
+)
+"specconv.ml" 178 5806 5812 "specconv.ml" 178 5806 5874
+call(
+  tail
+)
+type(
+  'b
+)
+"specconv.ml" 179 5875 5890 "specconv.ml" 179 5875 5891
+type(
+  'a
+)
+"specconv.ml" 179 5875 5893 "specconv.ml" 179 5875 5894
+type(
+  string
+)
+ident(
+  def s "specconv.ml" 180 5899 5905 "specconv.ml" 180 5899 5967
+)
+"specconv.ml" 179 5875 5889 "specconv.ml" 179 5875 5895
+type(
+  'a * string
+)
+"specconv.ml" 179 5875 5879 "specconv.ml" 179 5875 5895
+type(
+  'c
+)
+"specconv.ml" 180 5899 5905 "specconv.ml" 180 5899 5917
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> string -> 'b, Ppxx.Utils.Format.formatter,
+   unit, 'b)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> string -> 'b
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 180 5899 5918 "specconv.ml" 180 5899 5945
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> string -> 'b, Ppxx.Utils.Format.formatter,
+   unit, 'b)
+  format4
+)
+"specconv.ml" 180 5899 5946 "specconv.ml" 180 5899 5961
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"specconv.ml" 180 5899 5962 "specconv.ml" 180 5899 5965
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "specconv.ml" 173 5604 5614 "specconv.ml" 173 5604 5617
+)
+"specconv.ml" 180 5899 5966 "specconv.ml" 180 5899 5967
+type(
+  string
+)
+ident(
+  int_ref s "specconv.ml" 179 5875 5893 "specconv.ml" 179 5875 5894
+)
+"specconv.ml" 180 5899 5905 "specconv.ml" 180 5899 5967
+call(
+  tail
+)
+type(
+  'b
+)
+"specconv.ml" 173 5604 5620 "specconv.ml" 180 5899 5967
+type(
+  'c -> 'b
+)
+"specconv.ml" 182 5969 5973 "specconv.ml" 182 5969 5985
+type(
+  'a ->
+  Parsetree.payload ->
+  (Spec.t2 list,
+   [> `ParseExp of Parsetree.expression * string | `String of string ])
+  result
+)
+ident(
+  def from_payload "specconv.ml" 191 6231 6231 "specconv.ml" 1 0 -1
+)
+"specconv.ml" 182 5969 5986 "specconv.ml" 182 5969 5989
+type(
+  'a
+)
+ident(
+  def env "specconv.ml" 182 5969 5992 "specconv.ml" 184 6036 6095
+)
+"specconv.ml" 183 6001 6010 "specconv.ml" 183 6001 6011
+type(
+  Parsetree.structure
+)
+ident(
+  def s "specconv.ml" 183 6001 6015 "specconv.ml" 183 6001 6035
+)
+"specconv.ml" 183 6001 6005 "specconv.ml" 183 6001 6011
+type(
+  Parsetree.payload
+)
+"specconv.ml" 183 6001 6015 "specconv.ml" 183 6001 6029
+type(
+  'a ->
+  Parsetree.structure ->
+  (Spec.t2 list,
+   [> `ParseExp of Parsetree.expression * string | `String of string ] as 'b)
+  result
+)
+ident(
+  int_ref from_structure "specconv.ml" 161 5237 5241 "specconv.ml" 161 5237 5255
+)
+"specconv.ml" 183 6001 6030 "specconv.ml" 183 6001 6033
+type(
+  'a
+)
+ident(
+  int_ref env "specconv.ml" 182 5969 5986 "specconv.ml" 182 5969 5989
+)
+"specconv.ml" 183 6001 6034 "specconv.ml" 183 6001 6035
+type(
+  Parsetree.structure
+)
+ident(
+  int_ref s "specconv.ml" 183 6001 6010 "specconv.ml" 183 6001 6011
+)
+"specconv.ml" 183 6001 6015 "specconv.ml" 183 6001 6035
+call(
+  tail
+)
+type(
+  (Spec.t2 list, 'b) result
+)
+"specconv.ml" 184 6036 6040 "specconv.ml" 184 6036 6041
+type(
+  Parsetree.payload
+)
+"specconv.ml" 184 6036 6060 "specconv.ml" 184 6036 6094
+type(
+  string
+)
+"specconv.ml" 184 6036 6051 "specconv.ml" 184 6036 6095
+type(
+  'b
+)
+"specconv.ml" 184 6036 6045 "specconv.ml" 184 6036 6095
+type(
+  (Spec.t2 list, 'b) result
+)
+"specconv.ml" 182 5969 5992 "specconv.ml" 184 6036 6095
+type(
+  Parsetree.payload -> (Spec.t2 list, 'b) result
+)
+"specconv.ml" 191 6231 6235 "specconv.ml" 191 6231 6249
+type(
+  Env.t ->
+  Ppxx.Compilerlib.Location.t ->
+  Typpx.Compilerlib.Types.type_expr -> Spec.t2 list
+)
+ident(
+  def from_type_expr "specconv.ml" 219 7384 7384 "specconv.ml" 1 0 -1
+)
+"specconv.ml" 191 6231 6250 "specconv.ml" 191 6231 6253
+type(
+  Env.t
+)
+ident(
+  def env "specconv.ml" 191 6231 6254 "specconv.ml" 217 7307 7382
+)
+"specconv.ml" 191 6231 6254 "specconv.ml" 191 6231 6257
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "specconv.ml" 191 6231 6258 "specconv.ml" 217 7307 7382
+)
+"specconv.ml" 191 6231 6258 "specconv.ml" 191 6231 6260
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "specconv.ml" 191 6231 6263 "specconv.ml" 217 7307 7382
+)
+"specconv.ml" 191 6231 6269 "specconv.ml" 191 6231 6285
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_desc
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.expand_repr_desc
+)
+"specconv.ml" 191 6231 6286 "specconv.ml" 191 6231 6289
+type(
+  Env.t
+)
+ident(
+  int_ref env "specconv.ml" 191 6231 6250 "specconv.ml" 191 6231 6253
+)
+"specconv.ml" 191 6231 6290 "specconv.ml" 191 6231 6292
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "specconv.ml" 191 6231 6258 "specconv.ml" 191 6231 6260
+)
+"specconv.ml" 191 6231 6269 "specconv.ml" 191 6231 6292
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"specconv.ml" 192 6298 6311 "specconv.ml" 192 6298 6313
+type(
+  Typpx.Compilerlib.Types.row_desc
+)
+ident(
+  def rd "specconv.ml" 193 6317 6323 "specconv.ml" 215 7287 7296
+)
+"specconv.ml" 192 6298 6302 "specconv.ml" 192 6298 6313
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"specconv.ml" 193 6317 6327 "specconv.ml" 193 6317 6329
+type(
+  Types.row_desc
+)
+ident(
+  def rd "specconv.ml" 194 6353 6359 "specconv.ml" 215 7287 7296
+)
+"specconv.ml" 193 6317 6332 "specconv.ml" 193 6317 6346
+type(
+  Typpx.Compilerlib.Types.row_desc -> Types.row_desc
+)
+ident(
+  ext_ref Btype.row_repr
+)
+"specconv.ml" 193 6317 6347 "specconv.ml" 193 6317 6349
+type(
+  Typpx.Compilerlib.Types.row_desc
+)
+ident(
+  int_ref rd "specconv.ml" 192 6298 6311 "specconv.ml" 192 6298 6313
+)
+"specconv.ml" 193 6317 6332 "specconv.ml" 193 6317 6349
+call(
+  stack
+)
+type(
+  Types.row_desc
+)
+"specconv.ml" 194 6353 6371 "specconv.ml" 194 6353 6373
+type(
+  Types.row_desc
+)
+ident(
+  int_ref rd "specconv.ml" 193 6317 6327 "specconv.ml" 193 6317 6329
+)
+"specconv.ml" 195 6379 6401 "specconv.ml" 195 6379 6405
+type(
+  bool
+)
+"specconv.ml" 195 6379 6420 "specconv.ml" 195 6379 6421
+type(
+  Asttypes.label
+)
+ident(
+  def l "specconv.ml" 196 6448 6458 "specconv.ml" 212 7157 7192
+)
+"specconv.ml" 195 6379 6438 "specconv.ml" 195 6379 6440
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "specconv.ml" 196 6448 6458 "specconv.ml" 212 7157 7192
+)
+"specconv.ml" 195 6379 6432 "specconv.ml" 195 6379 6441
+type(
+  Typpx.Compilerlib.Types.type_expr option
+)
+"specconv.ml" 195 6379 6423 "specconv.ml" 195 6379 6441
+type(
+  Typpx.Compilerlib.Types.row_field
+)
+"specconv.ml" 195 6379 6420 "specconv.ml" 195 6379 6441
+type(
+  Asttypes.label * Typpx.Compilerlib.Types.row_field
+)
+"specconv.ml" 195 6379 6419 "specconv.ml" 195 6379 6442
+type(
+  (Asttypes.label * Typpx.Compilerlib.Types.row_field) list
+)
+"specconv.ml" 195 6379 6387 "specconv.ml" 195 6379 6444
+type(
+  Typpx.Compilerlib.Types.row_desc
+)
+"specconv.ml" 199 6575 6589 "specconv.ml" 199 6575 6595
+type(
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def unpoly "specconv.ml" 203 6706 6716 "specconv.ml" 212 7157 7192
+)
+"specconv.ml" 199 6575 6596 "specconv.ml" 199 6575 6598
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "specconv.ml" 199 6575 6601 "specconv.ml" 201 6671 6692
+)
+"specconv.ml" 199 6575 6607 "specconv.ml" 199 6575 6623
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_desc
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.expand_repr_desc
+)
+"specconv.ml" 199 6575 6624 "specconv.ml" 199 6575 6627
+type(
+  Env.t
+)
+ident(
+  int_ref env "specconv.ml" 191 6231 6250 "specconv.ml" 191 6231 6253
+)
+"specconv.ml" 199 6575 6628 "specconv.ml" 199 6575 6630
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "specconv.ml" 199 6575 6596 "specconv.ml" 199 6575 6598
+)
+"specconv.ml" 199 6575 6607 "specconv.ml" 199 6575 6630
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"specconv.ml" 200 6636 6657 "specconv.ml" 200 6636 6659
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "specconv.ml" 200 6636 6668 "specconv.ml" 200 6636 6670
+)
+"specconv.ml" 200 6636 6661 "specconv.ml" 200 6636 6663
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+"specconv.ml" 200 6636 6650 "specconv.ml" 200 6636 6664
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"specconv.ml" 200 6636 6668 "specconv.ml" 200 6636 6670
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "specconv.ml" 200 6636 6657 "specconv.ml" 200 6636 6659
+)
+"specconv.ml" 201 6671 6685 "specconv.ml" 201 6671 6686
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"specconv.ml" 201 6671 6690 "specconv.ml" 201 6671 6692
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "specconv.ml" 199 6575 6596 "specconv.ml" 199 6575 6598
+)
+"specconv.ml" 199 6575 6601 "specconv.ml" 201 6671 6692
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"specconv.ml" 203 6706 6720 "specconv.ml" 203 6706 6722
+type(
+  (string * Types.field_kind * Types.type_expr) list
+)
+ident(
+  def fs "specconv.ml" 204 6775 6785 "specconv.ml" 212 7157 7192
+)
+"specconv.ml" 203 6706 6724 "specconv.ml" 203 6706 6727
+type(
+  Types.type_expr
+)
+ident(
+  def nil "specconv.ml" 204 6775 6785 "specconv.ml" 212 7157 7192
+)
+"specconv.ml" 203 6706 6720 "specconv.ml" 203 6706 6727
+type(
+  (string * Types.field_kind * Types.type_expr) list * Types.type_expr
+)
+"specconv.ml" 203 6706 6737 "specconv.ml" 203 6706 6751
+type(
+  Types.type_expr ->
+  (string * Types.field_kind * Types.type_expr) list * Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.flatten_fields
+)
+"specconv.ml" 203 6706 6752 "specconv.ml" 203 6706 6753
+type(
+  (Types.type_expr ->
+   (string * Types.field_kind * Types.type_expr) list * Types.type_expr) ->
+  Types.type_expr ->
+  (string * Types.field_kind * Types.type_expr) list * Types.type_expr
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"specconv.ml" 203 6706 6754 "specconv.ml" 203 6706 6767
+type(
+  Typpx.Compilerlib.Types.type_expr -> Types.type_expr
+)
+ident(
+  ext_ref Typpx.Compilerlib.Ctype.object_fields
+)
+"specconv.ml" 203 6706 6768 "specconv.ml" 203 6706 6770
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "specconv.ml" 195 6379 6438 "specconv.ml" 195 6379 6440
+)
+"specconv.ml" 203 6706 6754 "specconv.ml" 203 6706 6770
+call(
+  stack
+)
+type(
+  Types.type_expr
+)
+"specconv.ml" 203 6706 6737 "specconv.ml" 203 6706 6770
+call(
+  stack
+)
+type(
+  (string * Types.field_kind * Types.type_expr) list * Types.type_expr
+)
+"specconv.ml" 204 6775 6789 "specconv.ml" 204 6775 6791
+type(
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr) list
+)
+ident(
+  def fs "specconv.ml" 205 6838 6848 "specconv.ml" 212 7157 7192
+)
+"specconv.ml" 204 6775 6794 "specconv.ml" 204 6775 6797
+type(
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr ->
+   string * Types.field_kind * Typpx.Compilerlib.Types.type_expr) ->
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr) list ->
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr) list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"specconv.ml" 204 6775 6804 "specconv.ml" 204 6775 6805
+type(
+  string
+)
+ident(
+  def a "specconv.ml" 204 6775 6815 "specconv.ml" 204 6775 6830
+)
+"specconv.ml" 204 6775 6806 "specconv.ml" 204 6775 6807
+type(
+  Types.field_kind
+)
+ident(
+  def b "specconv.ml" 204 6775 6815 "specconv.ml" 204 6775 6830
+)
+"specconv.ml" 204 6775 6808 "specconv.ml" 204 6775 6810
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "specconv.ml" 204 6775 6815 "specconv.ml" 204 6775 6830
+)
+"specconv.ml" 204 6775 6803 "specconv.ml" 204 6775 6811
+type(
+  string * Types.field_kind * Typpx.Compilerlib.Types.type_expr
+)
+"specconv.ml" 204 6775 6816 "specconv.ml" 204 6775 6817
+type(
+  string
+)
+ident(
+  int_ref a "specconv.ml" 204 6775 6804 "specconv.ml" 204 6775 6805
+)
+"specconv.ml" 204 6775 6818 "specconv.ml" 204 6775 6819
+type(
+  Types.field_kind
+)
+ident(
+  int_ref b "specconv.ml" 204 6775 6806 "specconv.ml" 204 6775 6807
+)
+"specconv.ml" 204 6775 6820 "specconv.ml" 204 6775 6826
+type(
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref unpoly "specconv.ml" 199 6575 6589 "specconv.ml" 199 6575 6595
+)
+"specconv.ml" 204 6775 6827 "specconv.ml" 204 6775 6829
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "specconv.ml" 204 6775 6808 "specconv.ml" 204 6775 6810
+)
+"specconv.ml" 204 6775 6820 "specconv.ml" 204 6775 6829
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"specconv.ml" 204 6775 6815 "specconv.ml" 204 6775 6830
+type(
+  string * Types.field_kind * Typpx.Compilerlib.Types.type_expr
+)
+"specconv.ml" 204 6775 6798 "specconv.ml" 204 6775 6831
+type(
+  string * Types.field_kind * Typpx.Compilerlib.Types.type_expr ->
+  string * Types.field_kind * Typpx.Compilerlib.Types.type_expr
+)
+"specconv.ml" 204 6775 6832 "specconv.ml" 204 6775 6834
+type(
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr) list
+)
+ident(
+  int_ref fs "specconv.ml" 203 6706 6720 "specconv.ml" 203 6706 6722
+)
+"specconv.ml" 204 6775 6794 "specconv.ml" 204 6775 6834
+call(
+  stack
+)
+type(
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr) list
+)
+"specconv.ml" 205 6838 6856 "specconv.ml" 205 6838 6872
+type(
+  Env.t ->
+  Typpx.Compilerlib.Types.type_expr -> Typpx.Compilerlib.Types.type_desc
+)
+ident(
+  ext_ref Typpx.Compilerlib.Types.expand_repr_desc
+)
+"specconv.ml" 205 6838 6873 "specconv.ml" 205 6838 6876
+type(
+  Env.t
+)
+ident(
+  int_ref env "specconv.ml" 191 6231 6250 "specconv.ml" 191 6231 6253
+)
+"specconv.ml" 205 6838 6877 "specconv.ml" 205 6838 6880
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref nil "specconv.ml" 203 6706 6724 "specconv.ml" 203 6706 6727
+)
+"specconv.ml" 205 6838 6856 "specconv.ml" 205 6838 6880
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"specconv.ml" 205 6838 6881 "specconv.ml" 205 6838 6882
+type(
+  Typpx.Compilerlib.Types.type_desc ->
+  Typpx.Compilerlib.Types.type_desc -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"specconv.ml" 205 6838 6883 "specconv.ml" 205 6838 6887
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"specconv.ml" 205 6838 6855 "specconv.ml" 205 6838 6888
+type(
+  bool
+)
+"specconv.ml" 205 6838 6848 "specconv.ml" 205 6838 6888
+type(
+  unit
+)
+"specconv.ml" 206 6890 6908 "specconv.ml" 206 6890 6910
+type(
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr) list
+)
+ident(
+  int_ref fs "specconv.ml" 204 6775 6789 "specconv.ml" 204 6775 6791
+)
+"specconv.ml" 206 6890 6911 "specconv.ml" 206 6890 6912
+type(
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr) list ->
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr) list ->
+  bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"specconv.ml" 206 6890 6913 "specconv.ml" 206 6890 6915
+type(
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr) list
+)
+"specconv.ml" 206 6890 6908 "specconv.ml" 206 6890 6915
+type(
+  bool
+)
+"specconv.ml" 207 6916 6933 "specconv.ml" 207 6916 6935
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"specconv.ml" 207 6916 6936 "specconv.ml" 207 6916 6943
+type(
+  (string * Typpx.Compilerlib.Types.field_kind *
+   Typpx.Compilerlib.Types.type_expr -> bool) ->
+  (string * Typpx.Compilerlib.Types.field_kind *
+   Typpx.Compilerlib.Types.type_expr)
+  list -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.List.for_all
+)
+"specconv.ml" 207 6916 6955 "specconv.ml" 207 6916 6956
+type(
+  string
+)
+"specconv.ml" 207 6916 6958 "specconv.ml" 207 6916 6966
+type(
+  Typpx.Compilerlib.Types.field_kind
+)
+"specconv.ml" 207 6916 6968 "specconv.ml" 207 6916 6969
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+"specconv.ml" 207 6916 6954 "specconv.ml" 207 6916 6970
+type(
+  string * Typpx.Compilerlib.Types.field_kind *
+  Typpx.Compilerlib.Types.type_expr
+)
+"specconv.ml" 207 6916 6974 "specconv.ml" 207 6916 6978
+type(
+  bool
+)
+"specconv.ml" 207 6916 6981 "specconv.ml" 207 6916 6982
+type(
+  string * Typpx.Compilerlib.Types.field_kind *
+  Typpx.Compilerlib.Types.type_expr
+)
+"specconv.ml" 207 6916 6986 "specconv.ml" 207 6916 6991
+type(
+  bool
+)
+"specconv.ml" 207 6916 6944 "specconv.ml" 207 6916 6992
+type(
+  string * Typpx.Compilerlib.Types.field_kind *
+  Typpx.Compilerlib.Types.type_expr -> bool
+)
+"specconv.ml" 207 6916 6993 "specconv.ml" 207 6916 6995
+type(
+  (string * Typpx.Compilerlib.Types.field_kind *
+   Typpx.Compilerlib.Types.type_expr)
+  list
+)
+ident(
+  int_ref fs "specconv.ml" 204 6775 6789 "specconv.ml" 204 6775 6791
+)
+"specconv.ml" 207 6916 6936 "specconv.ml" 207 6916 6995
+call(
+  stack
+)
+type(
+  bool
+)
+"specconv.ml" 206 6890 6907 "specconv.ml" 207 6916 6996
+type(
+  bool
+)
+"specconv.ml" 206 6890 6900 "specconv.ml" 207 6916 6996
+type(
+  unit
+)
+"specconv.ml" 208 6998 7008 "specconv.ml" 208 6998 7030
+type(
+  Typpx.Compilerlib.Types.type_expr list -> Spec.t2 list -> Spec.t2 list
+)
+ident(
+  int_ref assign_type_components "specconv.ml" 42 908 912 "specconv.ml" 42 908 934
+)
+"specconv.ml" 208 6998 7032 "specconv.ml" 208 6998 7035
+type(
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr ->
+   Typpx.Compilerlib.Types.type_expr) ->
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr) list ->
+  Typpx.Compilerlib.Types.type_expr list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"specconv.ml" 208 6998 7042 "specconv.ml" 208 6998 7043
+type(
+  string
+)
+"specconv.ml" 208 6998 7044 "specconv.ml" 208 6998 7045
+type(
+  Types.field_kind
+)
+"specconv.ml" 208 6998 7046 "specconv.ml" 208 6998 7048
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  def ty "specconv.ml" 208 6998 7053 "specconv.ml" 208 6998 7055
+)
+"specconv.ml" 208 6998 7041 "specconv.ml" 208 6998 7049
+type(
+  string * Types.field_kind * Typpx.Compilerlib.Types.type_expr
+)
+"specconv.ml" 208 6998 7053 "specconv.ml" 208 6998 7055
+type(
+  Typpx.Compilerlib.Types.type_expr
+)
+ident(
+  int_ref ty "specconv.ml" 208 6998 7046 "specconv.ml" 208 6998 7048
+)
+"specconv.ml" 208 6998 7036 "specconv.ml" 208 6998 7056
+type(
+  string * Types.field_kind * Typpx.Compilerlib.Types.type_expr ->
+  Typpx.Compilerlib.Types.type_expr
+)
+"specconv.ml" 208 6998 7057 "specconv.ml" 208 6998 7059
+type(
+  (string * Types.field_kind * Typpx.Compilerlib.Types.type_expr) list
+)
+ident(
+  int_ref fs "specconv.ml" 204 6775 6789 "specconv.ml" 204 6775 6791
+)
+"specconv.ml" 208 6998 7031 "specconv.ml" 208 6998 7060
+call(
+  stack
+)
+type(
+  Typpx.Compilerlib.Types.type_expr list
+)
+"specconv.ml" 208 6998 7008 "specconv.ml" 208 6998 7060
+type(
+  Spec.t2 list -> Spec.t2 list
+)
+"specconv.ml" 209 7061 7071 "specconv.ml" 209 7061 7072
+type(
+  (Spec.t2 list -> Spec.t2 list) -> Spec.t2 list -> Spec.t2 list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"specconv.ml" 209 7061 7073 "specconv.ml" 209 7061 7081
+type(
+  ((_[< `Failed_unmangle of string
+      | `Parse of string
+      | `ParseExp of Ast_405.Parsetree.expression * string
+      | `String of string
+      > `Failed_unmangle `Parse `ParseExp ]
+    as 'a) ->
+   Spec.t2 list) ->
+  (Spec.t2 list, 'a) Utils.Result.t -> Spec.t2 list
+)
+ident(
+  ext_ref Utils.at_Error
+)
+"specconv.ml" 209 7061 7083 "specconv.ml" 209 7061 7088
+type(
+  Ppxx.Compilerlib.Location.t -> 'a -> Spec.t2 list
+)
+ident(
+  int_ref error "specconv.ml" 173 5604 5608 "specconv.ml" 173 5604 5613
+)
+"specconv.ml" 209 7061 7089 "specconv.ml" 209 7061 7092
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "specconv.ml" 191 6231 6254 "specconv.ml" 191 6231 6257
+)
+"specconv.ml" 209 7061 7082 "specconv.ml" 209 7061 7093
+call(
+  stack
+)
+type(
+  'a -> Spec.t2 list
+)
+"specconv.ml" 209 7061 7073 "specconv.ml" 209 7061 7093
+type(
+  (Spec.t2 list, 'a) Utils.Result.t -> Spec.t2 list
+)
+"specconv.ml" 210 7094 7104 "specconv.ml" 210 7094 7105
+type(
+  ((Spec.t2 list, 'a) Utils.Result.t -> Spec.t2 list) ->
+  (Spec.t2 list, 'a) Utils.Result.t -> Spec.t2 list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"specconv.ml" 210 7094 7106 "specconv.ml" 210 7094 7126
+type(
+  Ppxx.Utils.String.t -> (string, 'a) Utils.Result.t
+)
+ident(
+  int_ref unmangle_spec_string "specconv.ml" 85 2108 2112 "specconv.ml" 85 2108 2132
+)
+"specconv.ml" 210 7094 7127 "specconv.ml" 210 7094 7128
+type(
+  Asttypes.label
+)
+ident(
+  int_ref l "specconv.ml" 195 6379 6420 "specconv.ml" 195 6379 6421
+)
+"specconv.ml" 210 7094 7106 "specconv.ml" 210 7094 7128
+call(
+  stack
+)
+type(
+  (string, 'a) Utils.Result.t
+)
+"specconv.ml" 211 7129 7141 "specconv.ml" 211 7129 7144
+type(
+  (string, 'a) Utils.Result.t ->
+  (string -> (Ast_405.Parsetree.expression, 'a) Utils.Result.t) ->
+  (Ast_405.Parsetree.expression, 'a) Utils.Result.t
+)
+ident(
+  ext_ref Utils.Result.Monad.( >>= )
+)
+"specconv.ml" 211 7129 7145 "specconv.ml" 211 7129 7156
+type(
+  string -> (Ast_405.Parsetree.expression, 'a) Utils.Result.t
+)
+ident(
+  int_ref from_string "specconv.ml" 90 2340 2344 "specconv.ml" 90 2340 2355
+)
+"specconv.ml" 210 7094 7106 "specconv.ml" 211 7129 7156
+call(
+  stack
+)
+type(
+  (Ast_405.Parsetree.expression, 'a) Utils.Result.t
+)
+"specconv.ml" 212 7157 7169 "specconv.ml" 212 7157 7172
+type(
+  (Ast_405.Parsetree.expression, 'a) Utils.Result.t ->
+  (Ast_405.Parsetree.expression -> (Spec.t2 list, 'a) Utils.Result.t) ->
+  (Spec.t2 list, 'a) Utils.Result.t
+)
+ident(
+  ext_ref Utils.Result.Monad.( >>= )
+)
+"specconv.ml" 212 7157 7173 "specconv.ml" 212 7157 7188
+type(
+  Env.t -> Ast_405.Parsetree.expression -> (Spec.t2 list, 'a) Utils.Result.t
+)
+ident(
+  int_ref from_expression "specconv.ml" 92 2388 2392 "specconv.ml" 92 2388 2407
+)
+"specconv.ml" 212 7157 7189 "specconv.ml" 212 7157 7192
+type(
+  Env.t
+)
+ident(
+  int_ref env "specconv.ml" 191 6231 6250 "specconv.ml" 191 6231 6253
+)
+"specconv.ml" 212 7157 7173 "specconv.ml" 212 7157 7192
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.expression -> (Spec.t2 list, 'a) Utils.Result.t
+)
+"specconv.ml" 210 7094 7106 "specconv.ml" 212 7157 7192
+call(
+  stack
+)
+type(
+  (Spec.t2 list, 'a) Utils.Result.t
+)
+"specconv.ml" 209 7061 7073 "specconv.ml" 212 7157 7192
+call(
+  stack
+)
+type(
+  Spec.t2 list
+)
+"specconv.ml" 208 6998 7008 "specconv.ml" 212 7157 7192
+call(
+  tail
+)
+type(
+  Spec.t2 list
+)
+"specconv.ml" 206 6890 6900 "specconv.ml" 212 7157 7192
+type(
+  Spec.t2 list
+)
+"specconv.ml" 205 6838 6848 "specconv.ml" 212 7157 7192
+type(
+  Spec.t2 list
+)
+"specconv.ml" 204 6775 6785 "specconv.ml" 212 7157 7192
+type(
+  Spec.t2 list
+)
+"specconv.ml" 203 6706 6716 "specconv.ml" 212 7157 7192
+type(
+  Spec.t2 list
+)
+"specconv.ml" 199 6575 6585 "specconv.ml" 212 7157 7192
+type(
+  Spec.t2 list
+)
+"specconv.ml" 213 7193 7201 "specconv.ml" 213 7193 7202
+type(
+  Typpx.Compilerlib.Types.row_desc
+)
+"specconv.ml" 214 7207 7217 "specconv.ml" 214 7207 7229
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Spec.t2 list, Ppxx.Utils.Format.formatter,
+   unit, Spec.t2 list)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> Spec.t2 list
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 214 7207 7230 "specconv.ml" 214 7207 7266
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Spec.t2 list, Ppxx.Utils.Format.formatter,
+   unit, Spec.t2 list)
+  format4
+)
+"specconv.ml" 214 7207 7267 "specconv.ml" 214 7207 7282
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"specconv.ml" 214 7207 7283 "specconv.ml" 214 7207 7286
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "specconv.ml" 191 6231 6254 "specconv.ml" 191 6231 6257
+)
+"specconv.ml" 214 7207 7217 "specconv.ml" 214 7207 7286
+call(
+  tail
+)
+type(
+  Spec.t2 list
+)
+"specconv.ml" 194 6353 6359 "specconv.ml" 215 7287 7296
+type(
+  Spec.t2 list
+)
+"specconv.ml" 193 6317 6323 "specconv.ml" 215 7287 7296
+type(
+  Spec.t2 list
+)
+"specconv.ml" 216 7297 7301 "specconv.ml" 216 7297 7302
+type(
+  Typpx.Compilerlib.Types.type_desc
+)
+"specconv.ml" 217 7307 7313 "specconv.ml" 217 7307 7325
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Spec.t2 list, Ppxx.Utils.Format.formatter,
+   unit, Spec.t2 list)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> Spec.t2 list
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"specconv.ml" 217 7307 7326 "specconv.ml" 217 7307 7362
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Spec.t2 list, Ppxx.Utils.Format.formatter,
+   unit, Spec.t2 list)
+  format4
+)
+"specconv.ml" 217 7307 7363 "specconv.ml" 217 7307 7378
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"specconv.ml" 217 7307 7379 "specconv.ml" 217 7307 7382
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "specconv.ml" 191 6231 6254 "specconv.ml" 191 6231 6257
+)
+"specconv.ml" 217 7307 7313 "specconv.ml" 217 7307 7382
+call(
+  tail
+)
+type(
+  Spec.t2 list
+)
+"specconv.ml" 191 6231 6263 "specconv.ml" 217 7307 7382
+type(
+  Spec.t2 list
+)
+"specconv.ml" 219 7384 7388 "specconv.ml" 219 7384 7400
+type(
+  'a -> Spec.t -> Ast_405.Parsetree.core_type
+)
+ident(
+  def to_core_type "specconv.ml" 228 7735 7807 "specconv.ml" 1 0 -1
+)
+"specconv.ml" 219 7384 7401 "specconv.ml" 219 7384 7405
+type(
+  'a
+)
+ident(
+  def _loc "specconv.ml" 219 7384 7406 "specconv.ml" 228 7735 7807
+)
+"specconv.ml" 219 7384 7406 "specconv.ml" 219 7384 7410
+type(
+  Spec.t
+)
+ident(
+  def spec "specconv.ml" 220 7413 7415 "specconv.ml" 228 7735 7807
+)
+"specconv.ml" 221 7439 7445 "specconv.ml" 221 7439 7452
+type(
+  string
+)
+ident(
+  def mangled "specconv.ml" 222 7476 7478 "specconv.ml" 228 7735 7807
+)
+"specconv.ml" 221 7439 7454 "specconv.ml" 221 7439 7458
+type(
+  Parsetree.core_type list
+)
+ident(
+  def ctys "specconv.ml" 222 7476 7478 "specconv.ml" 228 7735 7807
+)
+"specconv.ml" 221 7439 7445 "specconv.ml" 221 7439 7458
+type(
+  string * Parsetree.core_type list
+)
+"specconv.ml" 221 7439 7461 "specconv.ml" 221 7439 7467
+type(
+  Spec.t -> string * Parsetree.core_type list
+)
+ident(
+  int_ref mangle "specconv.ml" 80 1997 2001 "specconv.ml" 80 1997 2007
+)
+"specconv.ml" 221 7439 7468 "specconv.ml" 221 7439 7472
+type(
+  Spec.t
+)
+ident(
+  int_ref spec "specconv.ml" 219 7384 7406 "specconv.ml" 219 7384 7410
+)
+"specconv.ml" 221 7439 7461 "specconv.ml" 221 7439 7472
+call(
+  stack
+)
+type(
+  string * Parsetree.core_type list
+)
+"specconv.ml" 222 7476 7482 "specconv.ml" 222 7476 7487
+type(
+  int -> string Ast_405.Location.loc
+)
+ident(
+  def label "specconv.ml" 223 7522 7524 "specconv.ml" 228 7735 7807
+)
+"specconv.ml" 222 7476 7488 "specconv.ml" 222 7476 7489
+type(
+  int
+)
+ident(
+  def n "specconv.ml" 222 7476 7492 "specconv.ml" 222 7476 7518
+)
+"specconv.ml" 222 7476 7492 "specconv.ml" 222 7476 7494
+type(
+  string -> string Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.( !@ )
+)
+"specconv.ml" 222 7476 7496 "specconv.ml" 222 7476 7499
+type(
+  string
+)
+"specconv.ml" 222 7476 7500 "specconv.ml" 222 7476 7501
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"specconv.ml" 222 7476 7502 "specconv.ml" 222 7476 7515
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"specconv.ml" 222 7476 7516 "specconv.ml" 222 7476 7517
+type(
+  int
+)
+ident(
+  int_ref n "specconv.ml" 222 7476 7488 "specconv.ml" 222 7476 7489
+)
+"specconv.ml" 222 7476 7502 "specconv.ml" 222 7476 7517
+call(
+  stack
+)
+type(
+  string
+)
+"specconv.ml" 222 7476 7495 "specconv.ml" 222 7476 7518
+call(
+  stack
+)
+type(
+  string
+)
+"specconv.ml" 222 7476 7492 "specconv.ml" 222 7476 7518
+call(
+  tail
+)
+type(
+  string Ast_405.Location.loc
+)
+"specconv.ml" 223 7522 7528 "specconv.ml" 223 7522 7542
+type(
+  Ast_405.Parsetree.core_type -> Ast_405.Parsetree.core_type
+)
+ident(
+  def make_meth_type "specconv.ml" 226 7638 7640 "specconv.ml" 228 7735 7807
+)
+"specconv.ml" 223 7522 7543 "specconv.ml" 223 7522 7546
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  def cty "specconv.ml" 224 7569 7573 "specconv.ml" 224 7569 7632
+)
+"specconv.ml" 224 7569 7573 "specconv.ml" 224 7569 7581
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.str list ->
+  Ast_405.Parsetree.core_type -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.poly
+)
+"specconv.ml" 224 7569 7583 "specconv.ml" 224 7569 7591
+type(
+  (string -> string Ast_405.Location.loc) ->
+  string list -> Ast_405.Ast_helper.str list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"specconv.ml" 224 7569 7592 "specconv.ml" 224 7569 7596
+type(
+  string -> string Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.( !@ )
+)
+"specconv.ml" 224 7569 7583 "specconv.ml" 224 7569 7596
+type(
+  string list -> Ast_405.Ast_helper.str list
+)
+"specconv.ml" 224 7569 7597 "specconv.ml" 224 7569 7598
+type(
+  (string list -> Ast_405.Ast_helper.str list) ->
+  string list -> Ast_405.Ast_helper.str list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"specconv.ml" 224 7569 7599 "specconv.ml" 224 7569 7623
+type(
+  Ast_405.Parsetree.core_type -> string list
+)
+ident(
+  ext_ref Utils.tvars_of_core_type
+)
+"specconv.ml" 224 7569 7624 "specconv.ml" 224 7569 7627
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref cty "specconv.ml" 223 7522 7543 "specconv.ml" 223 7522 7546
+)
+"specconv.ml" 224 7569 7599 "specconv.ml" 224 7569 7627
+call(
+  stack
+)
+type(
+  string list
+)
+"specconv.ml" 224 7569 7582 "specconv.ml" 224 7569 7628
+call(
+  stack
+)
+type(
+  Ast_405.Ast_helper.str list
+)
+"specconv.ml" 224 7569 7629 "specconv.ml" 224 7569 7632
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref cty "specconv.ml" 223 7522 7543 "specconv.ml" 223 7522 7546
+)
+"specconv.ml" 224 7569 7573 "specconv.ml" 224 7569 7632
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"specconv.ml" 226 7638 7644 "specconv.ml" 226 7638 7647
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  def oty "specconv.ml" 228 7735 7737 "specconv.ml" 228 7735 7807
+)
+"specconv.ml" 226 7638 7650 "specconv.ml" 226 7638 7661
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  (Ast_405.Ast_helper.str * Ast_405.Parsetree.attributes *
+   Ast_405.Parsetree.core_type)
+  list -> Ast_405.Asttypes.closed_flag -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.object_
+)
+"specconv.ml" 226 7638 7663 "specconv.ml" 226 7638 7667
+type(
+  (int ->
+   Ast_405.Parsetree.core_type ->
+   Ast_405.Ast_helper.str * Ast_405.Parsetree.attributes *
+   Ast_405.Parsetree.core_type) ->
+  Ast_405.Parsetree.core_type list ->
+  (Ast_405.Ast_helper.str * Ast_405.Parsetree.attributes *
+   Ast_405.Parsetree.core_type)
+  list
+)
+ident(
+  ext_ref Ppxx.Utils.List.mapi
+)
+"specconv.ml" 226 7638 7673 "specconv.ml" 226 7638 7674
+type(
+  int
+)
+ident(
+  def n "specconv.ml" 226 7638 7675 "specconv.ml" 226 7638 7715
+)
+"specconv.ml" 226 7638 7675 "specconv.ml" 226 7638 7678
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  def cty "specconv.ml" 226 7638 7682 "specconv.ml" 226 7638 7715
+)
+"specconv.ml" 226 7638 7683 "specconv.ml" 226 7638 7688
+type(
+  int -> string Ast_405.Location.loc
+)
+ident(
+  int_ref label "specconv.ml" 222 7476 7482 "specconv.ml" 222 7476 7487
+)
+"specconv.ml" 226 7638 7689 "specconv.ml" 226 7638 7690
+type(
+  int
+)
+ident(
+  int_ref n "specconv.ml" 226 7638 7673 "specconv.ml" 226 7638 7674
+)
+"specconv.ml" 226 7638 7683 "specconv.ml" 226 7638 7690
+call(
+  stack
+)
+type(
+  string Ast_405.Location.loc
+)
+"specconv.ml" 226 7638 7692 "specconv.ml" 226 7638 7694
+type(
+  Ast_405.Parsetree.attributes
+)
+"specconv.ml" 226 7638 7696 "specconv.ml" 226 7638 7710
+type(
+  Ast_405.Parsetree.core_type -> Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref make_meth_type "specconv.ml" 223 7522 7528 "specconv.ml" 223 7522 7542
+)
+"specconv.ml" 226 7638 7711 "specconv.ml" 226 7638 7714
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref cty "specconv.ml" 226 7638 7675 "specconv.ml" 226 7638 7678
+)
+"specconv.ml" 226 7638 7696 "specconv.ml" 226 7638 7714
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"specconv.ml" 226 7638 7682 "specconv.ml" 226 7638 7715
+type(
+  string Ast_405.Location.loc * Ast_405.Parsetree.attributes *
+  Ast_405.Parsetree.core_type
+)
+"specconv.ml" 226 7638 7668 "specconv.ml" 226 7638 7716
+type(
+  int ->
+  Ast_405.Parsetree.core_type ->
+  Ast_405.Ast_helper.str * Ast_405.Parsetree.attributes *
+  Ast_405.Parsetree.core_type
+)
+"specconv.ml" 226 7638 7717 "specconv.ml" 226 7638 7721
+type(
+  Ast_405.Parsetree.core_type list
+)
+ident(
+  int_ref ctys "specconv.ml" 221 7439 7454 "specconv.ml" 221 7439 7458
+)
+"specconv.ml" 226 7638 7662 "specconv.ml" 226 7638 7722
+call(
+  stack
+)
+type(
+  (Ast_405.Ast_helper.str * Ast_405.Parsetree.attributes *
+   Ast_405.Parsetree.core_type)
+  list
+)
+"specconv.ml" 226 7638 7723 "specconv.ml" 226 7638 7729
+type(
+  Ast_405.Asttypes.closed_flag
+)
+"specconv.ml" 226 7638 7650 "specconv.ml" 226 7638 7729
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"specconv.ml" 228 7735 7737 "specconv.ml" 228 7735 7748
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Parsetree.row_field list ->
+  Ast_405.Asttypes.closed_flag ->
+  Ast_405.Asttypes.label list option -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.variant
+)
+"specconv.ml" 228 7735 7767 "specconv.ml" 228 7735 7774
+type(
+  Asttypes.label
+)
+ident(
+  int_ref mangled "specconv.ml" 221 7439 7445 "specconv.ml" 221 7439 7452
+)
+"specconv.ml" 228 7735 7776 "specconv.ml" 228 7735 7778
+type(
+  Parsetree.attributes
+)
+"specconv.ml" 228 7735 7780 "specconv.ml" 228 7735 7785
+type(
+  bool
+)
+"specconv.ml" 228 7735 7788 "specconv.ml" 228 7735 7791
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref oty "specconv.ml" 226 7638 7644 "specconv.ml" 226 7638 7647
+)
+"specconv.ml" 228 7735 7787 "specconv.ml" 228 7735 7792
+type(
+  Ast_405.Parsetree.core_type list
+)
+"specconv.ml" 228 7735 7751 "specconv.ml" 228 7735 7793
+type(
+  Ast_405.Parsetree.row_field
+)
+"specconv.ml" 228 7735 7749 "specconv.ml" 228 7735 7795
+type(
+  Ast_405.Parsetree.row_field list
+)
+"specconv.ml" 228 7735 7796 "specconv.ml" 228 7735 7802
+type(
+  Ast_405.Asttypes.closed_flag
+)
+"specconv.ml" 228 7735 7803 "specconv.ml" 228 7735 7807
+type(
+  Ast_405.Asttypes.label list option
+)
+"specconv.ml" 228 7735 7737 "specconv.ml" 228 7735 7807
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"specconv.ml" 226 7638 7640 "specconv.ml" 228 7735 7807
+type(
+  Ast_405.Parsetree.core_type
+)
+"specconv.ml" 223 7522 7524 "specconv.ml" 228 7735 7807
+type(
+  Ast_405.Parsetree.core_type
+)
+"specconv.ml" 222 7476 7478 "specconv.ml" 228 7735 7807
+type(
+  Ast_405.Parsetree.core_type
+)
+"specconv.ml" 221 7439 7441 "specconv.ml" 228 7735 7807
+type(
+  Ast_405.Parsetree.core_type
+)

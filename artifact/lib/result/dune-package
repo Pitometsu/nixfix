@@ -1,0 +1,14 @@
+(lang dune 1.10)
+(name result)
+(library
+ (name result)
+ (kind normal)
+ (archives (byte result.cma) (native result.cmxa))
+ (plugins (byte result.cma) (native result.cmxs))
+ (foreign_archives (native result.a))
+ (main_module_name Result)
+ (modes byte native)
+ (modules
+  (main_module_name Result)
+  (modules ((name Result) (obj_name result) (visibility public) (impl)))
+  (wrapped true)))

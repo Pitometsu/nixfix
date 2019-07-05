@@ -1,0 +1,27 @@
+added: [
+  "doc/cmdliner" {"D"}
+  "doc/cmdliner/CHANGES.md" {"F:S10940T1560960851.79"}
+  "doc/cmdliner/LICENSE.md" {"F:S735T1560960851.79"}
+  "doc/cmdliner/README.md" {"F:S1691T1560960851.79"}
+  "lib/cmdliner" {"D"}
+  "lib/cmdliner/META" {"F:S226T1560960851.5"}
+  "lib/cmdliner/cmdliner.a" {"F:S520950T1560960851.54"}
+  "lib/cmdliner/cmdliner.cma" {"F:S542750T1560960851.53"}
+  "lib/cmdliner/cmdliner.cmi" {"F:S13426T1560960851.52"}
+  "lib/cmdliner/cmdliner.cmti" {"F:S185841T1560960851.52"}
+  "lib/cmdliner/cmdliner.cmx" {"F:S10987T1560960851.54"}
+  "lib/cmdliner/cmdliner.cmxa" {"F:S7100T1560960851.54"}
+  "lib/cmdliner/cmdliner.cmxs" {"F:S469080T1560960851.56"}
+  "lib/cmdliner/cmdliner.mli" {"F:S62858T1560960851.5"}
+  "lib/cmdliner/cmdliner_arg.cmx" {"F:S7398T1560960851.54"}
+  "lib/cmdliner/cmdliner_base.cmx" {"F:S5603T1560960851.54"}
+  "lib/cmdliner/cmdliner_cline.cmx" {"F:S2824T1560960851.54"}
+  "lib/cmdliner/cmdliner_docgen.cmx" {"F:S2600T1560960851.54"}
+  "lib/cmdliner/cmdliner_info.cmx" {"F:S7401T1560960851.54"}
+  "lib/cmdliner/cmdliner_manpage.cmx" {"F:S6179T1560960851.54"}
+  "lib/cmdliner/cmdliner_msg.cmx" {"F:S2129T1560960851.54"}
+  "lib/cmdliner/cmdliner_suggest.cmx" {"F:S428T1560960851.54"}
+  "lib/cmdliner/cmdliner_term.cmx" {"F:S651T1560960851.54"}
+  "lib/cmdliner/cmdliner_trie.cmx" {"F:S1674T1560960851.54"}
+  "lib/cmdliner/opam" {"F:S1402T1560960851.53"}
+]

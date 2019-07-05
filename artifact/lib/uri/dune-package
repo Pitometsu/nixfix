@@ -1,0 +1,90 @@
+(lang dune 1.10)
+(name uri)
+(version 2.2.1)
+(library
+ (name uri)
+ (kind normal)
+ (archives (byte uri.cma) (native uri.cmxa))
+ (plugins (byte uri.cma) (native uri.cmxs))
+ (foreign_archives (native uri.a))
+ (requires re.posix stringext)
+ (main_module_name Uri)
+ (modes byte native)
+ (modules
+  (alias_module (name Uri__) (obj_name uri__) (visibility public) (impl))
+  (main_module_name Uri)
+  (modules
+   ((name Uri) (obj_name uri) (visibility public) (impl) (intf))
+   ((name Uri_re) (obj_name uri__Uri_re) (visibility public) (impl) (intf)))
+  (wrapped (transition "Please switch to using Uri.Re instead of Uri_re"))))
+(library
+ (name uri.services)
+ (kind normal)
+ (archives
+  (byte services/uri_services.cma)
+  (native services/uri_services.cmxa))
+ (plugins
+  (byte services/uri_services.cma)
+  (native services/uri_services.cmxs))
+ (foreign_archives (native services/uri_services.a))
+ (requires uri)
+ (main_module_name Uri_services)
+ (modes byte native)
+ (modules
+  (main_module_name Uri_services)
+  (modules
+   ((name Uri_services)
+    (obj_name uri_services)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name uri.services_full)
+ (kind normal)
+ (archives
+  (byte services_full/uri_services_full.cma)
+  (native services_full/uri_services_full.cmxa))
+ (plugins
+  (byte services_full/uri_services_full.cma)
+  (native services_full/uri_services_full.cmxs))
+ (foreign_archives (native services_full/uri_services_full.a))
+ (requires uri)
+ (main_module_name Uri_services_full)
+ (modes byte native)
+ (modules
+  (main_module_name Uri_services_full)
+  (modules
+   ((name Uri_services_full)
+    (obj_name uri_services_full)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))
+(library
+ (name uri.sexp)
+ (kind normal)
+ (archives (byte sexp/uri_sexp.cma) (native sexp/uri_sexp.cmxa))
+ (plugins (byte sexp/uri_sexp.cma) (native sexp/uri_sexp.cmxs))
+ (foreign_archives (native sexp/uri_sexp.a))
+ (requires ppx_sexp_conv.runtime-lib sexplib0 uri)
+ (main_module_name Uri_sexp)
+ (modes byte native)
+ (modules
+  (main_module_name Uri_sexp)
+  (modules
+   ((name Uri_sexp) (obj_name uri_sexp) (visibility public) (impl) (intf)))
+  (wrapped true)))
+(library
+ (name uri.top)
+ (kind normal)
+ (archives (byte top/uri_top.cma) (native top/uri_top.cmxa))
+ (plugins (byte top/uri_top.cma) (native top/uri_top.cmxs))
+ (foreign_archives (native top/uri_top.a))
+ (requires uri compiler-libs)
+ (main_module_name Uri_top)
+ (modes byte native)
+ (modules
+  (main_module_name Uri_top)
+  (modules ((name Uri_top) (obj_name uri_top) (visibility public) (impl)))
+  (wrapped true)))

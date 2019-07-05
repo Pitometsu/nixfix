@@ -1,0 +1,15 @@
+# How-to-build using OMake
+#
+# cp OMakeroot.in OMakeroot # to create OMakeroot for the first time
+
+# If OMakeroot is here, include OMyMakefile
+if $(file-exists OMakeroot)
+   include OMyMakefile
+   export
+
+MyOCamlfindInstall(ppx_implicits, lib ppx)
+
+.SUBDIRS: tests
+
+setup.ml: _oasis
+	oasis setup

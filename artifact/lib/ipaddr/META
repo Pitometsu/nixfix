@@ -1,0 +1,37 @@
+version = "3.1.0"
+description = ""
+requires = "macaddr"
+archive(byte) = "ipaddr.cma"
+archive(native) = "ipaddr.cmxa"
+plugin(byte) = "ipaddr.cma"
+plugin(native) = "ipaddr.cmxs"
+package "sexp" (
+  directory = "sexp"
+  version = "3.1.0"
+  description = ""
+  requires = "ipaddr sexplib0"
+  archive(byte) = "ipaddr_sexp.cma"
+  archive(native) = "ipaddr_sexp.cmxa"
+  plugin(byte) = "ipaddr_sexp.cma"
+  plugin(native) = "ipaddr_sexp.cmxs"
+)
+package "top" (
+  directory = "top"
+  version = "3.1.0"
+  description = ""
+  requires = "compiler-libs ipaddr macaddr.top"
+  archive(byte) = "ipaddr_top.cma"
+  archive(native) = "ipaddr_top.cmxa"
+  plugin(byte) = "ipaddr_top.cma"
+  plugin(native) = "ipaddr_top.cmxs"
+)
+package "unix" (
+  directory = "unix"
+  version = "3.1.0"
+  description = ""
+  requires = "ipaddr unix"
+  archive(byte) = "ipaddr_unix.cma"
+  archive(native) = "ipaddr_unix.cmxa"
+  plugin(byte) = "ipaddr_unix.cma"
+  plugin(native) = "ipaddr_unix.cmxs"
+)

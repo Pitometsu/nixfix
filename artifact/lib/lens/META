@@ -1,0 +1,25 @@
+version = "1.2.2"
+description = "Functional lenses"
+requires = ""
+archive(byte) = "lens.cma"
+archive(native) = "lens.cmxa"
+plugin(byte) = "lens.cma"
+plugin(native) = "lens.cmxs"
+package "ppx_deriving" (
+  directory = "ppx_deriving"
+  version = "1.2.2"
+  description = "[@@deriving lens]"
+  requires(ppx_driver) = "ppx_deriving.api"
+  archive(ppx_driver,byte) = "lens_ppx_deriving.cma"
+  archive(ppx_driver,native) = "lens_ppx_deriving.cmxa"
+  plugin(ppx_driver,byte) = "lens_ppx_deriving.cma"
+  plugin(ppx_driver,native) = "lens_ppx_deriving.cmxs"
+  # This is what dune uses to find out the runtime dependencies of
+  # a preprocessor
+  ppx_runtime_deps = "lens"
+  # This line makes things transparent for people mixing preprocessors
+  # and normal dependencies
+  requires(-ppx_driver) = "lens ppx_deriving.runtime"
+  requires(-ppx_driver,-custom_ppx) += "ppx_deriving"
+  ppxopt(-ppx_driver,-custom_ppx) = "ppx_deriving,package:lens.ppx_deriving"
+)

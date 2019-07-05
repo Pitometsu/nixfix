@@ -1,0 +1,59 @@
+(lang dune 1.10)
+(name cohttp-lwt-unix)
+(library
+ (name cohttp-lwt-unix)
+ (kind normal)
+ (synopsis "Lwt/Unix backend for Cohttp")
+ (archives (byte cohttp_lwt_unix.cma) (native cohttp_lwt_unix.cmxa))
+ (plugins (byte cohttp_lwt_unix.cma) (native cohttp_lwt_unix.cmxs))
+ (foreign_archives (native cohttp_lwt_unix.a))
+ (requires
+  ppx_sexp_conv.runtime-lib
+  fmt
+  logs
+  logs.lwt
+  conduit-lwt-unix
+  magic-mime
+  lwt.unix
+  cohttp
+  cohttp-lwt)
+ (main_module_name Cohttp_lwt_unix)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Cohttp_lwt_unix__)
+   (obj_name cohttp_lwt_unix__)
+   (visibility public)
+   (impl))
+  (main_module_name Cohttp_lwt_unix)
+  (modules
+   ((name Client)
+    (obj_name cohttp_lwt_unix__Client)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Cohttp_lwt_unix)
+    (obj_name cohttp_lwt_unix)
+    (visibility public)
+    (impl))
+   ((name Debug)
+    (obj_name cohttp_lwt_unix__Debug)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Io)
+    (obj_name cohttp_lwt_unix__Io)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Net)
+    (obj_name cohttp_lwt_unix__Net)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Server)
+    (obj_name cohttp_lwt_unix__Server)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

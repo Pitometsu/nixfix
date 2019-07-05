@@ -1,0 +1,16 @@
+(lang dune 1.10)
+(name qcheck)
+(version 0.9)
+(library
+ (name qcheck)
+ (kind normal)
+ (synopsis "compatibility library for qcheck")
+ (archives (byte qcheck.cma) (native qcheck.cmxa))
+ (plugins (byte qcheck.cma) (native qcheck.cmxs))
+ (foreign_archives (native qcheck.a))
+ (requires qcheck-core qcheck-core.runner qcheck-ounit)
+ (modes byte native)
+ (modules
+  (modules
+   ((name QCheck_runner) (obj_name QCheck_runner) (visibility public) (impl)))
+  (wrapped false)))

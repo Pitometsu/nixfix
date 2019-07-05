@@ -1,0 +1,1526 @@
+"src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+type(
+  string -> string
+)
+ident(
+  def xml_escaper "src/oUnitLoggerJUnit.ml" 45 2545 2545 "src/oUnitLoggerJUnit.ml" 1 0 -1
+)
+"src/oUnitLoggerJUnit.ml" 43 2497 2515 "src/oUnitLoggerJUnit.ml" 43 2497 2543
+type(
+  string -> string
+)
+ident(
+  ext_ref OUnitLoggerHTML.html_escaper
+)
+"src/oUnitLoggerJUnit.ml" 45 2545 2549 "src/oUnitLoggerJUnit.ml" 45 2545 2555
+type(
+  (int, unit -> unit) Hashtbl.t ->
+  string ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  unit
+)
+ident(
+  def render "src/oUnitLoggerJUnit.ml" 138 5187 5187 "src/oUnitLoggerJUnit.ml" 1 0 -1
+)
+"src/oUnitLoggerJUnit.ml" 45 2545 2556 "src/oUnitLoggerJUnit.ml" 45 2545 2560
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  def conf "src/oUnitLoggerJUnit.ml" 45 2545 2561 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+)
+"src/oUnitLoggerJUnit.ml" 45 2545 2561 "src/oUnitLoggerJUnit.ml" 45 2545 2563
+type(
+  string
+)
+ident(
+  def fn "src/oUnitLoggerJUnit.ml" 45 2545 2564 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+)
+"src/oUnitLoggerJUnit.ml" 45 2545 2564 "src/oUnitLoggerJUnit.ml" 45 2545 2570
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+ident(
+  def events "src/oUnitLoggerJUnit.ml" 46 2573 2575 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+)
+"src/oUnitLoggerJUnit.ml" 46 2573 2579 "src/oUnitLoggerJUnit.ml" 46 2573 2582
+type(
+  OUnitResultSummary.t
+)
+ident(
+  def smr "src/oUnitLoggerJUnit.ml" 49 2639 2641 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+)
+"src/oUnitLoggerJUnit.ml" 47 2585 2589 "src/oUnitLoggerJUnit.ml" 47 2585 2621
+type(
+  (int, unit -> unit) Hashtbl.t ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  OUnitResultSummary.t
+)
+ident(
+  ext_ref OUnitResultSummary.of_log_events
+)
+"src/oUnitLoggerJUnit.ml" 47 2585 2622 "src/oUnitLoggerJUnit.ml" 47 2585 2626
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref conf "src/oUnitLoggerJUnit.ml" 45 2545 2556 "src/oUnitLoggerJUnit.ml" 45 2545 2560
+)
+"src/oUnitLoggerJUnit.ml" 47 2585 2627 "src/oUnitLoggerJUnit.ml" 47 2585 2633
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+ident(
+  int_ref events "src/oUnitLoggerJUnit.ml" 45 2545 2564 "src/oUnitLoggerJUnit.ml" 45 2545 2570
+)
+"src/oUnitLoggerJUnit.ml" 47 2585 2589 "src/oUnitLoggerJUnit.ml" 47 2585 2633
+call(
+  stack
+)
+type(
+  OUnitResultSummary.t
+)
+"src/oUnitLoggerJUnit.ml" 49 2639 2645 "src/oUnitLoggerJUnit.ml" 49 2639 2648
+type(
+  out_channel
+)
+ident(
+  def chn "src/oUnitLoggerJUnit.ml" 50 2666 2668 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+)
+"src/oUnitLoggerJUnit.ml" 49 2639 2651 "src/oUnitLoggerJUnit.ml" 49 2639 2659
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"src/oUnitLoggerJUnit.ml" 49 2639 2660 "src/oUnitLoggerJUnit.ml" 49 2639 2662
+type(
+  string
+)
+ident(
+  int_ref fn "src/oUnitLoggerJUnit.ml" 45 2545 2561 "src/oUnitLoggerJUnit.ml" 45 2545 2563
+)
+"src/oUnitLoggerJUnit.ml" 49 2639 2651 "src/oUnitLoggerJUnit.ml" 49 2639 2662
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/oUnitLoggerJUnit.ml" 50 2666 2672 "src/oUnitLoggerJUnit.ml" 50 2666 2689
+type(
+  string * string option -> string
+)
+ident(
+  def string_of_failure "src/oUnitLoggerJUnit.ml" 57 2823 2825 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+)
+"src/oUnitLoggerJUnit.ml" 52 2705 2713 "src/oUnitLoggerJUnit.ml" 52 2705 2716
+type(
+  string
+)
+ident(
+  def msg "src/oUnitLoggerJUnit.ml" 53 2726 2736 "src/oUnitLoggerJUnit.ml" 53 2726 2757
+)
+"src/oUnitLoggerJUnit.ml" 52 2705 2718 "src/oUnitLoggerJUnit.ml" 52 2705 2722
+type(
+  string option
+)
+"src/oUnitLoggerJUnit.ml" 52 2705 2713 "src/oUnitLoggerJUnit.ml" 52 2705 2722
+type(
+  string * string option
+)
+"src/oUnitLoggerJUnit.ml" 53 2726 2736 "src/oUnitLoggerJUnit.ml" 53 2726 2739
+type(
+  string
+)
+ident(
+  int_ref msg "src/oUnitLoggerJUnit.ml" 52 2705 2713 "src/oUnitLoggerJUnit.ml" 52 2705 2716
+)
+"src/oUnitLoggerJUnit.ml" 53 2726 2739 "src/oUnitLoggerJUnit.ml" 53 2726 2740
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitLoggerJUnit.ml" 53 2726 2740 "src/oUnitLoggerJUnit.ml" 53 2726 2757
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 53 2726 2736 "src/oUnitLoggerJUnit.ml" 53 2726 2757
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 54 2758 2766 "src/oUnitLoggerJUnit.ml" 54 2758 2769
+type(
+  string
+)
+ident(
+  def msg "src/oUnitLoggerJUnit.ml" 55 2789 2799 "src/oUnitLoggerJUnit.ml" 55 2789 2817
+)
+"src/oUnitLoggerJUnit.ml" 54 2758 2776 "src/oUnitLoggerJUnit.ml" 54 2758 2785
+type(
+  string
+)
+ident(
+  def backtrace "src/oUnitLoggerJUnit.ml" 55 2789 2799 "src/oUnitLoggerJUnit.ml" 55 2789 2817
+)
+"src/oUnitLoggerJUnit.ml" 54 2758 2771 "src/oUnitLoggerJUnit.ml" 54 2758 2785
+type(
+  string option
+)
+"src/oUnitLoggerJUnit.ml" 54 2758 2766 "src/oUnitLoggerJUnit.ml" 54 2758 2785
+type(
+  string * string option
+)
+"src/oUnitLoggerJUnit.ml" 55 2789 2799 "src/oUnitLoggerJUnit.ml" 55 2789 2802
+type(
+  string
+)
+ident(
+  int_ref msg "src/oUnitLoggerJUnit.ml" 54 2758 2766 "src/oUnitLoggerJUnit.ml" 54 2758 2769
+)
+"src/oUnitLoggerJUnit.ml" 55 2789 2802 "src/oUnitLoggerJUnit.ml" 55 2789 2803
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitLoggerJUnit.ml" 55 2789 2803 "src/oUnitLoggerJUnit.ml" 55 2789 2807
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 55 2789 2807 "src/oUnitLoggerJUnit.ml" 55 2789 2808
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/oUnitLoggerJUnit.ml" 55 2789 2808 "src/oUnitLoggerJUnit.ml" 55 2789 2817
+type(
+  string
+)
+ident(
+  int_ref backtrace "src/oUnitLoggerJUnit.ml" 54 2758 2776 "src/oUnitLoggerJUnit.ml" 54 2758 2785
+)
+"src/oUnitLoggerJUnit.ml" 55 2789 2803 "src/oUnitLoggerJUnit.ml" 55 2789 2817
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 55 2789 2799 "src/oUnitLoggerJUnit.ml" 55 2789 2817
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 51 2692 2696 "src/oUnitLoggerJUnit.ml" 55 2789 2817
+type(
+  string * string option -> string
+)
+"src/oUnitLoggerJUnit.ml" 57 2823 2829 "src/oUnitLoggerJUnit.ml" 57 2823 2835
+type(
+  ('a, out_channel, unit) format -> 'a
+)
+ident(
+  def printf "src/oUnitLoggerJUnit.ml" 58 2868 2872 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+)
+"src/oUnitLoggerJUnit.ml" 57 2823 2836 "src/oUnitLoggerJUnit.ml" 57 2823 2839
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  def fmt "src/oUnitLoggerJUnit.ml" 57 2823 2842 "src/oUnitLoggerJUnit.ml" 57 2823 2864
+)
+"src/oUnitLoggerJUnit.ml" 57 2823 2842 "src/oUnitLoggerJUnit.ml" 57 2823 2856
+type(
+  out_channel -> ('a, out_channel, unit) format -> 'a
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"src/oUnitLoggerJUnit.ml" 57 2823 2857 "src/oUnitLoggerJUnit.ml" 57 2823 2860
+type(
+  out_channel
+)
+ident(
+  int_ref chn "src/oUnitLoggerJUnit.ml" 49 2639 2645 "src/oUnitLoggerJUnit.ml" 49 2639 2648
+)
+"src/oUnitLoggerJUnit.ml" 57 2823 2861 "src/oUnitLoggerJUnit.ml" 57 2823 2864
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  int_ref fmt "src/oUnitLoggerJUnit.ml" 57 2823 2836 "src/oUnitLoggerJUnit.ml" 57 2823 2839
+)
+"src/oUnitLoggerJUnit.ml" 57 2823 2842 "src/oUnitLoggerJUnit.ml" 57 2823 2864
+call(
+  tail
+)
+type(
+  'a
+)
+"src/oUnitLoggerJUnit.ml" 58 2868 2872 "src/oUnitLoggerJUnit.ml" 58 2868 2878
+type(
+  (string ->
+   string -> string -> string -> string -> int -> int -> int -> float -> unit,
+   out_channel, unit)
+  format ->
+  string ->
+  string -> string -> string -> string -> int -> int -> int -> float -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerJUnit.ml" 57 2823 2829 "src/oUnitLoggerJUnit.ml" 57 2823 2835
+)
+"src/oUnitLoggerJUnit.ml" 58 2868 2879 "src/oUnitLoggerJUnit.ml" 70 3088 3107
+type(
+  (string ->
+   string -> string -> string -> string -> int -> int -> int -> float -> unit,
+   out_channel, unit)
+  format
+)
+"src/oUnitLoggerJUnit.ml" 71 3108 3112 "src/oUnitLoggerJUnit.ml" 71 3108 3115
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerJUnit.ml" 46 2573 2579 "src/oUnitLoggerJUnit.ml" 46 2573 2582
+)
+"src/oUnitLoggerJUnit.ml" 71 3108 3112 "src/oUnitLoggerJUnit.ml" 71 3108 3123
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 72 3124 3129 "src/oUnitLoggerJUnit.ml" 72 3124 3140
+type(
+  string -> string
+)
+ident(
+  int_ref xml_escaper "src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+)
+"src/oUnitLoggerJUnit.ml" 72 3124 3141 "src/oUnitLoggerJUnit.ml" 72 3124 3144
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerJUnit.ml" 46 2573 2579 "src/oUnitLoggerJUnit.ml" 46 2573 2582
+)
+"src/oUnitLoggerJUnit.ml" 72 3124 3141 "src/oUnitLoggerJUnit.ml" 72 3124 3155
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 72 3124 3128 "src/oUnitLoggerJUnit.ml" 72 3124 3156
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 73 3157 3162 "src/oUnitLoggerJUnit.ml" 73 3157 3173
+type(
+  string -> string
+)
+ident(
+  int_ref xml_escaper "src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+)
+"src/oUnitLoggerJUnit.ml" 73 3157 3174 "src/oUnitLoggerJUnit.ml" 73 3157 3177
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerJUnit.ml" 46 2573 2579 "src/oUnitLoggerJUnit.ml" 46 2573 2582
+)
+"src/oUnitLoggerJUnit.ml" 73 3157 3174 "src/oUnitLoggerJUnit.ml" 73 3157 3188
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 73 3157 3161 "src/oUnitLoggerJUnit.ml" 73 3157 3189
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 74 3190 3195 "src/oUnitLoggerJUnit.ml" 74 3190 3206
+type(
+  string -> string
+)
+ident(
+  int_ref xml_escaper "src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+)
+"src/oUnitLoggerJUnit.ml" 74 3190 3208 "src/oUnitLoggerJUnit.ml" 74 3190 3220
+type(
+  ?tz:bool -> float -> string
+)
+ident(
+  ext_ref OUnitUtils.date_iso8601
+)
+"src/oUnitLoggerJUnit.ml" 74 3190 3225 "src/oUnitLoggerJUnit.ml" 74 3190 3230
+type(
+  bool
+)
+"src/oUnitLoggerJUnit.ml" 74 3190 3231 "src/oUnitLoggerJUnit.ml" 74 3190 3234
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerJUnit.ml" 46 2573 2579 "src/oUnitLoggerJUnit.ml" 46 2573 2582
+)
+"src/oUnitLoggerJUnit.ml" 74 3190 3231 "src/oUnitLoggerJUnit.ml" 74 3190 3243
+type(
+  float
+)
+"src/oUnitLoggerJUnit.ml" 74 3190 3207 "src/oUnitLoggerJUnit.ml" 74 3190 3244
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 74 3190 3194 "src/oUnitLoggerJUnit.ml" 74 3190 3245
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 75 3246 3251 "src/oUnitLoggerJUnit.ml" 75 3246 3262
+type(
+  string -> string
+)
+ident(
+  int_ref xml_escaper "src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+)
+"src/oUnitLoggerJUnit.ml" 75 3246 3264 "src/oUnitLoggerJUnit.ml" 75 3246 3268
+type(
+  unit -> string
+)
+ident(
+  ext_ref OUnitUtils.fqdn
+)
+"src/oUnitLoggerJUnit.ml" 75 3246 3269 "src/oUnitLoggerJUnit.ml" 75 3246 3271
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 75 3246 3263 "src/oUnitLoggerJUnit.ml" 75 3246 3272
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 75 3246 3250 "src/oUnitLoggerJUnit.ml" 75 3246 3273
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 76 3274 3278 "src/oUnitLoggerJUnit.ml" 76 3274 3281
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerJUnit.ml" 46 2573 2579 "src/oUnitLoggerJUnit.ml" 46 2573 2582
+)
+"src/oUnitLoggerJUnit.ml" 76 3274 3278 "src/oUnitLoggerJUnit.ml" 76 3274 3297
+type(
+  int
+)
+"src/oUnitLoggerJUnit.ml" 77 3298 3303 "src/oUnitLoggerJUnit.ml" 77 3298 3306
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerJUnit.ml" 46 2573 2579 "src/oUnitLoggerJUnit.ml" 46 2573 2582
+)
+"src/oUnitLoggerJUnit.ml" 77 3298 3303 "src/oUnitLoggerJUnit.ml" 77 3298 3315
+type(
+  int
+)
+"src/oUnitLoggerJUnit.ml" 77 3298 3316 "src/oUnitLoggerJUnit.ml" 77 3298 3317
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/oUnitLoggerJUnit.ml" 77 3298 3318 "src/oUnitLoggerJUnit.ml" 77 3298 3321
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerJUnit.ml" 46 2573 2579 "src/oUnitLoggerJUnit.ml" 46 2573 2582
+)
+"src/oUnitLoggerJUnit.ml" 77 3298 3318 "src/oUnitLoggerJUnit.ml" 77 3298 3327
+type(
+  int
+)
+"src/oUnitLoggerJUnit.ml" 77 3298 3302 "src/oUnitLoggerJUnit.ml" 77 3298 3328
+type(
+  int
+)
+"src/oUnitLoggerJUnit.ml" 78 3329 3333 "src/oUnitLoggerJUnit.ml" 78 3329 3336
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerJUnit.ml" 46 2573 2579 "src/oUnitLoggerJUnit.ml" 46 2573 2582
+)
+"src/oUnitLoggerJUnit.ml" 78 3329 3333 "src/oUnitLoggerJUnit.ml" 78 3329 3343
+type(
+  int
+)
+"src/oUnitLoggerJUnit.ml" 79 3344 3348 "src/oUnitLoggerJUnit.ml" 79 3344 3351
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerJUnit.ml" 46 2573 2579 "src/oUnitLoggerJUnit.ml" 46 2573 2582
+)
+"src/oUnitLoggerJUnit.ml" 79 3344 3348 "src/oUnitLoggerJUnit.ml" 79 3344 3364
+type(
+  float
+)
+"src/oUnitLoggerJUnit.ml" 58 2868 2872 "src/oUnitLoggerJUnit.ml" 79 3344 3364
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 80 3366 3370 "src/oUnitLoggerJUnit.ml" 80 3366 3376
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerJUnit.ml" 57 2823 2829 "src/oUnitLoggerJUnit.ml" 57 2823 2835
+)
+"src/oUnitLoggerJUnit.ml" 80 3366 3377 "src/oUnitLoggerJUnit.ml" 81 3380 3400
+type(
+  (unit, out_channel, unit) format
+)
+"src/oUnitLoggerJUnit.ml" 80 3366 3370 "src/oUnitLoggerJUnit.ml" 81 3380 3400
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 82 3402 3406 "src/oUnitLoggerJUnit.ml" 82 3402 3415
+type(
+  (string * string -> unit) -> (string * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitLoggerJUnit.ml" 83 3416 3428 "src/oUnitLoggerJUnit.ml" 83 3416 3429
+type(
+  string
+)
+ident(
+  def k "src/oUnitLoggerJUnit.ml" 84 3437 3446 "src/oUnitLoggerJUnit.ml" 86 3500 3542
+)
+"src/oUnitLoggerJUnit.ml" 83 3416 3431 "src/oUnitLoggerJUnit.ml" 83 3416 3432
+type(
+  string
+)
+ident(
+  def v "src/oUnitLoggerJUnit.ml" 84 3437 3446 "src/oUnitLoggerJUnit.ml" 86 3500 3542
+)
+"src/oUnitLoggerJUnit.ml" 83 3416 3427 "src/oUnitLoggerJUnit.ml" 83 3416 3433
+type(
+  string * string
+)
+"src/oUnitLoggerJUnit.ml" 84 3437 3446 "src/oUnitLoggerJUnit.ml" 84 3437 3452
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerJUnit.ml" 57 2823 2829 "src/oUnitLoggerJUnit.ml" 57 2823 2835
+)
+"src/oUnitLoggerJUnit.ml" 84 3437 3453 "src/oUnitLoggerJUnit.ml" 85 3456 3499
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerJUnit.ml" 86 3500 3512 "src/oUnitLoggerJUnit.ml" 86 3500 3523
+type(
+  string -> string
+)
+ident(
+  int_ref xml_escaper "src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+)
+"src/oUnitLoggerJUnit.ml" 86 3500 3524 "src/oUnitLoggerJUnit.ml" 86 3500 3525
+type(
+  string
+)
+ident(
+  int_ref k "src/oUnitLoggerJUnit.ml" 83 3416 3428 "src/oUnitLoggerJUnit.ml" 83 3416 3429
+)
+"src/oUnitLoggerJUnit.ml" 86 3500 3511 "src/oUnitLoggerJUnit.ml" 86 3500 3526
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 86 3500 3528 "src/oUnitLoggerJUnit.ml" 86 3500 3539
+type(
+  string -> string
+)
+ident(
+  int_ref xml_escaper "src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+)
+"src/oUnitLoggerJUnit.ml" 86 3500 3540 "src/oUnitLoggerJUnit.ml" 86 3500 3541
+type(
+  string
+)
+ident(
+  int_ref v "src/oUnitLoggerJUnit.ml" 83 3416 3431 "src/oUnitLoggerJUnit.ml" 83 3416 3432
+)
+"src/oUnitLoggerJUnit.ml" 86 3500 3527 "src/oUnitLoggerJUnit.ml" 86 3500 3542
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 84 3437 3446 "src/oUnitLoggerJUnit.ml" 86 3500 3542
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 83 3416 3422 "src/oUnitLoggerJUnit.ml" 86 3500 3543
+type(
+  string * string -> unit
+)
+"src/oUnitLoggerJUnit.ml" 87 3544 3550 "src/oUnitLoggerJUnit.ml" 87 3544 3553
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerJUnit.ml" 46 2573 2579 "src/oUnitLoggerJUnit.ml" 46 2573 2582
+)
+"src/oUnitLoggerJUnit.ml" 87 3544 3550 "src/oUnitLoggerJUnit.ml" 87 3544 3558
+type(
+  (string * string) list
+)
+"src/oUnitLoggerJUnit.ml" 82 3402 3406 "src/oUnitLoggerJUnit.ml" 87 3544 3558
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 88 3560 3564 "src/oUnitLoggerJUnit.ml" 88 3560 3570
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerJUnit.ml" 57 2823 2829 "src/oUnitLoggerJUnit.ml" 57 2823 2835
+)
+"src/oUnitLoggerJUnit.ml" 88 3560 3571 "src/oUnitLoggerJUnit.ml" 89 3574 3595
+type(
+  (unit, out_channel, unit) format
+)
+"src/oUnitLoggerJUnit.ml" 88 3560 3564 "src/oUnitLoggerJUnit.ml" 89 3574 3595
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 90 3597 3601 "src/oUnitLoggerJUnit.ml" 90 3597 3610
+type(
+  (OUnitResultSummary.test_data -> unit) ->
+  OUnitResultSummary.test_data list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitLoggerJUnit.ml" 91 3611 3622 "src/oUnitLoggerJUnit.ml" 91 3611 3631
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  def test_data "src/oUnitLoggerJUnit.ml" 92 3635 3644 "src/oUnitLoggerJUnit.ml" 121 4842 4861
+)
+"src/oUnitLoggerJUnit.ml" 92 3635 3644 "src/oUnitLoggerJUnit.ml" 92 3635 3650
+type(
+  (string -> string -> float -> unit, out_channel, unit) format ->
+  string -> string -> float -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerJUnit.ml" 57 2823 2829 "src/oUnitLoggerJUnit.ml" 57 2823 2835
+)
+"src/oUnitLoggerJUnit.ml" 92 3635 3651 "src/oUnitLoggerJUnit.ml" 93 3654 3707
+type(
+  (string -> string -> float -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerJUnit.ml" 94 3708 3720 "src/oUnitLoggerJUnit.ml" 94 3708 3731
+type(
+  string -> string
+)
+ident(
+  int_ref xml_escaper "src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+)
+"src/oUnitLoggerJUnit.ml" 94 3708 3732 "src/oUnitLoggerJUnit.ml" 94 3708 3741
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  int_ref test_data "src/oUnitLoggerJUnit.ml" 91 3611 3622 "src/oUnitLoggerJUnit.ml" 91 3611 3631
+)
+"src/oUnitLoggerJUnit.ml" 94 3708 3732 "src/oUnitLoggerJUnit.ml" 94 3708 3751
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 94 3708 3719 "src/oUnitLoggerJUnit.ml" 94 3708 3752
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 95 3753 3765 "src/oUnitLoggerJUnit.ml" 95 3753 3776
+type(
+  string -> string
+)
+ident(
+  int_ref xml_escaper "src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+)
+"src/oUnitLoggerJUnit.ml" 95 3753 3777 "src/oUnitLoggerJUnit.ml" 95 3753 3786
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  int_ref test_data "src/oUnitLoggerJUnit.ml" 91 3611 3622 "src/oUnitLoggerJUnit.ml" 91 3611 3631
+)
+"src/oUnitLoggerJUnit.ml" 95 3753 3777 "src/oUnitLoggerJUnit.ml" 95 3753 3796
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 95 3753 3764 "src/oUnitLoggerJUnit.ml" 95 3753 3797
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 96 3798 3810 "src/oUnitLoggerJUnit.ml" 96 3798 3819
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  int_ref test_data "src/oUnitLoggerJUnit.ml" 91 3611 3622 "src/oUnitLoggerJUnit.ml" 91 3611 3631
+)
+"src/oUnitLoggerJUnit.ml" 96 3798 3810 "src/oUnitLoggerJUnit.ml" 96 3798 3833
+type(
+  float
+)
+"src/oUnitLoggerJUnit.ml" 96 3798 3834 "src/oUnitLoggerJUnit.ml" 96 3798 3836
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/oUnitLoggerJUnit.ml" 96 3798 3837 "src/oUnitLoggerJUnit.ml" 96 3798 3846
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  int_ref test_data "src/oUnitLoggerJUnit.ml" 91 3611 3622 "src/oUnitLoggerJUnit.ml" 91 3611 3631
+)
+"src/oUnitLoggerJUnit.ml" 96 3798 3837 "src/oUnitLoggerJUnit.ml" 96 3798 3862
+type(
+  float
+)
+"src/oUnitLoggerJUnit.ml" 96 3798 3809 "src/oUnitLoggerJUnit.ml" 96 3798 3863
+type(
+  float
+)
+"src/oUnitLoggerJUnit.ml" 92 3635 3644 "src/oUnitLoggerJUnit.ml" 96 3798 3863
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 98 3880 3897 "src/oUnitLoggerJUnit.ml" 98 3880 3906
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  int_ref test_data "src/oUnitLoggerJUnit.ml" 91 3611 3622 "src/oUnitLoggerJUnit.ml" 91 3611 3631
+)
+"src/oUnitLoggerJUnit.ml" 98 3880 3897 "src/oUnitLoggerJUnit.ml" 98 3880 3918
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerJUnit.ml" 99 3924 3939 "src/oUnitLoggerJUnit.ml" 99 3924 3947
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerJUnit.ml" 99 3924 3956 "src/oUnitLoggerJUnit.ml" 99 3924 3957
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 99 3924 3950 "src/oUnitLoggerJUnit.ml" 99 3924 3957
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerJUnit.ml" 99 3924 3939 "src/oUnitLoggerJUnit.ml" 99 3924 3957
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerJUnit.ml" 100 3961 3978 "src/oUnitLoggerJUnit.ml" 100 3961 3980
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 101 3981 4004 "src/oUnitLoggerJUnit.ml" 101 3981 4007
+type(
+  string
+)
+ident(
+  def msg "src/oUnitLoggerJUnit.ml" 102 4023 4040 "src/oUnitLoggerJUnit.ml" 105 4147 4216
+)
+"src/oUnitLoggerJUnit.ml" 101 3981 4009 "src/oUnitLoggerJUnit.ml" 101 3981 4018
+type(
+  OUnitTest.backtrace
+)
+ident(
+  def backtrace "src/oUnitLoggerJUnit.ml" 102 4023 4040 "src/oUnitLoggerJUnit.ml" 105 4147 4216
+)
+"src/oUnitLoggerJUnit.ml" 101 3981 3996 "src/oUnitLoggerJUnit.ml" 101 3981 4019
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerJUnit.ml" 102 4023 4040 "src/oUnitLoggerJUnit.ml" 102 4023 4046
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerJUnit.ml" 57 2823 2829 "src/oUnitLoggerJUnit.ml" 57 2823 2835
+)
+"src/oUnitLoggerJUnit.ml" 102 4023 4047 "src/oUnitLoggerJUnit.ml" 103 4050 4109
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerJUnit.ml" 104 4110 4130 "src/oUnitLoggerJUnit.ml" 104 4110 4141
+type(
+  string -> string
+)
+ident(
+  int_ref xml_escaper "src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+)
+"src/oUnitLoggerJUnit.ml" 104 4110 4142 "src/oUnitLoggerJUnit.ml" 104 4110 4145
+type(
+  string
+)
+ident(
+  int_ref msg "src/oUnitLoggerJUnit.ml" 101 3981 4004 "src/oUnitLoggerJUnit.ml" 101 3981 4007
+)
+"src/oUnitLoggerJUnit.ml" 104 4110 4129 "src/oUnitLoggerJUnit.ml" 104 4110 4146
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 105 4147 4167 "src/oUnitLoggerJUnit.ml" 105 4147 4178
+type(
+  string -> string
+)
+ident(
+  int_ref xml_escaper "src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+)
+"src/oUnitLoggerJUnit.ml" 105 4147 4180 "src/oUnitLoggerJUnit.ml" 105 4147 4197
+type(
+  string * OUnitTest.backtrace -> string
+)
+ident(
+  int_ref string_of_failure "src/oUnitLoggerJUnit.ml" 50 2666 2672 "src/oUnitLoggerJUnit.ml" 50 2666 2689
+)
+"src/oUnitLoggerJUnit.ml" 105 4147 4199 "src/oUnitLoggerJUnit.ml" 105 4147 4202
+type(
+  string
+)
+ident(
+  int_ref msg "src/oUnitLoggerJUnit.ml" 101 3981 4004 "src/oUnitLoggerJUnit.ml" 101 3981 4007
+)
+"src/oUnitLoggerJUnit.ml" 105 4147 4204 "src/oUnitLoggerJUnit.ml" 105 4147 4213
+type(
+  OUnitTest.backtrace
+)
+ident(
+  int_ref backtrace "src/oUnitLoggerJUnit.ml" 101 3981 4009 "src/oUnitLoggerJUnit.ml" 101 3981 4018
+)
+"src/oUnitLoggerJUnit.ml" 105 4147 4198 "src/oUnitLoggerJUnit.ml" 105 4147 4214
+type(
+  string * OUnitTest.backtrace
+)
+"src/oUnitLoggerJUnit.ml" 105 4147 4179 "src/oUnitLoggerJUnit.ml" 105 4147 4215
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 105 4147 4166 "src/oUnitLoggerJUnit.ml" 105 4147 4216
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 102 4023 4040 "src/oUnitLoggerJUnit.ml" 105 4147 4216
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 106 4217 4242 "src/oUnitLoggerJUnit.ml" 106 4217 4245
+type(
+  string
+)
+ident(
+  def msg "src/oUnitLoggerJUnit.ml" 107 4264 4281 "src/oUnitLoggerJUnit.ml" 110 4394 4463
+)
+"src/oUnitLoggerJUnit.ml" 106 4217 4247 "src/oUnitLoggerJUnit.ml" 106 4217 4248
+type(
+  OUnitLogger.position option
+)
+"src/oUnitLoggerJUnit.ml" 106 4217 4250 "src/oUnitLoggerJUnit.ml" 106 4217 4259
+type(
+  OUnitTest.backtrace
+)
+ident(
+  def backtrace "src/oUnitLoggerJUnit.ml" 107 4264 4281 "src/oUnitLoggerJUnit.ml" 110 4394 4463
+)
+"src/oUnitLoggerJUnit.ml" 106 4217 4232 "src/oUnitLoggerJUnit.ml" 106 4217 4260
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerJUnit.ml" 107 4264 4281 "src/oUnitLoggerJUnit.ml" 107 4264 4287
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerJUnit.ml" 57 2823 2829 "src/oUnitLoggerJUnit.ml" 57 2823 2835
+)
+"src/oUnitLoggerJUnit.ml" 107 4264 4288 "src/oUnitLoggerJUnit.ml" 108 4291 4356
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerJUnit.ml" 109 4357 4377 "src/oUnitLoggerJUnit.ml" 109 4357 4388
+type(
+  string -> string
+)
+ident(
+  int_ref xml_escaper "src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+)
+"src/oUnitLoggerJUnit.ml" 109 4357 4389 "src/oUnitLoggerJUnit.ml" 109 4357 4392
+type(
+  string
+)
+ident(
+  int_ref msg "src/oUnitLoggerJUnit.ml" 106 4217 4242 "src/oUnitLoggerJUnit.ml" 106 4217 4245
+)
+"src/oUnitLoggerJUnit.ml" 109 4357 4376 "src/oUnitLoggerJUnit.ml" 109 4357 4393
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 110 4394 4414 "src/oUnitLoggerJUnit.ml" 110 4394 4425
+type(
+  string -> string
+)
+ident(
+  int_ref xml_escaper "src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+)
+"src/oUnitLoggerJUnit.ml" 110 4394 4427 "src/oUnitLoggerJUnit.ml" 110 4394 4444
+type(
+  string * OUnitTest.backtrace -> string
+)
+ident(
+  int_ref string_of_failure "src/oUnitLoggerJUnit.ml" 50 2666 2672 "src/oUnitLoggerJUnit.ml" 50 2666 2689
+)
+"src/oUnitLoggerJUnit.ml" 110 4394 4446 "src/oUnitLoggerJUnit.ml" 110 4394 4449
+type(
+  string
+)
+ident(
+  int_ref msg "src/oUnitLoggerJUnit.ml" 106 4217 4242 "src/oUnitLoggerJUnit.ml" 106 4217 4245
+)
+"src/oUnitLoggerJUnit.ml" 110 4394 4451 "src/oUnitLoggerJUnit.ml" 110 4394 4460
+type(
+  OUnitTest.backtrace
+)
+ident(
+  int_ref backtrace "src/oUnitLoggerJUnit.ml" 106 4217 4250 "src/oUnitLoggerJUnit.ml" 106 4217 4259
+)
+"src/oUnitLoggerJUnit.ml" 110 4394 4445 "src/oUnitLoggerJUnit.ml" 110 4394 4461
+type(
+  string * OUnitTest.backtrace
+)
+"src/oUnitLoggerJUnit.ml" 110 4394 4426 "src/oUnitLoggerJUnit.ml" 110 4394 4462
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 110 4394 4413 "src/oUnitLoggerJUnit.ml" 110 4394 4463
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 107 4264 4281 "src/oUnitLoggerJUnit.ml" 110 4394 4463
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 111 4464 4485 "src/oUnitLoggerJUnit.ml" 111 4464 4488
+type(
+  string
+)
+ident(
+  def msg "src/oUnitLoggerJUnit.ml" 112 4492 4509 "src/oUnitLoggerJUnit.ml" 114 4580 4616
+)
+"src/oUnitLoggerJUnit.ml" 111 4464 4479 "src/oUnitLoggerJUnit.ml" 111 4464 4488
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerJUnit.ml" 112 4492 4509 "src/oUnitLoggerJUnit.ml" 112 4492 4515
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerJUnit.ml" 57 2823 2829 "src/oUnitLoggerJUnit.ml" 57 2823 2835
+)
+"src/oUnitLoggerJUnit.ml" 112 4492 4516 "src/oUnitLoggerJUnit.ml" 113 4519 4579
+type(
+  (string -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerJUnit.ml" 114 4580 4600 "src/oUnitLoggerJUnit.ml" 114 4580 4611
+type(
+  string -> string
+)
+ident(
+  int_ref xml_escaper "src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+)
+"src/oUnitLoggerJUnit.ml" 114 4580 4612 "src/oUnitLoggerJUnit.ml" 114 4580 4615
+type(
+  string
+)
+ident(
+  int_ref msg "src/oUnitLoggerJUnit.ml" 111 4464 4485 "src/oUnitLoggerJUnit.ml" 111 4464 4488
+)
+"src/oUnitLoggerJUnit.ml" 114 4580 4599 "src/oUnitLoggerJUnit.ml" 114 4580 4616
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 112 4492 4509 "src/oUnitLoggerJUnit.ml" 114 4580 4616
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 115 4617 4641 "src/oUnitLoggerJUnit.ml" 115 4617 4652
+type(
+  OUnitTest.test_length
+)
+ident(
+  def test_length "src/oUnitLoggerJUnit.ml" 116 4656 4673 "src/oUnitLoggerJUnit.ml" 118 4760 4808
+)
+"src/oUnitLoggerJUnit.ml" 115 4617 4632 "src/oUnitLoggerJUnit.ml" 115 4617 4652
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerJUnit.ml" 116 4656 4673 "src/oUnitLoggerJUnit.ml" 116 4656 4679
+type(
+  (float -> unit, out_channel, unit) format -> float -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerJUnit.ml" 57 2823 2829 "src/oUnitLoggerJUnit.ml" 57 2823 2835
+)
+"src/oUnitLoggerJUnit.ml" 116 4656 4680 "src/oUnitLoggerJUnit.ml" 117 4683 4759
+type(
+  (float -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerJUnit.ml" 118 4760 4780 "src/oUnitLoggerJUnit.ml" 118 4760 4795
+type(
+  OUnitTest.test_length -> float
+)
+ident(
+  ext_ref OUnitTest.delay_of_length
+)
+"src/oUnitLoggerJUnit.ml" 118 4760 4796 "src/oUnitLoggerJUnit.ml" 118 4760 4807
+type(
+  OUnitTest.test_length
+)
+ident(
+  int_ref test_length "src/oUnitLoggerJUnit.ml" 115 4617 4641 "src/oUnitLoggerJUnit.ml" 115 4617 4652
+)
+"src/oUnitLoggerJUnit.ml" 118 4760 4779 "src/oUnitLoggerJUnit.ml" 118 4760 4808
+call(
+  stack
+)
+type(
+  float
+)
+"src/oUnitLoggerJUnit.ml" 116 4656 4673 "src/oUnitLoggerJUnit.ml" 118 4760 4808
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 97 3865 3874 "src/oUnitLoggerJUnit.ml" 119 4809 4821
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 120 4823 4832 "src/oUnitLoggerJUnit.ml" 120 4823 4838
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerJUnit.ml" 57 2823 2829 "src/oUnitLoggerJUnit.ml" 57 2823 2835
+)
+"src/oUnitLoggerJUnit.ml" 120 4823 4839 "src/oUnitLoggerJUnit.ml" 121 4842 4861
+type(
+  (unit, out_channel, unit) format
+)
+"src/oUnitLoggerJUnit.ml" 120 4823 4832 "src/oUnitLoggerJUnit.ml" 121 4842 4861
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 97 3865 3874 "src/oUnitLoggerJUnit.ml" 121 4842 4861
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 92 3635 3644 "src/oUnitLoggerJUnit.ml" 121 4842 4861
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 91 3611 3617 "src/oUnitLoggerJUnit.ml" 121 4842 4862
+type(
+  OUnitResultSummary.test_data -> unit
+)
+"src/oUnitLoggerJUnit.ml" 122 4863 4869 "src/oUnitLoggerJUnit.ml" 122 4863 4872
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerJUnit.ml" 46 2573 2579 "src/oUnitLoggerJUnit.ml" 46 2573 2582
+)
+"src/oUnitLoggerJUnit.ml" 122 4863 4869 "src/oUnitLoggerJUnit.ml" 122 4863 4878
+type(
+  OUnitResultSummary.test_data list
+)
+"src/oUnitLoggerJUnit.ml" 90 3597 3601 "src/oUnitLoggerJUnit.ml" 122 4863 4878
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 123 4880 4884 "src/oUnitLoggerJUnit.ml" 123 4880 4890
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerJUnit.ml" 57 2823 2829 "src/oUnitLoggerJUnit.ml" 57 2823 2835
+)
+"src/oUnitLoggerJUnit.ml" 123 4880 4891 "src/oUnitLoggerJUnit.ml" 124 4894 4914
+type(
+  (unit, out_channel, unit) format
+)
+"src/oUnitLoggerJUnit.ml" 123 4880 4884 "src/oUnitLoggerJUnit.ml" 124 4894 4914
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 125 4916 4920 "src/oUnitLoggerJUnit.ml" 125 4916 4929
+type(
+  ((OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event -> unit) ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitLoggerJUnit.ml" 126 4930 4941 "src/oUnitLoggerJUnit.ml" 126 4930 4950
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event
+)
+ident(
+  def log_event "src/oUnitLoggerJUnit.ml" 127 4954 4963 "src/oUnitLoggerJUnit.ml" 128 5014 5068
+)
+"src/oUnitLoggerJUnit.ml" 127 4954 4963 "src/oUnitLoggerJUnit.ml" 127 4954 4972
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitLoggerJUnit.ml" 127 4954 4978 "src/oUnitLoggerJUnit.ml" 127 4954 4979
+type(
+  string
+)
+ident(
+  def s "src/oUnitLoggerJUnit.ml" 127 4954 4983 "src/oUnitLoggerJUnit.ml" 127 4954 5012
+)
+"src/oUnitLoggerJUnit.ml" 127 4954 4983 "src/oUnitLoggerJUnit.ml" 127 4954 4989
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerJUnit.ml" 57 2823 2829 "src/oUnitLoggerJUnit.ml" 57 2823 2835
+)
+"src/oUnitLoggerJUnit.ml" 127 4954 4990 "src/oUnitLoggerJUnit.ml" 127 4954 4996
+type(
+  (string -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerJUnit.ml" 127 4954 4998 "src/oUnitLoggerJUnit.ml" 127 4954 5009
+type(
+  string -> string
+)
+ident(
+  int_ref xml_escaper "src/oUnitLoggerJUnit.ml" 43 2497 2501 "src/oUnitLoggerJUnit.ml" 43 2497 2512
+)
+"src/oUnitLoggerJUnit.ml" 127 4954 5010 "src/oUnitLoggerJUnit.ml" 127 4954 5011
+type(
+  string
+)
+ident(
+  int_ref s "src/oUnitLoggerJUnit.ml" 127 4954 4978 "src/oUnitLoggerJUnit.ml" 127 4954 4979
+)
+"src/oUnitLoggerJUnit.ml" 127 4954 4997 "src/oUnitLoggerJUnit.ml" 127 4954 5012
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 127 4954 4983 "src/oUnitLoggerJUnit.ml" 127 4954 5012
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 127 4954 4973 "src/oUnitLoggerJUnit.ml" 127 4954 5013
+type(
+  string -> unit
+)
+"src/oUnitLoggerJUnit.ml" 128 5014 5026 "src/oUnitLoggerJUnit.ml" 128 5014 5057
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event ->
+  string list
+)
+ident(
+  ext_ref OUnitLoggerStd.format_log_event
+)
+"src/oUnitLoggerJUnit.ml" 128 5014 5058 "src/oUnitLoggerJUnit.ml" 128 5014 5067
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event
+)
+ident(
+  int_ref log_event "src/oUnitLoggerJUnit.ml" 126 4930 4941 "src/oUnitLoggerJUnit.ml" 126 4930 4950
+)
+"src/oUnitLoggerJUnit.ml" 128 5014 5025 "src/oUnitLoggerJUnit.ml" 128 5014 5068
+call(
+  stack
+)
+type(
+  string list
+)
+"src/oUnitLoggerJUnit.ml" 127 4954 4963 "src/oUnitLoggerJUnit.ml" 128 5014 5068
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 126 4930 4936 "src/oUnitLoggerJUnit.ml" 128 5014 5069
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event -> unit
+)
+"src/oUnitLoggerJUnit.ml" 129 5070 5076 "src/oUnitLoggerJUnit.ml" 129 5070 5082
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+ident(
+  int_ref events "src/oUnitLoggerJUnit.ml" 45 2545 2564 "src/oUnitLoggerJUnit.ml" 45 2545 2570
+)
+"src/oUnitLoggerJUnit.ml" 125 4916 4920 "src/oUnitLoggerJUnit.ml" 129 5070 5082
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 130 5084 5088 "src/oUnitLoggerJUnit.ml" 130 5084 5094
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerJUnit.ml" 57 2823 2829 "src/oUnitLoggerJUnit.ml" 57 2823 2835
+)
+"src/oUnitLoggerJUnit.ml" 130 5084 5095 "src/oUnitLoggerJUnit.ml" 135 5165 5166
+type(
+  (unit, out_channel, unit) format
+)
+"src/oUnitLoggerJUnit.ml" 130 5084 5088 "src/oUnitLoggerJUnit.ml" 135 5165 5166
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 136 5168 5172 "src/oUnitLoggerJUnit.ml" 136 5168 5181
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/oUnitLoggerJUnit.ml" 136 5168 5182 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+type(
+  out_channel
+)
+ident(
+  int_ref chn "src/oUnitLoggerJUnit.ml" 49 2639 2645 "src/oUnitLoggerJUnit.ml" 49 2639 2648
+)
+"src/oUnitLoggerJUnit.ml" 136 5168 5172 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 130 5084 5088 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 125 4916 4920 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 123 4880 4884 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 90 3597 3601 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 88 3560 3564 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 82 3402 3406 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 80 3366 3370 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 58 2868 2872 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 57 2823 2825 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 50 2666 2668 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 49 2639 2641 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 46 2573 2575 "src/oUnitLoggerJUnit.ml" 136 5168 5185
+type(
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 138 5187 5191 "src/oUnitLoggerJUnit.ml" 138 5187 5208
+type(
+  ?extra_subst:(string * string) list -> OUnitConf.conf -> string option
+)
+ident(
+  def output_junit_file "src/oUnitLoggerJUnit.ml" 144 5308 5308 "src/oUnitLoggerJUnit.ml" 1 0 -1
+)
+"src/oUnitLoggerJUnit.ml" 139 5211 5213 "src/oUnitLoggerJUnit.ml" 139 5211 5244
+type(
+  string ->
+  string option ->
+  string ->
+  ?extra_subst:(string * string) list -> OUnitConf.conf -> string option
+)
+ident(
+  ext_ref OUnitConf.make_string_subst_opt
+)
+"src/oUnitLoggerJUnit.ml" 140 5245 5249 "src/oUnitLoggerJUnit.ml" 140 5245 5268
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 141 5269 5273 "src/oUnitLoggerJUnit.ml" 141 5269 5277
+type(
+  string option
+)
+"src/oUnitLoggerJUnit.ml" 142 5278 5282 "src/oUnitLoggerJUnit.ml" 142 5278 5306
+type(
+  string
+)
+"src/oUnitLoggerJUnit.ml" 139 5211 5213 "src/oUnitLoggerJUnit.ml" 142 5278 5306
+call(
+  stack
+)
+type(
+  ?extra_subst:(string * string) list -> OUnitConf.conf -> string option
+)
+"src/oUnitLoggerJUnit.ml" 144 5308 5312 "src/oUnitLoggerJUnit.ml" 144 5308 5318
+type(
+  OUnitConf.conf ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  def create "src/oUnitLoggerJUnit.ml" 149 5430 5449 "src/oUnitLoggerJUnit.ml" 1 0 -1
+)
+"src/oUnitLoggerJUnit.ml" 144 5308 5319 "src/oUnitLoggerJUnit.ml" 144 5308 5323
+type(
+  OUnitConf.conf
+)
+ident(
+  def conf "src/oUnitLoggerJUnit.ml" 145 5326 5328 "src/oUnitLoggerJUnit.ml" 149 5430 5449
+)
+"src/oUnitLoggerJUnit.ml" 145 5326 5334 "src/oUnitLoggerJUnit.ml" 145 5326 5351
+type(
+  ?extra_subst:(string * string) list -> OUnitConf.conf -> string option
+)
+ident(
+  int_ref output_junit_file "src/oUnitLoggerJUnit.ml" 138 5187 5191 "src/oUnitLoggerJUnit.ml" 138 5187 5208
+)
+"src/oUnitLoggerJUnit.ml" 145 5326 5352 "src/oUnitLoggerJUnit.ml" 145 5326 5356
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitLoggerJUnit.ml" 144 5308 5319 "src/oUnitLoggerJUnit.ml" 144 5308 5323
+)
+"src/oUnitLoggerJUnit.ml" 145 5326 5334 "src/oUnitLoggerJUnit.ml" 145 5326 5356
+call(
+  stack
+)
+type(
+  string option
+)
+"src/oUnitLoggerJUnit.ml" 146 5362 5373 "src/oUnitLoggerJUnit.ml" 146 5362 5375
+type(
+  string
+)
+ident(
+  def fn "src/oUnitLoggerJUnit.ml" 147 5379 5387 "src/oUnitLoggerJUnit.ml" 147 5379 5415
+)
+"src/oUnitLoggerJUnit.ml" 146 5362 5368 "src/oUnitLoggerJUnit.ml" 146 5362 5375
+type(
+  string option
+)
+"src/oUnitLoggerJUnit.ml" 147 5379 5387 "src/oUnitLoggerJUnit.ml" 147 5379 5398
+type(
+  ((OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+   unit) ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  ext_ref OUnitLogger.post_logger
+)
+"src/oUnitLoggerJUnit.ml" 147 5379 5400 "src/oUnitLoggerJUnit.ml" 147 5379 5406
+type(
+  OUnitConf.conf ->
+  string ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  unit
+)
+ident(
+  int_ref render "src/oUnitLoggerJUnit.ml" 45 2545 2549 "src/oUnitLoggerJUnit.ml" 45 2545 2555
+)
+"src/oUnitLoggerJUnit.ml" 147 5379 5407 "src/oUnitLoggerJUnit.ml" 147 5379 5411
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitLoggerJUnit.ml" 144 5308 5319 "src/oUnitLoggerJUnit.ml" 144 5308 5323
+)
+"src/oUnitLoggerJUnit.ml" 147 5379 5412 "src/oUnitLoggerJUnit.ml" 147 5379 5414
+type(
+  string
+)
+ident(
+  int_ref fn "src/oUnitLoggerJUnit.ml" 146 5362 5373 "src/oUnitLoggerJUnit.ml" 146 5362 5375
+)
+"src/oUnitLoggerJUnit.ml" 147 5379 5399 "src/oUnitLoggerJUnit.ml" 147 5379 5415
+call(
+  stack
+)
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  unit
+)
+"src/oUnitLoggerJUnit.ml" 147 5379 5387 "src/oUnitLoggerJUnit.ml" 147 5379 5415
+call(
+  tail
+)
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.logger
+)
+"src/oUnitLoggerJUnit.ml" 148 5416 5422 "src/oUnitLoggerJUnit.ml" 148 5416 5426
+type(
+  string option
+)
+"src/oUnitLoggerJUnit.ml" 149 5430 5438 "src/oUnitLoggerJUnit.ml" 149 5430 5449
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  ext_ref OUnitLogger.null_logger
+)
+"src/oUnitLoggerJUnit.ml" 145 5326 5328 "src/oUnitLoggerJUnit.ml" 149 5430 5449
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.logger
+)

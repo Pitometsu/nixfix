@@ -1,0 +1,23 @@
+lib: [
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/META"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/dune-package"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/jsonm.ml"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/jsonm.mli"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/opam"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.a"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.cma"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.cmi"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.cmt"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.cmx"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.cmxa"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.cmxs"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm.ml"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm__Jsonm.cmi"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm__Jsonm.cmt"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm__Jsonm.cmti"
+  "_build/install/default/lib/ppx_protocol_conv_jsonm/protocol_conv_jsonm__Jsonm.cmx"
+]
+doc: [
+  "_build/install/default/doc/ppx_protocol_conv_jsonm/LICENSE"
+  "_build/install/default/doc/ppx_protocol_conv_jsonm/README.md"
+]

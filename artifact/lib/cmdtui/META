@@ -1,0 +1,7 @@
+version = "0.4.3"
+description = ""
+requires = "astring"
+archive(byte) = "cmdtui.cma"
+archive(native) = "cmdtui.cmxa"
+plugin(byte) = "cmdtui.cma"
+plugin(native) = "cmdtui.cmxs"

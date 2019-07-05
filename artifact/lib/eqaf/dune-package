@@ -1,0 +1,37 @@
+(lang dune 1.10)
+(name eqaf)
+(version 0.4)
+(library
+ (name eqaf)
+ (kind normal)
+ (archives (byte eqaf.cma) (native eqaf.cmxa))
+ (plugins (byte eqaf.cma) (native eqaf.cmxs))
+ (foreign_archives (native eqaf.a))
+ (main_module_name Eqaf)
+ (modes byte native)
+ (modules
+  (main_module_name Eqaf)
+  (modules ((name Eqaf) (obj_name eqaf) (visibility public) (impl) (intf)))
+  (wrapped true)))
+(library
+ (name eqaf.bigstring)
+ (kind normal)
+ (archives
+  (byte bigstring/eqaf_bigstring.cma)
+  (native bigstring/eqaf_bigstring.cmxa))
+ (plugins
+  (byte bigstring/eqaf_bigstring.cma)
+  (native bigstring/eqaf_bigstring.cmxs))
+ (foreign_archives (native bigstring/eqaf_bigstring.a))
+ (requires bigarray)
+ (main_module_name Eqaf_bigstring)
+ (modes byte native)
+ (modules
+  (main_module_name Eqaf_bigstring)
+  (modules
+   ((name Eqaf_bigstring)
+    (obj_name eqaf_bigstring)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

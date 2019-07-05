@@ -1,0 +1,1044 @@
+"src/oUnit2.ml" 36 2419 2423 "src/oUnit2.ml" 36 2419 2427
+type(
+  string -> OUnitTest.test -> OUnitTest.test
+)
+ident(
+  def >: "src/oUnit2.ml" 37 2445 2445 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 36 2419 2430 "src/oUnit2.ml" 36 2419 2444
+type(
+  string -> OUnitTest.test -> OUnitTest.test
+)
+ident(
+  ext_ref OUnitTest.( >: )
+)
+"src/oUnit2.ml" 37 2445 2449 "src/oUnit2.ml" 37 2445 2454
+type(
+  string -> OUnitTest.test_fun -> OUnitTest.test
+)
+ident(
+  def >:: "src/oUnit2.ml" 38 2473 2473 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 37 2445 2457 "src/oUnit2.ml" 37 2445 2472
+type(
+  string -> OUnitTest.test_fun -> OUnitTest.test
+)
+ident(
+  ext_ref OUnitTest.( >:: )
+)
+"src/oUnit2.ml" 38 2473 2477 "src/oUnit2.ml" 38 2473 2483
+type(
+  string -> OUnitTest.test list -> OUnitTest.test
+)
+ident(
+  def >::: "src/oUnit2.ml" 40 2504 2504 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 38 2473 2486 "src/oUnit2.ml" 38 2473 2502
+type(
+  string -> OUnitTest.test list -> OUnitTest.test
+)
+ident(
+  ext_ref OUnitTest.( >::: )
+)
+"src/oUnit2.ml" 44 2639 2643 "src/oUnit2.ml" 44 2639 2652
+type(
+  ?length:OUnitTest.test_length -> OUnitTest.test_fun -> OUnitTest.test
+)
+ident(
+  def test_case "src/oUnit2.ml" 45 2693 2693 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 44 2639 2655 "src/oUnit2.ml" 44 2639 2661
+type(
+  OUnitTest.test_length
+)
+"src/oUnit2.ml" 44 2639 2662 "src/oUnit2.ml" 44 2639 2667
+type(
+  OUnitTest.test_length
+)
+type(
+  OUnitTest.test_length
+)
+ident(
+  int_ref *sth* "src/oUnit2.ml" 44 2639 2662 "src/oUnit2.ml" 44 2639 2667
+)
+type(
+  OUnitTest.test_length option
+)
+type(
+  OUnitTest.test_length option
+)
+type(
+  OUnitTest.test_length
+)
+"src/oUnit2.ml" 44 2639 2669 "src/oUnit2.ml" 44 2639 2670
+type(
+  OUnitTest.test_fun
+)
+ident(
+  def f "src/oUnit2.ml" 44 2639 2673 "src/oUnit2.ml" 44 2639 2692
+)
+"src/oUnit2.ml" 44 2639 2682 "src/oUnit2.ml" 44 2639 2688
+type(
+  OUnitTest.test_length
+)
+ident(
+  int_ref length "src/oUnit2.ml" 44 2639 2655 "src/oUnit2.ml" 44 2639 2661
+)
+"src/oUnit2.ml" 44 2639 2690 "src/oUnit2.ml" 44 2639 2691
+type(
+  OUnitTest.test_fun
+)
+ident(
+  int_ref f "src/oUnit2.ml" 44 2639 2669 "src/oUnit2.ml" 44 2639 2670
+)
+"src/oUnit2.ml" 44 2639 2673 "src/oUnit2.ml" 44 2639 2692
+type(
+  OUnitTest.test
+)
+"src/oUnit2.ml" 45 2693 2697 "src/oUnit2.ml" 45 2693 2706
+type(
+  OUnitTest.test list -> OUnitTest.test
+)
+ident(
+  def test_list "src/oUnit2.ml" 47 2727 2727 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 45 2693 2707 "src/oUnit2.ml" 45 2693 2710
+type(
+  OUnitTest.test list
+)
+ident(
+  def lst "src/oUnit2.ml" 45 2693 2713 "src/oUnit2.ml" 45 2693 2725
+)
+"src/oUnit2.ml" 45 2693 2722 "src/oUnit2.ml" 45 2693 2725
+type(
+  OUnitTest.test list
+)
+ident(
+  int_ref lst "src/oUnit2.ml" 45 2693 2707 "src/oUnit2.ml" 45 2693 2710
+)
+"src/oUnit2.ml" 45 2693 2713 "src/oUnit2.ml" 45 2693 2725
+type(
+  OUnitTest.test
+)
+"src/oUnit2.ml" 49 2773 2777 "src/oUnit2.ml" 49 2773 2791
+type(
+  string -> 'a
+)
+ident(
+  def assert_failure "src/oUnit2.ml" 50 2821 2821 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 49 2773 2794 "src/oUnit2.ml" 49 2773 2820
+type(
+  string -> 'a
+)
+ident(
+  ext_ref OUnitAssert.assert_failure
+)
+"src/oUnit2.ml" 50 2821 2825 "src/oUnit2.ml" 50 2821 2836
+type(
+  string -> bool -> unit
+)
+ident(
+  def assert_bool "src/oUnit2.ml" 51 2863 2863 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 50 2821 2839 "src/oUnit2.ml" 50 2821 2862
+type(
+  string -> bool -> unit
+)
+ident(
+  ext_ref OUnitAssert.assert_bool
+)
+"src/oUnit2.ml" 51 2863 2867 "src/oUnit2.ml" 51 2863 2880
+type(
+  string -> unit
+)
+ident(
+  def assert_string "src/oUnit2.ml" 54 3004 3004 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 51 2863 2883 "src/oUnit2.ml" 51 2863 2908
+type(
+  string -> unit
+)
+ident(
+  ext_ref OUnitAssert.assert_string
+)
+"src/oUnit2.ml" 54 3004 3008 "src/oUnit2.ml" 54 3004 3022
+type(
+  ?exit_code:Unix.process_status ->
+  ?sinput:char Stream.t ->
+  ?foutput:(char Stream.t -> unit) ->
+  ?use_stderr:bool ->
+  ?backtrace:bool ->
+  ?chdir:string ->
+  ?env:string array -> ctxt:OUnitTest.ctxt -> string -> string list -> unit
+)
+ident(
+  def assert_command "src/oUnit2.ml" 60 3234 3234 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 55 3023 3030 "src/oUnit2.ml" 55 3023 3039
+type(
+  Unix.process_status option
+)
+ident(
+  def exit_code "src/oUnit2.ml" 55 3023 3040 "src/oUnit2.ml" 59 3219 3233
+)
+"src/oUnit2.ml" 55 3023 3041 "src/oUnit2.ml" 55 3023 3047
+type(
+  char Stream.t option
+)
+ident(
+  def sinput "src/oUnit2.ml" 55 3023 3048 "src/oUnit2.ml" 59 3219 3233
+)
+"src/oUnit2.ml" 55 3023 3049 "src/oUnit2.ml" 55 3023 3056
+type(
+  (char Stream.t -> unit) option
+)
+ident(
+  def foutput "src/oUnit2.ml" 55 3023 3057 "src/oUnit2.ml" 59 3219 3233
+)
+"src/oUnit2.ml" 55 3023 3058 "src/oUnit2.ml" 55 3023 3068
+type(
+  bool option
+)
+ident(
+  def use_stderr "src/oUnit2.ml" 55 3023 3069 "src/oUnit2.ml" 59 3219 3233
+)
+"src/oUnit2.ml" 55 3023 3070 "src/oUnit2.ml" 55 3023 3079
+type(
+  bool option
+)
+ident(
+  def backtrace "src/oUnit2.ml" 55 3023 3080 "src/oUnit2.ml" 59 3219 3233
+)
+"src/oUnit2.ml" 55 3023 3081 "src/oUnit2.ml" 55 3023 3086
+type(
+  string option
+)
+ident(
+  def chdir "src/oUnit2.ml" 55 3023 3087 "src/oUnit2.ml" 59 3219 3233
+)
+"src/oUnit2.ml" 55 3023 3088 "src/oUnit2.ml" 55 3023 3091
+type(
+  string array option
+)
+ident(
+  def env "src/oUnit2.ml" 55 3023 3092 "src/oUnit2.ml" 59 3219 3233
+)
+"src/oUnit2.ml" 55 3023 3093 "src/oUnit2.ml" 55 3023 3097
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def ctxt "src/oUnit2.ml" 56 3098 3104 "src/oUnit2.ml" 59 3219 3233
+)
+"src/oUnit2.ml" 56 3098 3104 "src/oUnit2.ml" 56 3098 3107
+type(
+  string
+)
+ident(
+  def prg "src/oUnit2.ml" 56 3098 3108 "src/oUnit2.ml" 59 3219 3233
+)
+"src/oUnit2.ml" 56 3098 3108 "src/oUnit2.ml" 56 3098 3112
+type(
+  string list
+)
+ident(
+  def args "src/oUnit2.ml" 57 3115 3117 "src/oUnit2.ml" 59 3219 3233
+)
+"src/oUnit2.ml" 57 3115 3117 "src/oUnit2.ml" 57 3115 3143
+type(
+  ?exit_code:Unix.process_status ->
+  ?sinput:char Stream.t ->
+  ?foutput:(char Stream.t -> unit) ->
+  ?use_stderr:bool ->
+  ?backtrace:bool ->
+  ?chdir:string ->
+  ?env:string array -> ctxt:OUnitTest.ctxt -> string -> string list -> unit
+)
+ident(
+  ext_ref OUnitAssert.assert_command
+)
+"src/oUnit2.ml" 58 3144 3151 "src/oUnit2.ml" 58 3144 3160
+type(
+  Unix.process_status option
+)
+ident(
+  int_ref exit_code "src/oUnit2.ml" 55 3023 3030 "src/oUnit2.ml" 55 3023 3039
+)
+"src/oUnit2.ml" 58 3144 3162 "src/oUnit2.ml" 58 3144 3168
+type(
+  char Stream.t option
+)
+ident(
+  int_ref sinput "src/oUnit2.ml" 55 3023 3041 "src/oUnit2.ml" 55 3023 3047
+)
+"src/oUnit2.ml" 58 3144 3170 "src/oUnit2.ml" 58 3144 3177
+type(
+  (char Stream.t -> unit) option
+)
+ident(
+  int_ref foutput "src/oUnit2.ml" 55 3023 3049 "src/oUnit2.ml" 55 3023 3056
+)
+"src/oUnit2.ml" 58 3144 3179 "src/oUnit2.ml" 58 3144 3189
+type(
+  bool option
+)
+ident(
+  int_ref use_stderr "src/oUnit2.ml" 55 3023 3058 "src/oUnit2.ml" 55 3023 3068
+)
+"src/oUnit2.ml" 58 3144 3191 "src/oUnit2.ml" 58 3144 3200
+type(
+  bool option
+)
+ident(
+  int_ref backtrace "src/oUnit2.ml" 55 3023 3070 "src/oUnit2.ml" 55 3023 3079
+)
+"src/oUnit2.ml" 58 3144 3202 "src/oUnit2.ml" 58 3144 3207
+type(
+  string option
+)
+ident(
+  int_ref chdir "src/oUnit2.ml" 55 3023 3081 "src/oUnit2.ml" 55 3023 3086
+)
+"src/oUnit2.ml" 58 3144 3209 "src/oUnit2.ml" 58 3144 3212
+type(
+  string array option
+)
+ident(
+  int_ref env "src/oUnit2.ml" 55 3023 3088 "src/oUnit2.ml" 55 3023 3091
+)
+"src/oUnit2.ml" 58 3144 3214 "src/oUnit2.ml" 58 3144 3218
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnit2.ml" 55 3023 3093 "src/oUnit2.ml" 55 3023 3097
+)
+"src/oUnit2.ml" 59 3219 3225 "src/oUnit2.ml" 59 3219 3228
+type(
+  string
+)
+ident(
+  int_ref prg "src/oUnit2.ml" 56 3098 3104 "src/oUnit2.ml" 56 3098 3107
+)
+"src/oUnit2.ml" 59 3219 3229 "src/oUnit2.ml" 59 3219 3233
+type(
+  string list
+)
+ident(
+  int_ref args "src/oUnit2.ml" 56 3098 3108 "src/oUnit2.ml" 56 3098 3112
+)
+"src/oUnit2.ml" 57 3115 3117 "src/oUnit2.ml" 59 3219 3233
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnit2.ml" 60 3234 3238 "src/oUnit2.ml" 60 3234 3250
+type(
+  ?ctxt:OUnitTest.ctxt ->
+  ?cmp:('a -> 'a -> bool) ->
+  ?printer:('a -> string) ->
+  ?pp_diff:(Format.formatter -> 'a * 'a -> unit) ->
+  ?msg:string -> 'a -> 'a -> unit
+)
+ident(
+  def assert_equal "src/oUnit2.ml" 61 3278 3278 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 60 3234 3253 "src/oUnit2.ml" 60 3234 3277
+type(
+  ?ctxt:OUnitTest.ctxt ->
+  ?cmp:('a -> 'a -> bool) ->
+  ?printer:('a -> string) ->
+  ?pp_diff:(Format.formatter -> 'a * 'a -> unit) ->
+  ?msg:string -> 'a -> 'a -> unit
+)
+ident(
+  ext_ref OUnitAssert.assert_equal
+)
+"src/oUnit2.ml" 61 3278 3282 "src/oUnit2.ml" 61 3278 3295
+type(
+  ?msg:string -> exn -> (unit -> 'a) -> unit
+)
+ident(
+  def assert_raises "src/oUnit2.ml" 62 3324 3324 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 61 3278 3298 "src/oUnit2.ml" 61 3278 3323
+type(
+  ?msg:string -> exn -> (unit -> 'a) -> unit
+)
+ident(
+  ext_ref OUnitAssert.assert_raises
+)
+"src/oUnit2.ml" 62 3324 3328 "src/oUnit2.ml" 62 3324 3335
+type(
+  bool -> string -> unit
+)
+ident(
+  def skip_if "src/oUnit2.ml" 63 3358 3358 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 62 3324 3338 "src/oUnit2.ml" 62 3324 3357
+type(
+  bool -> string -> unit
+)
+ident(
+  ext_ref OUnitAssert.skip_if
+)
+"src/oUnit2.ml" 63 3358 3362 "src/oUnit2.ml" 63 3358 3366
+type(
+  string -> 'a
+)
+ident(
+  def todo "src/oUnit2.ml" 64 3386 3386 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 63 3358 3369 "src/oUnit2.ml" 63 3358 3385
+type(
+  string -> 'a
+)
+ident(
+  ext_ref OUnitAssert.todo
+)
+"src/oUnit2.ml" 64 3386 3390 "src/oUnit2.ml" 64 3386 3399
+type(
+  ?epsilon:float -> float -> float -> bool
+)
+ident(
+  def cmp_float "src/oUnit2.ml" 65 3423 3423 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 64 3386 3402 "src/oUnit2.ml" 64 3386 3422
+type(
+  ?epsilon:float -> float -> float -> bool
+)
+ident(
+  ext_ref OUnitUtils.cmp_float
+)
+"src/oUnit2.ml" 65 3423 3427 "src/oUnit2.ml" 65 3423 3434
+type(
+  (OUnitTest.ctxt -> 'a) ->
+  ('a -> OUnitTest.ctxt -> unit) -> OUnitTest.ctxt -> 'a
+)
+ident(
+  def bracket "src/oUnit2.ml" 66 3457 3457 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 65 3423 3437 "src/oUnit2.ml" 65 3423 3456
+type(
+  (OUnitTest.ctxt -> 'a) ->
+  ('a -> OUnitTest.ctxt -> unit) -> OUnitTest.ctxt -> 'a
+)
+ident(
+  ext_ref OUnitBracket.create
+)
+"src/oUnit2.ml" 66 3457 3461 "src/oUnit2.ml" 66 3457 3476
+type(
+  ?prefix:string ->
+  ?suffix:string ->
+  ?mode:open_flag list -> OUnitTest.ctxt -> string * out_channel
+)
+ident(
+  def bracket_tmpfile "src/oUnit2.ml" 67 3508 3508 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 66 3457 3479 "src/oUnit2.ml" 66 3457 3507
+type(
+  ?prefix:string ->
+  ?suffix:string ->
+  ?mode:open_flag list -> OUnitTest.ctxt -> string * out_channel
+)
+ident(
+  ext_ref OUnitBracket.bracket_tmpfile
+)
+"src/oUnit2.ml" 67 3508 3512 "src/oUnit2.ml" 67 3508 3526
+type(
+  ?prefix:string -> ?suffix:string -> OUnitTest.ctxt -> string
+)
+ident(
+  def bracket_tmpdir "src/oUnit2.ml" 68 3557 3557 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 67 3508 3529 "src/oUnit2.ml" 67 3508 3556
+type(
+  ?prefix:string -> ?suffix:string -> OUnitTest.ctxt -> string
+)
+ident(
+  ext_ref OUnitBracket.bracket_tmpdir
+)
+"src/oUnit2.ml" 68 3557 3561 "src/oUnit2.ml" 68 3557 3579
+type(
+  OUnitTest.ctxt -> string -> (OUnitTest.ctxt -> 'a) -> 'a
+)
+ident(
+  def with_bracket_chdir "src/oUnit2.ml" 74 3690 3690 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 68 3557 3580 "src/oUnit2.ml" 68 3557 3589
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def test_ctxt "src/oUnit2.ml" 68 3557 3590 "src/oUnit2.ml" 71 3671 3687
+)
+"src/oUnit2.ml" 68 3557 3590 "src/oUnit2.ml" 68 3557 3592
+type(
+  string
+)
+ident(
+  def dn "src/oUnit2.ml" 68 3557 3593 "src/oUnit2.ml" 71 3671 3687
+)
+"src/oUnit2.ml" 68 3557 3593 "src/oUnit2.ml" 68 3557 3594
+type(
+  OUnitTest.ctxt -> 'a
+)
+ident(
+  def f "src/oUnit2.ml" 69 3597 3599 "src/oUnit2.ml" 71 3671 3687
+)
+"src/oUnit2.ml" 69 3597 3599 "src/oUnit2.ml" 69 3597 3624
+type(
+  OUnitTest.ctxt ->
+  (OUnitTest.ctxt -> string) -> (string -> OUnitTest.ctxt -> 'a) -> 'a
+)
+ident(
+  ext_ref OUnitBracket.with_bracket
+)
+"src/oUnit2.ml" 69 3597 3625 "src/oUnit2.ml" 69 3597 3634
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref test_ctxt "src/oUnit2.ml" 68 3557 3580 "src/oUnit2.ml" 68 3557 3589
+)
+"src/oUnit2.ml" 70 3635 3640 "src/oUnit2.ml" 70 3635 3666
+type(
+  string -> OUnitTest.ctxt -> string
+)
+ident(
+  ext_ref OUnitBracket.bracket_chdir
+)
+"src/oUnit2.ml" 70 3635 3667 "src/oUnit2.ml" 70 3635 3669
+type(
+  string
+)
+ident(
+  int_ref dn "src/oUnit2.ml" 68 3557 3590 "src/oUnit2.ml" 68 3557 3592
+)
+"src/oUnit2.ml" 70 3635 3639 "src/oUnit2.ml" 70 3635 3670
+call(
+  stack
+)
+type(
+  OUnitTest.ctxt -> string
+)
+"src/oUnit2.ml" 71 3671 3680 "src/oUnit2.ml" 71 3671 3681
+type(
+  string
+)
+"src/oUnit2.ml" 71 3671 3685 "src/oUnit2.ml" 71 3671 3686
+type(
+  OUnitTest.ctxt -> 'a
+)
+ident(
+  int_ref f "src/oUnit2.ml" 68 3557 3593 "src/oUnit2.ml" 68 3557 3594
+)
+"src/oUnit2.ml" 71 3671 3675 "src/oUnit2.ml" 71 3671 3687
+type(
+  string -> OUnitTest.ctxt -> 'a
+)
+"src/oUnit2.ml" 69 3597 3599 "src/oUnit2.ml" 71 3671 3687
+call(
+  tail
+)
+type(
+  'a
+)
+"src/oUnit2.ml" 74 3690 3694 "src/oUnit2.ml" 74 3690 3703
+type(
+  OUnitTest.ctxt -> (OUnitTest.ctxt -> unit) -> unit
+)
+ident(
+  def non_fatal "src/oUnit2.ml" 75 3726 3726 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 74 3690 3706 "src/oUnit2.ml" 74 3690 3725
+type(
+  OUnitTest.ctxt -> (OUnitTest.ctxt -> unit) -> unit
+)
+ident(
+  ext_ref OUnitTest.non_fatal
+)
+"src/oUnit2.ml" 75 3726 3730 "src/oUnit2.ml" 75 3726 3746
+type(
+  ?exit:(int -> unit) -> OUnitTest.test -> unit
+)
+ident(
+  def run_test_tt_main "src/oUnit2.ml" 77 3777 3777 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 75 3726 3749 "src/oUnit2.ml" 75 3726 3775
+type(
+  ?exit:(int -> unit) -> OUnitTest.test -> unit
+)
+ident(
+  ext_ref OUnitCore.run_test_tt_main
+)
+"src/oUnit2.ml" 77 3777 3781 "src/oUnit2.ml" 77 3777 3785
+type(
+  OUnitTest.ctxt ->
+  OUnitLogger.log_severity -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def logf "src/oUnit2.ml" 80 3870 3870 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 77 3777 3786 "src/oUnit2.ml" 77 3777 3790
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def ctxt "src/oUnit2.ml" 77 3777 3791 "src/oUnit2.ml" 78 3810 3868
+)
+"src/oUnit2.ml" 77 3777 3791 "src/oUnit2.ml" 77 3777 3803
+type(
+  OUnitLogger.log_severity
+)
+ident(
+  def log_severity "src/oUnit2.ml" 77 3777 3804 "src/oUnit2.ml" 78 3810 3868
+)
+"src/oUnit2.ml" 77 3777 3804 "src/oUnit2.ml" 77 3777 3807
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "src/oUnit2.ml" 78 3810 3813 "src/oUnit2.ml" 78 3810 3868
+)
+"src/oUnit2.ml" 78 3810 3813 "src/oUnit2.ml" 78 3810 3834
+type(
+  OUnitTest.result OUnitLogger.Test.t ->
+  OUnitLogger.log_severity -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  ext_ref OUnitLogger.Test.logf
+)
+"src/oUnit2.ml" 78 3810 3835 "src/oUnit2.ml" 78 3810 3839
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnit2.ml" 77 3777 3786 "src/oUnit2.ml" 77 3777 3790
+)
+"src/oUnit2.ml" 78 3810 3835 "src/oUnit2.ml" 78 3810 3851
+type(
+  OUnitTest.result OUnitLogger.Test.t
+)
+"src/oUnit2.ml" 78 3810 3852 "src/oUnit2.ml" 78 3810 3864
+type(
+  OUnitLogger.log_severity
+)
+ident(
+  int_ref log_severity "src/oUnit2.ml" 77 3777 3791 "src/oUnit2.ml" 77 3777 3803
+)
+"src/oUnit2.ml" 78 3810 3865 "src/oUnit2.ml" 78 3810 3868
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "src/oUnit2.ml" 77 3777 3804 "src/oUnit2.ml" 77 3777 3807
+)
+"src/oUnit2.ml" 78 3810 3813 "src/oUnit2.ml" 78 3810 3868
+call(
+  tail
+)
+type(
+  'a
+)
+"src/oUnit2.ml" 80 3870 3874 "src/oUnit2.ml" 80 3870 3889
+type(
+  OUnitTest.ctxt -> string list -> string
+)
+ident(
+  def in_testdata_dir "src/oUnit2.ml" 83 3950 3950 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 80 3870 3890 "src/oUnit2.ml" 80 3870 3894
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def ctxt "src/oUnit2.ml" 80 3870 3895 "src/oUnit2.ml" 81 3902 3948
+)
+"src/oUnit2.ml" 80 3870 3895 "src/oUnit2.ml" 80 3870 3899
+type(
+  string list
+)
+ident(
+  def path "src/oUnit2.ml" 81 3902 3904 "src/oUnit2.ml" 81 3902 3948
+)
+"src/oUnit2.ml" 81 3902 3904 "src/oUnit2.ml" 81 3902 3933
+type(
+  OUnitConf.conf -> string list -> string
+)
+ident(
+  ext_ref OUnitTestData.in_testdata_dir
+)
+"src/oUnit2.ml" 81 3902 3934 "src/oUnit2.ml" 81 3902 3938
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnit2.ml" 80 3870 3890 "src/oUnit2.ml" 80 3870 3894
+)
+"src/oUnit2.ml" 81 3902 3934 "src/oUnit2.ml" 81 3902 3943
+type(
+  OUnitConf.conf
+)
+"src/oUnit2.ml" 81 3902 3944 "src/oUnit2.ml" 81 3902 3948
+type(
+  string list
+)
+ident(
+  int_ref path "src/oUnit2.ml" 80 3870 3895 "src/oUnit2.ml" 80 3870 3899
+)
+"src/oUnit2.ml" 81 3902 3904 "src/oUnit2.ml" 81 3902 3948
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnit2.ml" 83 3950 3954 "src/oUnit2.ml" 83 3950 3963
+type(
+  ('a -> 'b -> 'c -> OUnitConf.conf -> 'd) ->
+  'a -> 'b -> 'c -> OUnitTest.ctxt -> 'd
+)
+ident(
+  def conf_wrap "src/oUnit2.ml" 87 4052 4052 "src/oUnit2.ml" 1 0 -1
+)
+"src/oUnit2.ml" 83 3950 3964 "src/oUnit2.ml" 83 3950 3965
+type(
+  'a -> 'b -> 'c -> OUnitConf.conf -> 'd
+)
+ident(
+  def f "src/oUnit2.ml" 83 3950 3966 "src/oUnit2.ml" 85 4021 4050
+)
+"src/oUnit2.ml" 83 3950 3966 "src/oUnit2.ml" 83 3950 3970
+type(
+  'a
+)
+ident(
+  def name "src/oUnit2.ml" 83 3950 3971 "src/oUnit2.ml" 85 4021 4050
+)
+"src/oUnit2.ml" 83 3950 3971 "src/oUnit2.ml" 83 3950 3978
+type(
+  'b
+)
+ident(
+  def default "src/oUnit2.ml" 83 3950 3979 "src/oUnit2.ml" 85 4021 4050
+)
+"src/oUnit2.ml" 83 3950 3979 "src/oUnit2.ml" 83 3950 3983
+type(
+  'c
+)
+ident(
+  def help "src/oUnit2.ml" 84 3986 3988 "src/oUnit2.ml" 85 4021 4050
+)
+"src/oUnit2.ml" 84 3986 3992 "src/oUnit2.ml" 84 3986 3995
+type(
+  OUnitConf.conf -> 'd
+)
+ident(
+  def get "src/oUnit2.ml" 85 4021 4025 "src/oUnit2.ml" 85 4021 4050
+)
+"src/oUnit2.ml" 84 3986 3998 "src/oUnit2.ml" 84 3986 3999
+type(
+  'a -> 'b -> 'c -> OUnitConf.conf -> 'd
+)
+ident(
+  int_ref f "src/oUnit2.ml" 83 3950 3964 "src/oUnit2.ml" 83 3950 3965
+)
+"src/oUnit2.ml" 84 3986 4000 "src/oUnit2.ml" 84 3986 4004
+type(
+  'a
+)
+ident(
+  int_ref name "src/oUnit2.ml" 83 3950 3966 "src/oUnit2.ml" 83 3950 3970
+)
+"src/oUnit2.ml" 84 3986 4005 "src/oUnit2.ml" 84 3986 4012
+type(
+  'b
+)
+ident(
+  int_ref default "src/oUnit2.ml" 83 3950 3971 "src/oUnit2.ml" 83 3950 3978
+)
+"src/oUnit2.ml" 84 3986 4013 "src/oUnit2.ml" 84 3986 4017
+type(
+  'c
+)
+ident(
+  int_ref help "src/oUnit2.ml" 83 3950 3979 "src/oUnit2.ml" 83 3950 3983
+)
+"src/oUnit2.ml" 84 3986 3998 "src/oUnit2.ml" 84 3986 4017
+call(
+  stack
+)
+type(
+  OUnitConf.conf -> 'd
+)
+"src/oUnit2.ml" 85 4021 4029 "src/oUnit2.ml" 85 4021 4033
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def ctxt "src/oUnit2.ml" 85 4021 4037 "src/oUnit2.ml" 85 4021 4050
+)
+"src/oUnit2.ml" 85 4021 4037 "src/oUnit2.ml" 85 4021 4040
+type(
+  OUnitConf.conf -> 'd
+)
+ident(
+  int_ref get "src/oUnit2.ml" 84 3986 3992 "src/oUnit2.ml" 84 3986 3995
+)
+"src/oUnit2.ml" 85 4021 4041 "src/oUnit2.ml" 85 4021 4045
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnit2.ml" 85 4021 4029 "src/oUnit2.ml" 85 4021 4033
+)
+"src/oUnit2.ml" 85 4021 4041 "src/oUnit2.ml" 85 4021 4050
+type(
+  OUnitConf.conf
+)
+"src/oUnit2.ml" 85 4021 4037 "src/oUnit2.ml" 85 4021 4050
+call(
+  tail
+)
+type(
+  'd
+)
+"src/oUnit2.ml" 85 4021 4025 "src/oUnit2.ml" 85 4021 4050
+type(
+  OUnitTest.ctxt -> 'd
+)
+"src/oUnit2.ml" 84 3986 3988 "src/oUnit2.ml" 85 4021 4050
+type(
+  OUnitTest.ctxt -> 'd
+)
+"src/oUnit2.ml" 90 4135 4141 "src/oUnit2.ml" 90 4135 4152
+type(
+  string -> string -> string -> OUnitTest.ctxt -> string
+)
+ident(
+  def make_string "src/oUnit2.ml" 91 4187 4189 "src/oUnit2.ml" 98 4488 4491
+)
+"src/oUnit2.ml" 90 4135 4155 "src/oUnit2.ml" 90 4135 4164
+type(
+  (string -> string -> string -> OUnitConf.conf -> string) ->
+  string -> string -> string -> OUnitTest.ctxt -> string
+)
+ident(
+  int_ref conf_wrap "src/oUnit2.ml" 83 3950 3954 "src/oUnit2.ml" 83 3950 3963
+)
+"src/oUnit2.ml" 90 4135 4165 "src/oUnit2.ml" 90 4135 4186
+type(
+  string -> string -> string -> OUnitConf.conf -> string
+)
+ident(
+  ext_ref OUnitConf.make_string
+)
+"src/oUnit2.ml" 90 4135 4155 "src/oUnit2.ml" 90 4135 4186
+call(
+  stack
+)
+type(
+  string -> string -> string -> OUnitTest.ctxt -> string
+)
+"src/oUnit2.ml" 91 4187 4193 "src/oUnit2.ml" 91 4187 4208
+type(
+  string -> string option -> string -> OUnitTest.ctxt -> string option
+)
+ident(
+  def make_string_opt "src/oUnit2.ml" 92 4247 4249 "src/oUnit2.ml" 98 4488 4491
+)
+"src/oUnit2.ml" 91 4187 4211 "src/oUnit2.ml" 91 4187 4220
+type(
+  (string -> string option -> string -> OUnitConf.conf -> string option) ->
+  string -> string option -> string -> OUnitTest.ctxt -> string option
+)
+ident(
+  int_ref conf_wrap "src/oUnit2.ml" 83 3950 3954 "src/oUnit2.ml" 83 3950 3963
+)
+"src/oUnit2.ml" 91 4187 4221 "src/oUnit2.ml" 91 4187 4246
+type(
+  string -> string option -> string -> OUnitConf.conf -> string option
+)
+ident(
+  ext_ref OUnitConf.make_string_opt
+)
+"src/oUnit2.ml" 91 4187 4211 "src/oUnit2.ml" 91 4187 4246
+call(
+  stack
+)
+type(
+  string -> string option -> string -> OUnitTest.ctxt -> string option
+)
+"src/oUnit2.ml" 92 4247 4253 "src/oUnit2.ml" 92 4247 4261
+type(
+  string -> int -> string -> OUnitTest.ctxt -> int
+)
+ident(
+  def make_int "src/oUnit2.ml" 93 4293 4295 "src/oUnit2.ml" 98 4488 4491
+)
+"src/oUnit2.ml" 92 4247 4264 "src/oUnit2.ml" 92 4247 4273
+type(
+  (string -> int -> string -> OUnitConf.conf -> int) ->
+  string -> int -> string -> OUnitTest.ctxt -> int
+)
+ident(
+  int_ref conf_wrap "src/oUnit2.ml" 83 3950 3954 "src/oUnit2.ml" 83 3950 3963
+)
+"src/oUnit2.ml" 92 4247 4274 "src/oUnit2.ml" 92 4247 4292
+type(
+  string -> int -> string -> OUnitConf.conf -> int
+)
+ident(
+  ext_ref OUnitConf.make_int
+)
+"src/oUnit2.ml" 92 4247 4264 "src/oUnit2.ml" 92 4247 4292
+call(
+  stack
+)
+type(
+  string -> int -> string -> OUnitTest.ctxt -> int
+)
+"src/oUnit2.ml" 93 4293 4299 "src/oUnit2.ml" 93 4293 4309
+type(
+  string -> float -> string -> OUnitTest.ctxt -> float
+)
+ident(
+  def make_float "src/oUnit2.ml" 94 4343 4345 "src/oUnit2.ml" 98 4488 4491
+)
+"src/oUnit2.ml" 93 4293 4312 "src/oUnit2.ml" 93 4293 4321
+type(
+  (string -> float -> string -> OUnitConf.conf -> float) ->
+  string -> float -> string -> OUnitTest.ctxt -> float
+)
+ident(
+  int_ref conf_wrap "src/oUnit2.ml" 83 3950 3954 "src/oUnit2.ml" 83 3950 3963
+)
+"src/oUnit2.ml" 93 4293 4322 "src/oUnit2.ml" 93 4293 4342
+type(
+  string -> float -> string -> OUnitConf.conf -> float
+)
+ident(
+  ext_ref OUnitConf.make_float
+)
+"src/oUnit2.ml" 93 4293 4312 "src/oUnit2.ml" 93 4293 4342
+call(
+  stack
+)
+type(
+  string -> float -> string -> OUnitTest.ctxt -> float
+)
+"src/oUnit2.ml" 94 4343 4349 "src/oUnit2.ml" 94 4343 4358
+type(
+  string -> bool -> string -> OUnitTest.ctxt -> bool
+)
+ident(
+  def make_bool "src/oUnit2.ml" 95 4391 4393 "src/oUnit2.ml" 98 4488 4491
+)
+"src/oUnit2.ml" 94 4343 4361 "src/oUnit2.ml" 94 4343 4370
+type(
+  (string -> bool -> string -> OUnitConf.conf -> bool) ->
+  string -> bool -> string -> OUnitTest.ctxt -> bool
+)
+ident(
+  int_ref conf_wrap "src/oUnit2.ml" 83 3950 3954 "src/oUnit2.ml" 83 3950 3963
+)
+"src/oUnit2.ml" 94 4343 4371 "src/oUnit2.ml" 94 4343 4390
+type(
+  string -> bool -> string -> OUnitConf.conf -> bool
+)
+ident(
+  ext_ref OUnitConf.make_bool
+)
+"src/oUnit2.ml" 94 4343 4361 "src/oUnit2.ml" 94 4343 4390
+call(
+  stack
+)
+type(
+  string -> bool -> string -> OUnitTest.ctxt -> bool
+)
+"src/oUnit2.ml" 95 4391 4397 "src/oUnit2.ml" 95 4391 4406
+type(
+  string -> OUnitTest.ctxt -> string
+)
+ident(
+  def make_exec "src/oUnit2.ml" 97 4456 4487 "src/oUnit2.ml" 98 4488 4491
+)
+"src/oUnit2.ml" 95 4391 4407 "src/oUnit2.ml" 95 4391 4411
+type(
+  string
+)
+ident(
+  def name "src/oUnit2.ml" 96 4414 4418 "src/oUnit2.ml" 97 4456 4487
+)
+"src/oUnit2.ml" 96 4414 4422 "src/oUnit2.ml" 96 4414 4425
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  def get "src/oUnit2.ml" 97 4456 4462 "src/oUnit2.ml" 97 4456 4487
+)
+"src/oUnit2.ml" 96 4414 4428 "src/oUnit2.ml" 96 4414 4447
+type(
+  string -> (int, unit -> unit) Hashtbl.t -> string
+)
+ident(
+  ext_ref OUnitConf.make_exec
+)
+"src/oUnit2.ml" 96 4414 4448 "src/oUnit2.ml" 96 4414 4452
+type(
+  string
+)
+ident(
+  int_ref name "src/oUnit2.ml" 95 4391 4407 "src/oUnit2.ml" 95 4391 4411
+)
+"src/oUnit2.ml" 96 4414 4428 "src/oUnit2.ml" 96 4414 4452
+call(
+  stack
+)
+type(
+  (int, unit -> unit) Hashtbl.t -> string
+)
+"src/oUnit2.ml" 97 4456 4466 "src/oUnit2.ml" 97 4456 4470
+type(
+  OUnitTest.ctxt
+)
+ident(
+  def ctxt "src/oUnit2.ml" 97 4456 4474 "src/oUnit2.ml" 97 4456 4487
+)
+"src/oUnit2.ml" 97 4456 4474 "src/oUnit2.ml" 97 4456 4477
+type(
+  OUnitConf.conf -> string
+)
+ident(
+  int_ref get "src/oUnit2.ml" 96 4414 4422 "src/oUnit2.ml" 96 4414 4425
+)
+"src/oUnit2.ml" 97 4456 4478 "src/oUnit2.ml" 97 4456 4482
+type(
+  OUnitTest.ctxt
+)
+ident(
+  int_ref ctxt "src/oUnit2.ml" 97 4456 4466 "src/oUnit2.ml" 97 4456 4470
+)
+"src/oUnit2.ml" 97 4456 4478 "src/oUnit2.ml" 97 4456 4487
+type(
+  OUnitConf.conf
+)
+"src/oUnit2.ml" 97 4456 4474 "src/oUnit2.ml" 97 4456 4487
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnit2.ml" 97 4456 4462 "src/oUnit2.ml" 97 4456 4487
+type(
+  OUnitTest.ctxt -> string
+)
+"src/oUnit2.ml" 96 4414 4418 "src/oUnit2.ml" 97 4456 4487
+type(
+  OUnitTest.ctxt -> string
+)

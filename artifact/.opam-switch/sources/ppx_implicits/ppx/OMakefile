@@ -1,0 +1,35 @@
+OCAMLWARNING_NON_ERROR += 41
+
+OCAMLPACKS[]= ocaml-compiler-libs.common ocaml-migrate-parsetree ppx_tools_versioned.metaquot_405 re.pcre ppxx typpx
+OCAMLDEPFLAGS= -package ppx_tools_versioned.metaquot_405
+
+FILES[] =
+    unembed
+    utils
+    debug
+    unshadow
+    klabel
+    candidate
+    crelated
+    chas_type
+    cderiving
+    cppxderive
+    spec
+    specconv
+    pre_imp_spec
+    pre_typeclass
+    pre
+    tysize
+    mod
+    ppx
+
+MyOCamlPPXMigrateLibrary(ppx_implicits, $(FILES))
+
+AddLocalOCamlPackageDependencies() # we need this to make ppx available
+
+WithMerlin()
+
+.PHONY:doc
+
+doc:
+    ocamlfind ocamldoc -html $(PREFIXED_OCAMLPACKS) spec.mli

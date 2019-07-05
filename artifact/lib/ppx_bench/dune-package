@@ -1,0 +1,45 @@
+(lang dune 1.10)
+(name ppx_bench)
+(version v0.11.0)
+(library
+ (name ppx_bench)
+ (kind ppx_rewriter)
+ (archives (byte ppx_bench.cma) (native ppx_bench.cmxa))
+ (plugins (byte ppx_bench.cma) (native ppx_bench.cmxs))
+ (foreign_archives (native ppx_bench.a))
+ (requires ppxlib ppx_inline_test.libname)
+ (ppx_runtime_deps ppx_bench.runtime-lib)
+ (main_module_name Ppx_bench)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_bench)
+  (modules
+   ((name Ppx_bench) (obj_name ppx_bench) (visibility public) (impl) (intf)))
+  (wrapped true)))
+(library
+ (name ppx_bench.runtime-lib)
+ (kind normal)
+ (archives
+  (byte runtime-lib/ppx_bench_lib.cma)
+  (native runtime-lib/ppx_bench_lib.cmxa))
+ (plugins
+  (byte runtime-lib/ppx_bench_lib.cma)
+  (native runtime-lib/ppx_bench_lib.cmxs))
+ (foreign_archives (native runtime-lib/ppx_bench_lib.a))
+ (main_module_name Ppx_bench_lib)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Ppx_bench_lib)
+   (obj_name ppx_bench_lib)
+   (visibility public)
+   (impl))
+  (main_module_name Ppx_bench_lib)
+  (modules
+   ((name Benchmark_accumulator)
+    (obj_name ppx_bench_lib__Benchmark_accumulator)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Export) (obj_name ppx_bench_lib__Export) (visibility public) (impl)))
+  (wrapped true)))

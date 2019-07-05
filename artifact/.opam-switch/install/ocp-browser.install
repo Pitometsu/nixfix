@@ -1,0 +1,12 @@
+lib: [
+  "_build/install/default/lib/ocp-browser/META"
+  "_build/install/default/lib/ocp-browser/dune-package"
+  "_build/install/default/lib/ocp-browser/opam"
+]
+bin: "_build/install/default/bin/ocp-browser"
+doc: [
+  "_build/install/default/doc/ocp-browser/CHANGES.md"
+  "_build/install/default/doc/ocp-browser/LICENSE"
+  "_build/install/default/doc/ocp-browser/README.md"
+]
+man: "_build/install/default/man/man1/ocp-browser.1"

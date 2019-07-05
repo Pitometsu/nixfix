@@ -1,0 +1,19 @@
+(lang dune 1.10)
+(name qcheck-ounit)
+(version 0.9)
+(library
+ (name qcheck-ounit)
+ (kind normal)
+ (archives (byte qcheck_ounit.cma) (native qcheck_ounit.cmxa))
+ (plugins (byte qcheck_ounit.cma) (native qcheck_ounit.cmxs))
+ (foreign_archives (native qcheck_ounit.a))
+ (requires unix bytes qcheck-core qcheck-core.runner oUnit)
+ (modes byte native)
+ (modules
+  (modules
+   ((name QCheck_ounit)
+    (obj_name QCheck_ounit)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped false)))

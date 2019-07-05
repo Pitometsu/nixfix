@@ -1,0 +1,32 @@
+added: [
+  "doc/ppx_js_style" {"D"}
+  "doc/ppx_js_style/CHANGES.md" {"F:S164T1560961166.45"}
+  "doc/ppx_js_style/LICENSE.txt" {"F:S11358T1560961166.47"}
+  "doc/ppx_js_style/README.md" {"F:S1502T1560961166.5"}
+  "lib/ppx_js_style" {"D"}
+  "lib/ppx_js_style/META" {"F:S466T1560961165.86"}
+  "lib/ppx_js_style/dated_deprecation.ml" {"F:S23T1560961165.89"}
+  "lib/ppx_js_style/dune-package" {"F:S773T1560961165.92"}
+  "lib/ppx_js_style/opam" {"F:S902T1560961165.94"}
+  "lib/ppx_js_style/ppx.exe" {"F:S17179912T1560961166.43"}
+  "lib/ppx_js_style/ppx_js_style.a" {"F:S67150T1560961165.96"}
+  "lib/ppx_js_style/ppx_js_style.cma" {"F:S74923T1560961166."}
+  "lib/ppx_js_style/ppx_js_style.cmi" {"F:S7463T1560961166.02"}
+  "lib/ppx_js_style/ppx_js_style.cmt" {"F:S158363T1560961166.04"}
+  "lib/ppx_js_style/ppx_js_style.cmti" {"F:S20245T1560961166.07"}
+  "lib/ppx_js_style/ppx_js_style.cmx" {"F:S10011T1560961166.11"}
+  "lib/ppx_js_style/ppx_js_style.cmxa" {"F:S8074T1560961166.14"}
+  "lib/ppx_js_style/ppx_js_style.cmxs" {"F:S79704T1560961166.16"}
+  "lib/ppx_js_style/ppx_js_style.ml" {"F:S10384T1560961166.19"}
+  "lib/ppx_js_style/ppx_js_style.mli" {"F:S535T1560961166.22"}
+  "lib/ppx_js_style/ppx_js_style__.cmi" {"F:S245T1560961166.25"}
+  "lib/ppx_js_style/ppx_js_style__.cmt" {"F:S2204T1560961166.28"}
+  "lib/ppx_js_style/ppx_js_style__.cmx" {"F:S143T1560961166.3"}
+  "lib/ppx_js_style/ppx_js_style__.ml" {"F:S108T1560961166.33"}
+  "lib/ppx_js_style/ppx_js_style__Dated_deprecation.cmi"
+    {"F:S361T1560961166.35"}
+  "lib/ppx_js_style/ppx_js_style__Dated_deprecation.cmt"
+    {"F:S3991T1560961166.38"}
+  "lib/ppx_js_style/ppx_js_style__Dated_deprecation.cmx"
+    {"F:S272T1560961166.4"}
+]

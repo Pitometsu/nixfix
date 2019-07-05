@@ -1,0 +1,2827 @@
+"src/oUnitLoggerHTML.ml" 42 2495 2499 "src/oUnitLoggerHTML.ml" 42 2495 2511
+type(
+  string -> string
+)
+ident(
+  def html_escaper "src/oUnitLoggerHTML.ml" 87 3755 3755 "src/oUnitLoggerHTML.ml" 1 0 -1
+)
+"src/oUnitLoggerHTML.ml" 42 2495 2512 "src/oUnitLoggerHTML.ml" 42 2495 2515
+type(
+  string
+)
+ident(
+  def str "src/oUnitLoggerHTML.ml" 43 2518 2520 "src/oUnitLoggerHTML.ml" 85 3727 3753
+)
+"src/oUnitLoggerHTML.ml" 43 2518 2524 "src/oUnitLoggerHTML.ml" 43 2518 2530
+type(
+  Buffer.t
+)
+ident(
+  def buffer "src/oUnitLoggerHTML.ml" 44 2570 2572 "src/oUnitLoggerHTML.ml" 85 3727 3753
+)
+"src/oUnitLoggerHTML.ml" 43 2518 2533 "src/oUnitLoggerHTML.ml" 43 2518 2546
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"src/oUnitLoggerHTML.ml" 43 2518 2548 "src/oUnitLoggerHTML.ml" 43 2518 2561
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/oUnitLoggerHTML.ml" 43 2518 2562 "src/oUnitLoggerHTML.ml" 43 2518 2565
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitLoggerHTML.ml" 42 2495 2512 "src/oUnitLoggerHTML.ml" 42 2495 2515
+)
+"src/oUnitLoggerHTML.ml" 43 2518 2547 "src/oUnitLoggerHTML.ml" 43 2518 2566
+type(
+  int
+)
+"src/oUnitLoggerHTML.ml" 43 2518 2533 "src/oUnitLoggerHTML.ml" 43 2518 2566
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"src/oUnitLoggerHTML.ml" 44 2570 2576 "src/oUnitLoggerHTML.ml" 44 2570 2580
+type(
+  char -> unit
+)
+ident(
+  def addc "src/oUnitLoggerHTML.ml" 45 2609 2611 "src/oUnitLoggerHTML.ml" 85 3727 3753
+)
+"src/oUnitLoggerHTML.ml" 44 2570 2583 "src/oUnitLoggerHTML.ml" 44 2570 2598
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/oUnitLoggerHTML.ml" 44 2570 2599 "src/oUnitLoggerHTML.ml" 44 2570 2605
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/oUnitLoggerHTML.ml" 43 2518 2524 "src/oUnitLoggerHTML.ml" 43 2518 2530
+)
+"src/oUnitLoggerHTML.ml" 44 2570 2583 "src/oUnitLoggerHTML.ml" 44 2570 2605
+call(
+  stack
+)
+type(
+  char -> unit
+)
+"src/oUnitLoggerHTML.ml" 45 2609 2615 "src/oUnitLoggerHTML.ml" 45 2609 2620
+type(
+  string -> unit
+)
+ident(
+  def addse "src/oUnitLoggerHTML.ml" 50 2691 2695 "src/oUnitLoggerHTML.ml" 85 3727 3753
+)
+"src/oUnitLoggerHTML.ml" 45 2609 2621 "src/oUnitLoggerHTML.ml" 45 2609 2623
+type(
+  string
+)
+ident(
+  def se "src/oUnitLoggerHTML.ml" 46 2626 2630 "src/oUnitLoggerHTML.ml" 48 2673 2685
+)
+"src/oUnitLoggerHTML.ml" 46 2626 2630 "src/oUnitLoggerHTML.ml" 46 2626 2634
+type(
+  char -> unit
+)
+ident(
+  int_ref addc "src/oUnitLoggerHTML.ml" 44 2570 2576 "src/oUnitLoggerHTML.ml" 44 2570 2580
+)
+"src/oUnitLoggerHTML.ml" 46 2626 2635 "src/oUnitLoggerHTML.ml" 46 2626 2638
+type(
+  char
+)
+"src/oUnitLoggerHTML.ml" 46 2626 2630 "src/oUnitLoggerHTML.ml" 46 2626 2638
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 47 2640 2644 "src/oUnitLoggerHTML.ml" 47 2640 2661
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/oUnitLoggerHTML.ml" 47 2640 2662 "src/oUnitLoggerHTML.ml" 47 2640 2668
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/oUnitLoggerHTML.ml" 43 2518 2524 "src/oUnitLoggerHTML.ml" 43 2518 2530
+)
+"src/oUnitLoggerHTML.ml" 47 2640 2669 "src/oUnitLoggerHTML.ml" 47 2640 2671
+type(
+  string
+)
+ident(
+  int_ref se "src/oUnitLoggerHTML.ml" 45 2609 2621 "src/oUnitLoggerHTML.ml" 45 2609 2623
+)
+"src/oUnitLoggerHTML.ml" 47 2640 2644 "src/oUnitLoggerHTML.ml" 47 2640 2671
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 48 2673 2677 "src/oUnitLoggerHTML.ml" 48 2673 2681
+type(
+  char -> unit
+)
+ident(
+  int_ref addc "src/oUnitLoggerHTML.ml" 44 2570 2576 "src/oUnitLoggerHTML.ml" 44 2570 2580
+)
+"src/oUnitLoggerHTML.ml" 48 2673 2682 "src/oUnitLoggerHTML.ml" 48 2673 2685
+type(
+  char
+)
+"src/oUnitLoggerHTML.ml" 48 2673 2677 "src/oUnitLoggerHTML.ml" 48 2673 2685
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 47 2640 2644 "src/oUnitLoggerHTML.ml" 48 2673 2685
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 46 2626 2630 "src/oUnitLoggerHTML.ml" 48 2673 2685
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 50 2691 2695 "src/oUnitLoggerHTML.ml" 50 2691 2706
+type(
+  (char -> unit) -> string -> unit
+)
+ident(
+  ext_ref String.iter
+)
+"src/oUnitLoggerHTML.ml" 52 2723 2734 "src/oUnitLoggerHTML.ml" 52 2723 2737
+type(
+  char
+)
+"src/oUnitLoggerHTML.ml" 52 2723 2741 "src/oUnitLoggerHTML.ml" 52 2723 2746
+type(
+  string -> unit
+)
+ident(
+  int_ref addse "src/oUnitLoggerHTML.ml" 45 2609 2615 "src/oUnitLoggerHTML.ml" 45 2609 2620
+)
+"src/oUnitLoggerHTML.ml" 52 2723 2747 "src/oUnitLoggerHTML.ml" 52 2723 2753
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 52 2723 2741 "src/oUnitLoggerHTML.ml" 52 2723 2753
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 53 2754 2765 "src/oUnitLoggerHTML.ml" 53 2754 2768
+type(
+  char
+)
+"src/oUnitLoggerHTML.ml" 53 2754 2772 "src/oUnitLoggerHTML.ml" 53 2754 2777
+type(
+  string -> unit
+)
+ident(
+  int_ref addse "src/oUnitLoggerHTML.ml" 45 2609 2615 "src/oUnitLoggerHTML.ml" 45 2609 2620
+)
+"src/oUnitLoggerHTML.ml" 53 2754 2778 "src/oUnitLoggerHTML.ml" 53 2754 2783
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 53 2754 2772 "src/oUnitLoggerHTML.ml" 53 2754 2783
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 54 2784 2795 "src/oUnitLoggerHTML.ml" 54 2784 2798
+type(
+  char
+)
+"src/oUnitLoggerHTML.ml" 54 2784 2802 "src/oUnitLoggerHTML.ml" 54 2784 2807
+type(
+  string -> unit
+)
+ident(
+  int_ref addse "src/oUnitLoggerHTML.ml" 45 2609 2615 "src/oUnitLoggerHTML.ml" 45 2609 2620
+)
+"src/oUnitLoggerHTML.ml" 54 2784 2808 "src/oUnitLoggerHTML.ml" 54 2784 2812
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 54 2784 2802 "src/oUnitLoggerHTML.ml" 54 2784 2812
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 55 2813 2824 "src/oUnitLoggerHTML.ml" 55 2813 2827
+type(
+  char
+)
+"src/oUnitLoggerHTML.ml" 55 2813 2831 "src/oUnitLoggerHTML.ml" 55 2813 2836
+type(
+  string -> unit
+)
+ident(
+  int_ref addse "src/oUnitLoggerHTML.ml" 45 2609 2615 "src/oUnitLoggerHTML.ml" 45 2609 2620
+)
+"src/oUnitLoggerHTML.ml" 55 2813 2837 "src/oUnitLoggerHTML.ml" 55 2813 2841
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 55 2813 2831 "src/oUnitLoggerHTML.ml" 55 2813 2841
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 82 3661 3672 "src/oUnitLoggerHTML.ml" 82 3661 3676
+type(
+  char
+)
+"src/oUnitLoggerHTML.ml" 82 3661 3680 "src/oUnitLoggerHTML.ml" 82 3661 3685
+type(
+  string -> unit
+)
+ident(
+  int_ref addse "src/oUnitLoggerHTML.ml" 45 2609 2615 "src/oUnitLoggerHTML.ml" 45 2609 2620
+)
+"src/oUnitLoggerHTML.ml" 82 3661 3686 "src/oUnitLoggerHTML.ml" 82 3661 3691
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 82 3661 3680 "src/oUnitLoggerHTML.ml" 82 3661 3691
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 83 3692 3703 "src/oUnitLoggerHTML.ml" 83 3692 3704
+type(
+  char
+)
+ident(
+  def c "src/oUnitLoggerHTML.ml" 83 3692 3708 "src/oUnitLoggerHTML.ml" 83 3692 3714
+)
+"src/oUnitLoggerHTML.ml" 83 3692 3708 "src/oUnitLoggerHTML.ml" 83 3692 3712
+type(
+  char -> unit
+)
+ident(
+  int_ref addc "src/oUnitLoggerHTML.ml" 44 2570 2576 "src/oUnitLoggerHTML.ml" 44 2570 2580
+)
+"src/oUnitLoggerHTML.ml" 83 3692 3713 "src/oUnitLoggerHTML.ml" 83 3692 3714
+type(
+  char
+)
+ident(
+  int_ref c "src/oUnitLoggerHTML.ml" 83 3692 3703 "src/oUnitLoggerHTML.ml" 83 3692 3704
+)
+"src/oUnitLoggerHTML.ml" 83 3692 3708 "src/oUnitLoggerHTML.ml" 83 3692 3714
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 51 2707 2713 "src/oUnitLoggerHTML.ml" 83 3692 3715
+type(
+  char -> unit
+)
+"src/oUnitLoggerHTML.ml" 84 3716 3722 "src/oUnitLoggerHTML.ml" 84 3716 3725
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitLoggerHTML.ml" 42 2495 2512 "src/oUnitLoggerHTML.ml" 42 2495 2515
+)
+"src/oUnitLoggerHTML.ml" 50 2691 2695 "src/oUnitLoggerHTML.ml" 84 3716 3725
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 85 3727 3731 "src/oUnitLoggerHTML.ml" 85 3727 3746
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/oUnitLoggerHTML.ml" 85 3727 3747 "src/oUnitLoggerHTML.ml" 85 3727 3753
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/oUnitLoggerHTML.ml" 43 2518 2524 "src/oUnitLoggerHTML.ml" 43 2518 2530
+)
+"src/oUnitLoggerHTML.ml" 85 3727 3731 "src/oUnitLoggerHTML.ml" 85 3727 3753
+call(
+  tail
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 50 2691 2695 "src/oUnitLoggerHTML.ml" 85 3727 3753
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 45 2609 2611 "src/oUnitLoggerHTML.ml" 85 3727 3753
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 44 2570 2572 "src/oUnitLoggerHTML.ml" 85 3727 3753
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 43 2518 2520 "src/oUnitLoggerHTML.ml" 85 3727 3753
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 87 3755 3759 "src/oUnitLoggerHTML.ml" 87 3755 3765
+type(
+  (int, unit -> unit) Hashtbl.t ->
+  string ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  unit
+)
+ident(
+  def render "src/oUnitLoggerHTML.ml" 245 9169 9169 "src/oUnitLoggerHTML.ml" 1 0 -1
+)
+"src/oUnitLoggerHTML.ml" 87 3755 3766 "src/oUnitLoggerHTML.ml" 87 3755 3770
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  def conf "src/oUnitLoggerHTML.ml" 87 3755 3771 "src/oUnitLoggerHTML.ml" 243 9152 9167
+)
+"src/oUnitLoggerHTML.ml" 87 3755 3771 "src/oUnitLoggerHTML.ml" 87 3755 3773
+type(
+  string
+)
+ident(
+  def dn "src/oUnitLoggerHTML.ml" 87 3755 3774 "src/oUnitLoggerHTML.ml" 243 9152 9167
+)
+"src/oUnitLoggerHTML.ml" 87 3755 3774 "src/oUnitLoggerHTML.ml" 87 3755 3780
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+ident(
+  def events "src/oUnitLoggerHTML.ml" 88 3783 3785 "src/oUnitLoggerHTML.ml" 243 9152 9167
+)
+"src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+type(
+  OUnitResultSummary.t
+)
+ident(
+  def smr "src/oUnitLoggerHTML.ml" 91 3849 3851 "src/oUnitLoggerHTML.ml" 243 9152 9167
+)
+"src/oUnitLoggerHTML.ml" 89 3795 3799 "src/oUnitLoggerHTML.ml" 89 3795 3831
+type(
+  (int, unit -> unit) Hashtbl.t ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  OUnitResultSummary.t
+)
+ident(
+  ext_ref OUnitResultSummary.of_log_events
+)
+"src/oUnitLoggerHTML.ml" 89 3795 3832 "src/oUnitLoggerHTML.ml" 89 3795 3836
+type(
+  (int, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref conf "src/oUnitLoggerHTML.ml" 87 3755 3766 "src/oUnitLoggerHTML.ml" 87 3755 3770
+)
+"src/oUnitLoggerHTML.ml" 89 3795 3837 "src/oUnitLoggerHTML.ml" 89 3795 3843
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list
+)
+ident(
+  int_ref events "src/oUnitLoggerHTML.ml" 87 3755 3774 "src/oUnitLoggerHTML.ml" 87 3755 3780
+)
+"src/oUnitLoggerHTML.ml" 89 3795 3799 "src/oUnitLoggerHTML.ml" 89 3795 3843
+call(
+  stack
+)
+type(
+  OUnitResultSummary.t
+)
+"src/oUnitLoggerHTML.ml" 91 3849 3855 "src/oUnitLoggerHTML.ml" 91 3849 3857
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 92 3860 3867 "src/oUnitLoggerHTML.ml" 92 3860 3870
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/oUnitLoggerHTML.ml" 92 3860 3872 "src/oUnitLoggerHTML.ml" 92 3860 3887
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"src/oUnitLoggerHTML.ml" 92 3860 3888 "src/oUnitLoggerHTML.ml" 92 3860 3890
+type(
+  string
+)
+ident(
+  int_ref dn "src/oUnitLoggerHTML.ml" 87 3755 3771 "src/oUnitLoggerHTML.ml" 87 3755 3773
+)
+"src/oUnitLoggerHTML.ml" 92 3860 3871 "src/oUnitLoggerHTML.ml" 92 3860 3891
+type(
+  bool
+)
+"src/oUnitLoggerHTML.ml" 92 3860 3867 "src/oUnitLoggerHTML.ml" 92 3860 3891
+type(
+  bool
+)
+"src/oUnitLoggerHTML.ml" 93 3897 3903 "src/oUnitLoggerHTML.ml" 93 3897 3925
+type(
+  (unit -> unit) -> unit -> unit
+)
+ident(
+  ext_ref Unix.handle_unix_error
+)
+"src/oUnitLoggerHTML.ml" 93 3897 3931 "src/oUnitLoggerHTML.ml" 93 3897 3933
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 93 3897 3937 "src/oUnitLoggerHTML.ml" 93 3897 3947
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  ext_ref Unix.mkdir
+)
+"src/oUnitLoggerHTML.ml" 93 3897 3948 "src/oUnitLoggerHTML.ml" 93 3897 3950
+type(
+  string
+)
+ident(
+  int_ref dn "src/oUnitLoggerHTML.ml" 87 3755 3771 "src/oUnitLoggerHTML.ml" 87 3755 3773
+)
+"src/oUnitLoggerHTML.ml" 93 3897 3951 "src/oUnitLoggerHTML.ml" 93 3897 3956
+type(
+  Unix.file_perm
+)
+"src/oUnitLoggerHTML.ml" 93 3897 3937 "src/oUnitLoggerHTML.ml" 93 3897 3956
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 93 3897 3926 "src/oUnitLoggerHTML.ml" 93 3897 3957
+type(
+  unit -> unit
+)
+"src/oUnitLoggerHTML.ml" 93 3897 3958 "src/oUnitLoggerHTML.ml" 93 3897 3960
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 93 3897 3903 "src/oUnitLoggerHTML.ml" 93 3897 3960
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 92 3860 3864 "src/oUnitLoggerHTML.ml" 93 3897 3960
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 96 3967 3973 "src/oUnitLoggerHTML.ml" 96 3967 3976
+type(
+  out_channel
+)
+ident(
+  def chn "src/oUnitLoggerHTML.ml" 97 4024 4026 "src/oUnitLoggerHTML.ml" 243 9152 9167
+)
+"src/oUnitLoggerHTML.ml" 96 3967 3979 "src/oUnitLoggerHTML.ml" 96 3967 3987
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"src/oUnitLoggerHTML.ml" 96 3967 3989 "src/oUnitLoggerHTML.ml" 96 3967 4004
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"src/oUnitLoggerHTML.ml" 96 3967 4005 "src/oUnitLoggerHTML.ml" 96 3967 4007
+type(
+  string
+)
+ident(
+  int_ref dn "src/oUnitLoggerHTML.ml" 87 3755 3771 "src/oUnitLoggerHTML.ml" 87 3755 3773
+)
+"src/oUnitLoggerHTML.ml" 96 3967 4008 "src/oUnitLoggerHTML.ml" 96 3967 4019
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 96 3967 3988 "src/oUnitLoggerHTML.ml" 96 3967 4020
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 96 3967 3979 "src/oUnitLoggerHTML.ml" 96 3967 4020
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/oUnitLoggerHTML.ml" 97 4024 4030 "src/oUnitLoggerHTML.ml" 97 4024 4032
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 98 4035 4039 "src/oUnitLoggerHTML.ml" 98 4035 4052
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/oUnitLoggerHTML.ml" 98 4035 4053 "src/oUnitLoggerHTML.ml" 98 4035 4056
+type(
+  out_channel
+)
+ident(
+  int_ref chn "src/oUnitLoggerHTML.ml" 96 3967 3973 "src/oUnitLoggerHTML.ml" 96 3967 3976
+)
+"src/oUnitLoggerHTML.ml" 98 4035 4057 "src/oUnitLoggerHTML.ml" 98 4035 4086
+type(
+  string
+)
+ident(
+  ext_ref OUnitLoggerHTMLData.oUnit_css
+)
+"src/oUnitLoggerHTML.ml" 98 4035 4039 "src/oUnitLoggerHTML.ml" 98 4035 4086
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 99 4088 4092 "src/oUnitLoggerHTML.ml" 99 4088 4101
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/oUnitLoggerHTML.ml" 99 4088 4102 "src/oUnitLoggerHTML.ml" 99 4088 4105
+type(
+  out_channel
+)
+ident(
+  int_ref chn "src/oUnitLoggerHTML.ml" 96 3967 3973 "src/oUnitLoggerHTML.ml" 96 3967 3976
+)
+"src/oUnitLoggerHTML.ml" 99 4088 4092 "src/oUnitLoggerHTML.ml" 99 4088 4105
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 98 4035 4039 "src/oUnitLoggerHTML.ml" 99 4088 4105
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 102 4112 4118 "src/oUnitLoggerHTML.ml" 102 4112 4121
+type(
+  out_channel
+)
+ident(
+  def chn "src/oUnitLoggerHTML.ml" 103 4168 4170 "src/oUnitLoggerHTML.ml" 243 9152 9167
+)
+"src/oUnitLoggerHTML.ml" 102 4112 4124 "src/oUnitLoggerHTML.ml" 102 4112 4132
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"src/oUnitLoggerHTML.ml" 102 4112 4134 "src/oUnitLoggerHTML.ml" 102 4112 4149
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"src/oUnitLoggerHTML.ml" 102 4112 4150 "src/oUnitLoggerHTML.ml" 102 4112 4152
+type(
+  string
+)
+ident(
+  int_ref dn "src/oUnitLoggerHTML.ml" 87 3755 3771 "src/oUnitLoggerHTML.ml" 87 3755 3773
+)
+"src/oUnitLoggerHTML.ml" 102 4112 4153 "src/oUnitLoggerHTML.ml" 102 4112 4163
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 102 4112 4133 "src/oUnitLoggerHTML.ml" 102 4112 4164
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 102 4112 4124 "src/oUnitLoggerHTML.ml" 102 4112 4164
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/oUnitLoggerHTML.ml" 103 4168 4174 "src/oUnitLoggerHTML.ml" 103 4168 4176
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 104 4179 4183 "src/oUnitLoggerHTML.ml" 104 4179 4196
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/oUnitLoggerHTML.ml" 104 4179 4197 "src/oUnitLoggerHTML.ml" 104 4179 4200
+type(
+  out_channel
+)
+ident(
+  int_ref chn "src/oUnitLoggerHTML.ml" 102 4112 4118 "src/oUnitLoggerHTML.ml" 102 4112 4121
+)
+"src/oUnitLoggerHTML.ml" 104 4179 4201 "src/oUnitLoggerHTML.ml" 104 4179 4229
+type(
+  string
+)
+ident(
+  ext_ref OUnitLoggerHTMLData.oUnit_js
+)
+"src/oUnitLoggerHTML.ml" 104 4179 4183 "src/oUnitLoggerHTML.ml" 104 4179 4229
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 105 4231 4235 "src/oUnitLoggerHTML.ml" 105 4231 4244
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/oUnitLoggerHTML.ml" 105 4231 4245 "src/oUnitLoggerHTML.ml" 105 4231 4248
+type(
+  out_channel
+)
+ident(
+  int_ref chn "src/oUnitLoggerHTML.ml" 102 4112 4118 "src/oUnitLoggerHTML.ml" 102 4112 4121
+)
+"src/oUnitLoggerHTML.ml" 105 4231 4235 "src/oUnitLoggerHTML.ml" 105 4231 4248
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 104 4179 4183 "src/oUnitLoggerHTML.ml" 105 4231 4248
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 108 4255 4261 "src/oUnitLoggerHTML.ml" 108 4255 4264
+type(
+  out_channel
+)
+ident(
+  def chn "src/oUnitLoggerHTML.ml" 109 4313 4315 "src/oUnitLoggerHTML.ml" 243 9152 9167
+)
+"src/oUnitLoggerHTML.ml" 108 4255 4267 "src/oUnitLoggerHTML.ml" 108 4255 4275
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"src/oUnitLoggerHTML.ml" 108 4255 4277 "src/oUnitLoggerHTML.ml" 108 4255 4292
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"src/oUnitLoggerHTML.ml" 108 4255 4293 "src/oUnitLoggerHTML.ml" 108 4255 4295
+type(
+  string
+)
+ident(
+  int_ref dn "src/oUnitLoggerHTML.ml" 87 3755 3771 "src/oUnitLoggerHTML.ml" 87 3755 3773
+)
+"src/oUnitLoggerHTML.ml" 108 4255 4296 "src/oUnitLoggerHTML.ml" 108 4255 4308
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 108 4255 4276 "src/oUnitLoggerHTML.ml" 108 4255 4309
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 108 4255 4267 "src/oUnitLoggerHTML.ml" 108 4255 4309
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+type(
+  ('a, out_channel, unit) format -> 'a
+)
+ident(
+  def printf "src/oUnitLoggerHTML.ml" 110 4358 4360 "src/oUnitLoggerHTML.ml" 243 9152 9167
+)
+"src/oUnitLoggerHTML.ml" 109 4313 4326 "src/oUnitLoggerHTML.ml" 109 4313 4329
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  def fmt "src/oUnitLoggerHTML.ml" 109 4313 4332 "src/oUnitLoggerHTML.ml" 109 4313 4354
+)
+"src/oUnitLoggerHTML.ml" 109 4313 4332 "src/oUnitLoggerHTML.ml" 109 4313 4346
+type(
+  out_channel -> ('a, out_channel, unit) format -> 'a
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"src/oUnitLoggerHTML.ml" 109 4313 4347 "src/oUnitLoggerHTML.ml" 109 4313 4350
+type(
+  out_channel
+)
+ident(
+  int_ref chn "src/oUnitLoggerHTML.ml" 108 4255 4261 "src/oUnitLoggerHTML.ml" 108 4255 4264
+)
+"src/oUnitLoggerHTML.ml" 109 4313 4351 "src/oUnitLoggerHTML.ml" 109 4313 4354
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  int_ref fmt "src/oUnitLoggerHTML.ml" 109 4313 4326 "src/oUnitLoggerHTML.ml" 109 4313 4329
+)
+"src/oUnitLoggerHTML.ml" 109 4313 4332 "src/oUnitLoggerHTML.ml" 109 4313 4354
+call(
+  tail
+)
+type(
+  'a
+)
+"src/oUnitLoggerHTML.ml" 110 4358 4360 "src/oUnitLoggerHTML.ml" 110 4358 4366
+type(
+  (string -> string -> string -> unit, out_channel, unit) format ->
+  string -> string -> string -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 110 4358 4367 "src/oUnitLoggerHTML.ml" 128 5030 5074
+type(
+  (string -> string -> string -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 129 5075 5078 "src/oUnitLoggerHTML.ml" 129 5075 5090
+type(
+  string -> string
+)
+ident(
+  int_ref html_escaper "src/oUnitLoggerHTML.ml" 42 2495 2499 "src/oUnitLoggerHTML.ml" 42 2495 2511
+)
+"src/oUnitLoggerHTML.ml" 129 5075 5091 "src/oUnitLoggerHTML.ml" 129 5075 5094
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 129 5075 5091 "src/oUnitLoggerHTML.ml" 129 5075 5105
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 129 5075 5077 "src/oUnitLoggerHTML.ml" 129 5075 5106
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 129 5075 5107 "src/oUnitLoggerHTML.ml" 129 5075 5110
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 129 5075 5107 "src/oUnitLoggerHTML.ml" 129 5075 5118
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 129 5075 5120 "src/oUnitLoggerHTML.ml" 129 5075 5132
+type(
+  string -> string
+)
+ident(
+  int_ref html_escaper "src/oUnitLoggerHTML.ml" 42 2495 2499 "src/oUnitLoggerHTML.ml" 42 2495 2511
+)
+"src/oUnitLoggerHTML.ml" 129 5075 5133 "src/oUnitLoggerHTML.ml" 129 5075 5136
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 129 5075 5133 "src/oUnitLoggerHTML.ml" 129 5075 5147
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 129 5075 5119 "src/oUnitLoggerHTML.ml" 129 5075 5148
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 110 4358 4360 "src/oUnitLoggerHTML.ml" 129 5075 5148
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 131 5158 5166 "src/oUnitLoggerHTML.ml" 131 5158 5179
+type(
+  string -> string -> int -> unit
+)
+ident(
+  def printf_result "src/oUnitLoggerHTML.ml" 138 5351 5355 "src/oUnitLoggerHTML.ml" 162 6317 6396
+)
+"src/oUnitLoggerHTML.ml" 131 5158 5180 "src/oUnitLoggerHTML.ml" 131 5158 5184
+type(
+  string
+)
+ident(
+  def clss "src/oUnitLoggerHTML.ml" 131 5158 5185 "src/oUnitLoggerHTML.ml" 136 5321 5343
+)
+"src/oUnitLoggerHTML.ml" 131 5158 5185 "src/oUnitLoggerHTML.ml" 131 5158 5190
+type(
+  string
+)
+ident(
+  def label "src/oUnitLoggerHTML.ml" 131 5158 5191 "src/oUnitLoggerHTML.ml" 136 5321 5343
+)
+"src/oUnitLoggerHTML.ml" 131 5158 5191 "src/oUnitLoggerHTML.ml" 131 5158 5194
+type(
+  int
+)
+ident(
+  def num "src/oUnitLoggerHTML.ml" 132 5197 5203 "src/oUnitLoggerHTML.ml" 136 5321 5343
+)
+"src/oUnitLoggerHTML.ml" 132 5197 5203 "src/oUnitLoggerHTML.ml" 132 5197 5209
+type(
+  (string -> string -> int -> unit, out_channel, unit) format ->
+  string -> string -> int -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 133 5210 5218 "src/oUnitLoggerHTML.ml" 135 5302 5320
+type(
+  (string -> string -> int -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 136 5321 5329 "src/oUnitLoggerHTML.ml" 136 5321 5333
+type(
+  string
+)
+ident(
+  int_ref clss "src/oUnitLoggerHTML.ml" 131 5158 5180 "src/oUnitLoggerHTML.ml" 131 5158 5184
+)
+"src/oUnitLoggerHTML.ml" 136 5321 5334 "src/oUnitLoggerHTML.ml" 136 5321 5339
+type(
+  string
+)
+ident(
+  int_ref label "src/oUnitLoggerHTML.ml" 131 5158 5185 "src/oUnitLoggerHTML.ml" 131 5158 5190
+)
+"src/oUnitLoggerHTML.ml" 136 5321 5340 "src/oUnitLoggerHTML.ml" 136 5321 5343
+type(
+  int
+)
+ident(
+  int_ref num "src/oUnitLoggerHTML.ml" 131 5158 5191 "src/oUnitLoggerHTML.ml" 131 5158 5194
+)
+"src/oUnitLoggerHTML.ml" 132 5197 5203 "src/oUnitLoggerHTML.ml" 136 5321 5343
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 138 5351 5359 "src/oUnitLoggerHTML.ml" 138 5351 5377
+type(
+  string -> string -> int -> unit
+)
+ident(
+  def printf_non0_result "src/oUnitLoggerHTML.ml" 142 5461 5467 "src/oUnitLoggerHTML.ml" 162 6317 6396
+)
+"src/oUnitLoggerHTML.ml" 138 5351 5378 "src/oUnitLoggerHTML.ml" 138 5351 5382
+type(
+  string
+)
+ident(
+  def clss "src/oUnitLoggerHTML.ml" 138 5351 5383 "src/oUnitLoggerHTML.ml" 140 5417 5453
+)
+"src/oUnitLoggerHTML.ml" 138 5351 5383 "src/oUnitLoggerHTML.ml" 138 5351 5388
+type(
+  string
+)
+ident(
+  def label "src/oUnitLoggerHTML.ml" 138 5351 5389 "src/oUnitLoggerHTML.ml" 140 5417 5453
+)
+"src/oUnitLoggerHTML.ml" 138 5351 5389 "src/oUnitLoggerHTML.ml" 138 5351 5392
+type(
+  int
+)
+ident(
+  def num "src/oUnitLoggerHTML.ml" 139 5395 5401 "src/oUnitLoggerHTML.ml" 140 5417 5453
+)
+"src/oUnitLoggerHTML.ml" 139 5395 5404 "src/oUnitLoggerHTML.ml" 139 5395 5407
+type(
+  int
+)
+ident(
+  int_ref num "src/oUnitLoggerHTML.ml" 138 5351 5389 "src/oUnitLoggerHTML.ml" 138 5351 5392
+)
+"src/oUnitLoggerHTML.ml" 139 5395 5408 "src/oUnitLoggerHTML.ml" 139 5395 5409
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/oUnitLoggerHTML.ml" 139 5395 5410 "src/oUnitLoggerHTML.ml" 139 5395 5411
+type(
+  int
+)
+"src/oUnitLoggerHTML.ml" 139 5395 5404 "src/oUnitLoggerHTML.ml" 139 5395 5411
+type(
+  bool
+)
+"src/oUnitLoggerHTML.ml" 140 5417 5425 "src/oUnitLoggerHTML.ml" 140 5417 5438
+type(
+  string -> string -> int -> unit
+)
+ident(
+  int_ref printf_result "src/oUnitLoggerHTML.ml" 131 5158 5166 "src/oUnitLoggerHTML.ml" 131 5158 5179
+)
+"src/oUnitLoggerHTML.ml" 140 5417 5439 "src/oUnitLoggerHTML.ml" 140 5417 5443
+type(
+  string
+)
+ident(
+  int_ref clss "src/oUnitLoggerHTML.ml" 138 5351 5378 "src/oUnitLoggerHTML.ml" 138 5351 5382
+)
+"src/oUnitLoggerHTML.ml" 140 5417 5444 "src/oUnitLoggerHTML.ml" 140 5417 5449
+type(
+  string
+)
+ident(
+  int_ref label "src/oUnitLoggerHTML.ml" 138 5351 5383 "src/oUnitLoggerHTML.ml" 138 5351 5388
+)
+"src/oUnitLoggerHTML.ml" 140 5417 5450 "src/oUnitLoggerHTML.ml" 140 5417 5453
+type(
+  int
+)
+ident(
+  int_ref num "src/oUnitLoggerHTML.ml" 138 5351 5389 "src/oUnitLoggerHTML.ml" 138 5351 5392
+)
+"src/oUnitLoggerHTML.ml" 140 5417 5425 "src/oUnitLoggerHTML.ml" 140 5417 5453
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 139 5395 5401 "src/oUnitLoggerHTML.ml" 140 5417 5453
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 142 5461 5467 "src/oUnitLoggerHTML.ml" 142 5461 5473
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 143 5474 5482 "src/oUnitLoggerHTML.ml" 145 5546 5562
+type(
+  (string -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 145 5546 5564 "src/oUnitLoggerHTML.ml" 145 5546 5576
+type(
+  ?tz:bool -> float -> string
+)
+ident(
+  ext_ref OUnitUtils.date_iso8601
+)
+"src/oUnitLoggerHTML.ml" 145 5546 5577 "src/oUnitLoggerHTML.ml" 145 5546 5580
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 145 5546 5577 "src/oUnitLoggerHTML.ml" 145 5546 5589
+type(
+  float
+)
+"src/oUnitLoggerHTML.ml" 145 5546 5563 "src/oUnitLoggerHTML.ml" 145 5546 5590
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 142 5461 5467 "src/oUnitLoggerHTML.ml" 145 5546 5590
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 146 5592 5598 "src/oUnitLoggerHTML.ml" 146 5592 5604
+type(
+  (float -> unit, out_channel, unit) format -> float -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 147 5605 5613 "src/oUnitLoggerHTML.ml" 149 5714 5730
+type(
+  (float -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 149 5714 5731 "src/oUnitLoggerHTML.ml" 149 5714 5734
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 149 5714 5731 "src/oUnitLoggerHTML.ml" 149 5714 5747
+type(
+  float
+)
+"src/oUnitLoggerHTML.ml" 146 5592 5598 "src/oUnitLoggerHTML.ml" 149 5714 5747
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 150 5749 5755 "src/oUnitLoggerHTML.ml" 150 5749 5768
+type(
+  string -> string -> int -> unit
+)
+ident(
+  int_ref printf_result "src/oUnitLoggerHTML.ml" 131 5158 5166 "src/oUnitLoggerHTML.ml" 131 5158 5179
+)
+"src/oUnitLoggerHTML.ml" 150 5749 5769 "src/oUnitLoggerHTML.ml" 150 5749 5781
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 150 5749 5782 "src/oUnitLoggerHTML.ml" 150 5749 5795
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 150 5749 5796 "src/oUnitLoggerHTML.ml" 150 5749 5799
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 150 5749 5796 "src/oUnitLoggerHTML.ml" 150 5749 5815
+type(
+  int
+)
+"src/oUnitLoggerHTML.ml" 150 5749 5755 "src/oUnitLoggerHTML.ml" 150 5749 5815
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 151 5817 5823 "src/oUnitLoggerHTML.ml" 151 5817 5841
+type(
+  string -> string -> int -> unit
+)
+ident(
+  int_ref printf_non0_result "src/oUnitLoggerHTML.ml" 138 5351 5359 "src/oUnitLoggerHTML.ml" 138 5351 5377
+)
+"src/oUnitLoggerHTML.ml" 151 5817 5842 "src/oUnitLoggerHTML.ml" 151 5817 5850
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 151 5817 5851 "src/oUnitLoggerHTML.ml" 151 5817 5859
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 151 5817 5860 "src/oUnitLoggerHTML.ml" 151 5817 5863
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 151 5817 5860 "src/oUnitLoggerHTML.ml" 151 5817 5870
+type(
+  int
+)
+"src/oUnitLoggerHTML.ml" 151 5817 5823 "src/oUnitLoggerHTML.ml" 151 5817 5870
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 152 5872 5878 "src/oUnitLoggerHTML.ml" 152 5872 5896
+type(
+  string -> string -> int -> unit
+)
+ident(
+  int_ref printf_non0_result "src/oUnitLoggerHTML.ml" 138 5351 5359 "src/oUnitLoggerHTML.ml" 138 5351 5377
+)
+"src/oUnitLoggerHTML.ml" 152 5872 5897 "src/oUnitLoggerHTML.ml" 152 5872 5907
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 152 5872 5908 "src/oUnitLoggerHTML.ml" 152 5872 5918
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 152 5872 5919 "src/oUnitLoggerHTML.ml" 152 5872 5922
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 152 5872 5919 "src/oUnitLoggerHTML.ml" 152 5872 5931
+type(
+  int
+)
+"src/oUnitLoggerHTML.ml" 152 5872 5878 "src/oUnitLoggerHTML.ml" 152 5872 5931
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 153 5933 5939 "src/oUnitLoggerHTML.ml" 153 5933 5957
+type(
+  string -> string -> int -> unit
+)
+ident(
+  int_ref printf_non0_result "src/oUnitLoggerHTML.ml" 138 5351 5359 "src/oUnitLoggerHTML.ml" 138 5351 5377
+)
+"src/oUnitLoggerHTML.ml" 153 5933 5958 "src/oUnitLoggerHTML.ml" 153 5933 5965
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 153 5933 5966 "src/oUnitLoggerHTML.ml" 153 5933 5975
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 153 5933 5976 "src/oUnitLoggerHTML.ml" 153 5933 5979
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 153 5933 5976 "src/oUnitLoggerHTML.ml" 153 5933 5985
+type(
+  int
+)
+"src/oUnitLoggerHTML.ml" 153 5933 5939 "src/oUnitLoggerHTML.ml" 153 5933 5985
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 154 5987 5993 "src/oUnitLoggerHTML.ml" 154 5987 6011
+type(
+  string -> string -> int -> unit
+)
+ident(
+  int_ref printf_non0_result "src/oUnitLoggerHTML.ml" 138 5351 5359 "src/oUnitLoggerHTML.ml" 138 5351 5377
+)
+"src/oUnitLoggerHTML.ml" 154 5987 6012 "src/oUnitLoggerHTML.ml" 154 5987 6019
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 154 5987 6020 "src/oUnitLoggerHTML.ml" 154 5987 6026
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 154 5987 6027 "src/oUnitLoggerHTML.ml" 154 5987 6030
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 154 5987 6027 "src/oUnitLoggerHTML.ml" 154 5987 6036
+type(
+  int
+)
+"src/oUnitLoggerHTML.ml" 154 5987 5993 "src/oUnitLoggerHTML.ml" 154 5987 6036
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 155 6038 6044 "src/oUnitLoggerHTML.ml" 155 6038 6062
+type(
+  string -> string -> int -> unit
+)
+ident(
+  int_ref printf_non0_result "src/oUnitLoggerHTML.ml" 138 5351 5359 "src/oUnitLoggerHTML.ml" 138 5351 5377
+)
+"src/oUnitLoggerHTML.ml" 155 6038 6063 "src/oUnitLoggerHTML.ml" 155 6038 6073
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 155 6038 6074 "src/oUnitLoggerHTML.ml" 155 6038 6085
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 155 6038 6086 "src/oUnitLoggerHTML.ml" 155 6038 6089
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 155 6038 6086 "src/oUnitLoggerHTML.ml" 155 6038 6098
+type(
+  int
+)
+"src/oUnitLoggerHTML.ml" 155 6038 6044 "src/oUnitLoggerHTML.ml" 155 6038 6098
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 156 6100 6106 "src/oUnitLoggerHTML.ml" 156 6100 6119
+type(
+  string -> string -> int -> unit
+)
+ident(
+  int_ref printf_result "src/oUnitLoggerHTML.ml" 131 5158 5166 "src/oUnitLoggerHTML.ml" 131 5158 5179
+)
+"src/oUnitLoggerHTML.ml" 156 6100 6120 "src/oUnitLoggerHTML.ml" 156 6100 6131
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 156 6100 6132 "src/oUnitLoggerHTML.ml" 156 6100 6143
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 156 6100 6144 "src/oUnitLoggerHTML.ml" 156 6100 6147
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 156 6100 6144 "src/oUnitLoggerHTML.ml" 156 6100 6157
+type(
+  int
+)
+"src/oUnitLoggerHTML.ml" 156 6100 6106 "src/oUnitLoggerHTML.ml" 156 6100 6157
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 159 6192 6201 "src/oUnitLoggerHTML.ml" 159 6192 6215
+type(
+  OUnitTest.result_list -> bool
+)
+ident(
+  ext_ref OUnitResultSummary.was_successful
+)
+"src/oUnitLoggerHTML.ml" 159 6192 6216 "src/oUnitLoggerHTML.ml" 159 6192 6219
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 159 6192 6216 "src/oUnitLoggerHTML.ml" 159 6192 6234
+type(
+  OUnitTest.result_list
+)
+"src/oUnitLoggerHTML.ml" 159 6192 6201 "src/oUnitLoggerHTML.ml" 159 6192 6234
+call(
+  stack
+)
+type(
+  bool
+)
+"src/oUnitLoggerHTML.ml" 160 6240 6248 "src/oUnitLoggerHTML.ml" 160 6240 6254
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 160 6240 6255 "src/oUnitLoggerHTML.ml" 160 6240 6305
+type(
+  (unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 160 6240 6248 "src/oUnitLoggerHTML.ml" 160 6240 6305
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 162 6317 6325 "src/oUnitLoggerHTML.ml" 162 6317 6331
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 162 6317 6332 "src/oUnitLoggerHTML.ml" 162 6317 6396
+type(
+  (unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 162 6317 6325 "src/oUnitLoggerHTML.ml" 162 6317 6396
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 159 6192 6198 "src/oUnitLoggerHTML.ml" 162 6317 6396
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 156 6100 6106 "src/oUnitLoggerHTML.ml" 162 6317 6396
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 155 6038 6044 "src/oUnitLoggerHTML.ml" 162 6317 6396
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 154 5987 5993 "src/oUnitLoggerHTML.ml" 162 6317 6396
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 153 5933 5939 "src/oUnitLoggerHTML.ml" 162 6317 6396
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 152 5872 5878 "src/oUnitLoggerHTML.ml" 162 6317 6396
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 151 5817 5823 "src/oUnitLoggerHTML.ml" 162 6317 6396
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 150 5749 5755 "src/oUnitLoggerHTML.ml" 162 6317 6396
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 146 5592 5598 "src/oUnitLoggerHTML.ml" 162 6317 6396
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 142 5461 5467 "src/oUnitLoggerHTML.ml" 162 6317 6396
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 138 5351 5355 "src/oUnitLoggerHTML.ml" 162 6317 6396
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 130 5150 5152 "src/oUnitLoggerHTML.ml" 163 6397 6402
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 165 6405 6407 "src/oUnitLoggerHTML.ml" 165 6405 6413
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 165 6405 6414 "src/oUnitLoggerHTML.ml" 170 6499 6540
+type(
+  (unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 165 6405 6407 "src/oUnitLoggerHTML.ml" 170 6499 6540
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 171 6542 6544 "src/oUnitLoggerHTML.ml" 171 6542 6553
+type(
+  (string * string -> unit) -> (string * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitLoggerHTML.ml" 172 6554 6564 "src/oUnitLoggerHTML.ml" 172 6554 6565
+type(
+  string
+)
+ident(
+  def k "src/oUnitLoggerHTML.ml" 172 6554 6573 "src/oUnitLoggerHTML.ml" 173 6595 6649
+)
+"src/oUnitLoggerHTML.ml" 172 6554 6567 "src/oUnitLoggerHTML.ml" 172 6554 6568
+type(
+  string
+)
+ident(
+  def v "src/oUnitLoggerHTML.ml" 172 6554 6573 "src/oUnitLoggerHTML.ml" 173 6595 6649
+)
+"src/oUnitLoggerHTML.ml" 172 6554 6563 "src/oUnitLoggerHTML.ml" 172 6554 6569
+type(
+  string * string
+)
+"src/oUnitLoggerHTML.ml" 172 6554 6573 "src/oUnitLoggerHTML.ml" 172 6554 6579
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 172 6554 6580 "src/oUnitLoggerHTML.ml" 172 6554 6594
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 173 6595 6617 "src/oUnitLoggerHTML.ml" 173 6595 6629
+type(
+  string -> string
+)
+ident(
+  int_ref html_escaper "src/oUnitLoggerHTML.ml" 42 2495 2499 "src/oUnitLoggerHTML.ml" 42 2495 2511
+)
+"src/oUnitLoggerHTML.ml" 173 6595 6630 "src/oUnitLoggerHTML.ml" 173 6595 6631
+type(
+  string
+)
+ident(
+  int_ref k "src/oUnitLoggerHTML.ml" 172 6554 6564 "src/oUnitLoggerHTML.ml" 172 6554 6565
+)
+"src/oUnitLoggerHTML.ml" 173 6595 6616 "src/oUnitLoggerHTML.ml" 173 6595 6632
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 173 6595 6634 "src/oUnitLoggerHTML.ml" 173 6595 6646
+type(
+  string -> string
+)
+ident(
+  int_ref html_escaper "src/oUnitLoggerHTML.ml" 42 2495 2499 "src/oUnitLoggerHTML.ml" 42 2495 2511
+)
+"src/oUnitLoggerHTML.ml" 173 6595 6647 "src/oUnitLoggerHTML.ml" 173 6595 6648
+type(
+  string
+)
+ident(
+  int_ref v "src/oUnitLoggerHTML.ml" 172 6554 6567 "src/oUnitLoggerHTML.ml" 172 6554 6568
+)
+"src/oUnitLoggerHTML.ml" 173 6595 6633 "src/oUnitLoggerHTML.ml" 173 6595 6649
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 172 6554 6573 "src/oUnitLoggerHTML.ml" 173 6595 6649
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 172 6554 6558 "src/oUnitLoggerHTML.ml" 173 6595 6650
+type(
+  string * string -> unit
+)
+"src/oUnitLoggerHTML.ml" 174 6651 6655 "src/oUnitLoggerHTML.ml" 174 6651 6658
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 174 6651 6655 "src/oUnitLoggerHTML.ml" 174 6651 6663
+type(
+  (string * string) list
+)
+"src/oUnitLoggerHTML.ml" 171 6542 6544 "src/oUnitLoggerHTML.ml" 174 6651 6663
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 175 6665 6667 "src/oUnitLoggerHTML.ml" 175 6665 6673
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 175 6665 6674 "src/oUnitLoggerHTML.ml" 178 6702 6704
+type(
+  (unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 175 6665 6667 "src/oUnitLoggerHTML.ml" 178 6702 6704
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 179 6706 6708 "src/oUnitLoggerHTML.ml" 179 6706 6717
+type(
+  (OUnitResultSummary.test_data -> unit) ->
+  OUnitResultSummary.test_data list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitLoggerHTML.ml" 180 6718 6727 "src/oUnitLoggerHTML.ml" 180 6718 6736
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  def test_data "src/oUnitLoggerHTML.ml" 181 6740 6747 "src/oUnitLoggerHTML.ml" 238 9054 9068
+)
+"src/oUnitLoggerHTML.ml" 181 6740 6751 "src/oUnitLoggerHTML.ml" 181 6740 6763
+type(
+  string
+)
+ident(
+  def class_result "src/oUnitLoggerHTML.ml" 190 7147 7154 "src/oUnitLoggerHTML.ml" 238 9054 9068
+)
+"src/oUnitLoggerHTML.ml" 181 6740 6765 "src/oUnitLoggerHTML.ml" 181 6740 6776
+type(
+  string
+)
+ident(
+  def text_result "src/oUnitLoggerHTML.ml" 190 7147 7154 "src/oUnitLoggerHTML.ml" 238 9054 9068
+)
+"src/oUnitLoggerHTML.ml" 181 6740 6751 "src/oUnitLoggerHTML.ml" 181 6740 6776
+type(
+  string * string
+)
+"src/oUnitLoggerHTML.ml" 182 6779 6794 "src/oUnitLoggerHTML.ml" 182 6779 6803
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  int_ref test_data "src/oUnitLoggerHTML.ml" 180 6718 6727 "src/oUnitLoggerHTML.ml" 180 6718 6736
+)
+"src/oUnitLoggerHTML.ml" 182 6779 6794 "src/oUnitLoggerHTML.ml" 182 6779 6815
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerHTML.ml" 183 6821 6834 "src/oUnitLoggerHTML.ml" 183 6821 6842
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerHTML.ml" 183 6821 6849 "src/oUnitLoggerHTML.ml" 183 6821 6864
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 183 6821 6866 "src/oUnitLoggerHTML.ml" 183 6821 6875
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 183 6821 6849 "src/oUnitLoggerHTML.ml" 183 6821 6875
+type(
+  string * string
+)
+"src/oUnitLoggerHTML.ml" 184 6876 6898 "src/oUnitLoggerHTML.ml" 184 6876 6899
+type(
+  OUnitTest.backtrace
+)
+type(
+  OUnitLogger.position option
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 184 6876 6889 "src/oUnitLoggerHTML.ml" 184 6876 6899
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerHTML.ml" 184 6876 6904 "src/oUnitLoggerHTML.ml" 184 6876 6919
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 184 6876 6921 "src/oUnitLoggerHTML.ml" 184 6876 6929
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 184 6876 6904 "src/oUnitLoggerHTML.ml" 184 6876 6929
+type(
+  string * string
+)
+"src/oUnitLoggerHTML.ml" 185 6930 6950 "src/oUnitLoggerHTML.ml" 185 6930 6951
+type(
+  OUnitTest.backtrace
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 185 6930 6943 "src/oUnitLoggerHTML.ml" 185 6930 6951
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerHTML.ml" 185 6930 6958 "src/oUnitLoggerHTML.ml" 185 6930 6971
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 185 6930 6973 "src/oUnitLoggerHTML.ml" 185 6930 6980
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 185 6930 6958 "src/oUnitLoggerHTML.ml" 185 6930 6980
+type(
+  string * string
+)
+"src/oUnitLoggerHTML.ml" 186 6981 7000 "src/oUnitLoggerHTML.ml" 186 6981 7001
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 186 6981 6994 "src/oUnitLoggerHTML.ml" 186 6981 7001
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerHTML.ml" 186 6981 7009 "src/oUnitLoggerHTML.ml" 186 6981 7021
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 186 6981 7023 "src/oUnitLoggerHTML.ml" 186 6981 7032
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 186 6981 7009 "src/oUnitLoggerHTML.ml" 186 6981 7032
+type(
+  string * string
+)
+"src/oUnitLoggerHTML.ml" 187 7033 7052 "src/oUnitLoggerHTML.ml" 187 7033 7053
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 187 7033 7046 "src/oUnitLoggerHTML.ml" 187 7033 7053
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerHTML.ml" 187 7033 7061 "src/oUnitLoggerHTML.ml" 187 7033 7073
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 187 7033 7075 "src/oUnitLoggerHTML.ml" 187 7033 7081
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 187 7033 7061 "src/oUnitLoggerHTML.ml" 187 7033 7081
+type(
+  string * string
+)
+"src/oUnitLoggerHTML.ml" 188 7082 7104 "src/oUnitLoggerHTML.ml" 188 7082 7105
+type(
+  OUnitTest.test_length
+)
+"src/oUnitLoggerHTML.ml" 188 7082 7095 "src/oUnitLoggerHTML.ml" 188 7082 7105
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerHTML.ml" 188 7082 7110 "src/oUnitLoggerHTML.ml" 188 7082 7125
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 188 7082 7127 "src/oUnitLoggerHTML.ml" 188 7082 7136
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 188 7082 7110 "src/oUnitLoggerHTML.ml" 188 7082 7136
+type(
+  string * string
+)
+"src/oUnitLoggerHTML.ml" 182 6779 6788 "src/oUnitLoggerHTML.ml" 188 7082 7136
+type(
+  string * string
+)
+"src/oUnitLoggerHTML.ml" 190 7147 7158 "src/oUnitLoggerHTML.ml" 190 7147 7176
+type(
+  [< `Error | `Info | `Warning ] option -> string
+)
+ident(
+  def class_severity_opt "src/oUnitLoggerHTML.ml" 197 7376 7383 "src/oUnitLoggerHTML.ml" 238 9054 9068
+)
+"src/oUnitLoggerHTML.ml" 192 7197 7215 "src/oUnitLoggerHTML.ml" 192 7197 7221
+type(
+  [< `Error | `Info | `Warning ] as 'b
+)
+"src/oUnitLoggerHTML.ml" 192 7197 7210 "src/oUnitLoggerHTML.ml" 192 7197 7221
+type(
+  'b option
+)
+"src/oUnitLoggerHTML.ml" 192 7197 7227 "src/oUnitLoggerHTML.ml" 192 7197 7244
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 193 7245 7263 "src/oUnitLoggerHTML.ml" 193 7245 7271
+type(
+  'b
+)
+"src/oUnitLoggerHTML.ml" 193 7245 7258 "src/oUnitLoggerHTML.ml" 193 7245 7271
+type(
+  'b option
+)
+"src/oUnitLoggerHTML.ml" 193 7245 7275 "src/oUnitLoggerHTML.ml" 193 7245 7294
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 194 7295 7313 "src/oUnitLoggerHTML.ml" 194 7295 7318
+type(
+  'b
+)
+"src/oUnitLoggerHTML.ml" 194 7295 7308 "src/oUnitLoggerHTML.ml" 194 7295 7318
+type(
+  'b option
+)
+"src/oUnitLoggerHTML.ml" 194 7295 7325 "src/oUnitLoggerHTML.ml" 194 7295 7341
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 195 7342 7355 "src/oUnitLoggerHTML.ml" 195 7342 7359
+type(
+  'b option
+)
+"src/oUnitLoggerHTML.ml" 195 7342 7363 "src/oUnitLoggerHTML.ml" 195 7342 7365
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 191 7179 7188 "src/oUnitLoggerHTML.ml" 195 7342 7365
+type(
+  'b option -> string
+)
+"src/oUnitLoggerHTML.ml" 197 7376 7383 "src/oUnitLoggerHTML.ml" 197 7376 7389
+type(
+  (string -> string -> string -> string -> float -> unit, out_channel, unit)
+  format -> string -> string -> string -> string -> float -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 197 7376 7390 "src/oUnitLoggerHTML.ml" 202 7565 7597
+type(
+  (string -> string -> string -> string -> float -> unit, out_channel, unit)
+  format
+)
+"src/oUnitLoggerHTML.ml" 203 7598 7607 "src/oUnitLoggerHTML.ml" 203 7598 7619
+type(
+  string
+)
+ident(
+  int_ref class_result "src/oUnitLoggerHTML.ml" 181 6740 6751 "src/oUnitLoggerHTML.ml" 181 6740 6763
+)
+"src/oUnitLoggerHTML.ml" 204 7620 7630 "src/oUnitLoggerHTML.ml" 204 7620 7642
+type(
+  string -> string
+)
+ident(
+  int_ref html_escaper "src/oUnitLoggerHTML.ml" 42 2495 2499 "src/oUnitLoggerHTML.ml" 42 2495 2511
+)
+"src/oUnitLoggerHTML.ml" 204 7620 7643 "src/oUnitLoggerHTML.ml" 204 7620 7652
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  int_ref test_data "src/oUnitLoggerHTML.ml" 180 6718 6727 "src/oUnitLoggerHTML.ml" 180 6718 6736
+)
+"src/oUnitLoggerHTML.ml" 204 7620 7643 "src/oUnitLoggerHTML.ml" 204 7620 7662
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 204 7620 7629 "src/oUnitLoggerHTML.ml" 204 7620 7663
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 205 7664 7674 "src/oUnitLoggerHTML.ml" 205 7664 7686
+type(
+  string -> string
+)
+ident(
+  int_ref html_escaper "src/oUnitLoggerHTML.ml" 42 2495 2499 "src/oUnitLoggerHTML.ml" 42 2495 2511
+)
+"src/oUnitLoggerHTML.ml" 205 7664 7687 "src/oUnitLoggerHTML.ml" 205 7664 7698
+type(
+  string
+)
+ident(
+  int_ref text_result "src/oUnitLoggerHTML.ml" 181 6740 6765 "src/oUnitLoggerHTML.ml" 181 6740 6776
+)
+"src/oUnitLoggerHTML.ml" 205 7664 7673 "src/oUnitLoggerHTML.ml" 205 7664 7699
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 206 7700 7710 "src/oUnitLoggerHTML.ml" 206 7700 7722
+type(
+  ?tz:bool -> float -> string
+)
+ident(
+  ext_ref OUnitUtils.date_iso8601
+)
+"src/oUnitLoggerHTML.ml" 206 7700 7723 "src/oUnitLoggerHTML.ml" 206 7700 7732
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  int_ref test_data "src/oUnitLoggerHTML.ml" 180 6718 6727 "src/oUnitLoggerHTML.ml" 180 6718 6736
+)
+"src/oUnitLoggerHTML.ml" 206 7700 7723 "src/oUnitLoggerHTML.ml" 206 7700 7748
+type(
+  float
+)
+"src/oUnitLoggerHTML.ml" 206 7700 7709 "src/oUnitLoggerHTML.ml" 206 7700 7749
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 207 7750 7760 "src/oUnitLoggerHTML.ml" 207 7750 7769
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  int_ref test_data "src/oUnitLoggerHTML.ml" 180 6718 6727 "src/oUnitLoggerHTML.ml" 180 6718 6736
+)
+"src/oUnitLoggerHTML.ml" 207 7750 7760 "src/oUnitLoggerHTML.ml" 207 7750 7783
+type(
+  float
+)
+"src/oUnitLoggerHTML.ml" 207 7750 7784 "src/oUnitLoggerHTML.ml" 207 7750 7786
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/oUnitLoggerHTML.ml" 207 7750 7787 "src/oUnitLoggerHTML.ml" 207 7750 7796
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  int_ref test_data "src/oUnitLoggerHTML.ml" 180 6718 6727 "src/oUnitLoggerHTML.ml" 180 6718 6736
+)
+"src/oUnitLoggerHTML.ml" 207 7750 7787 "src/oUnitLoggerHTML.ml" 207 7750 7812
+type(
+  float
+)
+"src/oUnitLoggerHTML.ml" 207 7750 7759 "src/oUnitLoggerHTML.ml" 207 7750 7813
+type(
+  float
+)
+"src/oUnitLoggerHTML.ml" 197 7376 7383 "src/oUnitLoggerHTML.ml" 207 7750 7813
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 208 7815 7822 "src/oUnitLoggerHTML.ml" 208 7815 7828
+type(
+  (float -> unit, out_channel, unit) format -> float -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 208 7815 7829 "src/oUnitLoggerHTML.ml" 208 7815 7885
+type(
+  (float -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 209 7886 7895 "src/oUnitLoggerHTML.ml" 209 7886 7898
+type(
+  float
+)
+"src/oUnitLoggerHTML.ml" 208 7815 7822 "src/oUnitLoggerHTML.ml" 209 7886 7898
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 210 7900 7907 "src/oUnitLoggerHTML.ml" 210 7900 7916
+type(
+  (OUnitResultSummary.log_entry -> unit) ->
+  OUnitResultSummary.log_entry list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/oUnitLoggerHTML.ml" 210 7900 7923 "src/oUnitLoggerHTML.ml" 210 7900 7928
+type(
+  float
+)
+ident(
+  def tmstp "src/oUnitLoggerHTML.ml" 211 7944 7964 "src/oUnitLoggerHTML.ml" 214 8070 8142
+)
+"src/oUnitLoggerHTML.ml" 210 7900 7930 "src/oUnitLoggerHTML.ml" 210 7900 7934
+type(
+  OUnitLogger.log_severity option
+)
+ident(
+  def svrt "src/oUnitLoggerHTML.ml" 211 7944 7964 "src/oUnitLoggerHTML.ml" 214 8070 8142
+)
+"src/oUnitLoggerHTML.ml" 210 7900 7936 "src/oUnitLoggerHTML.ml" 210 7900 7939
+type(
+  string
+)
+ident(
+  def str "src/oUnitLoggerHTML.ml" 211 7944 7964 "src/oUnitLoggerHTML.ml" 214 8070 8142
+)
+"src/oUnitLoggerHTML.ml" 210 7900 7922 "src/oUnitLoggerHTML.ml" 210 7900 7940
+type(
+  OUnitResultSummary.log_entry
+)
+"src/oUnitLoggerHTML.ml" 211 7944 7964 "src/oUnitLoggerHTML.ml" 211 7944 7970
+type(
+  (string -> float -> string -> unit, out_channel, unit) format ->
+  string -> float -> string -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 211 7944 7971 "src/oUnitLoggerHTML.ml" 213 8000 8069
+type(
+  (string -> float -> string -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 214 8070 8093 "src/oUnitLoggerHTML.ml" 214 8070 8111
+type(
+  OUnitLogger.log_severity option -> string
+)
+ident(
+  int_ref class_severity_opt "src/oUnitLoggerHTML.ml" 190 7147 7158 "src/oUnitLoggerHTML.ml" 190 7147 7176
+)
+"src/oUnitLoggerHTML.ml" 214 8070 8112 "src/oUnitLoggerHTML.ml" 214 8070 8116
+type(
+  OUnitLogger.log_severity option
+)
+ident(
+  int_ref svrt "src/oUnitLoggerHTML.ml" 210 7900 7930 "src/oUnitLoggerHTML.ml" 210 7900 7934
+)
+"src/oUnitLoggerHTML.ml" 214 8070 8092 "src/oUnitLoggerHTML.ml" 214 8070 8117
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 214 8070 8118 "src/oUnitLoggerHTML.ml" 214 8070 8123
+type(
+  float
+)
+ident(
+  int_ref tmstp "src/oUnitLoggerHTML.ml" 210 7900 7923 "src/oUnitLoggerHTML.ml" 210 7900 7928
+)
+"src/oUnitLoggerHTML.ml" 214 8070 8125 "src/oUnitLoggerHTML.ml" 214 8070 8137
+type(
+  string -> string
+)
+ident(
+  int_ref html_escaper "src/oUnitLoggerHTML.ml" 42 2495 2499 "src/oUnitLoggerHTML.ml" 42 2495 2511
+)
+"src/oUnitLoggerHTML.ml" 214 8070 8138 "src/oUnitLoggerHTML.ml" 214 8070 8141
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitLoggerHTML.ml" 210 7900 7936 "src/oUnitLoggerHTML.ml" 210 7900 7939
+)
+"src/oUnitLoggerHTML.ml" 214 8070 8124 "src/oUnitLoggerHTML.ml" 214 8070 8142
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 211 7944 7964 "src/oUnitLoggerHTML.ml" 214 8070 8142
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 210 7900 7917 "src/oUnitLoggerHTML.ml" 214 8070 8143
+type(
+  OUnitResultSummary.log_entry -> unit
+)
+"src/oUnitLoggerHTML.ml" 215 8144 8153 "src/oUnitLoggerHTML.ml" 215 8144 8162
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  int_ref test_data "src/oUnitLoggerHTML.ml" 180 6718 6727 "src/oUnitLoggerHTML.ml" 180 6718 6736
+)
+"src/oUnitLoggerHTML.ml" 215 8144 8153 "src/oUnitLoggerHTML.ml" 215 8144 8174
+type(
+  OUnitResultSummary.log_entry list
+)
+"src/oUnitLoggerHTML.ml" 210 7900 7907 "src/oUnitLoggerHTML.ml" 215 8144 8174
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 216 8176 8183 "src/oUnitLoggerHTML.ml" 216 8176 8189
+type(
+  (float -> unit, out_channel, unit) format -> float -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 216 8176 8190 "src/oUnitLoggerHTML.ml" 216 8176 8244
+type(
+  (float -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 217 8245 8255 "src/oUnitLoggerHTML.ml" 217 8245 8264
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  int_ref test_data "src/oUnitLoggerHTML.ml" 180 6718 6727 "src/oUnitLoggerHTML.ml" 180 6718 6736
+)
+"src/oUnitLoggerHTML.ml" 217 8245 8255 "src/oUnitLoggerHTML.ml" 217 8245 8278
+type(
+  float
+)
+"src/oUnitLoggerHTML.ml" 217 8245 8279 "src/oUnitLoggerHTML.ml" 217 8245 8281
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/oUnitLoggerHTML.ml" 217 8245 8282 "src/oUnitLoggerHTML.ml" 217 8245 8291
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  int_ref test_data "src/oUnitLoggerHTML.ml" 180 6718 6727 "src/oUnitLoggerHTML.ml" 180 6718 6736
+)
+"src/oUnitLoggerHTML.ml" 217 8245 8282 "src/oUnitLoggerHTML.ml" 217 8245 8307
+type(
+  float
+)
+"src/oUnitLoggerHTML.ml" 217 8245 8254 "src/oUnitLoggerHTML.ml" 217 8245 8308
+type(
+  float
+)
+"src/oUnitLoggerHTML.ml" 216 8176 8183 "src/oUnitLoggerHTML.ml" 217 8245 8308
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 218 8310 8317 "src/oUnitLoggerHTML.ml" 218 8310 8323
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 218 8310 8324 "src/oUnitLoggerHTML.ml" 218 8310 8352
+type(
+  (unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 218 8310 8317 "src/oUnitLoggerHTML.ml" 218 8310 8352
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 221 8402 8417 "src/oUnitLoggerHTML.ml" 221 8402 8426
+type(
+  OUnitResultSummary.test_data
+)
+ident(
+  int_ref test_data "src/oUnitLoggerHTML.ml" 180 6718 6727 "src/oUnitLoggerHTML.ml" 180 6718 6736
+)
+"src/oUnitLoggerHTML.ml" 221 8402 8417 "src/oUnitLoggerHTML.ml" 221 8402 8438
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerHTML.ml" 222 8444 8457 "src/oUnitLoggerHTML.ml" 222 8444 8465
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerHTML.ml" 222 8444 8469 "src/oUnitLoggerHTML.ml" 222 8444 8475
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 222 8444 8476 "src/oUnitLoggerHTML.ml" 222 8444 8486
+type(
+  (unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 222 8444 8469 "src/oUnitLoggerHTML.ml" 222 8444 8486
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 223 8487 8510 "src/oUnitLoggerHTML.ml" 223 8487 8513
+type(
+  string
+)
+ident(
+  def str "src/oUnitLoggerHTML.ml" 224 8532 8547 "src/oUnitLoggerHTML.ml" 224 8532 8590
+)
+"src/oUnitLoggerHTML.ml" 223 8487 8515 "src/oUnitLoggerHTML.ml" 223 8487 8516
+type(
+  OUnitLogger.position option
+)
+"src/oUnitLoggerHTML.ml" 223 8487 8518 "src/oUnitLoggerHTML.ml" 223 8487 8527
+type(
+  OUnitTest.backtrace
+)
+ident(
+  def backtrace "src/oUnitLoggerHTML.ml" 224 8532 8547 "src/oUnitLoggerHTML.ml" 224 8532 8590
+)
+"src/oUnitLoggerHTML.ml" 223 8487 8500 "src/oUnitLoggerHTML.ml" 223 8487 8528
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerHTML.ml" 224 8532 8547 "src/oUnitLoggerHTML.ml" 224 8532 8553
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 224 8532 8554 "src/oUnitLoggerHTML.ml" 224 8532 8571
+type(
+  (string -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 224 8532 8573 "src/oUnitLoggerHTML.ml" 224 8532 8585
+type(
+  string -> string
+)
+ident(
+  int_ref html_escaper "src/oUnitLoggerHTML.ml" 42 2495 2499 "src/oUnitLoggerHTML.ml" 42 2495 2511
+)
+"src/oUnitLoggerHTML.ml" 224 8532 8586 "src/oUnitLoggerHTML.ml" 224 8532 8589
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitLoggerHTML.ml" 223 8487 8510 "src/oUnitLoggerHTML.ml" 223 8487 8513
+)
+"src/oUnitLoggerHTML.ml" 224 8532 8572 "src/oUnitLoggerHTML.ml" 224 8532 8590
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 224 8532 8547 "src/oUnitLoggerHTML.ml" 224 8532 8590
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 225 8591 8612 "src/oUnitLoggerHTML.ml" 225 8591 8615
+type(
+  string
+)
+ident(
+  def str "src/oUnitLoggerHTML.ml" 226 8631 8646 "src/oUnitLoggerHTML.ml" 226 8631 8687
+)
+"src/oUnitLoggerHTML.ml" 225 8591 8617 "src/oUnitLoggerHTML.ml" 225 8591 8626
+type(
+  OUnitTest.backtrace
+)
+ident(
+  def backtrace "src/oUnitLoggerHTML.ml" 226 8631 8646 "src/oUnitLoggerHTML.ml" 226 8631 8687
+)
+"src/oUnitLoggerHTML.ml" 225 8591 8604 "src/oUnitLoggerHTML.ml" 225 8591 8627
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerHTML.ml" 226 8631 8646 "src/oUnitLoggerHTML.ml" 226 8631 8652
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 226 8631 8653 "src/oUnitLoggerHTML.ml" 226 8631 8668
+type(
+  (string -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 226 8631 8670 "src/oUnitLoggerHTML.ml" 226 8631 8682
+type(
+  string -> string
+)
+ident(
+  int_ref html_escaper "src/oUnitLoggerHTML.ml" 42 2495 2499 "src/oUnitLoggerHTML.ml" 42 2495 2511
+)
+"src/oUnitLoggerHTML.ml" 226 8631 8683 "src/oUnitLoggerHTML.ml" 226 8631 8686
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitLoggerHTML.ml" 225 8591 8612 "src/oUnitLoggerHTML.ml" 225 8591 8615
+)
+"src/oUnitLoggerHTML.ml" 226 8631 8669 "src/oUnitLoggerHTML.ml" 226 8631 8687
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 226 8631 8646 "src/oUnitLoggerHTML.ml" 226 8631 8687
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 227 8688 8707 "src/oUnitLoggerHTML.ml" 227 8688 8710
+type(
+  string
+)
+ident(
+  def str "src/oUnitLoggerHTML.ml" 228 8714 8729 "src/oUnitLoggerHTML.ml" 228 8714 8772
+)
+"src/oUnitLoggerHTML.ml" 227 8688 8701 "src/oUnitLoggerHTML.ml" 227 8688 8710
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerHTML.ml" 228 8714 8729 "src/oUnitLoggerHTML.ml" 228 8714 8735
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 228 8714 8736 "src/oUnitLoggerHTML.ml" 228 8714 8753
+type(
+  (string -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 228 8714 8755 "src/oUnitLoggerHTML.ml" 228 8714 8767
+type(
+  string -> string
+)
+ident(
+  int_ref html_escaper "src/oUnitLoggerHTML.ml" 42 2495 2499 "src/oUnitLoggerHTML.ml" 42 2495 2511
+)
+"src/oUnitLoggerHTML.ml" 228 8714 8768 "src/oUnitLoggerHTML.ml" 228 8714 8771
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitLoggerHTML.ml" 227 8688 8707 "src/oUnitLoggerHTML.ml" 227 8688 8710
+)
+"src/oUnitLoggerHTML.ml" 228 8714 8754 "src/oUnitLoggerHTML.ml" 228 8714 8772
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 228 8714 8729 "src/oUnitLoggerHTML.ml" 228 8714 8772
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 229 8773 8792 "src/oUnitLoggerHTML.ml" 229 8773 8795
+type(
+  string
+)
+ident(
+  def str "src/oUnitLoggerHTML.ml" 230 8799 8814 "src/oUnitLoggerHTML.ml" 230 8799 8854
+)
+"src/oUnitLoggerHTML.ml" 229 8773 8786 "src/oUnitLoggerHTML.ml" 229 8773 8795
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerHTML.ml" 230 8799 8814 "src/oUnitLoggerHTML.ml" 230 8799 8820
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 230 8799 8821 "src/oUnitLoggerHTML.ml" 230 8799 8835
+type(
+  (string -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 230 8799 8837 "src/oUnitLoggerHTML.ml" 230 8799 8849
+type(
+  string -> string
+)
+ident(
+  int_ref html_escaper "src/oUnitLoggerHTML.ml" 42 2495 2499 "src/oUnitLoggerHTML.ml" 42 2495 2511
+)
+"src/oUnitLoggerHTML.ml" 230 8799 8850 "src/oUnitLoggerHTML.ml" 230 8799 8853
+type(
+  string
+)
+ident(
+  int_ref str "src/oUnitLoggerHTML.ml" 229 8773 8792 "src/oUnitLoggerHTML.ml" 229 8773 8795
+)
+"src/oUnitLoggerHTML.ml" 230 8799 8836 "src/oUnitLoggerHTML.ml" 230 8799 8854
+call(
+  stack
+)
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 230 8799 8814 "src/oUnitLoggerHTML.ml" 230 8799 8854
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 231 8855 8877 "src/oUnitLoggerHTML.ml" 231 8855 8888
+type(
+  OUnitTest.test_length
+)
+ident(
+  def test_length "src/oUnitLoggerHTML.ml" 232 8892 8907 "src/oUnitLoggerHTML.ml" 233 8941 8987
+)
+"src/oUnitLoggerHTML.ml" 231 8855 8868 "src/oUnitLoggerHTML.ml" 231 8855 8888
+type(
+  OUnitTest.result
+)
+"src/oUnitLoggerHTML.ml" 232 8892 8907 "src/oUnitLoggerHTML.ml" 232 8892 8913
+type(
+  (float -> unit, out_channel, unit) format -> float -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 232 8892 8914 "src/oUnitLoggerHTML.ml" 232 8892 8940
+type(
+  (float -> unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 233 8941 8959 "src/oUnitLoggerHTML.ml" 233 8941 8974
+type(
+  OUnitTest.test_length -> float
+)
+ident(
+  ext_ref OUnitTest.delay_of_length
+)
+"src/oUnitLoggerHTML.ml" 233 8941 8975 "src/oUnitLoggerHTML.ml" 233 8941 8986
+type(
+  OUnitTest.test_length
+)
+ident(
+  int_ref test_length "src/oUnitLoggerHTML.ml" 231 8855 8877 "src/oUnitLoggerHTML.ml" 231 8855 8888
+)
+"src/oUnitLoggerHTML.ml" 233 8941 8958 "src/oUnitLoggerHTML.ml" 233 8941 8987
+call(
+  stack
+)
+type(
+  float
+)
+"src/oUnitLoggerHTML.ml" 232 8892 8907 "src/oUnitLoggerHTML.ml" 233 8941 8987
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 219 8354 8361 "src/oUnitLoggerHTML.ml" 234 8988 8998
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 235 9000 9007 "src/oUnitLoggerHTML.ml" 235 9000 9013
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 235 9000 9014 "src/oUnitLoggerHTML.ml" 235 9000 9022
+type(
+  (unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 235 9000 9007 "src/oUnitLoggerHTML.ml" 235 9000 9022
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 236 9024 9031 "src/oUnitLoggerHTML.ml" 236 9024 9037
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 236 9024 9038 "src/oUnitLoggerHTML.ml" 238 9054 9067
+type(
+  (unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 236 9024 9031 "src/oUnitLoggerHTML.ml" 238 9054 9068
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 235 9000 9007 "src/oUnitLoggerHTML.ml" 238 9054 9068
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 219 8354 8361 "src/oUnitLoggerHTML.ml" 238 9054 9068
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 218 8310 8317 "src/oUnitLoggerHTML.ml" 238 9054 9068
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 216 8176 8183 "src/oUnitLoggerHTML.ml" 238 9054 9068
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 210 7900 7907 "src/oUnitLoggerHTML.ml" 238 9054 9068
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 208 7815 7822 "src/oUnitLoggerHTML.ml" 238 9054 9068
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 197 7376 7383 "src/oUnitLoggerHTML.ml" 238 9054 9068
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 190 7147 7154 "src/oUnitLoggerHTML.ml" 238 9054 9068
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 181 6740 6747 "src/oUnitLoggerHTML.ml" 238 9054 9068
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 180 6718 6722 "src/oUnitLoggerHTML.ml" 238 9054 9104
+type(
+  OUnitResultSummary.test_data -> unit
+)
+"src/oUnitLoggerHTML.ml" 239 9105 9109 "src/oUnitLoggerHTML.ml" 239 9105 9112
+type(
+  OUnitResultSummary.t
+)
+ident(
+  int_ref smr "src/oUnitLoggerHTML.ml" 88 3783 3789 "src/oUnitLoggerHTML.ml" 88 3783 3792
+)
+"src/oUnitLoggerHTML.ml" 239 9105 9109 "src/oUnitLoggerHTML.ml" 239 9105 9118
+type(
+  OUnitResultSummary.test_data list
+)
+"src/oUnitLoggerHTML.ml" 179 6706 6708 "src/oUnitLoggerHTML.ml" 239 9105 9118
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 240 9120 9122 "src/oUnitLoggerHTML.ml" 240 9120 9128
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref printf "src/oUnitLoggerHTML.ml" 109 4313 4319 "src/oUnitLoggerHTML.ml" 109 4313 4325
+)
+"src/oUnitLoggerHTML.ml" 240 9120 9129 "src/oUnitLoggerHTML.ml" 242 9142 9150
+type(
+  (unit, out_channel, unit) format
+)
+"src/oUnitLoggerHTML.ml" 240 9120 9122 "src/oUnitLoggerHTML.ml" 242 9142 9150
+call(
+  stack
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 243 9152 9154 "src/oUnitLoggerHTML.ml" 243 9152 9163
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/oUnitLoggerHTML.ml" 243 9152 9164 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  out_channel
+)
+ident(
+  int_ref chn "src/oUnitLoggerHTML.ml" 108 4255 4261 "src/oUnitLoggerHTML.ml" 108 4255 4264
+)
+"src/oUnitLoggerHTML.ml" 243 9152 9154 "src/oUnitLoggerHTML.ml" 243 9152 9167
+call(
+  tail
+)
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 240 9120 9122 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 179 6706 6708 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 175 6665 6667 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 171 6542 6544 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 165 6405 6407 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 130 5150 5152 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 110 4358 4360 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 109 4313 4315 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 108 4255 4257 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 103 4168 4170 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 102 4112 4114 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 97 4024 4026 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 96 3967 3969 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 91 3849 3851 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 88 3783 3785 "src/oUnitLoggerHTML.ml" 243 9152 9167
+type(
+  unit
+)
+"src/oUnitLoggerHTML.ml" 245 9169 9173 "src/oUnitLoggerHTML.ml" 245 9169 9188
+type(
+  ?extra_subst:(string * string) list -> OUnitConf.conf -> string option
+)
+ident(
+  def output_html_dir "src/oUnitLoggerHTML.ml" 251 9299 9299 "src/oUnitLoggerHTML.ml" 1 0 -1
+)
+"src/oUnitLoggerHTML.ml" 246 9191 9193 "src/oUnitLoggerHTML.ml" 246 9191 9224
+type(
+  string ->
+  string option ->
+  string ->
+  ?extra_subst:(string * string) list -> OUnitConf.conf -> string option
+)
+ident(
+  ext_ref OUnitConf.make_string_subst_opt
+)
+"src/oUnitLoggerHTML.ml" 247 9225 9229 "src/oUnitLoggerHTML.ml" 247 9225 9246
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 248 9247 9251 "src/oUnitLoggerHTML.ml" 248 9247 9255
+type(
+  string option
+)
+"src/oUnitLoggerHTML.ml" 249 9256 9260 "src/oUnitLoggerHTML.ml" 249 9256 9297
+type(
+  string
+)
+"src/oUnitLoggerHTML.ml" 246 9191 9193 "src/oUnitLoggerHTML.ml" 249 9256 9297
+call(
+  stack
+)
+type(
+  ?extra_subst:(string * string) list -> OUnitConf.conf -> string option
+)
+"src/oUnitLoggerHTML.ml" 251 9299 9303 "src/oUnitLoggerHTML.ml" 251 9299 9309
+type(
+  OUnitConf.conf ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  def create "src/oUnitLoggerHTML.ml" 256 9419 9438 "src/oUnitLoggerHTML.ml" 1 0 -1
+)
+"src/oUnitLoggerHTML.ml" 251 9299 9310 "src/oUnitLoggerHTML.ml" 251 9299 9314
+type(
+  OUnitConf.conf
+)
+ident(
+  def conf "src/oUnitLoggerHTML.ml" 252 9317 9319 "src/oUnitLoggerHTML.ml" 256 9419 9438
+)
+"src/oUnitLoggerHTML.ml" 252 9317 9325 "src/oUnitLoggerHTML.ml" 252 9317 9340
+type(
+  ?extra_subst:(string * string) list -> OUnitConf.conf -> string option
+)
+ident(
+  int_ref output_html_dir "src/oUnitLoggerHTML.ml" 245 9169 9173 "src/oUnitLoggerHTML.ml" 245 9169 9188
+)
+"src/oUnitLoggerHTML.ml" 252 9317 9341 "src/oUnitLoggerHTML.ml" 252 9317 9345
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitLoggerHTML.ml" 251 9299 9310 "src/oUnitLoggerHTML.ml" 251 9299 9314
+)
+"src/oUnitLoggerHTML.ml" 252 9317 9325 "src/oUnitLoggerHTML.ml" 252 9317 9345
+call(
+  stack
+)
+type(
+  string option
+)
+"src/oUnitLoggerHTML.ml" 253 9351 9362 "src/oUnitLoggerHTML.ml" 253 9351 9364
+type(
+  string
+)
+ident(
+  def dn "src/oUnitLoggerHTML.ml" 254 9368 9376 "src/oUnitLoggerHTML.ml" 254 9368 9404
+)
+"src/oUnitLoggerHTML.ml" 253 9351 9357 "src/oUnitLoggerHTML.ml" 253 9351 9364
+type(
+  string option
+)
+"src/oUnitLoggerHTML.ml" 254 9368 9376 "src/oUnitLoggerHTML.ml" 254 9368 9387
+type(
+  ((OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+   unit) ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  ext_ref OUnitLogger.post_logger
+)
+"src/oUnitLoggerHTML.ml" 254 9368 9389 "src/oUnitLoggerHTML.ml" 254 9368 9395
+type(
+  OUnitConf.conf ->
+  string ->
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  unit
+)
+ident(
+  int_ref render "src/oUnitLoggerHTML.ml" 87 3755 3759 "src/oUnitLoggerHTML.ml" 87 3755 3765
+)
+"src/oUnitLoggerHTML.ml" 254 9368 9396 "src/oUnitLoggerHTML.ml" 254 9368 9400
+type(
+  OUnitConf.conf
+)
+ident(
+  int_ref conf "src/oUnitLoggerHTML.ml" 251 9299 9310 "src/oUnitLoggerHTML.ml" 251 9299 9314
+)
+"src/oUnitLoggerHTML.ml" 254 9368 9401 "src/oUnitLoggerHTML.ml" 254 9368 9403
+type(
+  string
+)
+ident(
+  int_ref dn "src/oUnitLoggerHTML.ml" 253 9351 9362 "src/oUnitLoggerHTML.ml" 253 9351 9364
+)
+"src/oUnitLoggerHTML.ml" 254 9368 9388 "src/oUnitLoggerHTML.ml" 254 9368 9404
+call(
+  stack
+)
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.log_event list ->
+  unit
+)
+"src/oUnitLoggerHTML.ml" 254 9368 9376 "src/oUnitLoggerHTML.ml" 254 9368 9404
+call(
+  tail
+)
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.logger
+)
+"src/oUnitLoggerHTML.ml" 255 9405 9411 "src/oUnitLoggerHTML.ml" 255 9405 9415
+type(
+  string option
+)
+"src/oUnitLoggerHTML.ml" 256 9419 9427 "src/oUnitLoggerHTML.ml" 256 9419 9438
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.logger
+)
+ident(
+  ext_ref OUnitLogger.null_logger
+)
+"src/oUnitLoggerHTML.ml" 252 9317 9319 "src/oUnitLoggerHTML.ml" 256 9419 9438
+type(
+  (OUnitTest.MapPath.key, OUnitTest.result) OUnitLogger.logger
+)

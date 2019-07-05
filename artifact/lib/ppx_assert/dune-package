@@ -1,0 +1,49 @@
+(lang dune 1.10)
+(name ppx_assert)
+(version v0.11.0)
+(library
+ (name ppx_assert)
+ (kind ppx_rewriter)
+ (archives (byte ppx_assert.cma) (native ppx_assert.cmxa))
+ (plugins (byte ppx_assert.cma) (native ppx_assert.cmxs))
+ (foreign_archives (native ppx_assert.a))
+ (requires
+  ppxlib
+  ppx_sexp_conv.expander
+  ppx_here.expander
+  ppx_compare.expander)
+ (ppx_runtime_deps ppx_assert.runtime-lib)
+ (main_module_name Ppx_assert)
+ (modes byte native)
+ (modules
+  (main_module_name Ppx_assert)
+  (modules
+   ((name Ppx_assert) (obj_name ppx_assert) (visibility public) (impl) (intf)))
+  (wrapped true)))
+(library
+ (name ppx_assert.runtime-lib)
+ (kind normal)
+ (archives
+  (byte runtime-lib/ppx_assert_lib.cma)
+  (native runtime-lib/ppx_assert_lib.cmxa))
+ (plugins
+  (byte runtime-lib/ppx_assert_lib.cma)
+  (native runtime-lib/ppx_assert_lib.cmxs))
+ (foreign_archives (native runtime-lib/ppx_assert_lib.a))
+ (requires ppx_sexp_conv.runtime-lib base base.caml)
+ (main_module_name Ppx_assert_lib)
+ (modes byte native)
+ (modules
+  (alias_module
+   (name Ppx_assert_lib)
+   (obj_name ppx_assert_lib)
+   (visibility public)
+   (impl))
+  (main_module_name Ppx_assert_lib)
+  (modules
+   ((name Runtime)
+    (obj_name ppx_assert_lib__Runtime)
+    (visibility public)
+    (impl)
+    (intf)))
+  (wrapped true)))

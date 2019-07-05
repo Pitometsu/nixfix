@@ -1,0 +1,7213 @@
+"pre_typeclass.ml" 22 328 334 "pre_typeclass.ml" 22 328 338
+type(
+  string list ref
+)
+ident(
+  def vars "pre_typeclass.ml" 24 353 355 "pre_typeclass.ml" 49 1234 1237
+)
+"pre_typeclass.ml" 22 328 341 "pre_typeclass.ml" 22 328 344
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"pre_typeclass.ml" 22 328 345 "pre_typeclass.ml" 22 328 347
+type(
+  string list
+)
+"pre_typeclass.ml" 22 328 341 "pre_typeclass.ml" 22 328 347
+type(
+  string list ref
+)
+"pre_typeclass.ml" 24 353 359 "pre_typeclass.ml" 24 353 365
+type(
+  Ast_mapper.mapper -> Ast_mapper.mapper
+)
+ident(
+  def extend "pre_typeclass.ml" 43 1069 1071 "pre_typeclass.ml" 49 1234 1237
+)
+"pre_typeclass.ml" 24 353 366 "pre_typeclass.ml" 24 353 371
+type(
+  Ast_mapper.mapper
+)
+ident(
+  def super "pre_typeclass.ml" 25 374 378 "pre_typeclass.ml" 41 1045 1067
+)
+"pre_typeclass.ml" 25 374 382 "pre_typeclass.ml" 25 374 385
+type(
+  Ast_mapper.mapper -> Parsetree.core_type -> Ast_405.Parsetree.core_type
+)
+ident(
+  def typ "pre_typeclass.ml" 41 1045 1049 "pre_typeclass.ml" 41 1045 1067
+)
+"pre_typeclass.ml" 25 374 386 "pre_typeclass.ml" 25 374 390
+type(
+  Ast_mapper.mapper
+)
+ident(
+  def self "pre_typeclass.ml" 25 374 391 "pre_typeclass.ml" 39 1006 1037
+)
+"pre_typeclass.ml" 25 374 391 "pre_typeclass.ml" 25 374 394
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "pre_typeclass.ml" 25 374 397 "pre_typeclass.ml" 39 1006 1037
+)
+"pre_typeclass.ml" 25 374 403 "pre_typeclass.ml" 25 374 406
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_typeclass.ml" 25 374 391 "pre_typeclass.ml" 25 374 394
+)
+"pre_typeclass.ml" 25 374 403 "pre_typeclass.ml" 25 374 416
+type(
+  Parsetree.core_type_desc
+)
+"pre_typeclass.ml" 26 422 451 "pre_typeclass.ml" 26 422 456
+type(
+  string
+)
+"pre_typeclass.ml" 26 422 458 "pre_typeclass.ml" 26 422 461
+type(
+  Location.t
+)
+ident(
+  def loc "pre_typeclass.ml" 27 477 487 "pre_typeclass.ml" 35 833 846
+)
+"pre_typeclass.ml" 26 422 446 "pre_typeclass.ml" 26 422 462
+type(
+  string Asttypes.loc
+)
+"pre_typeclass.ml" 26 422 469 "pre_typeclass.ml" 26 422 472
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "pre_typeclass.ml" 27 477 487 "pre_typeclass.ml" 35 833 846
+)
+"pre_typeclass.ml" 26 422 464 "pre_typeclass.ml" 26 422 472
+type(
+  Parsetree.payload
+)
+"pre_typeclass.ml" 26 422 445 "pre_typeclass.ml" 26 422 473
+type(
+  Parsetree.extension
+)
+"pre_typeclass.ml" 26 422 430 "pre_typeclass.ml" 26 422 473
+type(
+  Parsetree.core_type_desc
+)
+"pre_typeclass.ml" 27 477 499 "pre_typeclass.ml" 27 477 502
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_typeclass.ml" 26 422 469 "pre_typeclass.ml" 26 422 472
+)
+"pre_typeclass.ml" 27 477 499 "pre_typeclass.ml" 27 477 512
+type(
+  Parsetree.core_type_desc
+)
+"pre_typeclass.ml" 28 518 539 "pre_typeclass.ml" 28 518 540
+type(
+  string
+)
+ident(
+  def n "pre_typeclass.ml" 29 544 558 "pre_typeclass.ml" 31 616 695
+)
+"pre_typeclass.ml" 28 518 530 "pre_typeclass.ml" 28 518 540
+type(
+  Parsetree.core_type_desc
+)
+"pre_typeclass.ml" 29 544 562 "pre_typeclass.ml" 29 544 563
+type(
+  string
+)
+ident(
+  def n "pre_typeclass.ml" 30 582 596 "pre_typeclass.ml" 31 616 695
+)
+"pre_typeclass.ml" 29 544 566 "pre_typeclass.ml" 29 544 574
+type(
+  string
+)
+"pre_typeclass.ml" 29 544 575 "pre_typeclass.ml" 29 544 576
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"pre_typeclass.ml" 29 544 577 "pre_typeclass.ml" 29 544 578
+type(
+  string
+)
+ident(
+  int_ref n "pre_typeclass.ml" 28 518 539 "pre_typeclass.ml" 28 518 540
+)
+"pre_typeclass.ml" 29 544 566 "pre_typeclass.ml" 29 544 578
+call(
+  stack
+)
+type(
+  string
+)
+"pre_typeclass.ml" 30 582 596 "pre_typeclass.ml" 30 582 600
+type(
+  string list ref
+)
+ident(
+  int_ref vars "pre_typeclass.ml" 22 328 334 "pre_typeclass.ml" 22 328 338
+)
+"pre_typeclass.ml" 30 582 601 "pre_typeclass.ml" 30 582 603
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"pre_typeclass.ml" 30 582 604 "pre_typeclass.ml" 30 582 605
+type(
+  string
+)
+ident(
+  int_ref n "pre_typeclass.ml" 29 544 562 "pre_typeclass.ml" 29 544 563
+)
+"pre_typeclass.ml" 30 582 609 "pre_typeclass.ml" 30 582 610
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"pre_typeclass.ml" 30 582 610 "pre_typeclass.ml" 30 582 614
+type(
+  string list ref
+)
+ident(
+  int_ref vars "pre_typeclass.ml" 22 328 334 "pre_typeclass.ml" 22 328 338
+)
+"pre_typeclass.ml" 30 582 609 "pre_typeclass.ml" 30 582 614
+type(
+  string list
+)
+"pre_typeclass.ml" 30 582 604 "pre_typeclass.ml" 30 582 614
+type(
+  string list
+)
+"pre_typeclass.ml" 30 582 596 "pre_typeclass.ml" 30 582 614
+type(
+  unit
+)
+"pre_typeclass.ml" 31 616 630 "pre_typeclass.ml" 31 616 640
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.lid ->
+  Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.constr
+)
+"pre_typeclass.ml" 31 616 646 "pre_typeclass.ml" 31 616 649
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_typeclass.ml" 26 422 469 "pre_typeclass.ml" 26 422 472
+)
+"pre_typeclass.ml" 31 616 646 "pre_typeclass.ml" 31 616 658
+type(
+  Ast_405.Ast_helper.loc
+)
+"pre_typeclass.ml" 31 616 660 "pre_typeclass.ml" 31 616 662
+type(
+  ?loc:Ast_405.Location.t ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 31 616 668 "pre_typeclass.ml" 31 616 671
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_typeclass.ml" 26 422 469 "pre_typeclass.ml" 26 422 472
+)
+"pre_typeclass.ml" 31 616 668 "pre_typeclass.ml" 31 616 680
+type(
+  Ast_405.Location.t
+)
+"pre_typeclass.ml" 31 616 660 "pre_typeclass.ml" 31 616 680
+type(
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 31 616 681 "pre_typeclass.ml" 31 616 682
+type(
+  (Ppxx.Compilerlib.Longident.t ->
+   Ppxx.Compilerlib.Longident.t Ast_405.Location.loc) ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 31 616 690 "pre_typeclass.ml" 31 616 691
+type(
+  string
+)
+ident(
+  int_ref n "pre_typeclass.ml" 29 544 562 "pre_typeclass.ml" 29 544 563
+)
+"pre_typeclass.ml" 31 616 683 "pre_typeclass.ml" 31 616 691
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 31 616 659 "pre_typeclass.ml" 31 616 692
+call(
+  stack
+)
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 31 616 693 "pre_typeclass.ml" 31 616 695
+type(
+  Ast_405.Parsetree.core_type list
+)
+"pre_typeclass.ml" 31 616 630 "pre_typeclass.ml" 31 616 695
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 30 582 596 "pre_typeclass.ml" 31 616 695
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 29 544 558 "pre_typeclass.ml" 31 616 695
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 32 696 708 "pre_typeclass.ml" 32 696 709
+type(
+  Parsetree.core_type_desc
+)
+"pre_typeclass.ml" 33 714 728 "pre_typeclass.ml" 33 714 740
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Ast_405.Parsetree.core_type,
+   Ppxx.Utils.Format.formatter, unit, Ast_405.Parsetree.core_type)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 33 714 741 "pre_typeclass.ml" 33 714 796
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Ast_405.Parsetree.core_type,
+   Ppxx.Utils.Format.formatter, unit, Ast_405.Parsetree.core_type)
+  format4
+)
+"pre_typeclass.ml" 34 797 813 "pre_typeclass.ml" 34 797 828
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 34 797 829 "pre_typeclass.ml" 34 797 832
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "pre_typeclass.ml" 26 422 458 "pre_typeclass.ml" 26 422 461
+)
+"pre_typeclass.ml" 33 714 728 "pre_typeclass.ml" 34 797 832
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 27 477 487 "pre_typeclass.ml" 35 833 846
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 36 847 876 "pre_typeclass.ml" 36 847 881
+type(
+  string
+)
+"pre_typeclass.ml" 36 847 883 "pre_typeclass.ml" 36 847 886
+type(
+  Location.t
+)
+ident(
+  def loc "pre_typeclass.ml" 37 895 905 "pre_typeclass.ml" 38 974 1005
+)
+"pre_typeclass.ml" 36 847 871 "pre_typeclass.ml" 36 847 887
+type(
+  string Asttypes.loc
+)
+"pre_typeclass.ml" 36 847 889 "pre_typeclass.ml" 36 847 890
+type(
+  Parsetree.payload
+)
+"pre_typeclass.ml" 36 847 870 "pre_typeclass.ml" 36 847 891
+type(
+  Parsetree.extension
+)
+"pre_typeclass.ml" 36 847 855 "pre_typeclass.ml" 36 847 891
+type(
+  Parsetree.core_type_desc
+)
+"pre_typeclass.ml" 37 895 905 "pre_typeclass.ml" 37 895 917
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Ast_405.Parsetree.core_type,
+   Ppxx.Utils.Format.formatter, unit, Ast_405.Parsetree.core_type)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 37 895 918 "pre_typeclass.ml" 37 895 973
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Ast_405.Parsetree.core_type,
+   Ppxx.Utils.Format.formatter, unit, Ast_405.Parsetree.core_type)
+  format4
+)
+"pre_typeclass.ml" 38 974 986 "pre_typeclass.ml" 38 974 1001
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 38 974 1002 "pre_typeclass.ml" 38 974 1005
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "pre_typeclass.ml" 36 847 883 "pre_typeclass.ml" 36 847 886
+)
+"pre_typeclass.ml" 37 895 905 "pre_typeclass.ml" 38 974 1005
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 39 1006 1014 "pre_typeclass.ml" 39 1006 1015
+type(
+  Parsetree.core_type_desc
+)
+"pre_typeclass.ml" 39 1006 1019 "pre_typeclass.ml" 39 1006 1024
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref super "pre_typeclass.ml" 24 353 366 "pre_typeclass.ml" 24 353 371
+)
+"pre_typeclass.ml" 39 1006 1019 "pre_typeclass.ml" 39 1006 1028
+type(
+  Ast_mapper.mapper -> Parsetree.core_type -> Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 39 1006 1029 "pre_typeclass.ml" 39 1006 1033
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref self "pre_typeclass.ml" 25 374 386 "pre_typeclass.ml" 25 374 390
+)
+"pre_typeclass.ml" 39 1006 1034 "pre_typeclass.ml" 39 1006 1037
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_typeclass.ml" 25 374 391 "pre_typeclass.ml" 25 374 394
+)
+"pre_typeclass.ml" 39 1006 1019 "pre_typeclass.ml" 39 1006 1037
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 25 374 397 "pre_typeclass.ml" 39 1006 1037
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 41 1045 1051 "pre_typeclass.ml" 41 1045 1056
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref super "pre_typeclass.ml" 24 353 366 "pre_typeclass.ml" 24 353 371
+)
+"pre_typeclass.ml" 41 1045 1062 "pre_typeclass.ml" 41 1045 1065
+type(
+  Ast_mapper.mapper -> Parsetree.core_type -> Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref typ "pre_typeclass.ml" 25 374 382 "pre_typeclass.ml" 25 374 385
+)
+"pre_typeclass.ml" 41 1045 1049 "pre_typeclass.ml" 41 1045 1067
+type(
+  Ast_mapper.mapper
+)
+"pre_typeclass.ml" 25 374 378 "pre_typeclass.ml" 41 1045 1067
+type(
+  Ast_mapper.mapper
+)
+"pre_typeclass.ml" 43 1069 1075 "pre_typeclass.ml" 43 1069 1081
+type(
+  Ast_mapper.mapper
+)
+ident(
+  def mapper "pre_typeclass.ml" 45 1111 1113 "pre_typeclass.ml" 49 1234 1237
+)
+"pre_typeclass.ml" 43 1069 1084 "pre_typeclass.ml" 43 1069 1090
+type(
+  Ast_mapper.mapper -> Ast_mapper.mapper
+)
+ident(
+  int_ref extend "pre_typeclass.ml" 24 353 359 "pre_typeclass.ml" 24 353 365
+)
+"pre_typeclass.ml" 43 1069 1091 "pre_typeclass.ml" 43 1069 1105
+type(
+  Ast_mapper.mapper
+)
+ident(
+  ext_ref Ast_mapper.default_mapper
+)
+"pre_typeclass.ml" 43 1069 1084 "pre_typeclass.ml" 43 1069 1105
+call(
+  stack
+)
+type(
+  Ast_mapper.mapper
+)
+"pre_typeclass.ml" 45 1111 1117 "pre_typeclass.ml" 45 1111 1139
+type(
+  Parsetree.core_type -> Parsetree.core_type * string list
+)
+ident(
+  def replace_var_extensions "pre_typeclass.ml" 48 1201 1233 "pre_typeclass.ml" 49 1234 1237
+)
+"pre_typeclass.ml" 45 1111 1140 "pre_typeclass.ml" 45 1111 1143
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "pre_typeclass.ml" 46 1146 1150 "pre_typeclass.ml" 48 1201 1233
+)
+"pre_typeclass.ml" 46 1146 1150 "pre_typeclass.ml" 46 1146 1154
+type(
+  string list ref
+)
+ident(
+  int_ref vars "pre_typeclass.ml" 22 328 334 "pre_typeclass.ml" 22 328 338
+)
+"pre_typeclass.ml" 46 1146 1155 "pre_typeclass.ml" 46 1146 1157
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"pre_typeclass.ml" 46 1146 1158 "pre_typeclass.ml" 46 1146 1160
+type(
+  string list
+)
+"pre_typeclass.ml" 46 1146 1150 "pre_typeclass.ml" 46 1146 1160
+type(
+  unit
+)
+"pre_typeclass.ml" 47 1162 1170 "pre_typeclass.ml" 47 1162 1173
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "pre_typeclass.ml" 48 1201 1205 "pre_typeclass.ml" 48 1201 1233
+)
+"pre_typeclass.ml" 47 1162 1176 "pre_typeclass.ml" 47 1162 1182
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref mapper "pre_typeclass.ml" 43 1069 1075 "pre_typeclass.ml" 43 1069 1081
+)
+"pre_typeclass.ml" 47 1162 1176 "pre_typeclass.ml" 47 1162 1186
+type(
+  Ast_mapper.mapper -> Parsetree.core_type -> Parsetree.core_type
+)
+"pre_typeclass.ml" 47 1162 1187 "pre_typeclass.ml" 47 1162 1193
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref mapper "pre_typeclass.ml" 43 1069 1075 "pre_typeclass.ml" 43 1069 1081
+)
+"pre_typeclass.ml" 47 1162 1194 "pre_typeclass.ml" 47 1162 1197
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_typeclass.ml" 45 1111 1140 "pre_typeclass.ml" 45 1111 1143
+)
+"pre_typeclass.ml" 47 1162 1176 "pre_typeclass.ml" 47 1162 1197
+call(
+  stack
+)
+type(
+  Parsetree.core_type
+)
+"pre_typeclass.ml" 48 1201 1205 "pre_typeclass.ml" 48 1201 1208
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_typeclass.ml" 47 1162 1170 "pre_typeclass.ml" 47 1162 1173
+)
+"pre_typeclass.ml" 48 1201 1210 "pre_typeclass.ml" 48 1201 1219
+type(
+  (string -> string -> int) -> string list -> string list
+)
+ident(
+  ext_ref Ppxx.Utils.List.sort_uniq
+)
+"pre_typeclass.ml" 48 1201 1220 "pre_typeclass.ml" 48 1201 1227
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"pre_typeclass.ml" 48 1201 1228 "pre_typeclass.ml" 48 1201 1229
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"pre_typeclass.ml" 48 1201 1229 "pre_typeclass.ml" 48 1201 1233
+type(
+  string list ref
+)
+ident(
+  int_ref vars "pre_typeclass.ml" 22 328 334 "pre_typeclass.ml" 22 328 338
+)
+"pre_typeclass.ml" 48 1201 1228 "pre_typeclass.ml" 48 1201 1233
+type(
+  string list
+)
+"pre_typeclass.ml" 48 1201 1210 "pre_typeclass.ml" 48 1201 1233
+call(
+  stack
+)
+type(
+  string list
+)
+"pre_typeclass.ml" 48 1201 1205 "pre_typeclass.ml" 48 1201 1233
+type(
+  Parsetree.core_type * string list
+)
+"pre_typeclass.ml" 47 1162 1166 "pre_typeclass.ml" 48 1201 1233
+type(
+  Parsetree.core_type * string list
+)
+"pre_typeclass.ml" 46 1146 1150 "pre_typeclass.ml" 48 1201 1233
+type(
+  Parsetree.core_type * string list
+)
+"pre_typeclass.ml" 79 1835 1841 "pre_typeclass.ml" 79 1835 1851
+type(
+  Parsetree.signature_item list -> string list
+)
+ident(
+  def parameters "pre_typeclass.ml" 96 2357 2359 "pre_typeclass.ml" 323 12486 12489
+)
+"pre_typeclass.ml" 79 1835 1852 "pre_typeclass.ml" 79 1835 1854
+type(
+  Parsetree.signature_item list
+)
+ident(
+  def sg "pre_typeclass.ml" 79 1835 1857 "pre_typeclass.ml" 87 2195 2212
+)
+"pre_typeclass.ml" 79 1835 1857 "pre_typeclass.ml" 79 1835 1861
+type(
+  (string -> string -> int) -> string list -> string list
+)
+ident(
+  ext_ref Ppxx.Utils.List.sort
+)
+"pre_typeclass.ml" 79 1835 1862 "pre_typeclass.ml" 79 1835 1869
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"pre_typeclass.ml" 79 1835 1857 "pre_typeclass.ml" 79 1835 1869
+type(
+  string list -> string list
+)
+"pre_typeclass.ml" 79 1835 1870 "pre_typeclass.ml" 79 1835 1871
+type(
+  (string list -> string list) -> string list -> string list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 79 1835 1872 "pre_typeclass.ml" 79 1835 1882
+type(
+  (Parsetree.signature_item -> string list) ->
+  Parsetree.signature_item list -> string list
+)
+ident(
+  ext_ref Ppxx.Utils.List.concat_map
+)
+"pre_typeclass.ml" 79 1835 1888 "pre_typeclass.ml" 79 1835 1890
+type(
+  Parsetree.signature_item
+)
+ident(
+  def si "pre_typeclass.ml" 80 1894 1898 "pre_typeclass.ml" 87 2195 2208
+)
+"pre_typeclass.ml" 80 1894 1904 "pre_typeclass.ml" 80 1894 1906
+type(
+  Parsetree.signature_item
+)
+ident(
+  int_ref si "pre_typeclass.ml" 79 1835 1888 "pre_typeclass.ml" 79 1835 1890
+)
+"pre_typeclass.ml" 80 1894 1904 "pre_typeclass.ml" 80 1894 1916
+type(
+  Parsetree.signature_item_desc
+)
+"pre_typeclass.ml" 81 1922 1939 "pre_typeclass.ml" 81 1922 1942
+type(
+  Asttypes.rec_flag
+)
+ident(
+  def _rf "pre_typeclass.ml" 82 1952 1960 "pre_typeclass.ml" 86 2181 2194
+)
+"pre_typeclass.ml" 81 1922 1944 "pre_typeclass.ml" 81 1922 1947
+type(
+  Parsetree.type_declaration list
+)
+ident(
+  def tds "pre_typeclass.ml" 82 1952 1960 "pre_typeclass.ml" 86 2181 2194
+)
+"pre_typeclass.ml" 81 1922 1928 "pre_typeclass.ml" 81 1922 1948
+type(
+  Parsetree.signature_item_desc
+)
+"pre_typeclass.ml" 82 1952 1960 "pre_typeclass.ml" 82 1952 1964
+type(
+  ((Parsetree.type_declaration -> string option) ->
+   Parsetree.type_declaration list -> string list) ->
+  Parsetree.type_declaration list ->
+  (Parsetree.type_declaration -> string option) -> string list
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"pre_typeclass.ml" 82 1952 1965 "pre_typeclass.ml" 82 1952 1975
+type(
+  (Parsetree.type_declaration -> string option) ->
+  Parsetree.type_declaration list -> string list
+)
+ident(
+  ext_ref Ppxx.Utils.List.filter_map
+)
+"pre_typeclass.ml" 82 1952 1976 "pre_typeclass.ml" 82 1952 1979
+type(
+  Parsetree.type_declaration list
+)
+ident(
+  int_ref tds "pre_typeclass.ml" 81 1922 1944 "pre_typeclass.ml" 81 1922 1947
+)
+"pre_typeclass.ml" 82 1952 1960 "pre_typeclass.ml" 82 1952 1979
+type(
+  (Parsetree.type_declaration -> string option) -> string list
+)
+"pre_typeclass.ml" 82 1952 1980 "pre_typeclass.ml" 82 1952 1981
+type(
+  ((Parsetree.type_declaration -> string option) -> string list) ->
+  (Parsetree.type_declaration -> string option) -> string list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 82 1952 1986 "pre_typeclass.ml" 82 1952 1988
+type(
+  Parsetree.type_declaration
+)
+ident(
+  def td "pre_typeclass.ml" 83 1992 2002 "pre_typeclass.ml" 86 2181 2194
+)
+"pre_typeclass.ml" 83 1992 2014 "pre_typeclass.ml" 83 1992 2016
+type(
+  Parsetree.type_declaration
+)
+ident(
+  int_ref td "pre_typeclass.ml" 82 1952 1986 "pre_typeclass.ml" 82 1952 1988
+)
+"pre_typeclass.ml" 84 2022 2050 "pre_typeclass.ml" 84 2022 2053
+type(
+  string
+)
+ident(
+  def txt "pre_typeclass.ml" 84 2022 2150 "pre_typeclass.ml" 84 2022 2158
+)
+"pre_typeclass.ml" 84 2022 2049 "pre_typeclass.ml" 84 2022 2054
+type(
+  string Asttypes.loc
+)
+"pre_typeclass.ml" 84 2022 2071 "pre_typeclass.ml" 84 2022 2073
+type(
+  (Parsetree.core_type * Asttypes.variance) list
+)
+"pre_typeclass.ml" 84 2022 2089 "pre_typeclass.ml" 84 2022 2091
+type(
+  (Parsetree.core_type * Parsetree.core_type * Location.t) list
+)
+"pre_typeclass.ml" 84 2022 2106 "pre_typeclass.ml" 84 2022 2120
+type(
+  Parsetree.type_kind
+)
+"pre_typeclass.ml" 84 2022 2139 "pre_typeclass.ml" 84 2022 2143
+type(
+  Parsetree.core_type option
+)
+"pre_typeclass.ml" 84 2022 2034 "pre_typeclass.ml" 84 2022 2146
+type(
+  Parsetree.type_declaration
+)
+"pre_typeclass.ml" 84 2022 2155 "pre_typeclass.ml" 84 2022 2158
+type(
+  string
+)
+ident(
+  int_ref txt "pre_typeclass.ml" 84 2022 2050 "pre_typeclass.ml" 84 2022 2053
+)
+"pre_typeclass.ml" 84 2022 2150 "pre_typeclass.ml" 84 2022 2158
+type(
+  string option
+)
+"pre_typeclass.ml" 85 2159 2171 "pre_typeclass.ml" 85 2159 2172
+type(
+  Parsetree.type_declaration
+)
+"pre_typeclass.ml" 85 2159 2176 "pre_typeclass.ml" 85 2159 2180
+type(
+  string option
+)
+"pre_typeclass.ml" 83 1992 2002 "pre_typeclass.ml" 86 2181 2194
+type(
+  string option
+)
+"pre_typeclass.ml" 82 1952 1982 "pre_typeclass.ml" 86 2181 2194
+type(
+  Parsetree.type_declaration -> string option
+)
+"pre_typeclass.ml" 82 1952 1960 "pre_typeclass.ml" 86 2181 2194
+call(
+  tail
+)
+type(
+  string list
+)
+"pre_typeclass.ml" 87 2195 2201 "pre_typeclass.ml" 87 2195 2202
+type(
+  Parsetree.signature_item_desc
+)
+"pre_typeclass.ml" 87 2195 2206 "pre_typeclass.ml" 87 2195 2208
+type(
+  string list
+)
+"pre_typeclass.ml" 80 1894 1898 "pre_typeclass.ml" 87 2195 2208
+type(
+  string list
+)
+"pre_typeclass.ml" 79 1835 1883 "pre_typeclass.ml" 87 2195 2209
+type(
+  Parsetree.signature_item -> string list
+)
+"pre_typeclass.ml" 87 2195 2210 "pre_typeclass.ml" 87 2195 2212
+type(
+  Parsetree.signature_item list
+)
+ident(
+  int_ref sg "pre_typeclass.ml" 79 1835 1852 "pre_typeclass.ml" 79 1835 1854
+)
+"pre_typeclass.ml" 79 1835 1872 "pre_typeclass.ml" 87 2195 2212
+call(
+  stack
+)
+type(
+  string list
+)
+"pre_typeclass.ml" 79 1835 1857 "pre_typeclass.ml" 87 2195 2212
+call(
+  tail
+)
+type(
+  string list
+)
+"pre_typeclass.ml" 96 2357 2363 "pre_typeclass.ml" 96 2357 2369
+type(
+  Parsetree.signature_item list -> (string * Parsetree.core_type) list
+)
+ident(
+  def values "pre_typeclass.ml" 101 2514 2516 "pre_typeclass.ml" 323 12486 12489
+)
+"pre_typeclass.ml" 96 2357 2372 "pre_typeclass.ml" 96 2357 2382
+type(
+  (Parsetree.signature_item -> (string * Parsetree.core_type) option) ->
+  Parsetree.signature_item list -> (string * Parsetree.core_type) list
+)
+ident(
+  ext_ref Ppxx.Utils.List.filter_map
+)
+"pre_typeclass.ml" 96 2357 2383 "pre_typeclass.ml" 96 2357 2384
+type(
+  ((Parsetree.signature_item -> (string * Parsetree.core_type) option) ->
+   Parsetree.signature_item list -> (string * Parsetree.core_type) list) ->
+  (Parsetree.signature_item -> (string * Parsetree.core_type) option) ->
+  Parsetree.signature_item list -> (string * Parsetree.core_type) list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 96 2357 2389 "pre_typeclass.ml" 96 2357 2391
+type(
+  Parsetree.signature_item
+)
+ident(
+  def si "pre_typeclass.ml" 97 2395 2399 "pre_typeclass.ml" 99 2495 2512
+)
+"pre_typeclass.ml" 97 2395 2405 "pre_typeclass.ml" 97 2395 2407
+type(
+  Parsetree.signature_item
+)
+ident(
+  int_ref si "pre_typeclass.ml" 96 2357 2389 "pre_typeclass.ml" 96 2357 2391
+)
+"pre_typeclass.ml" 97 2395 2405 "pre_typeclass.ml" 97 2395 2417
+type(
+  Parsetree.signature_item_desc
+)
+"pre_typeclass.ml" 98 2423 2442 "pre_typeclass.ml" 98 2423 2447
+type(
+  Parsetree.value_description
+)
+ident(
+  def vdesc "pre_typeclass.ml" 98 2423 2451 "pre_typeclass.ml" 98 2423 2494
+)
+"pre_typeclass.ml" 98 2423 2431 "pre_typeclass.ml" 98 2423 2447
+type(
+  Parsetree.signature_item_desc
+)
+"pre_typeclass.ml" 98 2423 2457 "pre_typeclass.ml" 98 2423 2462
+type(
+  Parsetree.value_description
+)
+ident(
+  int_ref vdesc "pre_typeclass.ml" 98 2423 2442 "pre_typeclass.ml" 98 2423 2447
+)
+"pre_typeclass.ml" 98 2423 2457 "pre_typeclass.ml" 98 2423 2472
+type(
+  string Asttypes.loc
+)
+"pre_typeclass.ml" 98 2423 2457 "pre_typeclass.ml" 98 2423 2476
+type(
+  string
+)
+"pre_typeclass.ml" 98 2423 2478 "pre_typeclass.ml" 98 2423 2483
+type(
+  Parsetree.value_description
+)
+ident(
+  int_ref vdesc "pre_typeclass.ml" 98 2423 2442 "pre_typeclass.ml" 98 2423 2447
+)
+"pre_typeclass.ml" 98 2423 2478 "pre_typeclass.ml" 98 2423 2493
+type(
+  Parsetree.core_type
+)
+"pre_typeclass.ml" 98 2423 2456 "pre_typeclass.ml" 98 2423 2494
+type(
+  string * Parsetree.core_type
+)
+"pre_typeclass.ml" 98 2423 2451 "pre_typeclass.ml" 98 2423 2494
+type(
+  (string * Parsetree.core_type) option
+)
+"pre_typeclass.ml" 99 2495 2503 "pre_typeclass.ml" 99 2495 2504
+type(
+  Parsetree.signature_item_desc
+)
+"pre_typeclass.ml" 99 2495 2508 "pre_typeclass.ml" 99 2495 2512
+type(
+  (string * Parsetree.core_type) option
+)
+"pre_typeclass.ml" 97 2395 2399 "pre_typeclass.ml" 99 2495 2512
+type(
+  (string * Parsetree.core_type) option
+)
+"pre_typeclass.ml" 96 2357 2385 "pre_typeclass.ml" 99 2495 2512
+type(
+  Parsetree.signature_item -> (string * Parsetree.core_type) option
+)
+"pre_typeclass.ml" 96 2357 2372 "pre_typeclass.ml" 99 2495 2512
+call(
+  stack
+)
+type(
+  Parsetree.signature_item list -> (string * Parsetree.core_type) list
+)
+"pre_typeclass.ml" 101 2514 2520 "pre_typeclass.ml" 101 2514 2532
+type(
+  Ast_405.Ast_helper.str list ->
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression
+)
+ident(
+  def add_newtypes "pre_typeclass.ml" 103 2582 2584 "pre_typeclass.ml" 323 12486 12489
+)
+"pre_typeclass.ml" 101 2514 2535 "pre_typeclass.ml" 101 2514 2545
+type(
+  (Ast_405.Ast_helper.str ->
+   Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression) ->
+  Ast_405.Ast_helper.str list ->
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.List.fold_right
+)
+"pre_typeclass.ml" 101 2514 2551 "pre_typeclass.ml" 101 2514 2552
+type(
+  Ast_405.Ast_helper.str
+)
+ident(
+  def s "pre_typeclass.ml" 101 2514 2556 "pre_typeclass.ml" 101 2514 2579
+)
+"pre_typeclass.ml" 101 2514 2556 "pre_typeclass.ml" 101 2514 2567
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.str ->
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Helper.Exp.newtype
+)
+"pre_typeclass.ml" 101 2514 2573 "pre_typeclass.ml" 101 2514 2577
+type(
+  Ast_405.Ast_helper.loc option
+)
+"pre_typeclass.ml" 101 2514 2578 "pre_typeclass.ml" 101 2514 2579
+type(
+  Ast_405.Ast_helper.str
+)
+ident(
+  int_ref s "pre_typeclass.ml" 101 2514 2551 "pre_typeclass.ml" 101 2514 2552
+)
+"pre_typeclass.ml" 101 2514 2556 "pre_typeclass.ml" 101 2514 2579
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 101 2514 2546 "pre_typeclass.ml" 101 2514 2580
+type(
+  Ast_405.Ast_helper.str ->
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 101 2514 2535 "pre_typeclass.ml" 101 2514 2580
+call(
+  stack
+)
+type(
+  Ast_405.Ast_helper.str list ->
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 103 2582 2588 "pre_typeclass.ml" 103 2582 2592
+type(
+  Ast_405.Parsetree.structure_item
+)
+ident(
+  def link "pre_typeclass.ml" 106 2694 2696 "pre_typeclass.ml" 323 12486 12489
+)
+"pre_typeclass.ml" 106 2694 2700 "pre_typeclass.ml" 106 2694 2713
+type(
+  string -> string list -> Ast_405.Parsetree.type_declaration
+)
+ident(
+  def gen_ty_module "pre_typeclass.ml" 116 3173 3175 "pre_typeclass.ml" 323 12486 12489
+)
+"pre_typeclass.ml" 106 2694 2714 "pre_typeclass.ml" 106 2694 2718
+type(
+  string
+)
+ident(
+  def name "pre_typeclass.ml" 106 2694 2719 "pre_typeclass.ml" 113 3019 3039
+)
+"pre_typeclass.ml" 106 2694 2719 "pre_typeclass.ml" 106 2694 2721
+type(
+  string list
+)
+ident(
+  def ps "pre_typeclass.ml" 107 2724 2728 "pre_typeclass.ml" 113 3019 3039
+)
+"pre_typeclass.ml" 107 2724 2732 "pre_typeclass.ml" 107 2724 2737
+type(
+  Ast_405.Parsetree.core_type list
+)
+ident(
+  def tvars "pre_typeclass.ml" 108 2792 2796 "pre_typeclass.ml" 113 3019 3039
+)
+"pre_typeclass.ml" 107 2724 2740 "pre_typeclass.ml" 107 2724 2743
+type(
+  (string -> Ast_405.Parsetree.core_type) ->
+  string list -> Ast_405.Parsetree.core_type list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 107 2724 2745 "pre_typeclass.ml" 107 2724 2752
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs -> string -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.var
+)
+"pre_typeclass.ml" 107 2724 2758 "pre_typeclass.ml" 107 2724 2762
+type(
+  Ast_405.Ast_helper.loc option
+)
+"pre_typeclass.ml" 107 2724 2744 "pre_typeclass.ml" 107 2724 2763
+call(
+  stack
+)
+type(
+  string -> Ast_405.Parsetree.core_type
+)
+type(
+  ?attrs:Ast_405.Ast_helper.attrs -> string -> Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 107 2724 2764 "pre_typeclass.ml" 107 2724 2766
+type(
+  string list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 106 2694 2719 "pre_typeclass.ml" 106 2694 2721
+)
+"pre_typeclass.ml" 107 2724 2740 "pre_typeclass.ml" 107 2724 2766
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type list
+)
+"pre_typeclass.ml" 108 2792 2796 "pre_typeclass.ml" 108 2792 2803
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  ?docs:Ast_405.Docstrings.docs ->
+  ?text:Ast_405.Docstrings.text ->
+  ?params:(Ast_405.Parsetree.core_type * Ast_405.Asttypes.variance) list ->
+  ?cstrs:(Ast_405.Parsetree.core_type * Ast_405.Parsetree.core_type *
+          Ast_405.Ast_helper.loc)
+         list ->
+  ?kind:Ast_405.Parsetree.type_kind ->
+  ?priv:Ast_405.Asttypes.private_flag ->
+  ?manifest:Ast_405.Parsetree.core_type ->
+  Ast_405.Ast_helper.str -> Ast_405.Parsetree.type_declaration
+)
+ident(
+  ext_ref Ppxx.Helper.Type.mk
+)
+"pre_typeclass.ml" 108 2792 2809 "pre_typeclass.ml" 108 2792 2813
+type(
+  Ast_405.Ast_helper.loc option
+)
+"pre_typeclass.ml" 109 2814 2830 "pre_typeclass.ml" 109 2814 2833
+type(
+  (Ast_405.Parsetree.core_type ->
+   Ast_405.Parsetree.core_type * Ast_405.Asttypes.variance) ->
+  Ast_405.Parsetree.core_type list ->
+  (Ast_405.Parsetree.core_type * Ast_405.Asttypes.variance) list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 109 2814 2839 "pre_typeclass.ml" 109 2814 2841
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  def tv "pre_typeclass.ml" 109 2814 2845 "pre_typeclass.ml" 109 2814 2860
+)
+"pre_typeclass.ml" 109 2814 2846 "pre_typeclass.ml" 109 2814 2848
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref tv "pre_typeclass.ml" 109 2814 2839 "pre_typeclass.ml" 109 2814 2841
+)
+"pre_typeclass.ml" 109 2814 2850 "pre_typeclass.ml" 109 2814 2859
+type(
+  Ast_405.Asttypes.variance
+)
+"pre_typeclass.ml" 109 2814 2845 "pre_typeclass.ml" 109 2814 2860
+type(
+  Ast_405.Parsetree.core_type * Ast_405.Asttypes.variance
+)
+"pre_typeclass.ml" 109 2814 2834 "pre_typeclass.ml" 109 2814 2861
+type(
+  Ast_405.Parsetree.core_type ->
+  Ast_405.Parsetree.core_type * Ast_405.Asttypes.variance
+)
+"pre_typeclass.ml" 109 2814 2862 "pre_typeclass.ml" 109 2814 2867
+type(
+  Ast_405.Parsetree.core_type list
+)
+ident(
+  int_ref tvars "pre_typeclass.ml" 107 2724 2732 "pre_typeclass.ml" 107 2724 2737
+)
+"pre_typeclass.ml" 109 2814 2829 "pre_typeclass.ml" 109 2814 2868
+call(
+  stack
+)
+type(
+  (Ast_405.Parsetree.core_type * Ast_405.Asttypes.variance) list
+)
+"pre_typeclass.ml" 110 2869 2887 "pre_typeclass.ml" 110 2869 2898
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.lid ->
+  (Ast_405.Ast_helper.lid * Ast_405.Parsetree.core_type) list ->
+  Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.package
+)
+"pre_typeclass.ml" 110 2869 2904 "pre_typeclass.ml" 110 2869 2908
+type(
+  Ast_405.Ast_helper.loc option
+)
+"pre_typeclass.ml" 111 2910 2930 "pre_typeclass.ml" 111 2910 2932
+type(
+  ?loc:Ast_405.Location.t ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 111 2910 2941 "pre_typeclass.ml" 111 2910 2945
+type(
+  string
+)
+ident(
+  int_ref name "pre_typeclass.ml" 106 2694 2714 "pre_typeclass.ml" 106 2694 2718
+)
+"pre_typeclass.ml" 111 2910 2933 "pre_typeclass.ml" 111 2910 2946
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 111 2910 2929 "pre_typeclass.ml" 111 2910 2947
+call(
+  stack
+)
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 112 2949 2969 "pre_typeclass.ml" 112 2949 2973
+type(
+  (string ->
+   Ast_405.Parsetree.core_type ->
+   Ast_405.Ast_helper.lid * Ast_405.Parsetree.core_type) ->
+  string list ->
+  Ast_405.Parsetree.core_type list ->
+  (Ast_405.Ast_helper.lid * Ast_405.Parsetree.core_type) list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map2
+)
+"pre_typeclass.ml" 112 2949 2979 "pre_typeclass.ml" 112 2949 2980
+type(
+  string
+)
+ident(
+  def p "pre_typeclass.ml" 112 2949 2981 "pre_typeclass.ml" 112 2949 3006
+)
+"pre_typeclass.ml" 112 2949 2981 "pre_typeclass.ml" 112 2949 2983
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  def tv "pre_typeclass.ml" 112 2949 2987 "pre_typeclass.ml" 112 2949 3006
+)
+"pre_typeclass.ml" 112 2949 2988 "pre_typeclass.ml" 112 2949 2990
+type(
+  ?loc:Ast_405.Location.t ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 112 2949 2999 "pre_typeclass.ml" 112 2949 3000
+type(
+  string
+)
+ident(
+  int_ref p "pre_typeclass.ml" 112 2949 2979 "pre_typeclass.ml" 112 2949 2980
+)
+"pre_typeclass.ml" 112 2949 2991 "pre_typeclass.ml" 112 2949 3001
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 112 2949 2988 "pre_typeclass.ml" 112 2949 3001
+call(
+  stack
+)
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 112 2949 3003 "pre_typeclass.ml" 112 2949 3005
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref tv "pre_typeclass.ml" 112 2949 2981 "pre_typeclass.ml" 112 2949 2983
+)
+"pre_typeclass.ml" 112 2949 2987 "pre_typeclass.ml" 112 2949 3006
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc *
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 112 2949 2974 "pre_typeclass.ml" 112 2949 3007
+type(
+  string ->
+  Ast_405.Parsetree.core_type ->
+  Ast_405.Ast_helper.lid * Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 112 2949 3008 "pre_typeclass.ml" 112 2949 3010
+type(
+  string list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 106 2694 2719 "pre_typeclass.ml" 106 2694 2721
+)
+"pre_typeclass.ml" 112 2949 3011 "pre_typeclass.ml" 112 2949 3016
+type(
+  Ast_405.Parsetree.core_type list
+)
+ident(
+  int_ref tvars "pre_typeclass.ml" 107 2724 2732 "pre_typeclass.ml" 107 2724 2737
+)
+"pre_typeclass.ml" 112 2949 2968 "pre_typeclass.ml" 112 2949 3017
+call(
+  stack
+)
+type(
+  (Ast_405.Ast_helper.lid * Ast_405.Parsetree.core_type) list
+)
+"pre_typeclass.ml" 110 2869 2886 "pre_typeclass.ml" 112 2949 3018
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 113 3019 3026 "pre_typeclass.ml" 113 3019 3028
+type(
+  ?loc:Ast_405.Location.t -> string -> string Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 113 3019 3029 "pre_typeclass.ml" 113 3019 3038
+type(
+  string
+)
+"pre_typeclass.ml" 113 3019 3025 "pre_typeclass.ml" 113 3019 3039
+call(
+  stack
+)
+type(
+  string Ast_405.Location.loc
+)
+"pre_typeclass.ml" 108 2792 2796 "pre_typeclass.ml" 113 3019 3039
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.type_declaration
+)
+"pre_typeclass.ml" 107 2724 2728 "pre_typeclass.ml" 113 3019 3039
+type(
+  Ast_405.Parsetree.type_declaration
+)
+"pre_typeclass.ml" 116 3173 3179 "pre_typeclass.ml" 116 3173 3191
+type(
+  string list -> Ast_405.Parsetree.type_declaration
+)
+ident(
+  def gen_ty_class "pre_typeclass.ml" 129 3658 3660 "pre_typeclass.ml" 323 12486 12489
+)
+"pre_typeclass.ml" 116 3173 3192 "pre_typeclass.ml" 116 3173 3194
+type(
+  string list
+)
+ident(
+  def ps "pre_typeclass.ml" 117 3197 3201 "pre_typeclass.ml" 121 3459 3478
+)
+"pre_typeclass.ml" 117 3197 3205 "pre_typeclass.ml" 117 3197 3210
+type(
+  Ast_405.Parsetree.core_type list
+)
+ident(
+  def tvars "pre_typeclass.ml" 118 3265 3269 "pre_typeclass.ml" 121 3459 3478
+)
+"pre_typeclass.ml" 117 3197 3213 "pre_typeclass.ml" 117 3197 3216
+type(
+  (string -> Ast_405.Parsetree.core_type) ->
+  string list -> Ast_405.Parsetree.core_type list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 117 3197 3218 "pre_typeclass.ml" 117 3197 3225
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs -> string -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.var
+)
+"pre_typeclass.ml" 117 3197 3231 "pre_typeclass.ml" 117 3197 3235
+type(
+  Ast_405.Ast_helper.loc option
+)
+"pre_typeclass.ml" 117 3197 3217 "pre_typeclass.ml" 117 3197 3236
+call(
+  stack
+)
+type(
+  string -> Ast_405.Parsetree.core_type
+)
+type(
+  ?attrs:Ast_405.Ast_helper.attrs -> string -> Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 117 3197 3237 "pre_typeclass.ml" 117 3197 3239
+type(
+  string list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 116 3173 3192 "pre_typeclass.ml" 116 3173 3194
+)
+"pre_typeclass.ml" 117 3197 3213 "pre_typeclass.ml" 117 3197 3239
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type list
+)
+"pre_typeclass.ml" 118 3265 3269 "pre_typeclass.ml" 118 3265 3276
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  ?docs:Ast_405.Docstrings.docs ->
+  ?text:Ast_405.Docstrings.text ->
+  ?params:(Ast_405.Parsetree.core_type * Ast_405.Asttypes.variance) list ->
+  ?cstrs:(Ast_405.Parsetree.core_type * Ast_405.Parsetree.core_type *
+          Ast_405.Ast_helper.loc)
+         list ->
+  ?kind:Ast_405.Parsetree.type_kind ->
+  ?priv:Ast_405.Asttypes.private_flag ->
+  ?manifest:Ast_405.Parsetree.core_type ->
+  Ast_405.Ast_helper.str -> Ast_405.Parsetree.type_declaration
+)
+ident(
+  ext_ref Ppxx.Helper.Type.mk
+)
+"pre_typeclass.ml" 118 3265 3282 "pre_typeclass.ml" 118 3265 3286
+type(
+  Ast_405.Ast_helper.loc option
+)
+"pre_typeclass.ml" 119 3287 3303 "pre_typeclass.ml" 119 3287 3306
+type(
+  (Ast_405.Parsetree.core_type ->
+   Ast_405.Parsetree.core_type * Ast_405.Asttypes.variance) ->
+  Ast_405.Parsetree.core_type list ->
+  (Ast_405.Parsetree.core_type * Ast_405.Asttypes.variance) list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 119 3287 3312 "pre_typeclass.ml" 119 3287 3314
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  def tv "pre_typeclass.ml" 119 3287 3318 "pre_typeclass.ml" 119 3287 3333
+)
+"pre_typeclass.ml" 119 3287 3319 "pre_typeclass.ml" 119 3287 3321
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref tv "pre_typeclass.ml" 119 3287 3312 "pre_typeclass.ml" 119 3287 3314
+)
+"pre_typeclass.ml" 119 3287 3323 "pre_typeclass.ml" 119 3287 3332
+type(
+  Ast_405.Asttypes.variance
+)
+"pre_typeclass.ml" 119 3287 3318 "pre_typeclass.ml" 119 3287 3333
+type(
+  Ast_405.Parsetree.core_type * Ast_405.Asttypes.variance
+)
+"pre_typeclass.ml" 119 3287 3307 "pre_typeclass.ml" 119 3287 3334
+type(
+  Ast_405.Parsetree.core_type ->
+  Ast_405.Parsetree.core_type * Ast_405.Asttypes.variance
+)
+"pre_typeclass.ml" 119 3287 3335 "pre_typeclass.ml" 119 3287 3340
+type(
+  Ast_405.Parsetree.core_type list
+)
+ident(
+  int_ref tvars "pre_typeclass.ml" 117 3197 3205 "pre_typeclass.ml" 117 3197 3210
+)
+"pre_typeclass.ml" 119 3287 3302 "pre_typeclass.ml" 119 3287 3341
+call(
+  stack
+)
+type(
+  (Ast_405.Parsetree.core_type * Ast_405.Asttypes.variance) list
+)
+"pre_typeclass.ml" 120 3342 3372 "pre_typeclass.ml" 120 3342 3382
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.lid ->
+  Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.constr
+)
+"pre_typeclass.ml" 120 3342 3384 "pre_typeclass.ml" 120 3342 3386
+type(
+  ?loc:Ast_405.Location.t ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 120 3342 3395 "pre_typeclass.ml" 120 3342 3404
+type(
+  string
+)
+"pre_typeclass.ml" 120 3342 3387 "pre_typeclass.ml" 120 3342 3405
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 120 3342 3383 "pre_typeclass.ml" 120 3342 3406
+call(
+  stack
+)
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 120 3342 3407 "pre_typeclass.ml" 120 3342 3412
+type(
+  Ast_405.Parsetree.core_type list
+)
+ident(
+  int_ref tvars "pre_typeclass.ml" 117 3197 3205 "pre_typeclass.ml" 117 3197 3210
+)
+"pre_typeclass.ml" 120 3342 3372 "pre_typeclass.ml" 120 3342 3412
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 121 3459 3466 "pre_typeclass.ml" 121 3459 3468
+type(
+  ?loc:Ast_405.Location.t -> string -> string Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 121 3459 3469 "pre_typeclass.ml" 121 3459 3477
+type(
+  string
+)
+"pre_typeclass.ml" 121 3459 3465 "pre_typeclass.ml" 121 3459 3478
+call(
+  stack
+)
+type(
+  string Ast_405.Location.loc
+)
+"pre_typeclass.ml" 118 3265 3269 "pre_typeclass.ml" 121 3459 3478
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.type_declaration
+)
+"pre_typeclass.ml" 117 3197 3201 "pre_typeclass.ml" 121 3459 3478
+type(
+  Ast_405.Parsetree.type_declaration
+)
+"pre_typeclass.ml" 129 3658 3664 "pre_typeclass.ml" 129 3658 3671
+type(
+  string list -> string * 'a -> Ast_405.Parsetree.structure_item
+)
+ident(
+  def method_ "pre_typeclass.ml" 141 4183 4185 "pre_typeclass.ml" 323 12486 12489
+)
+"pre_typeclass.ml" 129 3658 3672 "pre_typeclass.ml" 129 3658 3675
+type(
+  string list
+)
+ident(
+  def tys "pre_typeclass.ml" 129 3658 3676 "pre_typeclass.ml" 139 4089 4181
+)
+"pre_typeclass.ml" 129 3658 3677 "pre_typeclass.ml" 129 3658 3678
+type(
+  string
+)
+ident(
+  def n "pre_typeclass.ml" 130 3687 3691 "pre_typeclass.ml" 139 4089 4181
+)
+"pre_typeclass.ml" 129 3658 3679 "pre_typeclass.ml" 129 3658 3682
+type(
+  'a
+)
+ident(
+  def _ty "pre_typeclass.ml" 130 3687 3691 "pre_typeclass.ml" 139 4089 4181
+)
+"pre_typeclass.ml" 129 3658 3676 "pre_typeclass.ml" 129 3658 3683
+type(
+  string * 'a
+)
+"pre_typeclass.ml" 130 3687 3695 "pre_typeclass.ml" 130 3687 3704
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  def paramed_s "_none_" 1 0 -1 "_none_" 1 0 -1
+)
+"pre_typeclass.ml" 132 3730 3736 "pre_typeclass.ml" 132 3730 3742
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.lid ->
+  Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.constr
+)
+"pre_typeclass.ml" 132 3730 3744 "pre_typeclass.ml" 132 3730 3746
+type(
+  ?loc:Ast_405.Location.t ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 132 3730 3752 "pre_typeclass.ml" 132 3730 3756
+type(
+  Ast_405.Location.t option
+)
+"pre_typeclass.ml" 132 3730 3744 "pre_typeclass.ml" 132 3730 3756
+type(
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 132 3730 3757 "pre_typeclass.ml" 132 3730 3758
+type(
+  (Ppxx.Compilerlib.Longident.t ->
+   Ppxx.Compilerlib.Longident.t Ast_405.Location.loc) ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 132 3730 3766 "pre_typeclass.ml" 132 3730 3774
+type(
+  string
+)
+"pre_typeclass.ml" 132 3730 3759 "pre_typeclass.ml" 132 3730 3774
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 132 3730 3743 "pre_typeclass.ml" 132 3730 3775
+call(
+  stack
+)
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 132 3730 3736 "pre_typeclass.ml" 132 3730 3775
+type(
+  Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 133 3777 3783 "pre_typeclass.ml" 133 3777 3784
+type(
+  (Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type) ->
+  Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 133 3777 3785 "pre_typeclass.ml" 133 3777 3788
+type(
+  (string -> Ast_405.Parsetree.core_type) ->
+  string list -> Ast_405.Parsetree.core_type list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 133 3777 3794 "pre_typeclass.ml" 133 3777 3796
+type(
+  string
+)
+ident(
+  def ty "pre_typeclass.ml" 133 3777 3800 "pre_typeclass.ml" 133 3777 3846
+)
+"pre_typeclass.ml" 133 3777 3800 "pre_typeclass.ml" 133 3777 3806
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.lid ->
+  Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.constr
+)
+"pre_typeclass.ml" 133 3777 3812 "pre_typeclass.ml" 133 3777 3816
+type(
+  Ast_405.Ast_helper.loc option
+)
+"pre_typeclass.ml" 133 3777 3818 "pre_typeclass.ml" 133 3777 3820
+type(
+  ?loc:Ast_405.Location.t ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 133 3777 3826 "pre_typeclass.ml" 133 3777 3830
+type(
+  Ast_405.Location.t option
+)
+"pre_typeclass.ml" 133 3777 3818 "pre_typeclass.ml" 133 3777 3830
+type(
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 133 3777 3831 "pre_typeclass.ml" 133 3777 3832
+type(
+  (Ppxx.Compilerlib.Longident.t ->
+   Ppxx.Compilerlib.Longident.t Ast_405.Location.loc) ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 133 3777 3840 "pre_typeclass.ml" 133 3777 3842
+type(
+  string
+)
+ident(
+  int_ref ty "pre_typeclass.ml" 133 3777 3794 "pre_typeclass.ml" 133 3777 3796
+)
+"pre_typeclass.ml" 133 3777 3833 "pre_typeclass.ml" 133 3777 3842
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 133 3777 3817 "pre_typeclass.ml" 133 3777 3843
+call(
+  stack
+)
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 133 3777 3844 "pre_typeclass.ml" 133 3777 3846
+type(
+  Ast_405.Parsetree.core_type list
+)
+"pre_typeclass.ml" 133 3777 3800 "pre_typeclass.ml" 133 3777 3846
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 133 3777 3789 "pre_typeclass.ml" 133 3777 3847
+type(
+  string -> Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 133 3777 3848 "pre_typeclass.ml" 133 3777 3851
+type(
+  string list
+)
+ident(
+  int_ref tys "pre_typeclass.ml" 129 3658 3672 "pre_typeclass.ml" 129 3658 3675
+)
+"pre_typeclass.ml" 133 3777 3785 "pre_typeclass.ml" 133 3777 3851
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type list
+)
+"pre_typeclass.ml" 132 3730 3736 "pre_typeclass.ml" 133 3777 3851
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 135 3859 3878 "pre_typeclass.ml" 135 3859 3886
+type(
+  ?loc:Ast_405.Location.t ->
+  ?attrs:Ast_405.Ast_helper.attrs -> string -> Ast_405.Parsetree.pattern
+)
+ident(
+  ext_ref Ppxx.Helper.Pat.var'
+)
+"pre_typeclass.ml" 135 3859 3892 "pre_typeclass.ml" 135 3859 3896
+type(
+  Ast_405.Location.t option
+)
+"pre_typeclass.ml" 135 3859 3897 "pre_typeclass.ml" 135 3859 3898
+type(
+  string
+)
+ident(
+  int_ref n "pre_typeclass.ml" 129 3658 3677 "pre_typeclass.ml" 129 3658 3678
+)
+"pre_typeclass.ml" 135 3859 3878 "pre_typeclass.ml" 135 3859 3898
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.pattern
+)
+"pre_typeclass.ml" 136 3902 3914 "pre_typeclass.ml" 136 3902 3926
+type(
+  Ast_405.Ast_helper.str list ->
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression
+)
+ident(
+  int_ref add_newtypes "pre_typeclass.ml" 101 2514 2520 "pre_typeclass.ml" 101 2514 2532
+)
+"pre_typeclass.ml" 136 3902 3928 "pre_typeclass.ml" 136 3902 3936
+type(
+  (string -> string Ast_405.Location.loc) ->
+  string list -> Ast_405.Ast_helper.str list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 136 3902 3937 "pre_typeclass.ml" 136 3902 3941
+type(
+  string -> string Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.( !@ )
+)
+"pre_typeclass.ml" 136 3902 3942 "pre_typeclass.ml" 136 3902 3945
+type(
+  string list
+)
+ident(
+  int_ref tys "pre_typeclass.ml" 129 3658 3672 "pre_typeclass.ml" 129 3658 3675
+)
+"pre_typeclass.ml" 136 3902 3927 "pre_typeclass.ml" 136 3902 3946
+call(
+  stack
+)
+type(
+  Ast_405.Ast_helper.str list
+)
+"pre_typeclass.ml" 137 3947 3984 "pre_typeclass.ml" 137 3947 3993
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref paramed_s "pre_typeclass.ml" 130 3687 3695 "pre_typeclass.ml" 130 3687 3704
+)
+"pre_typeclass.ml" 139 4089 4119 "pre_typeclass.ml" 139 4089 4124
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.lid -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Helper.Exp.ident
+)
+"pre_typeclass.ml" 139 4089 4130 "pre_typeclass.ml" 139 4089 4134
+type(
+  Ast_405.Ast_helper.loc option
+)
+"pre_typeclass.ml" 139 4089 4136 "pre_typeclass.ml" 139 4089 4138
+type(
+  ?loc:Ast_405.Location.t ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 139 4089 4144 "pre_typeclass.ml" 139 4089 4148
+type(
+  Ast_405.Location.t option
+)
+"pre_typeclass.ml" 139 4089 4163 "pre_typeclass.ml" 139 4089 4166
+type(
+  string
+)
+"pre_typeclass.ml" 139 4089 4156 "pre_typeclass.ml" 139 4089 4166
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 139 4089 4168 "pre_typeclass.ml" 139 4089 4169
+type(
+  string
+)
+ident(
+  int_ref n "pre_typeclass.ml" 129 3658 3677 "pre_typeclass.ml" 129 3658 3678
+)
+"pre_typeclass.ml" 139 4089 4149 "pre_typeclass.ml" 139 4089 4171
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 139 4089 4135 "pre_typeclass.ml" 139 4089 4172
+call(
+  stack
+)
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 139 4089 4119 "pre_typeclass.ml" 139 4089 4172
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 136 3902 3914 "pre_typeclass.ml" 139 4089 4177
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 130 3687 3691 "pre_typeclass.ml" 139 4089 4181
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 141 4183 4189 "pre_typeclass.ml" 141 4183 4204
+type(
+  Parsetree.module_type_declaration -> Ast_405.Parsetree.structure_item
+)
+ident(
+  def gen_declaration "pre_typeclass.ml" 162 5066 5068 "pre_typeclass.ml" 323 12486 12489
+)
+"pre_typeclass.ml" 141 4183 4205 "pre_typeclass.ml" 141 4183 4208
+type(
+  Parsetree.module_type_declaration
+)
+ident(
+  def mtd "pre_typeclass.ml" 142 4211 4215 "pre_typeclass.ml" 160 4949 5064
+)
+"pre_typeclass.ml" 142 4211 4219 "pre_typeclass.ml" 142 4211 4223
+type(
+  string
+)
+ident(
+  def name "pre_typeclass.ml" 143 4247 4251 "pre_typeclass.ml" 160 4949 5064
+)
+"pre_typeclass.ml" 142 4211 4226 "pre_typeclass.ml" 142 4211 4229
+type(
+  Parsetree.module_type_declaration
+)
+ident(
+  int_ref mtd "pre_typeclass.ml" 141 4183 4205 "pre_typeclass.ml" 141 4183 4208
+)
+"pre_typeclass.ml" 142 4211 4226 "pre_typeclass.ml" 142 4211 4239
+type(
+  string Asttypes.loc
+)
+"pre_typeclass.ml" 142 4211 4226 "pre_typeclass.ml" 142 4211 4243
+type(
+  string
+)
+"pre_typeclass.ml" 143 4247 4257 "pre_typeclass.ml" 143 4247 4260
+type(
+  Parsetree.module_type_declaration
+)
+ident(
+  int_ref mtd "pre_typeclass.ml" 141 4183 4205 "pre_typeclass.ml" 141 4183 4208
+)
+"pre_typeclass.ml" 143 4247 4257 "pre_typeclass.ml" 143 4247 4270
+type(
+  Parsetree.module_type option
+)
+"pre_typeclass.ml" 144 4277 4317 "pre_typeclass.ml" 144 4277 4319
+type(
+  Parsetree.signature
+)
+ident(
+  def sg "pre_typeclass.ml" 145 4326 4334 "pre_typeclass.ml" 159 4937 4948
+)
+"pre_typeclass.ml" 144 4277 4302 "pre_typeclass.ml" 144 4277 4319
+type(
+  Parsetree.module_type_desc
+)
+"pre_typeclass.ml" 144 4277 4288 "pre_typeclass.ml" 144 4277 4321
+type(
+  Parsetree.module_type
+)
+"pre_typeclass.ml" 144 4277 4283 "pre_typeclass.ml" 144 4277 4321
+type(
+  Parsetree.module_type option
+)
+"pre_typeclass.ml" 145 4326 4338 "pre_typeclass.ml" 145 4326 4340
+type(
+  string list
+)
+ident(
+  def ps "pre_typeclass.ml" 146 4360 4368 "pre_typeclass.ml" 159 4937 4948
+)
+"pre_typeclass.ml" 145 4326 4343 "pre_typeclass.ml" 145 4326 4353
+type(
+  Parsetree.signature -> string list
+)
+ident(
+  int_ref parameters "pre_typeclass.ml" 79 1835 1841 "pre_typeclass.ml" 79 1835 1851
+)
+"pre_typeclass.ml" 145 4326 4354 "pre_typeclass.ml" 145 4326 4356
+type(
+  Parsetree.signature
+)
+ident(
+  int_ref sg "pre_typeclass.ml" 144 4277 4317 "pre_typeclass.ml" 144 4277 4319
+)
+"pre_typeclass.ml" 145 4326 4343 "pre_typeclass.ml" 145 4326 4356
+call(
+  stack
+)
+type(
+  string list
+)
+"pre_typeclass.ml" 146 4360 4372 "pre_typeclass.ml" 146 4360 4374
+type(
+  (string * Parsetree.core_type) list
+)
+ident(
+  def vs "pre_typeclass.ml" 147 4390 4398 "pre_typeclass.ml" 159 4937 4948
+)
+"pre_typeclass.ml" 146 4360 4377 "pre_typeclass.ml" 146 4360 4383
+type(
+  Parsetree.signature -> (string * Parsetree.core_type) list
+)
+ident(
+  int_ref values "pre_typeclass.ml" 96 2357 2363 "pre_typeclass.ml" 96 2357 2369
+)
+"pre_typeclass.ml" 146 4360 4384 "pre_typeclass.ml" 146 4360 4386
+type(
+  Parsetree.signature
+)
+ident(
+  int_ref sg "pre_typeclass.ml" 144 4277 4317 "pre_typeclass.ml" 144 4277 4319
+)
+"pre_typeclass.ml" 146 4360 4377 "pre_typeclass.ml" 146 4360 4386
+call(
+  stack
+)
+type(
+  (string * Parsetree.core_type) list
+)
+"pre_typeclass.ml" 147 4390 4410 "pre_typeclass.ml" 147 4390 4412
+type(
+  string list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 145 4326 4338 "pre_typeclass.ml" 145 4326 4340
+)
+"pre_typeclass.ml" 148 4418 4428 "pre_typeclass.ml" 148 4418 4430
+type(
+  string list
+)
+"pre_typeclass.ml" 149 4434 4446 "pre_typeclass.ml" 149 4434 4458
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Ast_405.Parsetree.structure_item,
+   Ppxx.Utils.Format.formatter, unit, Ast_405.Parsetree.structure_item)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 149 4434 4459 "pre_typeclass.ml" 149 4434 4552
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Ast_405.Parsetree.structure_item,
+   Ppxx.Utils.Format.formatter, unit, Ast_405.Parsetree.structure_item)
+  format4
+)
+"pre_typeclass.ml" 149 4434 4553 "pre_typeclass.ml" 149 4434 4568
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 149 4434 4569 "pre_typeclass.ml" 149 4434 4572
+type(
+  Parsetree.module_type_declaration
+)
+ident(
+  int_ref mtd "pre_typeclass.ml" 141 4183 4205 "pre_typeclass.ml" 141 4183 4208
+)
+"pre_typeclass.ml" 149 4434 4569 "pre_typeclass.ml" 149 4434 4581
+type(
+  Ppxx.Compilerlib.Location.t
+)
+"pre_typeclass.ml" 149 4434 4446 "pre_typeclass.ml" 149 4434 4581
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 150 4582 4592 "pre_typeclass.ml" 150 4582 4593
+type(
+  string list
+)
+"pre_typeclass.ml" 151 4598 4610 "pre_typeclass.ml" 151 4598 4621
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  Ast_405.Parsetree.module_binding -> Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Helper.Str.module_
+)
+"pre_typeclass.ml" 151 4598 4627 "pre_typeclass.ml" 151 4598 4631
+type(
+  Ast_405.Ast_helper.loc option
+)
+"pre_typeclass.ml" 151 4598 4610 "pre_typeclass.ml" 151 4598 4631
+type(
+  Ast_405.Parsetree.module_binding -> Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 151 4598 4632 "pre_typeclass.ml" 151 4598 4633
+type(
+  (Ast_405.Parsetree.module_binding -> Ast_405.Parsetree.structure_item) ->
+  Ast_405.Parsetree.module_binding -> Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 151 4598 4634 "pre_typeclass.ml" 151 4598 4639
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  ?docs:Ast_405.Docstrings.docs ->
+  ?text:Ast_405.Docstrings.text ->
+  Ast_405.Ast_helper.str ->
+  Ast_405.Parsetree.module_expr -> Ast_405.Parsetree.module_binding
+)
+ident(
+  ext_ref Ppxx.Helper.Mb.mk
+)
+"pre_typeclass.ml" 151 4598 4645 "pre_typeclass.ml" 151 4598 4649
+type(
+  Ast_405.Ast_helper.loc option
+)
+"pre_typeclass.ml" 151 4598 4651 "pre_typeclass.ml" 151 4598 4653
+type(
+  ?loc:Ast_405.Location.t -> string -> string Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 151 4598 4659 "pre_typeclass.ml" 151 4598 4663
+type(
+  Ast_405.Location.t option
+)
+"pre_typeclass.ml" 151 4598 4664 "pre_typeclass.ml" 151 4598 4668
+type(
+  string
+)
+ident(
+  int_ref name "pre_typeclass.ml" 142 4211 4219 "pre_typeclass.ml" 142 4211 4223
+)
+"pre_typeclass.ml" 151 4598 4650 "pre_typeclass.ml" 151 4598 4669
+call(
+  stack
+)
+type(
+  string Ast_405.Location.loc
+)
+"pre_typeclass.ml" 152 4670 4685 "pre_typeclass.ml" 152 4670 4698
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Parsetree.structure -> Ast_405.Parsetree.module_expr
+)
+ident(
+  ext_ref Ppxx.Helper.Mod.structure
+)
+"pre_typeclass.ml" 152 4670 4704 "pre_typeclass.ml" 152 4670 4708
+type(
+  Ast_405.Ast_helper.loc option
+)
+"pre_typeclass.ml" 152 4670 4685 "pre_typeclass.ml" 152 4670 4708
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.structure -> Ast_405.Parsetree.module_expr
+)
+type(
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Parsetree.structure -> Ast_405.Parsetree.module_expr
+)
+"pre_typeclass.ml" 153 4710 4725 "pre_typeclass.ml" 153 4710 4726
+type(
+  (Ast_405.Parsetree.structure -> Ast_405.Parsetree.module_expr) ->
+  Ast_405.Parsetree.structure -> Ast_405.Parsetree.module_expr
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 154 4754 4774 "pre_typeclass.ml" 154 4754 4783
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?rec_flag:Ast_405.Asttypes.rec_flag ->
+  Ast_405.Parsetree.type_declaration list -> Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Helper.Str.type_
+)
+"pre_typeclass.ml" 154 4754 4785 "pre_typeclass.ml" 154 4754 4798
+type(
+  string -> string list -> Ast_405.Parsetree.type_declaration
+)
+ident(
+  int_ref gen_ty_module "pre_typeclass.ml" 106 2694 2700 "pre_typeclass.ml" 106 2694 2713
+)
+"pre_typeclass.ml" 154 4754 4799 "pre_typeclass.ml" 154 4754 4803
+type(
+  string
+)
+ident(
+  int_ref name "pre_typeclass.ml" 142 4211 4219 "pre_typeclass.ml" 142 4211 4223
+)
+"pre_typeclass.ml" 154 4754 4804 "pre_typeclass.ml" 154 4754 4806
+type(
+  string list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 145 4326 4338 "pre_typeclass.ml" 145 4326 4340
+)
+"pre_typeclass.ml" 154 4754 4785 "pre_typeclass.ml" 154 4754 4806
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.type_declaration
+)
+"pre_typeclass.ml" 154 4754 4784 "pre_typeclass.ml" 154 4754 4807
+type(
+  Ast_405.Parsetree.type_declaration list
+)
+"pre_typeclass.ml" 154 4754 4774 "pre_typeclass.ml" 154 4754 4807
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 155 4808 4828 "pre_typeclass.ml" 155 4808 4832
+type(
+  Ast_405.Parsetree.structure_item
+)
+ident(
+  int_ref link "pre_typeclass.ml" 103 2582 2588 "pre_typeclass.ml" 103 2582 2592
+)
+"pre_typeclass.ml" 156 4833 4853 "pre_typeclass.ml" 156 4833 4862
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?rec_flag:Ast_405.Asttypes.rec_flag ->
+  Ast_405.Parsetree.type_declaration list -> Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Helper.Str.type_
+)
+"pre_typeclass.ml" 156 4833 4864 "pre_typeclass.ml" 156 4833 4876
+type(
+  string list -> Ast_405.Parsetree.type_declaration
+)
+ident(
+  int_ref gen_ty_class "pre_typeclass.ml" 116 3173 3179 "pre_typeclass.ml" 116 3173 3191
+)
+"pre_typeclass.ml" 156 4833 4877 "pre_typeclass.ml" 156 4833 4879
+type(
+  string list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 145 4326 4338 "pre_typeclass.ml" 145 4326 4340
+)
+"pre_typeclass.ml" 156 4833 4864 "pre_typeclass.ml" 156 4833 4879
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.type_declaration
+)
+"pre_typeclass.ml" 156 4833 4863 "pre_typeclass.ml" 156 4833 4880
+type(
+  Ast_405.Parsetree.type_declaration list
+)
+"pre_typeclass.ml" 156 4833 4853 "pre_typeclass.ml" 156 4833 4880
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 157 4881 4901 "pre_typeclass.ml" 157 4881 4904
+type(
+  (string * Parsetree.core_type -> Ast_405.Parsetree.structure_item) ->
+  (string * Parsetree.core_type) list ->
+  Ast_405.Parsetree.structure_item list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 157 4881 4906 "pre_typeclass.ml" 157 4881 4913
+type(
+  string list ->
+  string * Parsetree.core_type -> Ast_405.Parsetree.structure_item
+)
+ident(
+  int_ref method_ "pre_typeclass.ml" 129 3658 3664 "pre_typeclass.ml" 129 3658 3671
+)
+"pre_typeclass.ml" 157 4881 4914 "pre_typeclass.ml" 157 4881 4916
+type(
+  string list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 145 4326 4338 "pre_typeclass.ml" 145 4326 4340
+)
+"pre_typeclass.ml" 157 4881 4905 "pre_typeclass.ml" 157 4881 4917
+call(
+  stack
+)
+type(
+  string * Parsetree.core_type -> Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 157 4881 4918 "pre_typeclass.ml" 157 4881 4920
+type(
+  (string * Parsetree.core_type) list
+)
+ident(
+  int_ref vs "pre_typeclass.ml" 146 4360 4372 "pre_typeclass.ml" 146 4360 4374
+)
+"pre_typeclass.ml" 157 4881 4901 "pre_typeclass.ml" 157 4881 4920
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.structure_item list
+)
+"pre_typeclass.ml" 156 4833 4853 "pre_typeclass.ml" 157 4881 4920
+type(
+  Ast_405.Parsetree.structure_item list
+)
+"pre_typeclass.ml" 155 4808 4828 "pre_typeclass.ml" 157 4881 4920
+type(
+  Ast_405.Parsetree.structure_item list
+)
+"pre_typeclass.ml" 154 4754 4774 "pre_typeclass.ml" 157 4881 4920
+type(
+  Ast_405.Parsetree.structure_item list
+)
+"pre_typeclass.ml" 153 4710 4727 "pre_typeclass.ml" 157 4881 4920
+type(
+  Ast_405.Parsetree.structure
+)
+"pre_typeclass.ml" 152 4670 4684 "pre_typeclass.ml" 158 4921 4936
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.module_expr
+)
+"pre_typeclass.ml" 151 4598 4634 "pre_typeclass.ml" 158 4921 4936
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.module_binding
+)
+"pre_typeclass.ml" 151 4598 4610 "pre_typeclass.ml" 158 4921 4936
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 147 4390 4398 "pre_typeclass.ml" 159 4937 4948
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 146 4360 4368 "pre_typeclass.ml" 159 4937 4948
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 145 4326 4334 "pre_typeclass.ml" 159 4937 4948
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 160 4949 4955 "pre_typeclass.ml" 160 4949 4956
+type(
+  Parsetree.module_type option
+)
+"pre_typeclass.ml" 160 4949 4960 "pre_typeclass.ml" 160 4949 4972
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Ast_405.Parsetree.structure_item,
+   Ppxx.Utils.Format.formatter, unit, Ast_405.Parsetree.structure_item)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 160 4949 4973 "pre_typeclass.ml" 160 4949 5035
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Ast_405.Parsetree.structure_item,
+   Ppxx.Utils.Format.formatter, unit, Ast_405.Parsetree.structure_item)
+  format4
+)
+"pre_typeclass.ml" 160 4949 5036 "pre_typeclass.ml" 160 4949 5051
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 160 4949 5052 "pre_typeclass.ml" 160 4949 5055
+type(
+  Parsetree.module_type_declaration
+)
+ident(
+  int_ref mtd "pre_typeclass.ml" 141 4183 4205 "pre_typeclass.ml" 141 4183 4208
+)
+"pre_typeclass.ml" 160 4949 5052 "pre_typeclass.ml" 160 4949 5064
+type(
+  Ppxx.Compilerlib.Location.t
+)
+"pre_typeclass.ml" 160 4949 4960 "pre_typeclass.ml" 160 4949 5064
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 143 4247 4251 "pre_typeclass.ml" 160 4949 5064
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 142 4211 4215 "pre_typeclass.ml" 160 4949 5064
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 162 5066 5072 "pre_typeclass.ml" 162 5066 5098
+type(
+  Ppxx.Compilerlib.Location.t ->
+  Parsetree.payload ->
+  Longident.t * Location.t * (string * Parsetree.core_type) list *
+  string list
+)
+ident(
+  def parse_instance_declaration "pre_typeclass.ml" 178 5971 5973 "pre_typeclass.ml" 323 12486 12489
+)
+"pre_typeclass.ml" 162 5066 5099 "pre_typeclass.ml" 162 5066 5102
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def loc "pre_typeclass.ml" 162 5066 5105 "pre_typeclass.ml" 174 5743 5872
+)
+"pre_typeclass.ml" 163 5114 5125 "pre_typeclass.ml" 163 5114 5128
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "pre_typeclass.ml" 164 5132 5140 "pre_typeclass.ml" 173 5725 5736
+)
+"pre_typeclass.ml" 163 5114 5120 "pre_typeclass.ml" 163 5114 5128
+type(
+  Parsetree.payload
+)
+"pre_typeclass.ml" 164 5132 5144 "pre_typeclass.ml" 164 5132 5147
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "pre_typeclass.ml" 165 5200 5208 "pre_typeclass.ml" 173 5725 5736
+)
+"pre_typeclass.ml" 164 5132 5149 "pre_typeclass.ml" 164 5132 5153
+type(
+  string list
+)
+ident(
+  def vars "pre_typeclass.ml" 165 5200 5208 "pre_typeclass.ml" 173 5725 5736
+)
+"pre_typeclass.ml" 164 5132 5144 "pre_typeclass.ml" 164 5132 5153
+type(
+  Parsetree.core_type * string list
+)
+"pre_typeclass.ml" 164 5132 5156 "pre_typeclass.ml" 164 5132 5192
+type(
+  Parsetree.core_type -> Parsetree.core_type * string list
+)
+ident(
+  int_ref VarInInstance.replace_var_extensions "pre_typeclass.ml" 18 225 227 "pre_typeclass.ml" 18 225 292
+)
+"pre_typeclass.ml" 164 5132 5193 "pre_typeclass.ml" 164 5132 5196
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_typeclass.ml" 163 5114 5125 "pre_typeclass.ml" 163 5114 5128
+)
+"pre_typeclass.ml" 164 5132 5156 "pre_typeclass.ml" 164 5132 5196
+call(
+  stack
+)
+type(
+  Parsetree.core_type * string list
+)
+"pre_typeclass.ml" 165 5200 5220 "pre_typeclass.ml" 165 5200 5223
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_typeclass.ml" 164 5132 5144 "pre_typeclass.ml" 164 5132 5147
+)
+"pre_typeclass.ml" 166 5229 5267 "pre_typeclass.ml" 166 5229 5270
+type(
+  Longident.t
+)
+ident(
+  def txt "pre_typeclass.ml" 167 5286 5298 "pre_typeclass.ml" 171 5560 5590
+)
+"pre_typeclass.ml" 166 5229 5272 "pre_typeclass.ml" 166 5229 5275
+type(
+  Location.t
+)
+ident(
+  def loc "pre_typeclass.ml" 167 5286 5298 "pre_typeclass.ml" 171 5560 5590
+)
+"pre_typeclass.ml" 166 5229 5266 "pre_typeclass.ml" 166 5229 5276
+type(
+  Longident.t Asttypes.loc
+)
+"pre_typeclass.ml" 166 5229 5278 "pre_typeclass.ml" 166 5229 5280
+type(
+  (Longident.t Asttypes.loc * Parsetree.core_type) list
+)
+ident(
+  def ps "pre_typeclass.ml" 167 5286 5298 "pre_typeclass.ml" 171 5560 5590
+)
+"pre_typeclass.ml" 166 5229 5265 "pre_typeclass.ml" 166 5229 5281
+type(
+  Parsetree.package_type
+)
+"pre_typeclass.ml" 166 5229 5252 "pre_typeclass.ml" 166 5229 5281
+type(
+  Parsetree.core_type_desc
+)
+"pre_typeclass.ml" 166 5229 5239 "pre_typeclass.ml" 166 5229 5282
+type(
+  Parsetree.core_type
+)
+"pre_typeclass.ml" 167 5286 5302 "pre_typeclass.ml" 167 5286 5304
+type(
+  (string * Parsetree.core_type) list
+)
+ident(
+  def ps "pre_typeclass.ml" 171 5560 5572 "pre_typeclass.ml" 171 5560 5590
+)
+"pre_typeclass.ml" 167 5286 5307 "pre_typeclass.ml" 167 5286 5311
+type(
+  ((Ppxx.Compilerlib.Longident.t Asttypes.loc * Parsetree.core_type ->
+    string * Parsetree.core_type) ->
+   (Ppxx.Compilerlib.Longident.t Asttypes.loc * Parsetree.core_type) list ->
+   (string * Parsetree.core_type) list) ->
+  (Ppxx.Compilerlib.Longident.t Asttypes.loc * Parsetree.core_type) list ->
+  (Ppxx.Compilerlib.Longident.t Asttypes.loc * Parsetree.core_type ->
+   string * Parsetree.core_type) ->
+  (string * Parsetree.core_type) list
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"pre_typeclass.ml" 167 5286 5312 "pre_typeclass.ml" 167 5286 5315
+type(
+  (Ppxx.Compilerlib.Longident.t Asttypes.loc * Parsetree.core_type ->
+   string * Parsetree.core_type) ->
+  (Ppxx.Compilerlib.Longident.t Asttypes.loc * Parsetree.core_type) list ->
+  (string * Parsetree.core_type) list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 167 5286 5316 "pre_typeclass.ml" 167 5286 5318
+type(
+  (Ppxx.Compilerlib.Longident.t Asttypes.loc * Parsetree.core_type) list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 166 5229 5278 "pre_typeclass.ml" 166 5229 5280
+)
+"pre_typeclass.ml" 167 5286 5307 "pre_typeclass.ml" 167 5286 5318
+type(
+  (Ppxx.Compilerlib.Longident.t Asttypes.loc * Parsetree.core_type ->
+   string * Parsetree.core_type) ->
+  (string * Parsetree.core_type) list
+)
+"pre_typeclass.ml" 167 5286 5319 "pre_typeclass.ml" 167 5286 5320
+type(
+  ((Ppxx.Compilerlib.Longident.t Asttypes.loc * Parsetree.core_type ->
+    string * Parsetree.core_type) ->
+   (string * Parsetree.core_type) list) ->
+  (Ppxx.Compilerlib.Longident.t Asttypes.loc * Parsetree.core_type ->
+   string * Parsetree.core_type) ->
+  (string * Parsetree.core_type) list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 167 5286 5326 "pre_typeclass.ml" 167 5286 5327
+type(
+  Ppxx.Compilerlib.Longident.t Asttypes.loc
+)
+ident(
+  def p "pre_typeclass.ml" 167 5286 5336 "pre_typeclass.ml" 169 5390 5544
+)
+"pre_typeclass.ml" 167 5286 5328 "pre_typeclass.ml" 167 5286 5331
+type(
+  Parsetree.core_type
+)
+ident(
+  def cty "pre_typeclass.ml" 167 5286 5336 "pre_typeclass.ml" 169 5390 5544
+)
+"pre_typeclass.ml" 167 5286 5325 "pre_typeclass.ml" 167 5286 5332
+type(
+  Ppxx.Compilerlib.Longident.t Asttypes.loc * Parsetree.core_type
+)
+"pre_typeclass.ml" 167 5286 5342 "pre_typeclass.ml" 167 5286 5343
+type(
+  Ppxx.Compilerlib.Longident.t Asttypes.loc
+)
+ident(
+  int_ref p "pre_typeclass.ml" 167 5286 5326 "pre_typeclass.ml" 167 5286 5327
+)
+"pre_typeclass.ml" 168 5349 5377 "pre_typeclass.ml" 168 5349 5378
+type(
+  string
+)
+ident(
+  def s "pre_typeclass.ml" 168 5349 5383 "pre_typeclass.ml" 168 5349 5389
+)
+"pre_typeclass.ml" 168 5349 5370 "pre_typeclass.ml" 168 5349 5378
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 168 5349 5365 "pre_typeclass.ml" 168 5349 5379
+type(
+  Ppxx.Compilerlib.Longident.t Asttypes.loc
+)
+"pre_typeclass.ml" 168 5349 5383 "pre_typeclass.ml" 168 5349 5384
+type(
+  string
+)
+ident(
+  int_ref s "pre_typeclass.ml" 168 5349 5377 "pre_typeclass.ml" 168 5349 5378
+)
+"pre_typeclass.ml" 168 5349 5386 "pre_typeclass.ml" 168 5349 5389
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_typeclass.ml" 167 5286 5328 "pre_typeclass.ml" 167 5286 5331
+)
+"pre_typeclass.ml" 168 5349 5383 "pre_typeclass.ml" 168 5349 5389
+type(
+  string * Parsetree.core_type
+)
+"pre_typeclass.ml" 169 5390 5407 "pre_typeclass.ml" 169 5390 5410
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def txt "pre_typeclass.ml" 169 5390 5419 "pre_typeclass.ml" 169 5390 5544
+)
+"pre_typeclass.ml" 169 5390 5411 "pre_typeclass.ml" 169 5390 5414
+type(
+  Location.t
+)
+ident(
+  def loc "pre_typeclass.ml" 169 5390 5419 "pre_typeclass.ml" 169 5390 5544
+)
+"pre_typeclass.ml" 169 5390 5406 "pre_typeclass.ml" 169 5390 5415
+type(
+  Ppxx.Compilerlib.Longident.t Asttypes.loc
+)
+"pre_typeclass.ml" 169 5390 5419 "pre_typeclass.ml" 169 5390 5431
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Longident.t -> unit) ->
+   Ppxx.Compilerlib.Longident.t -> string * Parsetree.core_type,
+   Ppxx.Utils.Format.formatter, unit, string * Parsetree.core_type)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Longident.t -> unit) ->
+  Ppxx.Compilerlib.Longident.t -> string * Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 169 5390 5432 "pre_typeclass.ml" 169 5390 5503
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Longident.t -> unit) ->
+   Ppxx.Compilerlib.Longident.t -> string * Parsetree.core_type,
+   Ppxx.Utils.Format.formatter, unit, string * Parsetree.core_type)
+  format4
+)
+"pre_typeclass.ml" 169 5390 5504 "pre_typeclass.ml" 169 5390 5519
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 169 5390 5520 "pre_typeclass.ml" 169 5390 5523
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "pre_typeclass.ml" 169 5390 5411 "pre_typeclass.ml" 169 5390 5414
+)
+"pre_typeclass.ml" 169 5390 5524 "pre_typeclass.ml" 169 5390 5540
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Longident.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Longident.format
+)
+"pre_typeclass.ml" 169 5390 5541 "pre_typeclass.ml" 169 5390 5544
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref txt "pre_typeclass.ml" 169 5390 5407 "pre_typeclass.ml" 169 5390 5410
+)
+"pre_typeclass.ml" 169 5390 5419 "pre_typeclass.ml" 169 5390 5544
+call(
+  tail
+)
+type(
+  string * Parsetree.core_type
+)
+"pre_typeclass.ml" 167 5286 5336 "pre_typeclass.ml" 169 5390 5544
+type(
+  string * Parsetree.core_type
+)
+"pre_typeclass.ml" 167 5286 5321 "pre_typeclass.ml" 169 5390 5544
+type(
+  Ppxx.Compilerlib.Longident.t Asttypes.loc * Parsetree.core_type ->
+  string * Parsetree.core_type
+)
+"pre_typeclass.ml" 167 5286 5307 "pre_typeclass.ml" 169 5390 5544
+call(
+  stack
+)
+type(
+  (string * Parsetree.core_type) list
+)
+"pre_typeclass.ml" 171 5560 5572 "pre_typeclass.ml" 171 5560 5575
+type(
+  Longident.t
+)
+ident(
+  int_ref txt "pre_typeclass.ml" 166 5229 5267 "pre_typeclass.ml" 166 5229 5270
+)
+"pre_typeclass.ml" 171 5560 5577 "pre_typeclass.ml" 171 5560 5580
+type(
+  Location.t
+)
+ident(
+  int_ref loc "pre_typeclass.ml" 166 5229 5272 "pre_typeclass.ml" 166 5229 5275
+)
+"pre_typeclass.ml" 171 5560 5582 "pre_typeclass.ml" 171 5560 5584
+type(
+  (string * Parsetree.core_type) list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 167 5286 5302 "pre_typeclass.ml" 167 5286 5304
+)
+"pre_typeclass.ml" 171 5560 5586 "pre_typeclass.ml" 171 5560 5590
+type(
+  string list
+)
+ident(
+  int_ref vars "pre_typeclass.ml" 164 5132 5149 "pre_typeclass.ml" 164 5132 5153
+)
+"pre_typeclass.ml" 171 5560 5572 "pre_typeclass.ml" 171 5560 5590
+type(
+  Longident.t * Location.t * (string * Parsetree.core_type) list *
+  string list
+)
+"pre_typeclass.ml" 167 5286 5298 "pre_typeclass.ml" 171 5560 5590
+type(
+  Longident.t * Location.t * (string * Parsetree.core_type) list *
+  string list
+)
+"pre_typeclass.ml" 172 5591 5601 "pre_typeclass.ml" 172 5591 5602
+type(
+  Parsetree.core_type
+)
+"pre_typeclass.ml" 172 5591 5606 "pre_typeclass.ml" 172 5591 5618
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   Longident.t * Location.t * (string * Parsetree.core_type) list *
+   string list, Ppxx.Utils.Format.formatter, unit,
+   Longident.t * Location.t * (string * Parsetree.core_type) list *
+   string list)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  Longident.t * Location.t * (string * Parsetree.core_type) list *
+  string list
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 172 5591 5619 "pre_typeclass.ml" 172 5591 5704
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   Longident.t * Location.t * (string * Parsetree.core_type) list *
+   string list, Ppxx.Utils.Format.formatter, unit,
+   Longident.t * Location.t * (string * Parsetree.core_type) list *
+   string list)
+  format4
+)
+"pre_typeclass.ml" 172 5591 5705 "pre_typeclass.ml" 172 5591 5720
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 172 5591 5721 "pre_typeclass.ml" 172 5591 5724
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "pre_typeclass.ml" 162 5066 5099 "pre_typeclass.ml" 162 5066 5102
+)
+"pre_typeclass.ml" 172 5591 5606 "pre_typeclass.ml" 172 5591 5724
+call(
+  tail
+)
+type(
+  Longident.t * Location.t * (string * Parsetree.core_type) list *
+  string list
+)
+"pre_typeclass.ml" 165 5200 5208 "pre_typeclass.ml" 173 5725 5736
+type(
+  Longident.t * Location.t * (string * Parsetree.core_type) list *
+  string list
+)
+"pre_typeclass.ml" 164 5132 5140 "pre_typeclass.ml" 173 5725 5736
+type(
+  Longident.t * Location.t * (string * Parsetree.core_type) list *
+  string list
+)
+"pre_typeclass.ml" 174 5743 5749 "pre_typeclass.ml" 174 5743 5750
+type(
+  Parsetree.payload
+)
+"pre_typeclass.ml" 174 5743 5754 "pre_typeclass.ml" 174 5743 5766
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   Longident.t * Location.t * (string * Parsetree.core_type) list *
+   string list, Ppxx.Utils.Format.formatter, unit,
+   Longident.t * Location.t * (string * Parsetree.core_type) list *
+   string list)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  Longident.t * Location.t * (string * Parsetree.core_type) list *
+  string list
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 174 5743 5767 "pre_typeclass.ml" 174 5743 5852
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   Longident.t * Location.t * (string * Parsetree.core_type) list *
+   string list, Ppxx.Utils.Format.formatter, unit,
+   Longident.t * Location.t * (string * Parsetree.core_type) list *
+   string list)
+  format4
+)
+"pre_typeclass.ml" 174 5743 5853 "pre_typeclass.ml" 174 5743 5868
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 174 5743 5869 "pre_typeclass.ml" 174 5743 5872
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "pre_typeclass.ml" 162 5066 5099 "pre_typeclass.ml" 162 5066 5102
+)
+"pre_typeclass.ml" 174 5743 5754 "pre_typeclass.ml" 174 5743 5872
+call(
+  tail
+)
+type(
+  Longident.t * Location.t * (string * Parsetree.core_type) list *
+  string list
+)
+"pre_typeclass.ml" 162 5066 5105 "pre_typeclass.ml" 174 5743 5872
+type(
+  Parsetree.payload ->
+  Longident.t * Location.t * (string * Parsetree.core_type) list *
+  string list
+)
+"pre_typeclass.ml" 178 5971 5977 "pre_typeclass.ml" 178 5971 5988
+type(
+  string ->
+  string ->
+  (string * Ast_405.Parsetree.core_type) list -> Ast_405.Parsetree.expression
+)
+ident(
+  def dict_module "pre_typeclass.ml" 193 6647 6649 "pre_typeclass.ml" 323 12486 12489
+)
+"pre_typeclass.ml" 178 5971 5989 "pre_typeclass.ml" 178 5971 5990
+type(
+  string
+)
+ident(
+  def m "pre_typeclass.ml" 178 5971 5991 "pre_typeclass.ml" 191 6599 6636
+)
+"pre_typeclass.ml" 178 5971 5991 "pre_typeclass.ml" 178 5971 5992
+type(
+  string
+)
+ident(
+  def o "pre_typeclass.ml" 178 5971 5993 "pre_typeclass.ml" 191 6599 6636
+)
+"pre_typeclass.ml" 178 5971 5993 "pre_typeclass.ml" 178 5971 5995
+type(
+  (string * Ast_405.Parsetree.core_type) list
+)
+ident(
+  def ps "pre_typeclass.ml" 179 5998 6002 "pre_typeclass.ml" 191 6599 6636
+)
+"pre_typeclass.ml" 179 5998 6002 "pre_typeclass.ml" 179 5998 6017
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Parsetree.expression ->
+  Ast_405.Parsetree.core_type -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Helper.Exp.constraint_
+)
+"pre_typeclass.ml" 179 5998 6023 "pre_typeclass.ml" 179 5998 6027
+type(
+  Ast_405.Ast_helper.loc option
+)
+"pre_typeclass.ml" 180 6029 6036 "pre_typeclass.ml" 180 6029 6044
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Parsetree.module_expr -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Helper.Exp.pack
+)
+"pre_typeclass.ml" 180 6029 6050 "pre_typeclass.ml" 180 6029 6054
+type(
+  Ast_405.Ast_helper.loc option
+)
+"pre_typeclass.ml" 180 6029 6036 "pre_typeclass.ml" 180 6029 6054
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.module_expr -> Ast_405.Parsetree.expression
+)
+type(
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Parsetree.module_expr -> Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 180 6029 6055 "pre_typeclass.ml" 180 6029 6056
+type(
+  (Ast_405.Parsetree.module_expr -> Ast_405.Parsetree.expression) ->
+  Ast_405.Parsetree.module_expr -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 181 6057 6066 "pre_typeclass.ml" 181 6057 6079
+call(
+  stack
+)
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Parsetree.structure -> Ast_405.Parsetree.module_expr
+)
+ident(
+  ext_ref Ppxx.Helper.Mod.structure
+)
+"pre_typeclass.ml" 181 6057 6080 "pre_typeclass.ml" 181 6057 6081
+type(
+  (Ast_405.Parsetree.structure -> Ast_405.Parsetree.module_expr) ->
+  Ast_405.Parsetree.structure -> Ast_405.Parsetree.module_expr
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 181 6057 6082 "pre_typeclass.ml" 181 6057 6085
+type(
+  (string * Ast_405.Parsetree.core_type -> Ast_405.Parsetree.structure_item) ->
+  (string * Ast_405.Parsetree.core_type) list ->
+  Ast_405.Parsetree.structure_item list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 181 6057 6092 "pre_typeclass.ml" 181 6057 6093
+type(
+  string
+)
+ident(
+  def p "pre_typeclass.ml" 181 6057 6102 "pre_typeclass.ml" 181 6057 6143
+)
+"pre_typeclass.ml" 181 6057 6094 "pre_typeclass.ml" 181 6057 6097
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  def cty "pre_typeclass.ml" 181 6057 6102 "pre_typeclass.ml" 181 6057 6143
+)
+"pre_typeclass.ml" 181 6057 6091 "pre_typeclass.ml" 181 6057 6098
+type(
+  string * Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 181 6057 6102 "pre_typeclass.ml" 181 6057 6111
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?rec_flag:Ast_405.Asttypes.rec_flag ->
+  Ast_405.Parsetree.type_declaration list -> Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Helper.Str.type_
+)
+"pre_typeclass.ml" 181 6057 6113 "pre_typeclass.ml" 181 6057 6120
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  ?docs:Ast_405.Docstrings.docs ->
+  ?text:Ast_405.Docstrings.text ->
+  ?params:(Ast_405.Parsetree.core_type * Ast_405.Asttypes.variance) list ->
+  ?cstrs:(Ast_405.Parsetree.core_type * Ast_405.Parsetree.core_type *
+          Ast_405.Ast_helper.loc)
+         list ->
+  ?kind:Ast_405.Parsetree.type_kind ->
+  ?priv:Ast_405.Asttypes.private_flag ->
+  ?manifest:Ast_405.Parsetree.core_type ->
+  Ast_405.Ast_helper.str -> Ast_405.Parsetree.type_declaration
+)
+ident(
+  ext_ref Ppxx.Helper.Type.mk
+)
+"pre_typeclass.ml" 181 6057 6132 "pre_typeclass.ml" 181 6057 6135
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_typeclass.ml" 181 6057 6094 "pre_typeclass.ml" 181 6057 6097
+)
+"pre_typeclass.ml" 181 6057 6137 "pre_typeclass.ml" 181 6057 6139
+type(
+  ?loc:Ast_405.Location.t -> string -> string Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 181 6057 6140 "pre_typeclass.ml" 181 6057 6141
+type(
+  string
+)
+ident(
+  int_ref p "pre_typeclass.ml" 181 6057 6092 "pre_typeclass.ml" 181 6057 6093
+)
+"pre_typeclass.ml" 181 6057 6136 "pre_typeclass.ml" 181 6057 6142
+call(
+  stack
+)
+type(
+  string Ast_405.Location.loc
+)
+"pre_typeclass.ml" 181 6057 6113 "pre_typeclass.ml" 181 6057 6142
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.type_declaration
+)
+"pre_typeclass.ml" 181 6057 6112 "pre_typeclass.ml" 181 6057 6143
+type(
+  Ast_405.Parsetree.type_declaration list
+)
+"pre_typeclass.ml" 181 6057 6102 "pre_typeclass.ml" 181 6057 6143
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 181 6057 6086 "pre_typeclass.ml" 181 6057 6144
+type(
+  string * Ast_405.Parsetree.core_type -> Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 181 6057 6145 "pre_typeclass.ml" 181 6057 6147
+type(
+  (string * Ast_405.Parsetree.core_type) list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 178 5971 5993 "pre_typeclass.ml" 178 5971 5995
+)
+"pre_typeclass.ml" 181 6057 6082 "pre_typeclass.ml" 181 6057 6147
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.structure_item list
+)
+"pre_typeclass.ml" 182 6148 6173 "pre_typeclass.ml" 182 6148 6174
+type(
+  Ast_405.Parsetree.structure_item list ->
+  Ast_405.Parsetree.structure_item list -> Ast_405.Parsetree.structure
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"pre_typeclass.ml" 182 6148 6177 "pre_typeclass.ml" 182 6148 6189
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  Ast_405.Parsetree.include_declaration -> Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Helper.Str.include_
+)
+"pre_typeclass.ml" 182 6148 6204 "pre_typeclass.ml" 182 6148 6214
+type(
+  ?loc:Ast_405.Location.t ->
+  Ast_405.Longident.t -> Ast_405.Parsetree.module_expr
+)
+ident(
+  ext_ref Ppxx.Helper.Mod.ident'
+)
+"pre_typeclass.ml" 182 6148 6220 "pre_typeclass.ml" 182 6148 6224
+type(
+  Ast_405.Location.t option
+)
+"pre_typeclass.ml" 182 6148 6233 "pre_typeclass.ml" 182 6148 6234
+type(
+  string
+)
+ident(
+  int_ref m "pre_typeclass.ml" 178 5971 5989 "pre_typeclass.ml" 178 5971 5990
+)
+"pre_typeclass.ml" 182 6148 6225 "pre_typeclass.ml" 182 6148 6235
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 182 6148 6204 "pre_typeclass.ml" 182 6148 6235
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.module_expr
+)
+"pre_typeclass.ml" 183 6237 6293 "pre_typeclass.ml" 183 6237 6306
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.none
+)
+"pre_typeclass.ml" 184 6324 6387 "pre_typeclass.ml" 184 6324 6389
+type(
+  Parsetree.attributes
+)
+"pre_typeclass.ml" 182 6148 6190 "pre_typeclass.ml" 184 6324 6391
+type(
+  Ast_405.Parsetree.include_declaration
+)
+"pre_typeclass.ml" 182 6148 6177 "pre_typeclass.ml" 184 6324 6391
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 182 6148 6175 "pre_typeclass.ml" 185 6392 6418
+type(
+  Ast_405.Parsetree.structure_item list
+)
+"pre_typeclass.ml" 181 6057 6082 "pre_typeclass.ml" 185 6392 6418
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.structure
+)
+"pre_typeclass.ml" 181 6057 6066 "pre_typeclass.ml" 185 6392 6418
+type(
+  Ast_405.Parsetree.module_expr
+)
+"pre_typeclass.ml" 180 6029 6035 "pre_typeclass.ml" 186 6421 6428
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 187 6429 6436 "pre_typeclass.ml" 187 6429 6446
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.lid ->
+  Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.constr
+)
+"pre_typeclass.ml" 187 6429 6452 "pre_typeclass.ml" 187 6429 6456
+type(
+  Ast_405.Ast_helper.loc option
+)
+"pre_typeclass.ml" 187 6429 6458 "pre_typeclass.ml" 187 6429 6460
+type(
+  ?loc:Ast_405.Location.t ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 187 6429 6466 "pre_typeclass.ml" 187 6429 6470
+type(
+  Ast_405.Location.t option
+)
+"pre_typeclass.ml" 187 6429 6458 "pre_typeclass.ml" 187 6429 6470
+type(
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 187 6429 6471 "pre_typeclass.ml" 187 6429 6472
+type(
+  (Ppxx.Compilerlib.Longident.t ->
+   Ppxx.Compilerlib.Longident.t Ast_405.Location.loc) ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 187 6429 6486 "pre_typeclass.ml" 187 6429 6487
+type(
+  string
+)
+ident(
+  int_ref o "pre_typeclass.ml" 178 5971 5991 "pre_typeclass.ml" 178 5971 5992
+)
+"pre_typeclass.ml" 187 6429 6479 "pre_typeclass.ml" 187 6429 6487
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 187 6429 6489 "pre_typeclass.ml" 187 6429 6498
+type(
+  string
+)
+"pre_typeclass.ml" 187 6429 6473 "pre_typeclass.ml" 187 6429 6499
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 187 6429 6457 "pre_typeclass.ml" 187 6429 6500
+call(
+  stack
+)
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 187 6429 6436 "pre_typeclass.ml" 187 6429 6500
+type(
+  Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 191 6599 6606 "pre_typeclass.ml" 191 6599 6607
+type(
+  (Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type) ->
+  Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 191 6599 6608 "pre_typeclass.ml" 191 6599 6611
+type(
+  (string * Ast_405.Parsetree.core_type -> Ast_405.Parsetree.core_type) ->
+  (string * Ast_405.Parsetree.core_type) list ->
+  Ast_405.Parsetree.core_type list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 191 6599 6618 "pre_typeclass.ml" 191 6599 6619
+type(
+  string
+)
+"pre_typeclass.ml" 191 6599 6620 "pre_typeclass.ml" 191 6599 6623
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  def cty "pre_typeclass.ml" 191 6599 6628 "pre_typeclass.ml" 191 6599 6631
+)
+"pre_typeclass.ml" 191 6599 6617 "pre_typeclass.ml" 191 6599 6624
+type(
+  string * Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 191 6599 6628 "pre_typeclass.ml" 191 6599 6631
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref cty "pre_typeclass.ml" 191 6599 6620 "pre_typeclass.ml" 191 6599 6623
+)
+"pre_typeclass.ml" 191 6599 6612 "pre_typeclass.ml" 191 6599 6632
+type(
+  string * Ast_405.Parsetree.core_type -> Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 191 6599 6633 "pre_typeclass.ml" 191 6599 6635
+type(
+  (string * Ast_405.Parsetree.core_type) list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 178 5971 5993 "pre_typeclass.ml" 178 5971 5995
+)
+"pre_typeclass.ml" 191 6599 6608 "pre_typeclass.ml" 191 6599 6635
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type list
+)
+"pre_typeclass.ml" 187 6429 6435 "pre_typeclass.ml" 191 6599 6636
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 179 5998 6002 "pre_typeclass.ml" 191 6599 6636
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 196 6785 6793 "pre_typeclass.ml" 196 6785 6798
+type(
+  string ->
+  string list -> Ppxx.Compilerlib.Longident.t -> Ast_405.Parsetree.pattern
+)
+ident(
+  def param "pre_typeclass.ml" 207 7362 7366 "pre_typeclass.ml" 237 8864 8869
+)
+"pre_typeclass.ml" 196 6785 6799 "pre_typeclass.ml" 196 6785 6800
+type(
+  string
+)
+ident(
+  def d "pre_typeclass.ml" 196 6785 6801 "pre_typeclass.ml" 202 7112 7174
+)
+"pre_typeclass.ml" 196 6785 6801 "pre_typeclass.ml" 196 6785 6804
+type(
+  string list
+)
+ident(
+  def tvs "pre_typeclass.ml" 196 6785 6805 "pre_typeclass.ml" 202 7112 7174
+)
+"pre_typeclass.ml" 196 6785 6805 "pre_typeclass.ml" 196 6785 6806
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def m "pre_typeclass.ml" 197 6809 6815 "pre_typeclass.ml" 202 7112 7174
+)
+"pre_typeclass.ml" 197 6809 6815 "pre_typeclass.ml" 197 6809 6830
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Parsetree.pattern ->
+  Ast_405.Parsetree.core_type -> Ast_405.Parsetree.pattern
+)
+ident(
+  ext_ref Ppxx.Helper.Pat.constraint_
+)
+"pre_typeclass.ml" 197 6809 6832 "pre_typeclass.ml" 197 6809 6840
+type(
+  ?loc:Ast_405.Location.t ->
+  ?attrs:Ast_405.Ast_helper.attrs -> string -> Ast_405.Parsetree.pattern
+)
+ident(
+  ext_ref Ppxx.Helper.Pat.var'
+)
+"pre_typeclass.ml" 197 6809 6841 "pre_typeclass.ml" 197 6809 6842
+type(
+  string
+)
+ident(
+  int_ref d "pre_typeclass.ml" 196 6785 6799 "pre_typeclass.ml" 196 6785 6800
+)
+"pre_typeclass.ml" 197 6809 6831 "pre_typeclass.ml" 197 6809 6843
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.pattern
+)
+"pre_typeclass.ml" 197 6809 6815 "pre_typeclass.ml" 197 6809 6843
+type(
+  Ast_405.Parsetree.core_type -> Ast_405.Parsetree.pattern
+)
+"pre_typeclass.ml" 198 6844 6850 "pre_typeclass.ml" 198 6844 6851
+type(
+  (Ast_405.Parsetree.core_type -> Ast_405.Parsetree.pattern) ->
+  Ast_405.Parsetree.core_type -> Ast_405.Parsetree.pattern
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 198 6844 6861 "pre_typeclass.ml" 198 6844 6862
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  def a "pre_typeclass.ml" 201 6979 6992 "pre_typeclass.ml" 202 7112 7173
+)
+"pre_typeclass.ml" 198 6844 6865 "pre_typeclass.ml" 198 6844 6871
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.lid ->
+  Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.constr
+)
+"pre_typeclass.ml" 198 6844 6873 "pre_typeclass.ml" 198 6844 6875
+call(
+  stack
+)
+type(
+  ?loc:Ast_405.Location.t ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 198 6844 6876 "pre_typeclass.ml" 198 6844 6877
+type(
+  (Ppxx.Compilerlib.Longident.t ->
+   Ppxx.Compilerlib.Longident.t Ast_405.Location.loc) ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 198 6844 6884 "pre_typeclass.ml" 198 6844 6885
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref m "pre_typeclass.ml" 196 6785 6805 "pre_typeclass.ml" 196 6785 6806
+)
+"pre_typeclass.ml" 198 6844 6887 "pre_typeclass.ml" 198 6844 6896
+type(
+  string
+)
+"pre_typeclass.ml" 198 6844 6878 "pre_typeclass.ml" 198 6844 6897
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 198 6844 6872 "pre_typeclass.ml" 198 6844 6898
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 199 6899 6915 "pre_typeclass.ml" 199 6899 6918
+type(
+  (string -> Ast_405.Parsetree.core_type) ->
+  string list -> Ast_405.Parsetree.core_type list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 199 6899 6924 "pre_typeclass.ml" 199 6899 6926
+type(
+  string
+)
+ident(
+  def tv "pre_typeclass.ml" 199 6899 6930 "pre_typeclass.ml" 199 6899 6956
+)
+"pre_typeclass.ml" 199 6899 6930 "pre_typeclass.ml" 199 6899 6936
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.lid ->
+  Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.constr
+)
+"pre_typeclass.ml" 199 6899 6938 "pre_typeclass.ml" 199 6899 6940
+call(
+  stack
+)
+type(
+  ?loc:Ast_405.Location.t ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 199 6899 6941 "pre_typeclass.ml" 199 6899 6942
+type(
+  (Ppxx.Compilerlib.Longident.t ->
+   Ppxx.Compilerlib.Longident.t Ast_405.Location.loc) ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 199 6899 6950 "pre_typeclass.ml" 199 6899 6952
+type(
+  string
+)
+ident(
+  int_ref tv "pre_typeclass.ml" 199 6899 6924 "pre_typeclass.ml" 199 6899 6926
+)
+"pre_typeclass.ml" 199 6899 6943 "pre_typeclass.ml" 199 6899 6952
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 199 6899 6937 "pre_typeclass.ml" 199 6899 6953
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 199 6899 6954 "pre_typeclass.ml" 199 6899 6956
+type(
+  Ast_405.Parsetree.core_type list
+)
+"pre_typeclass.ml" 199 6899 6930 "pre_typeclass.ml" 199 6899 6956
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 199 6899 6919 "pre_typeclass.ml" 199 6899 6957
+type(
+  string -> Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 199 6899 6958 "pre_typeclass.ml" 199 6899 6961
+type(
+  string list
+)
+ident(
+  int_ref tvs "pre_typeclass.ml" 196 6785 6801 "pre_typeclass.ml" 196 6785 6804
+)
+"pre_typeclass.ml" 199 6899 6914 "pre_typeclass.ml" 199 6899 6962
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type list
+)
+"pre_typeclass.ml" 198 6844 6865 "pre_typeclass.ml" 199 6899 6962
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 201 6979 6996 "pre_typeclass.ml" 201 6979 6997
+type(
+  Parsetree.core_type
+)
+ident(
+  def b "_none_" 1 0 -1 "_none_" 1 0 -1
+)
+"pre_typeclass.ml" 201 6979 7000 "pre_typeclass.ml" 201 6979 7021
+type(
+  Ppxx.Compilerlib.Location.t -> Spec.t -> Parsetree.core_type
+)
+ident(
+  ext_ref Specconv.to_core_type
+)
+"pre_typeclass.ml" 201 6979 7022 "pre_typeclass.ml" 201 6979 7035
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.none
+)
+"pre_typeclass.ml" 201 6979 7000 "pre_typeclass.ml" 201 6979 7035
+type(
+  Spec.t -> Parsetree.core_type
+)
+"pre_typeclass.ml" 201 6979 7036 "pre_typeclass.ml" 201 6979 7037
+type(
+  (Spec.t -> Parsetree.core_type) -> Spec.t -> Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 201 6979 7060 "pre_typeclass.ml" 201 6979 7066
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.lid ->
+  Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.constr
+)
+"pre_typeclass.ml" 201 6979 7068 "pre_typeclass.ml" 201 6979 7070
+call(
+  stack
+)
+type(
+  ?loc:Ast_405.Location.t ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 201 6979 7071 "pre_typeclass.ml" 201 6979 7072
+type(
+  (Ppxx.Compilerlib.Longident.t ->
+   Ppxx.Compilerlib.Longident.t Ast_405.Location.loc) ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 201 6979 7079 "pre_typeclass.ml" 201 6979 7080
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref m "pre_typeclass.ml" 196 6785 6805 "pre_typeclass.ml" 196 6785 6806
+)
+"pre_typeclass.ml" 201 6979 7082 "pre_typeclass.ml" 201 6979 7093
+type(
+  string
+)
+"pre_typeclass.ml" 201 6979 7073 "pre_typeclass.ml" 201 6979 7094
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 201 6979 7067 "pre_typeclass.ml" 201 6979 7095
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 201 6979 7096 "pre_typeclass.ml" 201 6979 7098
+type(
+  Ast_405.Parsetree.core_type list
+)
+"pre_typeclass.ml" 201 6979 7060 "pre_typeclass.ml" 201 6979 7098
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 201 6979 7101 "pre_typeclass.ml" 201 6979 7105
+type(
+  Types.type_expr option
+)
+"pre_typeclass.ml" 201 6979 7045 "pre_typeclass.ml" 201 6979 7106
+type(
+  Spec.t2
+)
+"pre_typeclass.ml" 201 6979 7044 "pre_typeclass.ml" 201 6979 7107
+type(
+  Spec.t
+)
+"pre_typeclass.ml" 201 6979 7000 "pre_typeclass.ml" 201 6979 7108
+call(
+  stack
+)
+type(
+  Parsetree.core_type
+)
+"pre_typeclass.ml" 202 7112 7138 "pre_typeclass.ml" 202 7112 7139
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref a "pre_typeclass.ml" 198 6844 6861 "pre_typeclass.ml" 198 6844 6862
+)
+"pre_typeclass.ml" 202 7112 7146 "pre_typeclass.ml" 202 7112 7147
+type(
+  Ast_405.Parsetree.core_type
+)
+ident(
+  int_ref b "pre_typeclass.ml" 201 6979 6996 "pre_typeclass.ml" 201 6979 6997
+)
+"pre_typeclass.ml" 201 6979 6992 "pre_typeclass.ml" 202 7112 7173
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 198 6844 6857 "pre_typeclass.ml" 202 7112 7173
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 197 6809 6815 "pre_typeclass.ml" 202 7112 7174
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.pattern
+)
+"pre_typeclass.ml" 207 7362 7370 "pre_typeclass.ml" 207 7362 7381
+type(
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.module_expr
+)
+ident(
+  def functor_arg "pre_typeclass.ml" 216 7721 7725 "pre_typeclass.ml" 237 8864 8869
+)
+"pre_typeclass.ml" 207 7362 7382 "pre_typeclass.ml" 207 7362 7383
+type(
+  Ast_405.Parsetree.expression
+)
+ident(
+  def d "pre_typeclass.ml" 207 7362 7386 "pre_typeclass.ml" 207 7362 7444
+)
+"pre_typeclass.ml" 207 7362 7386 "pre_typeclass.ml" 207 7362 7396
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.module_expr
+)
+ident(
+  ext_ref Ppxx.Helper.Mod.unpack
+)
+"pre_typeclass.ml" 207 7362 7438 "pre_typeclass.ml" 207 7362 7439
+type(
+  Ast_405.Parsetree.expression
+)
+ident(
+  int_ref d "pre_typeclass.ml" 207 7362 7382 "pre_typeclass.ml" 207 7362 7383
+)
+"pre_typeclass.ml" 207 7362 7386 "pre_typeclass.ml" 207 7362 7444
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.module_expr
+)
+"pre_typeclass.ml" 216 7721 7729 "pre_typeclass.ml" 216 7721 7730
+type(
+  string ->
+  Ast_405.Parsetree.expression list ->
+  string ->
+  (string * Ast_405.Parsetree.core_type) list -> Ast_405.Parsetree.expression
+)
+ident(
+  def z "pre_typeclass.ml" 226 8222 8226 "pre_typeclass.ml" 237 8864 8869
+)
+"pre_typeclass.ml" 216 7721 7731 "pre_typeclass.ml" 216 7721 7732
+type(
+  string
+)
+ident(
+  def n "pre_typeclass.ml" 216 7721 7733 "pre_typeclass.ml" 220 7908 7940
+)
+"pre_typeclass.ml" 216 7721 7733 "pre_typeclass.ml" 216 7721 7735
+type(
+  Ast_405.Parsetree.expression list
+)
+ident(
+  def ds "pre_typeclass.ml" 216 7721 7736 "pre_typeclass.ml" 220 7908 7940
+)
+"pre_typeclass.ml" 216 7721 7736 "pre_typeclass.ml" 216 7721 7737
+type(
+  string
+)
+ident(
+  def o "pre_typeclass.ml" 216 7721 7738 "pre_typeclass.ml" 220 7908 7940
+)
+"pre_typeclass.ml" 216 7721 7738 "pre_typeclass.ml" 216 7721 7740
+type(
+  (string * Ast_405.Parsetree.core_type) list
+)
+ident(
+  def ps "pre_typeclass.ml" 216 7721 7743 "pre_typeclass.ml" 220 7908 7940
+)
+"pre_typeclass.ml" 216 7721 7749 "pre_typeclass.ml" 216 7721 7751
+type(
+  Ast_405.Parsetree.expression list
+)
+ident(
+  int_ref ds "pre_typeclass.ml" 216 7721 7733 "pre_typeclass.ml" 216 7721 7735
+)
+"pre_typeclass.ml" 217 7757 7765 "pre_typeclass.ml" 217 7757 7767
+type(
+  Ast_405.Parsetree.expression list
+)
+"pre_typeclass.ml" 217 7757 7771 "pre_typeclass.ml" 217 7757 7782
+type(
+  string ->
+  string ->
+  (string * Ast_405.Parsetree.core_type) list -> Ast_405.Parsetree.expression
+)
+ident(
+  int_ref dict_module "pre_typeclass.ml" 178 5971 5977 "pre_typeclass.ml" 178 5971 5988
+)
+"pre_typeclass.ml" 217 7757 7783 "pre_typeclass.ml" 217 7757 7784
+type(
+  string
+)
+ident(
+  int_ref n "pre_typeclass.ml" 216 7721 7731 "pre_typeclass.ml" 216 7721 7732
+)
+"pre_typeclass.ml" 217 7757 7785 "pre_typeclass.ml" 217 7757 7786
+type(
+  string
+)
+ident(
+  int_ref o "pre_typeclass.ml" 216 7721 7736 "pre_typeclass.ml" 216 7721 7737
+)
+"pre_typeclass.ml" 217 7757 7787 "pre_typeclass.ml" 217 7757 7789
+type(
+  (string * Ast_405.Parsetree.core_type) list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 216 7721 7738 "pre_typeclass.ml" 216 7721 7740
+)
+"pre_typeclass.ml" 217 7757 7771 "pre_typeclass.ml" 217 7757 7789
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 218 7790 7798 "pre_typeclass.ml" 218 7790 7799
+type(
+  Ast_405.Parsetree.expression list
+)
+"pre_typeclass.ml" 219 7804 7814 "pre_typeclass.ml" 219 7804 7827
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.str ->
+  Ast_405.Parsetree.module_expr ->
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Helper.Exp.letmodule
+)
+"pre_typeclass.ml" 219 7804 7829 "pre_typeclass.ml" 219 7804 7831
+type(
+  ?loc:Ast_405.Location.t -> string -> string Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 219 7804 7832 "pre_typeclass.ml" 219 7804 7835
+type(
+  string
+)
+"pre_typeclass.ml" 219 7804 7828 "pre_typeclass.ml" 219 7804 7836
+call(
+  stack
+)
+type(
+  string Ast_405.Location.loc
+)
+"pre_typeclass.ml" 219 7804 7838 "pre_typeclass.ml" 219 7804 7847
+type(
+  (Ast_405.Parsetree.module_expr ->
+   Ast_405.Parsetree.module_expr -> Ast_405.Parsetree.module_expr) ->
+  Ast_405.Parsetree.module_expr ->
+  Ast_405.Parsetree.module_expr list -> Ast_405.Parsetree.module_expr
+)
+ident(
+  ext_ref Ppxx.Utils.List.fold_left
+)
+"pre_typeclass.ml" 219 7804 7848 "pre_typeclass.ml" 219 7804 7857
+call(
+  tail
+)
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Parsetree.module_expr ->
+  Ast_405.Parsetree.module_expr -> Ast_405.Parsetree.module_expr
+)
+ident(
+  ext_ref Ppxx.Helper.Mod.apply
+)
+"pre_typeclass.ml" 219 7804 7859 "pre_typeclass.ml" 219 7804 7868
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.lid -> Ast_405.Parsetree.module_expr
+)
+ident(
+  ext_ref Ppxx.Helper.Mod.ident
+)
+"pre_typeclass.ml" 219 7804 7870 "pre_typeclass.ml" 219 7804 7872
+call(
+  stack
+)
+type(
+  ?loc:Ast_405.Location.t ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 219 7804 7873 "pre_typeclass.ml" 219 7804 7874
+type(
+  (Ppxx.Compilerlib.Longident.t ->
+   Ppxx.Compilerlib.Longident.t Ast_405.Location.loc) ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 219 7804 7882 "pre_typeclass.ml" 219 7804 7883
+type(
+  string
+)
+ident(
+  int_ref n "pre_typeclass.ml" 216 7721 7731 "pre_typeclass.ml" 216 7721 7732
+)
+"pre_typeclass.ml" 219 7804 7875 "pre_typeclass.ml" 219 7804 7883
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 219 7804 7869 "pre_typeclass.ml" 219 7804 7884
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 219 7804 7858 "pre_typeclass.ml" 219 7804 7885
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.module_expr
+)
+"pre_typeclass.ml" 219 7804 7838 "pre_typeclass.ml" 219 7804 7885
+type(
+  Ast_405.Parsetree.module_expr list -> Ast_405.Parsetree.module_expr
+)
+"pre_typeclass.ml" 219 7804 7886 "pre_typeclass.ml" 219 7804 7887
+type(
+  (Ast_405.Parsetree.module_expr list -> Ast_405.Parsetree.module_expr) ->
+  Ast_405.Parsetree.module_expr list -> Ast_405.Parsetree.module_expr
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 219 7804 7888 "pre_typeclass.ml" 219 7804 7891
+type(
+  (Ast_405.Parsetree.expression -> Ast_405.Parsetree.module_expr) ->
+  Ast_405.Parsetree.expression list -> Ast_405.Parsetree.module_expr list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 219 7804 7892 "pre_typeclass.ml" 219 7804 7903
+type(
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.module_expr
+)
+ident(
+  int_ref functor_arg "pre_typeclass.ml" 207 7362 7370 "pre_typeclass.ml" 207 7362 7381
+)
+"pre_typeclass.ml" 219 7804 7904 "pre_typeclass.ml" 219 7804 7906
+type(
+  Ast_405.Parsetree.expression list
+)
+ident(
+  int_ref ds "pre_typeclass.ml" 216 7721 7733 "pre_typeclass.ml" 216 7721 7735
+)
+"pre_typeclass.ml" 219 7804 7888 "pre_typeclass.ml" 219 7804 7906
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.module_expr list
+)
+"pre_typeclass.ml" 219 7804 7837 "pre_typeclass.ml" 219 7804 7907
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.module_expr
+)
+"pre_typeclass.ml" 219 7804 7814 "pre_typeclass.ml" 219 7804 7907
+type(
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 220 7908 7918 "pre_typeclass.ml" 220 7908 7919
+type(
+  (Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression) ->
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 220 7908 7920 "pre_typeclass.ml" 220 7908 7931
+type(
+  string ->
+  string ->
+  (string * Ast_405.Parsetree.core_type) list -> Ast_405.Parsetree.expression
+)
+ident(
+  int_ref dict_module "pre_typeclass.ml" 178 5971 5977 "pre_typeclass.ml" 178 5971 5988
+)
+"pre_typeclass.ml" 220 7908 7932 "pre_typeclass.ml" 220 7908 7935
+type(
+  string
+)
+"pre_typeclass.ml" 220 7908 7936 "pre_typeclass.ml" 220 7908 7937
+type(
+  string
+)
+ident(
+  int_ref o "pre_typeclass.ml" 216 7721 7736 "pre_typeclass.ml" 216 7721 7737
+)
+"pre_typeclass.ml" 220 7908 7938 "pre_typeclass.ml" 220 7908 7940
+type(
+  (string * Ast_405.Parsetree.core_type) list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 216 7721 7738 "pre_typeclass.ml" 216 7721 7740
+)
+"pre_typeclass.ml" 220 7908 7920 "pre_typeclass.ml" 220 7908 7940
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 219 7804 7814 "pre_typeclass.ml" 220 7908 7940
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 216 7721 7743 "pre_typeclass.ml" 220 7908 7940
+type(
+  Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 226 8222 8230 "pre_typeclass.ml" 226 8222 8234
+type(
+  string ->
+  string ->
+  (string * Ast_405.Parsetree.core_type) list ->
+  (string list * Ppxx.Compilerlib.Longident.t) list ->
+  string list -> Ast_405.Parsetree.structure_item
+)
+ident(
+  def dict "pre_typeclass.ml" 236 8774 8863 "pre_typeclass.ml" 237 8864 8869
+)
+"pre_typeclass.ml" 226 8222 8235 "pre_typeclass.ml" 226 8222 8236
+type(
+  string
+)
+ident(
+  def f "pre_typeclass.ml" 227 8251 8264 "pre_typeclass.ml" 236 8774 8863
+)
+"pre_typeclass.ml" 227 8251 8264 "pre_typeclass.ml" 227 8251 8269
+type(
+  string
+)
+ident(
+  def p_mty "pre_typeclass.ml" 228 8307 8320 "pre_typeclass.ml" 236 8774 8863
+)
+"pre_typeclass.ml" 228 8307 8320 "pre_typeclass.ml" 228 8307 8322
+type(
+  (string * Ast_405.Parsetree.core_type) list
+)
+ident(
+  def ps "pre_typeclass.ml" 229 8354 8367 "pre_typeclass.ml" 236 8774 8863
+)
+"pre_typeclass.ml" 229 8354 8367 "pre_typeclass.ml" 229 8354 8369
+type(
+  (string list * Ppxx.Compilerlib.Longident.t) list
+)
+ident(
+  def ks "pre_typeclass.ml" 230 8388 8401 "pre_typeclass.ml" 236 8774 8863
+)
+"pre_typeclass.ml" 230 8388 8401 "pre_typeclass.ml" 230 8388 8405
+type(
+  string list
+)
+ident(
+  def vars "pre_typeclass.ml" 231 8431 8437 "pre_typeclass.ml" 236 8774 8863
+)
+"pre_typeclass.ml" 231 8431 8441 "pre_typeclass.ml" 231 8431 8443
+type(
+  string list
+)
+ident(
+  def ds "pre_typeclass.ml" 232 8492 8498 "pre_typeclass.ml" 236 8774 8863
+)
+"pre_typeclass.ml" 231 8431 8446 "pre_typeclass.ml" 231 8431 8450
+type(
+  (int -> string list * Ppxx.Compilerlib.Longident.t -> string) ->
+  (string list * Ppxx.Compilerlib.Longident.t) list -> string list
+)
+ident(
+  ext_ref Ppxx.Utils.List.mapi
+)
+"pre_typeclass.ml" 231 8431 8456 "pre_typeclass.ml" 231 8431 8457
+type(
+  int
+)
+ident(
+  def i "pre_typeclass.ml" 231 8431 8458 "pre_typeclass.ml" 231 8431 8484
+)
+"pre_typeclass.ml" 231 8431 8458 "pre_typeclass.ml" 231 8431 8459
+type(
+  string list * Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 231 8431 8463 "pre_typeclass.ml" 231 8431 8466
+type(
+  string
+)
+"pre_typeclass.ml" 231 8431 8467 "pre_typeclass.ml" 231 8431 8468
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"pre_typeclass.ml" 231 8431 8469 "pre_typeclass.ml" 231 8431 8482
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"pre_typeclass.ml" 231 8431 8483 "pre_typeclass.ml" 231 8431 8484
+type(
+  int
+)
+ident(
+  int_ref i "pre_typeclass.ml" 231 8431 8456 "pre_typeclass.ml" 231 8431 8457
+)
+"pre_typeclass.ml" 231 8431 8469 "pre_typeclass.ml" 231 8431 8484
+call(
+  stack
+)
+type(
+  string
+)
+"pre_typeclass.ml" 231 8431 8463 "pre_typeclass.ml" 231 8431 8484
+call(
+  tail
+)
+type(
+  string
+)
+"pre_typeclass.ml" 231 8431 8451 "pre_typeclass.ml" 231 8431 8485
+type(
+  int -> string list * Ppxx.Compilerlib.Longident.t -> string
+)
+"pre_typeclass.ml" 231 8431 8486 "pre_typeclass.ml" 231 8431 8488
+type(
+  (string list * Ppxx.Compilerlib.Longident.t) list
+)
+ident(
+  int_ref ks "pre_typeclass.ml" 229 8354 8367 "pre_typeclass.ml" 229 8354 8369
+)
+"pre_typeclass.ml" 231 8431 8446 "pre_typeclass.ml" 231 8431 8488
+call(
+  stack
+)
+type(
+  string list
+)
+"pre_typeclass.ml" 232 8492 8502 "pre_typeclass.ml" 232 8492 8506
+type(
+  Ast_405.Parsetree.pattern list
+)
+ident(
+  def pats "pre_typeclass.ml" 233 8557 8563 "pre_typeclass.ml" 236 8774 8863
+)
+"pre_typeclass.ml" 232 8492 8509 "pre_typeclass.ml" 232 8492 8513
+type(
+  (string ->
+   string list * Ppxx.Compilerlib.Longident.t -> Ast_405.Parsetree.pattern) ->
+  string list ->
+  (string list * Ppxx.Compilerlib.Longident.t) list ->
+  Ast_405.Parsetree.pattern list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map2
+)
+"pre_typeclass.ml" 232 8492 8519 "pre_typeclass.ml" 232 8492 8520
+type(
+  string
+)
+ident(
+  def d "pre_typeclass.ml" 232 8492 8521 "pre_typeclass.ml" 232 8492 8546
+)
+"pre_typeclass.ml" 232 8492 8522 "pre_typeclass.ml" 232 8492 8525
+type(
+  string list
+)
+ident(
+  def tvs "pre_typeclass.ml" 232 8492 8533 "pre_typeclass.ml" 232 8492 8546
+)
+"pre_typeclass.ml" 232 8492 8527 "pre_typeclass.ml" 232 8492 8528
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def m "pre_typeclass.ml" 232 8492 8533 "pre_typeclass.ml" 232 8492 8546
+)
+"pre_typeclass.ml" 232 8492 8521 "pre_typeclass.ml" 232 8492 8529
+type(
+  string list * Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 232 8492 8533 "pre_typeclass.ml" 232 8492 8538
+type(
+  string ->
+  string list -> Ppxx.Compilerlib.Longident.t -> Ast_405.Parsetree.pattern
+)
+ident(
+  int_ref param "pre_typeclass.ml" 196 6785 6793 "pre_typeclass.ml" 196 6785 6798
+)
+"pre_typeclass.ml" 232 8492 8539 "pre_typeclass.ml" 232 8492 8540
+type(
+  string
+)
+ident(
+  int_ref d "pre_typeclass.ml" 232 8492 8519 "pre_typeclass.ml" 232 8492 8520
+)
+"pre_typeclass.ml" 232 8492 8541 "pre_typeclass.ml" 232 8492 8544
+type(
+  string list
+)
+ident(
+  int_ref tvs "pre_typeclass.ml" 232 8492 8522 "pre_typeclass.ml" 232 8492 8525
+)
+"pre_typeclass.ml" 232 8492 8545 "pre_typeclass.ml" 232 8492 8546
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref m "pre_typeclass.ml" 232 8492 8527 "pre_typeclass.ml" 232 8492 8528
+)
+"pre_typeclass.ml" 232 8492 8533 "pre_typeclass.ml" 232 8492 8546
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.pattern
+)
+"pre_typeclass.ml" 232 8492 8514 "pre_typeclass.ml" 232 8492 8547
+type(
+  string ->
+  string list * Ppxx.Compilerlib.Longident.t -> Ast_405.Parsetree.pattern
+)
+"pre_typeclass.ml" 232 8492 8548 "pre_typeclass.ml" 232 8492 8550
+type(
+  string list
+)
+ident(
+  int_ref ds "pre_typeclass.ml" 231 8431 8441 "pre_typeclass.ml" 231 8431 8443
+)
+"pre_typeclass.ml" 232 8492 8551 "pre_typeclass.ml" 232 8492 8553
+type(
+  (string list * Ppxx.Compilerlib.Longident.t) list
+)
+ident(
+  int_ref ks "pre_typeclass.ml" 229 8354 8367 "pre_typeclass.ml" 229 8354 8369
+)
+"pre_typeclass.ml" 232 8492 8509 "pre_typeclass.ml" 232 8492 8553
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.pattern list
+)
+"pre_typeclass.ml" 233 8557 8567 "pre_typeclass.ml" 233 8557 8570
+type(
+  string list
+)
+ident(
+  def tvs "pre_typeclass.ml" 234 8614 8620 "pre_typeclass.ml" 236 8774 8863
+)
+"pre_typeclass.ml" 233 8557 8573 "pre_typeclass.ml" 233 8557 8579
+type(
+  string list list -> string list
+)
+ident(
+  ext_ref Ppxx.Utils.List.concat
+)
+"pre_typeclass.ml" 233 8557 8580 "pre_typeclass.ml" 233 8557 8581
+type(
+  (string list list -> string list) -> string list list -> string list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 233 8557 8582 "pre_typeclass.ml" 233 8557 8585
+type(
+  (string list * Ppxx.Compilerlib.Longident.t -> string list) ->
+  (string list * Ppxx.Compilerlib.Longident.t) list -> string list list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 233 8557 8592 "pre_typeclass.ml" 233 8557 8595
+type(
+  string list
+)
+ident(
+  def tvs "pre_typeclass.ml" 233 8557 8603 "pre_typeclass.ml" 233 8557 8606
+)
+"pre_typeclass.ml" 233 8557 8597 "pre_typeclass.ml" 233 8557 8598
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 233 8557 8591 "pre_typeclass.ml" 233 8557 8599
+type(
+  string list * Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 233 8557 8603 "pre_typeclass.ml" 233 8557 8606
+type(
+  string list
+)
+ident(
+  int_ref tvs "pre_typeclass.ml" 233 8557 8592 "pre_typeclass.ml" 233 8557 8595
+)
+"pre_typeclass.ml" 233 8557 8586 "pre_typeclass.ml" 233 8557 8607
+type(
+  string list * Ppxx.Compilerlib.Longident.t -> string list
+)
+"pre_typeclass.ml" 233 8557 8608 "pre_typeclass.ml" 233 8557 8610
+type(
+  (string list * Ppxx.Compilerlib.Longident.t) list
+)
+ident(
+  int_ref ks "pre_typeclass.ml" 229 8354 8367 "pre_typeclass.ml" 229 8354 8369
+)
+"pre_typeclass.ml" 233 8557 8582 "pre_typeclass.ml" 233 8557 8610
+call(
+  stack
+)
+type(
+  string list list
+)
+"pre_typeclass.ml" 233 8557 8573 "pre_typeclass.ml" 233 8557 8610
+call(
+  stack
+)
+type(
+  string list
+)
+"pre_typeclass.ml" 234 8614 8624 "pre_typeclass.ml" 234 8614 8625
+type(
+  Ast_405.Parsetree.expression
+)
+ident(
+  def e "pre_typeclass.ml" 235 8690 8696 "pre_typeclass.ml" 236 8774 8863
+)
+"pre_typeclass.ml" 234 8614 8628 "pre_typeclass.ml" 234 8614 8629
+type(
+  string ->
+  Ast_405.Parsetree.expression list ->
+  string ->
+  (string * Ast_405.Parsetree.core_type) list -> Ast_405.Parsetree.expression
+)
+ident(
+  int_ref z "pre_typeclass.ml" 216 7721 7729 "pre_typeclass.ml" 216 7721 7730
+)
+"pre_typeclass.ml" 234 8614 8630 "pre_typeclass.ml" 234 8614 8631
+type(
+  string
+)
+ident(
+  int_ref f "pre_typeclass.ml" 226 8222 8235 "pre_typeclass.ml" 226 8222 8236
+)
+"pre_typeclass.ml" 234 8614 8633 "pre_typeclass.ml" 234 8614 8636
+type(
+  (string -> Ast_405.Parsetree.expression) ->
+  string list -> Ast_405.Parsetree.expression list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 234 8614 8642 "pre_typeclass.ml" 234 8614 8643
+type(
+  string
+)
+ident(
+  def i "pre_typeclass.ml" 234 8614 8647 "pre_typeclass.ml" 234 8614 8672
+)
+"pre_typeclass.ml" 234 8614 8647 "pre_typeclass.ml" 234 8614 8656
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.lid -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Helper.Exp.ident
+)
+"pre_typeclass.ml" 234 8614 8658 "pre_typeclass.ml" 234 8614 8660
+call(
+  stack
+)
+type(
+  ?loc:Ast_405.Location.t ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 234 8614 8661 "pre_typeclass.ml" 234 8614 8662
+type(
+  (Ppxx.Compilerlib.Longident.t ->
+   Ppxx.Compilerlib.Longident.t Ast_405.Location.loc) ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 234 8614 8670 "pre_typeclass.ml" 234 8614 8671
+type(
+  string
+)
+ident(
+  int_ref i "pre_typeclass.ml" 234 8614 8642 "pre_typeclass.ml" 234 8614 8643
+)
+"pre_typeclass.ml" 234 8614 8663 "pre_typeclass.ml" 234 8614 8671
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 234 8614 8657 "pre_typeclass.ml" 234 8614 8672
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 234 8614 8647 "pre_typeclass.ml" 234 8614 8672
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 234 8614 8637 "pre_typeclass.ml" 234 8614 8673
+type(
+  string -> Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 234 8614 8674 "pre_typeclass.ml" 234 8614 8676
+type(
+  string list
+)
+ident(
+  int_ref ds "pre_typeclass.ml" 231 8431 8441 "pre_typeclass.ml" 231 8431 8443
+)
+"pre_typeclass.ml" 234 8614 8632 "pre_typeclass.ml" 234 8614 8677
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.expression list
+)
+"pre_typeclass.ml" 234 8614 8678 "pre_typeclass.ml" 234 8614 8683
+type(
+  string
+)
+ident(
+  int_ref p_mty "pre_typeclass.ml" 227 8251 8264 "pre_typeclass.ml" 227 8251 8269
+)
+"pre_typeclass.ml" 234 8614 8684 "pre_typeclass.ml" 234 8614 8686
+type(
+  (string * Ast_405.Parsetree.core_type) list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 228 8307 8320 "pre_typeclass.ml" 228 8307 8322
+)
+"pre_typeclass.ml" 234 8614 8628 "pre_typeclass.ml" 234 8614 8686
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 235 8690 8700 "pre_typeclass.ml" 235 8690 8701
+type(
+  Ast_405.Parsetree.expression
+)
+ident(
+  def e "_none_" 1 0 -1 "_none_" 1 0 -1
+)
+"pre_typeclass.ml" 235 8690 8704 "pre_typeclass.ml" 235 8690 8714
+type(
+  (Ast_405.Parsetree.expression ->
+   string -> Ast_405.Parsetree.pattern -> Ast_405.Parsetree.expression) ->
+  Ast_405.Parsetree.expression ->
+  string list ->
+  Ast_405.Parsetree.pattern list -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.List.fold_left2
+)
+"pre_typeclass.ml" 235 8690 8720 "pre_typeclass.ml" 235 8690 8721
+type(
+  Ast_405.Parsetree.expression
+)
+ident(
+  def e "pre_typeclass.ml" 235 8690 8722 "pre_typeclass.ml" 235 8690 8759
+)
+"pre_typeclass.ml" 235 8690 8722 "pre_typeclass.ml" 235 8690 8723
+type(
+  string
+)
+ident(
+  def d "pre_typeclass.ml" 235 8690 8724 "pre_typeclass.ml" 235 8690 8759
+)
+"pre_typeclass.ml" 235 8690 8724 "pre_typeclass.ml" 235 8690 8725
+type(
+  Ast_405.Parsetree.pattern
+)
+ident(
+  def p "pre_typeclass.ml" 235 8690 8729 "pre_typeclass.ml" 235 8690 8759
+)
+"pre_typeclass.ml" 235 8690 8729 "pre_typeclass.ml" 235 8690 8737
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Asttypes.arg_label ->
+  Ast_405.Parsetree.expression option ->
+  Ast_405.Parsetree.pattern ->
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Helper.Exp.fun_
+)
+"pre_typeclass.ml" 235 8690 8748 "pre_typeclass.ml" 235 8690 8749
+type(
+  string
+)
+ident(
+  int_ref d "pre_typeclass.ml" 235 8690 8722 "pre_typeclass.ml" 235 8690 8723
+)
+"pre_typeclass.ml" 235 8690 8738 "pre_typeclass.ml" 235 8690 8750
+type(
+  Ast_405.Asttypes.arg_label
+)
+"pre_typeclass.ml" 235 8690 8751 "pre_typeclass.ml" 235 8690 8755
+type(
+  Ast_405.Parsetree.expression option
+)
+"pre_typeclass.ml" 235 8690 8756 "pre_typeclass.ml" 235 8690 8757
+type(
+  Ast_405.Parsetree.pattern
+)
+ident(
+  int_ref p "pre_typeclass.ml" 235 8690 8724 "pre_typeclass.ml" 235 8690 8725
+)
+"pre_typeclass.ml" 235 8690 8758 "pre_typeclass.ml" 235 8690 8759
+type(
+  Ast_405.Parsetree.expression
+)
+ident(
+  int_ref e "pre_typeclass.ml" 235 8690 8720 "pre_typeclass.ml" 235 8690 8721
+)
+"pre_typeclass.ml" 235 8690 8729 "pre_typeclass.ml" 235 8690 8759
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 235 8690 8715 "pre_typeclass.ml" 235 8690 8760
+type(
+  Ast_405.Parsetree.expression ->
+  string -> Ast_405.Parsetree.pattern -> Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 235 8690 8761 "pre_typeclass.ml" 235 8690 8762
+type(
+  Ast_405.Parsetree.expression
+)
+ident(
+  int_ref e "pre_typeclass.ml" 234 8614 8624 "pre_typeclass.ml" 234 8614 8625
+)
+"pre_typeclass.ml" 235 8690 8763 "pre_typeclass.ml" 235 8690 8765
+type(
+  string list
+)
+ident(
+  int_ref ds "pre_typeclass.ml" 231 8431 8441 "pre_typeclass.ml" 231 8431 8443
+)
+"pre_typeclass.ml" 235 8690 8766 "pre_typeclass.ml" 235 8690 8770
+type(
+  Ast_405.Parsetree.pattern list
+)
+ident(
+  int_ref pats "pre_typeclass.ml" 232 8492 8502 "pre_typeclass.ml" 232 8492 8506
+)
+"pre_typeclass.ml" 235 8690 8704 "pre_typeclass.ml" 235 8690 8770
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 236 8774 8802 "pre_typeclass.ml" 236 8774 8811
+type(
+  (Ast_405.Parsetree.expression ->
+   Ast_405.Ast_helper.str -> Ast_405.Parsetree.expression) ->
+  Ast_405.Parsetree.expression ->
+  Ast_405.Ast_helper.str list -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.List.fold_left
+)
+"pre_typeclass.ml" 236 8774 8813 "pre_typeclass.ml" 236 8774 8817
+type(
+  (Ast_405.Ast_helper.str ->
+   Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression) ->
+  Ast_405.Parsetree.expression ->
+  Ast_405.Ast_helper.str -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"pre_typeclass.ml" 236 8774 8818 "pre_typeclass.ml" 236 8774 8829
+call(
+  tail
+)
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.str ->
+  Ast_405.Parsetree.expression -> Ast_405.Parsetree.expression
+)
+ident(
+  ext_ref Ppxx.Helper.Exp.newtype
+)
+"pre_typeclass.ml" 236 8774 8812 "pre_typeclass.ml" 236 8774 8830
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.expression ->
+  Ast_405.Ast_helper.str -> Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 236 8774 8831 "pre_typeclass.ml" 236 8774 8832
+type(
+  Ast_405.Parsetree.expression
+)
+ident(
+  int_ref e "pre_typeclass.ml" 235 8690 8700 "pre_typeclass.ml" 235 8690 8701
+)
+"pre_typeclass.ml" 236 8774 8834 "pre_typeclass.ml" 236 8774 8842
+type(
+  (string -> string Ast_405.Location.loc) ->
+  string list -> Ast_405.Ast_helper.str list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 236 8774 8843 "pre_typeclass.ml" 236 8774 8847
+type(
+  string -> string Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.( !@ )
+)
+"pre_typeclass.ml" 236 8774 8834 "pre_typeclass.ml" 236 8774 8847
+type(
+  string list -> Ast_405.Ast_helper.str list
+)
+"pre_typeclass.ml" 236 8774 8848 "pre_typeclass.ml" 236 8774 8849
+type(
+  (string list -> Ast_405.Ast_helper.str list) ->
+  string list -> Ast_405.Ast_helper.str list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 236 8774 8850 "pre_typeclass.ml" 236 8774 8853
+type(
+  string list
+)
+ident(
+  int_ref tvs "pre_typeclass.ml" 233 8557 8567 "pre_typeclass.ml" 233 8557 8570
+)
+"pre_typeclass.ml" 236 8774 8854 "pre_typeclass.ml" 236 8774 8855
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"pre_typeclass.ml" 236 8774 8856 "pre_typeclass.ml" 236 8774 8860
+type(
+  string list
+)
+ident(
+  int_ref vars "pre_typeclass.ml" 230 8388 8401 "pre_typeclass.ml" 230 8388 8405
+)
+"pre_typeclass.ml" 236 8774 8850 "pre_typeclass.ml" 236 8774 8860
+call(
+  stack
+)
+type(
+  string list
+)
+"pre_typeclass.ml" 236 8774 8833 "pre_typeclass.ml" 236 8774 8861
+call(
+  stack
+)
+type(
+  Ast_405.Ast_helper.str list
+)
+"pre_typeclass.ml" 236 8774 8802 "pre_typeclass.ml" 236 8774 8861
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.expression
+)
+"pre_typeclass.ml" 235 8690 8696 "pre_typeclass.ml" 236 8774 8863
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 234 8614 8620 "pre_typeclass.ml" 236 8774 8863
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 233 8557 8563 "pre_typeclass.ml" 236 8774 8863
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 232 8492 8498 "pre_typeclass.ml" 236 8774 8863
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 231 8431 8437 "pre_typeclass.ml" 236 8774 8863
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 252 9183 9189 "pre_typeclass.ml" 252 9183 9201
+type(
+  Ppxx.Compilerlib.Longident.t ->
+  Parsetree.module_binding ->
+  instance_loc:Ppxx.Compilerlib.Location.t ->
+  (string * Ast_405.Parsetree.core_type) list ->
+  string list -> Ast_405.Parsetree.structure_item
+)
+ident(
+  def gen_instance "pre_typeclass.ml" 322 12474 12485 "pre_typeclass.ml" 323 12486 12489
+)
+"pre_typeclass.ml" 252 9183 9202 "pre_typeclass.ml" 252 9183 9205
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def lid "pre_typeclass.ml" 252 9183 9206 "pre_typeclass.ml" 322 12474 12485
+)
+"pre_typeclass.ml" 252 9183 9206 "pre_typeclass.ml" 252 9183 9208
+type(
+  Parsetree.module_binding
+)
+ident(
+  def mb "pre_typeclass.ml" 252 9183 9209 "pre_typeclass.ml" 322 12474 12485
+)
+"pre_typeclass.ml" 252 9183 9210 "pre_typeclass.ml" 252 9183 9222
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def instance_loc "pre_typeclass.ml" 252 9183 9223 "pre_typeclass.ml" 322 12474 12485
+)
+"pre_typeclass.ml" 252 9183 9223 "pre_typeclass.ml" 252 9183 9225
+type(
+  (string * Ast_405.Parsetree.core_type) list
+)
+ident(
+  def ps "pre_typeclass.ml" 252 9183 9226 "pre_typeclass.ml" 322 12474 12485
+)
+"pre_typeclass.ml" 252 9183 9226 "pre_typeclass.ml" 252 9183 9230
+type(
+  string list
+)
+ident(
+  def vars "pre_typeclass.ml" 253 9233 9237 "pre_typeclass.ml" 322 12474 12485
+)
+"pre_typeclass.ml" 253 9233 9241 "pre_typeclass.ml" 253 9233 9246
+type(
+  string
+)
+ident(
+  def cname "pre_typeclass.ml" 261 9490 9494 "pre_typeclass.ml" 322 12474 12485
+)
+"pre_typeclass.ml" 253 9233 9255 "pre_typeclass.ml" 253 9233 9258
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "pre_typeclass.ml" 252 9183 9202 "pre_typeclass.ml" 252 9183 9205
+)
+"pre_typeclass.ml" 254 9275 9290 "pre_typeclass.ml" 254 9275 9295
+type(
+  string
+)
+ident(
+  def cname "pre_typeclass.ml" 254 9275 9299 "pre_typeclass.ml" 254 9275 9304
+)
+"pre_typeclass.ml" 254 9275 9283 "pre_typeclass.ml" 254 9275 9295
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 254 9275 9299 "pre_typeclass.ml" 254 9275 9304
+type(
+  string
+)
+ident(
+  int_ref cname "pre_typeclass.ml" 254 9275 9290 "pre_typeclass.ml" 254 9275 9295
+)
+"pre_typeclass.ml" 255 9305 9319 "pre_typeclass.ml" 255 9305 9320
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 255 9305 9322 "pre_typeclass.ml" 255 9305 9327
+type(
+  string
+)
+ident(
+  def cname "pre_typeclass.ml" 255 9305 9332 "pre_typeclass.ml" 255 9305 9337
+)
+"pre_typeclass.ml" 255 9305 9313 "pre_typeclass.ml" 255 9305 9328
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 255 9305 9332 "pre_typeclass.ml" 255 9305 9337
+type(
+  string
+)
+ident(
+  int_ref cname "pre_typeclass.ml" 255 9305 9322 "pre_typeclass.ml" 255 9305 9327
+)
+"pre_typeclass.ml" 256 9338 9346 "pre_typeclass.ml" 256 9338 9347
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 257 9351 9361 "pre_typeclass.ml" 257 9351 9373
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Longident.t -> unit) ->
+   Ppxx.Compilerlib.Longident.t -> string, Ppxx.Utils.Format.formatter, 
+   unit, string)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Longident.t -> unit) ->
+  Ppxx.Compilerlib.Longident.t -> string
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 257 9351 9374 "pre_typeclass.ml" 257 9351 9408
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Longident.t -> unit) ->
+   Ppxx.Compilerlib.Longident.t -> string, Ppxx.Utils.Format.formatter, 
+   unit, string)
+  format4
+)
+"pre_typeclass.ml" 258 9409 9421 "pre_typeclass.ml" 258 9409 9436
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 258 9409 9437 "pre_typeclass.ml" 258 9409 9449
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref instance_loc "pre_typeclass.ml" 252 9183 9210 "pre_typeclass.ml" 252 9183 9222
+)
+"pre_typeclass.ml" 259 9450 9462 "pre_typeclass.ml" 259 9450 9478
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Longident.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Longident.format
+)
+"pre_typeclass.ml" 259 9450 9479 "pre_typeclass.ml" 259 9450 9482
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "pre_typeclass.ml" 252 9183 9202 "pre_typeclass.ml" 252 9183 9205
+)
+"pre_typeclass.ml" 257 9351 9361 "pre_typeclass.ml" 259 9450 9482
+call(
+  stack
+)
+type(
+  string
+)
+"pre_typeclass.ml" 253 9233 9249 "pre_typeclass.ml" 259 9450 9482
+type(
+  string
+)
+"pre_typeclass.ml" 261 9490 9498 "pre_typeclass.ml" 261 9490 9503
+type(
+  string
+)
+ident(
+  def iname "pre_typeclass.ml" 262 9539 9543 "pre_typeclass.ml" 322 12474 12485
+)
+"pre_typeclass.ml" 261 9490 9506 "pre_typeclass.ml" 261 9490 9508
+type(
+  Parsetree.module_binding
+)
+ident(
+  int_ref mb "pre_typeclass.ml" 252 9183 9206 "pre_typeclass.ml" 252 9183 9208
+)
+"pre_typeclass.ml" 261 9490 9506 "pre_typeclass.ml" 261 9490 9517
+type(
+  string Asttypes.loc
+)
+"pre_typeclass.ml" 261 9490 9506 "pre_typeclass.ml" 261 9490 9521
+type(
+  string
+)
+"pre_typeclass.ml" 262 9539 9547 "pre_typeclass.ml" 262 9539 9552
+type(
+  string
+)
+ident(
+  def oname "pre_typeclass.ml" 263 9599 9603 "pre_typeclass.ml" 322 12474 12485
+)
+"pre_typeclass.ml" 262 9539 9555 "pre_typeclass.ml" 262 9539 9560
+type(
+  string
+)
+ident(
+  int_ref iname "pre_typeclass.ml" 261 9490 9498 "pre_typeclass.ml" 261 9490 9503
+)
+"pre_typeclass.ml" 262 9539 9561 "pre_typeclass.ml" 262 9539 9562
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"pre_typeclass.ml" 262 9539 9563 "pre_typeclass.ml" 262 9539 9573
+type(
+  string
+)
+"pre_typeclass.ml" 262 9539 9555 "pre_typeclass.ml" 262 9539 9573
+call(
+  stack
+)
+type(
+  string
+)
+"pre_typeclass.ml" 263 9599 9607 "pre_typeclass.ml" 263 9599 9611
+type(
+  Parsetree.structure
+)
+ident(
+  def _str "pre_typeclass.ml" 315 12039 12043 "pre_typeclass.ml" 322 12474 12485
+)
+"pre_typeclass.ml" 263 9599 9613 "pre_typeclass.ml" 263 9599 9615
+type(
+  (string list * Longident.t) list
+)
+ident(
+  def ks "pre_typeclass.ml" 315 12039 12043 "pre_typeclass.ml" 322 12474 12485
+)
+"pre_typeclass.ml" 263 9599 9607 "pre_typeclass.ml" 263 9599 9615
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 264 9618 9632 "pre_typeclass.ml" 264 9618 9639
+type(
+  Parsetree.module_expr ->
+  Parsetree.structure * (string list * Longident.t) list
+)
+ident(
+  def get_str "pre_typeclass.ml" 264 9618 9624 "pre_typeclass.ml" 313 12006 12031
+)
+"pre_typeclass.ml" 264 9618 9640 "pre_typeclass.ml" 264 9618 9642
+type(
+  Parsetree.module_expr
+)
+ident(
+  def me "pre_typeclass.ml" 264 9618 9645 "pre_typeclass.ml" 311 11955 11996
+)
+"pre_typeclass.ml" 264 9618 9651 "pre_typeclass.ml" 264 9618 9653
+type(
+  Parsetree.module_expr
+)
+ident(
+  int_ref me "pre_typeclass.ml" 264 9618 9640 "pre_typeclass.ml" 264 9618 9642
+)
+"pre_typeclass.ml" 264 9618 9651 "pre_typeclass.ml" 264 9618 9663
+type(
+  Parsetree.module_expr_desc
+)
+"pre_typeclass.ml" 265 9669 9694 "pre_typeclass.ml" 265 9669 9697
+type(
+  Parsetree.structure
+)
+ident(
+  def str "pre_typeclass.ml" 265 9669 9701 "pre_typeclass.ml" 265 9669 9708
+)
+"pre_typeclass.ml" 265 9669 9679 "pre_typeclass.ml" 265 9669 9697
+type(
+  Parsetree.module_expr_desc
+)
+"pre_typeclass.ml" 265 9669 9701 "pre_typeclass.ml" 265 9669 9704
+type(
+  Parsetree.structure
+)
+ident(
+  int_ref str "pre_typeclass.ml" 265 9669 9694 "pre_typeclass.ml" 265 9669 9697
+)
+"pre_typeclass.ml" 265 9669 9706 "pre_typeclass.ml" 265 9669 9708
+type(
+  (string list * Longident.t) list
+)
+"pre_typeclass.ml" 265 9669 9701 "pre_typeclass.ml" 265 9669 9708
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 266 9709 9736 "pre_typeclass.ml" 266 9709 9738
+type(
+  Parsetree.module_expr
+)
+ident(
+  def me "pre_typeclass.ml" 266 9709 9746 "pre_typeclass.ml" 266 9709 9756
+)
+"pre_typeclass.ml" 266 9709 9740 "pre_typeclass.ml" 266 9709 9741
+type(
+  Parsetree.module_type
+)
+"pre_typeclass.ml" 266 9709 9719 "pre_typeclass.ml" 266 9709 9742
+type(
+  Parsetree.module_expr_desc
+)
+"pre_typeclass.ml" 266 9709 9746 "pre_typeclass.ml" 266 9709 9753
+type(
+  Parsetree.module_expr ->
+  Parsetree.structure * (string list * Longident.t) list
+)
+ident(
+  int_ref get_str "pre_typeclass.ml" 264 9618 9632 "pre_typeclass.ml" 264 9618 9639
+)
+"pre_typeclass.ml" 266 9709 9754 "pre_typeclass.ml" 266 9709 9756
+type(
+  Parsetree.module_expr
+)
+ident(
+  int_ref me "pre_typeclass.ml" 266 9709 9736 "pre_typeclass.ml" 266 9709 9738
+)
+"pre_typeclass.ml" 266 9709 9746 "pre_typeclass.ml" 266 9709 9756
+call(
+  tail
+)
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 267 9757 9781 "pre_typeclass.ml" 267 9757 9782
+type(
+  string Asttypes.loc
+)
+"pre_typeclass.ml" 267 9757 9809 "pre_typeclass.ml" 267 9757 9814
+type(
+  Parsetree.attributes
+)
+ident(
+  def attrs "pre_typeclass.ml" 268 9825 9837 "pre_typeclass.ml" 307 11813 11828
+)
+"pre_typeclass.ml" 267 9757 9789 "pre_typeclass.ml" 267 9757 9816
+type(
+  Parsetree.module_type
+)
+"pre_typeclass.ml" 267 9757 9784 "pre_typeclass.ml" 267 9757 9816
+type(
+  Parsetree.module_type option
+)
+"pre_typeclass.ml" 267 9757 9818 "pre_typeclass.ml" 267 9757 9820
+type(
+  Parsetree.module_expr
+)
+ident(
+  def me "pre_typeclass.ml" 268 9825 9837 "pre_typeclass.ml" 307 11813 11828
+)
+"pre_typeclass.ml" 267 9757 9767 "pre_typeclass.ml" 267 9757 9821
+type(
+  Parsetree.module_expr_desc
+)
+"pre_typeclass.ml" 269 9849 9865 "pre_typeclass.ml" 269 9849 9875
+type(
+  (Parsetree.attribute -> Parsetree.expression option) ->
+  Parsetree.attributes -> Parsetree.expression list
+)
+ident(
+  ext_ref Ppxx.Utils.List.filter_map
+)
+"pre_typeclass.ml" 270 9886 9912 "pre_typeclass.ml" 270 9886 9923
+type(
+  string
+)
+"pre_typeclass.ml" 270 9886 9907 "pre_typeclass.ml" 270 9886 9924
+type(
+  string Asttypes.loc
+)
+"pre_typeclass.ml" 270 9886 9954 "pre_typeclass.ml" 270 9886 9955
+type(
+  Parsetree.expression
+)
+ident(
+  def e "pre_typeclass.ml" 270 9886 9965 "pre_typeclass.ml" 270 9886 9971
+)
+"pre_typeclass.ml" 270 9886 9956 "pre_typeclass.ml" 270 9886 9957
+type(
+  Parsetree.attributes
+)
+"pre_typeclass.ml" 270 9886 9943 "pre_typeclass.ml" 270 9886 9958
+type(
+  Parsetree.structure_item_desc
+)
+"pre_typeclass.ml" 270 9886 9932 "pre_typeclass.ml" 270 9886 9959
+type(
+  Parsetree.structure_item
+)
+"pre_typeclass.ml" 270 9886 9931 "pre_typeclass.ml" 270 9886 9960
+type(
+  Parsetree.structure
+)
+"pre_typeclass.ml" 270 9886 9926 "pre_typeclass.ml" 270 9886 9960
+type(
+  Parsetree.payload
+)
+"pre_typeclass.ml" 270 9886 9906 "pre_typeclass.ml" 270 9886 9961
+type(
+  Parsetree.attribute
+)
+"pre_typeclass.ml" 270 9886 9970 "pre_typeclass.ml" 270 9886 9971
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "pre_typeclass.ml" 270 9886 9954 "pre_typeclass.ml" 270 9886 9955
+)
+"pre_typeclass.ml" 270 9886 9965 "pre_typeclass.ml" 270 9886 9971
+type(
+  Parsetree.expression option
+)
+"pre_typeclass.ml" 271 9972 9998 "pre_typeclass.ml" 271 9972 10009
+type(
+  string
+)
+"pre_typeclass.ml" 271 9972 10011 "pre_typeclass.ml" 271 9972 10014
+type(
+  Location.t
+)
+ident(
+  def loc "pre_typeclass.ml" 272 10023 10045 "pre_typeclass.ml" 273 10161 10204
+)
+"pre_typeclass.ml" 271 9972 9993 "pre_typeclass.ml" 271 9972 10015
+type(
+  string Asttypes.loc
+)
+"pre_typeclass.ml" 271 9972 10017 "pre_typeclass.ml" 271 9972 10018
+type(
+  Parsetree.payload
+)
+"pre_typeclass.ml" 271 9972 9992 "pre_typeclass.ml" 271 9972 10019
+type(
+  Parsetree.attribute
+)
+"pre_typeclass.ml" 272 10023 10045 "pre_typeclass.ml" 272 10023 10057
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Parsetree.expression option,
+   Ppxx.Utils.Format.formatter, unit, Parsetree.expression option)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> Parsetree.expression option
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 272 10023 10058 "pre_typeclass.ml" 272 10023 10160
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Parsetree.expression option,
+   Ppxx.Utils.Format.formatter, unit, Parsetree.expression option)
+  format4
+)
+"pre_typeclass.ml" 273 10161 10185 "pre_typeclass.ml" 273 10161 10200
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 273 10161 10201 "pre_typeclass.ml" 273 10161 10204
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "pre_typeclass.ml" 271 9972 10011 "pre_typeclass.ml" 271 9972 10014
+)
+"pre_typeclass.ml" 272 10023 10045 "pre_typeclass.ml" 273 10161 10204
+call(
+  tail
+)
+type(
+  Parsetree.expression option
+)
+"pre_typeclass.ml" 274 10205 10225 "pre_typeclass.ml" 274 10205 10226
+type(
+  Parsetree.attribute
+)
+"pre_typeclass.ml" 274 10205 10230 "pre_typeclass.ml" 274 10205 10234
+type(
+  Parsetree.expression option
+)
+"pre_typeclass.ml" 269 9849 9876 "pre_typeclass.ml" 274 10205 10235
+type(
+  Parsetree.attribute -> Parsetree.expression option
+)
+"pre_typeclass.ml" 274 10205 10236 "pre_typeclass.ml" 274 10205 10241
+type(
+  Parsetree.attributes
+)
+ident(
+  int_ref attrs "pre_typeclass.ml" 267 9757 9809 "pre_typeclass.ml" 267 9757 9814
+)
+"pre_typeclass.ml" 269 9849 9865 "pre_typeclass.ml" 274 10205 10241
+call(
+  stack
+)
+type(
+  Parsetree.expression list
+)
+"pre_typeclass.ml" 276 10261 10277 "pre_typeclass.ml" 276 10261 10279
+type(
+  Parsetree.expression list
+)
+"pre_typeclass.ml" 276 10261 10283 "pre_typeclass.ml" 276 10261 10290
+type(
+  Parsetree.module_expr ->
+  Parsetree.structure * (string list * Longident.t) list
+)
+ident(
+  int_ref get_str "pre_typeclass.ml" 264 9618 9632 "pre_typeclass.ml" 264 9618 9639
+)
+"pre_typeclass.ml" 276 10261 10291 "pre_typeclass.ml" 276 10261 10293
+type(
+  Parsetree.module_expr
+)
+ident(
+  int_ref me "pre_typeclass.ml" 267 9757 9818 "pre_typeclass.ml" 267 9757 9820
+)
+"pre_typeclass.ml" 276 10261 10283 "pre_typeclass.ml" 276 10261 10293
+call(
+  tail
+)
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 277 10294 10311 "pre_typeclass.ml" 277 10294 10312
+type(
+  Parsetree.expression
+)
+ident(
+  def e "pre_typeclass.ml" 278 10317 10335 "pre_typeclass.ml" 303 11640 11668
+)
+"pre_typeclass.ml" 277 10294 10310 "pre_typeclass.ml" 277 10294 10313
+type(
+  Parsetree.expression list
+)
+"pre_typeclass.ml" 278 10317 10339 "pre_typeclass.ml" 278 10317 10340
+type(
+  string list * Longident.t
+)
+ident(
+  def k "pre_typeclass.ml" 302 11594 11612 "pre_typeclass.ml" 303 11640 11668
+)
+"pre_typeclass.ml" 278 10317 10349 "pre_typeclass.ml" 278 10317 10350
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "pre_typeclass.ml" 277 10294 10311 "pre_typeclass.ml" 277 10294 10312
+)
+"pre_typeclass.ml" 278 10317 10349 "pre_typeclass.ml" 278 10317 10360
+type(
+  Parsetree.expression_desc
+)
+"pre_typeclass.ml" 279 10366 10400 "pre_typeclass.ml" 279 10366 10403
+type(
+  Parsetree.expression
+)
+ident(
+  def tvs "pre_typeclass.ml" 280 10423 10447 "pre_typeclass.ml" 297 11319 11351
+)
+"pre_typeclass.ml" 279 10366 10406 "pre_typeclass.ml" 279 10366 10413
+type(
+  Asttypes.arg_label
+)
+"pre_typeclass.ml" 279 10366 10415 "pre_typeclass.ml" 279 10366 10417
+type(
+  Parsetree.expression
+)
+ident(
+  def mp "pre_typeclass.ml" 280 10423 10447 "pre_typeclass.ml" 297 11319 11351
+)
+"pre_typeclass.ml" 279 10366 10406 "pre_typeclass.ml" 279 10366 10417
+type(
+  Asttypes.arg_label * Parsetree.expression
+)
+"pre_typeclass.ml" 279 10366 10405 "pre_typeclass.ml" 279 10366 10418
+type(
+  (Asttypes.arg_label * Parsetree.expression) list
+)
+"pre_typeclass.ml" 279 10366 10388 "pre_typeclass.ml" 279 10366 10419
+type(
+  Parsetree.expression_desc
+)
+"pre_typeclass.ml" 280 10423 10451 "pre_typeclass.ml" 280 10423 10454
+type(
+  string list
+)
+ident(
+  def tvs "pre_typeclass.ml" 291 10987 11011 "pre_typeclass.ml" 297 11319 11351
+)
+"pre_typeclass.ml" 281 10457 10487 "pre_typeclass.ml" 281 10457 10494
+type(
+  Parsetree.expression -> string
+)
+ident(
+  def get_var "pre_typeclass.ml" 287 10802 10828 "pre_typeclass.ml" 289 10913 10959
+)
+"pre_typeclass.ml" 281 10457 10495 "pre_typeclass.ml" 281 10457 10497
+type(
+  Parsetree.expression
+)
+ident(
+  def tv "pre_typeclass.ml" 281 10457 10500 "pre_typeclass.ml" 285 10711 10772
+)
+"pre_typeclass.ml" 281 10457 10506 "pre_typeclass.ml" 281 10457 10508
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref tv "pre_typeclass.ml" 281 10457 10495 "pre_typeclass.ml" 281 10457 10497
+)
+"pre_typeclass.ml" 281 10457 10506 "pre_typeclass.ml" 281 10457 10518
+type(
+  Parsetree.expression_desc
+)
+"pre_typeclass.ml" 282 10524 10577 "pre_typeclass.ml" 282 10524 10578
+type(
+  string
+)
+ident(
+  def s "pre_typeclass.ml" 282 10524 10583 "pre_typeclass.ml" 282 10524 10584
+)
+"pre_typeclass.ml" 282 10524 10570 "pre_typeclass.ml" 282 10524 10578
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 282 10524 10565 "pre_typeclass.ml" 282 10524 10579
+type(
+  Ppxx.Compilerlib.Longident.t Asttypes.loc
+)
+"pre_typeclass.ml" 282 10524 10554 "pre_typeclass.ml" 282 10524 10579
+type(
+  Parsetree.expression_desc
+)
+"pre_typeclass.ml" 282 10524 10583 "pre_typeclass.ml" 282 10524 10584
+type(
+  string
+)
+ident(
+  int_ref s "pre_typeclass.ml" 282 10524 10577 "pre_typeclass.ml" 282 10524 10578
+)
+"pre_typeclass.ml" 283 10585 10615 "pre_typeclass.ml" 283 10585 10616
+type(
+  Parsetree.expression_desc
+)
+"pre_typeclass.ml" 284 10620 10652 "pre_typeclass.ml" 284 10620 10664
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> string, Ppxx.Utils.Format.formatter, 
+   unit, string)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> string
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 284 10620 10665 "pre_typeclass.ml" 284 10620 10710
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> string, Ppxx.Utils.Format.formatter, 
+   unit, string)
+  format4
+)
+"pre_typeclass.ml" 285 10711 10745 "pre_typeclass.ml" 285 10711 10760
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 285 10711 10761 "pre_typeclass.ml" 285 10711 10763
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref tv "pre_typeclass.ml" 281 10457 10495 "pre_typeclass.ml" 281 10457 10497
+)
+"pre_typeclass.ml" 285 10711 10761 "pre_typeclass.ml" 285 10711 10772
+type(
+  Ppxx.Compilerlib.Location.t
+)
+"pre_typeclass.ml" 284 10620 10652 "pre_typeclass.ml" 285 10711 10772
+call(
+  tail
+)
+type(
+  string
+)
+"pre_typeclass.ml" 281 10457 10500 "pre_typeclass.ml" 285 10711 10772
+type(
+  string
+)
+"pre_typeclass.ml" 287 10802 10834 "pre_typeclass.ml" 287 10802 10837
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref tvs "pre_typeclass.ml" 279 10366 10400 "pre_typeclass.ml" 279 10366 10403
+)
+"pre_typeclass.ml" 287 10802 10834 "pre_typeclass.ml" 287 10802 10847
+type(
+  Parsetree.expression_desc
+)
+"pre_typeclass.ml" 288 10853 10892 "pre_typeclass.ml" 288 10853 10894
+type(
+  Parsetree.expression list
+)
+ident(
+  def es "pre_typeclass.ml" 288 10853 10898 "pre_typeclass.ml" 288 10853 10912
+)
+"pre_typeclass.ml" 288 10853 10881 "pre_typeclass.ml" 288 10853 10894
+type(
+  Parsetree.expression_desc
+)
+"pre_typeclass.ml" 288 10853 10898 "pre_typeclass.ml" 288 10853 10901
+type(
+  (Parsetree.expression -> string) ->
+  Parsetree.expression list -> string list
+)
+ident(
+  ext_ref Ppxx.Utils.List.map
+)
+"pre_typeclass.ml" 288 10853 10902 "pre_typeclass.ml" 288 10853 10909
+type(
+  Parsetree.expression -> string
+)
+ident(
+  int_ref get_var "pre_typeclass.ml" 281 10457 10487 "pre_typeclass.ml" 281 10457 10494
+)
+"pre_typeclass.ml" 288 10853 10910 "pre_typeclass.ml" 288 10853 10912
+type(
+  Parsetree.expression list
+)
+ident(
+  int_ref es "pre_typeclass.ml" 288 10853 10892 "pre_typeclass.ml" 288 10853 10894
+)
+"pre_typeclass.ml" 288 10853 10898 "pre_typeclass.ml" 288 10853 10912
+call(
+  stack
+)
+type(
+  string list
+)
+"pre_typeclass.ml" 289 10913 10941 "pre_typeclass.ml" 289 10913 10942
+type(
+  Parsetree.expression_desc
+)
+"pre_typeclass.ml" 289 10913 10947 "pre_typeclass.ml" 289 10913 10954
+type(
+  Parsetree.expression -> string
+)
+ident(
+  int_ref get_var "pre_typeclass.ml" 281 10457 10487 "pre_typeclass.ml" 281 10457 10494
+)
+"pre_typeclass.ml" 289 10913 10955 "pre_typeclass.ml" 289 10913 10958
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref tvs "pre_typeclass.ml" 279 10366 10400 "pre_typeclass.ml" 279 10366 10403
+)
+"pre_typeclass.ml" 289 10913 10947 "pre_typeclass.ml" 289 10913 10958
+call(
+  stack
+)
+type(
+  string
+)
+"pre_typeclass.ml" 289 10913 10946 "pre_typeclass.ml" 289 10913 10959
+type(
+  string list
+)
+"pre_typeclass.ml" 287 10802 10828 "pre_typeclass.ml" 289 10913 10959
+type(
+  string list
+)
+"pre_typeclass.ml" 281 10457 10483 "pre_typeclass.ml" 289 10913 10959
+type(
+  string list
+)
+"pre_typeclass.ml" 291 10987 11015 "pre_typeclass.ml" 291 10987 11018
+type(
+  Longident.t
+)
+ident(
+  def lid "pre_typeclass.ml" 297 11319 11343 "pre_typeclass.ml" 297 11319 11351
+)
+"pre_typeclass.ml" 291 10987 11027 "pre_typeclass.ml" 291 10987 11029
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref mp "pre_typeclass.ml" 279 10366 10415 "pre_typeclass.ml" 279 10366 10417
+)
+"pre_typeclass.ml" 291 10987 11027 "pre_typeclass.ml" 291 10987 11039
+type(
+  Parsetree.expression_desc
+)
+"pre_typeclass.ml" 292 11045 11094 "pre_typeclass.ml" 292 11045 11097
+type(
+  Longident.t
+)
+ident(
+  def lid "pre_typeclass.ml" 292 11045 11109 "pre_typeclass.ml" 292 11045 11112
+)
+"pre_typeclass.ml" 292 11045 11089 "pre_typeclass.ml" 292 11045 11098
+type(
+  Longident.t Asttypes.loc
+)
+"pre_typeclass.ml" 292 11045 11100 "pre_typeclass.ml" 292 11045 11104
+type(
+  Parsetree.expression option
+)
+"pre_typeclass.ml" 292 11045 11073 "pre_typeclass.ml" 292 11045 11105
+type(
+  Parsetree.expression_desc
+)
+"pre_typeclass.ml" 292 11045 11109 "pre_typeclass.ml" 292 11045 11112
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "pre_typeclass.ml" 292 11045 11094 "pre_typeclass.ml" 292 11045 11097
+)
+"pre_typeclass.ml" 293 11113 11141 "pre_typeclass.ml" 293 11113 11142
+type(
+  Parsetree.expression_desc
+)
+"pre_typeclass.ml" 294 11146 11176 "pre_typeclass.ml" 294 11146 11188
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Longident.t, Ppxx.Utils.Format.formatter,
+   unit, Longident.t)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> Longident.t
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 294 11146 11189 "pre_typeclass.ml" 294 11146 11231
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Longident.t, Ppxx.Utils.Format.formatter,
+   unit, Longident.t)
+  format4
+)
+"pre_typeclass.ml" 295 11232 11264 "pre_typeclass.ml" 295 11232 11279
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 295 11232 11280 "pre_typeclass.ml" 295 11232 11282
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref mp "pre_typeclass.ml" 279 10366 10415 "pre_typeclass.ml" 279 10366 10417
+)
+"pre_typeclass.ml" 295 11232 11280 "pre_typeclass.ml" 295 11232 11291
+type(
+  Ppxx.Compilerlib.Location.t
+)
+"pre_typeclass.ml" 294 11146 11176 "pre_typeclass.ml" 295 11232 11291
+call(
+  stack
+)
+type(
+  Longident.t
+)
+"pre_typeclass.ml" 291 10987 11021 "pre_typeclass.ml" 295 11232 11291
+type(
+  Longident.t
+)
+"pre_typeclass.ml" 297 11319 11343 "pre_typeclass.ml" 297 11319 11346
+type(
+  string list
+)
+ident(
+  int_ref tvs "pre_typeclass.ml" 280 10423 10451 "pre_typeclass.ml" 280 10423 10454
+)
+"pre_typeclass.ml" 297 11319 11348 "pre_typeclass.ml" 297 11319 11351
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "pre_typeclass.ml" 291 10987 11015 "pre_typeclass.ml" 291 10987 11018
+)
+"pre_typeclass.ml" 297 11319 11343 "pre_typeclass.ml" 297 11319 11351
+type(
+  string list * Longident.t
+)
+"pre_typeclass.ml" 291 10987 11011 "pre_typeclass.ml" 297 11319 11351
+type(
+  string list * Longident.t
+)
+"pre_typeclass.ml" 280 10423 10447 "pre_typeclass.ml" 297 11319 11351
+type(
+  string list * Longident.t
+)
+"pre_typeclass.ml" 298 11352 11374 "pre_typeclass.ml" 298 11352 11375
+type(
+  Parsetree.expression_desc
+)
+"pre_typeclass.ml" 299 11380 11404 "pre_typeclass.ml" 299 11380 11416
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> string list * Longident.t,
+   Ppxx.Utils.Format.formatter, unit, string list * Longident.t)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> string list * Longident.t
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 299 11380 11417 "pre_typeclass.ml" 299 11380 11519
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> string list * Longident.t,
+   Ppxx.Utils.Format.formatter, unit, string list * Longident.t)
+  format4
+)
+"pre_typeclass.ml" 300 11520 11546 "pre_typeclass.ml" 300 11520 11561
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 300 11520 11562 "pre_typeclass.ml" 300 11520 11563
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "pre_typeclass.ml" 277 10294 10311 "pre_typeclass.ml" 277 10294 10312
+)
+"pre_typeclass.ml" 300 11520 11562 "pre_typeclass.ml" 300 11520 11572
+type(
+  Ppxx.Compilerlib.Location.t
+)
+"pre_typeclass.ml" 299 11380 11404 "pre_typeclass.ml" 300 11520 11572
+call(
+  stack
+)
+type(
+  string list * Longident.t
+)
+"pre_typeclass.ml" 278 10317 10343 "pre_typeclass.ml" 300 11520 11572
+type(
+  string list * Longident.t
+)
+"pre_typeclass.ml" 302 11594 11616 "pre_typeclass.ml" 302 11594 11619
+type(
+  Parsetree.structure
+)
+ident(
+  def str "pre_typeclass.ml" 303 11640 11658 "pre_typeclass.ml" 303 11640 11668
+)
+"pre_typeclass.ml" 302 11594 11621 "pre_typeclass.ml" 302 11594 11623
+type(
+  (string list * Longident.t) list
+)
+ident(
+  def ks "pre_typeclass.ml" 303 11640 11658 "pre_typeclass.ml" 303 11640 11668
+)
+"pre_typeclass.ml" 302 11594 11616 "pre_typeclass.ml" 302 11594 11623
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 302 11594 11626 "pre_typeclass.ml" 302 11594 11633
+type(
+  Parsetree.module_expr ->
+  Parsetree.structure * (string list * Longident.t) list
+)
+ident(
+  int_ref get_str "pre_typeclass.ml" 264 9618 9632 "pre_typeclass.ml" 264 9618 9639
+)
+"pre_typeclass.ml" 302 11594 11634 "pre_typeclass.ml" 302 11594 11636
+type(
+  Parsetree.module_expr
+)
+ident(
+  int_ref me "pre_typeclass.ml" 267 9757 9818 "pre_typeclass.ml" 267 9757 9820
+)
+"pre_typeclass.ml" 302 11594 11626 "pre_typeclass.ml" 302 11594 11636
+call(
+  stack
+)
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 303 11640 11658 "pre_typeclass.ml" 303 11640 11661
+type(
+  Parsetree.structure
+)
+ident(
+  int_ref str "pre_typeclass.ml" 302 11594 11616 "pre_typeclass.ml" 302 11594 11619
+)
+"pre_typeclass.ml" 303 11640 11663 "pre_typeclass.ml" 303 11640 11664
+type(
+  string list * Longident.t
+)
+ident(
+  int_ref k "pre_typeclass.ml" 278 10317 10339 "pre_typeclass.ml" 278 10317 10340
+)
+"pre_typeclass.ml" 303 11640 11666 "pre_typeclass.ml" 303 11640 11668
+type(
+  (string list * Longident.t) list
+)
+ident(
+  int_ref ks "pre_typeclass.ml" 302 11594 11621 "pre_typeclass.ml" 302 11594 11623
+)
+"pre_typeclass.ml" 303 11640 11663 "pre_typeclass.ml" 303 11640 11668
+type(
+  (string list * Longident.t) list
+)
+"pre_typeclass.ml" 303 11640 11658 "pre_typeclass.ml" 303 11640 11668
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 302 11594 11612 "pre_typeclass.ml" 303 11640 11668
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 278 10317 10335 "pre_typeclass.ml" 303 11640 11668
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 304 11669 11685 "pre_typeclass.ml" 304 11669 11686
+type(
+  Parsetree.expression list
+)
+"pre_typeclass.ml" 305 11690 11708 "pre_typeclass.ml" 305 11690 11720
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   Parsetree.structure * (string list * Longident.t) list,
+   Ppxx.Utils.Format.formatter, unit,
+   Parsetree.structure * (string list * Longident.t) list)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  Parsetree.structure * (string list * Longident.t) list
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 305 11690 11721 "pre_typeclass.ml" 305 11690 11764
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   Parsetree.structure * (string list * Longident.t) list,
+   Ppxx.Utils.Format.formatter, unit,
+   Parsetree.structure * (string list * Longident.t) list)
+  format4
+)
+"pre_typeclass.ml" 306 11765 11785 "pre_typeclass.ml" 306 11765 11800
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 306 11765 11801 "pre_typeclass.ml" 306 11765 11803
+type(
+  Parsetree.module_expr
+)
+ident(
+  int_ref me "pre_typeclass.ml" 267 9757 9818 "pre_typeclass.ml" 267 9757 9820
+)
+"pre_typeclass.ml" 306 11765 11801 "pre_typeclass.ml" 306 11765 11812
+type(
+  Ppxx.Compilerlib.Location.t
+)
+"pre_typeclass.ml" 305 11690 11708 "pre_typeclass.ml" 306 11765 11812
+call(
+  tail
+)
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 268 9825 9837 "pre_typeclass.ml" 307 11813 11828
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 308 11829 11853 "pre_typeclass.ml" 308 11829 11854
+type(
+  string Asttypes.loc
+)
+"pre_typeclass.ml" 308 11829 11856 "pre_typeclass.ml" 308 11829 11857
+type(
+  Parsetree.module_type option
+)
+"pre_typeclass.ml" 308 11829 11859 "pre_typeclass.ml" 308 11829 11861
+type(
+  Parsetree.module_expr
+)
+ident(
+  def me "pre_typeclass.ml" 308 11829 11866 "pre_typeclass.ml" 308 11829 11876
+)
+"pre_typeclass.ml" 308 11829 11839 "pre_typeclass.ml" 308 11829 11862
+type(
+  Parsetree.module_expr_desc
+)
+"pre_typeclass.ml" 308 11829 11866 "pre_typeclass.ml" 308 11829 11873
+type(
+  Parsetree.module_expr ->
+  Parsetree.structure * (string list * Longident.t) list
+)
+ident(
+  int_ref get_str "pre_typeclass.ml" 264 9618 9632 "pre_typeclass.ml" 264 9618 9639
+)
+"pre_typeclass.ml" 308 11829 11874 "pre_typeclass.ml" 308 11829 11876
+type(
+  Parsetree.module_expr
+)
+ident(
+  int_ref me "pre_typeclass.ml" 308 11829 11859 "pre_typeclass.ml" 308 11829 11861
+)
+"pre_typeclass.ml" 308 11829 11866 "pre_typeclass.ml" 308 11829 11876
+call(
+  tail
+)
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 309 11877 11887 "pre_typeclass.ml" 309 11877 11888
+type(
+  Parsetree.module_expr_desc
+)
+"pre_typeclass.ml" 310 11892 11904 "pre_typeclass.ml" 310 11892 11916
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   Parsetree.structure * (string list * Longident.t) list,
+   Ppxx.Utils.Format.formatter, unit,
+   Parsetree.structure * (string list * Longident.t) list)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t ->
+  Parsetree.structure * (string list * Longident.t) list
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 310 11892 11917 "pre_typeclass.ml" 310 11892 11954
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t ->
+   Parsetree.structure * (string list * Longident.t) list,
+   Ppxx.Utils.Format.formatter, unit,
+   Parsetree.structure * (string list * Longident.t) list)
+  format4
+)
+"pre_typeclass.ml" 311 11955 11969 "pre_typeclass.ml" 311 11955 11984
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 311 11955 11985 "pre_typeclass.ml" 311 11955 11987
+type(
+  Parsetree.module_expr
+)
+ident(
+  int_ref me "pre_typeclass.ml" 264 9618 9640 "pre_typeclass.ml" 264 9618 9642
+)
+"pre_typeclass.ml" 311 11955 11985 "pre_typeclass.ml" 311 11955 11996
+type(
+  Ppxx.Compilerlib.Location.t
+)
+"pre_typeclass.ml" 310 11892 11904 "pre_typeclass.ml" 311 11955 11996
+call(
+  tail
+)
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 264 9618 9645 "pre_typeclass.ml" 311 11955 11996
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 313 12006 12012 "pre_typeclass.ml" 313 12006 12019
+type(
+  Parsetree.module_expr ->
+  Parsetree.structure * (string list * Longident.t) list
+)
+ident(
+  int_ref get_str "pre_typeclass.ml" 264 9618 9632 "pre_typeclass.ml" 264 9618 9639
+)
+"pre_typeclass.ml" 313 12006 12020 "pre_typeclass.ml" 313 12006 12022
+type(
+  Parsetree.module_binding
+)
+ident(
+  int_ref mb "pre_typeclass.ml" 252 9183 9206 "pre_typeclass.ml" 252 9183 9208
+)
+"pre_typeclass.ml" 313 12006 12020 "pre_typeclass.ml" 313 12006 12031
+type(
+  Parsetree.module_expr
+)
+"pre_typeclass.ml" 313 12006 12012 "pre_typeclass.ml" 313 12006 12031
+call(
+  stack
+)
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 264 9618 9624 "pre_typeclass.ml" 313 12006 12031
+type(
+  Parsetree.structure * (string list * Longident.t) list
+)
+"pre_typeclass.ml" 315 12039 12043 "pre_typeclass.ml" 315 12039 12052
+type(
+  Ast_405.Location.t ->
+  (unit -> Ast_405.Parsetree.structure_item) ->
+  Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Helper.with_gloc
+)
+"pre_typeclass.ml" 315 12039 12053 "pre_typeclass.ml" 315 12039 12055
+type(
+  Parsetree.module_binding
+)
+ident(
+  int_ref mb "pre_typeclass.ml" 252 9183 9206 "pre_typeclass.ml" 252 9183 9208
+)
+"pre_typeclass.ml" 315 12039 12053 "pre_typeclass.ml" 315 12039 12063
+type(
+  Ast_405.Location.t
+)
+"pre_typeclass.ml" 315 12039 12043 "pre_typeclass.ml" 315 12039 12063
+type(
+  (unit -> Ast_405.Parsetree.structure_item) ->
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 315 12039 12064 "pre_typeclass.ml" 315 12039 12065
+type(
+  ((unit -> Ast_405.Parsetree.structure_item) ->
+   Ast_405.Parsetree.structure_item) ->
+  (unit -> Ast_405.Parsetree.structure_item) ->
+  Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 315 12039 12070 "pre_typeclass.ml" 315 12039 12072
+type(
+  unit
+)
+"pre_typeclass.ml" 316 12076 12084 "pre_typeclass.ml" 316 12076 12095
+call(
+  tail
+)
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  Ast_405.Parsetree.module_binding -> Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Helper.Str.module_
+)
+"pre_typeclass.ml" 316 12076 12096 "pre_typeclass.ml" 316 12076 12097
+type(
+  (Ast_405.Parsetree.module_binding -> Ast_405.Parsetree.structure_item) ->
+  Ast_405.Parsetree.module_binding -> Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 316 12076 12098 "pre_typeclass.ml" 316 12076 12103
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  ?docs:Ast_405.Docstrings.docs ->
+  ?text:Ast_405.Docstrings.text ->
+  Ast_405.Ast_helper.str ->
+  Ast_405.Parsetree.module_expr -> Ast_405.Parsetree.module_binding
+)
+ident(
+  ext_ref Ppxx.Helper.Mb.mk
+)
+"pre_typeclass.ml" 316 12076 12105 "pre_typeclass.ml" 316 12076 12107
+type(
+  ?loc:Ast_405.Location.t -> string -> string Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 316 12076 12113 "pre_typeclass.ml" 316 12076 12115
+type(
+  Parsetree.module_binding
+)
+ident(
+  int_ref mb "pre_typeclass.ml" 252 9183 9206 "pre_typeclass.ml" 252 9183 9208
+)
+"pre_typeclass.ml" 316 12076 12113 "pre_typeclass.ml" 316 12076 12124
+type(
+  string Asttypes.loc
+)
+"pre_typeclass.ml" 316 12076 12113 "pre_typeclass.ml" 316 12076 12128
+type(
+  Ast_405.Location.t
+)
+"pre_typeclass.ml" 316 12076 12129 "pre_typeclass.ml" 316 12076 12134
+type(
+  string
+)
+ident(
+  int_ref oname "pre_typeclass.ml" 262 9539 9547 "pre_typeclass.ml" 262 9539 9552
+)
+"pre_typeclass.ml" 316 12076 12104 "pre_typeclass.ml" 316 12076 12135
+call(
+  stack
+)
+type(
+  string Ast_405.Location.loc
+)
+"pre_typeclass.ml" 316 12076 12098 "pre_typeclass.ml" 316 12076 12135
+type(
+  Ast_405.Parsetree.module_expr -> Ast_405.Parsetree.module_binding
+)
+"pre_typeclass.ml" 317 12136 12144 "pre_typeclass.ml" 317 12136 12145
+type(
+  (Ast_405.Parsetree.module_expr -> Ast_405.Parsetree.module_binding) ->
+  Ast_405.Parsetree.module_expr -> Ast_405.Parsetree.module_binding
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 317 12136 12146 "pre_typeclass.ml" 317 12136 12159
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Parsetree.structure -> Ast_405.Parsetree.module_expr
+)
+ident(
+  ext_ref Ppxx.Helper.Mod.structure
+)
+"pre_typeclass.ml" 317 12136 12165 "pre_typeclass.ml" 317 12136 12167
+type(
+  Parsetree.module_binding
+)
+ident(
+  int_ref mb "pre_typeclass.ml" 252 9183 9206 "pre_typeclass.ml" 252 9183 9208
+)
+"pre_typeclass.ml" 317 12136 12165 "pre_typeclass.ml" 317 12136 12176
+type(
+  Parsetree.module_expr
+)
+"pre_typeclass.ml" 317 12136 12165 "pre_typeclass.ml" 317 12136 12185
+type(
+  Ast_405.Ast_helper.loc
+)
+"pre_typeclass.ml" 319 12255 12267 "pre_typeclass.ml" 319 12255 12276
+type(
+  string ->
+  string ->
+  (string * Ast_405.Parsetree.core_type) list ->
+  (string list * Ppxx.Compilerlib.Longident.t) list ->
+  string list -> Ast_405.Parsetree.structure_item
+)
+ident(
+  int_ref Dict.dict "pre_typeclass.ml" 226 8222 8230 "pre_typeclass.ml" 226 8222 8234
+)
+"pre_typeclass.ml" 319 12255 12277 "pre_typeclass.ml" 319 12255 12282
+type(
+  string
+)
+ident(
+  int_ref iname "pre_typeclass.ml" 261 9490 9498 "pre_typeclass.ml" 261 9490 9503
+)
+"pre_typeclass.ml" 319 12255 12283 "pre_typeclass.ml" 319 12255 12288
+type(
+  string
+)
+ident(
+  int_ref cname "pre_typeclass.ml" 253 9233 9241 "pre_typeclass.ml" 253 9233 9246
+)
+"pre_typeclass.ml" 319 12255 12289 "pre_typeclass.ml" 319 12255 12291
+type(
+  (string * Ast_405.Parsetree.core_type) list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 252 9183 9223 "pre_typeclass.ml" 252 9183 9225
+)
+"pre_typeclass.ml" 319 12255 12292 "pre_typeclass.ml" 319 12255 12294
+type(
+  (string list * Ppxx.Compilerlib.Longident.t) list
+)
+ident(
+  int_ref ks "pre_typeclass.ml" 263 9599 9613 "pre_typeclass.ml" 263 9599 9615
+)
+"pre_typeclass.ml" 319 12255 12295 "pre_typeclass.ml" 319 12255 12299
+type(
+  string list
+)
+ident(
+  int_ref vars "pre_typeclass.ml" 252 9183 9226 "pre_typeclass.ml" 252 9183 9230
+)
+"pre_typeclass.ml" 319 12255 12267 "pre_typeclass.ml" 319 12255 12299
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 320 12300 12312 "pre_typeclass.ml" 320 12300 12321
+type(
+  Ast_405.Location.t ->
+  (unit -> Ast_405.Parsetree.structure_item) ->
+  Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Helper.with_gloc
+)
+"pre_typeclass.ml" 320 12300 12322 "pre_typeclass.ml" 320 12300 12334
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref instance_loc "pre_typeclass.ml" 252 9183 9210 "pre_typeclass.ml" 252 9183 9222
+)
+"pre_typeclass.ml" 320 12300 12312 "pre_typeclass.ml" 320 12300 12334
+type(
+  (unit -> Ast_405.Parsetree.structure_item) ->
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 320 12300 12335 "pre_typeclass.ml" 320 12300 12336
+type(
+  ((unit -> Ast_405.Parsetree.structure_item) ->
+   Ast_405.Parsetree.structure_item) ->
+  (unit -> Ast_405.Parsetree.structure_item) ->
+  Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 320 12300 12341 "pre_typeclass.ml" 320 12300 12343
+type(
+  unit
+)
+"pre_typeclass.ml" 321 12347 12359 "pre_typeclass.ml" 321 12347 12368
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?rec_flag:Ast_405.Asttypes.rec_flag ->
+  Ast_405.Parsetree.type_declaration list -> Ast_405.Parsetree.structure_item
+)
+ident(
+  ext_ref Ppxx.Helper.Str.type_
+)
+"pre_typeclass.ml" 321 12347 12371 "pre_typeclass.ml" 321 12347 12378
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  ?docs:Ast_405.Docstrings.docs ->
+  ?text:Ast_405.Docstrings.text ->
+  ?params:(Ast_405.Parsetree.core_type * Ast_405.Asttypes.variance) list ->
+  ?cstrs:(Ast_405.Parsetree.core_type * Ast_405.Parsetree.core_type *
+          Ast_405.Ast_helper.loc)
+         list ->
+  ?kind:Ast_405.Parsetree.type_kind ->
+  ?priv:Ast_405.Asttypes.private_flag ->
+  ?manifest:Ast_405.Parsetree.core_type ->
+  Ast_405.Ast_helper.str -> Ast_405.Parsetree.type_declaration
+)
+ident(
+  ext_ref Ppxx.Helper.Type.mk
+)
+"pre_typeclass.ml" 321 12347 12390 "pre_typeclass.ml" 321 12347 12400
+type(
+  ?loc:Ast_405.Ast_helper.loc ->
+  ?attrs:Ast_405.Ast_helper.attrs ->
+  Ast_405.Ast_helper.lid ->
+  Ast_405.Parsetree.core_type list -> Ast_405.Parsetree.core_type
+)
+ident(
+  ext_ref Ppxx.Helper.Typ.constr
+)
+"pre_typeclass.ml" 321 12347 12402 "pre_typeclass.ml" 321 12347 12404
+call(
+  stack
+)
+type(
+  ?loc:Ast_405.Location.t ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 321 12347 12405 "pre_typeclass.ml" 321 12347 12406
+type(
+  (Ppxx.Compilerlib.Longident.t ->
+   Ppxx.Compilerlib.Longident.t Ast_405.Location.loc) ->
+  Ppxx.Compilerlib.Longident.t ->
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 321 12347 12420 "pre_typeclass.ml" 321 12347 12425
+type(
+  string
+)
+ident(
+  int_ref cname "pre_typeclass.ml" 253 9233 9241 "pre_typeclass.ml" 253 9233 9246
+)
+"pre_typeclass.ml" 321 12347 12413 "pre_typeclass.ml" 321 12347 12425
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 321 12347 12427 "pre_typeclass.ml" 321 12347 12438
+type(
+  string
+)
+"pre_typeclass.ml" 321 12347 12407 "pre_typeclass.ml" 321 12347 12439
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+"pre_typeclass.ml" 321 12347 12401 "pre_typeclass.ml" 321 12347 12440
+type(
+  Ppxx.Compilerlib.Longident.t Ast_405.Location.loc
+)
+"pre_typeclass.ml" 321 12347 12441 "pre_typeclass.ml" 321 12347 12443
+type(
+  Ast_405.Parsetree.core_type list
+)
+"pre_typeclass.ml" 321 12347 12389 "pre_typeclass.ml" 321 12347 12444
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.core_type
+)
+"pre_typeclass.ml" 321 12347 12446 "pre_typeclass.ml" 321 12347 12448
+type(
+  ?loc:Ast_405.Location.t -> string -> string Ast_405.Location.loc
+)
+ident(
+  ext_ref Ppxx.Helper.at
+)
+"pre_typeclass.ml" 321 12347 12449 "pre_typeclass.ml" 321 12347 12470
+type(
+  string
+)
+"pre_typeclass.ml" 321 12347 12445 "pre_typeclass.ml" 321 12347 12471
+call(
+  stack
+)
+type(
+  string Ast_405.Location.loc
+)
+"pre_typeclass.ml" 321 12347 12371 "pre_typeclass.ml" 321 12347 12471
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.type_declaration
+)
+"pre_typeclass.ml" 321 12347 12369 "pre_typeclass.ml" 321 12347 12473
+type(
+  Ast_405.Parsetree.type_declaration list
+)
+"pre_typeclass.ml" 321 12347 12359 "pre_typeclass.ml" 321 12347 12473
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 320 12300 12337 "pre_typeclass.ml" 321 12347 12473
+type(
+  unit -> Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 320 12300 12312 "pre_typeclass.ml" 321 12347 12473
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 318 12186 12196 "pre_typeclass.ml" 322 12474 12485
+type(
+  Ast_405.Parsetree.structure
+)
+"pre_typeclass.ml" 317 12136 12146 "pre_typeclass.ml" 322 12474 12485
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.module_expr
+)
+"pre_typeclass.ml" 316 12076 12098 "pre_typeclass.ml" 322 12474 12485
+call(
+  stack
+)
+type(
+  Ast_405.Parsetree.module_binding
+)
+"pre_typeclass.ml" 316 12076 12084 "pre_typeclass.ml" 322 12474 12485
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 315 12039 12066 "pre_typeclass.ml" 322 12474 12485
+type(
+  unit -> Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 315 12039 12043 "pre_typeclass.ml" 322 12474 12485
+call(
+  tail
+)
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 263 9599 9603 "pre_typeclass.ml" 322 12474 12485
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 262 9539 9543 "pre_typeclass.ml" 322 12474 12485
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 261 9490 9494 "pre_typeclass.ml" 322 12474 12485
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 253 9233 9237 "pre_typeclass.ml" 322 12474 12485
+type(
+  Ast_405.Parsetree.structure_item
+)
+"pre_typeclass.ml" 327 12584 12588 "pre_typeclass.ml" 327 12584 12594
+type(
+  Ast_mapper.mapper -> Ast_mapper.mapper
+)
+ident(
+  def extend "pre_typeclass.ml" 365 13964 13990 "pre_typeclass.ml" 1 0 -1
+)
+"pre_typeclass.ml" 327 12584 12595 "pre_typeclass.ml" 327 12584 12600
+type(
+  Ast_mapper.mapper
+)
+ident(
+  def super "pre_typeclass.ml" 328 12603 12605 "pre_typeclass.ml" 365 13964 13990
+)
+"pre_typeclass.ml" 328 12603 12609 "pre_typeclass.ml" 328 12603 12627
+type(
+  string Asttypes.loc * Parsetree.payload -> bool
+)
+ident(
+  def has_typeclass_attr "pre_typeclass.ml" 335 12832 12834 "pre_typeclass.ml" 365 13964 13990
+)
+"pre_typeclass.ml" 329 12639 12650 "pre_typeclass.ml" 329 12639 12661
+type(
+  string
+)
+"pre_typeclass.ml" 329 12639 12645 "pre_typeclass.ml" 329 12639 12662
+type(
+  string Asttypes.loc
+)
+"pre_typeclass.ml" 329 12639 12669 "pre_typeclass.ml" 329 12639 12671
+type(
+  Parsetree.structure
+)
+"pre_typeclass.ml" 329 12639 12664 "pre_typeclass.ml" 329 12639 12671
+type(
+  Parsetree.payload
+)
+"pre_typeclass.ml" 329 12639 12645 "pre_typeclass.ml" 329 12639 12671
+type(
+  string Asttypes.loc * Parsetree.payload
+)
+"pre_typeclass.ml" 329 12639 12675 "pre_typeclass.ml" 329 12639 12679
+type(
+  bool
+)
+"pre_typeclass.ml" 330 12680 12691 "pre_typeclass.ml" 330 12680 12702
+type(
+  string
+)
+"pre_typeclass.ml" 330 12680 12704 "pre_typeclass.ml" 330 12680 12707
+type(
+  Location.t
+)
+ident(
+  def loc "pre_typeclass.ml" 331 12715 12723 "pre_typeclass.ml" 332 12780 12809
+)
+"pre_typeclass.ml" 330 12680 12686 "pre_typeclass.ml" 330 12680 12708
+type(
+  string Asttypes.loc
+)
+"pre_typeclass.ml" 330 12680 12710 "pre_typeclass.ml" 330 12680 12711
+type(
+  Parsetree.payload
+)
+"pre_typeclass.ml" 330 12680 12686 "pre_typeclass.ml" 330 12680 12711
+type(
+  string Asttypes.loc * Parsetree.payload
+)
+"pre_typeclass.ml" 331 12715 12723 "pre_typeclass.ml" 331 12715 12735
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> bool, Ppxx.Utils.Format.formatter, 
+   unit, bool)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> bool
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 331 12715 12736 "pre_typeclass.ml" 331 12715 12779
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> bool, Ppxx.Utils.Format.formatter, 
+   unit, bool)
+  format4
+)
+"pre_typeclass.ml" 332 12780 12790 "pre_typeclass.ml" 332 12780 12805
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 332 12780 12806 "pre_typeclass.ml" 332 12780 12809
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "pre_typeclass.ml" 330 12680 12704 "pre_typeclass.ml" 330 12680 12707
+)
+"pre_typeclass.ml" 331 12715 12723 "pre_typeclass.ml" 332 12780 12809
+call(
+  tail
+)
+type(
+  bool
+)
+"pre_typeclass.ml" 333 12810 12816 "pre_typeclass.ml" 333 12810 12817
+type(
+  string Asttypes.loc * Parsetree.payload
+)
+"pre_typeclass.ml" 333 12810 12821 "pre_typeclass.ml" 333 12810 12826
+type(
+  bool
+)
+"pre_typeclass.ml" 328 12603 12630 "pre_typeclass.ml" 333 12810 12826
+type(
+  string Asttypes.loc * Parsetree.payload -> bool
+)
+"pre_typeclass.ml" 335 12832 12838 "pre_typeclass.ml" 335 12832 12847
+type(
+  Ast_mapper.mapper -> Parsetree.structure_item list -> Parsetree.structure
+)
+ident(
+  def structure "pre_typeclass.ml" 365 13964 13966 "pre_typeclass.ml" 365 13964 13990
+)
+"pre_typeclass.ml" 335 12832 12848 "pre_typeclass.ml" 335 12832 12852
+type(
+  Ast_mapper.mapper
+)
+ident(
+  def self "pre_typeclass.ml" 335 12832 12853 "pre_typeclass.ml" 363 13926 13957
+)
+"pre_typeclass.ml" 335 12832 12853 "pre_typeclass.ml" 335 12832 12859
+type(
+  Parsetree.structure_item list
+)
+ident(
+  def sitems "pre_typeclass.ml" 336 12862 12866 "pre_typeclass.ml" 363 13926 13957
+)
+"pre_typeclass.ml" 336 12862 12870 "pre_typeclass.ml" 336 12862 12876
+type(
+  Parsetree.structure_item list
+)
+ident(
+  def sitems "pre_typeclass.ml" 363 13926 13930 "pre_typeclass.ml" 363 13926 13957
+)
+"pre_typeclass.ml" 336 12862 12879 "pre_typeclass.ml" 336 12862 12883
+type(
+  ((Parsetree.structure_item -> Parsetree.structure_item list) ->
+   Parsetree.structure_item list -> Parsetree.structure_item list) ->
+  Parsetree.structure_item list ->
+  (Parsetree.structure_item -> Parsetree.structure_item list) ->
+  Parsetree.structure_item list
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"pre_typeclass.ml" 336 12862 12884 "pre_typeclass.ml" 336 12862 12894
+type(
+  (Parsetree.structure_item -> Parsetree.structure_item list) ->
+  Parsetree.structure_item list -> Parsetree.structure_item list
+)
+ident(
+  ext_ref Ppxx.Utils.List.concat_map
+)
+"pre_typeclass.ml" 336 12862 12895 "pre_typeclass.ml" 336 12862 12901
+type(
+  Parsetree.structure_item list
+)
+ident(
+  int_ref sitems "pre_typeclass.ml" 335 12832 12853 "pre_typeclass.ml" 335 12832 12859
+)
+"pre_typeclass.ml" 336 12862 12879 "pre_typeclass.ml" 336 12862 12901
+type(
+  (Parsetree.structure_item -> Parsetree.structure_item list) ->
+  Parsetree.structure_item list
+)
+"pre_typeclass.ml" 336 12862 12902 "pre_typeclass.ml" 336 12862 12903
+type(
+  ((Parsetree.structure_item -> Parsetree.structure_item list) ->
+   Parsetree.structure_item list) ->
+  (Parsetree.structure_item -> Parsetree.structure_item list) ->
+  Parsetree.structure_item list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 336 12862 12908 "pre_typeclass.ml" 336 12862 12913
+type(
+  Parsetree.structure_item
+)
+ident(
+  def sitem "pre_typeclass.ml" 337 12917 12923 "pre_typeclass.ml" 361 13898 13918
+)
+"pre_typeclass.ml" 337 12917 12929 "pre_typeclass.ml" 337 12917 12934
+type(
+  Parsetree.structure_item
+)
+ident(
+  int_ref sitem "pre_typeclass.ml" 336 12862 12908 "pre_typeclass.ml" 336 12862 12913
+)
+"pre_typeclass.ml" 337 12917 12929 "pre_typeclass.ml" 337 12917 12944
+type(
+  Parsetree.structure_item_desc
+)
+"pre_typeclass.ml" 338 12950 12971 "pre_typeclass.ml" 338 12950 12974
+type(
+  Parsetree.module_type_declaration
+)
+ident(
+  def mtd "pre_typeclass.ml" 338 12950 12980 "pre_typeclass.ml" 344 13260 13271
+)
+"pre_typeclass.ml" 338 12950 12958 "pre_typeclass.ml" 338 12950 12974
+type(
+  Parsetree.structure_item_desc
+)
+"pre_typeclass.ml" 338 12950 12980 "pre_typeclass.ml" 338 12950 12986
+type(
+  (Parsetree.attribute -> bool) -> Parsetree.attributes -> bool
+)
+ident(
+  ext_ref Ppxx.Utils.List.exists
+)
+"pre_typeclass.ml" 338 12950 12987 "pre_typeclass.ml" 338 12950 13005
+type(
+  Parsetree.attribute -> bool
+)
+ident(
+  int_ref has_typeclass_attr "pre_typeclass.ml" 328 12603 12609 "pre_typeclass.ml" 328 12603 12627
+)
+"pre_typeclass.ml" 338 12950 13006 "pre_typeclass.ml" 338 12950 13009
+type(
+  Parsetree.module_type_declaration
+)
+ident(
+  int_ref mtd "pre_typeclass.ml" 338 12950 12971 "pre_typeclass.ml" 338 12950 12974
+)
+"pre_typeclass.ml" 338 12950 13006 "pre_typeclass.ml" 338 12950 13025
+type(
+  Parsetree.attributes
+)
+"pre_typeclass.ml" 338 12950 12980 "pre_typeclass.ml" 338 12950 13025
+call(
+  stack
+)
+type(
+  bool
+)
+"pre_typeclass.ml" 341 13136 13148 "pre_typeclass.ml" 341 13136 13153
+type(
+  Parsetree.structure_item
+)
+ident(
+  int_ref sitem "pre_typeclass.ml" 336 12862 12908 "pre_typeclass.ml" 336 12862 12913
+)
+"pre_typeclass.ml" 343 13218 13230 "pre_typeclass.ml" 343 13218 13255
+type(
+  Parsetree.module_type_declaration -> Parsetree.structure_item
+)
+ident(
+  int_ref TypeClass.gen_declaration "pre_typeclass.ml" 53 1299 1301 "pre_typeclass.ml" 55 1351 1372
+)
+"pre_typeclass.ml" 343 13218 13256 "pre_typeclass.ml" 343 13218 13259
+type(
+  Parsetree.module_type_declaration
+)
+ident(
+  int_ref mtd "pre_typeclass.ml" 338 12950 12971 "pre_typeclass.ml" 338 12950 12974
+)
+"pre_typeclass.ml" 343 13218 13230 "pre_typeclass.ml" 343 13218 13259
+call(
+  stack
+)
+type(
+  Parsetree.structure_item
+)
+"pre_typeclass.ml" 341 13136 13146 "pre_typeclass.ml" 344 13260 13271
+type(
+  Parsetree.structure_item list
+)
+"pre_typeclass.ml" 345 13272 13292 "pre_typeclass.ml" 345 13272 13294
+type(
+  Parsetree.module_binding
+)
+ident(
+  def mb "pre_typeclass.ml" 347 13347 13357 "pre_typeclass.ml" 360 13884 13897
+)
+"pre_typeclass.ml" 345 13272 13280 "pre_typeclass.ml" 345 13272 13294
+type(
+  Parsetree.structure_item_desc
+)
+"pre_typeclass.ml" 348 13370 13382 "pre_typeclass.ml" 348 13370 13386
+type(
+  ((Parsetree.attribute ->
+    (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+     (string * Parsetree.core_type) list * string list)
+    option) ->
+   Parsetree.attributes ->
+   (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+    (string * Parsetree.core_type) list * string list)
+   list) ->
+  Parsetree.attributes ->
+  (Parsetree.attribute ->
+   (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+    (string * Parsetree.core_type) list * string list)
+   option) ->
+  (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+   (string * Parsetree.core_type) list * string list)
+  list
+)
+ident(
+  ext_ref Ppxx.Utils.flip
+)
+"pre_typeclass.ml" 348 13370 13387 "pre_typeclass.ml" 348 13370 13397
+type(
+  (Parsetree.attribute ->
+   (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+    (string * Parsetree.core_type) list * string list)
+   option) ->
+  Parsetree.attributes ->
+  (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+   (string * Parsetree.core_type) list * string list)
+  list
+)
+ident(
+  ext_ref Ppxx.Utils.List.filter_map
+)
+"pre_typeclass.ml" 348 13370 13398 "pre_typeclass.ml" 348 13370 13400
+type(
+  Parsetree.module_binding
+)
+ident(
+  int_ref mb "pre_typeclass.ml" 345 13272 13292 "pre_typeclass.ml" 345 13272 13294
+)
+"pre_typeclass.ml" 348 13370 13398 "pre_typeclass.ml" 348 13370 13415
+type(
+  Parsetree.attributes
+)
+"pre_typeclass.ml" 348 13370 13382 "pre_typeclass.ml" 348 13370 13415
+type(
+  (Parsetree.attribute ->
+   (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+    (string * Parsetree.core_type) list * string list)
+   option) ->
+  (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+   (string * Parsetree.core_type) list * string list)
+  list
+)
+"pre_typeclass.ml" 348 13370 13416 "pre_typeclass.ml" 348 13370 13417
+type(
+  ((Parsetree.attribute ->
+    (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+     (string * Parsetree.core_type) list * string list)
+    option) ->
+   (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+    (string * Parsetree.core_type) list * string list)
+   list) ->
+  (Parsetree.attribute ->
+   (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+    (string * Parsetree.core_type) list * string list)
+   option) ->
+  (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+   (string * Parsetree.core_type) list * string list)
+  list
+)
+ident(
+  ext_ref Ppxx.Utils.( & )
+)
+"pre_typeclass.ml" 349 13428 13450 "pre_typeclass.ml" 349 13428 13460
+type(
+  string
+)
+"pre_typeclass.ml" 349 13428 13462 "pre_typeclass.ml" 349 13428 13465
+type(
+  Location.t
+)
+ident(
+  def loc "pre_typeclass.ml" 349 13428 13480 "pre_typeclass.ml" 349 13428 13535
+)
+"pre_typeclass.ml" 349 13428 13445 "pre_typeclass.ml" 349 13428 13466
+type(
+  string Asttypes.loc
+)
+"pre_typeclass.ml" 349 13428 13468 "pre_typeclass.ml" 349 13428 13475
+type(
+  Parsetree.payload
+)
+ident(
+  def payload "pre_typeclass.ml" 349 13428 13480 "pre_typeclass.ml" 349 13428 13535
+)
+"pre_typeclass.ml" 349 13428 13444 "pre_typeclass.ml" 349 13428 13476
+type(
+  Parsetree.attribute
+)
+"pre_typeclass.ml" 349 13428 13486 "pre_typeclass.ml" 349 13428 13522
+type(
+  Ppxx.Compilerlib.Location.t ->
+  Parsetree.payload ->
+  Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+  (string * Parsetree.core_type) list * string list
+)
+ident(
+  int_ref TypeClass.parse_instance_declaration "pre_typeclass.ml" 57 1378 1380 "pre_typeclass.ml" 60 1443 1516
+)
+"pre_typeclass.ml" 349 13428 13523 "pre_typeclass.ml" 349 13428 13526
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref loc "pre_typeclass.ml" 349 13428 13462 "pre_typeclass.ml" 349 13428 13465
+)
+"pre_typeclass.ml" 349 13428 13527 "pre_typeclass.ml" 349 13428 13534
+type(
+  Parsetree.payload
+)
+ident(
+  int_ref payload "pre_typeclass.ml" 349 13428 13468 "pre_typeclass.ml" 349 13428 13475
+)
+"pre_typeclass.ml" 349 13428 13485 "pre_typeclass.ml" 349 13428 13535
+call(
+  stack
+)
+type(
+  Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+  (string * Parsetree.core_type) list * string list
+)
+"pre_typeclass.ml" 349 13428 13480 "pre_typeclass.ml" 349 13428 13535
+type(
+  (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+   (string * Parsetree.core_type) list * string list)
+  option
+)
+"pre_typeclass.ml" 350 13536 13552 "pre_typeclass.ml" 350 13536 13553
+type(
+  Parsetree.attribute
+)
+"pre_typeclass.ml" 350 13536 13557 "pre_typeclass.ml" 350 13536 13561
+type(
+  (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+   (string * Parsetree.core_type) list * string list)
+  option
+)
+"pre_typeclass.ml" 348 13370 13418 "pre_typeclass.ml" 350 13536 13561
+type(
+  Parsetree.attribute ->
+  (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+   (string * Parsetree.core_type) list * string list)
+  option
+)
+"pre_typeclass.ml" 348 13370 13382 "pre_typeclass.ml" 350 13536 13561
+call(
+  stack
+)
+type(
+  (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+   (string * Parsetree.core_type) list * string list)
+  list
+)
+"pre_typeclass.ml" 352 13577 13589 "pre_typeclass.ml" 352 13577 13591
+type(
+  (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+   (string * Parsetree.core_type) list * string list)
+  list
+)
+"pre_typeclass.ml" 352 13577 13597 "pre_typeclass.ml" 352 13577 13602
+type(
+  Parsetree.structure_item
+)
+ident(
+  int_ref sitem "pre_typeclass.ml" 336 12862 12908 "pre_typeclass.ml" 336 12862 12913
+)
+"pre_typeclass.ml" 352 13577 13595 "pre_typeclass.ml" 352 13577 13604
+type(
+  Parsetree.structure_item list
+)
+"pre_typeclass.ml" 353 13605 13620 "pre_typeclass.ml" 353 13605 13623
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  def lid "pre_typeclass.ml" 354 13654 13668 "pre_typeclass.ml" 356 13744 13759
+)
+"pre_typeclass.ml" 353 13605 13625 "pre_typeclass.ml" 353 13605 13637
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  def instance_loc "pre_typeclass.ml" 354 13654 13668 "pre_typeclass.ml" 356 13744 13759
+)
+"pre_typeclass.ml" 353 13605 13639 "pre_typeclass.ml" 353 13605 13641
+type(
+  (string * Parsetree.core_type) list
+)
+ident(
+  def ps "pre_typeclass.ml" 354 13654 13668 "pre_typeclass.ml" 356 13744 13759
+)
+"pre_typeclass.ml" 353 13605 13643 "pre_typeclass.ml" 353 13605 13647
+type(
+  string list
+)
+ident(
+  def vars "pre_typeclass.ml" 354 13654 13668 "pre_typeclass.ml" 356 13744 13759
+)
+"pre_typeclass.ml" 353 13605 13619 "pre_typeclass.ml" 353 13605 13648
+type(
+  Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+  (string * Parsetree.core_type) list * string list
+)
+"pre_typeclass.ml" 353 13605 13617 "pre_typeclass.ml" 353 13605 13650
+type(
+  (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+   (string * Parsetree.core_type) list * string list)
+  list
+)
+"pre_typeclass.ml" 354 13654 13670 "pre_typeclass.ml" 354 13654 13675
+type(
+  Parsetree.structure_item
+)
+ident(
+  int_ref sitem "pre_typeclass.ml" 336 12862 12908 "pre_typeclass.ml" 336 12862 12913
+)
+"pre_typeclass.ml" 355 13676 13692 "pre_typeclass.ml" 355 13676 13714
+type(
+  Ppxx.Compilerlib.Longident.t ->
+  Parsetree.module_binding ->
+  instance_loc:Ppxx.Compilerlib.Location.t ->
+  (string * Parsetree.core_type) list ->
+  string list -> Parsetree.structure_item
+)
+ident(
+  int_ref TypeClass.gen_instance "pre_typeclass.ml" 62 1518 1520 "pre_typeclass.ml" 68 1661 1682
+)
+"pre_typeclass.ml" 355 13676 13715 "pre_typeclass.ml" 355 13676 13718
+type(
+  Ppxx.Compilerlib.Longident.t
+)
+ident(
+  int_ref lid "pre_typeclass.ml" 353 13605 13620 "pre_typeclass.ml" 353 13605 13623
+)
+"pre_typeclass.ml" 355 13676 13719 "pre_typeclass.ml" 355 13676 13721
+type(
+  Parsetree.module_binding
+)
+ident(
+  int_ref mb "pre_typeclass.ml" 345 13272 13292 "pre_typeclass.ml" 345 13272 13294
+)
+"pre_typeclass.ml" 355 13676 13723 "pre_typeclass.ml" 355 13676 13735
+type(
+  Ppxx.Compilerlib.Location.t
+)
+ident(
+  int_ref instance_loc "pre_typeclass.ml" 353 13605 13625 "pre_typeclass.ml" 353 13605 13637
+)
+"pre_typeclass.ml" 355 13676 13736 "pre_typeclass.ml" 355 13676 13738
+type(
+  (string * Parsetree.core_type) list
+)
+ident(
+  int_ref ps "pre_typeclass.ml" 353 13605 13639 "pre_typeclass.ml" 353 13605 13641
+)
+"pre_typeclass.ml" 355 13676 13739 "pre_typeclass.ml" 355 13676 13743
+type(
+  string list
+)
+ident(
+  int_ref vars "pre_typeclass.ml" 353 13605 13643 "pre_typeclass.ml" 353 13605 13647
+)
+"pre_typeclass.ml" 355 13676 13692 "pre_typeclass.ml" 355 13676 13743
+call(
+  stack
+)
+type(
+  Parsetree.structure_item
+)
+"pre_typeclass.ml" 354 13654 13668 "pre_typeclass.ml" 356 13744 13759
+type(
+  Parsetree.structure_item list
+)
+"pre_typeclass.ml" 357 13760 13772 "pre_typeclass.ml" 357 13760 13773
+type(
+  (Ppxx.Compilerlib.Longident.t * Ppxx.Compilerlib.Location.t *
+   (string * Parsetree.core_type) list * string list)
+  list
+)
+"pre_typeclass.ml" 358 13778 13792 "pre_typeclass.ml" 358 13778 13804
+type(
+  ?loc:Ppxx.Compilerlib.Location.t ->
+  ?sub:Ppxx.Compilerlib.Location.error list ->
+  ?if_highlight:string ->
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Parsetree.structure_item list,
+   Ppxx.Utils.Format.formatter, unit, Parsetree.structure_item list)
+  format4 ->
+  (Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+  Ppxx.Compilerlib.Location.t -> Parsetree.structure_item list
+)
+ident(
+  ext_ref Ppxx.Compilerlib.raise_errorf
+)
+"pre_typeclass.ml" 358 13778 13805 "pre_typeclass.ml" 358 13778 13840
+type(
+  ((Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit) ->
+   Ppxx.Compilerlib.Location.t -> Parsetree.structure_item list,
+   Ppxx.Utils.Format.formatter, unit, Parsetree.structure_item list)
+  format4
+)
+"pre_typeclass.ml" 359 13841 13857 "pre_typeclass.ml" 359 13841 13872
+type(
+  Ppxx.Utils.Format.formatter -> Ppxx.Compilerlib.Location.t -> unit
+)
+ident(
+  ext_ref Ppxx.Compilerlib.Location.format
+)
+"pre_typeclass.ml" 359 13841 13873 "pre_typeclass.ml" 359 13841 13875
+type(
+  Parsetree.module_binding
+)
+ident(
+  int_ref mb "pre_typeclass.ml" 345 13272 13292 "pre_typeclass.ml" 345 13272 13294
+)
+"pre_typeclass.ml" 359 13841 13873 "pre_typeclass.ml" 359 13841 13883
+type(
+  Ppxx.Compilerlib.Location.t
+)
+"pre_typeclass.ml" 358 13778 13792 "pre_typeclass.ml" 359 13841 13883
+call(
+  tail
+)
+type(
+  Parsetree.structure_item list
+)
+"pre_typeclass.ml" 347 13347 13357 "pre_typeclass.ml" 360 13884 13897
+type(
+  Parsetree.structure_item list
+)
+"pre_typeclass.ml" 361 13898 13906 "pre_typeclass.ml" 361 13898 13907
+type(
+  Parsetree.structure_item_desc
+)
+"pre_typeclass.ml" 361 13898 13912 "pre_typeclass.ml" 361 13898 13917
+type(
+  Parsetree.structure_item
+)
+ident(
+  int_ref sitem "pre_typeclass.ml" 336 12862 12908 "pre_typeclass.ml" 336 12862 12913
+)
+"pre_typeclass.ml" 361 13898 13911 "pre_typeclass.ml" 361 13898 13918
+type(
+  Parsetree.structure_item list
+)
+"pre_typeclass.ml" 337 12917 12923 "pre_typeclass.ml" 361 13898 13918
+type(
+  Parsetree.structure_item list
+)
+"pre_typeclass.ml" 336 12862 12904 "pre_typeclass.ml" 361 13898 13918
+type(
+  Parsetree.structure_item -> Parsetree.structure_item list
+)
+"pre_typeclass.ml" 336 12862 12879 "pre_typeclass.ml" 361 13898 13918
+call(
+  stack
+)
+type(
+  Parsetree.structure_item list
+)
+"pre_typeclass.ml" 363 13926 13930 "pre_typeclass.ml" 363 13926 13935
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref super "pre_typeclass.ml" 327 12584 12595 "pre_typeclass.ml" 327 12584 12600
+)
+"pre_typeclass.ml" 363 13926 13930 "pre_typeclass.ml" 363 13926 13945
+type(
+  Ast_mapper.mapper -> Parsetree.structure -> Parsetree.structure
+)
+"pre_typeclass.ml" 363 13926 13946 "pre_typeclass.ml" 363 13926 13950
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref self "pre_typeclass.ml" 335 12832 12848 "pre_typeclass.ml" 335 12832 12852
+)
+"pre_typeclass.ml" 363 13926 13951 "pre_typeclass.ml" 363 13926 13957
+type(
+  Parsetree.structure
+)
+ident(
+  int_ref sitems "pre_typeclass.ml" 336 12862 12870 "pre_typeclass.ml" 336 12862 12876
+)
+"pre_typeclass.ml" 363 13926 13930 "pre_typeclass.ml" 363 13926 13957
+call(
+  tail
+)
+type(
+  Parsetree.structure
+)
+"pre_typeclass.ml" 336 12862 12866 "pre_typeclass.ml" 363 13926 13957
+type(
+  Parsetree.structure
+)
+"pre_typeclass.ml" 365 13964 13968 "pre_typeclass.ml" 365 13964 13973
+type(
+  Ast_mapper.mapper
+)
+ident(
+  int_ref super "pre_typeclass.ml" 327 12584 12595 "pre_typeclass.ml" 327 12584 12600
+)
+"pre_typeclass.ml" 365 13964 13979 "pre_typeclass.ml" 365 13964 13988
+type(
+  Ast_mapper.mapper -> Parsetree.structure -> Parsetree.structure
+)
+ident(
+  int_ref structure "pre_typeclass.ml" 335 12832 12838 "pre_typeclass.ml" 335 12832 12847
+)
+"pre_typeclass.ml" 365 13964 13966 "pre_typeclass.ml" 365 13964 13990
+type(
+  Ast_mapper.mapper
+)
+"pre_typeclass.ml" 335 12832 12834 "pre_typeclass.ml" 365 13964 13990
+type(
+  Ast_mapper.mapper
+)
+"pre_typeclass.ml" 328 12603 12605 "pre_typeclass.ml" 365 13964 13990
+type(
+  Ast_mapper.mapper
+)
